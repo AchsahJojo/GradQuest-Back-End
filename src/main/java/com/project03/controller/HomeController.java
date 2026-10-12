@@ -14,7 +14,7 @@ public class HomeController {
         <body style="font-family: sans-serif;">
           <h1>Project 3 Back-End</h1>
           <p><a href="/oauth2/authorization/github">Login with GitHub</a></p>
-          <p><a href="/oauth2/authorization/google">Login with Google</a></p>
+          <p><a href="/oauth2/authorization/discord">Login with Discord</a></p>
           <p>Check auth status: <a href="/api/me">/api/me</a></p>
         </body>
       </html>

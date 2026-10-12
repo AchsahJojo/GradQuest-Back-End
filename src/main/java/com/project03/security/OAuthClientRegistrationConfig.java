@@ -7,7 +7,6 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.core.env.Environment;
 import org.springframework.core.env.Profiles;
-import org.springframework.security.config.oauth2.client.CommonOAuth2Provider;
 import org.springframework.security.oauth2.client.registration.ClientRegistration;
 import org.springframework.security.oauth2.client.registration.ClientRegistrationRepository;
 import org.springframework.security.oauth2.client.registration.InMemoryClientRegistrationRepository;
@@ -18,7 +17,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Registers OAuth providers (GitHub required; Google/Discord optional).
+ * Registers OAuth providers (GitHub required; Discord optional).
  *
  * Uses environment variables on Heroku:
  *  - GITHUB_CLIENT_ID / GITHUB_CLIENT_SECRET
@@ -43,13 +42,6 @@ public class OAuthClientRegistrationConfig {
 
   @Value("${github.client-secret:}")
   private String githubClientSecretProp;
-
-  // Google (optional)
-  @Value("${google.client-id:}")
-  private String googleClientIdProp;
-
-  @Value("${google.client-secret:}")
-  private String googleClientSecretProp;
 
   // Discord (optional)
   @Value("${discord.client-id:}")
@@ -120,22 +112,6 @@ public class OAuthClientRegistrationConfig {
 
     List<ClientRegistration> regs = new ArrayList<>();
     regs.add(github);
-
-    // ---- Google (optional) ----
-    String gClientId = firstNonBlank(googleClientIdProp, System.getenv("GOOGLE_CLIENT_ID"));
-    String gClientSecret = firstNonBlank(googleClientSecretProp, System.getenv("GOOGLE_CLIENT_SECRET"));
-
-    if (!gClientId.isBlank() && !gClientSecret.isBlank()) {
-      String googleRedirect = base + "/login/oauth2/code/google";
-      ClientRegistration google = CommonOAuth2Provider.GOOGLE.getBuilder("google")
-          .clientId(gClientId)
-          .clientSecret(gClientSecret)
-          .redirectUri(googleRedirect)
-          .build();
-      regs.add(google);
-    } else {
-      log.info("Google OAuth credentials not set; Google login will be unavailable.");
-    }
 
     // ---- Discord (optional) ----
     String dClientId = firstNonBlank(discordClientIdProp, System.getenv("DISCORD_CLIENT_ID"));

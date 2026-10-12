@@ -57,13 +57,10 @@ public class MeController {
       String ghAvatar = (String) attrs.get("avatar_url");
       String ghName = (String) attrs.get("name");
 
-      // Google OIDC fields
-      String ggEmail = (String) attrs.get("email");
-      String ggName = (String) attrs.get("name");
-      String ggPicture = (String) attrs.get("picture");
+      // GitHub and Discord both use "email"
+      String attrEmail = (String) attrs.get("email");
 
       // Discord fields
-      String dcEmail = (String) attrs.get("email"); // Discord also uses "email"
       String dcUsername = (String) attrs.get("username");
       String dcGlobalName = (String) attrs.get("global_name");
       String dcAvatarHash = (String) attrs.get("avatar");
@@ -77,21 +74,17 @@ public class MeController {
       // normalized
       String login =
           ghLogin != null ? ghLogin
-          : (ggEmail != null ? ggEmail
-          : (dcEmail != null ? dcEmail
-          : dcUsername));
+          : (attrEmail != null ? attrEmail
+          : dcUsername);
 
       String name =
           ghName != null ? ghName
-          : (ggName != null ? ggName
-          : (dcGlobalName != null ? dcGlobalName : dcUsername));
+          : (dcGlobalName != null ? dcGlobalName : dcUsername);
 
       String avatar =
-          ghAvatar != null ? ghAvatar
-          : (ggPicture != null ? ggPicture : dcAvatar);
+          ghAvatar != null ? ghAvatar : dcAvatar;
 
-      String email =
-          ggEmail != null ? ggEmail : dcEmail;
+      String email = attrEmail;
 
       out.put("login", login);
       out.put("name", name);
@@ -113,13 +106,10 @@ public class MeController {
     String ghAvatar = (String) attrs.get("avatar_url");
     String ghName = (String) attrs.get("name");
 
-    // Google OIDC fields
-    String ggEmail = (String) attrs.get("email");
-    String ggName = (String) attrs.get("name");
-    String ggPicture = (String) attrs.get("picture");
+    // GitHub and Discord both use "email"
+    String attrEmail = (String) attrs.get("email");
 
     // Discord fields
-    String dcEmail = (String) attrs.get("email"); // same key name
     String dcUsername = (String) attrs.get("username");
     String dcGlobalName = (String) attrs.get("global_name");
     String dcAvatarHash = (String) attrs.get("avatar");
@@ -133,24 +123,20 @@ public class MeController {
     // normalized (use database values as primary, fallback to OAuth attributes)
     String login =
         ghLogin != null ? ghLogin
-        : (ggEmail != null ? ggEmail
-        : (user.getEmail() != null ? user.getEmail()
-        : (dcEmail != null ? dcEmail : dcUsername)));
+        : (attrEmail != null ? attrEmail
+        : (user.getEmail() != null ? user.getEmail() : dcUsername));
 
     String name =
         user.getName() != null ? user.getName()
         : (ghName != null ? ghName
-        : (ggName != null ? ggName
-        : (dcGlobalName != null ? dcGlobalName : dcUsername)));
+        : (dcGlobalName != null ? dcGlobalName : dcUsername));
 
     String email =
-        user.getEmail() != null ? user.getEmail()
-        : (ggEmail != null ? ggEmail : dcEmail);
+        user.getEmail() != null ? user.getEmail() : attrEmail;
 
     String avatar =
         user.getAvatarUrl() != null ? user.getAvatarUrl()
-        : (ghAvatar != null ? ghAvatar
-        : (ggPicture != null ? ggPicture : dcAvatar));
+        : (ghAvatar != null ? ghAvatar : dcAvatar);
 
     out.put("login", login);
     out.put("name", name);

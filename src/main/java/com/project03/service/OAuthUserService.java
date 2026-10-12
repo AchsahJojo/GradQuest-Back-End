@@ -29,14 +29,14 @@ public class OAuthUserService {
      * This method extracts OAuth provider information and creates/updates the User record.
      *
      * @param oauth2User     The OAuth2User from Spring Security
-     * @param registrationId The OAuth registration ID ("github", "google", or "discord")
+     * @param registrationId The OAuth registration ID ("github" or "discord")
      * @return The User entity (existing or newly created)
      */
     @Transactional
     public User getOrCreateUser(OAuth2User oauth2User, String registrationId) {
         Map<String, Object> attrs = oauth2User.getAttributes();
 
-        String oauthProvider = registrationId.toLowerCase(); // "github", "google", "discord"
+        String oauthProvider = registrationId.toLowerCase(); // "github", "discord"
         String oauthProviderId;
         String email;
         String name;
@@ -64,12 +64,6 @@ public class OAuthUserService {
             }
 
             avatarUrl = (String) attrs.get("avatar_url");
-        } else if ("google".equals(oauthProvider)) {
-            // Google OIDC attributes
-            oauthProviderId = (String) attrs.get("sub");
-            email = (String) attrs.get("email");
-            name = (String) attrs.get("name");
-            avatarUrl = (String) attrs.get("picture");
         } else if ("discord".equals(oauthProvider)) {
             // Discord attributes from /users/@me
             Object idObj = attrs.get("id");
@@ -208,11 +202,6 @@ public class OAuthUserService {
         // Check for GitHub-specific attributes
         if (attrs.containsKey("login") || attrs.containsKey("avatar_url")) {
             return "github";
-        }
-
-        // Check for Google-specific attributes
-        if (attrs.containsKey("sub") || attrs.containsKey("picture")) {
-            return "google";
         }
 
         // Check for Discord-specific attributes
