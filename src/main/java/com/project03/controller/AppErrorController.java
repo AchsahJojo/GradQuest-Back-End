@@ -26,12 +26,7 @@ public class AppErrorController implements ErrorController {
     String state = request.getParameter("state");
 
     if (StringUtils.hasText(code) && StringUtils.hasText(state)) {
-      // Basic provider guess:
-      // Google commonly includes "scope=openid", GitHub typically doesn't.
-      String scope = request.getParameter("scope");
-      String provider = (scope != null && scope.toLowerCase().contains("openid")) ? "google" : "github";
-
-      String forwardPath = "/login/oauth2/code/" + provider;
+      String forwardPath = "/login/oauth2/code/github";
 
       // Forward keeps session + saved authorization request intact (key fix).
       RequestDispatcher dispatcher = request.getRequestDispatcher(forwardPath);

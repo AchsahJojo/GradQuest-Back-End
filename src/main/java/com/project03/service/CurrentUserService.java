@@ -33,7 +33,7 @@ public class CurrentUserService {
         OAuth2User principal = token.getPrincipal();
         String provider = token.getAuthorizedClientRegistrationId().toLowerCase();
 
-        Object idAttr = "google".equals(provider) ? principal.getAttribute("sub") : principal.getAttribute("id");
+        Object idAttr = principal.getAttribute("id");
         if (idAttr != null) {
             Optional<User> existing =
                 userRepository.findByOauthProviderAndOauthProviderId(provider, String.valueOf(idAttr));
