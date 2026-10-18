@@ -39,7 +39,8 @@ CREATE TABLE IF NOT EXISTS public.schools (
     international_cost   numeric(12, 2),
     program_page_url     text,
     source_url           text,
-    last_verified        date
+    last_verified        date,
+    sop_required         boolean
 );
 
 CREATE TABLE IF NOT EXISTS public.program_terms (

@@ -96,6 +96,10 @@ public class School {
     @Column(name = "last_verified")
     private LocalDate lastVerified;
 
+    /** True, false, or null when the public catalog did not say. */
+    @Column(name = "sop_required")
+    private Boolean sopRequired;
+
     @OneToMany(mappedBy = "school", fetch = FetchType.LAZY)
     private List<ProgramTerm> terms = new ArrayList<>();
 
@@ -309,6 +313,14 @@ public class School {
 
     public void setLastVerified(LocalDate lastVerified) {
         this.lastVerified = lastVerified;
+    }
+
+    public Boolean getSopRequired() {
+        return sopRequired;
+    }
+
+    public void setSopRequired(Boolean sopRequired) {
+        this.sopRequired = sopRequired;
     }
 
     public List<ProgramTerm> getTerms() {

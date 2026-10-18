@@ -1,0 +1,34 @@
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  "name": "gradquest-sop",
+  "main": "src/index.ts",
+  "compatibility_date": "2026-10-18",
+  "compatibility_flags": ["nodejs_compat"],
+  "observability": {
+    "enabled": true,
+    "logs": { "enabled": true, "head_sampling_rate": 1 },
+    "traces": { "enabled": true, "head_sampling_rate": 1 }
+  },
+  "secrets": {
+    "required": ["SOP_PROXY_SECRET"]
+  },
+  "ai": { "binding": "AI" },
+  "browser": { "binding": "BROWSER" },
+  "vectorize": [
+    { "binding": "VECTORIZE", "index_name": "gradquest-sop-resume" }
+  ],
+  "r2_buckets": [
+    { "binding": "RESUMES", "bucket_name": "gradquest-sop" }
+  ],
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "gradquest-sop",
+      "migrations_dir": "migrations"
+    }
+  ],
+  "durable_objects": {
+    "bindings": [{ "name": "SopAgent", "class_name": "SopAgent" }]
+  },
+  "migrations": [{ "tag": "v1", "new_sqlite_classes": ["SopAgent"] }]
+}

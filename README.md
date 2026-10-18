@@ -124,6 +124,11 @@ spring.profiles.active=prod
 - `PUT /api/applications/{applicationId}` - Update an application
 - `DELETE /api/applications/{applicationId}` - Delete an application
 
+### Statement draft (Track B)
+- `POST /api/sop/programs` — session auth; body `{ "schoolId" }`. Resolves an allowlisted public URL on the server.
+- `POST /api/sop/resume` — JSON `{ "schoolId", "text" }` or multipart `schoolId` + `file`.
+- `POST /api/sop/draft` — body `{ "schoolId", "mode": "opening" | "motivation", "pastedPrompt" }`. Returns one paragraph labeled as a draft outline.
+
 ### Reminder Endpoints
 - `GET /api/reminders` - Get all reminders
 - `GET /api/reminders/{reminderId}` - Get reminder by ID
