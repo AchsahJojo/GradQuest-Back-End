@@ -1,8 +1,10 @@
 package com.project03.controller;
 
+import com.project03.model.ProgramTerm;
 import com.project03.model.Reminder;
 import com.project03.model.School;
 import com.project03.model.User;
+import com.project03.repository.ProgramTermRepository;
 import com.project03.repository.ReminderRepository;
 import com.project03.repository.SchoolRepository;
 import com.project03.service.CurrentUserService;
@@ -10,13 +12,17 @@ import org.springframework.security.core.Authentication;
 import org.springframework.http.ResponseEntity;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.transaction.annotation.Transactional;
 import org.springframework.web.bind.annotation.*;
 
 import java.time.LocalDate;
 import java.time.format.DateTimeParseException;
+import java.util.Comparator;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.Objects;
+import java.util.stream.Stream;
 
 /**
  * Controller for managing deadline reminders for applications
@@ -30,13 +36,16 @@ public class ReminderController {
     private final ReminderRepository reminderRepo;
     private final CurrentUserService currentUser;
     private final SchoolRepository schoolRepo;
+    private final ProgramTermRepository termRepo;
 
     public ReminderController(ReminderRepository reminderRepo,
                              CurrentUserService currentUser,
-                             SchoolRepository schoolRepo) {
+                             SchoolRepository schoolRepo,
+                             ProgramTermRepository termRepo) {
         this.reminderRepo = reminderRepo;
         this.currentUser = currentUser;
         this.schoolRepo = schoolRepo;
+        this.termRepo = termRepo;
     }
 
     /**
@@ -47,6 +56,7 @@ public class ReminderController {
      * Creates a reminder 1 week before the school's application deadline
      */
     @PostMapping
+    @Transactional
     public ResponseEntity<?> createReminder(Authentication authentication,
                                             @RequestParam Long schoolId) {
         User user = currentUser.require(authentication);
@@ -65,27 +75,13 @@ public class ReminderController {
                 return ResponseEntity.ok(existing.get(0));
             }
 
-            // Parse application deadline from school
-            String deadlineStr = school.getApplicationDeadline();
-            if (deadlineStr == null || deadlineStr.trim().isEmpty()) {
+            // Track A: deadlines live on program_terms; legacy application_deadline is often null.
+            LocalDate reminderDate = resolveReminderDate(school);
+            if (reminderDate == null) {
                 Map<String, String> error = new HashMap<>();
                 error.put("error", "School does not have an application deadline");
                 return ResponseEntity.badRequest().body(error);
             }
-
-            LocalDate deadlineDate;
-            try {
-                // Try parsing as ISO date (YYYY-MM-DD)
-                deadlineDate = LocalDate.parse(deadlineStr.trim());
-            } catch (DateTimeParseException e) {
-                // Try other common formats if needed
-                Map<String, String> error = new HashMap<>();
-                error.put("error", "Invalid date format for application deadline: " + deadlineStr);
-                return ResponseEntity.badRequest().body(error);
-            }
-
-            // Use the deadline date as the reminder date
-            LocalDate reminderDate = deadlineDate;
 
             // Create reminder
             Reminder reminder = new Reminder();
@@ -106,6 +102,51 @@ public class ReminderController {
             error.put("error", "Failed to create reminder");
             return ResponseEntity.badRequest().body(error);
         }
+    }
+
+    /**
+     * Prefer earliest upcoming domestic (then international) deadline from program_terms.
+     * Falls back to legacy schools.application_deadline, then today+14 so save still works
+     * when a term exists but no date was published.
+     */
+    LocalDate resolveReminderDate(School school) {
+        LocalDate today = LocalDate.now();
+        List<ProgramTerm> terms = termRepo.findBySchoolId(school.getId());
+
+        LocalDate upcoming = terms.stream()
+                .filter(t -> !Boolean.FALSE.equals(t.getAccepting()))
+                .flatMap(t -> Stream.of(t.getDomesticDeadline(), t.getInternationalDeadline()))
+                .filter(Objects::nonNull)
+                .filter(d -> !d.isBefore(today))
+                .min(Comparator.naturalOrder())
+                .orElse(null);
+        if (upcoming != null) {
+            return upcoming;
+        }
+
+        LocalDate anyTermDeadline = terms.stream()
+                .flatMap(t -> Stream.of(t.getDomesticDeadline(), t.getInternationalDeadline()))
+                .filter(Objects::nonNull)
+                .max(Comparator.naturalOrder())
+                .orElse(null);
+        if (anyTermDeadline != null) {
+            return anyTermDeadline;
+        }
+
+        String deadlineStr = school.getApplicationDeadline();
+        if (deadlineStr != null && !deadlineStr.trim().isEmpty()) {
+            try {
+                return LocalDate.parse(deadlineStr.trim());
+            } catch (DateTimeParseException e) {
+                log.warn("Invalid legacy application_deadline for school {}: {}", school.getId(), deadlineStr);
+            }
+        }
+
+        // Program has term rows but no published dates — still allow save.
+        if (!terms.isEmpty()) {
+            return today.plusDays(14);
+        }
+        return null;
     }
 
     /**

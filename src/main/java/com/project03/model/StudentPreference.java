@@ -58,7 +58,28 @@ public class StudentPreference {
 
     @Column(name = "capstone_required")
     @Enumerated(EnumType.STRING)
-    private RequirementType requirementType; // CAPSTONE, GRE, NEITHER, BOTH
+    private RequirementType requirementType; // CAPSTONE, GRE, NEITHER, BOTH — collected but unscored in Track A
+
+    /**
+     * GRE preference (not a score):
+     * - false → hard-filter: only programs where gre_policy != REQUIRED
+     *   (OPTIONAL and NOT_REQUIRED remain eligible)
+     * - true  → student accepts GRE-required and non-GRE programs; no GRE hard-filter
+     * - null  → treat as false (prefer non-GRE-required) for safety
+     */
+    @Column(name = "gre_preferred")
+    private Boolean grePreferred;
+
+    @Column(name = "desired_term", length = 10)
+    @Enumerated(EnumType.STRING)
+    private ProgramTerm.Term desiredTerm;
+
+    @Column(name = "desired_start_year")
+    private Integer desiredStartYear;
+
+    /** When true, matching uses international_deadline when present. Cost scoring stays domestic in 7a. */
+    @Column(name = "is_international")
+    private Boolean isInternational;
 
     // Constructors
     public StudentPreference() {
@@ -185,6 +206,38 @@ public class StudentPreference {
 
     public void setRequirementType(RequirementType requirementType) {
         this.requirementType = requirementType;
+    }
+
+    public Boolean getGrePreferred() {
+        return grePreferred;
+    }
+
+    public void setGrePreferred(Boolean grePreferred) {
+        this.grePreferred = grePreferred;
+    }
+
+    public ProgramTerm.Term getDesiredTerm() {
+        return desiredTerm;
+    }
+
+    public void setDesiredTerm(ProgramTerm.Term desiredTerm) {
+        this.desiredTerm = desiredTerm;
+    }
+
+    public Integer getDesiredStartYear() {
+        return desiredStartYear;
+    }
+
+    public void setDesiredStartYear(Integer desiredStartYear) {
+        this.desiredStartYear = desiredStartYear;
+    }
+
+    public Boolean getIsInternational() {
+        return isInternational;
+    }
+
+    public void setIsInternational(Boolean isInternational) {
+        this.isInternational = isInternational;
     }
 
     /**

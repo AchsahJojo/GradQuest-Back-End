@@ -2,6 +2,37 @@
 
 Spring Boot REST API backend for managing student preferences, schools, applications, and reminders.
 
+## Track A matching (7a)
+
+Weighted top-N ranking lives in `MatchScoringService` / `MatchWeights`:
+
+| Dimension | Weight |
+|-----------|--------|
+| Budget (domestic `full_program_cost`) | 30 |
+| GPA vs `min_gpa` | 25 |
+| Location (state) | 20 |
+| Program type | 15 |
+| Modality | 5 |
+| Enrollment | 5 |
+
+- **Cost formula:** tuition-only full program cost (unit × units or published program total). No housing. Scoring uses **domestic** cost only in 7a; `international_cost` is stored for later.
+- **GRE preference (not a score):** `grePreferred == false` hard-filters out `gre_policy = REQUIRED`. `true` keeps GRE and non-GRE programs. Capstone is collected but **not scored**.
+- **Missing fields:** drop that dimension’s weight and renormalize (school or student side).
+- **Budget falloff:** 1.0 at/under budget → 0.0 at 50% over budget.
+- **Term filter** (optional): if `desired_term` + `desired_start_year` are set, keep only `program_terms` rows for that term/year with `accepting != false` and applicable deadline ≥ today. Applicable deadline = `international_deadline` when `is_international` and present, else `domestic_deadline`. Null deadline → keep with reason “Deadline not published…”. Closing-soon window: **30 days** (`MatchWeights.CLOSING_SOON_DAYS`).
+
+### Seed / migrate
+
+```bash
+# Additive columns + program_terms on an existing DB
+psql "$DATABASE_URL" -f db/migrate_track_a.sql
+# Replace catalog (25 programs + term rows from verified CSV)
+psql "$DATABASE_URL" -f db/seed_schools.sql
+psql "$DATABASE_URL" -f db/seed_program_terms.sql
+```
+
+JPA `ddl-auto=update` also adds new columns in dev; prefer the SQL scripts for a clean re-seed.
+
 ## Running the Application
 
 ### Option 1: Using Gradle

@@ -54,6 +54,10 @@ public class StudentPreferenceController {
                         if (preferenceDetails.getModality() != null) existing.setModality(preferenceDetails.getModality());
                         if (preferenceDetails.getGpa() != null) existing.setGpa(preferenceDetails.getGpa());
                         if (preferenceDetails.getRequirementType() != null) existing.setRequirementType(preferenceDetails.getRequirementType());
+                        if (preferenceDetails.getGrePreferred() != null) existing.setGrePreferred(preferenceDetails.getGrePreferred());
+                        if (preferenceDetails.getDesiredTerm() != null) existing.setDesiredTerm(preferenceDetails.getDesiredTerm());
+                        if (preferenceDetails.getDesiredStartYear() != null) existing.setDesiredStartYear(preferenceDetails.getDesiredStartYear());
+                        if (preferenceDetails.getIsInternational() != null) existing.setIsInternational(preferenceDetails.getIsInternational());
                         return existing;
                     })
                     .orElseGet(() -> {
@@ -109,6 +113,10 @@ public class StudentPreferenceController {
                     if (preferenceDetails.getModality() != null) preference.setModality(preferenceDetails.getModality());
                     if (preferenceDetails.getGpa() != null) preference.setGpa(preferenceDetails.getGpa());
                     if (preferenceDetails.getRequirementType() != null) preference.setRequirementType(preferenceDetails.getRequirementType());
+                    if (preferenceDetails.getGrePreferred() != null) preference.setGrePreferred(preferenceDetails.getGrePreferred());
+                    if (preferenceDetails.getDesiredTerm() != null) preference.setDesiredTerm(preferenceDetails.getDesiredTerm());
+                    if (preferenceDetails.getDesiredStartYear() != null) preference.setDesiredStartYear(preferenceDetails.getDesiredStartYear());
+                    if (preferenceDetails.getIsInternational() != null) preference.setIsInternational(preferenceDetails.getIsInternational());
                     StudentPreference updatedPreference = repo.save(preference);
                     return ResponseEntity.ok(updatedPreference);
                 })

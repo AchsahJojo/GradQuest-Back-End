@@ -4,12 +4,15 @@ import static org.assertj.core.api.Assertions.assertThat;
 import static org.assertj.core.api.Assertions.assertThatThrownBy;
 import static org.mockito.Mockito.*;
 
+import com.project03.dto.Top5MatchResponse;
 import com.project03.model.School;
 import com.project03.model.StudentPreference;
 import com.project03.model.User;
+import com.project03.repository.ProgramTermRepository;
 import com.project03.repository.SchoolRepository;
 import com.project03.repository.StudentPreferenceRepository;
 import com.project03.service.CurrentUserService;
+import com.project03.service.MatchScoringService;
 
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
@@ -25,15 +28,20 @@ class SchoolControllerUnitTest {
 
     private final SchoolRepository repo = mock(SchoolRepository.class);
     private final StudentPreferenceRepository prefRepo = mock(StudentPreferenceRepository.class);
+    private final ProgramTermRepository termRepo = mock(ProgramTermRepository.class);
     private final CurrentUserService currentUser = mock(CurrentUserService.class);
+    private final MatchScoringService matchScoring = new MatchScoringService();
     private final Authentication auth = mock(Authentication.class);
-    private final SchoolController controller = new SchoolController(repo, prefRepo, currentUser);
+    private final SchoolController controller =
+            new SchoolController(repo, prefRepo, termRepo, currentUser, matchScoring);
 
     private static School school(String name, String state, School.SchoolType type) {
         School s = new School();
+        s.setId(1L);
         s.setName(name);
         s.setState(state);
         s.setType(type);
+        s.setProgramType("MS CS");
         return s;
     }
 
@@ -55,7 +63,7 @@ class SchoolControllerUnitTest {
         when(currentUser.require(auth)).thenReturn(user);
         when(prefRepo.findByUser(user)).thenReturn(Optional.empty());
 
-        ResponseEntity<List<School>> resp = controller.getTop5Schools(auth);
+        ResponseEntity<Top5MatchResponse> resp = controller.getTop5Schools(auth);
 
         assertThat(resp.getStatusCode().value()).isEqualTo(404);
     }
@@ -67,16 +75,26 @@ class SchoolControllerUnitTest {
         StudentPreference prefs = new StudentPreference();
         prefs.setState("CA");
         prefs.setSchoolType(StudentPreference.SchoolType.PUBLIC);
+        prefs.setBudget(50000.0);
+        prefs.setSchoolYear("2027");
+        prefs.setExpectedGrad("2028");
+        prefs.setGrePreferred(true);
         when(currentUser.require(auth)).thenReturn(user);
         when(prefRepo.findByUser(user)).thenReturn(Optional.of(prefs));
 
         School best = school("Best", "CA", School.SchoolType.PUBLIC);
-        School partial = school("Partial", "CA", School.SchoolType.PRIVATE);
-        School none = school("None", "NY", School.SchoolType.PRIVATE);
-        when(repo.findAll()).thenReturn(List.of(none, partial, best));
+        best.setId(1L);
+        best.setFullProgramCost(java.math.BigDecimal.valueOf(17000));
+        School partial = school("Partial", "NY", School.SchoolType.PUBLIC);
+        partial.setId(2L);
+        partial.setFullProgramCost(java.math.BigDecimal.valueOf(17000));
+        when(repo.findAll()).thenReturn(List.of(partial, best));
+        when(termRepo.findAll()).thenReturn(List.of());
 
-        List<School> result = controller.getTop5Schools(auth).getBody();
+        Top5MatchResponse result = controller.getTop5Schools(auth).getBody();
 
-        assertThat(result).containsExactly(best, partial);
+        assertThat(result).isNotNull();
+        assertThat(result.getMatches()).isNotEmpty();
+        assertThat(result.getMatches().get(0).getName()).isEqualTo("Best");
     }
 }

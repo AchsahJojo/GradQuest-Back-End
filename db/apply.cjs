@@ -1,5 +1,5 @@
-// Applies db/schema.sql and (if the schools table is empty) db/seed_schools.sql
-// to the database configured in the backend's .env (DB_HOST, DB_PORT, DB_NAME, DB_USER, DB_PASSWORD).
+// Applies Track A schema migration + school/term seeds using backend .env
+// (DB_HOST, DB_PORT, DB_NAME, DB_USER, DB_PASSWORD). No psql required.
 //
 // Usage (from the backend root):
 //   npm install --prefix ~/.cache/gradquest-db pg
@@ -21,6 +21,12 @@ function loadEnv(file) {
   return env;
 }
 
+async function runFile(client, name) {
+  const sql = fs.readFileSync(path.join(__dirname, name), "utf8");
+  await client.query(sql);
+  console.log(`Applied ${name}`);
+}
+
 async function main() {
   const env = loadEnv(path.join(root, ".env"));
   const missing = ["DB_HOST", "DB_PORT", "DB_NAME", "DB_USER", "DB_PASSWORD"].filter((k) => !env[k]);
@@ -38,19 +44,15 @@ async function main() {
   console.log("Connected.");
 
   try {
-    await client.query(fs.readFileSync(path.join(__dirname, "schema.sql"), "utf8"));
-    console.log("Schema applied.");
-
-    const { rows } = await client.query("SELECT count(*)::int AS n FROM public.schools");
-    if (rows[0].n === 0) {
-      await client.query(fs.readFileSync(path.join(__dirname, "seed_schools.sql"), "utf8"));
-      console.log("Schools seeded.");
-    } else {
-      console.log(`Schools table already has ${rows[0].n} rows; seed skipped.`);
-    }
+    // Full schema (CREATE IF NOT EXISTS) then additive Track A columns/tables
+    await runFile(client, "schema.sql");
+    await runFile(client, "migrate_track_a.sql");
+    // Replaces catalog with verified 25 programs + term rows
+    await runFile(client, "seed_schools.sql");
+    await runFile(client, "seed_program_terms.sql");
 
     const counts = await client.query(`
-      SELECT c.relname AS table, c.relrowsecurity AS rls,
+      SELECT c.relname AS table_name,
              (xpath('/row/n/text()', query_to_xml(format('SELECT count(*) AS n FROM public.%I', c.relname), false, true, '')))[1]::text::int AS rows
       FROM pg_class c JOIN pg_namespace n ON n.oid = c.relnamespace
       WHERE n.nspname = 'public' AND c.relkind = 'r'
