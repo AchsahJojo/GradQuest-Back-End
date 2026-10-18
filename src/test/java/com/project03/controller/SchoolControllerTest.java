@@ -2,9 +2,11 @@ package com.project03.controller;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
+import com.project03.repository.ProgramTermRepository;
 import com.project03.repository.SchoolRepository;
 import com.project03.repository.StudentPreferenceRepository;
 import com.project03.service.CurrentUserService;
+import com.project03.service.MatchScoringService;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -29,7 +31,9 @@ class SchoolControllerTest {
 
     @MockBean private SchoolRepository repo;
     @MockBean private StudentPreferenceRepository prefRepo;
+    @MockBean private ProgramTermRepository termRepo;
     @MockBean private CurrentUserService currentUser;
+    @MockBean private MatchScoringService matchScoring;
 
     @Test
     @DisplayName("SchoolController bean should be present in MVC slice")

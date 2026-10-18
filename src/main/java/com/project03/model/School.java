@@ -2,6 +2,9 @@ package com.project03.model;
 
 import jakarta.persistence.*;
 import java.math.BigDecimal;
+import java.time.LocalDate;
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * this will be used to represent the schools that are in our database that are going to be given to the students
@@ -69,7 +72,32 @@ public class School {
 
     @Column(name = "requirement_type")
     @Enumerated(EnumType.STRING)
-    private RequirementType requirementType; // CAPSTONE, GRE, NEITHER, BOTH
+    private RequirementType requirementType; // CAPSTONE, GRE, NEITHER, BOTH — unscored in Track A
+
+    @Column(name = "min_gpa")
+    private Double minGpa;
+
+    @Column(name = "gre_policy")
+    @Enumerated(EnumType.STRING)
+    private GrePolicy grePolicy;
+
+    @Column(name = "full_program_cost", precision = 12, scale = 2)
+    private BigDecimal fullProgramCost;
+
+    @Column(name = "international_cost", precision = 12, scale = 2)
+    private BigDecimal internationalCost;
+
+    @Column(name = "program_page_url", columnDefinition = "TEXT")
+    private String programPageUrl;
+
+    @Column(name = "source_url", columnDefinition = "TEXT")
+    private String sourceUrl;
+
+    @Column(name = "last_verified")
+    private LocalDate lastVerified;
+
+    @OneToMany(mappedBy = "school", fetch = FetchType.LAZY)
+    private List<ProgramTerm> terms = new ArrayList<>();
 
     // Constructors
     public School() {
@@ -227,12 +255,85 @@ public class School {
         this.requirementType = requirementType;
     }
 
+    public Double getMinGpa() {
+        return minGpa;
+    }
+
+    public void setMinGpa(Double minGpa) {
+        this.minGpa = minGpa;
+    }
+
+    public GrePolicy getGrePolicy() {
+        return grePolicy;
+    }
+
+    public void setGrePolicy(GrePolicy grePolicy) {
+        this.grePolicy = grePolicy;
+    }
+
+    public BigDecimal getFullProgramCost() {
+        return fullProgramCost;
+    }
+
+    public void setFullProgramCost(BigDecimal fullProgramCost) {
+        this.fullProgramCost = fullProgramCost;
+    }
+
+    public BigDecimal getInternationalCost() {
+        return internationalCost;
+    }
+
+    public void setInternationalCost(BigDecimal internationalCost) {
+        this.internationalCost = internationalCost;
+    }
+
+    public String getProgramPageUrl() {
+        return programPageUrl;
+    }
+
+    public void setProgramPageUrl(String programPageUrl) {
+        this.programPageUrl = programPageUrl;
+    }
+
+    public String getSourceUrl() {
+        return sourceUrl;
+    }
+
+    public void setSourceUrl(String sourceUrl) {
+        this.sourceUrl = sourceUrl;
+    }
+
+    public LocalDate getLastVerified() {
+        return lastVerified;
+    }
+
+    public void setLastVerified(LocalDate lastVerified) {
+        this.lastVerified = lastVerified;
+    }
+
+    public List<ProgramTerm> getTerms() {
+        return terms;
+    }
+
+    public void setTerms(List<ProgramTerm> terms) {
+        this.terms = terms;
+    }
+
     /**
      * Enum for school type
      */
     public enum SchoolType {
         PUBLIC,
         PRIVATE
+    }
+
+    /**
+     * Published GRE policy for the program (not a student score).
+     */
+    public enum GrePolicy {
+        REQUIRED,
+        OPTIONAL,
+        NOT_REQUIRED
     }
 
     /**
