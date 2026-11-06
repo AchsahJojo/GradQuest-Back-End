@@ -1,169 +1,65 @@
-# Project 3 Backend
+# GradQuest API
 
-Spring Boot REST API backend for managing student preferences, schools, applications, and reminders.
+Spring Boot API for student preferences, a catalog of 25 CS-related master's programs, weighted matching, deadline reminders, and statement drafts.
 
-## Track A matching (7a)
+## Local setup
 
-Weighted top-N ranking lives in `MatchScoringService` / `MatchWeights`:
+Java 17. From this directory:
+
+```bash
+./gradlew bootRun
+```
+
+`bootRun` forces the `dev` profile and, if a gitignored `.env` sits next to `gradlew`, loads it into the process. Dev listens on `http://localhost:8082` and uses PostgreSQL (`DB_HOST`, `DB_PORT`, `DB_NAME`, `DB_USER`, `DB_PASSWORD`). It does not use H2. H2 is only the in-memory database for tests.
+
+GitHub OAuth is optional in dev. Without credentials, GitHub login is disabled. Sign in with dev login instead:
+
+`POST /dev/login?as=tester`
+
+That route exists only on the `dev` profile. The Expo app shows the button when `EXPO_PUBLIC_DEV_LOGIN=true`.
+
+### Three terminals for the whole app
+
+1. **Statement worker**, only if you are exercising Statement drafts. In `gradquest-worker/`, copy `.dev.vars.example` to `.dev.vars` and run `npm run dev`. Point this API at the URL Wrangler prints with `SOP_WORKER_BASE_URL`, and set `SOP_WORKER_SECRET` to the same secret the worker uses. See `gradquest-worker/README.md`. The phone never calls the worker directly.
+2. **This API:** `./gradlew bootRun` (port 8082).
+3. **Expo app:** GradQuest-Front-End, `npm start`, with dev login enabled.
+
+```bash
+./gradlew test
+```
+
+## Profiles
+
+- **dev** — `bootRun`. Port 8082, Postgres, `POST /dev/login`.
+- **prod** — default when the process is not started with `bootRun`. Postgres. Port is `PORT`, or 8080 if that is unset.
+- **test** — H2, used by `./gradlew test` only.
+
+## Catalog and matching
+
+Catalog SQL is in `db/` (`seed_schools.sql`, `seed_program_terms.sql`, plus the `migrate_track_*.sql` scripts). `ddl-auto=update` adds columns; the SQL scripts are how the 25 programs are loaded.
+
+`GET /api/schools/top5` ranks with `MatchScoringService` / `MatchWeights` and returns up to 10 programs:
 
 | Dimension | Weight |
 |-----------|--------|
-| Budget (domestic `full_program_cost`) | 30 |
+| Budget (domestic full program cost) | 30 |
 | GPA vs `min_gpa` | 25 |
 | Location (state) | 20 |
 | Program type | 15 |
 | Modality | 5 |
 | Enrollment | 5 |
 
-- **Cost formula:** tuition-only full program cost (unit × units or published program total). No housing. Scoring uses **domestic** cost only in 7a; `international_cost` is stored for later.
-- **GRE preference (not a score):** `grePreferred == false` hard-filters out `gre_policy = REQUIRED`. `true` keeps GRE and non-GRE programs. Capstone is collected but **not scored**.
-- **Missing fields:** drop that dimension’s weight and renormalize (school or student side).
-- **Budget falloff:** 1.0 at/under budget → 0.0 at 50% over budget.
-- **Term filter** (optional): if `desired_term` + `desired_start_year` are set, keep only `program_terms` rows for that term/year with `accepting != false` and applicable deadline ≥ today. Applicable deadline = `international_deadline` when `is_international` and present, else `domestic_deadline`. Null deadline → keep with reason “Deadline not published…”. Closing-soon window: **30 days** (`MatchWeights.CLOSING_SOON_DAYS`).
+A missing dimension is dropped and the remaining weights are renormalized. Budget score is 1.0 at or under budget and 0.0 at 50% over. `grePreferred == false` (the default) drops programs that require the GRE. If a desired term and start year are set, only open terms for that term and year are kept, using the international deadline when the student is international. A null deadline stays, with a “deadline not published” reason. Closing soon means within 30 days.
 
-### Seed / migrate
+## API
 
-```bash
-# Additive columns + program_terms on an existing DB
-psql "$DATABASE_URL" -f db/migrate_track_a.sql
-# Replace catalog (25 programs + term rows from verified CSV)
-psql "$DATABASE_URL" -f db/seed_schools.sql
-psql "$DATABASE_URL" -f db/seed_program_terms.sql
-```
+The session cookie identifies the student. Do not pass `userId` or `studentId`. There is no `/api/users` API, and schools cannot be created, updated, or deleted over HTTP.
 
-JPA `ddl-auto=update` also adds new columns in dev; prefer the SQL scripts for a clean re-seed.
+- `GET /api/me`, `POST /api/logout`
+- `POST /dev/login` (dev profile only)
+- `GET`, `POST`, `PUT`, `DELETE /api/preferences`
+- `GET /api/schools`, `GET /api/schools/{schoolId}`, `GET /api/schools/top5`, `POST /api/schools/search`
+- `POST /api/reminders?schoolId=`, `GET /api/reminders`, `DELETE /api/reminders/{reminderId}`, `DELETE /api/reminders/school/{schoolId}`, `PATCH /api/reminders/{reminderId}/complete`
+- Statement drafts (session auth; the server picks an allowlisted public URL): `POST /api/sop/programs` with `{ "schoolId" }`, `POST /api/sop/resume` (JSON `{ "schoolId", "text" }` or multipart `schoolId` + `file`), `POST /api/sop/draft` with `{ "schoolId", "mode": "opening" | "motivation", "pastedPrompt" }`
 
-## Running the Application
-
-### Option 1: Using Gradle
-
-#### Run the Application
-```bash
-./gradlew bootRun
-```
-
-The application will start on `http://localhost:8080`
-
-#### Run Tests
-```bash
-./gradlew test
-```
-
-### Option 2: Using Docker
-
-#### Build the Docker Image
-```bash
-docker build -t project3-backend .
-```
-
-#### Run the Docker Container
-```bash
-docker run -p 8080:8080 project3-backend
-```
-
-The application will be accessible at `http://localhost:8080`
-
-#### Stop the Container
-```bash
-docker stop project3-backend
-```
-
-#### Remove the Container
-```bash
-docker rm project3-backend
-```
-
-## Configuration
-
-
-## HEROKU LINK 
-
-https://grad-quest-app-2cac63f2b9b2.herokuapp.com/
-
-### Application Properties
-
-The application uses Spring profiles for configuration:
-
-- **Default profile**: `application.properties` - Basic configuration (uses H2 for local dev)
-- **Production profile**: `application-prod.properties` - Supabase PostgreSQL database configuration
-
-The active profile is set to `prod` by default in `application.properties`:
-
-```properties
-spring.profiles.active=prod
-```
-
-## API Endpoints
-
-### User Endpoints
-- `POST /api/users` - Create a new user
-- `GET /api/users` - Get all users
-- `GET /api/users/{userId}` - Get user by ID
-- `GET /api/users/{userId}/student-id` - Get student ID by user ID
-- `GET /api/users/email/{email}/student-id` - Get student ID by email
-- `GET /api/users/test/student-id` - Get/create a test student ID
-
-### Student Preferences Endpoints
-- `POST /api/preferences?studentId={id}` - Create or update student preferences
-- `GET /api/preferences?studentId={id}` - Get student preferences
-- `PUT /api/preferences?studentId={id}` - Update student preferences (partial update supported)
-- `DELETE /api/preferences?studentId={id}` - Delete student preferences
-
-### School Endpoints
-- `GET /api/schools` - Get all schools
-- `GET /api/schools/{schoolId}` - Get school by ID
-- `POST /api/schools` - Create a new school
-- `PUT /api/schools/{schoolId}` - Update a school (partial update supported)
-- `DELETE /api/schools/{schoolId}` - Delete a school
-- `POST /api/schools/search` - Search schools by criteria
-
-### Application Endpoints
-- `GET /api/applications` - Get all applications
-- `GET /api/applications/{applicationId}` - Get application by ID
-- `POST /api/applications` - Create a new application
-- `PUT /api/applications/{applicationId}` - Update an application
-- `DELETE /api/applications/{applicationId}` - Delete an application
-
-### Statement draft (Track B)
-- `POST /api/sop/programs` — session auth; body `{ "schoolId" }`. Resolves an allowlisted public URL on the server.
-- `POST /api/sop/resume` — JSON `{ "schoolId", "text" }` or multipart `schoolId` + `file`.
-- `POST /api/sop/draft` — body `{ "schoolId", "mode": "opening" | "motivation", "pastedPrompt" }`. Returns one paragraph labeled as a draft outline.
-
-### Reminder Endpoints
-- `GET /api/reminders` - Get all reminders
-- `GET /api/reminders/{reminderId}` - Get reminder by ID
-- `POST /api/reminders` - Create a new reminder
-- `PUT /api/reminders/{reminderId}` - Update a reminder
-- `DELETE /api/reminders/{reminderId}` - Delete a reminder
-
-## Project Structure
-
-```
-src/
-├── main/
-│   ├── java/com/project03/
-│   │   ├── controller/     # REST controllers
-│   │   ├── model/          # JPA entities
-│   │   ├── repository/     # JPA repositories
-│   │   └── Project03Application.java
-│   └── resources/
-│       ├── application.properties
-│       └── application-prod.properties
-└── test/
-    └── java/com/project03/
-```
-
-## Troubleshooting
-
-### Port Already in Use
-
-If port 8080 is already in use, you can change it in `application.properties`:
-```properties
-server.port=8081
-```
-### Docker Build Issues
-
-If you encounter issues building the Docker image:
-- Ensure Docker is running
-- Check that all required files are present (gradlew, build.gradle, src/)
-- Review the Dockerfile for any path issues
+`/api/applications` is not implemented. A few other reminder routes in `ReminderController` (`/upcoming`, get-by-id, update, `/application/{id}`) are placeholders and are not used by the app.

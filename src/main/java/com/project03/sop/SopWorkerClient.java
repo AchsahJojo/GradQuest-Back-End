@@ -43,7 +43,7 @@ public class SopWorkerClient {
         }
         try {
             HttpRequest request = HttpRequest.newBuilder(URI.create(baseUrl + path))
-                    .timeout(Duration.ofSeconds(45))
+                    .timeout(Duration.ofSeconds(90))
                     .header("Content-Type", "application/json")
                     .header("X-GradQuest-Proxy-Secret", secret)
                     .POST(HttpRequest.BodyPublishers.ofString(mapper.writeValueAsString(body)))

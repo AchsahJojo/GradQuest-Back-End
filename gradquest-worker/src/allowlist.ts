@@ -1,6 +1,6 @@
 /** Public program pages. Keep this set identical to SopAllowlist.java. */
 export const ALLOWED_PROGRAM_URLS = [
-  "https://catalog.fullerton.edu/preview_program.php?catoid=70&poid=32661",
+  "https://www.fullerton.edu/ecs/academics/graduate-admissions.html",
   "https://catalog.calpoly.edu/engineering/computer-science-software/computer-science-ms/",
   "https://cse.ucsd.edu/graduate/degree-programs/ms-program",
 ] as const;

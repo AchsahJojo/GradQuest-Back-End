@@ -9,7 +9,7 @@ import java.util.Set;
 public final class SopAllowlist {
 
     public static final String CSUF_MS_CS =
-            "https://catalog.fullerton.edu/preview_program.php?catoid=70&poid=32661";
+            "https://www.fullerton.edu/ecs/academics/graduate-admissions.html";
     public static final String CAL_POLY_SLO_MS_CS =
             "https://catalog.calpoly.edu/engineering/computer-science-software/computer-science-ms/";
     public static final String UCSD_CSE_MS =

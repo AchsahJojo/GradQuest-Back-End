@@ -9,7 +9,6 @@
     "check": "tsc --noEmit"
   },
   "dependencies": {
-    "@cloudflare/puppeteer": "^1.4.0",
     "agents": "^0.28.1",
     "unpdf": "^1.9.0"
   },

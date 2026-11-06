@@ -13,6 +13,13 @@ export function isLoginWall(finalUrl: string, status: number, html: string): boo
   return false;
 }
 
+const BOT_CHECK =
+  /verify (?:that )?you(?:'|’)?re not a robot|checking (?:if the site connection is secure|your browser)|enable javascript and (?:then )?reload|attention required! \| cloudflare|<title>just a moment\.\.\.<\/title>/i;
+
+export function isBotCheck(html: string): boolean {
+  return BOT_CHECK.test(html);
+}
+
 export function stripHtml(html: string): string {
   return html
     .replace(/<script[\s\S]*?<\/script>/gi, " ")
