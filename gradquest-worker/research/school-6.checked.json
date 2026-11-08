@@ -1,0 +1,105 @@
+{
+  "schoolId": 6,
+  "schoolName": "California State University, Fullerton",
+  "programName": "Computer Science, M.S.",
+  "pages": [
+    {
+      "kind": "overview",
+      "url": "https://www.fullerton.edu/ecs/cs/"
+    },
+    {
+      "kind": "faculty",
+      "url": "https://www.fullerton.edu/ecs/faculty/apanangadan/"
+    },
+    {
+      "kind": "faculty",
+      "url": "https://www.fullerton.edu/ecs/faculty/pinventado/"
+    },
+    {
+      "kind": "faculty",
+      "url": "https://www.fullerton.edu/ecs/faculty/whan/"
+    }
+  ],
+  "snapshotId": "6-20261106",
+  "verifiedAt": "2026-11-06T22:45:10.190Z",
+  "pageHashes": {
+    "https://www.fullerton.edu/ecs/cs/": "c81b74f85071c2b29c3f000d084f4971486a28ab50dcd61c8cbc5f073a4c05b3",
+    "https://www.fullerton.edu/ecs/faculty/apanangadan/": "1c20480448dc7372a071ade63ecaab54c3a59cf2f8afd03aa30fcec1e521fe7c",
+    "https://www.fullerton.edu/ecs/faculty/pinventado/": "e5c745064bc44c0f258702cdadbf69493299c14e931a1432519b2a630f3585f0",
+    "https://www.fullerton.edu/ecs/faculty/whan/": "97b29ba1e1ac36b06b77cf6db9228e655f10b8e35ccf2b23fee37841f388df53"
+  },
+  "facts": [
+    {
+      "id": "f3",
+      "kind": "overview",
+      "name": "Live department homepage",
+      "detail": "Undergraduate and graduate programs offered.",
+      "sourceUrl": "https://www.fullerton.edu/ecs/cs/",
+      "quote": "we offer a variety of Computer Science undergraduate and graduate programs.",
+      "quoteFound": true,
+      "verified": false,
+      "fetchedAt": "2026-11-06T22:45:10.190Z",
+      "quoteCheck": "auto"
+    },
+    {
+      "id": "f4",
+      "kind": "overview",
+      "name": "Faculty count on homepage",
+      "detail": "22 tenured and tenure-track faculty.",
+      "sourceUrl": "https://www.fullerton.edu/ecs/cs/",
+      "quote": "With 22 tenured and tenure-track faculty members",
+      "quoteFound": true,
+      "verified": false,
+      "fetchedAt": "2026-11-06T22:45:10.190Z",
+      "quoteCheck": "auto"
+    },
+    {
+      "id": "f60",
+      "kind": "faculty",
+      "name": "Anand Panangadan",
+      "detail": "Live profile. AI/ML applications.",
+      "sourceUrl": "https://www.fullerton.edu/ecs/faculty/apanangadan/",
+      "quote": "applications of artificial intelligence and machine learning",
+      "quoteFound": true,
+      "verified": false,
+      "fetchedAt": "2026-11-06T22:45:10.190Z",
+      "quoteCheck": "auto"
+    },
+    {
+      "id": "f61",
+      "kind": "faculty",
+      "name": "Anand Panangadan",
+      "detail": "Live profile domains.",
+      "sourceUrl": "https://www.fullerton.edu/ecs/faculty/apanangadan/",
+      "quote": "homelessness, transportation, healthcare, earth science, sensor networks, and robotics.",
+      "quoteFound": true,
+      "verified": false,
+      "fetchedAt": "2026-11-06T22:45:10.190Z",
+      "quoteCheck": "auto"
+    },
+    {
+      "id": "f62",
+      "kind": "faculty",
+      "name": "Paul Salvador Inventado",
+      "detail": "Live profile. EDM/ITS.",
+      "sourceUrl": "https://www.fullerton.edu/ecs/faculty/pinventado/",
+      "quote": "educational data mining, machine learning, intelligent tutoring systems, CS education, and STEM education.",
+      "quoteFound": true,
+      "verified": false,
+      "fetchedAt": "2026-11-06T22:45:10.190Z",
+      "quoteCheck": "auto"
+    },
+    {
+      "id": "f63",
+      "kind": "faculty",
+      "name": "Wenlin Han",
+      "detail": "Live profile. Cybersecurity/blockchain.",
+      "sourceUrl": "https://www.fullerton.edu/ecs/faculty/whan/",
+      "quote": "Cybersecurity and Blockchain. Recent interests include DeFi, GameFi, NFTs and Metaverse.",
+      "quoteFound": true,
+      "verified": false,
+      "fetchedAt": "2026-11-06T22:45:10.190Z",
+      "quoteCheck": "auto"
+    }
+  ]
+}

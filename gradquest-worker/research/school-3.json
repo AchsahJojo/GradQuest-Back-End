@@ -1,0 +1,581 @@
+{
+  "schoolId": 3,
+  "schoolName": "Cal Poly San Luis Obispo",
+  "programName": "Computer Science, M.S.",
+  "pages": [
+    {
+      "kind": "overview",
+      "url": "https://csc.calpoly.edu/gr/"
+    },
+    {
+      "kind": "overview",
+      "url": "https://catalog.calpoly.edu/engineering/computer-science-software/computer-science-ms/"
+    },
+    {
+      "kind": "admissions",
+      "url": "https://catalog.calpoly.edu/engineering/computer-science-software/computer-science-ms/"
+    },
+    {
+      "kind": "curriculum",
+      "url": "https://catalog.calpoly.edu/engineering/computer-science-software/computer-science-ms/"
+    },
+    {
+      "kind": "curriculum",
+      "url": "https://csc.calpoly.edu/gr/ms-degree-requirements-2/"
+    },
+    {
+      "kind": "curriculum",
+      "url": "https://csc.calpoly.edu/gr/thesis-coursework/"
+    },
+    {
+      "kind": "faculty",
+      "url": "https://csc.calpoly.edu/faculty/"
+    },
+    {
+      "kind": "faculty",
+      "url": "https://users.csc.calpoly.edu/~srbeard/"
+    },
+    {
+      "kind": "faculty",
+      "url": "https://users.csc.calpoly.edu/~dfrishbe/"
+    },
+    {
+      "kind": "faculty",
+      "url": "https://users.csc.calpoly.edu/~akeen/"
+    },
+    {
+      "kind": "faculty",
+      "url": "https://foaad.net/"
+    },
+    {
+      "kind": "faculty",
+      "url": "https://ayaankazerouni.org/"
+    },
+    {
+      "kind": "deadlines",
+      "url": "https://www.calpoly.edu/admissions/graduate-student/dates-and-deadlines"
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "kind": "overview",
+      "name": "Program flexibility",
+      "detail": "Catalog: maximum flexibility to concentrate in one or more areas.",
+      "sourceUrl": "https://catalog.calpoly.edu/engineering/computer-science-software/computer-science-ms/",
+      "quote": "The program is designed for maximum flexibility to allow students to concentrate  in  one or more areas of study."
+    },
+    {
+      "id": "f2",
+      "kind": "overview",
+      "name": "Emphasis areas",
+      "detail": "Catalog lists software engineering, AI, networks, graphics, HCI, etc.",
+      "sourceUrl": "https://catalog.calpoly.edu/engineering/computer-science-software/computer-science-ms/",
+      "quote": "software engineering, computer architecture, programming languages, theory of computing, operating systems, database systems, distributed computing, computer networks, artificial intelligence, computer graphics, and human computer interaction"
+    },
+    {
+      "id": "f3",
+      "kind": "overview",
+      "name": "Thesis-only option",
+      "detail": "Department: thesis option only; no test-only option.",
+      "sourceUrl": "https://csc.calpoly.edu/gr/ms-degree-requirements-2/",
+      "quote": "The CSSE department only offers a thesis option for the MS degree. There is no test-only option."
+    },
+    {
+      "id": "f4",
+      "kind": "overview",
+      "name": "Unit structure on department page",
+      "detail": "20 graduate + 16 electives + 9 thesis units (department page).",
+      "sourceUrl": "https://csc.calpoly.edu/gr/ms-degree-requirements-2/",
+      "quote": "The program consists of 20 units of graduate coursework (500-level), 16 units of advisor approved electives (400 or 500-level), and 9 units of thesis."
+    },
+    {
+      "id": "f5",
+      "kind": "overview",
+      "name": "CSSE graduate programs",
+      "detail": "M.S. and blended B.M.S. in Computer Science.",
+      "sourceUrl": "https://csc.calpoly.edu/gr/",
+      "quote": "offers both a M.S. program in Computer Science and B.M.S. program in Computer Science."
+    },
+    {
+      "id": "f6",
+      "kind": "requirement",
+      "name": "Application materials; no GRE",
+      "detail": "Cal State Apply packet; no GRE.",
+      "sourceUrl": "https://catalog.calpoly.edu/engineering/computer-science-software/computer-science-ms/",
+      "quote": "Students apply via Cal State Apply and must submit a transcript, resume, personal statement, and three letters of recommendation. No GRE scores required."
+    },
+    {
+      "id": "f7",
+      "kind": "requirement",
+      "name": "Prerequisite coursework amount",
+      "detail": "~18 semester units expected before starting.",
+      "sourceUrl": "https://catalog.calpoly.edu/engineering/computer-science-software/computer-science-ms/",
+      "quote": "equivalent of  18  semester  units of coursework (4-6  courses) from the  list below, prior to starting their MS in Computer Science study."
+    },
+    {
+      "id": "f8",
+      "kind": "requirement",
+      "name": "GPA CS/SE/CPE",
+      "detail": "Minimum 3.0 including major courses.",
+      "sourceUrl": "https://catalog.calpoly.edu/engineering/computer-science-software/computer-science-ms/",
+      "quote": "minimum 3.0 grade point average, including a minimum 3.0 grade point average in major courses"
+    },
+    {
+      "id": "f9",
+      "kind": "requirement",
+      "name": "GPA other fields",
+      "detail": "Minimum 3.25 for other bachelor fields.",
+      "sourceUrl": "https://catalog.calpoly.edu/engineering/computer-science-software/computer-science-ms/",
+      "quote": "minimum grade point average of 3.25 for all undergraduate coursework"
+    },
+    {
+      "id": "f10",
+      "kind": "requirement",
+      "name": "Thesis culminating experience",
+      "detail": "MS CS is thesis only.",
+      "sourceUrl": "https://catalog.calpoly.edu/engineering/computer-science-software/computer-science-ms/",
+      "quote": "The MS CS program is thesis only."
+    },
+    {
+      "id": "f11",
+      "kind": "requirement",
+      "name": "30 units",
+      "detail": "At least 30 units beyond undergraduate degree.",
+      "sourceUrl": "https://catalog.calpoly.edu/engineering/computer-science-software/computer-science-ms/",
+      "quote": "The MS degree requires at least 30 units beyond the undergraduate degree."
+    },
+    {
+      "id": "f12",
+      "kind": "requirement",
+      "name": "Thesis course sequence",
+      "detail": "5590 (3), 5591 (2), 5599 (4).",
+      "sourceUrl": "https://csc.calpoly.edu/gr/thesis-coursework/",
+      "quote": "9 units of thesis-related courses, including 5590 (3 units), 5591 (2), and 5599 (4)."
+    },
+    {
+      "id": "f16",
+      "kind": "course",
+      "name": "CSC 5201 - Computer Security and Privacy",
+      "detail": "Listed in Cal Poly Academic Catalog MS CS requirements.",
+      "sourceUrl": "https://catalog.calpoly.edu/engineering/computer-science-software/computer-science-ms/",
+      "quote": "CSC 5201\nComputer Security and Privacy"
+    },
+    {
+      "id": "f17",
+      "kind": "course",
+      "name": "CSC 5210 - Software Security",
+      "detail": "Listed in Cal Poly Academic Catalog MS CS requirements.",
+      "sourceUrl": "https://catalog.calpoly.edu/engineering/computer-science-software/computer-science-ms/",
+      "quote": "CSC 5210\nSoftware Security"
+    },
+    {
+      "id": "f18",
+      "kind": "course",
+      "name": "CSC 5550 - Research in Operating Systems",
+      "detail": "Listed in Cal Poly Academic Catalog MS CS requirements.",
+      "sourceUrl": "https://catalog.calpoly.edu/engineering/computer-science-software/computer-science-ms/",
+      "quote": "CSC 5550\nResearch in Operating Systems"
+    },
+    {
+      "id": "f19",
+      "kind": "course",
+      "name": "CSC 5710 - Computer Graphics",
+      "detail": "Listed in Cal Poly Academic Catalog MS CS requirements.",
+      "sourceUrl": "https://catalog.calpoly.edu/engineering/computer-science-software/computer-science-ms/",
+      "quote": "CSC 5710\nComputer Graphics"
+    },
+    {
+      "id": "f20",
+      "kind": "course",
+      "name": "CSC 5880 - Artificial Intelligence",
+      "detail": "Listed in Cal Poly Academic Catalog MS CS requirements.",
+      "sourceUrl": "https://catalog.calpoly.edu/engineering/computer-science-software/computer-science-ms/",
+      "quote": "CSC 5880\nArtificial Intelligence"
+    },
+    {
+      "id": "f21",
+      "kind": "course",
+      "name": "CSC 5887 - Advanced Deep Learning",
+      "detail": "Listed in Cal Poly Academic Catalog MS CS requirements.",
+      "sourceUrl": "https://catalog.calpoly.edu/engineering/computer-science-software/computer-science-ms/",
+      "quote": "CSC 5887\nAdvanced Deep Learning"
+    },
+    {
+      "id": "f22",
+      "kind": "course",
+      "name": "CSC 5100 - Modern Software Engineering",
+      "detail": "Listed in Cal Poly Academic Catalog MS CS requirements.",
+      "sourceUrl": "https://catalog.calpoly.edu/engineering/computer-science-software/computer-science-ms/",
+      "quote": "CSC 5100\nModern Software Engineering"
+    },
+    {
+      "id": "f23",
+      "kind": "course",
+      "name": "CSC 5660 - Advanced Database Management Systems",
+      "detail": "Listed in Cal Poly Academic Catalog MS CS requirements.",
+      "sourceUrl": "https://catalog.calpoly.edu/engineering/computer-science-software/computer-science-ms/",
+      "quote": "CSC 5660\nAdvanced Database Management Systems"
+    },
+    {
+      "id": "f24",
+      "kind": "course",
+      "name": "CSC 5666 - Advanced Machine Learning",
+      "detail": "Listed in Cal Poly Academic Catalog MS CS requirements.",
+      "sourceUrl": "https://catalog.calpoly.edu/engineering/computer-science-software/computer-science-ms/",
+      "quote": "CSC 5666\nAdvanced Machine Learning"
+    },
+    {
+      "id": "f25",
+      "kind": "course",
+      "name": "CSC 5669 - Distributed Computing",
+      "detail": "Listed in Cal Poly Academic Catalog MS CS requirements.",
+      "sourceUrl": "https://catalog.calpoly.edu/engineering/computer-science-software/computer-science-ms/",
+      "quote": "CSC 5669\nDistributed Computing"
+    },
+    {
+      "id": "f26",
+      "kind": "course",
+      "name": "CPE 5300 - Computer Microarchitecture",
+      "detail": "Listed in Cal Poly Academic Catalog MS CS requirements.",
+      "sourceUrl": "https://catalog.calpoly.edu/engineering/computer-science-software/computer-science-ms/",
+      "quote": "CPE 5300\nComputer Microarchitecture"
+    },
+    {
+      "id": "f27",
+      "kind": "course",
+      "name": "CSC 5449 - Advanced Algorithm Design and Analysis",
+      "detail": "Listed in Cal Poly Academic Catalog MS CS requirements.",
+      "sourceUrl": "https://catalog.calpoly.edu/engineering/computer-science-software/computer-science-ms/",
+      "quote": "CSC 5449\nAdvanced Algorithm Design and Analysis"
+    },
+    {
+      "id": "f28",
+      "kind": "course",
+      "name": "CSC 5820 - Computational Linguistics",
+      "detail": "Listed in Cal Poly Academic Catalog MS CS requirements.",
+      "sourceUrl": "https://catalog.calpoly.edu/engineering/computer-science-software/computer-science-ms/",
+      "quote": "CSC 5820\nComputational Linguistics"
+    },
+    {
+      "id": "f29",
+      "kind": "deadline",
+      "name": "Deadlines vary by program",
+      "detail": "Check program table on graduate dates page.",
+      "sourceUrl": "https://www.calpoly.edu/admissions/graduate-student/dates-and-deadlines",
+      "quote": "Application deadlines are set by the individual degree programs and can vary significantly."
+    },
+    {
+      "id": "f30",
+      "kind": "deadline",
+      "name": "Computer Science Fall 1/4 Spring 9/1",
+      "detail": "College of Engineering deadline table.",
+      "sourceUrl": "https://www.calpoly.edu/admissions/graduate-student/dates-and-deadlines",
+      "quote": "Computer Science\n1/4\n9/1"
+    },
+    {
+      "id": "f40",
+      "kind": "faculty",
+      "name": "Paul Anderson",
+      "detail": "Department-wide CSSE faculty listing (not MS-program-specific).",
+      "sourceUrl": "https://csc.calpoly.edu/faculty/",
+      "quote": "Anderson, Paul"
+    },
+    {
+      "id": "f41",
+      "kind": "faculty",
+      "name": "Paul Anderson",
+      "detail": "Department-wide CSSE faculty listing (not MS-program-specific). Research interests: AI, machine learning, bioinformatics, data science, genomics, proteomics, metabolomics, ranking algorithms, and fairness.",
+      "sourceUrl": "https://csc.calpoly.edu/faculty/",
+      "quote": "AI, machine learning, bioinformatics, data science, genomics, proteomics, metabolomics, ranking algorithms, and fairness."
+    },
+    {
+      "id": "f42",
+      "kind": "faculty",
+      "name": "Stephen Beard",
+      "detail": "Department-wide CSSE faculty listing (not MS-program-specific).",
+      "sourceUrl": "https://csc.calpoly.edu/faculty/",
+      "quote": "Beard, Stephen"
+    },
+    {
+      "id": "f43",
+      "kind": "faculty",
+      "name": "Stephen Beard",
+      "detail": "Department-wide CSSE faculty listing (not MS-program-specific). Research interests: Security, Architecture, Compilers, Language, Performance",
+      "sourceUrl": "https://csc.calpoly.edu/faculty/",
+      "quote": "Security, Architecture, Compilers, Language, Performance"
+    },
+    {
+      "id": "f44",
+      "kind": "faculty",
+      "name": "John Bellardo",
+      "detail": "Department-wide CSSE faculty listing (not MS-program-specific).",
+      "sourceUrl": "https://csc.calpoly.edu/faculty/",
+      "quote": "Bellardo, John"
+    },
+    {
+      "id": "f45",
+      "kind": "faculty",
+      "name": "John Bellardo",
+      "detail": "Department-wide CSSE faculty listing (not MS-program-specific). Research interests: Satellites, Embedded Systems, Networks, Operating Systems, Distributed Systems, Security",
+      "sourceUrl": "https://csc.calpoly.edu/faculty/",
+      "quote": "Satellites, Embedded Systems, Networks, Operating Systems, Distributed Systems, Security"
+    },
+    {
+      "id": "f46",
+      "kind": "faculty",
+      "name": "Rodrigo Canaan",
+      "detail": "Department-wide CSSE faculty listing (not MS-program-specific).",
+      "sourceUrl": "https://csc.calpoly.edu/faculty/",
+      "quote": "Canaan, Rodrigo"
+    },
+    {
+      "id": "f47",
+      "kind": "faculty",
+      "name": "Rodrigo Canaan",
+      "detail": "Department-wide CSSE faculty listing (not MS-program-specific). Research interests: AI, Games, Co-Creativity, Evolutionary Computing, Quality-Diversity Algorithms, Machine Learning, Reinforcement Learning",
+      "sourceUrl": "https://csc.calpoly.edu/faculty/",
+      "quote": "AI, Games, Co-Creativity, Evolutionary Computing, Quality-Diversity Algorithms, Machine Learning, Reinforcement Learning"
+    },
+    {
+      "id": "f48",
+      "kind": "faculty",
+      "name": "Bruce DeBruhl",
+      "detail": "Department-wide CSSE faculty listing (not MS-program-specific).",
+      "sourceUrl": "https://csc.calpoly.edu/faculty/",
+      "quote": "DeBruhl, Bruce"
+    },
+    {
+      "id": "f49",
+      "kind": "faculty",
+      "name": "Bruce DeBruhl",
+      "detail": "Department-wide CSSE faculty listing (not MS-program-specific). Research interests: Security and Privacy, Automotive Security, Wireless Security, Software Security",
+      "sourceUrl": "https://csc.calpoly.edu/faculty/",
+      "quote": "Security and Privacy, Automotive Security, Wireless Security, Software Security"
+    },
+    {
+      "id": "f50",
+      "kind": "faculty",
+      "name": "Alex Dekhtyar",
+      "detail": "Department-wide CSSE faculty listing (not MS-program-specific).",
+      "sourceUrl": "https://csc.calpoly.edu/faculty/",
+      "quote": "Dekhtyar, Alex"
+    },
+    {
+      "id": "f51",
+      "kind": "faculty",
+      "name": "Alex Dekhtyar",
+      "detail": "Department-wide CSSE faculty listing (not MS-program-specific). Research interests: Databases, Machine Learning, Data Science, Software Engineering",
+      "sourceUrl": "https://csc.calpoly.edu/faculty/",
+      "quote": "Databases, Machine Learning, Data Science, Software Engineering"
+    },
+    {
+      "id": "f52",
+      "kind": "faculty",
+      "name": "Daniel Frishberg",
+      "detail": "Department-wide CSSE faculty listing (not MS-program-specific).",
+      "sourceUrl": "https://csc.calpoly.edu/faculty/",
+      "quote": "Frishberg, Daniel"
+    },
+    {
+      "id": "f53",
+      "kind": "faculty",
+      "name": "Daniel Frishberg",
+      "detail": "Department-wide CSSE faculty listing (not MS-program-specific). Research interests: Graph theory, algorithms, Markov chains, computational geometry, neuroinclusive pedagogy",
+      "sourceUrl": "https://csc.calpoly.edu/faculty/",
+      "quote": "Graph theory, algorithms, Markov chains, computational geometry, neuroinclusive pedagogy"
+    },
+    {
+      "id": "f54",
+      "kind": "faculty",
+      "name": "Javier Gonzalez-Sanchez",
+      "detail": "Department-wide CSSE faculty listing (not MS-program-specific).",
+      "sourceUrl": "https://csc.calpoly.edu/faculty/",
+      "quote": "Gonzalez-Sanchez, Javier"
+    },
+    {
+      "id": "f55",
+      "kind": "faculty",
+      "name": "Javier Gonzalez-Sanchez",
+      "detail": "Department-wide CSSE faculty listing (not MS-program-specific). Research interests: Software Engineering, Intelligent Systems Engineering, Software Product Lines, Human-Computer Interaction, Emotion AI (Affective Computing), Machine Learning, Augmented Reality, CS Education",
+      "sourceUrl": "https://csc.calpoly.edu/faculty/",
+      "quote": "Software Engineering, Intelligent Systems Engineering, Software Product Lines, Human-Computer Interaction, Emotion AI (Affective Computing), Machine Learning, Augmented Reality, CS Education"
+    },
+    {
+      "id": "f56",
+      "kind": "faculty",
+      "name": "Foaad Khosmood",
+      "detail": "Department-wide CSSE faculty listing (not MS-program-specific).",
+      "sourceUrl": "https://csc.calpoly.edu/faculty/",
+      "quote": "Khosmood, Foaad"
+    },
+    {
+      "id": "f57",
+      "kind": "faculty",
+      "name": "Foaad Khosmood",
+      "detail": "Department-wide CSSE faculty listing (not MS-program-specific). Research interests: Artificial Intelligence, Natural Language Processing, Video Games, Data Science, Digital Government",
+      "sourceUrl": "https://csc.calpoly.edu/faculty/",
+      "quote": "Artificial Intelligence, Natural Language Processing, Video Games, Data Science, Digital Government"
+    },
+    {
+      "id": "f58",
+      "kind": "faculty",
+      "name": "Aaron Keen",
+      "detail": "Department-wide CSSE faculty listing (not MS-program-specific).",
+      "sourceUrl": "https://csc.calpoly.edu/faculty/",
+      "quote": "Keen, Aaron"
+    },
+    {
+      "id": "f59",
+      "kind": "faculty",
+      "name": "Aaron Keen",
+      "detail": "Department-wide CSSE faculty listing (not MS-program-specific). Research interests: Programming Languages, Compilers, Static Analysis, CS Education",
+      "sourceUrl": "https://csc.calpoly.edu/faculty/",
+      "quote": "Programming Languages, Compilers, Static Analysis, CS Education"
+    },
+    {
+      "id": "f60",
+      "kind": "faculty",
+      "name": "Ayaan Kazerouni",
+      "detail": "Department-wide CSSE faculty listing (not MS-program-specific).",
+      "sourceUrl": "https://csc.calpoly.edu/faculty/",
+      "quote": "Kazerouni, Ayaan"
+    },
+    {
+      "id": "f61",
+      "kind": "faculty",
+      "name": "Ayaan Kazerouni",
+      "detail": "Department-wide CSSE faculty listing (not MS-program-specific). Research interests: Computing Education, Software Engineering, Software Testing",
+      "sourceUrl": "https://csc.calpoly.edu/faculty/",
+      "quote": "Computing Education, Software Engineering, Software Testing"
+    },
+    {
+      "id": "f62",
+      "kind": "faculty",
+      "name": "Maria Pantoja",
+      "detail": "Department-wide CSSE faculty listing (not MS-program-specific).",
+      "sourceUrl": "https://csc.calpoly.edu/faculty/",
+      "quote": "Pantoja, Maria"
+    },
+    {
+      "id": "f63",
+      "kind": "faculty",
+      "name": "Maria Pantoja",
+      "detail": "Department-wide CSSE faculty listing (not MS-program-specific). Research interests: High Performance Computing, Parallel Programming (OpenMP and GPU), Distributed Systems (MPI and goLang), Reliability in Distributed Systems, Acceleration of Deep Learning",
+      "sourceUrl": "https://csc.calpoly.edu/faculty/",
+      "quote": "High Performance Computing, Parallel Programming (OpenMP and GPU), Distributed Systems (MPI and goLang), Reliability in Distributed Systems, Acceleration of Deep Learning"
+    },
+    {
+      "id": "f64",
+      "kind": "faculty",
+      "name": "Zachary N.J. Peterson",
+      "detail": "Department-wide CSSE faculty listing (not MS-program-specific).",
+      "sourceUrl": "https://csc.calpoly.edu/faculty/",
+      "quote": "Peterson, Zachary N.J."
+    },
+    {
+      "id": "f65",
+      "kind": "faculty",
+      "name": "Zachary N.J. Peterson",
+      "detail": "Department-wide CSSE faculty listing (not MS-program-specific). Research interests: Security, Cryptographic Engineering, Computer Security Education, Storage Systems, Games and Play, Interactive Fiction, Interactive Art, Applied Cryptography",
+      "sourceUrl": "https://csc.calpoly.edu/faculty/",
+      "quote": "Security, Cryptographic Engineering, Computer Security Education, Storage Systems, Games and Play, Interactive Fiction, Interactive Art, Applied Cryptography"
+    },
+    {
+      "id": "f66",
+      "kind": "faculty",
+      "name": "Jonathan Ventura",
+      "detail": "Department-wide CSSE faculty listing (not MS-program-specific).",
+      "sourceUrl": "https://csc.calpoly.edu/faculty/",
+      "quote": "Ventura, Jonathan"
+    },
+    {
+      "id": "f67",
+      "kind": "faculty",
+      "name": "Jonathan Ventura",
+      "detail": "Department-wide CSSE faculty listing (not MS-program-specific). Research interests: Computer Vision, Machine Learning, Augmented and Virtual Reality, Remote Sensing",
+      "sourceUrl": "https://csc.calpoly.edu/faculty/",
+      "quote": "Computer Vision, Machine Learning, Augmented and Virtual Reality, Remote Sensing"
+    },
+    {
+      "id": "f68",
+      "kind": "faculty",
+      "name": "Paul Schmitt",
+      "detail": "Department-wide CSSE faculty listing (not MS-program-specific).",
+      "sourceUrl": "https://csc.calpoly.edu/faculty/",
+      "quote": "Schmitt, Paul"
+    },
+    {
+      "id": "f69",
+      "kind": "faculty",
+      "name": "Paul Schmitt",
+      "detail": "Department-wide CSSE faculty listing (not MS-program-specific). Research interests: Networked Systems, Privacy, Internet Measurement, AI/ML for Networks",
+      "sourceUrl": "https://csc.calpoly.edu/faculty/",
+      "quote": "Networked Systems, Privacy, Internet Measurement, AI/ML for Networks"
+    },
+    {
+      "id": "f70",
+      "kind": "faculty",
+      "name": "Stephen R. Beard",
+      "detail": "Department faculty profile. Hardware-software boundary security.",
+      "sourceUrl": "https://users.csc.calpoly.edu/~srbeard/",
+      "quote": "Stephen's research interests primarily\nrevolve around security that involves the hardware-software boundary."
+    },
+    {
+      "id": "f71",
+      "kind": "faculty",
+      "name": "Daniel Frishberg",
+      "detail": "Department faculty profile. Rapidly mixing Markov chains.",
+      "sourceUrl": "https://users.csc.calpoly.edu/~dfrishbe/",
+      "quote": "My algorithms research has largely focused on rapidly mixing Markov chains"
+    },
+    {
+      "id": "f72",
+      "kind": "faculty",
+      "name": "Aaron Keen",
+      "detail": "Department faculty profile. Programming languages.",
+      "sourceUrl": "https://users.csc.calpoly.edu/~akeen/",
+      "quote": "focus my\nattention on the study of programming languages."
+    },
+    {
+      "id": "f74",
+      "kind": "faculty",
+      "name": "Foaad Khosmood",
+      "detail": "Department faculty profile (foaad.net). NLP/AI/games.",
+      "sourceUrl": "https://foaad.net/",
+      "quote": "natural language processing (NLP), artificial intelligence, digital government, interactive entertainment, game AI and game jams."
+    },
+    {
+      "id": "f76",
+      "kind": "faculty",
+      "name": "Ayaan M. Kazerouni",
+      "detail": "Department faculty profile. Computing education.",
+      "sourceUrl": "https://ayaankazerouni.org/",
+      "quote": "My research in Computing Education focuses on improving student self-regulation in software development"
+    },
+    {
+      "id": "f13",
+      "kind": "course",
+      "name": "CSC 5590 - Thesis Preparation",
+      "detail": "Listed in Cal Poly Academic Catalog MS CS required-courses table (department catalog page). Unit count not asserted from concatenated extract.",
+      "sourceUrl": "https://catalog.calpoly.edu/engineering/computer-science-software/computer-science-ms/",
+      "quote": "CSC 5590Thesis Preparation"
+    },
+    {
+      "id": "f15",
+      "kind": "course",
+      "name": "CSC 5599 - Thesis",
+      "detail": "Listed in Cal Poly Academic Catalog MS CS required-courses table. Unit count not asserted from concatenated extract.",
+      "sourceUrl": "https://catalog.calpoly.edu/engineering/computer-science-software/computer-science-ms/",
+      "quote": "CSC 5599Thesis"
+    },
+    {
+      "id": "f14",
+      "kind": "course",
+      "name": "CSC 5591 - Research in Computer Science",
+      "detail": "Listed in Cal Poly Academic Catalog MS CS required-courses table. Trailing footnote/unit digits from text extract omitted; unit count not asserted here.",
+      "sourceUrl": "https://catalog.calpoly.edu/engineering/computer-science-software/computer-science-ms/",
+      "quote": "CSC 5591Research in Computer Science"
+    }
+  ]
+}

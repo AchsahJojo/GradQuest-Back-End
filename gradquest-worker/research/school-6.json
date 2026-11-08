@@ -1,0 +1,737 @@
+{
+  "schoolId": 6,
+  "schoolName": "California State University, Fullerton",
+  "programName": "Computer Science, M.S.",
+  "pages": [
+    {
+      "kind": "overview",
+      "url": "https://www.fullerton.edu/ecs/cs/"
+    },
+    {
+      "kind": "faculty",
+      "url": "https://www.fullerton.edu/ecs/faculty/apanangadan/"
+    },
+    {
+      "kind": "faculty",
+      "url": "https://www.fullerton.edu/ecs/faculty/pinventado/"
+    },
+    {
+      "kind": "faculty",
+      "url": "https://www.fullerton.edu/ecs/faculty/whan/"
+    },
+    {
+      "kind": "admissions",
+      "url": "https://www.fullerton.edu/ecs/academics/graduate-admissions.html"
+    },
+    {
+      "kind": "admissions",
+      "url": "https://www.fullerton.edu/graduate/apply/"
+    },
+    {
+      "kind": "deadlines",
+      "url": "https://www.fullerton.edu/ecs/academics/graduate-admissions.html"
+    },
+    {
+      "kind": "deadlines",
+      "url": "https://admissions.fullerton.edu/deadlines"
+    },
+    {
+      "kind": "curriculum",
+      "url": "https://catalog.fullerton.edu/preview_program.php?catoid=70&poid=32661"
+    },
+    {
+      "kind": "curriculum",
+      "url": "https://catalog.fullerton.edu/preview_program.php?catoid=101&poid=47271"
+    }
+  ],
+  "facts": [
+    {
+      "id": "f3",
+      "kind": "overview",
+      "name": "Live department homepage",
+      "detail": "Undergraduate and graduate programs offered.",
+      "sourceUrl": "https://www.fullerton.edu/ecs/cs/",
+      "quote": "we offer a variety of Computer Science undergraduate and graduate programs."
+    },
+    {
+      "id": "f4",
+      "kind": "overview",
+      "name": "Faculty count on homepage",
+      "detail": "22 tenured and tenure-track faculty.",
+      "sourceUrl": "https://www.fullerton.edu/ecs/cs/",
+      "quote": "With 22 tenured and tenure-track faculty members"
+    },
+    {
+      "id": "f60",
+      "kind": "faculty",
+      "name": "Anand Panangadan",
+      "detail": "Live profile. AI/ML applications.",
+      "sourceUrl": "https://www.fullerton.edu/ecs/faculty/apanangadan/",
+      "quote": "applications of artificial intelligence and machine learning"
+    },
+    {
+      "id": "f61",
+      "kind": "faculty",
+      "name": "Anand Panangadan",
+      "detail": "Live profile domains.",
+      "sourceUrl": "https://www.fullerton.edu/ecs/faculty/apanangadan/",
+      "quote": "homelessness, transportation, healthcare, earth science, sensor networks, and robotics."
+    },
+    {
+      "id": "f62",
+      "kind": "faculty",
+      "name": "Paul Salvador Inventado",
+      "detail": "Live profile. EDM/ITS.",
+      "sourceUrl": "https://www.fullerton.edu/ecs/faculty/pinventado/",
+      "quote": "educational data mining, machine learning, intelligent tutoring systems, CS education, and STEM education."
+    },
+    {
+      "id": "f63",
+      "kind": "faculty",
+      "name": "Wenlin Han",
+      "detail": "Live profile. Cybersecurity/blockchain.",
+      "sourceUrl": "https://www.fullerton.edu/ecs/faculty/whan/",
+      "quote": "Cybersecurity and Blockchain. Recent interests include DeFi, GameFi, NFTs and Metaverse."
+    },
+    {
+      "id": "f100",
+      "kind": "requirement",
+      "name": "$70 application fee via Cal State Apply",
+      "detail": "ECS college graduate admissions page. Achsah confirms the ECS college page governs admission requirements for the CS program specifically.",
+      "sourceUrl": "https://www.fullerton.edu/ecs/academics/graduate-admissions.html",
+      "quote": "pay the $70 application processing fee at Cal State Apply"
+    },
+    {
+      "id": "f101",
+      "kind": "requirement",
+      "name": "No personal statement/SOP required for MS CS",
+      "detail": "ECS college graduate admissions page, which Achsah confirms governs CS-specific requirements. Achsah confirms CSUF does not require a personal statement/SOP for the MS Computer Science program. Also lists letters of recommendation, resumes, and GRE/GMAT as not required.",
+      "sourceUrl": "https://www.fullerton.edu/ecs/academics/graduate-admissions.html",
+      "quote": "Please do not submit any of the following items as they are not required for admission: Personal Statements Letter of Recommendations High School Transcripts Certificates of Accomplishments / Trainings Resumes / Work Experience GRE or GMAT Scores"
+    },
+    {
+      "id": "f102",
+      "kind": "requirement",
+      "name": "Official documents and ELP scores before document deadlines",
+      "detail": "ECS college graduate admissions page, which Achsah confirms governs CS-specific requirements.",
+      "sourceUrl": "https://www.fullerton.edu/ecs/academics/graduate-admissions.html",
+      "quote": "Official documents and required English Language Proficiency test scores must be submitted and processed before document deadlines."
+    },
+    {
+      "id": "f103",
+      "kind": "requirement",
+      "name": "30 units for ECS master's programs",
+      "detail": "ECS college graduate admissions page, which Achsah confirms governs CS-specific requirements. Applies to all ECS master's programs.",
+      "sourceUrl": "https://www.fullerton.edu/ecs/academics/graduate-admissions.html",
+      "quote": "All of the master's programs require 30 units to receive your degree."
+    },
+    {
+      "id": "f104",
+      "kind": "requirement",
+      "name": "International students must stay full-time",
+      "detail": "ECS college graduate admissions page, which Achsah confirms governs CS-specific requirements.",
+      "sourceUrl": "https://www.fullerton.edu/ecs/academics/graduate-admissions.html",
+      "quote": "International students must maintain their full-time student status."
+    },
+    {
+      "id": "f105",
+      "kind": "requirement",
+      "name": "F-1 applicants and online programs",
+      "detail": "ECS college graduate admissions page, which Achsah confirms governs CS-specific requirements.",
+      "sourceUrl": "https://www.fullerton.edu/ecs/academics/graduate-admissions.html",
+      "quote": "Students seeking an F1 Visa are not currently eligible to apply for online graduate programs."
+    },
+    {
+      "id": "f117",
+      "kind": "requirement",
+      "name": "No application fee waiver",
+      "detail": "ECS college graduate admissions page, which Achsah confirms governs CS-specific requirements.",
+      "sourceUrl": "https://www.fullerton.edu/ecs/academics/graduate-admissions.html",
+      "quote": "An application fee waiver is not available."
+    },
+    {
+      "id": "f106",
+      "kind": "requirement",
+      "name": "University minimum GPA 2.5",
+      "detail": "Office of Graduate Studies, institution-wide baseline requirement that applies alongside the CS-specific list above (not in conflict; general eligibility floor, not a materials requirement).",
+      "sourceUrl": "https://www.fullerton.edu/graduate/apply/",
+      "quote": "University requirements include having a minimum GPA of 2.5 (cumulative or last 60 semester GPA units), a bachelor’s degree from an institutionally accredited college or university, and good standing with the last attended institution."
+    },
+    {
+      "id": "f107",
+      "kind": "requirement",
+      "name": "4-year degree or equivalent",
+      "detail": "Office of Graduate Studies, institution-wide baseline requirement that applies alongside the CS-specific list above. 3-year degrees may use a WES/IEE equivalency report.",
+      "sourceUrl": "https://www.fullerton.edu/graduate/apply/",
+      "quote": "CSUF will only accept 4-year degrees or equivalent."
+    },
+    {
+      "id": "f108",
+      "kind": "requirement",
+      "name": "English Language Proficiency test for non-US attendees",
+      "detail": "Office of Graduate Studies, institution-wide baseline requirement that applies alongside the CS-specific list above. Duolingo accepted.",
+      "sourceUrl": "https://www.fullerton.edu/graduate/apply/",
+      "quote": "Students who attended a university outside of the United States and do not qualify for a waiver must take an English Language Proficiency (ELP) test"
+    },
+    {
+      "id": "f109",
+      "kind": "requirement",
+      "name": "One program per campus per semester",
+      "detail": "Office of Graduate Studies, institution-wide baseline requirement that applies alongside the CS-specific list above.",
+      "sourceUrl": "https://www.fullerton.edu/graduate/apply/",
+      "quote": "You can only apply to one program per campus, for a given semester."
+    },
+    {
+      "id": "f110",
+      "kind": "requirement",
+      "name": "No deferral of admission",
+      "detail": "Office of Graduate Studies, institution-wide baseline requirement that applies alongside the CS-specific list above.",
+      "sourceUrl": "https://www.fullerton.edu/graduate/apply/",
+      "quote": "Please note, students cannot defer their admissions."
+    },
+    {
+      "id": "f111",
+      "kind": "deadline",
+      "name": "Fall 2027 applications open",
+      "detail": "ECS college graduate admissions page, which Achsah confirms governs CS-specific deadlines. Fall 2027 cycle, all ECS programs.",
+      "sourceUrl": "https://www.fullerton.edu/ecs/academics/graduate-admissions.html",
+      "quote": "Fall 2027 Applications Open (all programs): October 1, 2026"
+    },
+    {
+      "id": "f112",
+      "kind": "deadline",
+      "name": "Fall 2027 Computer Science applications close",
+      "detail": "ECS college graduate admissions page, which Achsah confirms governs CS-specific deadlines. Fall 2027 cycle; date shared by Civil & Environmental Engineering and Computer Science programs.",
+      "sourceUrl": "https://www.fullerton.edu/ecs/academics/graduate-admissions.html",
+      "quote": "Civil & Environmental Engineering and Computer Science Programs Applications Close: May 1, 2027 Deadline to submit all documents: May 15, 2027"
+    },
+    {
+      "id": "f113",
+      "kind": "deadline",
+      "name": "Fall 2027 deposit deadline",
+      "detail": "ECS college graduate admissions page, which Achsah confirms governs CS-specific deadlines. Fall 2027 cycle, all ECS programs.",
+      "sourceUrl": "https://www.fullerton.edu/ecs/academics/graduate-admissions.html",
+      "quote": "Deadline to accept and pay deposit fee for all programs → June 1, 2027"
+    },
+    {
+      "id": "f114",
+      "kind": "deadline",
+      "name": "Spring 2027 application window",
+      "detail": "ECS college graduate admissions page, which Achsah confirms governs CS-specific deadlines. Spring 2027 cycle, all ECS programs (Computer Science listed among Spring 2027 graduate programs).",
+      "sourceUrl": "https://www.fullerton.edu/ecs/academics/graduate-admissions.html",
+      "quote": "Spring 2027 Applications Open (all programs): July 1, 2026 Applications Close: December 1, 2026 Deadline to submit all documents: December 15, 2026"
+    },
+    {
+      "id": "f115",
+      "kind": "deadline",
+      "name": "Computer Science offered Spring 2027 and Fall 2027",
+      "detail": "ECS college graduate admissions page, which Achsah confirms governs CS-specific deadlines.",
+      "sourceUrl": "https://www.fullerton.edu/ecs/academics/graduate-admissions.html",
+      "quote": "Spring 2027 Graduate Programs Civil Engineering Computer Engineering Computer Science"
+    },
+    {
+      "id": "f116",
+      "kind": "deadline",
+      "name": "Graduate deadlines vary by program",
+      "detail": "Institution-wide note on Office of Admissions deadlines page (page mainly lists undergraduate dates).",
+      "sourceUrl": "https://admissions.fullerton.edu/deadlines",
+      "quote": "Credential, post-baccalaureate, and graduate programs may not accept applicants every term, and deadlines vary."
+    },
+    {
+      "id": "f300",
+      "kind": "overview",
+      "name": "Program summary",
+      "detail": "Current (2026-2027) CSUF catalog page for Computer Science, M.S. (catoid=101, poid=47271) — the exact page our automated fetch is bot-blocked on; Achsah confirmed this content directly by saving the live page as a PDF from her own browser.",
+      "sourceUrl": "https://catalog.fullerton.edu/preview_program.php?catoid=101&poid=47271",
+      "quote": "The Master of Science in Computer Science program emphasizes the study of advanced computational theory and practice to prepare students for successful careers in computer science."
+    },
+    {
+      "id": "f301",
+      "kind": "requirement",
+      "name": "Admission GPA — CS/engineering, domestic",
+      "detail": "Current (2026-2027) CSUF catalog page for Computer Science, M.S. (catoid=101, poid=47271) — the exact page our automated fetch is bot-blocked on; Achsah confirmed this content directly by saving the live page as a PDF from her own browser.",
+      "sourceUrl": "https://catalog.fullerton.edu/preview_program.php?catoid=101&poid=47271",
+      "quote": "Minimum GPA of 2.5 for applicants graduated from domestic (U.S.) institutions with undergraduate degrees in engineering or computer science."
+    },
+    {
+      "id": "f302",
+      "kind": "requirement",
+      "name": "Admission GPA — CS/engineering, ABET international",
+      "detail": "Current (2026-2027) CSUF catalog page for Computer Science, M.S. (catoid=101, poid=47271) — the exact page our automated fetch is bot-blocked on; Achsah confirmed this content directly by saving the live page as a PDF from her own browser.",
+      "sourceUrl": "https://catalog.fullerton.edu/preview_program.php?catoid=101&poid=47271",
+      "quote": "Minimum GPA of 2.5 for applicants graduated from ABET-accredited international institutions with undergraduate degrees in engineering or computer science."
+    },
+    {
+      "id": "f303",
+      "kind": "requirement",
+      "name": "Admission GPA — other majors, domestic",
+      "detail": "Current (2026-2027) CSUF catalog page for Computer Science, M.S. (catoid=101, poid=47271) — the exact page our automated fetch is bot-blocked on; Achsah confirmed this content directly by saving the live page as a PDF from her own browser.",
+      "sourceUrl": "https://catalog.fullerton.edu/preview_program.php?catoid=101&poid=47271",
+      "quote": "Minimum GPA of 3.0 for applicants graduated from domestic (U.S.) institutions with undergraduate degrees other than engineering or computer science."
+    },
+    {
+      "id": "f304",
+      "kind": "requirement",
+      "name": "Admission GPA — other majors, non-ABET international",
+      "detail": "Current (2026-2027) CSUF catalog page for Computer Science, M.S. (catoid=101, poid=47271) — the exact page our automated fetch is bot-blocked on; Achsah confirmed this content directly by saving the live page as a PDF from her own browser.",
+      "sourceUrl": "https://catalog.fullerton.edu/preview_program.php?catoid=101&poid=47271",
+      "quote": "Minimum GPA of 3.0 for applicants with undergraduate degrees from non-ABET-accredited international institutions."
+    },
+    {
+      "id": "f305",
+      "kind": "requirement",
+      "name": "Prerequisite programming course",
+      "detail": "Current (2026-2027) CSUF catalog page for Computer Science, M.S. (catoid=101, poid=47271) — the exact page our automated fetch is bot-blocked on; Achsah confirmed this content directly by saving the live page as a PDF from her own browser.",
+      "sourceUrl": "https://catalog.fullerton.edu/preview_program.php?catoid=101&poid=47271",
+      "quote": "Students without an undergraduate degree in computer science must have completed at least one course in computer programming with a grade of at least “B-” within the past 2 years."
+    },
+    {
+      "id": "f306",
+      "kind": "requirement",
+      "name": "Classified standing prerequisite courses",
+      "detail": "Current (2026-2027) CSUF catalog page for Computer Science, M.S. (catoid=101, poid=47271) — the exact page our automated fetch is bot-blocked on; Achsah confirmed this content directly by saving the live page as a PDF from her own browser. Note: MATH 170A/170B, not MATH 270A/270B as in the archived 2021-2022 catalog — this changed.",
+      "sourceUrl": "https://catalog.fullerton.edu/preview_program.php?catoid=101&poid=47271",
+      "quote": "CPSC 121, CPSC 131,CPSC 240, CPSC 323, CPSC 335, CPSC 351, CPSC 362, MATH 170A, MATH 170B, MATH 338."
+    },
+    {
+      "id": "f307",
+      "kind": "requirement",
+      "name": "15 units must be CS-department courses",
+      "detail": "Current (2026-2027) CSUF catalog page for Computer Science, M.S. (catoid=101, poid=47271) — the exact page our automated fetch is bot-blocked on; Achsah confirmed this content directly by saving the live page as a PDF from her own browser.",
+      "sourceUrl": "https://catalog.fullerton.edu/preview_program.php?catoid=101&poid=47271",
+      "quote": "At least 15 of the total units shall represent courses offered by the Department of Computer Science."
+    },
+    {
+      "id": "f308",
+      "kind": "requirement",
+      "name": "Core requirement structure",
+      "detail": "Current (2026-2027) CSUF catalog page for Computer Science, M.S. (catoid=101, poid=47271) — the exact page our automated fetch is bot-blocked on; Achsah confirmed this content directly by saving the live page as a PDF from her own browser. Core (9 units) section; renamed from \"Required Electives\" in the archived catalog.",
+      "sourceUrl": "https://catalog.fullerton.edu/preview_program.php?catoid=101&poid=47271",
+      "quote": "Select 3 units from three of the areas below."
+    },
+    {
+      "id": "f309",
+      "kind": "course",
+      "name": "CPSC 531 - Advanced Database Management",
+      "detail": "Current (2026-2027) CSUF catalog page for Computer Science, M.S. (catoid=101, poid=47271) — the exact page our automated fetch is bot-blocked on; Achsah confirmed this content directly by saving the live page as a PDF from her own browser. Core category: Computer Applications.",
+      "sourceUrl": "https://catalog.fullerton.edu/preview_program.php?catoid=101&poid=47271",
+      "quote": "CPSC 531 - Advanced Database Management (3)"
+    },
+    {
+      "id": "f310",
+      "kind": "course",
+      "name": "CPSC 559 - Advanced Blockchain Technologies",
+      "detail": "Current (2026-2027) CSUF catalog page for Computer Science, M.S. (catoid=101, poid=47271) — the exact page our automated fetch is bot-blocked on; Achsah confirmed this content directly by saving the live page as a PDF from her own browser. Core category: Computer Applications — new since the archived 2021-2022 catalog.",
+      "sourceUrl": "https://catalog.fullerton.edu/preview_program.php?catoid=101&poid=47271",
+      "quote": "CPSC 559 - Advanced Blockchain Technologies (3)"
+    },
+    {
+      "id": "f311",
+      "kind": "course",
+      "name": "CPSC 566 - Advanced Computer Graphics",
+      "detail": "Current (2026-2027) CSUF catalog page for Computer Science, M.S. (catoid=101, poid=47271) — the exact page our automated fetch is bot-blocked on; Achsah confirmed this content directly by saving the live page as a PDF from her own browser. Core category: Computer Applications.",
+      "sourceUrl": "https://catalog.fullerton.edu/preview_program.php?catoid=101&poid=47271",
+      "quote": "CPSC 566 - Advanced Computer Graphics (3)"
+    },
+    {
+      "id": "f312",
+      "kind": "course",
+      "name": "CPSC 583 - Knowledge Representation and Reasoning",
+      "detail": "Current (2026-2027) CSUF catalog page for Computer Science, M.S. (catoid=101, poid=47271) — the exact page our automated fetch is bot-blocked on; Achsah confirmed this content directly by saving the live page as a PDF from her own browser. Core category: Computer Applications — renamed from \"Expert Systems Design Theory\" in the archived catalog.",
+      "sourceUrl": "https://catalog.fullerton.edu/preview_program.php?catoid=101&poid=47271",
+      "quote": "CPSC 583 - Knowledge Representation and Reasoning (3)"
+    },
+    {
+      "id": "f313",
+      "kind": "course",
+      "name": "CPSC 585 - Neural Networks, Deep Learning, and Reinforcement Learning",
+      "detail": "Current (2026-2027) CSUF catalog page for Computer Science, M.S. (catoid=101, poid=47271) — the exact page our automated fetch is bot-blocked on; Achsah confirmed this content directly by saving the live page as a PDF from her own browser. Core category: Computer Applications — renamed from \"Artificial Neural Networks\" in the archived catalog.",
+      "sourceUrl": "https://catalog.fullerton.edu/preview_program.php?catoid=101&poid=47271",
+      "quote": "CPSC 585 - Neural Networks, Deep Learning, and Reinforcement Learning (3)"
+    },
+    {
+      "id": "f314",
+      "kind": "course",
+      "name": "CPSC 551 - Operating Systems Design",
+      "detail": "Current (2026-2027) CSUF catalog page for Computer Science, M.S. (catoid=101, poid=47271) — the exact page our automated fetch is bot-blocked on; Achsah confirmed this content directly by saving the live page as a PDF from her own browser. Core category: Computer Systems.",
+      "sourceUrl": "https://catalog.fullerton.edu/preview_program.php?catoid=101&poid=47271",
+      "quote": "CPSC 551 - Operating Systems Design (3)"
+    },
+    {
+      "id": "f315",
+      "kind": "course",
+      "name": "CPSC 552 - Cyber Forensics",
+      "detail": "Current (2026-2027) CSUF catalog page for Computer Science, M.S. (catoid=101, poid=47271) — the exact page our automated fetch is bot-blocked on; Achsah confirmed this content directly by saving the live page as a PDF from her own browser. Core category: Computer Systems.",
+      "sourceUrl": "https://catalog.fullerton.edu/preview_program.php?catoid=101&poid=47271",
+      "quote": "CPSC 552 - Cyber Forensics (3)"
+    },
+    {
+      "id": "f316",
+      "kind": "course",
+      "name": "CPSC 558 - Advanced Computer Networking",
+      "detail": "Current (2026-2027) CSUF catalog page for Computer Science, M.S. (catoid=101, poid=47271) — the exact page our automated fetch is bot-blocked on; Achsah confirmed this content directly by saving the live page as a PDF from her own browser. Core category: Computer Systems.",
+      "sourceUrl": "https://catalog.fullerton.edu/preview_program.php?catoid=101&poid=47271",
+      "quote": "CPSC 558 - Advanced Computer Networking (3)"
+    },
+    {
+      "id": "f317",
+      "kind": "course",
+      "name": "CPSC 541 - Systems and Software Standards and Requirements",
+      "detail": "Current (2026-2027) CSUF catalog page for Computer Science, M.S. (catoid=101, poid=47271) — the exact page our automated fetch is bot-blocked on; Achsah confirmed this content directly by saving the live page as a PDF from her own browser. Core category: Software Engineering.",
+      "sourceUrl": "https://catalog.fullerton.edu/preview_program.php?catoid=101&poid=47271",
+      "quote": "CPSC 541 - Systems and Software Standards and Requirements (3)"
+    },
+    {
+      "id": "f318",
+      "kind": "course",
+      "name": "CPSC 542 - Software Verification and Validation",
+      "detail": "Current (2026-2027) CSUF catalog page for Computer Science, M.S. (catoid=101, poid=47271) — the exact page our automated fetch is bot-blocked on; Achsah confirmed this content directly by saving the live page as a PDF from her own browser. Core category: Software Engineering.",
+      "sourceUrl": "https://catalog.fullerton.edu/preview_program.php?catoid=101&poid=47271",
+      "quote": "CPSC 542 - Software Verification and Validation (3)"
+    },
+    {
+      "id": "f319",
+      "kind": "course",
+      "name": "CPSC 543 - Software Maintenance",
+      "detail": "Current (2026-2027) CSUF catalog page for Computer Science, M.S. (catoid=101, poid=47271) — the exact page our automated fetch is bot-blocked on; Achsah confirmed this content directly by saving the live page as a PDF from her own browser. Core category: Software Engineering.",
+      "sourceUrl": "https://catalog.fullerton.edu/preview_program.php?catoid=101&poid=47271",
+      "quote": "CPSC 543 - Software Maintenance (3)"
+    },
+    {
+      "id": "f320",
+      "kind": "course",
+      "name": "CPSC 544 - Advanced Software Process",
+      "detail": "Current (2026-2027) CSUF catalog page for Computer Science, M.S. (catoid=101, poid=47271) — the exact page our automated fetch is bot-blocked on; Achsah confirmed this content directly by saving the live page as a PDF from her own browser. Core category: Software Engineering.",
+      "sourceUrl": "https://catalog.fullerton.edu/preview_program.php?catoid=101&poid=47271",
+      "quote": "CPSC 544 - Advanced Software Process (3)"
+    },
+    {
+      "id": "f321",
+      "kind": "course",
+      "name": "CPSC 545 - Software Design and Architecture",
+      "detail": "Current (2026-2027) CSUF catalog page for Computer Science, M.S. (catoid=101, poid=47271) — the exact page our automated fetch is bot-blocked on; Achsah confirmed this content directly by saving the live page as a PDF from her own browser. Core category: Software Engineering.",
+      "sourceUrl": "https://catalog.fullerton.edu/preview_program.php?catoid=101&poid=47271",
+      "quote": "CPSC 545 - Software Design and Architecture (3)"
+    },
+    {
+      "id": "f322",
+      "kind": "course",
+      "name": "CPSC 546 - Modern Software Management",
+      "detail": "Current (2026-2027) CSUF catalog page for Computer Science, M.S. (catoid=101, poid=47271) — the exact page our automated fetch is bot-blocked on; Achsah confirmed this content directly by saving the live page as a PDF from her own browser. Core category: Software Engineering.",
+      "sourceUrl": "https://catalog.fullerton.edu/preview_program.php?catoid=101&poid=47271",
+      "quote": "CPSC 546 - Modern Software Management (3)"
+    },
+    {
+      "id": "f323",
+      "kind": "course",
+      "name": "CPSC 547 - Software Measurement",
+      "detail": "Current (2026-2027) CSUF catalog page for Computer Science, M.S. (catoid=101, poid=47271) — the exact page our automated fetch is bot-blocked on; Achsah confirmed this content directly by saving the live page as a PDF from her own browser. Core category: Software Engineering.",
+      "sourceUrl": "https://catalog.fullerton.edu/preview_program.php?catoid=101&poid=47271",
+      "quote": "CPSC 547 - Software Measurement (3)"
+    },
+    {
+      "id": "f324",
+      "kind": "course",
+      "name": "CPSC 548 - Professional, Ethical and Legal Issues for Software Engineers",
+      "detail": "Current (2026-2027) CSUF catalog page for Computer Science, M.S. (catoid=101, poid=47271) — the exact page our automated fetch is bot-blocked on; Achsah confirmed this content directly by saving the live page as a PDF from her own browser. Core category: Software Engineering.",
+      "sourceUrl": "https://catalog.fullerton.edu/preview_program.php?catoid=101&poid=47271",
+      "quote": "CPSC 548 - Professional, Ethical and Legal Issues for Software Engineers (3)"
+    },
+    {
+      "id": "f325",
+      "kind": "course",
+      "name": "CPSC 535 - Advanced Algorithms",
+      "detail": "Current (2026-2027) CSUF catalog page for Computer Science, M.S. (catoid=101, poid=47271) — the exact page our automated fetch is bot-blocked on; Achsah confirmed this content directly by saving the live page as a PDF from her own browser. Core category: Theoretical Computer Science.",
+      "sourceUrl": "https://catalog.fullerton.edu/preview_program.php?catoid=101&poid=47271",
+      "quote": "CPSC 535 - Advanced Algorithms (3)"
+    },
+    {
+      "id": "f326",
+      "kind": "requirement",
+      "name": "Electives structure",
+      "detail": "Current (2026-2027) CSUF catalog page for Computer Science, M.S. (catoid=101, poid=47271) — the exact page our automated fetch is bot-blocked on; Achsah confirmed this content directly by saving the live page as a PDF from her own browser. Electives (15 units) section. The archived 2021-2022 catalog did not enumerate a specific elective course list; the current catalog does (added below).",
+      "sourceUrl": "https://catalog.fullerton.edu/preview_program.php?catoid=101&poid=47271",
+      "quote": "Other courses may be chosen with approval of the departmental graduate adviser. A maximum 9 units of 400-level courses are allowed."
+    },
+    {
+      "id": "f327",
+      "kind": "course",
+      "name": "CPSC 411 - Mobile Device Application Programming",
+      "detail": "Current (2026-2027) CSUF catalog page for Computer Science, M.S. (catoid=101, poid=47271) — the exact page our automated fetch is bot-blocked on; Achsah confirmed this content directly by saving the live page as a PDF from her own browser. Listed in the Electives (15 units) section.",
+      "sourceUrl": "https://catalog.fullerton.edu/preview_program.php?catoid=101&poid=47271",
+      "quote": "CPSC 411 - Mobile Device Application Programming (3)"
+    },
+    {
+      "id": "f328",
+      "kind": "course",
+      "name": "CPSC 411A - Mobile Device Application Programming for Android",
+      "detail": "Current (2026-2027) CSUF catalog page for Computer Science, M.S. (catoid=101, poid=47271) — the exact page our automated fetch is bot-blocked on; Achsah confirmed this content directly by saving the live page as a PDF from her own browser. Listed in the Electives (15 units) section.",
+      "sourceUrl": "https://catalog.fullerton.edu/preview_program.php?catoid=101&poid=47271",
+      "quote": "CPSC 411A - Mobile Device Application Programming for Android (3)"
+    },
+    {
+      "id": "f329",
+      "kind": "course",
+      "name": "CPSC 431 - Database and Applications",
+      "detail": "Current (2026-2027) CSUF catalog page for Computer Science, M.S. (catoid=101, poid=47271) — the exact page our automated fetch is bot-blocked on; Achsah confirmed this content directly by saving the live page as a PDF from her own browser. Listed in the Electives (15 units) section.",
+      "sourceUrl": "https://catalog.fullerton.edu/preview_program.php?catoid=101&poid=47271",
+      "quote": "CPSC 431 - Database and Applications (3)"
+    },
+    {
+      "id": "f330",
+      "kind": "course",
+      "name": "CPSC 439 - Theory of Computation",
+      "detail": "Current (2026-2027) CSUF catalog page for Computer Science, M.S. (catoid=101, poid=47271) — the exact page our automated fetch is bot-blocked on; Achsah confirmed this content directly by saving the live page as a PDF from her own browser. Listed in the Electives (15 units) section.",
+      "sourceUrl": "https://catalog.fullerton.edu/preview_program.php?catoid=101&poid=47271",
+      "quote": "CPSC 439 - Theory of Computation (3)"
+    },
+    {
+      "id": "f331",
+      "kind": "course",
+      "name": "CPSC 440 - Computer System Architecture",
+      "detail": "Current (2026-2027) CSUF catalog page for Computer Science, M.S. (catoid=101, poid=47271) — the exact page our automated fetch is bot-blocked on; Achsah confirmed this content directly by saving the live page as a PDF from her own browser. Listed in the Electives (15 units) section.",
+      "sourceUrl": "https://catalog.fullerton.edu/preview_program.php?catoid=101&poid=47271",
+      "quote": "CPSC 440 - Computer System Architecture (3)"
+    },
+    {
+      "id": "f332",
+      "kind": "course",
+      "name": "CPSC 449 - Web Back-End Engineering",
+      "detail": "Current (2026-2027) CSUF catalog page for Computer Science, M.S. (catoid=101, poid=47271) — the exact page our automated fetch is bot-blocked on; Achsah confirmed this content directly by saving the live page as a PDF from her own browser. Listed in the Electives (15 units) section.",
+      "sourceUrl": "https://catalog.fullerton.edu/preview_program.php?catoid=101&poid=47271",
+      "quote": "CPSC 449 - Web Back-End Engineering (3)"
+    },
+    {
+      "id": "f333",
+      "kind": "course",
+      "name": "CPSC 454 - Cloud Computing and Security",
+      "detail": "Current (2026-2027) CSUF catalog page for Computer Science, M.S. (catoid=101, poid=47271) — the exact page our automated fetch is bot-blocked on; Achsah confirmed this content directly by saving the live page as a PDF from her own browser. Listed in the Electives (15 units) section.",
+      "sourceUrl": "https://catalog.fullerton.edu/preview_program.php?catoid=101&poid=47271",
+      "quote": "CPSC 454 - Cloud Computing and Security (3)"
+    },
+    {
+      "id": "f334",
+      "kind": "course",
+      "name": "CPSC 455 - Web Security",
+      "detail": "Current (2026-2027) CSUF catalog page for Computer Science, M.S. (catoid=101, poid=47271) — the exact page our automated fetch is bot-blocked on; Achsah confirmed this content directly by saving the live page as a PDF from her own browser. Listed in the Electives (15 units) section.",
+      "sourceUrl": "https://catalog.fullerton.edu/preview_program.php?catoid=101&poid=47271",
+      "quote": "CPSC 455 - Web Security (3)"
+    },
+    {
+      "id": "f335",
+      "kind": "course",
+      "name": "CPSC 456 - Network Security",
+      "detail": "Current (2026-2027) CSUF catalog page for Computer Science, M.S. (catoid=101, poid=47271) — the exact page our automated fetch is bot-blocked on; Achsah confirmed this content directly by saving the live page as a PDF from her own browser. Listed in the Electives (15 units) section.",
+      "sourceUrl": "https://catalog.fullerton.edu/preview_program.php?catoid=101&poid=47271",
+      "quote": "CPSC 456 - Network Security (3)"
+    },
+    {
+      "id": "f336",
+      "kind": "course",
+      "name": "CPSC 458 - Malware Analysis",
+      "detail": "Current (2026-2027) CSUF catalog page for Computer Science, M.S. (catoid=101, poid=47271) — the exact page our automated fetch is bot-blocked on; Achsah confirmed this content directly by saving the live page as a PDF from her own browser. Listed in the Electives (15 units) section.",
+      "sourceUrl": "https://catalog.fullerton.edu/preview_program.php?catoid=101&poid=47271",
+      "quote": "CPSC 458 - Malware Analysis (3)"
+    },
+    {
+      "id": "f337",
+      "kind": "course",
+      "name": "CPSC 459 - Blockchain Technologies",
+      "detail": "Current (2026-2027) CSUF catalog page for Computer Science, M.S. (catoid=101, poid=47271) — the exact page our automated fetch is bot-blocked on; Achsah confirmed this content directly by saving the live page as a PDF from her own browser. Listed in the Electives (15 units) section.",
+      "sourceUrl": "https://catalog.fullerton.edu/preview_program.php?catoid=101&poid=47271",
+      "quote": "CPSC 459 - Blockchain Technologies (3)"
+    },
+    {
+      "id": "f338",
+      "kind": "course",
+      "name": "CPSC 462 - Software Design",
+      "detail": "Current (2026-2027) CSUF catalog page for Computer Science, M.S. (catoid=101, poid=47271) — the exact page our automated fetch is bot-blocked on; Achsah confirmed this content directly by saving the live page as a PDF from her own browser. Listed in the Electives (15 units) section.",
+      "sourceUrl": "https://catalog.fullerton.edu/preview_program.php?catoid=101&poid=47271",
+      "quote": "CPSC 462 - Software Design (3)"
+    },
+    {
+      "id": "f339",
+      "kind": "course",
+      "name": "CPSC 463 - Software Testing",
+      "detail": "Current (2026-2027) CSUF catalog page for Computer Science, M.S. (catoid=101, poid=47271) — the exact page our automated fetch is bot-blocked on; Achsah confirmed this content directly by saving the live page as a PDF from her own browser. Listed in the Electives (15 units) section.",
+      "sourceUrl": "https://catalog.fullerton.edu/preview_program.php?catoid=101&poid=47271",
+      "quote": "CPSC 463 - Software Testing (3)"
+    },
+    {
+      "id": "f340",
+      "kind": "course",
+      "name": "CPSC 464 - Software Architecture",
+      "detail": "Current (2026-2027) CSUF catalog page for Computer Science, M.S. (catoid=101, poid=47271) — the exact page our automated fetch is bot-blocked on; Achsah confirmed this content directly by saving the live page as a PDF from her own browser. Listed in the Electives (15 units) section.",
+      "sourceUrl": "https://catalog.fullerton.edu/preview_program.php?catoid=101&poid=47271",
+      "quote": "CPSC 464 - Software Architecture (3)"
+    },
+    {
+      "id": "f341",
+      "kind": "course",
+      "name": "CPSC 465 - Modern Software Deployment and Operations",
+      "detail": "Current (2026-2027) CSUF catalog page for Computer Science, M.S. (catoid=101, poid=47271) — the exact page our automated fetch is bot-blocked on; Achsah confirmed this content directly by saving the live page as a PDF from her own browser. Listed in the Electives (15 units) section.",
+      "sourceUrl": "https://catalog.fullerton.edu/preview_program.php?catoid=101&poid=47271",
+      "quote": "CPSC 465 - Modern Software Deployment and Operations (3)"
+    },
+    {
+      "id": "f342",
+      "kind": "course",
+      "name": "CPSC 466 - Software Process",
+      "detail": "Current (2026-2027) CSUF catalog page for Computer Science, M.S. (catoid=101, poid=47271) — the exact page our automated fetch is bot-blocked on; Achsah confirmed this content directly by saving the live page as a PDF from her own browser. Listed in the Electives (15 units) section.",
+      "sourceUrl": "https://catalog.fullerton.edu/preview_program.php?catoid=101&poid=47271",
+      "quote": "CPSC 466 - Software Process (3)"
+    },
+    {
+      "id": "f343",
+      "kind": "course",
+      "name": "CPSC 471 - Computer Communications",
+      "detail": "Current (2026-2027) CSUF catalog page for Computer Science, M.S. (catoid=101, poid=47271) — the exact page our automated fetch is bot-blocked on; Achsah confirmed this content directly by saving the live page as a PDF from her own browser. Listed in the Electives (15 units) section.",
+      "sourceUrl": "https://catalog.fullerton.edu/preview_program.php?catoid=101&poid=47271",
+      "quote": "CPSC 471 - Computer Communications (3)"
+    },
+    {
+      "id": "f344",
+      "kind": "course",
+      "name": "CPSC 474 - Parallel and Distributed Computing",
+      "detail": "Current (2026-2027) CSUF catalog page for Computer Science, M.S. (catoid=101, poid=47271) — the exact page our automated fetch is bot-blocked on; Achsah confirmed this content directly by saving the live page as a PDF from her own browser. Listed in the Electives (15 units) section.",
+      "sourceUrl": "https://catalog.fullerton.edu/preview_program.php?catoid=101&poid=47271",
+      "quote": "CPSC 474 - Parallel and Distributed Computing (3)"
+    },
+    {
+      "id": "f345",
+      "kind": "course",
+      "name": "CPSC 476 - Edge AI: Principles and Practices",
+      "detail": "Current (2026-2027) CSUF catalog page for Computer Science, M.S. (catoid=101, poid=47271) — the exact page our automated fetch is bot-blocked on; Achsah confirmed this content directly by saving the live page as a PDF from her own browser. Listed in the Electives (15 units) section.",
+      "sourceUrl": "https://catalog.fullerton.edu/preview_program.php?catoid=101&poid=47271",
+      "quote": "CPSC 476 - Edge AI: Principles and Practices (3)"
+    },
+    {
+      "id": "f346",
+      "kind": "course",
+      "name": "CPSC 479 - Introduction to High Performance Computing",
+      "detail": "Current (2026-2027) CSUF catalog page for Computer Science, M.S. (catoid=101, poid=47271) — the exact page our automated fetch is bot-blocked on; Achsah confirmed this content directly by saving the live page as a PDF from her own browser. Listed in the Electives (15 units) section.",
+      "sourceUrl": "https://catalog.fullerton.edu/preview_program.php?catoid=101&poid=47271",
+      "quote": "CPSC 479 - Introduction to High Performance Computing (3)"
+    },
+    {
+      "id": "f347",
+      "kind": "course",
+      "name": "CPSC 481 - Artificial Intelligence",
+      "detail": "Current (2026-2027) CSUF catalog page for Computer Science, M.S. (catoid=101, poid=47271) — the exact page our automated fetch is bot-blocked on; Achsah confirmed this content directly by saving the live page as a PDF from her own browser. Listed in the Electives (15 units) section.",
+      "sourceUrl": "https://catalog.fullerton.edu/preview_program.php?catoid=101&poid=47271",
+      "quote": "CPSC 481 - Artificial Intelligence (3)"
+    },
+    {
+      "id": "f348",
+      "kind": "course",
+      "name": "CPSC 483 - Introduction to Machine Learning",
+      "detail": "Current (2026-2027) CSUF catalog page for Computer Science, M.S. (catoid=101, poid=47271) — the exact page our automated fetch is bot-blocked on; Achsah confirmed this content directly by saving the live page as a PDF from her own browser. Listed in the Electives (15 units) section.",
+      "sourceUrl": "https://catalog.fullerton.edu/preview_program.php?catoid=101&poid=47271",
+      "quote": "CPSC 483 - Introduction to Machine Learning (3)"
+    },
+    {
+      "id": "f349",
+      "kind": "course",
+      "name": "CPSC 484 - Principles of Computer Graphics",
+      "detail": "Current (2026-2027) CSUF catalog page for Computer Science, M.S. (catoid=101, poid=47271) — the exact page our automated fetch is bot-blocked on; Achsah confirmed this content directly by saving the live page as a PDF from her own browser. Listed in the Electives (15 units) section.",
+      "sourceUrl": "https://catalog.fullerton.edu/preview_program.php?catoid=101&poid=47271",
+      "quote": "CPSC 484 - Principles of Computer Graphics (3)"
+    },
+    {
+      "id": "f350",
+      "kind": "course",
+      "name": "CPSC 485 - Computational Bioinformatics",
+      "detail": "Current (2026-2027) CSUF catalog page for Computer Science, M.S. (catoid=101, poid=47271) — the exact page our automated fetch is bot-blocked on; Achsah confirmed this content directly by saving the live page as a PDF from her own browser. Listed in the Electives (15 units) section.",
+      "sourceUrl": "https://catalog.fullerton.edu/preview_program.php?catoid=101&poid=47271",
+      "quote": "CPSC 485 - Computational Bioinformatics (3)"
+    },
+    {
+      "id": "f351",
+      "kind": "course",
+      "name": "CPSC 486 - Game Programming",
+      "detail": "Current (2026-2027) CSUF catalog page for Computer Science, M.S. (catoid=101, poid=47271) — the exact page our automated fetch is bot-blocked on; Achsah confirmed this content directly by saving the live page as a PDF from her own browser. Listed in the Electives (15 units) section.",
+      "sourceUrl": "https://catalog.fullerton.edu/preview_program.php?catoid=101&poid=47271",
+      "quote": "CPSC 486 - Game Programming (3)"
+    },
+    {
+      "id": "f352",
+      "kind": "course",
+      "name": "CPSC 487 - Computational Epidemiology",
+      "detail": "Current (2026-2027) CSUF catalog page for Computer Science, M.S. (catoid=101, poid=47271) — the exact page our automated fetch is bot-blocked on; Achsah confirmed this content directly by saving the live page as a PDF from her own browser. Listed in the Electives (15 units) section.",
+      "sourceUrl": "https://catalog.fullerton.edu/preview_program.php?catoid=101&poid=47271",
+      "quote": "CPSC 487 - Computational Epidemiology (3)"
+    },
+    {
+      "id": "f353",
+      "kind": "course",
+      "name": "CPSC 488 - Natural Language Processing",
+      "detail": "Current (2026-2027) CSUF catalog page for Computer Science, M.S. (catoid=101, poid=47271) — the exact page our automated fetch is bot-blocked on; Achsah confirmed this content directly by saving the live page as a PDF from her own browser. Listed in the Electives (15 units) section.",
+      "sourceUrl": "https://catalog.fullerton.edu/preview_program.php?catoid=101&poid=47271",
+      "quote": "CPSC 488 - Natural Language Processing (3)"
+    },
+    {
+      "id": "f354",
+      "kind": "course",
+      "name": "CPSC 515 - Mobile Computing",
+      "detail": "Current (2026-2027) CSUF catalog page for Computer Science, M.S. (catoid=101, poid=47271) — the exact page our automated fetch is bot-blocked on; Achsah confirmed this content directly by saving the live page as a PDF from her own browser. Listed in the Electives (15 units) section.",
+      "sourceUrl": "https://catalog.fullerton.edu/preview_program.php?catoid=101&poid=47271",
+      "quote": "CPSC 515 - Mobile Computing (3)"
+    },
+    {
+      "id": "f355",
+      "kind": "course",
+      "name": "CPSC 533 - Applied Algorithms",
+      "detail": "Current (2026-2027) CSUF catalog page for Computer Science, M.S. (catoid=101, poid=47271) — the exact page our automated fetch is bot-blocked on; Achsah confirmed this content directly by saving the live page as a PDF from her own browser. Listed in the Electives (15 units) section.",
+      "sourceUrl": "https://catalog.fullerton.edu/preview_program.php?catoid=101&poid=47271",
+      "quote": "CPSC 533 - Applied Algorithms (3)"
+    },
+    {
+      "id": "f356",
+      "kind": "course",
+      "name": "CPSC 549 - Web Application Frameworks",
+      "detail": "Current (2026-2027) CSUF catalog page for Computer Science, M.S. (catoid=101, poid=47271) — the exact page our automated fetch is bot-blocked on; Achsah confirmed this content directly by saving the live page as a PDF from her own browser. Listed in the Electives (15 units) section.",
+      "sourceUrl": "https://catalog.fullerton.edu/preview_program.php?catoid=101&poid=47271",
+      "quote": "CPSC 549 - Web Application Frameworks (3)"
+    },
+    {
+      "id": "f357",
+      "kind": "course",
+      "name": "CPSC 599 - Independent Graduate Research",
+      "detail": "Current (2026-2027) CSUF catalog page for Computer Science, M.S. (catoid=101, poid=47271) — the exact page our automated fetch is bot-blocked on; Achsah confirmed this content directly by saving the live page as a PDF from her own browser. Listed in the Electives (15 units) section.",
+      "sourceUrl": "https://catalog.fullerton.edu/preview_program.php?catoid=101&poid=47271",
+      "quote": "CPSC 599 - Independent Graduate Research (1-3)"
+    },
+    {
+      "id": "f358",
+      "kind": "requirement",
+      "name": "Culminating experience requirement",
+      "detail": "Current (2026-2027) CSUF catalog page for Computer Science, M.S. (catoid=101, poid=47271) — the exact page our automated fetch is bot-blocked on; Achsah confirmed this content directly by saving the live page as a PDF from her own browser. Culminating Experience (6 units) section; renamed from \"Required Courses\" in the archived catalog (same 3 courses).",
+      "sourceUrl": "https://catalog.fullerton.edu/preview_program.php?catoid=101&poid=47271",
+      "quote": "The culminating experience marks the end of a graduate program. It demonstrates mastery of disciplinary materials and meets requirements from Section 40510 of Title 5 of the California Code of Regulations."
+    },
+    {
+      "id": "f359",
+      "kind": "course",
+      "name": "CPSC 589 - Seminar in Computer Science",
+      "detail": "Current (2026-2027) CSUF catalog page for Computer Science, M.S. (catoid=101, poid=47271) — the exact page our automated fetch is bot-blocked on; Achsah confirmed this content directly by saving the live page as a PDF from her own browser. Culminating Experience requirement.",
+      "sourceUrl": "https://catalog.fullerton.edu/preview_program.php?catoid=101&poid=47271",
+      "quote": "CPSC 589 - Seminar in Computer Science (3)"
+    },
+    {
+      "id": "f360",
+      "kind": "course",
+      "name": "CPSC 597 - Project",
+      "detail": "Current (2026-2027) CSUF catalog page for Computer Science, M.S. (catoid=101, poid=47271) — the exact page our automated fetch is bot-blocked on; Achsah confirmed this content directly by saving the live page as a PDF from her own browser. Culminating Experience requirement; choice of Project or Thesis. * A “C” (2.0) or better satisfies the graduate writing requirement.",
+      "sourceUrl": "https://catalog.fullerton.edu/preview_program.php?catoid=101&poid=47271",
+      "quote": "CPSC 597 - Project (3) *"
+    },
+    {
+      "id": "f361",
+      "kind": "course",
+      "name": "CPSC 598 - Thesis",
+      "detail": "Current (2026-2027) CSUF catalog page for Computer Science, M.S. (catoid=101, poid=47271) — the exact page our automated fetch is bot-blocked on; Achsah confirmed this content directly by saving the live page as a PDF from her own browser. Culminating Experience requirement; choice of Project or Thesis. * A “C” (2.0) or better satisfies the graduate writing requirement.",
+      "sourceUrl": "https://catalog.fullerton.edu/preview_program.php?catoid=101&poid=47271",
+      "quote": "CPSC 598 - Thesis (3) *"
+    }
+  ]
+}

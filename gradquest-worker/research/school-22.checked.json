@@ -1,0 +1,780 @@
+{
+  "schoolId": 22,
+  "schoolName": "UC San Diego",
+  "programName": "Computer Science and Engineering, M.S.",
+  "pages": [
+    {
+      "kind": "overview",
+      "url": "https://cse.ucsd.edu/graduate/degree-programs/ms-program"
+    },
+    {
+      "kind": "overview",
+      "url": "https://cse.ucsd.edu/research"
+    },
+    {
+      "kind": "admissions",
+      "url": "https://cse.ucsd.edu/graduate/admissions"
+    },
+    {
+      "kind": "curriculum",
+      "url": "https://cse.ucsd.edu/graduate/degree-programs/ms-program"
+    },
+    {
+      "kind": "curriculum",
+      "url": "https://cse.ucsd.edu/graduate/plan-i-thesis"
+    },
+    {
+      "kind": "faculty",
+      "url": "https://cse.ucsd.edu/people/faculty-profiles"
+    },
+    {
+      "kind": "faculty",
+      "url": "https://cseweb.ucsd.edu/~mihir/"
+    },
+    {
+      "kind": "faculty",
+      "url": "https://cseweb.ucsd.edu/~dakane/"
+    },
+    {
+      "kind": "faculty",
+      "url": "https://cseweb.ucsd.edu/~slovett/home.html"
+    },
+    {
+      "kind": "faculty",
+      "url": "https://cseweb.ucsd.edu/~npolikarpova/"
+    },
+    {
+      "kind": "faculty",
+      "url": "https://cseweb.ucsd.edu/~yiying/"
+    },
+    {
+      "kind": "faculty",
+      "url": "https://cseweb.ucsd.edu/~arunkk/"
+    },
+    {
+      "kind": "faculty",
+      "url": "https://cseweb.ucsd.edu/~hadi/"
+    },
+    {
+      "kind": "faculty",
+      "url": "https://cseweb.ucsd.edu/~tullsen/"
+    },
+    {
+      "kind": "faculty",
+      "url": "https://cseweb.ucsd.edu/~savage/"
+    },
+    {
+      "kind": "faculty",
+      "url": "https://cseweb.ucsd.edu/~voelker/"
+    },
+    {
+      "kind": "deadlines",
+      "url": "https://cse.ucsd.edu/graduate/admissions"
+    }
+  ],
+  "snapshotId": "22-20261106",
+  "verifiedAt": "2026-11-06T22:44:50.552Z",
+  "pageHashes": {
+    "https://cse.ucsd.edu/graduate/degree-programs/ms-program": "067384f0abcb2fb6d5ec653a0ffba9ef4ed0a375578d608d3e78440cb20cec53",
+    "https://cse.ucsd.edu/research": "dcaeb46e85b0c683c109421f0f87ca7185778dc0edf0b9a5c0cc98094a6b73b5",
+    "https://cse.ucsd.edu/graduate/admissions": "b981340a6965dd0126d221a4642e2217d15df312f5323f8c1248d38f35298d8a",
+    "https://cse.ucsd.edu/graduate/plan-i-thesis": "387dd1cf2516605cdd5dadf431dfe7d44de67d46a5c8296d77c4d6b54a81ad74",
+    "https://cse.ucsd.edu/people/faculty-profiles": "3d393540c4f7551abba967c048571813b2669fd4ab20eb2218f43e1edb64e2cb",
+    "https://cseweb.ucsd.edu/~mihir/": "3ce51da9185fd971dfdd1d6fda5cbfd6847efd851684e4b4d6eb5fa86a9a5482",
+    "https://cseweb.ucsd.edu/~dakane/": "d109af3a6de2cc4d71364ab1b908b4678e72fb76d9aae07355106eb5ad4d066a",
+    "https://cseweb.ucsd.edu/~slovett/home.html": "68922390cf3cd50dfd6f34c5cf5b485cbfcfbee8d0d8e052def26125e505ea81",
+    "https://cseweb.ucsd.edu/~npolikarpova/": "48f0e6d8b9671e77d89262d6848a4768c048f6ae8a344e3702ebb192ed5b0b49",
+    "https://cseweb.ucsd.edu/~yiying/": "3b788df4a6728e83ddaae257f7326d79d4503a0d10db0b27b4835be028157c33",
+    "https://cseweb.ucsd.edu/~arunkk/": "f7be8347ddc72abe221dbadf7d00fcaafb49ea455fd233695d64d3cafd5ae0e2",
+    "https://cseweb.ucsd.edu/~hadi/": "7d48ee2614efacd8d3a10d6fdac6f813a5b7950436bdd2e9d4f10cf4c753915d",
+    "https://cseweb.ucsd.edu/~tullsen/": "0d5aa13da46d242edae7089d1ed26563704076585a5bfb77b7bba211b9d1f6f0",
+    "https://cseweb.ucsd.edu/~savage/": "e34d23128b1f33fbd747a895132ea590ba8e72a5386d4d4b00430f6532f451bd",
+    "https://cseweb.ucsd.edu/~voelker/": "f9c90703296aebb9f732c6722f4530747a5204cfe3b567eb9c134c8052b0358e"
+  },
+  "facts": [
+    {
+      "id": "f1",
+      "kind": "overview",
+      "name": "CS and CE majors",
+      "detail": "MS offers both majors.",
+      "sourceUrl": "https://cse.ucsd.edu/graduate/degree-programs/ms-program",
+      "quote": "majors in both computer science and computer engineering.",
+      "quoteFound": true,
+      "verified": false,
+      "fetchedAt": "2026-11-06T22:44:50.552Z",
+      "quoteCheck": "auto"
+    },
+    {
+      "id": "f2",
+      "kind": "overview",
+      "name": "Three MS plans",
+      "detail": "Thesis / Comp Standard / Comp Interdisciplinary.",
+      "sourceUrl": "https://cse.ucsd.edu/graduate/degree-programs/ms-program",
+      "quote": "Thesis Plan, Comprehensive Standard Plan, or Comprehensive Interdisciplinary Plan.",
+      "quoteFound": true,
+      "verified": false,
+      "fetchedAt": "2026-11-06T22:44:50.552Z",
+      "quoteCheck": "auto"
+    },
+    {
+      "id": "f3",
+      "kind": "overview",
+      "name": "Degree titles",
+      "detail": "CSE or CSE (Computer Engineering).",
+      "sourceUrl": "https://cse.ucsd.edu/graduate/degree-programs/ms-program",
+      "quote": "Computer Science and Engineering or Computer Science and Engineering (Computer Engineering).",
+      "quoteFound": true,
+      "verified": false,
+      "fetchedAt": "2026-11-06T22:44:50.552Z",
+      "quoteCheck": "auto"
+    },
+    {
+      "id": "f4",
+      "kind": "overview",
+      "name": "Full-time or part-time",
+      "detail": "Industry part-time allowed.",
+      "sourceUrl": "https://cse.ucsd.edu/graduate/degree-programs/ms-program",
+      "quote": "completed full-time or part-time by students working in industry.",
+      "quoteFound": true,
+      "verified": false,
+      "fetchedAt": "2026-11-06T22:44:50.552Z",
+      "quoteCheck": "auto"
+    },
+    {
+      "id": "f5",
+      "kind": "overview",
+      "name": "Department research areas",
+      "detail": "Department-wide strengths list.",
+      "sourceUrl": "https://cse.ucsd.edu/research",
+      "quote": "significant strengths in most major fields of computer science and engineering, including:",
+      "quoteFound": true,
+      "verified": false,
+      "fetchedAt": "2026-11-06T22:44:50.552Z",
+      "quoteCheck": "auto"
+    },
+    {
+      "id": "f6",
+      "kind": "requirement",
+      "name": "Breadth 12 units",
+      "detail": "Three courses; letter grade B- or higher.",
+      "sourceUrl": "https://cse.ucsd.edu/graduate/degree-programs/ms-program",
+      "quote": "three graduate courses (twelve units) to satisfy this requirement. Courses must be taken for a letter grade and completed with grade of B- or higher.",
+      "quoteFound": true,
+      "verified": false,
+      "fetchedAt": "2026-11-06T22:44:50.552Z",
+      "quoteCheck": "auto"
+    },
+    {
+      "id": "f7",
+      "kind": "requirement",
+      "name": "Depth 12 units",
+      "detail": "Three approved depth courses.",
+      "sourceUrl": "https://cse.ucsd.edu/graduate/degree-programs/ms-program",
+      "quote": "three graduate courses (12 units) of approved courses to fulfill the depth requirement.",
+      "quoteFound": true,
+      "verified": false,
+      "fetchedAt": "2026-11-06T22:44:50.552Z",
+      "quoteCheck": "auto"
+    },
+    {
+      "id": "f8",
+      "kind": "requirement",
+      "name": "GPA 3.0 standing",
+      "detail": "Maintain minimum overall GPA 3.0.",
+      "sourceUrl": "https://cse.ucsd.edu/graduate/degree-programs/ms-program",
+      "quote": "minimum overall GPA of 3.0 at UC San Diego.",
+      "quoteFound": true,
+      "verified": false,
+      "fetchedAt": "2026-11-06T22:44:50.552Z",
+      "quoteCheck": "auto"
+    },
+    {
+      "id": "f9",
+      "kind": "requirement",
+      "name": "CSE 298 thesis units",
+      "detail": "8–12 units CSE 298 for thesis plan.",
+      "sourceUrl": "https://cse.ucsd.edu/graduate/degree-programs/ms-program",
+      "quote": "minimum of eight and maximum of twelve units of CSE 298 (Independent Research) is required.",
+      "quoteFound": true,
+      "verified": false,
+      "fetchedAt": "2026-11-06T22:44:50.552Z",
+      "quoteCheck": "auto"
+    },
+    {
+      "id": "f10",
+      "kind": "requirement",
+      "name": "Admission GPA",
+      "detail": "At least 3.0 GPA.",
+      "sourceUrl": "https://cse.ucsd.edu/graduate/admissions",
+      "quote": "At least a B average (3.0 GPA) or its equivalent is required for admission.",
+      "quoteFound": true,
+      "verified": false,
+      "fetchedAt": "2026-11-06T22:44:50.552Z",
+      "quoteCheck": "auto"
+    },
+    {
+      "id": "f11",
+      "kind": "requirement",
+      "name": "Preferred undergrad majors",
+      "detail": "CS/CE/EE/math preferred.",
+      "sourceUrl": "https://cse.ucsd.edu/graduate/admissions",
+      "quote": "bachelor's degree in computer science, computer engineering, electrical engineering, or mathematics is preferred, but not required.",
+      "quoteFound": true,
+      "verified": false,
+      "fetchedAt": "2026-11-06T22:44:50.552Z",
+      "quoteCheck": "auto"
+    },
+    {
+      "id": "f12",
+      "kind": "requirement",
+      "name": "GRE not required Fall 2027",
+      "detail": "GRE optional.",
+      "sourceUrl": "https://cse.ucsd.edu/graduate/admissions",
+      "quote": "The GRE is not required for PhD and MS applications for Fall 2027.",
+      "quoteFound": true,
+      "verified": false,
+      "fetchedAt": "2026-11-06T22:44:50.552Z",
+      "quoteCheck": "auto"
+    },
+    {
+      "id": "f13",
+      "kind": "requirement",
+      "name": "Apply to MS or PhD only",
+      "detail": "Cannot apply to both.",
+      "sourceUrl": "https://cse.ucsd.edu/graduate/admissions",
+      "quote": "applications for both the MS and PhD programs will not be accepted.",
+      "quoteFound": true,
+      "verified": false,
+      "fetchedAt": "2026-11-06T22:44:50.552Z",
+      "quoteCheck": "auto"
+    },
+    {
+      "id": "f14",
+      "kind": "deadline",
+      "name": "Fall 2027 application window",
+      "detail": "Sep 2–Dec 16, 2026 PST.",
+      "sourceUrl": "https://cse.ucsd.edu/graduate/admissions",
+      "quote": "opens for Fall 2027 admission from September 2, 2026 until December 16, 2026 at 11:59 p.m.  PST.",
+      "quoteFound": true,
+      "verified": false,
+      "fetchedAt": "2026-11-06T22:44:50.552Z",
+      "quoteCheck": "auto"
+    },
+    {
+      "id": "f15",
+      "kind": "deadline",
+      "name": "Fall admission only",
+      "detail": "No Spring new admits.",
+      "sourceUrl": "https://cse.ucsd.edu/graduate/admissions",
+      "quote": "Admission is given for Fall quarter only. We do not admit new students in Spring quarters.",
+      "quoteFound": false,
+      "verified": false,
+      "fetchedAt": "2026-11-06T22:44:50.552Z",
+      "quoteCheck": "auto"
+    },
+    {
+      "id": "f16",
+      "kind": "requirement",
+      "name": "CS breadth areas",
+      "detail": "Theory, Systems, Applications.",
+      "sourceUrl": "https://cse.ucsd.edu/graduate/plan-i-thesis",
+      "quote": "one course from  each of the three breadth areas: Theory, Systems, and Applications.",
+      "quoteFound": true,
+      "verified": false,
+      "fetchedAt": "2026-11-06T22:44:50.552Z",
+      "quoteCheck": "auto"
+    },
+    {
+      "id": "f17",
+      "kind": "requirement",
+      "name": "Thesis committee composition",
+      "detail": "Three members; ≥2 CSE.",
+      "sourceUrl": "https://cse.ucsd.edu/graduate/plan-i-thesis",
+      "quote": "three faculty members, with at least two members from with the CSE department.",
+      "quoteFound": true,
+      "verified": false,
+      "fetchedAt": "2026-11-06T22:44:50.552Z",
+      "quoteCheck": "auto"
+    },
+    {
+      "id": "f20",
+      "kind": "course",
+      "name": "CSE 200 - Computability Complexity",
+      "detail": "Listed on Plan I Thesis curriculum page.",
+      "sourceUrl": "https://cse.ucsd.edu/graduate/plan-i-thesis",
+      "quote": "CSE 200 - Computability Complexity",
+      "quoteFound": true,
+      "verified": false,
+      "fetchedAt": "2026-11-06T22:44:50.552Z",
+      "quoteCheck": "auto"
+    },
+    {
+      "id": "f21",
+      "kind": "course",
+      "name": "CSE 202 - Algorithm Design and Analysis",
+      "detail": "Listed on Plan I Thesis curriculum page.",
+      "sourceUrl": "https://cse.ucsd.edu/graduate/plan-i-thesis",
+      "quote": "CSE 202 - Algorithm Design and Analysis",
+      "quoteFound": true,
+      "verified": false,
+      "fetchedAt": "2026-11-06T22:44:50.552Z",
+      "quoteCheck": "auto"
+    },
+    {
+      "id": "f22",
+      "kind": "course",
+      "name": "CSE 207A - Modern Cryptography",
+      "detail": "Listed on Plan I Thesis curriculum page.",
+      "sourceUrl": "https://cse.ucsd.edu/graduate/plan-i-thesis",
+      "quote": "CSE 207A - Modern Cryptography",
+      "quoteFound": true,
+      "verified": false,
+      "fetchedAt": "2026-11-06T22:44:50.552Z",
+      "quoteCheck": "auto"
+    },
+    {
+      "id": "f23",
+      "kind": "course",
+      "name": "CSE 221 - Operating Systems",
+      "detail": "Listed on Plan I Thesis curriculum page.",
+      "sourceUrl": "https://cse.ucsd.edu/graduate/plan-i-thesis",
+      "quote": "CSE 221 - Operating Systems",
+      "quoteFound": true,
+      "verified": false,
+      "fetchedAt": "2026-11-06T22:44:50.552Z",
+      "quoteCheck": "auto"
+    },
+    {
+      "id": "f24",
+      "kind": "course",
+      "name": "CSE 222A - Computer Communication Networks",
+      "detail": "Listed on Plan I Thesis curriculum page.",
+      "sourceUrl": "https://cse.ucsd.edu/graduate/plan-i-thesis",
+      "quote": "CSE 222A - Computer Communication Networks",
+      "quoteFound": true,
+      "verified": false,
+      "fetchedAt": "2026-11-06T22:44:50.552Z",
+      "quoteCheck": "auto"
+    },
+    {
+      "id": "f25",
+      "kind": "course",
+      "name": "CSE 227 - Computer Security",
+      "detail": "Listed on Plan I Thesis curriculum page.",
+      "sourceUrl": "https://cse.ucsd.edu/graduate/plan-i-thesis",
+      "quote": "CSE 227 - Computer Security",
+      "quoteFound": true,
+      "verified": false,
+      "fetchedAt": "2026-11-06T22:44:50.552Z",
+      "quoteCheck": "auto"
+    },
+    {
+      "id": "f26",
+      "kind": "course",
+      "name": "CSE 210 - Principles of Software Engineering",
+      "detail": "Listed on Plan I Thesis curriculum page.",
+      "sourceUrl": "https://cse.ucsd.edu/graduate/plan-i-thesis",
+      "quote": "CSE 210 - Principles of Software Engineering",
+      "quoteFound": true,
+      "verified": false,
+      "fetchedAt": "2026-11-06T22:44:50.552Z",
+      "quoteCheck": "auto"
+    },
+    {
+      "id": "f27",
+      "kind": "course",
+      "name": "CSE 230 - Principles of Programming Languages",
+      "detail": "Listed on Plan I Thesis curriculum page.",
+      "sourceUrl": "https://cse.ucsd.edu/graduate/plan-i-thesis",
+      "quote": "CSE 230 - Principles of Programming Languages",
+      "quoteFound": true,
+      "verified": false,
+      "fetchedAt": "2026-11-06T22:44:50.552Z",
+      "quoteCheck": "auto"
+    },
+    {
+      "id": "f28",
+      "kind": "course",
+      "name": "CSE 232 - Principles of Database Systems",
+      "detail": "Listed on Plan I Thesis curriculum page.",
+      "sourceUrl": "https://cse.ucsd.edu/graduate/plan-i-thesis",
+      "quote": "CSE 232 - Principles of Database Systems",
+      "quoteFound": true,
+      "verified": false,
+      "fetchedAt": "2026-11-06T22:44:50.552Z",
+      "quoteCheck": "auto"
+    },
+    {
+      "id": "f29",
+      "kind": "course",
+      "name": "CSE 250A - AI: Probabilistic Reasoning and Learning",
+      "detail": "Listed on Plan I Thesis curriculum page.",
+      "sourceUrl": "https://cse.ucsd.edu/graduate/plan-i-thesis",
+      "quote": "CSE 250A - AI: Probabilistic Reasoning and Learning",
+      "quoteFound": true,
+      "verified": false,
+      "fetchedAt": "2026-11-06T22:44:50.552Z",
+      "quoteCheck": "auto"
+    },
+    {
+      "id": "f30",
+      "kind": "course",
+      "name": "CSE 251A - AI: Learning Algorithms",
+      "detail": "Listed on Plan I Thesis curriculum page.",
+      "sourceUrl": "https://cse.ucsd.edu/graduate/plan-i-thesis",
+      "quote": "CSE 251A - AI: Learning Algorithms",
+      "quoteFound": true,
+      "verified": false,
+      "fetchedAt": "2026-11-06T22:44:50.552Z",
+      "quoteCheck": "auto"
+    },
+    {
+      "id": "f31",
+      "kind": "course",
+      "name": "CSE 252A - Computer Vision I",
+      "detail": "Listed on Plan I Thesis curriculum page.",
+      "sourceUrl": "https://cse.ucsd.edu/graduate/plan-i-thesis",
+      "quote": "CSE 252A - Computer Vision I",
+      "quoteFound": true,
+      "verified": false,
+      "fetchedAt": "2026-11-06T22:44:50.552Z",
+      "quoteCheck": "auto"
+    },
+    {
+      "id": "f32",
+      "kind": "course",
+      "name": "CSE 256 - Statistical NLP",
+      "detail": "Listed on Plan I Thesis curriculum page.",
+      "sourceUrl": "https://cse.ucsd.edu/graduate/plan-i-thesis",
+      "quote": "CSE 256 - Statistical NLP",
+      "quoteFound": true,
+      "verified": false,
+      "fetchedAt": "2026-11-06T22:44:50.552Z",
+      "quoteCheck": "auto"
+    },
+    {
+      "id": "f33",
+      "kind": "course",
+      "name": "CSE 240A - Principles of Computer Architecture",
+      "detail": "Listed on Plan I Thesis curriculum page.",
+      "sourceUrl": "https://cse.ucsd.edu/graduate/plan-i-thesis",
+      "quote": "CSE 240A - Principles of Computer Architecture",
+      "quoteFound": true,
+      "verified": false,
+      "fetchedAt": "2026-11-06T22:44:50.552Z",
+      "quoteCheck": "auto"
+    },
+    {
+      "id": "f34",
+      "kind": "course",
+      "name": "CSE 276A Introduction to Robotics",
+      "detail": "Listed on Plan I Thesis curriculum page.",
+      "sourceUrl": "https://cse.ucsd.edu/graduate/plan-i-thesis",
+      "quote": "CSE 276A Introduction to Robotics",
+      "quoteFound": true,
+      "verified": false,
+      "fetchedAt": "2026-11-06T22:44:50.552Z",
+      "quoteCheck": "auto"
+    },
+    {
+      "id": "f40",
+      "kind": "faculty",
+      "name": "Christine Alvarado",
+      "detail": "",
+      "sourceUrl": "https://cse.ucsd.edu/people/faculty-profiles",
+      "quote": "Christine Alvarado",
+      "quoteFound": false,
+      "verified": false,
+      "fetchedAt": "2026-11-06T22:44:50.552Z",
+      "quoteCheck": "auto"
+    },
+    {
+      "id": "f41",
+      "kind": "faculty",
+      "name": "Nadia Polikarpova",
+      "detail": "",
+      "sourceUrl": "https://cse.ucsd.edu/people/faculty-profiles",
+      "quote": "Nadia Polikarpova",
+      "quoteFound": false,
+      "verified": false,
+      "fetchedAt": "2026-11-06T22:44:50.552Z",
+      "quoteCheck": "auto"
+    },
+    {
+      "id": "f42",
+      "kind": "faculty",
+      "name": "Steven Swanson",
+      "detail": "",
+      "sourceUrl": "https://cse.ucsd.edu/people/faculty-profiles",
+      "quote": "Steven Swanson",
+      "quoteFound": false,
+      "verified": false,
+      "fetchedAt": "2026-11-06T22:44:50.552Z",
+      "quoteCheck": "auto"
+    },
+    {
+      "id": "f43",
+      "kind": "faculty",
+      "name": "Mihir Bellare",
+      "detail": "",
+      "sourceUrl": "https://cse.ucsd.edu/people/faculty-profiles",
+      "quote": "Mihir Bellare",
+      "quoteFound": false,
+      "verified": false,
+      "fetchedAt": "2026-11-06T22:44:50.552Z",
+      "quoteCheck": "auto"
+    },
+    {
+      "id": "f44",
+      "kind": "faculty",
+      "name": "Stefan Savage",
+      "detail": "",
+      "sourceUrl": "https://cse.ucsd.edu/people/faculty-profiles",
+      "quote": "Stefan Savage",
+      "quoteFound": false,
+      "verified": false,
+      "fetchedAt": "2026-11-06T22:44:50.552Z",
+      "quoteCheck": "auto"
+    },
+    {
+      "id": "f45",
+      "kind": "faculty",
+      "name": "Geoffrey M. Voelker",
+      "detail": "",
+      "sourceUrl": "https://cse.ucsd.edu/people/faculty-profiles",
+      "quote": "Geoffrey M. Voelker",
+      "quoteFound": false,
+      "verified": false,
+      "fetchedAt": "2026-11-06T22:44:50.552Z",
+      "quoteCheck": "auto"
+    },
+    {
+      "id": "f46",
+      "kind": "faculty",
+      "name": "Dean M. Tullsen",
+      "detail": "",
+      "sourceUrl": "https://cse.ucsd.edu/people/faculty-profiles",
+      "quote": "Dean M. Tullsen",
+      "quoteFound": false,
+      "verified": false,
+      "fetchedAt": "2026-11-06T22:44:50.552Z",
+      "quoteCheck": "auto"
+    },
+    {
+      "id": "f47",
+      "kind": "faculty",
+      "name": "Hadi Esmaeilzadeh",
+      "detail": "",
+      "sourceUrl": "https://cse.ucsd.edu/people/faculty-profiles",
+      "quote": "Hadi Esmaeilzadeh",
+      "quoteFound": false,
+      "verified": false,
+      "fetchedAt": "2026-11-06T22:44:50.552Z",
+      "quoteCheck": "auto"
+    },
+    {
+      "id": "f48",
+      "kind": "faculty",
+      "name": "Yiying Zhang",
+      "detail": "",
+      "sourceUrl": "https://cse.ucsd.edu/people/faculty-profiles",
+      "quote": "Yiying Zhang",
+      "quoteFound": false,
+      "verified": false,
+      "fetchedAt": "2026-11-06T22:44:50.552Z",
+      "quoteCheck": "auto"
+    },
+    {
+      "id": "f49",
+      "kind": "faculty",
+      "name": "Arun Kumar",
+      "detail": "",
+      "sourceUrl": "https://cse.ucsd.edu/people/faculty-profiles",
+      "quote": "Arun Kumar",
+      "quoteFound": false,
+      "verified": false,
+      "fetchedAt": "2026-11-06T22:44:50.552Z",
+      "quoteCheck": "auto"
+    },
+    {
+      "id": "f50",
+      "kind": "faculty",
+      "name": "Daniel M. Kane",
+      "detail": "",
+      "sourceUrl": "https://cse.ucsd.edu/people/faculty-profiles",
+      "quote": "Daniel M. Kane",
+      "quoteFound": false,
+      "verified": false,
+      "fetchedAt": "2026-11-06T22:44:50.552Z",
+      "quoteCheck": "auto"
+    },
+    {
+      "id": "f51",
+      "kind": "faculty",
+      "name": "Shachar Lovett",
+      "detail": "",
+      "sourceUrl": "https://cse.ucsd.edu/people/faculty-profiles",
+      "quote": "Shachar Lovett",
+      "quoteFound": false,
+      "verified": false,
+      "fetchedAt": "2026-11-06T22:44:50.552Z",
+      "quoteCheck": "auto"
+    },
+    {
+      "id": "f52",
+      "kind": "faculty",
+      "name": "Leo Porter",
+      "detail": "",
+      "sourceUrl": "https://cse.ucsd.edu/people/faculty-profiles",
+      "quote": "Leo Porter",
+      "quoteFound": false,
+      "verified": false,
+      "fetchedAt": "2026-11-06T22:44:50.552Z",
+      "quoteCheck": "auto"
+    },
+    {
+      "id": "f53",
+      "kind": "faculty",
+      "name": "Ravi Ramamoorthi",
+      "detail": "",
+      "sourceUrl": "https://cse.ucsd.edu/people/faculty-profiles",
+      "quote": "Ravi Ramamoorthi",
+      "quoteFound": false,
+      "verified": false,
+      "fetchedAt": "2026-11-06T22:44:50.552Z",
+      "quoteCheck": "auto"
+    },
+    {
+      "id": "f54",
+      "kind": "faculty",
+      "name": "Laurel Riek",
+      "detail": "",
+      "sourceUrl": "https://cse.ucsd.edu/people/faculty-profiles",
+      "quote": "Laurel Riek",
+      "quoteFound": false,
+      "verified": false,
+      "fetchedAt": "2026-11-06T22:44:50.552Z",
+      "quoteCheck": "auto"
+    },
+    {
+      "id": "f60",
+      "kind": "faculty",
+      "name": "Mihir Bellare",
+      "detail": "Personal research page. Cryptography.",
+      "sourceUrl": "https://cseweb.ucsd.edu/~mihir/",
+      "quote": "My research is in cryptography, with emphasis on provable-security for primitives of applied interest.",
+      "quoteFound": true,
+      "verified": false,
+      "fetchedAt": "2026-11-06T22:44:50.552Z",
+      "quoteCheck": "auto"
+    },
+    {
+      "id": "f61",
+      "kind": "faculty",
+      "name": "Daniel M. Kane",
+      "detail": "Personal research page. Computational statistics.",
+      "sourceUrl": "https://cseweb.ucsd.edu/~dakane/",
+      "quote": "the\nbulk of my research has been in computational statistics.",
+      "quoteFound": true,
+      "verified": false,
+      "fetchedAt": "2026-11-06T22:44:50.552Z",
+      "quoteCheck": "auto"
+    },
+    {
+      "id": "f62",
+      "kind": "faculty",
+      "name": "Shachar Lovett",
+      "detail": "Personal research page. Theory interests.",
+      "sourceUrl": "https://cseweb.ucsd.edu/~slovett/home.html",
+      "quote": "computational complexity, randomness and pseudo-randomness, algebraic constructions,\ncoding theory",
+      "quoteFound": true,
+      "verified": false,
+      "fetchedAt": "2026-11-06T22:44:50.552Z",
+      "quoteCheck": "auto"
+    },
+    {
+      "id": "f63",
+      "kind": "faculty",
+      "name": "Nadia Polikarpova",
+      "detail": "Personal research page. PL/AI/HCI.",
+      "sourceUrl": "https://cseweb.ucsd.edu/~npolikarpova/",
+      "quote": "intersection of programming languages, AI, human-computer interaction, and social computing.",
+      "quoteFound": false,
+      "verified": false,
+      "fetchedAt": "2026-11-06T22:44:50.552Z",
+      "quoteCheck": "auto"
+    },
+    {
+      "id": "f64",
+      "kind": "faculty",
+      "name": "Yiying Zhang",
+      "detail": "Personal research page. ML systems.",
+      "sourceUrl": "https://cseweb.ucsd.edu/~yiying/",
+      "quote": "building systems for ML/AI and using ML/AI to solve systems problems.",
+      "quoteFound": false,
+      "verified": false,
+      "fetchedAt": "2026-11-06T22:44:50.552Z",
+      "quoteCheck": "auto"
+    },
+    {
+      "id": "f65",
+      "kind": "faculty",
+      "name": "Arun Kumar",
+      "detail": "Personal research page. Data management / AI systems.",
+      "sourceUrl": "https://cseweb.ucsd.edu/~arunkk/",
+      "quote": "data management and systems for AI engineering and data analytics.",
+      "quoteFound": true,
+      "verified": false,
+      "fetchedAt": "2026-11-06T22:44:50.552Z",
+      "quoteCheck": "auto"
+    },
+    {
+      "id": "f66",
+      "kind": "faculty",
+      "name": "Hadi Esmaeilzadeh",
+      "detail": "Personal page. Computer architecture chair title.",
+      "sourceUrl": "https://cseweb.ucsd.edu/~hadi/",
+      "quote": "Halicioğlu Chair in Computer Architecture",
+      "quoteFound": true,
+      "verified": false,
+      "fetchedAt": "2026-11-06T22:44:50.552Z",
+      "quoteCheck": "auto"
+    },
+    {
+      "id": "f67",
+      "kind": "faculty",
+      "name": "Dean M. Tullsen",
+      "detail": "Personal page. Computer architecture research.",
+      "sourceUrl": "https://cseweb.ucsd.edu/~tullsen/",
+      "quote": "I do research in the area of Computer Architecture",
+      "quoteFound": true,
+      "verified": false,
+      "fetchedAt": "2026-11-06T22:44:50.552Z",
+      "quoteCheck": "auto"
+    },
+    {
+      "id": "f68",
+      "kind": "faculty",
+      "name": "Stefan Savage",
+      "detail": "Personal page. Systems and networking group.",
+      "sourceUrl": "https://cseweb.ucsd.edu/~savage/",
+      "quote": "Systems and Networking Group",
+      "quoteFound": true,
+      "verified": false,
+      "fetchedAt": "2026-11-06T22:44:50.552Z",
+      "quoteCheck": "auto"
+    },
+    {
+      "id": "f69",
+      "kind": "faculty",
+      "name": "Geoffrey M. Voelker",
+      "detail": "Personal page. Systems and networking research group.",
+      "sourceUrl": "https://cseweb.ucsd.edu/~voelker/",
+      "quote": "Systems and Networking Research Group",
+      "quoteFound": true,
+      "verified": false,
+      "fetchedAt": "2026-11-06T22:44:50.552Z",
+      "quoteCheck": "auto"
+    }
+  ]
+}

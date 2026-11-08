@@ -85,3 +85,5 @@ application-*.yml
 *.tmp
 *.temp
 logs/
+.worktrees/
+.superpowers/

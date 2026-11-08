@@ -6,7 +6,9 @@
     "dev": "wrangler dev",
     "test": "vitest run",
     "types": "wrangler types",
-    "check": "tsc --noEmit"
+    "check": "tsc --noEmit && tsc --noEmit -p scripts",
+    "facts:verify": "tsx scripts/verifyFacts.ts",
+    "facts:sql": "tsx scripts/factsToSql.ts"
   },
   "dependencies": {
     "agents": "^0.28.1",
@@ -14,6 +16,8 @@
   },
   "devDependencies": {
     "@cloudflare/workers-types": "^5.20261018.1",
+    "@types/node": "^26.6.6",
+    "tsx": "^4.23.15",
     "typescript": "^7.0.2",
     "vitest": "^5.0.5",
     "wrangler": "^4.151.1"
