@@ -1,5 +1,5 @@
 # Cal Poly San Luis Obispo — Computer Science, M.S.
-Snapshot: 3-20261106
+Snapshot: 3-20261108
 
 ## Failed quotes
 - [requirement] Application materials; no GRE (f6) — https://catalog.calpoly.edu/engineering/computer-science-software/computer-science-ms/
@@ -43,12 +43,10 @@ Set "quoteCheck": "manual" and "verified": true in the .checked.json to keep a f
 - [faculty] Stephen R. Beard (f70) — https://users.csc.calpoly.edu/~srbeard/
 - [faculty] Daniel Frishberg (f71) — https://users.csc.calpoly.edu/~dfrishbe/
 - [faculty] Aaron Keen (f72) — https://users.csc.calpoly.edu/~akeen/
-- [faculty] Bruce DeBruhl (f73) — https://users.csc.calpoly.edu/~bdebruhl/
-- [faculty] Javier Gonzalez-Sanchez (f75) — https://javiergs.com/
 
 ## Counts by kind
 - overview: 5/5 quotes found
 - requirement: 6/7 quotes found
 - course: 13/16 quotes found
-- faculty: 19/37 quotes found
+- faculty: 19/35 quotes found
 - deadline: 2/2 quotes found

@@ -45,15 +45,7 @@
     },
     {
       "kind": "faculty",
-      "url": "https://users.csc.calpoly.edu/~bdebruhl/"
-    },
-    {
-      "kind": "faculty",
       "url": "https://foaad.net/"
-    },
-    {
-      "kind": "faculty",
-      "url": "https://javiergs.com/"
     },
     {
       "kind": "faculty",
@@ -64,8 +56,8 @@
       "url": "https://www.calpoly.edu/admissions/graduate-student/dates-and-deadlines"
     }
   ],
-  "snapshotId": "3-20261106",
-  "verifiedAt": "2026-11-06T22:45:09.630Z",
+  "snapshotId": "3-20261108",
+  "verifiedAt": "2026-11-08T21:52:17.637Z",
   "pageHashes": {
     "https://csc.calpoly.edu/gr/": "a346586d5a1b72cb087002d94492fd4f56fc21b17ec3829392ef955a111f2061",
     "https://catalog.calpoly.edu/engineering/computer-science-software/computer-science-ms/": "8082e037e09781a98fecd9875c9704bd7300486f677aa15177faf9aba309941e",
@@ -798,18 +790,6 @@
       "quoteCheck": "auto"
     },
     {
-      "id": "f73",
-      "kind": "faculty",
-      "name": "Bruce DeBruhl",
-      "detail": "Department faculty profile. Wireless/cyber-physical/automotive security.",
-      "sourceUrl": "https://users.csc.calpoly.edu/~bdebruhl/",
-      "quote": "Bruce's research\ninterests include wireless security, cyber-physical security,\nlocation privacy, and automotive security.",
-      "quoteFound": false,
-      "verified": false,
-      "fetchedAt": "2026-11-06T22:45:09.630Z",
-      "quoteCheck": "auto"
-    },
-    {
       "id": "f74",
       "kind": "faculty",
       "name": "Foaad Khosmood",
@@ -817,18 +797,6 @@
       "sourceUrl": "https://foaad.net/",
       "quote": "natural language processing (NLP), artificial intelligence, digital government, interactive entertainment, game AI and game jams.",
       "quoteFound": true,
-      "verified": false,
-      "fetchedAt": "2026-11-06T22:45:09.630Z",
-      "quoteCheck": "auto"
-    },
-    {
-      "id": "f75",
-      "kind": "faculty",
-      "name": "Javier Gonzalez-Sanchez",
-      "detail": "Department faculty profile. SE+HCI / emotional intelligence.",
-      "sourceUrl": "https://javiergs.com/",
-      "quote": "intersection of software engineering and human-computer interaction, with a focus on artificial emotional intelligence",
-      "quoteFound": false,
       "verified": false,
       "fetchedAt": "2026-11-06T22:45:09.630Z",
       "quoteCheck": "auto"

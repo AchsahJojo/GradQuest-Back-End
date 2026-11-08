@@ -1,5 +1,5 @@
 # UC San Diego — Computer Science and Engineering, M.S.
-Snapshot: 22-20261106
+Snapshot: 22-20261108
 
 ## Failed quotes
 - [deadline] Fall admission only (f15) — https://cse.ucsd.edu/graduate/admissions
