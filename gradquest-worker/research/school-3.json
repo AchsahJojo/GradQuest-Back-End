@@ -274,28 +274,12 @@
       "quote": "Computer Science\n1/4\n9/1"
     },
     {
-      "id": "f40",
-      "kind": "faculty",
-      "name": "Paul Anderson",
-      "detail": "Department-wide CSSE faculty listing (not MS-program-specific).",
-      "sourceUrl": "https://csc.calpoly.edu/faculty/",
-      "quote": "Anderson, Paul"
-    },
-    {
       "id": "f41",
       "kind": "faculty",
       "name": "Paul Anderson",
       "detail": "Department-wide CSSE faculty listing (not MS-program-specific). Research interests: AI, machine learning, bioinformatics, data science, genomics, proteomics, metabolomics, ranking algorithms, and fairness.",
       "sourceUrl": "https://csc.calpoly.edu/faculty/",
       "quote": "AI, machine learning, bioinformatics, data science, genomics, proteomics, metabolomics, ranking algorithms, and fairness."
-    },
-    {
-      "id": "f42",
-      "kind": "faculty",
-      "name": "Stephen Beard",
-      "detail": "Department-wide CSSE faculty listing (not MS-program-specific).",
-      "sourceUrl": "https://csc.calpoly.edu/faculty/",
-      "quote": "Beard, Stephen"
     },
     {
       "id": "f43",
@@ -306,28 +290,12 @@
       "quote": "Security, Architecture, Compilers, Language, Performance"
     },
     {
-      "id": "f44",
-      "kind": "faculty",
-      "name": "John Bellardo",
-      "detail": "Department-wide CSSE faculty listing (not MS-program-specific).",
-      "sourceUrl": "https://csc.calpoly.edu/faculty/",
-      "quote": "Bellardo, John"
-    },
-    {
       "id": "f45",
       "kind": "faculty",
       "name": "John Bellardo",
       "detail": "Department-wide CSSE faculty listing (not MS-program-specific). Research interests: Satellites, Embedded Systems, Networks, Operating Systems, Distributed Systems, Security",
       "sourceUrl": "https://csc.calpoly.edu/faculty/",
       "quote": "Satellites, Embedded Systems, Networks, Operating Systems, Distributed Systems, Security"
-    },
-    {
-      "id": "f46",
-      "kind": "faculty",
-      "name": "Rodrigo Canaan",
-      "detail": "Department-wide CSSE faculty listing (not MS-program-specific).",
-      "sourceUrl": "https://csc.calpoly.edu/faculty/",
-      "quote": "Canaan, Rodrigo"
     },
     {
       "id": "f47",
@@ -338,14 +306,6 @@
       "quote": "AI, Games, Co-Creativity, Evolutionary Computing, Quality-Diversity Algorithms, Machine Learning, Reinforcement Learning"
     },
     {
-      "id": "f48",
-      "kind": "faculty",
-      "name": "Bruce DeBruhl",
-      "detail": "Department-wide CSSE faculty listing (not MS-program-specific).",
-      "sourceUrl": "https://csc.calpoly.edu/faculty/",
-      "quote": "DeBruhl, Bruce"
-    },
-    {
       "id": "f49",
       "kind": "faculty",
       "name": "Bruce DeBruhl",
@@ -354,28 +314,12 @@
       "quote": "Security and Privacy, Automotive Security, Wireless Security, Software Security"
     },
     {
-      "id": "f50",
-      "kind": "faculty",
-      "name": "Alex Dekhtyar",
-      "detail": "Department-wide CSSE faculty listing (not MS-program-specific).",
-      "sourceUrl": "https://csc.calpoly.edu/faculty/",
-      "quote": "Dekhtyar, Alex"
-    },
-    {
       "id": "f51",
       "kind": "faculty",
       "name": "Alex Dekhtyar",
       "detail": "Department-wide CSSE faculty listing (not MS-program-specific). Research interests: Databases, Machine Learning, Data Science, Software Engineering",
       "sourceUrl": "https://csc.calpoly.edu/faculty/",
       "quote": "Databases, Machine Learning, Data Science, Software Engineering"
-    },
-    {
-      "id": "f52",
-      "kind": "faculty",
-      "name": "Daniel Frishberg",
-      "detail": "Department-wide CSSE faculty listing (not MS-program-specific).",
-      "sourceUrl": "https://csc.calpoly.edu/faculty/",
-      "quote": "Frishberg, Daniel"
     },
     {
       "id": "f53",
@@ -402,28 +346,12 @@
       "quote": "Software Engineering, Intelligent Systems Engineering, Software Product Lines, Human-Computer Interaction, Emotion AI (Affective Computing), Machine Learning, Augmented Reality, CS Education"
     },
     {
-      "id": "f56",
-      "kind": "faculty",
-      "name": "Foaad Khosmood",
-      "detail": "Department-wide CSSE faculty listing (not MS-program-specific).",
-      "sourceUrl": "https://csc.calpoly.edu/faculty/",
-      "quote": "Khosmood, Foaad"
-    },
-    {
       "id": "f57",
       "kind": "faculty",
       "name": "Foaad Khosmood",
       "detail": "Department-wide CSSE faculty listing (not MS-program-specific). Research interests: Artificial Intelligence, Natural Language Processing, Video Games, Data Science, Digital Government",
       "sourceUrl": "https://csc.calpoly.edu/faculty/",
       "quote": "Artificial Intelligence, Natural Language Processing, Video Games, Data Science, Digital Government"
-    },
-    {
-      "id": "f58",
-      "kind": "faculty",
-      "name": "Aaron Keen",
-      "detail": "Department-wide CSSE faculty listing (not MS-program-specific).",
-      "sourceUrl": "https://csc.calpoly.edu/faculty/",
-      "quote": "Keen, Aaron"
     },
     {
       "id": "f59",
@@ -434,28 +362,12 @@
       "quote": "Programming Languages, Compilers, Static Analysis, CS Education"
     },
     {
-      "id": "f60",
-      "kind": "faculty",
-      "name": "Ayaan Kazerouni",
-      "detail": "Department-wide CSSE faculty listing (not MS-program-specific).",
-      "sourceUrl": "https://csc.calpoly.edu/faculty/",
-      "quote": "Kazerouni, Ayaan"
-    },
-    {
       "id": "f61",
       "kind": "faculty",
       "name": "Ayaan Kazerouni",
       "detail": "Department-wide CSSE faculty listing (not MS-program-specific). Research interests: Computing Education, Software Engineering, Software Testing",
       "sourceUrl": "https://csc.calpoly.edu/faculty/",
       "quote": "Computing Education, Software Engineering, Software Testing"
-    },
-    {
-      "id": "f62",
-      "kind": "faculty",
-      "name": "Maria Pantoja",
-      "detail": "Department-wide CSSE faculty listing (not MS-program-specific).",
-      "sourceUrl": "https://csc.calpoly.edu/faculty/",
-      "quote": "Pantoja, Maria"
     },
     {
       "id": "f63",
@@ -482,28 +394,12 @@
       "quote": "Security, Cryptographic Engineering, Computer Security Education, Storage Systems, Games and Play, Interactive Fiction, Interactive Art, Applied Cryptography"
     },
     {
-      "id": "f66",
-      "kind": "faculty",
-      "name": "Jonathan Ventura",
-      "detail": "Department-wide CSSE faculty listing (not MS-program-specific).",
-      "sourceUrl": "https://csc.calpoly.edu/faculty/",
-      "quote": "Ventura, Jonathan"
-    },
-    {
       "id": "f67",
       "kind": "faculty",
       "name": "Jonathan Ventura",
       "detail": "Department-wide CSSE faculty listing (not MS-program-specific). Research interests: Computer Vision, Machine Learning, Augmented and Virtual Reality, Remote Sensing",
       "sourceUrl": "https://csc.calpoly.edu/faculty/",
       "quote": "Computer Vision, Machine Learning, Augmented and Virtual Reality, Remote Sensing"
-    },
-    {
-      "id": "f68",
-      "kind": "faculty",
-      "name": "Paul Schmitt",
-      "detail": "Department-wide CSSE faculty listing (not MS-program-specific).",
-      "sourceUrl": "https://csc.calpoly.edu/faculty/",
-      "quote": "Schmitt, Paul"
     },
     {
       "id": "f69",
@@ -557,25 +453,17 @@
       "id": "f13",
       "kind": "course",
       "name": "CSC 5590 - Thesis Preparation",
-      "detail": "Listed in Cal Poly Academic Catalog MS CS required-courses table (department catalog page). Unit count not asserted from concatenated extract.",
+      "detail": "Listed in Cal Poly Academic Catalog MS CS required-courses table (department catalog page). Quote includes a space between the course code and title, matching the page's adjacent table cells (code and title are in separate <td> elements).",
       "sourceUrl": "https://catalog.calpoly.edu/engineering/computer-science-software/computer-science-ms/",
-      "quote": "CSC 5590Thesis Preparation"
-    },
-    {
-      "id": "f15",
-      "kind": "course",
-      "name": "CSC 5599 - Thesis",
-      "detail": "Listed in Cal Poly Academic Catalog MS CS required-courses table. Unit count not asserted from concatenated extract.",
-      "sourceUrl": "https://catalog.calpoly.edu/engineering/computer-science-software/computer-science-ms/",
-      "quote": "CSC 5599Thesis"
+      "quote": "CSC 5590 Thesis Preparation"
     },
     {
       "id": "f14",
       "kind": "course",
       "name": "CSC 5591 - Research in Computer Science",
-      "detail": "Listed in Cal Poly Academic Catalog MS CS required-courses table. Trailing footnote/unit digits from text extract omitted; unit count not asserted here.",
+      "detail": "Listed in Cal Poly Academic Catalog MS CS required-courses table. Trailing footnote/unit digits from text extract omitted; unit count not asserted here. Quote includes a space between the course code and title, matching the page's adjacent table cells (code and title are in separate <td> elements).",
       "sourceUrl": "https://catalog.calpoly.edu/engineering/computer-science-software/computer-science-ms/",
-      "quote": "CSC 5591Research in Computer Science"
+      "quote": "CSC 5591 Research in Computer Science"
     }
   ]
 }

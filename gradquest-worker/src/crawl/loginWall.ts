@@ -51,14 +51,32 @@ function decodeCodePoint(match: string, codePoint: number): string {
   }
 }
 
+// Inline tags whose boundaries carry no visual whitespace on a rendered page
+// (e.g. `<span>word</span><span>.</span>` renders as "word." with no gap).
+// Stripping these to "" (rather than the catch-all " ") avoids inserting a
+// space that was never actually on the page — the bug that made real quotes
+// like "...recommendation. No GRE..." fail to match because span-wrapped
+// punctuation (a Word-doc-HTML-export pattern some university catalogs use)
+// turned into "...recommendation . No GRE...". Block-level tags (the
+// catch-all below) keep inserting a space, since that *is* real whitespread
+// on the page (e.g. adjacent `<td>` cells, paragraph/list boundaries).
+const INLINE_TAGS =
+  /<\/?(?:a|abbr|b|cite|code|em|font|i|kbd|mark|q|s|small|span|strike|strong|sub|sup|time|tt|u|var)\b[^>]*>/gi;
+
 export function stripHtml(html: string): string {
   return html
     .replace(/<script[\s\S]*?<\/script>/gi, " ")
     .replace(/<style[\s\S]*?<\/style>/gi, " ")
+    .replace(INLINE_TAGS, "")
     .replace(/<[^>]+>/g, " ")
     .replace(/&#x([0-9a-f]+);/gi, (match, hex: string) => decodeCodePoint(match, parseInt(hex, 16)))
     .replace(/&#(\d+);/g, (match, dec: string) => decodeCodePoint(match, parseInt(dec, 10)))
     .replace(/&([a-z]+);/gi, (match, name: string) => NAMED_ENTITIES[name.toLowerCase()] ?? match)
     .replace(/\s+/g, " ")
+    // A block-tag boundary can still leave a space directly before
+    // punctuation (e.g. "...recommendation </li><li>. No GRE..." -> "...
+    // recommendation . No GRE..."). That space was never really on the
+    // page, so drop it rather than require every quote to include it.
+    .replace(/ +([.,;])/g, "$1")
     .trim();
 }

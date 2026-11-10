@@ -198,6 +198,35 @@ describe("quoteFound", () => {
     expect(quoteFound("The program requires\u200B 30 units and a thesis.", "The program requires 30 units and a thesis.")).toBe(true);
     expect(quoteFound("The program requires 30 units and a thesis.", "The program require\u00ADs 30 units and a thesis.")).toBe(true);
   });
+
+  it("allows a short faculty full-name quote when it matches on word boundaries", () => {
+    const listing =
+      "Christine Alvarado Nadia Polikarpova Geoffrey M. Voelker and other faculty.";
+    expect(quoteFound(listing, "Christine Alvarado", "faculty")).toBe(true);
+    expect(quoteFound(listing, "Geoffrey M. Voelker", "faculty")).toBe(true);
+    expect(quoteFound("Anderson, Paul Professor of AI", "Anderson, Paul", "faculty")).toBe(true);
+  });
+
+  it("rejects a short faculty name that is only a substring of a longer word", () => {
+    expect(quoteFound("Kaneko is listed nearby", "Kane", "faculty")).toBe(false);
+    expect(quoteFound("Daniel M. Kaneko is listed", "Daniel M. Kane", "faculty")).toBe(false);
+  });
+
+  it("still rejects short non-faculty quotes even when they look like a name", () => {
+    expect(quoteFound("Christine Alvarado teaches systems", "Christine Alvarado")).toBe(false);
+    expect(quoteFound("Christine Alvarado teaches systems", "Christine Alvarado", "course")).toBe(false);
+  });
+
+  it("still requires the normal 20-character minimum for longer faculty research blurbs", () => {
+    expect(
+      quoteFound(
+        "She works at the intersection of programming languages and AI.",
+        "intersection of programming languages and AI.",
+        "faculty",
+      ),
+    ).toBe(true);
+    expect(quoteFound("She works on AI research here.", "works on AI", "faculty")).toBe(false);
+  });
 });
 
 describe("pageHash", () => {
@@ -371,8 +400,32 @@ describe("stripHtml (used by verifyFacts.ts to build page text for quote matchin
     expect(stripHtml("<p>Achsah&#8217;s a&#99999999;b program</p>")).toContain("Achsah\u2019s a&#99999999;b program");
   });
 
-  it("inserts a space when collapsing a tag so link text doesn't glue to following text", () => {
-    expect(stripHtml("<p>Read the <a href='x'>catalog</a>Next section</p>")).toContain("catalog Next");
+  it("does not insert a space at an inline-tag boundary (matches real browser rendering, no source whitespace)", () => {
+    // `<a>` (like `<span>`, `<strong>`, etc.) is an inline element: with zero
+    // whitespace in the source between `</a>` and "Next", a real browser
+    // renders this as "catalogNext" with no gap. Inserting an artificial
+    // space here is exactly the bug that made span-wrapped punctuation fail
+    // to match real quotes (see the "recommendation. No GRE" test below) —
+    // so inline tags must not insert a space either, for the same reason.
+    expect(stripHtml("<p>Read the <a href='x'>catalog</a>Next section</p>")).toContain("catalogNext");
+  });
+
+  it("still inserts a space at a block-tag boundary so adjacent block content doesn't glue together", () => {
+    expect(stripHtml("<td>CSC 5590</td><td>Thesis Preparation</td>")).toBe("CSC 5590 Thesis Preparation");
+  });
+
+  it("removes a spurious space before punctuation left by an inline tag boundary (Word-doc-export HTML pattern)", () => {
+    // A real pattern seen on some university catalog pages: punctuation sits
+    // alone in its own span, e.g. `<span>...recommendation</span><span>.</span>
+    // <span> No GRE...</span>`. The old behavior inserted a space at every tag
+    // boundary, turning this into "...recommendation . No GRE..." which never
+    // matches the real quote "...recommendation. No GRE...".
+    const html =
+      "<span>Students apply via Cal State Apply and must submit a transcript, resume, personal statement, " +
+      "and three letters of recommendation</span><span>.</span><span> No GRE scores required.</span>";
+    expect(stripHtml(html)).toContain(
+      "Students apply via Cal State Apply and must submit a transcript, resume, personal statement, and three letters of recommendation. No GRE scores required.",
+    );
   });
 });
 

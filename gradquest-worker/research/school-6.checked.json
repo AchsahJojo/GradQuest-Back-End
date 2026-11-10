@@ -40,15 +40,15 @@
       "url": "https://catalog.fullerton.edu/preview_program.php?catoid=101&poid=47271"
     }
   ],
-  "snapshotId": "6-20261108",
-  "verifiedAt": "2026-11-08T21:52:19.333Z",
+  "snapshotId": "6-20261109",
+  "verifiedAt": "2026-11-09T21:52:49.396Z",
   "pageHashes": {
-    "https://www.fullerton.edu/ecs/cs/": "c81b74f85071c2b29c3f000d084f4971486a28ab50dcd61c8cbc5f073a4c05b3",
+    "https://www.fullerton.edu/ecs/cs/": "cbf2e7c2f8b0a636c0066f6ecddb8d8b708a5c8307bdb3669db552c64a5cb9e5",
     "https://www.fullerton.edu/ecs/faculty/apanangadan/": "1c20480448dc7372a071ade63ecaab54c3a59cf2f8afd03aa30fcec1e521fe7c",
-    "https://www.fullerton.edu/ecs/faculty/pinventado/": "e5c745064bc44c0f258702cdadbf69493299c14e931a1432519b2a630f3585f0",
-    "https://www.fullerton.edu/ecs/faculty/whan/": "97b29ba1e1ac36b06b77cf6db9228e655f10b8e35ccf2b23fee37841f388df53",
-    "https://www.fullerton.edu/ecs/academics/graduate-admissions.html": "3888ac83b9e94195c4299246d6deaa322af99ad98df16f5b2a3466df3a1d37d4",
-    "https://www.fullerton.edu/graduate/apply/": "b123ff51365ce765e288085015411a7b6c0af509142b170a840d480616540a92",
+    "https://www.fullerton.edu/ecs/faculty/pinventado/": "501520ce411c34285fe1385d4376005f77a0cab1af3f95423a0589fc7d30b57b",
+    "https://www.fullerton.edu/ecs/faculty/whan/": "cdb385c5aaef7f5b5c9821d136d012f215e02966c422d9e42b89548c56ed4509",
+    "https://www.fullerton.edu/ecs/academics/graduate-admissions.html": "46f13582da04c9a044cde042f9de5e13eec207c677befdc852bfd83ffc6155f5",
+    "https://www.fullerton.edu/graduate/apply/": "3731737b41b4cd0399c2dd6c469687c93f746bc7ba7a6e4ea44784d2513ea8f3",
     "https://admissions.fullerton.edu/deadlines": "a2e8da6a79f78742d28d406de173d1642eb8bf7735e33edc815ae4866a84ac77"
   },
   "facts": [
@@ -60,7 +60,7 @@
       "sourceUrl": "https://www.fullerton.edu/ecs/cs/",
       "quote": "we offer a variety of Computer Science undergraduate and graduate programs.",
       "quoteFound": true,
-      "verified": false,
+      "verified": true,
       "fetchedAt": "2026-11-06T22:45:10.190Z",
       "quoteCheck": "auto"
     },
@@ -72,7 +72,7 @@
       "sourceUrl": "https://www.fullerton.edu/ecs/cs/",
       "quote": "With 22 tenured and tenure-track faculty members",
       "quoteFound": true,
-      "verified": false,
+      "verified": true,
       "fetchedAt": "2026-11-06T22:45:10.190Z",
       "quoteCheck": "auto"
     },
@@ -84,7 +84,7 @@
       "sourceUrl": "https://www.fullerton.edu/ecs/faculty/apanangadan/",
       "quote": "applications of artificial intelligence and machine learning",
       "quoteFound": true,
-      "verified": false,
+      "verified": true,
       "fetchedAt": "2026-11-06T22:45:10.190Z",
       "quoteCheck": "auto"
     },
@@ -96,7 +96,7 @@
       "sourceUrl": "https://www.fullerton.edu/ecs/faculty/apanangadan/",
       "quote": "homelessness, transportation, healthcare, earth science, sensor networks, and robotics.",
       "quoteFound": true,
-      "verified": false,
+      "verified": true,
       "fetchedAt": "2026-11-06T22:45:10.190Z",
       "quoteCheck": "auto"
     },
@@ -108,7 +108,7 @@
       "sourceUrl": "https://www.fullerton.edu/ecs/faculty/pinventado/",
       "quote": "educational data mining, machine learning, intelligent tutoring systems, CS education, and STEM education.",
       "quoteFound": true,
-      "verified": false,
+      "verified": true,
       "fetchedAt": "2026-11-06T22:45:10.190Z",
       "quoteCheck": "auto"
     },
@@ -120,7 +120,7 @@
       "sourceUrl": "https://www.fullerton.edu/ecs/faculty/whan/",
       "quote": "Cybersecurity and Blockchain. Recent interests include DeFi, GameFi, NFTs and Metaverse.",
       "quoteFound": true,
-      "verified": false,
+      "verified": true,
       "fetchedAt": "2026-11-06T22:45:10.190Z",
       "quoteCheck": "auto"
     },
@@ -132,7 +132,7 @@
       "sourceUrl": "https://www.fullerton.edu/ecs/academics/graduate-admissions.html",
       "quote": "pay the $70 application processing fee at Cal State Apply",
       "quoteFound": true,
-      "verified": false,
+      "verified": true,
       "fetchedAt": "2026-11-08T21:51:46.613Z",
       "quoteCheck": "auto"
     },
@@ -144,7 +144,7 @@
       "sourceUrl": "https://www.fullerton.edu/ecs/academics/graduate-admissions.html",
       "quote": "Please do not submit any of the following items as they are not required for admission: Personal Statements Letter of Recommendations High School Transcripts Certificates of Accomplishments / Trainings Resumes / Work Experience GRE or GMAT Scores",
       "quoteFound": true,
-      "verified": false,
+      "verified": true,
       "fetchedAt": "2026-11-08T21:51:46.613Z",
       "quoteCheck": "auto"
     },
@@ -156,7 +156,7 @@
       "sourceUrl": "https://www.fullerton.edu/ecs/academics/graduate-admissions.html",
       "quote": "Official documents and required English Language Proficiency test scores must be submitted and processed before document deadlines.",
       "quoteFound": true,
-      "verified": false,
+      "verified": true,
       "fetchedAt": "2026-11-08T21:51:46.613Z",
       "quoteCheck": "auto"
     },
@@ -168,7 +168,7 @@
       "sourceUrl": "https://www.fullerton.edu/ecs/academics/graduate-admissions.html",
       "quote": "All of the master's programs require 30 units to receive your degree.",
       "quoteFound": true,
-      "verified": false,
+      "verified": true,
       "fetchedAt": "2026-11-08T21:51:46.613Z",
       "quoteCheck": "auto"
     },
@@ -180,7 +180,7 @@
       "sourceUrl": "https://www.fullerton.edu/ecs/academics/graduate-admissions.html",
       "quote": "International students must maintain their full-time student status.",
       "quoteFound": true,
-      "verified": false,
+      "verified": true,
       "fetchedAt": "2026-11-08T21:51:46.613Z",
       "quoteCheck": "auto"
     },
@@ -192,7 +192,7 @@
       "sourceUrl": "https://www.fullerton.edu/ecs/academics/graduate-admissions.html",
       "quote": "Students seeking an F1 Visa are not currently eligible to apply for online graduate programs.",
       "quoteFound": true,
-      "verified": false,
+      "verified": true,
       "fetchedAt": "2026-11-08T21:51:46.613Z",
       "quoteCheck": "auto"
     },
@@ -204,7 +204,7 @@
       "sourceUrl": "https://www.fullerton.edu/ecs/academics/graduate-admissions.html",
       "quote": "An application fee waiver is not available.",
       "quoteFound": true,
-      "verified": false,
+      "verified": true,
       "fetchedAt": "2026-11-08T21:51:46.613Z",
       "quoteCheck": "auto"
     },
@@ -216,7 +216,7 @@
       "sourceUrl": "https://www.fullerton.edu/graduate/apply/",
       "quote": "University requirements include having a minimum GPA of 2.5 (cumulative or last 60 semester GPA units), a bachelor’s degree from an institutionally accredited college or university, and good standing with the last attended institution.",
       "quoteFound": true,
-      "verified": false,
+      "verified": true,
       "fetchedAt": "2026-11-08T21:51:46.613Z",
       "quoteCheck": "auto"
     },
@@ -228,7 +228,7 @@
       "sourceUrl": "https://www.fullerton.edu/graduate/apply/",
       "quote": "CSUF will only accept 4-year degrees or equivalent.",
       "quoteFound": true,
-      "verified": false,
+      "verified": true,
       "fetchedAt": "2026-11-08T21:51:46.613Z",
       "quoteCheck": "auto"
     },
@@ -240,7 +240,7 @@
       "sourceUrl": "https://www.fullerton.edu/graduate/apply/",
       "quote": "Students who attended a university outside of the United States and do not qualify for a waiver must take an English Language Proficiency (ELP) test",
       "quoteFound": true,
-      "verified": false,
+      "verified": true,
       "fetchedAt": "2026-11-08T21:51:46.613Z",
       "quoteCheck": "auto"
     },
@@ -252,7 +252,7 @@
       "sourceUrl": "https://www.fullerton.edu/graduate/apply/",
       "quote": "You can only apply to one program per campus, for a given semester.",
       "quoteFound": true,
-      "verified": false,
+      "verified": true,
       "fetchedAt": "2026-11-08T21:51:46.613Z",
       "quoteCheck": "auto"
     },
@@ -264,7 +264,7 @@
       "sourceUrl": "https://www.fullerton.edu/graduate/apply/",
       "quote": "Please note, students cannot defer their admissions.",
       "quoteFound": true,
-      "verified": false,
+      "verified": true,
       "fetchedAt": "2026-11-08T21:51:46.613Z",
       "quoteCheck": "auto"
     },
@@ -276,7 +276,7 @@
       "sourceUrl": "https://www.fullerton.edu/ecs/academics/graduate-admissions.html",
       "quote": "Fall 2027 Applications Open (all programs): October 1, 2026",
       "quoteFound": true,
-      "verified": false,
+      "verified": true,
       "fetchedAt": "2026-11-08T21:51:46.613Z",
       "quoteCheck": "auto"
     },
@@ -288,7 +288,7 @@
       "sourceUrl": "https://www.fullerton.edu/ecs/academics/graduate-admissions.html",
       "quote": "Civil & Environmental Engineering and Computer Science Programs Applications Close: May 1, 2027 Deadline to submit all documents: May 15, 2027",
       "quoteFound": true,
-      "verified": false,
+      "verified": true,
       "fetchedAt": "2026-11-08T21:51:46.613Z",
       "quoteCheck": "auto"
     },
@@ -300,7 +300,7 @@
       "sourceUrl": "https://www.fullerton.edu/ecs/academics/graduate-admissions.html",
       "quote": "Deadline to accept and pay deposit fee for all programs → June 1, 2027",
       "quoteFound": true,
-      "verified": false,
+      "verified": true,
       "fetchedAt": "2026-11-08T21:51:46.613Z",
       "quoteCheck": "auto"
     },
@@ -312,7 +312,7 @@
       "sourceUrl": "https://www.fullerton.edu/ecs/academics/graduate-admissions.html",
       "quote": "Spring 2027 Applications Open (all programs): July 1, 2026 Applications Close: December 1, 2026 Deadline to submit all documents: December 15, 2026",
       "quoteFound": true,
-      "verified": false,
+      "verified": true,
       "fetchedAt": "2026-11-08T21:51:46.613Z",
       "quoteCheck": "auto"
     },
@@ -324,7 +324,7 @@
       "sourceUrl": "https://www.fullerton.edu/ecs/academics/graduate-admissions.html",
       "quote": "Spring 2027 Graduate Programs Civil Engineering Computer Engineering Computer Science",
       "quoteFound": true,
-      "verified": false,
+      "verified": true,
       "fetchedAt": "2026-11-08T21:51:46.613Z",
       "quoteCheck": "auto"
     },
@@ -336,7 +336,7 @@
       "sourceUrl": "https://admissions.fullerton.edu/deadlines",
       "quote": "Credential, post-baccalaureate, and graduate programs may not accept applicants every term, and deadlines vary.",
       "quoteFound": true,
-      "verified": false,
+      "verified": true,
       "fetchedAt": "2026-11-08T21:51:46.613Z",
       "quoteCheck": "auto"
     },
@@ -348,9 +348,9 @@
       "sourceUrl": "https://catalog.fullerton.edu/preview_program.php?catoid=101&poid=47271",
       "quote": "The Master of Science in Computer Science program emphasizes the study of advanced computational theory and practice to prepare students for successful careers in computer science.",
       "quoteFound": false,
-      "verified": false,
+      "verified": true,
       "fetchedAt": "2026-11-08T21:51:46.613Z",
-      "quoteCheck": "auto"
+      "quoteCheck": "manual"
     },
     {
       "id": "f301",
@@ -360,9 +360,9 @@
       "sourceUrl": "https://catalog.fullerton.edu/preview_program.php?catoid=101&poid=47271",
       "quote": "Minimum GPA of 2.5 for applicants graduated from domestic (U.S.) institutions with undergraduate degrees in engineering or computer science.",
       "quoteFound": false,
-      "verified": false,
+      "verified": true,
       "fetchedAt": "2026-11-08T21:51:46.613Z",
-      "quoteCheck": "auto"
+      "quoteCheck": "manual"
     },
     {
       "id": "f302",
@@ -372,9 +372,9 @@
       "sourceUrl": "https://catalog.fullerton.edu/preview_program.php?catoid=101&poid=47271",
       "quote": "Minimum GPA of 2.5 for applicants graduated from ABET-accredited international institutions with undergraduate degrees in engineering or computer science.",
       "quoteFound": false,
-      "verified": false,
+      "verified": true,
       "fetchedAt": "2026-11-08T21:51:46.613Z",
-      "quoteCheck": "auto"
+      "quoteCheck": "manual"
     },
     {
       "id": "f303",
@@ -384,9 +384,9 @@
       "sourceUrl": "https://catalog.fullerton.edu/preview_program.php?catoid=101&poid=47271",
       "quote": "Minimum GPA of 3.0 for applicants graduated from domestic (U.S.) institutions with undergraduate degrees other than engineering or computer science.",
       "quoteFound": false,
-      "verified": false,
+      "verified": true,
       "fetchedAt": "2026-11-08T21:51:46.613Z",
-      "quoteCheck": "auto"
+      "quoteCheck": "manual"
     },
     {
       "id": "f304",
@@ -396,9 +396,9 @@
       "sourceUrl": "https://catalog.fullerton.edu/preview_program.php?catoid=101&poid=47271",
       "quote": "Minimum GPA of 3.0 for applicants with undergraduate degrees from non-ABET-accredited international institutions.",
       "quoteFound": false,
-      "verified": false,
+      "verified": true,
       "fetchedAt": "2026-11-08T21:51:46.613Z",
-      "quoteCheck": "auto"
+      "quoteCheck": "manual"
     },
     {
       "id": "f305",
@@ -408,9 +408,9 @@
       "sourceUrl": "https://catalog.fullerton.edu/preview_program.php?catoid=101&poid=47271",
       "quote": "Students without an undergraduate degree in computer science must have completed at least one course in computer programming with a grade of at least “B-” within the past 2 years.",
       "quoteFound": false,
-      "verified": false,
+      "verified": true,
       "fetchedAt": "2026-11-08T21:51:46.613Z",
-      "quoteCheck": "auto"
+      "quoteCheck": "manual"
     },
     {
       "id": "f306",
@@ -420,9 +420,9 @@
       "sourceUrl": "https://catalog.fullerton.edu/preview_program.php?catoid=101&poid=47271",
       "quote": "CPSC 121, CPSC 131,CPSC 240, CPSC 323, CPSC 335, CPSC 351, CPSC 362, MATH 170A, MATH 170B, MATH 338.",
       "quoteFound": false,
-      "verified": false,
+      "verified": true,
       "fetchedAt": "2026-11-08T21:51:46.613Z",
-      "quoteCheck": "auto"
+      "quoteCheck": "manual"
     },
     {
       "id": "f307",
@@ -432,9 +432,9 @@
       "sourceUrl": "https://catalog.fullerton.edu/preview_program.php?catoid=101&poid=47271",
       "quote": "At least 15 of the total units shall represent courses offered by the Department of Computer Science.",
       "quoteFound": false,
-      "verified": false,
+      "verified": true,
       "fetchedAt": "2026-11-08T21:51:46.613Z",
-      "quoteCheck": "auto"
+      "quoteCheck": "manual"
     },
     {
       "id": "f308",
@@ -444,9 +444,9 @@
       "sourceUrl": "https://catalog.fullerton.edu/preview_program.php?catoid=101&poid=47271",
       "quote": "Select 3 units from three of the areas below.",
       "quoteFound": false,
-      "verified": false,
+      "verified": true,
       "fetchedAt": "2026-11-08T21:51:46.613Z",
-      "quoteCheck": "auto"
+      "quoteCheck": "manual"
     },
     {
       "id": "f309",
@@ -456,9 +456,9 @@
       "sourceUrl": "https://catalog.fullerton.edu/preview_program.php?catoid=101&poid=47271",
       "quote": "CPSC 531 - Advanced Database Management (3)",
       "quoteFound": false,
-      "verified": false,
+      "verified": true,
       "fetchedAt": "2026-11-08T21:51:46.613Z",
-      "quoteCheck": "auto"
+      "quoteCheck": "manual"
     },
     {
       "id": "f310",
@@ -468,9 +468,9 @@
       "sourceUrl": "https://catalog.fullerton.edu/preview_program.php?catoid=101&poid=47271",
       "quote": "CPSC 559 - Advanced Blockchain Technologies (3)",
       "quoteFound": false,
-      "verified": false,
+      "verified": true,
       "fetchedAt": "2026-11-08T21:51:46.613Z",
-      "quoteCheck": "auto"
+      "quoteCheck": "manual"
     },
     {
       "id": "f311",
@@ -480,9 +480,9 @@
       "sourceUrl": "https://catalog.fullerton.edu/preview_program.php?catoid=101&poid=47271",
       "quote": "CPSC 566 - Advanced Computer Graphics (3)",
       "quoteFound": false,
-      "verified": false,
+      "verified": true,
       "fetchedAt": "2026-11-08T21:51:46.613Z",
-      "quoteCheck": "auto"
+      "quoteCheck": "manual"
     },
     {
       "id": "f312",
@@ -492,9 +492,9 @@
       "sourceUrl": "https://catalog.fullerton.edu/preview_program.php?catoid=101&poid=47271",
       "quote": "CPSC 583 - Knowledge Representation and Reasoning (3)",
       "quoteFound": false,
-      "verified": false,
+      "verified": true,
       "fetchedAt": "2026-11-08T21:51:46.613Z",
-      "quoteCheck": "auto"
+      "quoteCheck": "manual"
     },
     {
       "id": "f313",
@@ -504,9 +504,9 @@
       "sourceUrl": "https://catalog.fullerton.edu/preview_program.php?catoid=101&poid=47271",
       "quote": "CPSC 585 - Neural Networks, Deep Learning, and Reinforcement Learning (3)",
       "quoteFound": false,
-      "verified": false,
+      "verified": true,
       "fetchedAt": "2026-11-08T21:51:46.613Z",
-      "quoteCheck": "auto"
+      "quoteCheck": "manual"
     },
     {
       "id": "f314",
@@ -516,9 +516,9 @@
       "sourceUrl": "https://catalog.fullerton.edu/preview_program.php?catoid=101&poid=47271",
       "quote": "CPSC 551 - Operating Systems Design (3)",
       "quoteFound": false,
-      "verified": false,
+      "verified": true,
       "fetchedAt": "2026-11-08T21:51:46.613Z",
-      "quoteCheck": "auto"
+      "quoteCheck": "manual"
     },
     {
       "id": "f315",
@@ -528,9 +528,9 @@
       "sourceUrl": "https://catalog.fullerton.edu/preview_program.php?catoid=101&poid=47271",
       "quote": "CPSC 552 - Cyber Forensics (3)",
       "quoteFound": false,
-      "verified": false,
+      "verified": true,
       "fetchedAt": "2026-11-08T21:51:46.613Z",
-      "quoteCheck": "auto"
+      "quoteCheck": "manual"
     },
     {
       "id": "f316",
@@ -540,9 +540,9 @@
       "sourceUrl": "https://catalog.fullerton.edu/preview_program.php?catoid=101&poid=47271",
       "quote": "CPSC 558 - Advanced Computer Networking (3)",
       "quoteFound": false,
-      "verified": false,
+      "verified": true,
       "fetchedAt": "2026-11-08T21:51:46.613Z",
-      "quoteCheck": "auto"
+      "quoteCheck": "manual"
     },
     {
       "id": "f317",
@@ -552,9 +552,9 @@
       "sourceUrl": "https://catalog.fullerton.edu/preview_program.php?catoid=101&poid=47271",
       "quote": "CPSC 541 - Systems and Software Standards and Requirements (3)",
       "quoteFound": false,
-      "verified": false,
+      "verified": true,
       "fetchedAt": "2026-11-08T21:51:46.613Z",
-      "quoteCheck": "auto"
+      "quoteCheck": "manual"
     },
     {
       "id": "f318",
@@ -564,9 +564,9 @@
       "sourceUrl": "https://catalog.fullerton.edu/preview_program.php?catoid=101&poid=47271",
       "quote": "CPSC 542 - Software Verification and Validation (3)",
       "quoteFound": false,
-      "verified": false,
+      "verified": true,
       "fetchedAt": "2026-11-08T21:51:46.613Z",
-      "quoteCheck": "auto"
+      "quoteCheck": "manual"
     },
     {
       "id": "f319",
@@ -576,9 +576,9 @@
       "sourceUrl": "https://catalog.fullerton.edu/preview_program.php?catoid=101&poid=47271",
       "quote": "CPSC 543 - Software Maintenance (3)",
       "quoteFound": false,
-      "verified": false,
+      "verified": true,
       "fetchedAt": "2026-11-08T21:51:46.613Z",
-      "quoteCheck": "auto"
+      "quoteCheck": "manual"
     },
     {
       "id": "f320",
@@ -588,9 +588,9 @@
       "sourceUrl": "https://catalog.fullerton.edu/preview_program.php?catoid=101&poid=47271",
       "quote": "CPSC 544 - Advanced Software Process (3)",
       "quoteFound": false,
-      "verified": false,
+      "verified": true,
       "fetchedAt": "2026-11-08T21:51:46.613Z",
-      "quoteCheck": "auto"
+      "quoteCheck": "manual"
     },
     {
       "id": "f321",
@@ -600,9 +600,9 @@
       "sourceUrl": "https://catalog.fullerton.edu/preview_program.php?catoid=101&poid=47271",
       "quote": "CPSC 545 - Software Design and Architecture (3)",
       "quoteFound": false,
-      "verified": false,
+      "verified": true,
       "fetchedAt": "2026-11-08T21:51:46.613Z",
-      "quoteCheck": "auto"
+      "quoteCheck": "manual"
     },
     {
       "id": "f322",
@@ -612,9 +612,9 @@
       "sourceUrl": "https://catalog.fullerton.edu/preview_program.php?catoid=101&poid=47271",
       "quote": "CPSC 546 - Modern Software Management (3)",
       "quoteFound": false,
-      "verified": false,
+      "verified": true,
       "fetchedAt": "2026-11-08T21:51:46.613Z",
-      "quoteCheck": "auto"
+      "quoteCheck": "manual"
     },
     {
       "id": "f323",
@@ -624,9 +624,9 @@
       "sourceUrl": "https://catalog.fullerton.edu/preview_program.php?catoid=101&poid=47271",
       "quote": "CPSC 547 - Software Measurement (3)",
       "quoteFound": false,
-      "verified": false,
+      "verified": true,
       "fetchedAt": "2026-11-08T21:51:46.613Z",
-      "quoteCheck": "auto"
+      "quoteCheck": "manual"
     },
     {
       "id": "f324",
@@ -636,9 +636,9 @@
       "sourceUrl": "https://catalog.fullerton.edu/preview_program.php?catoid=101&poid=47271",
       "quote": "CPSC 548 - Professional, Ethical and Legal Issues for Software Engineers (3)",
       "quoteFound": false,
-      "verified": false,
+      "verified": true,
       "fetchedAt": "2026-11-08T21:51:46.613Z",
-      "quoteCheck": "auto"
+      "quoteCheck": "manual"
     },
     {
       "id": "f325",
@@ -648,9 +648,9 @@
       "sourceUrl": "https://catalog.fullerton.edu/preview_program.php?catoid=101&poid=47271",
       "quote": "CPSC 535 - Advanced Algorithms (3)",
       "quoteFound": false,
-      "verified": false,
+      "verified": true,
       "fetchedAt": "2026-11-08T21:51:46.613Z",
-      "quoteCheck": "auto"
+      "quoteCheck": "manual"
     },
     {
       "id": "f326",
@@ -660,9 +660,9 @@
       "sourceUrl": "https://catalog.fullerton.edu/preview_program.php?catoid=101&poid=47271",
       "quote": "Other courses may be chosen with approval of the departmental graduate adviser. A maximum 9 units of 400-level courses are allowed.",
       "quoteFound": false,
-      "verified": false,
+      "verified": true,
       "fetchedAt": "2026-11-08T21:51:46.613Z",
-      "quoteCheck": "auto"
+      "quoteCheck": "manual"
     },
     {
       "id": "f327",
@@ -672,9 +672,9 @@
       "sourceUrl": "https://catalog.fullerton.edu/preview_program.php?catoid=101&poid=47271",
       "quote": "CPSC 411 - Mobile Device Application Programming (3)",
       "quoteFound": false,
-      "verified": false,
+      "verified": true,
       "fetchedAt": "2026-11-08T21:51:46.613Z",
-      "quoteCheck": "auto"
+      "quoteCheck": "manual"
     },
     {
       "id": "f328",
@@ -684,9 +684,9 @@
       "sourceUrl": "https://catalog.fullerton.edu/preview_program.php?catoid=101&poid=47271",
       "quote": "CPSC 411A - Mobile Device Application Programming for Android (3)",
       "quoteFound": false,
-      "verified": false,
+      "verified": true,
       "fetchedAt": "2026-11-08T21:51:46.613Z",
-      "quoteCheck": "auto"
+      "quoteCheck": "manual"
     },
     {
       "id": "f329",
@@ -696,9 +696,9 @@
       "sourceUrl": "https://catalog.fullerton.edu/preview_program.php?catoid=101&poid=47271",
       "quote": "CPSC 431 - Database and Applications (3)",
       "quoteFound": false,
-      "verified": false,
+      "verified": true,
       "fetchedAt": "2026-11-08T21:51:46.613Z",
-      "quoteCheck": "auto"
+      "quoteCheck": "manual"
     },
     {
       "id": "f330",
@@ -708,9 +708,9 @@
       "sourceUrl": "https://catalog.fullerton.edu/preview_program.php?catoid=101&poid=47271",
       "quote": "CPSC 439 - Theory of Computation (3)",
       "quoteFound": false,
-      "verified": false,
+      "verified": true,
       "fetchedAt": "2026-11-08T21:51:46.613Z",
-      "quoteCheck": "auto"
+      "quoteCheck": "manual"
     },
     {
       "id": "f331",
@@ -720,9 +720,9 @@
       "sourceUrl": "https://catalog.fullerton.edu/preview_program.php?catoid=101&poid=47271",
       "quote": "CPSC 440 - Computer System Architecture (3)",
       "quoteFound": false,
-      "verified": false,
+      "verified": true,
       "fetchedAt": "2026-11-08T21:51:46.613Z",
-      "quoteCheck": "auto"
+      "quoteCheck": "manual"
     },
     {
       "id": "f332",
@@ -732,9 +732,9 @@
       "sourceUrl": "https://catalog.fullerton.edu/preview_program.php?catoid=101&poid=47271",
       "quote": "CPSC 449 - Web Back-End Engineering (3)",
       "quoteFound": false,
-      "verified": false,
+      "verified": true,
       "fetchedAt": "2026-11-08T21:51:46.613Z",
-      "quoteCheck": "auto"
+      "quoteCheck": "manual"
     },
     {
       "id": "f333",
@@ -744,9 +744,9 @@
       "sourceUrl": "https://catalog.fullerton.edu/preview_program.php?catoid=101&poid=47271",
       "quote": "CPSC 454 - Cloud Computing and Security (3)",
       "quoteFound": false,
-      "verified": false,
+      "verified": true,
       "fetchedAt": "2026-11-08T21:51:46.613Z",
-      "quoteCheck": "auto"
+      "quoteCheck": "manual"
     },
     {
       "id": "f334",
@@ -756,9 +756,9 @@
       "sourceUrl": "https://catalog.fullerton.edu/preview_program.php?catoid=101&poid=47271",
       "quote": "CPSC 455 - Web Security (3)",
       "quoteFound": false,
-      "verified": false,
+      "verified": true,
       "fetchedAt": "2026-11-08T21:51:46.613Z",
-      "quoteCheck": "auto"
+      "quoteCheck": "manual"
     },
     {
       "id": "f335",
@@ -768,9 +768,9 @@
       "sourceUrl": "https://catalog.fullerton.edu/preview_program.php?catoid=101&poid=47271",
       "quote": "CPSC 456 - Network Security (3)",
       "quoteFound": false,
-      "verified": false,
+      "verified": true,
       "fetchedAt": "2026-11-08T21:51:46.613Z",
-      "quoteCheck": "auto"
+      "quoteCheck": "manual"
     },
     {
       "id": "f336",
@@ -780,9 +780,9 @@
       "sourceUrl": "https://catalog.fullerton.edu/preview_program.php?catoid=101&poid=47271",
       "quote": "CPSC 458 - Malware Analysis (3)",
       "quoteFound": false,
-      "verified": false,
+      "verified": true,
       "fetchedAt": "2026-11-08T21:51:46.613Z",
-      "quoteCheck": "auto"
+      "quoteCheck": "manual"
     },
     {
       "id": "f337",
@@ -792,9 +792,9 @@
       "sourceUrl": "https://catalog.fullerton.edu/preview_program.php?catoid=101&poid=47271",
       "quote": "CPSC 459 - Blockchain Technologies (3)",
       "quoteFound": false,
-      "verified": false,
+      "verified": true,
       "fetchedAt": "2026-11-08T21:51:46.613Z",
-      "quoteCheck": "auto"
+      "quoteCheck": "manual"
     },
     {
       "id": "f338",
@@ -804,9 +804,9 @@
       "sourceUrl": "https://catalog.fullerton.edu/preview_program.php?catoid=101&poid=47271",
       "quote": "CPSC 462 - Software Design (3)",
       "quoteFound": false,
-      "verified": false,
+      "verified": true,
       "fetchedAt": "2026-11-08T21:51:46.613Z",
-      "quoteCheck": "auto"
+      "quoteCheck": "manual"
     },
     {
       "id": "f339",
@@ -816,9 +816,9 @@
       "sourceUrl": "https://catalog.fullerton.edu/preview_program.php?catoid=101&poid=47271",
       "quote": "CPSC 463 - Software Testing (3)",
       "quoteFound": false,
-      "verified": false,
+      "verified": true,
       "fetchedAt": "2026-11-08T21:51:46.613Z",
-      "quoteCheck": "auto"
+      "quoteCheck": "manual"
     },
     {
       "id": "f340",
@@ -828,9 +828,9 @@
       "sourceUrl": "https://catalog.fullerton.edu/preview_program.php?catoid=101&poid=47271",
       "quote": "CPSC 464 - Software Architecture (3)",
       "quoteFound": false,
-      "verified": false,
+      "verified": true,
       "fetchedAt": "2026-11-08T21:51:46.613Z",
-      "quoteCheck": "auto"
+      "quoteCheck": "manual"
     },
     {
       "id": "f341",
@@ -840,9 +840,9 @@
       "sourceUrl": "https://catalog.fullerton.edu/preview_program.php?catoid=101&poid=47271",
       "quote": "CPSC 465 - Modern Software Deployment and Operations (3)",
       "quoteFound": false,
-      "verified": false,
+      "verified": true,
       "fetchedAt": "2026-11-08T21:51:46.613Z",
-      "quoteCheck": "auto"
+      "quoteCheck": "manual"
     },
     {
       "id": "f342",
@@ -852,9 +852,9 @@
       "sourceUrl": "https://catalog.fullerton.edu/preview_program.php?catoid=101&poid=47271",
       "quote": "CPSC 466 - Software Process (3)",
       "quoteFound": false,
-      "verified": false,
+      "verified": true,
       "fetchedAt": "2026-11-08T21:51:46.613Z",
-      "quoteCheck": "auto"
+      "quoteCheck": "manual"
     },
     {
       "id": "f343",
@@ -864,9 +864,9 @@
       "sourceUrl": "https://catalog.fullerton.edu/preview_program.php?catoid=101&poid=47271",
       "quote": "CPSC 471 - Computer Communications (3)",
       "quoteFound": false,
-      "verified": false,
+      "verified": true,
       "fetchedAt": "2026-11-08T21:51:46.613Z",
-      "quoteCheck": "auto"
+      "quoteCheck": "manual"
     },
     {
       "id": "f344",
@@ -876,9 +876,9 @@
       "sourceUrl": "https://catalog.fullerton.edu/preview_program.php?catoid=101&poid=47271",
       "quote": "CPSC 474 - Parallel and Distributed Computing (3)",
       "quoteFound": false,
-      "verified": false,
+      "verified": true,
       "fetchedAt": "2026-11-08T21:51:46.613Z",
-      "quoteCheck": "auto"
+      "quoteCheck": "manual"
     },
     {
       "id": "f345",
@@ -888,9 +888,9 @@
       "sourceUrl": "https://catalog.fullerton.edu/preview_program.php?catoid=101&poid=47271",
       "quote": "CPSC 476 - Edge AI: Principles and Practices (3)",
       "quoteFound": false,
-      "verified": false,
+      "verified": true,
       "fetchedAt": "2026-11-08T21:51:46.613Z",
-      "quoteCheck": "auto"
+      "quoteCheck": "manual"
     },
     {
       "id": "f346",
@@ -900,9 +900,9 @@
       "sourceUrl": "https://catalog.fullerton.edu/preview_program.php?catoid=101&poid=47271",
       "quote": "CPSC 479 - Introduction to High Performance Computing (3)",
       "quoteFound": false,
-      "verified": false,
+      "verified": true,
       "fetchedAt": "2026-11-08T21:51:46.613Z",
-      "quoteCheck": "auto"
+      "quoteCheck": "manual"
     },
     {
       "id": "f347",
@@ -912,9 +912,9 @@
       "sourceUrl": "https://catalog.fullerton.edu/preview_program.php?catoid=101&poid=47271",
       "quote": "CPSC 481 - Artificial Intelligence (3)",
       "quoteFound": false,
-      "verified": false,
+      "verified": true,
       "fetchedAt": "2026-11-08T21:51:46.613Z",
-      "quoteCheck": "auto"
+      "quoteCheck": "manual"
     },
     {
       "id": "f348",
@@ -924,9 +924,9 @@
       "sourceUrl": "https://catalog.fullerton.edu/preview_program.php?catoid=101&poid=47271",
       "quote": "CPSC 483 - Introduction to Machine Learning (3)",
       "quoteFound": false,
-      "verified": false,
+      "verified": true,
       "fetchedAt": "2026-11-08T21:51:46.613Z",
-      "quoteCheck": "auto"
+      "quoteCheck": "manual"
     },
     {
       "id": "f349",
@@ -936,9 +936,9 @@
       "sourceUrl": "https://catalog.fullerton.edu/preview_program.php?catoid=101&poid=47271",
       "quote": "CPSC 484 - Principles of Computer Graphics (3)",
       "quoteFound": false,
-      "verified": false,
+      "verified": true,
       "fetchedAt": "2026-11-08T21:51:46.613Z",
-      "quoteCheck": "auto"
+      "quoteCheck": "manual"
     },
     {
       "id": "f350",
@@ -948,9 +948,9 @@
       "sourceUrl": "https://catalog.fullerton.edu/preview_program.php?catoid=101&poid=47271",
       "quote": "CPSC 485 - Computational Bioinformatics (3)",
       "quoteFound": false,
-      "verified": false,
+      "verified": true,
       "fetchedAt": "2026-11-08T21:51:46.613Z",
-      "quoteCheck": "auto"
+      "quoteCheck": "manual"
     },
     {
       "id": "f351",
@@ -960,9 +960,9 @@
       "sourceUrl": "https://catalog.fullerton.edu/preview_program.php?catoid=101&poid=47271",
       "quote": "CPSC 486 - Game Programming (3)",
       "quoteFound": false,
-      "verified": false,
+      "verified": true,
       "fetchedAt": "2026-11-08T21:51:46.613Z",
-      "quoteCheck": "auto"
+      "quoteCheck": "manual"
     },
     {
       "id": "f352",
@@ -972,9 +972,9 @@
       "sourceUrl": "https://catalog.fullerton.edu/preview_program.php?catoid=101&poid=47271",
       "quote": "CPSC 487 - Computational Epidemiology (3)",
       "quoteFound": false,
-      "verified": false,
+      "verified": true,
       "fetchedAt": "2026-11-08T21:51:46.613Z",
-      "quoteCheck": "auto"
+      "quoteCheck": "manual"
     },
     {
       "id": "f353",
@@ -984,9 +984,9 @@
       "sourceUrl": "https://catalog.fullerton.edu/preview_program.php?catoid=101&poid=47271",
       "quote": "CPSC 488 - Natural Language Processing (3)",
       "quoteFound": false,
-      "verified": false,
+      "verified": true,
       "fetchedAt": "2026-11-08T21:51:46.613Z",
-      "quoteCheck": "auto"
+      "quoteCheck": "manual"
     },
     {
       "id": "f354",
@@ -996,9 +996,9 @@
       "sourceUrl": "https://catalog.fullerton.edu/preview_program.php?catoid=101&poid=47271",
       "quote": "CPSC 515 - Mobile Computing (3)",
       "quoteFound": false,
-      "verified": false,
+      "verified": true,
       "fetchedAt": "2026-11-08T21:51:46.613Z",
-      "quoteCheck": "auto"
+      "quoteCheck": "manual"
     },
     {
       "id": "f355",
@@ -1008,9 +1008,9 @@
       "sourceUrl": "https://catalog.fullerton.edu/preview_program.php?catoid=101&poid=47271",
       "quote": "CPSC 533 - Applied Algorithms (3)",
       "quoteFound": false,
-      "verified": false,
+      "verified": true,
       "fetchedAt": "2026-11-08T21:51:46.613Z",
-      "quoteCheck": "auto"
+      "quoteCheck": "manual"
     },
     {
       "id": "f356",
@@ -1020,9 +1020,9 @@
       "sourceUrl": "https://catalog.fullerton.edu/preview_program.php?catoid=101&poid=47271",
       "quote": "CPSC 549 - Web Application Frameworks (3)",
       "quoteFound": false,
-      "verified": false,
+      "verified": true,
       "fetchedAt": "2026-11-08T21:51:46.613Z",
-      "quoteCheck": "auto"
+      "quoteCheck": "manual"
     },
     {
       "id": "f357",
@@ -1032,9 +1032,9 @@
       "sourceUrl": "https://catalog.fullerton.edu/preview_program.php?catoid=101&poid=47271",
       "quote": "CPSC 599 - Independent Graduate Research (1-3)",
       "quoteFound": false,
-      "verified": false,
+      "verified": true,
       "fetchedAt": "2026-11-08T21:51:46.613Z",
-      "quoteCheck": "auto"
+      "quoteCheck": "manual"
     },
     {
       "id": "f358",
@@ -1044,9 +1044,9 @@
       "sourceUrl": "https://catalog.fullerton.edu/preview_program.php?catoid=101&poid=47271",
       "quote": "The culminating experience marks the end of a graduate program. It demonstrates mastery of disciplinary materials and meets requirements from Section 40510 of Title 5 of the California Code of Regulations.",
       "quoteFound": false,
-      "verified": false,
+      "verified": true,
       "fetchedAt": "2026-11-08T21:51:46.613Z",
-      "quoteCheck": "auto"
+      "quoteCheck": "manual"
     },
     {
       "id": "f359",
@@ -1056,9 +1056,9 @@
       "sourceUrl": "https://catalog.fullerton.edu/preview_program.php?catoid=101&poid=47271",
       "quote": "CPSC 589 - Seminar in Computer Science (3)",
       "quoteFound": false,
-      "verified": false,
+      "verified": true,
       "fetchedAt": "2026-11-08T21:51:46.613Z",
-      "quoteCheck": "auto"
+      "quoteCheck": "manual"
     },
     {
       "id": "f360",
@@ -1068,9 +1068,9 @@
       "sourceUrl": "https://catalog.fullerton.edu/preview_program.php?catoid=101&poid=47271",
       "quote": "CPSC 597 - Project (3) *",
       "quoteFound": false,
-      "verified": false,
+      "verified": true,
       "fetchedAt": "2026-11-08T21:51:46.613Z",
-      "quoteCheck": "auto"
+      "quoteCheck": "manual"
     },
     {
       "id": "f361",
@@ -1080,9 +1080,9 @@
       "sourceUrl": "https://catalog.fullerton.edu/preview_program.php?catoid=101&poid=47271",
       "quote": "CPSC 598 - Thesis (3) *",
       "quoteFound": false,
-      "verified": false,
+      "verified": true,
       "fetchedAt": "2026-11-08T21:51:46.613Z",
-      "quoteCheck": "auto"
+      "quoteCheck": "manual"
     }
   ]
 }

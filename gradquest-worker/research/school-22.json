@@ -70,6 +70,26 @@
     {
       "kind": "deadlines",
       "url": "https://cse.ucsd.edu/graduate/admissions"
+    },
+    {
+      "kind": "faculty",
+      "url": "https://jacobsschool.ucsd.edu/faculty/profile?id=337"
+    },
+    {
+      "kind": "faculty",
+      "url": "https://swanson.ucsd.edu/"
+    },
+    {
+      "kind": "faculty",
+      "url": "https://leoporter.ucsd.edu/"
+    },
+    {
+      "kind": "faculty",
+      "url": "https://cseweb.ucsd.edu/~ravir/"
+    },
+    {
+      "kind": "faculty",
+      "url": "https://healthrobotics.ucsd.edu/people/laurel-riek.html"
     }
   ],
   "facts": [
@@ -330,126 +350,6 @@
       "quote": "CSE 276A Introduction to Robotics"
     },
     {
-      "id": "f40",
-      "kind": "faculty",
-      "name": "Christine Alvarado",
-      "detail": "",
-      "sourceUrl": "https://cse.ucsd.edu/people/faculty-profiles",
-      "quote": "Christine Alvarado"
-    },
-    {
-      "id": "f41",
-      "kind": "faculty",
-      "name": "Nadia Polikarpova",
-      "detail": "",
-      "sourceUrl": "https://cse.ucsd.edu/people/faculty-profiles",
-      "quote": "Nadia Polikarpova"
-    },
-    {
-      "id": "f42",
-      "kind": "faculty",
-      "name": "Steven Swanson",
-      "detail": "",
-      "sourceUrl": "https://cse.ucsd.edu/people/faculty-profiles",
-      "quote": "Steven Swanson"
-    },
-    {
-      "id": "f43",
-      "kind": "faculty",
-      "name": "Mihir Bellare",
-      "detail": "",
-      "sourceUrl": "https://cse.ucsd.edu/people/faculty-profiles",
-      "quote": "Mihir Bellare"
-    },
-    {
-      "id": "f44",
-      "kind": "faculty",
-      "name": "Stefan Savage",
-      "detail": "",
-      "sourceUrl": "https://cse.ucsd.edu/people/faculty-profiles",
-      "quote": "Stefan Savage"
-    },
-    {
-      "id": "f45",
-      "kind": "faculty",
-      "name": "Geoffrey M. Voelker",
-      "detail": "",
-      "sourceUrl": "https://cse.ucsd.edu/people/faculty-profiles",
-      "quote": "Geoffrey M. Voelker"
-    },
-    {
-      "id": "f46",
-      "kind": "faculty",
-      "name": "Dean M. Tullsen",
-      "detail": "",
-      "sourceUrl": "https://cse.ucsd.edu/people/faculty-profiles",
-      "quote": "Dean M. Tullsen"
-    },
-    {
-      "id": "f47",
-      "kind": "faculty",
-      "name": "Hadi Esmaeilzadeh",
-      "detail": "",
-      "sourceUrl": "https://cse.ucsd.edu/people/faculty-profiles",
-      "quote": "Hadi Esmaeilzadeh"
-    },
-    {
-      "id": "f48",
-      "kind": "faculty",
-      "name": "Yiying Zhang",
-      "detail": "",
-      "sourceUrl": "https://cse.ucsd.edu/people/faculty-profiles",
-      "quote": "Yiying Zhang"
-    },
-    {
-      "id": "f49",
-      "kind": "faculty",
-      "name": "Arun Kumar",
-      "detail": "",
-      "sourceUrl": "https://cse.ucsd.edu/people/faculty-profiles",
-      "quote": "Arun Kumar"
-    },
-    {
-      "id": "f50",
-      "kind": "faculty",
-      "name": "Daniel M. Kane",
-      "detail": "",
-      "sourceUrl": "https://cse.ucsd.edu/people/faculty-profiles",
-      "quote": "Daniel M. Kane"
-    },
-    {
-      "id": "f51",
-      "kind": "faculty",
-      "name": "Shachar Lovett",
-      "detail": "",
-      "sourceUrl": "https://cse.ucsd.edu/people/faculty-profiles",
-      "quote": "Shachar Lovett"
-    },
-    {
-      "id": "f52",
-      "kind": "faculty",
-      "name": "Leo Porter",
-      "detail": "",
-      "sourceUrl": "https://cse.ucsd.edu/people/faculty-profiles",
-      "quote": "Leo Porter"
-    },
-    {
-      "id": "f53",
-      "kind": "faculty",
-      "name": "Ravi Ramamoorthi",
-      "detail": "",
-      "sourceUrl": "https://cse.ucsd.edu/people/faculty-profiles",
-      "quote": "Ravi Ramamoorthi"
-    },
-    {
-      "id": "f54",
-      "kind": "faculty",
-      "name": "Laurel Riek",
-      "detail": "",
-      "sourceUrl": "https://cse.ucsd.edu/people/faculty-profiles",
-      "quote": "Laurel Riek"
-    },
-    {
       "id": "f60",
       "kind": "faculty",
       "name": "Mihir Bellare",
@@ -528,6 +428,150 @@
       "detail": "Personal page. Systems and networking research group.",
       "sourceUrl": "https://cseweb.ucsd.edu/~voelker/",
       "quote": "Systems and Networking Research Group"
+    },
+    {
+      "id": "f100",
+      "kind": "faculty",
+      "name": "Christine Alvarado",
+      "detail": "Title/role stated on Jacobs School faculty profile.",
+      "sourceUrl": "https://jacobsschool.ucsd.edu/faculty/profile?id=337",
+      "quote": "Associate Dean of the Division of Undergraduate Education, UC San Diego"
+    },
+    {
+      "id": "f101",
+      "kind": "faculty",
+      "name": "Christine Alvarado",
+      "detail": "Endowed chair title stated on Jacobs School faculty profile.",
+      "sourceUrl": "https://jacobsschool.ucsd.edu/faculty/profile?id=337",
+      "quote": "Paul R. Kube Endowed Chair of Computer Science"
+    },
+    {
+      "id": "f102",
+      "kind": "faculty",
+      "name": "Christine Alvarado",
+      "detail": "Research focus: CS education curriculum/program design for underrepresented groups.",
+      "sourceUrl": "https://jacobsschool.ucsd.edu/faculty/profile?id=337",
+      "quote": "Curriculum and program design for computer science education, with a focus on better serving underrepresented groups."
+    },
+    {
+      "id": "f103",
+      "kind": "faculty",
+      "name": "Christine Alvarado",
+      "detail": "Founded CSE Early Research Scholars Program for early undergraduates.",
+      "sourceUrl": "https://jacobsschool.ucsd.edu/faculty/profile?id=337",
+      "quote": "she founded the CSE Early Research Scholars Program, an inclusive research apprenticeship for early computing undergraduates."
+    },
+    {
+      "id": "f104",
+      "kind": "faculty",
+      "name": "Steven Swanson",
+      "detail": "Professor and director of the Non-Volatile Systems Lab.",
+      "sourceUrl": "https://swanson.ucsd.edu/",
+      "quote": "Professor  \nDirector, Non-Volatile Systems Lab"
+    },
+    {
+      "id": "f105",
+      "kind": "faculty",
+      "name": "Steven Swanson",
+      "detail": "Research theme: software for persistent memory.",
+      "sourceUrl": "https://swanson.ucsd.edu/",
+      "quote": "Building Software for Persistent Memory"
+    },
+    {
+      "id": "f106",
+      "kind": "faculty",
+      "name": "Steven Swanson",
+      "detail": "Builds system software for persistent memory and RDMA networking.",
+      "sourceUrl": "https://swanson.ucsd.edu/",
+      "quote": "We build cutting-edge system software to support persistent memories and RDMA-based networking."
+    },
+    {
+      "id": "f107",
+      "kind": "faculty",
+      "name": "Steven Swanson",
+      "detail": "Builds compilers/language/debugging/verification tools for PMEM programming.",
+      "sourceUrl": "https://swanson.ucsd.edu/",
+      "quote": "We are also building compilers, language support, debugging, and verification tools make PMEM programming easy and safe."
+    },
+    {
+      "id": "f108",
+      "kind": "faculty",
+      "name": "Leo Porter",
+      "detail": "Research interests: CS education research and computer architecture.",
+      "sourceUrl": "https://leoporter.ucsd.edu/",
+      "quote": "I am a Professor of Computer Science at UC San Diego interested in computer science education research and computer architecture."
+    },
+    {
+      "id": "f109",
+      "kind": "faculty",
+      "name": "Leo Porter",
+      "detail": "Co-founded Computing Education Research Laboratory.",
+      "sourceUrl": "https://leoporter.ucsd.edu/",
+      "quote": "I co-founded the Computing Education Research Laboratory dedicated to better understanding how students learn computing and creating instructional environments where students can succeed."
+    },
+    {
+      "id": "f110",
+      "kind": "faculty",
+      "name": "Leo Porter",
+      "detail": "Co-founded/co-directs GenAI in CS Education Consortium.",
+      "sourceUrl": "https://leoporter.ucsd.edu/",
+      "quote": "I also co-founded and co-direct the GenAI in CS Education Consortium whose mission is to help educators integrate GenAI into the computer science curriculum."
+    },
+    {
+      "id": "f111",
+      "kind": "faculty",
+      "name": "Ravi Ramamoorthi",
+      "detail": "Endowed professor title.",
+      "sourceUrl": "https://cseweb.ucsd.edu/~ravir/",
+      "quote": "Ronald L. Graham Professor of Computer Science"
+    },
+    {
+      "id": "f112",
+      "kind": "faculty",
+      "name": "Ravi Ramamoorthi",
+      "detail": "Director of UC San Diego Center for Visual Computing.",
+      "sourceUrl": "https://cseweb.ucsd.edu/~ravir/",
+      "quote": "Director, UC San Diego Center for Visual Computing"
+    },
+    {
+      "id": "f113",
+      "kind": "faculty",
+      "name": "Ravi Ramamoorthi",
+      "detail": "Research goal: graphics and vision group at UCSD.",
+      "sourceUrl": "https://cseweb.ucsd.edu/~ravir/",
+      "quote": "My goal is to build a world-leading graphics and vision\ngroup at UCSD."
+    },
+    {
+      "id": "f114",
+      "kind": "faculty",
+      "name": "Ravi Ramamoorthi",
+      "detail": "Part-time Distinguished Research Scientist (Graphics) at NVIDIA. [exclude-from-matching: NVIDIA appointment is outside UCSD program context]",
+      "sourceUrl": "https://cseweb.ucsd.edu/~ravir/",
+      "quote": "I also hold a part-time appointment as a Distinguished Research Scientist, Graphics at NVIDIA."
+    },
+    {
+      "id": "f115",
+      "kind": "faculty",
+      "name": "Laurel Riek",
+      "detail": "David R. Miller Professor in CSE with joint appointment in Emergency Medicine.",
+      "sourceUrl": "https://healthrobotics.ucsd.edu/people/laurel-riek.html",
+      "quote": "Dr. Laurel Riek is the David R. Miller Professor in Computer Science and \nEngineering at the University of California, San Diego, with a joint \nappointment in the Department of Emergency Medicine"
+    },
+    {
+      "id": "f116",
+      "kind": "faculty",
+      "name": "Laurel Riek",
+      "detail": "Directs Healthcare Robotics Lab; research in HRI, assistive/accessible tech, embodied AI, health informatics.",
+      "sourceUrl": "https://healthrobotics.ucsd.edu/people/laurel-riek.html",
+      "quote": "Dr. Riek directs \nthe Healthcare Robotics Lab, and leads research in human-robot \ninteraction (HRI), assistive and acessible technology, embodied AI, and \nhealth informatics."
+    },
+    {
+      "id": "f117",
+      "kind": "faculty",
+      "name": "Laurel Riek",
+      "detail": "Current projects apply to acute care, neuro-rehabilitation, and home health.",
+      "sourceUrl": "https://healthrobotics.ucsd.edu/people/laurel-riek.html",
+      "quote": "current research projects have applications in \nacute care, neuro-rehabilitation, and home health."
     }
   ]
 }

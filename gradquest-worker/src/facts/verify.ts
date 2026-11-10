@@ -1,4 +1,4 @@
-import type { ProgramFact, ProgramResearch } from "./schema";
+import type { FactKind, ProgramFact, ProgramResearch } from "./schema";
 
 export function normalizeForMatch(text: string): string {
   return text
@@ -13,8 +13,40 @@ export function normalizeForMatch(text: string): string {
     .trim();
 }
 
-export function quoteFound(pageText: string, quote: string): boolean {
+// A bare person's name ("Lastname, Firstname" or "Firstname [M.] Lastname")
+// is below the normal 20-character minimum far more often than any other
+// fact shape, and a department-wide faculty listing frequently has nothing
+// else adjacent to quote (see Cal Poly for a counterexample where a title
+// *is* adjacent — that case just gets a longer combined quote instead of
+// going through this path). A full name is still safe to auto-match on its
+// own, shorter, because it isn't one or two generic words that could appear
+// by coincidence elsewhere on the page — it's a specific two-part name — as
+// long as the match respects word boundaries (so "Kane" can't match inside
+// "Kaneko", etc.).
+const FULL_NAME_SHAPE =
+  /^\p{Lu}[\p{L}'’.-]+,\s+\p{Lu}[\p{L}'’.-]+$|^\p{Lu}[\p{L}'’.-]+(?:\s+\p{Lu}\.)?\s+\p{Lu}[\p{L}'’.-]+$/u;
+const MIN_NAME_LENGTH = 8;
+
+function isLetter(ch: string): boolean {
+  return /\p{L}/u.test(ch);
+}
+
+function wordBoundaryIncludes(haystack: string, needle: string): boolean {
+  let idx = haystack.indexOf(needle);
+  while (idx !== -1) {
+    const before = idx > 0 ? haystack[idx - 1] : "";
+    const after = idx + needle.length < haystack.length ? haystack[idx + needle.length] : "";
+    if (!isLetter(before) && !isLetter(after)) return true;
+    idx = haystack.indexOf(needle, idx + 1);
+  }
+  return false;
+}
+
+export function quoteFound(pageText: string, quote: string, kind?: FactKind): boolean {
   const needle = normalizeForMatch(quote);
+  if (kind === "faculty" && needle.length >= MIN_NAME_LENGTH && FULL_NAME_SHAPE.test(quote.trim())) {
+    return wordBoundaryIncludes(normalizeForMatch(pageText), needle);
+  }
   if (needle.length < 20) return false;
   return normalizeForMatch(pageText).includes(needle);
 }
@@ -69,7 +101,7 @@ export async function checkFacts(
 
   const facts: CheckedFact[] = research.facts.map((fact) => ({
     ...fact,
-    quoteFound: quoteFound(pages.get(fact.sourceUrl) ?? "", fact.quote),
+    quoteFound: quoteFound(pages.get(fact.sourceUrl) ?? "", fact.quote, fact.kind),
     verified: false,
     fetchedAt,
     quoteCheck: "auto",
