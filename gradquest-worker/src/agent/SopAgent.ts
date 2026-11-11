@@ -2,7 +2,8 @@ import { Agent } from "agents";
 import { isAllowlisted } from "../allowlist";
 import { excerptsFromText, type Excerpt } from "../crawl/excerpts";
 import { browserMarkdown } from "../crawl/markdown";
-import { resolveOverlap } from "./overlapRead";
+import { resolveOverlap, storedMatchingError } from "./overlapRead";
+import { deleteStoredResume } from "./resumeDelete";
 import { resolveProgramRead } from "./programRead";
 import { keptPairsForDraft } from "../draft/keptPairs";
 import { guardNames, rosterFromSnapshot } from "../draft/nameGuard";
@@ -88,11 +89,33 @@ export class SopAgent extends Agent<Env, SopState> {
     } catch {
       return Response.json({ error: "Expected JSON" }, { status: 400 });
     }
+    if (url.pathname.endsWith("/resume/delete")) return this.deleteResume(body);
     if (url.pathname.endsWith("/resume")) return this.storeResume(body);
     if (url.pathname.endsWith("/programs")) return this.readProgram(body);
     if (url.pathname.endsWith("/overlap")) return this.overlap(body);
     if (url.pathname.endsWith("/draft")) return this.writeDraft(body);
     return new Response("Not found", { status: 404 });
+  }
+
+  private async deleteResume(body: ProgramBody): Promise<Response> {
+    const userId = String(body.userId ?? "").trim();
+    if (!userId) {
+      return Response.json({ deleted: false, failed: ["user"] }, { status: 400 });
+    }
+    const result = await deleteStoredResume({
+      userId,
+      readChunkIds: () =>
+        this.sql<{ id: string }>`SELECT id FROM resume_chunks`.map((row) => row.id),
+      sql: (strings, ...values) => this.sql(strings, ...values),
+      getState: () => this.state,
+      setState: (next) => {
+        this.setState(next);
+      },
+      db: this.env.DB,
+      resumes: this.env.RESUMES,
+      vectorize: this.env.VECTORIZE,
+    });
+    return Response.json(result);
   }
 
   private async storeResume(body: ProgramBody): Promise<Response> {
@@ -188,6 +211,10 @@ export class SopAgent extends Agent<Env, SopState> {
     const overlapRows = this.sql<{ report_json: string }>`
       SELECT report_json FROM overlap_reads WHERE school_id = ${schoolId}
     `;
+    const matchingError = storedMatchingError(overlapRows[0]?.report_json);
+    if (matchingError) {
+      return Response.json({ error: matchingError }, { status: 503 });
+    }
     const snapshotRows = this.sql<{ snapshot_json: string }>`
       SELECT snapshot_json FROM snapshot_reads WHERE school_id = ${schoolId}
     `;

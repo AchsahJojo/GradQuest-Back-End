@@ -14,7 +14,7 @@ import {
   type CheckedFact,
   type CheckedResearch,
 } from "../src/facts/verify";
-import { reportMarkdown, snapshotSql } from "../src/facts/report";
+import { compareSnapshot, reportMarkdown, snapshotSql } from "../src/facts/report";
 import { stripHtml } from "../src/crawl/loginWall";
 
 const PAGE = "https://catalog.calpoly.edu/engineering/computer-science-software/computer-science-ms/";
@@ -1223,6 +1223,73 @@ describe("citationShare", () => {
       unmapped: 0,
     });
     expect(citationShare("I want to take the course [P1] and [P#].", 1, false).maps).toBe(false);
+  });
+});
+
+describe("compareSnapshot", () => {
+  const url = "https://catalog.calpoly.edu/engineering/computer-science-software/computer-science-ms/";
+  const quote = "The M.S. in Computer Science prepares students for research and professional practice in computing.";
+
+  function checkedWith(pageText: string, hashText: string, extras: Partial<CheckedResearch> = {}): Promise<CheckedResearch> {
+    return pageHash(hashText).then((hash) => {
+      const base = sampleChecked();
+      const fact = base.facts[0];
+      const dropped = base.facts[1];
+      return {
+        ...base,
+        pages: [{ kind: "overview", url }],
+        pageHashes: { [url]: hash },
+        facts: [
+          { ...fact, sourceUrl: url, quote, verified: true, quoteFound: true },
+          {
+            ...dropped,
+            sourceUrl: url,
+            quote: "This unverified sentence is not on the page and must stay out of the report.",
+            verified: false,
+            quoteFound: false,
+          },
+        ],
+        ...extras,
+      };
+    });
+  }
+
+  it("lists a verified quote that is no longer on the page", async () => {
+    const pageText = "The catalog now describes a different set of requirements for this degree program.";
+    const checked = await checkedWith(pageText, pageText);
+    const report = await compareSnapshot(checked, new Map([[url, pageText]]));
+    expect(report.schoolId).toBe(checked.schoolId);
+    expect(report.missingQuotes.map((fact) => fact.id)).toEqual([checked.facts[0].id]);
+    expect(report.changedPages).toEqual([]);
+    expect(report.unreachable).toEqual([]);
+  });
+
+  it("lists a page whose pageHash differs", async () => {
+    const original = `${quote} Students complete the public catalog requirements.`;
+    const changed = `${original} A new sentence was added to the catalog page.`;
+    const checked = await checkedWith(changed, original);
+    const report = await compareSnapshot(checked, new Map([[url, changed]]));
+    expect(report.changedPages).toEqual([url]);
+    expect(report.missingQuotes).toEqual([]);
+    expect(report.unreachable).toEqual([]);
+  });
+
+  it("lists a URL missing from the fetched pages", async () => {
+    const pageText = `${quote} Students complete the public catalog requirements.`;
+    const checked = await checkedWith(pageText, pageText);
+    const report = await compareSnapshot(checked, new Map());
+    expect(report.unreachable).toEqual([url]);
+    expect(report.missingQuotes).toEqual([]);
+    expect(report.changedPages).toEqual([]);
+  });
+
+  it("returns empty lists when the page is unchanged", async () => {
+    const pageText = `${quote} Students complete the public catalog requirements.`;
+    const checked = await checkedWith(pageText, pageText);
+    const report = await compareSnapshot(checked, new Map([[url, pageText]]));
+    expect(report.missingQuotes).toEqual([]);
+    expect(report.changedPages).toEqual([]);
+    expect(report.unreachable).toEqual([]);
   });
 });
 

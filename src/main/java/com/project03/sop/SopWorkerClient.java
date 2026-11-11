@@ -50,7 +50,7 @@ public class SopWorkerClient {
                     .build();
             HttpResponse<String> response = http.send(request, HttpResponse.BodyHandlers.ofString());
             if (response.statusCode() < 200 || response.statusCode() >= 300) {
-                throw new SopWorkerException(response.statusCode(), "Statement worker rejected the request");
+                throw new SopWorkerException(response.statusCode(), workerMessage(response.body()));
             }
             return mapper.readTree(response.body());
         } catch (SopWorkerException e) {
@@ -58,6 +58,21 @@ public class SopWorkerClient {
         } catch (Exception e) {
             throw new SopWorkerException("Statement worker is unavailable");
         }
+    }
+
+    private String workerMessage(String body) {
+        try {
+            JsonNode node = mapper.readTree(body == null ? "" : body);
+            if (node.hasNonNull("error") && !node.get("error").asText("").isBlank()) {
+                return node.get("error").asText();
+            }
+            if (node.hasNonNull("message") && !node.get("message").asText("").isBlank()) {
+                return node.get("message").asText();
+            }
+        } catch (Exception ignored) {
+            // A non-JSON worker failure keeps the generic message.
+        }
+        return "Statement worker rejected the request";
     }
 
     private static String stripTrailingSlash(String value) {
