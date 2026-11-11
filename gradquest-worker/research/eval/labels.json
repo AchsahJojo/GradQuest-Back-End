@@ -1,0 +1,185 @@
+{
+  "labeledBy": "agent-provisional",
+  "pairs": [
+    {
+      "id": "cs-slo-deeplearning",
+      "resume": "cs",
+      "schoolId": 3,
+      "factId": "f21",
+      "resumeText": "I built a deep learning model that classified lab images with a convolutional network.",
+      "factName": "CSC 5887 - Advanced Deep Learning",
+      "related": true
+    },
+    {
+      "id": "cs-slo-distributed",
+      "resume": "cs",
+      "schoolId": 3,
+      "factId": "f25",
+      "resumeText": "I implemented a distributed computing prototype that replicated a log across three nodes.",
+      "factName": "CSC 5669 - Distributed Computing",
+      "related": true
+    },
+    {
+      "id": "cs-slo-security",
+      "resume": "cs",
+      "schoolId": 3,
+      "factId": "f16",
+      "resumeText": "I studied computer security by writing a sandbox that blocked unexpected system calls.",
+      "factName": "CSC 5201 - Computer Security and Privacy",
+      "related": true
+    },
+    {
+      "id": "cs-ucsd-vision",
+      "resume": "cs",
+      "schoolId": 22,
+      "factId": "f31",
+      "resumeText": "I trained a computer vision model on satellite photographs of coastlines.",
+      "factName": "CSE 252A - Computer Vision I",
+      "related": true
+    },
+    {
+      "id": "cs-ucsd-security",
+      "resume": "cs",
+      "schoolId": 22,
+      "factId": "f25",
+      "resumeText": "I studied computer security by writing a sandbox that blocked unexpected system calls.",
+      "factName": "CSE 227 - Computer Security",
+      "related": true
+    },
+    {
+      "id": "cs-ucsd-nlp",
+      "resume": "cs",
+      "schoolId": 22,
+      "factId": "f32",
+      "resumeText": "I trained a statistical NLP model on short technical abstracts.",
+      "factName": "CSE 256 - Statistical NLP",
+      "related": true
+    },
+    {
+      "id": "cs-ucsd-crypto",
+      "resume": "cs",
+      "schoolId": 22,
+      "factId": "f60",
+      "resumeText": "I prototyped authenticated encryption for sensor packets using a small cryptography library.",
+      "factName": "Mihir Bellare",
+      "related": true
+    },
+    {
+      "id": "cs-fullerton-deeplearning",
+      "resume": "cs",
+      "schoolId": 6,
+      "factId": "f313",
+      "resumeText": "I built a deep learning model that classified lab images with a convolutional network.",
+      "factName": "CPSC 585 - Neural Networks, Deep Learning, and Reinforcement Learning",
+      "related": true
+    },
+    {
+      "id": "adj-ucsd-probabilistic",
+      "resume": "adjacent",
+      "schoolId": 22,
+      "factId": "f29",
+      "resumeText": "I fit probabilistic models to noisy sensor traces collected in a physics lab.",
+      "factName": "CSE 250A - AI: Probabilistic Reasoning and Learning",
+      "related": true
+    },
+    {
+      "id": "adj-fullerton-ml",
+      "resume": "adjacent",
+      "schoolId": 6,
+      "factId": "f348",
+      "resumeText": "I applied machine learning to cluster spectrometer readings from material samples.",
+      "factName": "CPSC 483 - Introduction to Machine Learning",
+      "related": true
+    },
+    {
+      "id": "cs-slo-graphics",
+      "resume": "cs",
+      "schoolId": 3,
+      "factId": "f19",
+      "resumeText": "I designed a relational database schema and tuned its query plans.",
+      "factName": "CSC 5710 - Computer Graphics",
+      "related": false
+    },
+    {
+      "id": "cs-fullerton-games",
+      "resume": "cs",
+      "schoolId": 6,
+      "factId": "f351",
+      "resumeText": "I measured operating system scheduling latency on a research kernel.",
+      "factName": "CPSC 486 - Game Programming",
+      "related": false
+    },
+    {
+      "id": "adj-ucsd-architecture",
+      "resume": "adjacent",
+      "schoolId": 22,
+      "factId": "f33",
+      "resumeText": "I calibrated optical lenses on a microscopy bench for a biology course.",
+      "factName": "CSE 240A - Principles of Computer Architecture",
+      "related": false
+    },
+    {
+      "id": "adj-slo-os",
+      "resume": "adjacent",
+      "schoolId": 3,
+      "factId": "f18",
+      "resumeText": "I recorded heat transfer measurements during a materials experiment.",
+      "factName": "CSC 5550 - Research in Operating Systems",
+      "related": false
+    },
+    {
+      "id": "adj-fullerton-database",
+      "resume": "adjacent",
+      "schoolId": 6,
+      "factId": "f309",
+      "resumeText": "I kept a paper inventory of chemicals in a teaching stockroom.",
+      "factName": "CPSC 531 - Advanced Database Management",
+      "related": false
+    },
+    {
+      "id": "mis-ucsd-os",
+      "resume": "mismatch",
+      "schoolId": 22,
+      "factId": "f23",
+      "resumeText": "I rehearsed Beethoven sonatas for a Friday chamber recital.",
+      "factName": "CSE 221 - Operating Systems",
+      "related": false
+    },
+    {
+      "id": "mis-slo-ai",
+      "resume": "mismatch",
+      "schoolId": 3,
+      "factId": "f20",
+      "resumeText": "I laminated croissant dough in three folds before the morning bake.",
+      "factName": "CSC 5880 - Artificial Intelligence",
+      "related": false
+    },
+    {
+      "id": "mis-fullerton-ai",
+      "resume": "mismatch",
+      "schoolId": 6,
+      "factId": "f347",
+      "resumeText": "I tuned a violin before an orchestra pit rehearsal.",
+      "factName": "CPSC 481 - Artificial Intelligence",
+      "related": false
+    },
+    {
+      "id": "mis-ucsd-zhang",
+      "resume": "mismatch",
+      "schoolId": 22,
+      "factId": "f64",
+      "resumeText": "I decorated wedding cakes with buttercream flowers.",
+      "factName": "Yiying Zhang",
+      "related": false
+    },
+    {
+      "id": "mis-slo-bellardo",
+      "resume": "mismatch",
+      "schoolId": 3,
+      "factId": "f45",
+      "resumeText": "I led a choir through weekly hymn practice.",
+      "factName": "John Bellardo",
+      "related": false
+    }
+  ]
+}

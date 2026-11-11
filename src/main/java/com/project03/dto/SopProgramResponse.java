@@ -1,5 +1,7 @@
 package com.project03.dto;
 
+import java.util.Map;
+
 public class SopProgramResponse {
     private Long schoolId;
     private String schoolName;
@@ -8,6 +10,9 @@ public class SopProgramResponse {
     private boolean allowlisted;
     private String pageStatus;
     private String message;
+    private String source;
+    private String verifiedAsOf;
+    private Map<String, Integer> factCounts;
 
     public Long getSchoolId() { return schoolId; }
     public void setSchoolId(Long schoolId) { this.schoolId = schoolId; }
@@ -23,4 +28,10 @@ public class SopProgramResponse {
     public void setPageStatus(String pageStatus) { this.pageStatus = pageStatus; }
     public String getMessage() { return message; }
     public void setMessage(String message) { this.message = message; }
+    public String getSource() { return source; }
+    public void setSource(String source) { this.source = source; }
+    public String getVerifiedAsOf() { return verifiedAsOf; }
+    public void setVerifiedAsOf(String verifiedAsOf) { this.verifiedAsOf = verifiedAsOf; }
+    public Map<String, Integer> getFactCounts() { return factCounts; }
+    public void setFactCounts(Map<String, Integer> factCounts) { this.factCounts = factCounts; }
 }

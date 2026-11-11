@@ -3,6 +3,7 @@ package com.project03.service;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.project03.dto.SopDraftRequest;
 import com.project03.dto.SopDraftResponse;
+import com.project03.dto.SopOverlapResponse;
 import com.project03.dto.SopProgramResponse;
 import com.project03.dto.SopResumeResponse;
 import com.project03.model.School;
@@ -18,6 +19,7 @@ import org.springframework.web.server.ResponseStatusException;
 
 import java.util.Base64;
 import java.util.HashMap;
+import java.util.LinkedHashMap;
 import java.util.Map;
 
 @Service
@@ -47,6 +49,7 @@ public class SopService {
             JsonNode node = worker.post("/internal/programs", identity(user, school));
             response.setPageStatus(text(node, "pageStatus", "error"));
             response.setMessage(text(node, "message", ""));
+            copySnapshotFields(node, response);
         } catch (SopWorkerException e) {
             response.setPageStatus("unavailable");
             response.setMessage("The program page could not be read right now.");
@@ -111,6 +114,20 @@ public class SopService {
         }
     }
 
+    public SopOverlapResponse overlap(User user, long schoolId) {
+        School school = requireSchool(schoolId);
+        String url = school.getProgramPageUrl() != null ? school.getProgramPageUrl() : school.getWebsiteUrl();
+        if (!SopAllowlist.contains(url)) {
+            SopOverlapResponse response = new SopOverlapResponse();
+            response.setWeak(true);
+            response.getUnmatchedKinds().add("faculty");
+            response.getUnmatchedKinds().add("course");
+            return response;
+        }
+        JsonNode node = worker.post("/internal/overlap", identity(user, school));
+        return overlapFrom(node);
+    }
+
     public SopDraftResponse draft(User user, SopDraftRequest request) {
         if (request == null || request.getSchoolId() == null) {
             throw new ResponseStatusException(HttpStatus.BAD_REQUEST, "schoolId is required");
@@ -132,6 +149,9 @@ public class SopService {
         body.put("mode", mode);
         body.put("pastedPrompt", pasted);
         body.put("sopRequired", school.getSopRequired());
+        if (request.getPairIds() != null) {
+            body.put("pairIds", request.getPairIds());
+        }
         JsonNode node = worker.post("/internal/draft", body);
 
         SopDraftResponse response = new SopDraftResponse();
@@ -173,6 +193,43 @@ public class SopService {
             body.put("url", url);
         }
         return body;
+    }
+
+    private static SopOverlapResponse overlapFrom(JsonNode node) {
+        SopOverlapResponse response = new SopOverlapResponse();
+        response.setWeak(node.path("weak").asBoolean(false));
+        if (node.hasNonNull("verifiedAsOf")) {
+            response.setVerifiedAsOf(node.get("verifiedAsOf").asText());
+        }
+        node.path("unmatchedKinds").forEach(item -> response.getUnmatchedKinds().add(item.asText()));
+        node.path("pairs").forEach(item -> {
+            SopOverlapResponse.Pair pair = new SopOverlapResponse.Pair();
+            pair.setPairId(item.path("pairId").asText(""));
+            pair.setResumeText(item.path("resumeText").asText(""));
+            pair.setFactKind(item.path("factKind").asText(""));
+            pair.setFactName(item.path("factName").asText(""));
+            pair.setFactDetail(item.path("factDetail").asText(""));
+            pair.setSourceUrl(item.path("sourceUrl").asText(""));
+            pair.setReason(item.path("reason").asText(""));
+            response.getPairs().add(pair);
+        });
+        return response;
+    }
+
+    private static void copySnapshotFields(JsonNode node, SopProgramResponse response) {
+        if (node.hasNonNull("source")) {
+            response.setSource(node.get("source").asText());
+        }
+        if (node.hasNonNull("verifiedAsOf")) {
+            response.setVerifiedAsOf(node.get("verifiedAsOf").asText());
+        }
+        JsonNode counts = node.get("factCounts");
+        if (counts != null && counts.isObject()) {
+            Map<String, Integer> factCounts = new LinkedHashMap<>();
+            counts.fields().forEachRemaining(entry ->
+                    factCounts.put(entry.getKey(), entry.getValue().asInt()));
+            response.setFactCounts(factCounts);
+        }
     }
 
     private static String text(JsonNode node, String field, String fallback) {

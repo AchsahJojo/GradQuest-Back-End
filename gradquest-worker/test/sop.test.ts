@@ -1,5 +1,10 @@
-import { describe, expect, it, vi } from "vitest";
+import { afterEach, describe, expect, it, vi } from "vitest";
 import { isAllowlisted } from "../src/allowlist";
+import { resolveOverlap } from "../src/agent/overlapRead";
+import { resolveProgramRead, type AgentSql } from "../src/agent/programRead";
+import type { PageRead } from "../src/crawl/readPublicPage";
+import * as publicPages from "../src/crawl/readPublicPage";
+import type { Snapshot } from "../src/facts/store";
 import { secretsMatch } from "../src/auth/secret";
 import { excerptsFromMarkdown, excerptsFromText } from "../src/crawl/excerpts";
 import { fetchWithRetry } from "../src/crawl/fetchWithRetry";
@@ -8,6 +13,8 @@ import type { MarkdownPage } from "../src/crawl/markdown";
 import { expiresAtFor, type CachedPage, type PageCache } from "../src/crawl/pageCache";
 import { readPublicPage } from "../src/crawl/readPublicPage";
 import { isPathAllowed } from "../src/crawl/robots";
+import { keptPairsForDraft } from "../src/draft/keptPairs";
+import { guardNames } from "../src/draft/nameGuard";
 import {
   acceptModelDraft,
   cohesiveDraft,
@@ -16,6 +23,7 @@ import {
   draftPrompt,
   draftProblems,
   draftShapeProblem,
+  draftSystemMessage,
   draftSources,
   draftStats,
   forOutsideApplicants,
@@ -25,6 +33,7 @@ import {
   retryNoteFor,
   splitSentences,
 } from "../src/draft/opening";
+import type { JudgedPair } from "../src/facts/judge";
 
 const CSUF = "https://www.fullerton.edu/ecs/academics/graduate-admissions.html";
 const SLO = "https://catalog.calpoly.edu/engineering/computer-science-software/computer-science-ms/";
@@ -442,6 +451,8 @@ describe("draft", () => {
       pageStatus: "login_wall",
       resumeChunks: [{ id: "R1", text: "Built a compiler project in Java." }],
       pageExcerpts: [],
+      pairs: [],
+      weak: false,
     });
     expect(draft.paragraph).toContain("[R1]");
     expect(draft.paragraph).toContain("[STUDENT: add detail]");
@@ -459,6 +470,8 @@ describe("draft", () => {
       pageStatus: "ok",
       resumeChunks: [{ id: "R1", text: "Taught a data structures lab." }],
       pageExcerpts: [{ id: "P1", text: "The M.S. requires 40 units." }],
+      pairs: [],
+      weak: false,
     };
     expect(
       acceptModelDraft("Please answer the Cal State Apply essay in 500 words. [R1]", input),
@@ -491,6 +504,8 @@ describe("draft shape", () => {
     pageStatus: "ok",
     resumeChunks: [{ id: "R1", text: "Taught a data structures lab." }],
     pageExcerpts: [{ id: "P1", text: "The M.S. requires 40 units." }],
+    pairs: [],
+    weak: false,
   };
 
   it("splits sentences without breaking on M.S. and keeps trailing citations", () => {
@@ -655,6 +670,24 @@ describe("draft shape", () => {
     }
   });
 
+  it("keeps a pair citation when the page excerpts are empty", () => {
+    const input = {
+      ...PAIR_DRAFT_INPUT,
+      pageExcerpts: [],
+      pairs: [judgedPair("faculty", "Ada Lovelace", "Studies formal methods.", "Taught a data structures lab.")],
+      weak: false,
+    };
+    expect(draftProblems(NATURAL_DRAFT, input)).toEqual([]);
+    expect(acceptModelDraft(NATURAL_DRAFT, input)).toContain("[P1]");
+    expect(cohesiveDraft(NATURAL_DRAFT, input)).toContain("[P1]");
+    const unknownPair = NATURAL_DRAFT.replace("[P1]", "[P9]");
+    expect(acceptModelDraft(unknownPair, input)).toBeNull();
+    expect(cohesiveDraft(unknownPair, input)).toBeNull();
+    const unknownResume = NATURAL_DRAFT.replace("[R1]", "[R9]");
+    expect(acceptModelDraft(unknownResume, input)).toBeNull();
+    expect(cohesiveDraft(unknownResume, input)).toBeNull();
+  });
+
   it("keeps a cited model paragraph the style check rejected", () => {
     const framed = swapSentence(
       4,
@@ -731,12 +764,12 @@ describe("draft shape", () => {
     ]);
   });
 
-  it("asks for a full statement that uses courses from the page", () => {
+  it("asks for a full statement with the usual length and shape", () => {
     const prompt = draftPrompt({ ...input, mode: "opening" });
     expect(prompt).toContain("about 600 words, never under 400 or over 800");
     expect(prompt).toContain("4 to 6 paragraphs");
-    expect(prompt).toContain("name a course, track, or requirement");
-    expect(prompt).toContain("do not invent one");
+    expect(prompt).not.toContain("name a course, track, or requirement");
+    expect(prompt).not.toContain("name the courses, tracks, and research areas");
     expect(prompt).toContain("Each sentence is 15 to 35 words");
     expect(prompt).toContain("never restate it the same way twice");
     expect(prompt).toContain("Never write 'I must', 'I am aware that', or 'To be eligible'");
@@ -822,8 +855,9 @@ describe("draft shape", () => {
     const note = retryNoteFor({ words: 119, sentences: 7, longest: 26 }, null, NATURAL_DRAFT) ?? "";
     expect(note).toContain("only 119 words in 7 sentences");
     expect(note).toContain("at least 400 words");
-    expect(note).toContain("name courses, tracks, or requirements");
-    expect(note).toContain("[STUDENT: add detail]");
+    expect(note).toContain("kept pairs");
+    expect(note).not.toContain("name courses, tracks, or requirements");
+    expect(note).not.toContain("page excerpts");
     expect(note).toContain(`Previous draft:\n${NATURAL_DRAFT}`);
   });
 
@@ -832,6 +866,651 @@ describe("draft shape", () => {
       "rejected because it had 97 words",
     );
     expect(retryNoteFor({ words: 520, sentences: 24, longest: 28 }, null, "x")).toBeNull();
+  });
+});
+
+const STORED_OVERLAP = {
+  pairs: [
+    {
+      pairId: "fac",
+      resumeText: "I studied formal methods.",
+      factKind: "faculty",
+      factName: "Ada Lovelace",
+      factDetail: "Studies formal methods.",
+      sourceUrl: "https://catalog.calpoly.edu/faculty/ada",
+      reason: "Both discuss formal methods.",
+    },
+    {
+      pairId: "crs",
+      resumeText: "Built a compiler.",
+      factKind: "course",
+      factName: "Compilers",
+      factDetail: "A graduate compilers course.",
+      sourceUrl: "https://catalog.calpoly.edu/engineering/computer-science-software/computer-science-ms/",
+      reason: "Both discuss compilers.",
+    },
+    {
+      pairId: "extra",
+      resumeText: "Taught systems.",
+      factKind: "faculty",
+      factName: "Jane Smith",
+      factDetail: "Studies operating systems.",
+      sourceUrl: "https://example.edu/jane",
+      reason: "Both discuss systems.",
+    },
+  ],
+  weak: false,
+  unmatchedKinds: [],
+  verifiedAsOf: "2026-03-01T00:00:00Z",
+};
+
+function judgedPair(
+  kind: "faculty" | "course",
+  name: string,
+  detail: string,
+  resumeText = "Taught a data structures lab.",
+): JudgedPair {
+  return {
+    pairId: name,
+    resume: { id: "R1", text: resumeText },
+    fact: {
+      id: name,
+      kind,
+      name,
+      detail,
+      sourceUrl: "https://example.edu/fact",
+      quote: "",
+    },
+    score: 0,
+    reason: "shared topic",
+  };
+}
+
+const PAIR_DRAFT_INPUT = {
+  mode: "opening" as const,
+  schoolName: "UC San Diego",
+  programName: "Computer Science and Engineering, M.S.",
+  sopRequired: true,
+  pageStatus: "ok",
+  resumeChunks: [{ id: "R1", text: "Taught a data structures lab." }],
+  pageExcerpts: [{ id: "P1", text: "The M.S. requires 40 units." }],
+};
+
+describe("kept pairs and name guard", () => {
+  it("keeps a catalog course when the detected code sits inside the course name", () => {
+    const guarded = guardNames("I want to take CSC 530 next year.", {
+      faculty: [],
+      courses: ["CSC 530 - Computer Architecture"],
+    });
+    expect(guarded.text).toContain("CSC 530");
+    expect(guarded.removed).toEqual([]);
+  });
+
+  it("keeps a confirmed professor when the sentence uses a possessive", () => {
+    const guarded = guardNames("Professor Ada Lovelace's research is the reason I applied.", {
+      faculty: ["Ada Lovelace"],
+      courses: [],
+    });
+    expect(guarded.text).toContain("Professor Ada Lovelace's research");
+    expect(guarded.removed).toEqual([]);
+  });
+
+  it("keeps an allowed professor and course", () => {
+    const guarded = guardNames("I want to study with Dr. Ada Lovelace and take CSC530.", {
+      faculty: ["Professor Ada Lovelace"],
+      courses: ["CSC 530"],
+    });
+    expect(guarded.text).toContain("Dr. Ada Lovelace");
+    expect(guarded.text).toContain("CSC530");
+    expect(guarded.removed).toEqual([]);
+  });
+
+  it("replaces Professor Jane Smith when she is not allowed", () => {
+    const guarded = guardNames("I hope to work with Professor Jane Smith on systems.", {
+      faculty: ["Ada Lovelace"],
+      courses: [],
+    });
+    expect(guarded.text).not.toContain("Jane Smith");
+    expect(guarded.text).toContain("[STUDENT: add detail]");
+    expect(guarded.removed).toContain("Professor Jane Smith");
+  });
+
+  it("replaces a two-word name in the same sentence as research when that faculty is not allowed", () => {
+    const guarded = guardNames("The research group includes Jane Smith this year.", {
+      faculty: ["Ada Lovelace"],
+      courses: [],
+    });
+    expect(guarded.text).not.toContain("Jane Smith");
+    expect(guarded.removed).toContain("Jane Smith");
+  });
+
+  it("replaces CSC 999 when that course is not allowed", () => {
+    const guarded = guardNames("I want to take CSC 999 next year.", {
+      faculty: [],
+      courses: ["CSC 530"],
+    });
+    expect(guarded.text).not.toContain("CSC 999");
+    expect(guarded.text).toContain("[STUDENT: add detail]");
+    expect(guarded.removed).toContain("CSC 999");
+  });
+
+  it("leaves résumé employer names alone", () => {
+    const guarded = guardNames("I interned at Northrop Grumman. The research group meets on Tuesday.", {
+      faculty: [],
+      courses: [],
+    });
+    expect(guarded.text).toContain("Northrop Grumman");
+    expect(guarded.removed).toEqual([]);
+  });
+
+  it("labels each kept pair and omits unpaired faculty and courses", () => {
+    const prompt = draftPrompt({
+      ...PAIR_DRAFT_INPUT,
+      pairs: [
+        judgedPair("faculty", "Ada Lovelace", "Studies formal methods.", "I studied formal methods."),
+        judgedPair("course", "Compilers", "A graduate compilers course.", "Built a compiler."),
+      ],
+      weak: false,
+      pageExcerpts: [{ id: "P9", text: "Professor Jane Smith teaches CSC 999." }],
+    });
+    expect(prompt).toContain("[P1] Ada Lovelace");
+    expect(prompt).toContain("Studies formal methods.");
+    expect(prompt).toContain("I studied formal methods.");
+    expect(prompt).toContain("[P2] Compilers");
+    expect(prompt).toContain("A graduate compilers course.");
+    expect(prompt).toContain("Built a compiler.");
+    expect(prompt).not.toContain("Jane Smith");
+    expect(prompt).not.toContain("CSC 999");
+    expect(prompt).not.toContain("name a course, track, or requirement");
+    expect(prompt).not.toContain("name the courses, tracks, and research areas");
+    expect(prompt).toContain("UC San Diego");
+    expect(prompt).toContain("Computer Science and Engineering, M.S.");
+  });
+
+  it("forbids naming faculty or courses and asks for a program-fit paragraph when weak", () => {
+    const prompt = draftPrompt({
+      ...PAIR_DRAFT_INPUT,
+      pairs: [],
+      weak: true,
+      pageExcerpts: [{ id: "P1", text: "Professor Jane Smith teaches CSC 999." }],
+    });
+    expect(prompt).toContain("Do not name faculty or courses. Write a [STUDENT: add detail] program-fit paragraph.");
+    expect(prompt).toContain("UC San Diego");
+    expect(prompt).toContain("Computer Science and Engineering, M.S.");
+    expect(prompt).not.toContain("Public page excerpts");
+    expect(prompt).not.toContain("Professor Jane Smith teaches CSC 999.");
+    expect(prompt).not.toContain("page excerpts");
+    expect(prompt).not.toContain("name a course, track, or requirement");
+    expect(prompt).not.toContain("name the courses, tracks, and research areas");
+    expect(prompt).not.toContain(
+      "A named course, thesis option, or research area is almost always a better program fact than general flexibility.",
+    );
+    expect(prompt).not.toContain("Jane Smith");
+    expect(prompt).not.toContain("CSC 999");
+  });
+
+  it("does not tell a weak draft to name courses in the system message or the short-draft retry", () => {
+    const system = draftSystemMessage(true);
+    expect(system).toContain("Do not name faculty or courses. Write a [STUDENT: add detail] program-fit paragraph.");
+    expect(system).not.toContain("page excerpts");
+    expect(system).not.toContain("name courses");
+    expect(system).not.toContain("requirements");
+    const note = retryNoteFor({ words: 119, sentences: 7, longest: 26 }, null, "Too short.", true) ?? "";
+    expect(note).toContain("Do not name faculty or courses. Write a [STUDENT: add detail] program-fit paragraph.");
+    expect(note).not.toContain("page excerpts");
+    expect(note).not.toContain("name courses");
+    expect(note).not.toContain("requirements");
+  });
+
+  it("rebuilds only the kept pairs in pairIds order when at least two remain", () => {
+    const selected = keptPairsForDraft(JSON.stringify(STORED_OVERLAP), ["crs", "fac"]);
+    expect(selected.weak).toBe(false);
+    expect(selected.pairs.map((pair) => pair.pairId)).toEqual(["crs", "fac"]);
+    expect(selected.pairs[0]).toMatchObject({
+      score: 0,
+      reason: "Both discuss compilers.",
+      resume: { text: "Built a compiler." },
+      fact: {
+        kind: "course",
+        name: "Compilers",
+        detail: "A graduate compilers course.",
+        sourceUrl: "https://catalog.calpoly.edu/engineering/computer-science-software/computer-science-ms/",
+        quote: "",
+      },
+    });
+    expect(selected.pairs[1].fact).toMatchObject({
+      kind: "faculty",
+      name: "Ada Lovelace",
+      quote: "",
+    });
+    expect(selected.pairs[1].score).toBe(0);
+  });
+
+  it("is weak when the overlap row is missing, pairIds are omitted, or fewer than two pairs remain", () => {
+    const weak = { pairs: [], weak: true };
+    expect(keptPairsForDraft(null, ["fac", "crs"])).toEqual(weak);
+    expect(keptPairsForDraft(undefined, ["fac", "crs"])).toEqual(weak);
+    expect(keptPairsForDraft(JSON.stringify(STORED_OVERLAP), undefined)).toEqual(weak);
+    expect(keptPairsForDraft(JSON.stringify(STORED_OVERLAP), ["fac"])).toEqual(weak);
+    expect(keptPairsForDraft(JSON.stringify(STORED_OVERLAP), ["missing", "fac"])).toEqual(weak);
+    expect(keptPairsForDraft("{", ["fac", "crs"])).toEqual(weak);
+  });
+});
+
+const ZERO_FACT_COUNTS = {
+  overview: 0,
+  requirement: 0,
+  course: 0,
+  faculty: 0,
+  deadline: 0,
+};
+
+const LIVE_PAGE: PageRead = {
+  pageStatus: "ok",
+  message: "Read the public program page.",
+  excerpts: [],
+  text: "Public program text.",
+  source: "fetch",
+  attempts: 1,
+  fallbackUsed: false,
+};
+
+const COURSE: Snapshot["facts"][number] = {
+  id: "course-compilers",
+  kind: "course",
+  name: "Compilers",
+  detail: "A graduate compilers course.",
+  sourceUrl: "https://catalog.calpoly.edu/engineering/computer-science-software/computer-science-ms/",
+  quote: "Students may take a compilers course.",
+};
+
+function sampleSnapshot(facts: Snapshot["facts"] = [COURSE]): Snapshot {
+  return {
+    snapshotId: "snap-6",
+    schoolId: "6",
+    verifiedAt: "2026-03-01T00:00:00Z",
+    facts,
+  };
+}
+
+class MemoryFactsD1 {
+  constructor(private readonly snapshot: Snapshot | null) {}
+
+  prepare(sql: string) {
+    const snapshot = this.snapshot;
+    let bound: unknown[] = [];
+    const statement = {
+      bind(...values: unknown[]) {
+        bound = values;
+        return statement;
+      },
+      async first() {
+        if (!snapshot || !sql.includes("program_snapshots")) return null;
+        if (String(bound[0]) !== snapshot.schoolId) return null;
+        return {
+          snapshot_id: snapshot.snapshotId,
+          school_id: snapshot.schoolId,
+          verified_at: snapshot.verifiedAt,
+        };
+      },
+      async all() {
+        return {
+          results: (snapshot?.facts ?? []).map((fact) => ({
+            fact_id: fact.id,
+            kind: fact.kind,
+            name: fact.name,
+            detail: fact.detail,
+            source_url: fact.sourceUrl,
+            quote: fact.quote,
+          })),
+        };
+      },
+    };
+    return statement;
+  }
+}
+
+class ThrowingFactsD1 {
+  prepare() {
+    const statement = {
+      bind() {
+        return statement;
+      },
+      async first() {
+        throw new Error("d1 down");
+      },
+      async all() {
+        throw new Error("d1 down");
+      },
+    };
+    return statement;
+  }
+}
+
+function recordingSql() {
+  const calls: { text: string; values: unknown[] }[] = [];
+  const sql = (strings: TemplateStringsArray, ...values: (string | number | boolean | null)[]) => {
+    calls.push({
+      text: strings.reduce((query, part, index) => query + part + (index < values.length ? "?" : ""), ""),
+      values,
+    });
+    return [];
+  };
+  return { calls, sql };
+}
+
+describe("program snapshot", () => {
+  afterEach(() => {
+    vi.restoreAllMocks();
+  });
+
+  it("uses a snapshot without fetching the public page", async () => {
+    const read = vi.spyOn(publicPages, "readPublicPage").mockResolvedValue(LIVE_PAGE);
+    const { calls, sql } = recordingSql();
+    const states: string[] = [];
+    const snapshot = sampleSnapshot([
+      COURSE,
+      { ...COURSE, id: "course-systems", name: "Systems" },
+      { ...COURSE, id: "overview-degree", kind: "overview", name: "Degree" },
+    ]);
+
+    const outcome = await resolveProgramRead({
+      body: { schoolId: 6, url: "https://example.edu/not-on-the-allowlist" },
+      db: new MemoryFactsD1(snapshot) as unknown as D1Database,
+      sql,
+      setPageStatus: (status) => states.push(status),
+    });
+
+    expect(outcome.response).toMatchObject({
+      pageStatus: "ok",
+      source: "snapshot",
+      verifiedAsOf: "2026-03-01T00:00:00Z",
+      factCounts: {
+        overview: 1,
+        requirement: 0,
+        course: 2,
+        faculty: 0,
+        deadline: 0,
+      },
+    });
+    expect(read).not.toHaveBeenCalled();
+    expect(states).toEqual(["ok"]);
+    expect(calls.some((call) => call.text.includes("page_reads"))).toBe(false);
+  });
+
+  it("stores the snapshot object so it parses back to the same snapshot", async () => {
+    vi.spyOn(publicPages, "readPublicPage").mockResolvedValue(LIVE_PAGE);
+    const { calls, sql } = recordingSql();
+    const snapshot = sampleSnapshot();
+
+    await resolveProgramRead({
+      body: { schoolId: "6", url: SLO },
+      db: new MemoryFactsD1(snapshot) as unknown as D1Database,
+      sql,
+      setPageStatus: () => {},
+    });
+
+    const stored = calls.find((call) => call.text.includes("snapshot_reads"));
+    expect(stored?.text).toContain("INSERT OR REPLACE");
+    expect(stored?.values).toContain("6");
+    const json = stored?.values.find((value) => typeof value === "string" && value.startsWith("{"));
+    expect(JSON.parse(String(json))).toEqual(snapshot);
+  });
+
+  it("treats a snapshot with zero facts as the snapshot path", async () => {
+    const read = vi.spyOn(publicPages, "readPublicPage").mockResolvedValue(LIVE_PAGE);
+    const snapshot = sampleSnapshot([]);
+
+    const outcome = await resolveProgramRead({
+      body: { schoolId: "6", url: "https://example.edu/not-on-the-allowlist" },
+      db: new MemoryFactsD1(snapshot) as unknown as D1Database,
+      sql: recordingSql().sql,
+      setPageStatus: () => {},
+    });
+
+    expect(outcome.response.source).toBe("snapshot");
+    expect(outcome.response.pageStatus).toBe("ok");
+    expect(outcome.response.verifiedAsOf).toBe("2026-03-01T00:00:00Z");
+    expect(outcome.response.factCounts).toEqual(ZERO_FACT_COUNTS);
+    expect(read).not.toHaveBeenCalled();
+  });
+
+  it("reads the public page when no snapshot is stored", async () => {
+    const read = vi.spyOn(publicPages, "readPublicPage").mockResolvedValue(LIVE_PAGE);
+    const { calls, sql } = recordingSql();
+
+    const outcome = await resolveProgramRead({
+      body: { schoolId: "6", url: SLO },
+      db: undefined,
+      sql,
+      setPageStatus: () => {},
+    });
+
+    expect(read).toHaveBeenCalledTimes(1);
+    expect(read.mock.calls[0]?.[0]).toBe(SLO);
+    expect(outcome.response).toMatchObject({
+      pageStatus: "ok",
+      message: "Read the public program page.",
+      source: "live",
+      verifiedAsOf: null,
+      factCounts: ZERO_FACT_COUNTS,
+    });
+    expect(calls.some((call) => call.text.includes("page_reads"))).toBe(true);
+    expect(calls.some((call) => call.text.includes("snapshot_reads"))).toBe(false);
+  });
+
+  it("keeps the not-allowlisted live response when D1 has no snapshot", async () => {
+    const read = vi.spyOn(publicPages, "readPublicPage").mockResolvedValue(LIVE_PAGE);
+    const { calls, sql } = recordingSql();
+
+    const outcome = await resolveProgramRead({
+      body: { schoolId: "6", url: "https://example.edu/login" },
+      db: new MemoryFactsD1(null) as unknown as D1Database,
+      sql,
+      setPageStatus: () => {},
+    });
+
+    expect(read).not.toHaveBeenCalled();
+    expect(calls).toEqual([]);
+    expect(outcome.response).toMatchObject({
+      pageStatus: "not_allowlisted",
+      message: "That URL is not an allowlisted public program page.",
+      excerpts: [],
+      source: "live",
+      verifiedAsOf: null,
+      factCounts: ZERO_FACT_COUNTS,
+    });
+  });
+
+  it("lets a D1 failure propagate instead of falling through to the live page", async () => {
+    const read = vi.spyOn(publicPages, "readPublicPage").mockResolvedValue(LIVE_PAGE);
+
+    await expect(
+      resolveProgramRead({
+        body: { schoolId: "6", url: SLO },
+        db: new ThrowingFactsD1() as unknown as D1Database,
+        sql: recordingSql().sql,
+        setPageStatus: () => {},
+      }),
+    ).rejects.toThrow("d1 down");
+    expect(read).not.toHaveBeenCalled();
+  });
+});
+
+const FACULTY: Snapshot["facts"][number] = {
+  id: "faculty-ada",
+  kind: "faculty",
+  name: "Ada Lovelace",
+  detail: "Studies formal methods.",
+  sourceUrl: "https://catalog.calpoly.edu/faculty/ada",
+  quote: "UNIQUE_QUOTE_SHOULD_NOT_EMBED",
+};
+
+function overlapRecordingSql(options: {
+  snapshotJson?: string | null;
+  resumes?: { id: string; text: string }[];
+}) {
+  const calls: { text: string; values: unknown[] }[] = [];
+  const resumes = options.resumes ?? [];
+  const sql = (strings: TemplateStringsArray, ...values: (string | number | boolean | null)[]) => {
+    const text = strings.reduce((query, part, index) => query + part + (index < values.length ? "?" : ""), "");
+    calls.push({ text, values: [...values] });
+    if (text.includes("SELECT") && text.includes("snapshot_reads")) {
+      return options.snapshotJson ? [{ snapshot_json: options.snapshotJson }] : [];
+    }
+    if (text.includes("SELECT") && text.includes("resume_chunks")) {
+      return resumes;
+    }
+    return [];
+  };
+  return { calls, sql: sql as AgentSql };
+}
+
+function orthogonalEmbedAi() {
+  const runs: { model: string; input: unknown }[] = [];
+  const axes = new Map<string, number>();
+  const ai = {
+    async run(model: string, input: { text?: string[] }) {
+      runs.push({ model, input });
+      if (model !== "@cf/baai/bge-base-en-v1.5") {
+        throw new Error(`judge should not run (${model})`);
+      }
+      const texts = input.text ?? [];
+      return {
+        data: texts.map((text) => {
+          if (!axes.has(text)) axes.set(text, axes.size);
+          const vector = new Array(16).fill(0);
+          vector[axes.get(text) as number] = 1;
+          return vector;
+        }),
+      };
+    },
+  };
+  return { runs, ai };
+}
+
+describe("overlap report", () => {
+  afterEach(() => {
+    vi.restoreAllMocks();
+  });
+
+  it("returns a weak report and no pairs for a mismatched résumé", async () => {
+    const read = vi.spyOn(publicPages, "readPublicPage").mockResolvedValue(LIVE_PAGE);
+    const snapshot = sampleSnapshot([
+      FACULTY,
+      COURSE,
+      { ...COURSE, id: "overview-degree", kind: "overview", name: "Degree", detail: "Thirty units." },
+    ]);
+    const { calls, sql } = overlapRecordingSql({
+      snapshotJson: JSON.stringify(snapshot),
+      resumes: [{ id: "R1", text: "I studied distributed systems in a lab." }],
+    });
+    const { runs, ai } = orthogonalEmbedAi();
+
+    const result = await resolveOverlap({
+      schoolId: "6",
+      sql,
+      db: new ThrowingFactsD1() as unknown as D1Database,
+      ai: ai as unknown as Env["AI"],
+    });
+
+    expect(result).toEqual({
+      status: 200,
+      body: {
+        pairs: [],
+        weak: true,
+        unmatchedKinds: ["faculty", "course"],
+        verifiedAsOf: "2026-03-01T00:00:00Z",
+      },
+    });
+    expect(read).not.toHaveBeenCalled();
+    expect(runs.map((run) => run.model)).toEqual([
+      "@cf/baai/bge-base-en-v1.5",
+      "@cf/baai/bge-base-en-v1.5",
+    ]);
+    const embedded = runs.flatMap((run) => {
+      const input = run.input as { text?: string[] };
+      return input.text ?? [];
+    });
+    expect(embedded).toEqual([
+      "I studied distributed systems in a lab.",
+      "Ada Lovelace. Studies formal methods.",
+      "Compilers. A graduate compilers course.",
+    ]);
+    const stored = calls.find((call) => call.text.includes("overlap_reads") && call.text.includes("INSERT"));
+    expect(stored?.text).toContain("INSERT OR REPLACE");
+    expect(stored?.values).toContain("6");
+    const json = stored?.values.find((value) => typeof value === "string" && value.startsWith("{"));
+    expect(JSON.parse(String(json))).toEqual(result.body);
+  });
+
+  it("asks for a résumé and does not store a report when no résumé rows exist", async () => {
+    const read = vi.spyOn(publicPages, "readPublicPage").mockResolvedValue(LIVE_PAGE);
+    const { calls, sql } = overlapRecordingSql({
+      snapshotJson: JSON.stringify(sampleSnapshot([FACULTY, COURSE])),
+      resumes: [],
+    });
+
+    const result = await resolveOverlap({
+      schoolId: "6",
+      sql,
+      db: new ThrowingFactsD1() as unknown as D1Database,
+      ai: orthogonalEmbedAi().ai as unknown as Env["AI"],
+    });
+
+    expect(result).toEqual({ status: 400, body: { error: "Upload a resume first" } });
+    expect(calls.some((call) => call.text.includes("overlap_reads"))).toBe(false);
+    expect(read).not.toHaveBeenCalled();
+  });
+
+  it("returns a weak report without fetching a page when no snapshot exists", async () => {
+    const read = vi.spyOn(publicPages, "readPublicPage").mockResolvedValue(LIVE_PAGE);
+    const { calls, sql } = overlapRecordingSql({
+      resumes: [{ id: "R1", text: "I studied distributed systems in a lab." }],
+    });
+
+    const result = await resolveOverlap({
+      schoolId: "6",
+      sql,
+      db: new MemoryFactsD1(null) as unknown as D1Database,
+      ai: orthogonalEmbedAi().ai as unknown as Env["AI"],
+    });
+
+    expect(result).toEqual({
+      status: 200,
+      body: {
+        pairs: [],
+        weak: true,
+        unmatchedKinds: ["faculty", "course"],
+        verifiedAsOf: null,
+      },
+    });
+    expect(read).not.toHaveBeenCalled();
+    expect(calls.some((call) => call.text.includes("overlap_reads") && call.text.includes("INSERT"))).toBe(false);
+  });
+
+  it("caches a D1 snapshot the same way a program read does, then scores it", async () => {
+    const read = vi.spyOn(publicPages, "readPublicPage").mockResolvedValue(LIVE_PAGE);
+    const snapshot = sampleSnapshot([FACULTY]);
+    const { calls, sql } = overlapRecordingSql({
+      resumes: [{ id: "R1", text: "I studied distributed systems in a lab." }],
+    });
+
+    const result = await resolveOverlap({
+      schoolId: "6",
+      sql,
+      db: new MemoryFactsD1(snapshot) as unknown as D1Database,
+      ai: orthogonalEmbedAi().ai as unknown as Env["AI"],
+    });
+
+    const stored = calls.find((call) => call.text.includes("snapshot_reads") && call.text.includes("INSERT"));
+    expect(stored?.text).toContain("INSERT OR REPLACE");
+    expect(stored?.values).toContain("6");
+    const json = stored?.values.find((value) => typeof value === "string" && value.startsWith("{"));
+    expect(JSON.parse(String(json))).toEqual(snapshot);
+    expect(result.status).toBe(200);
+    expect(result.body).toMatchObject({ weak: true, pairs: [], verifiedAsOf: "2026-03-01T00:00:00Z" });
+    expect(read).not.toHaveBeenCalled();
   });
 });
 

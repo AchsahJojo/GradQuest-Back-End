@@ -2,13 +2,16 @@ import { Agent } from "agents";
 import { isAllowlisted } from "../allowlist";
 import { excerptsFromText, type Excerpt } from "../crawl/excerpts";
 import { browserMarkdown } from "../crawl/markdown";
-import { D1PageCache } from "../crawl/pageCache";
-import { readPublicPage } from "../crawl/readPublicPage";
+import { resolveOverlap } from "./overlapRead";
+import { resolveProgramRead } from "./programRead";
+import { keptPairsForDraft } from "../draft/keptPairs";
+import { guardNames } from "../draft/nameGuard";
 import {
   acceptModelDraft,
   draftParagraph,
   cohesiveDraft,
   draftPrompt,
+  draftSystemMessage,
   draftProblems,
   draftStats,
   forOutsideApplicants,
@@ -19,6 +22,7 @@ import {
   type DraftMode,
 } from "../draft/opening";
 import { resumeToChunks } from "../resume/text";
+import { trackAiUsage } from "../facts/evalMetrics";
 
 export type SopState = {
   resumeReady: boolean;
@@ -39,6 +43,7 @@ type ProgramBody = {
   mediaType?: string;
   text?: string;
   bytesBase64?: string;
+  pairIds?: string[];
 };
 
 const MAX_RESUME_BYTES = 5 * 1024 * 1024;
@@ -57,6 +62,10 @@ export class SopAgent extends Agent<Env, SopState> {
       .sql`CREATE TABLE IF NOT EXISTS page_reads (school_id TEXT PRIMARY KEY, status TEXT NOT NULL, excerpts_json TEXT NOT NULL)`;
     this
       .sql`CREATE TABLE IF NOT EXISTS draft_turns (school_id TEXT PRIMARY KEY, turn INTEGER NOT NULL)`;
+    this
+      .sql`CREATE TABLE IF NOT EXISTS snapshot_reads (school_id TEXT PRIMARY KEY, snapshot_json TEXT NOT NULL)`;
+    this
+      .sql`CREATE TABLE IF NOT EXISTS overlap_reads (school_id TEXT PRIMARY KEY, report_json TEXT NOT NULL)`;
   }
 
   private nextDraftTurn(schoolId: string): number {
@@ -79,6 +88,7 @@ export class SopAgent extends Agent<Env, SopState> {
     }
     if (url.pathname.endsWith("/resume")) return this.storeResume(body);
     if (url.pathname.endsWith("/programs")) return this.readProgram(body);
+    if (url.pathname.endsWith("/overlap")) return this.overlap(body);
     if (url.pathname.endsWith("/draft")) return this.writeDraft(body);
     return new Response("Not found", { status: 404 });
   }
@@ -136,39 +146,28 @@ export class SopAgent extends Agent<Env, SopState> {
   }
 
   private async readProgram(body: ProgramBody): Promise<Response> {
-    const pageUrl = body.url ?? "";
-    if (!isAllowlisted(pageUrl)) {
-      return Response.json({
-        pageStatus: "not_allowlisted",
-        message: "That URL is not an allowlisted public program page.",
-        excerpts: [],
-      });
-    }
-    const page = await readPublicPage(pageUrl, {
+    const outcome = await resolveProgramRead({
+      body,
+      db: this.env.DB,
+      sql: (strings, ...values) => this.sql(strings, ...values),
       markdown: this.env.BROWSER ? browserMarkdown(this.env.BROWSER) : undefined,
-      cache: this.env.DB ? new D1PageCache(this.env.DB) : undefined,
+      setPageStatus: (pageStatus) => {
+        this.setState({ ...this.state, pageStatus });
+      },
+      persistPage: (schoolId, text) => this.persistPage(schoolId, text),
     });
-    const schoolId = String(body.schoolId ?? "");
-    this
-      .sql`INSERT OR REPLACE INTO page_reads (school_id, status, excerpts_json) VALUES (${schoolId}, ${page.pageStatus}, ${JSON.stringify(page.excerpts)})`;
-    if (page.pageStatus === "ok" && page.text) {
-      await this.persistPage(schoolId, page.text);
-    }
-    this.setState({ ...this.state, pageStatus: page.pageStatus });
-    console.log(
-      JSON.stringify({
-        event: "sop_page",
-        pageStatus: page.pageStatus,
-        schoolId: schoolId || null,
-        source: page.source ?? null,
-        attempts: page.attempts,
-        fallbackUsed: page.fallbackUsed,
-      }),
-    );
-    return Response.json({
-      pageStatus: page.pageStatus,
-      message: page.message,
+    return Response.json(outcome.response);
+  }
+
+  private async overlap(body: ProgramBody): Promise<Response> {
+    const tracked = trackAiUsage(this.env.AI);
+    const result = await resolveOverlap({
+      schoolId: String(body.schoolId ?? ""),
+      sql: (strings, ...values) => this.sql(strings, ...values),
+      db: this.env.DB,
+      ai: tracked.ai,
     });
+    return Response.json({ ...result.body, usage: tracked.snapshot() }, { status: result.status });
   }
 
   private async writeDraft(body: ProgramBody): Promise<Response> {
@@ -184,6 +183,10 @@ export class SopAgent extends Agent<Env, SopState> {
     }>`SELECT id, text FROM resume_chunks`;
     const page = pageRows[0];
     const resumeChunks = resumeRows.map((row) => ({ id: row.id, text: row.text }));
+    const overlapRows = this.sql<{ report_json: string }>`
+      SELECT report_json FROM overlap_reads WHERE school_id = ${schoolId}
+    `;
+    const selected = keptPairsForDraft(overlapRows[0]?.report_json, body.pairIds);
     const input: DraftInput = {
       mode,
       schoolName: body.schoolName ?? "",
@@ -196,14 +199,17 @@ export class SopAgent extends Agent<Env, SopState> {
       pageExcerpts: forOutsideApplicants(parseExcerpts(page?.excerpts_json)),
       pastedPrompt: body.pastedPrompt,
       openingFact: pickOpeningFact(resumeChunks, this.nextDraftTurn(schoolId)),
+      pairs: selected.pairs,
+      weak: selected.weak,
     };
     const grounded = draftParagraph(input);
+    const tracked = trackAiUsage(this.env.AI);
     let accepted: string | null = null;
     let acceptedWords = 0;
     let lastModel: string | null = null;
     let retryNote: string | undefined;
     for (let attempt = 1; attempt <= 2; attempt += 1) {
-      const modelText = await this.modelParagraph(input, retryNote);
+      const modelText = await this.modelParagraph(tracked.ai, input, retryNote);
       if (!modelText) break;
       const candidate = acceptModelDraft(modelText, input);
       const cleaned = modelText.replace(/\s+/g, " ").trim();
@@ -237,7 +243,7 @@ export class SopAgent extends Agent<Env, SopState> {
         );
       }
       if (acceptedWords >= TARGET_MIN_WORDS) break;
-      retryNote = retryNoteFor(stats, problems, candidate ?? cleaned) ?? undefined;
+      retryNote = retryNoteFor(stats, problems, candidate ?? cleaned, input.weak) ?? undefined;
       if (!retryNote) break;
     }
     const kept = accepted ?? cohesiveDraft(lastModel, input);
@@ -250,7 +256,21 @@ export class SopAgent extends Agent<Env, SopState> {
         }),
       );
     }
-    const paragraph = kept ?? grounded.paragraph;
+    const allowed = selected.weak
+      ? { faculty: [], courses: [] }
+      : {
+          faculty: selected.pairs
+            .filter((pair) => pair.fact.kind === "faculty")
+            .map((pair) => pair.fact.name),
+          courses: selected.pairs
+            .filter((pair) => pair.fact.kind === "course")
+            .map((pair) => pair.fact.name),
+        };
+    const guarded = guardNames(kept ?? grounded.paragraph, allowed);
+    if (guarded.removed.length > 0) {
+      console.log(JSON.stringify({ event: "sop_names_removed", removed: guarded.removed }));
+    }
+    const paragraph = guarded.text;
     return Response.json({
       paragraph,
       label: grounded.label,
@@ -258,26 +278,28 @@ export class SopAgent extends Agent<Env, SopState> {
         (match) => match[1],
       ),
       pageStatus: input.pageStatus,
+      namesRemoved: guarded.removed,
+      usage: tracked.snapshot(),
     });
   }
 
   private async modelParagraph(
+    ai: Env["AI"],
     input: DraftInput,
     retryNote?: string,
   ): Promise<string | null> {
-    if (!this.env.AI) return null;
+    if (!ai) return null;
     const prompt = retryNote
       ? `${draftPrompt(input)}\n\n${retryNote}`
       : draftPrompt(input);
     try {
-      const result = await this.env.AI.run(
+      const result = await ai.run(
         "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
         {
           messages: [
             {
               role: "system",
-              content:
-                "You write a full statement of purpose: about 600 words in 4 to 6 paragraphs separated by a blank line. At least two paragraphs name courses, tracks, or requirements from the page excerpts and connect them to the resume. Do not invent professor or course names. If no professor is in the excerpts, one sentence may end with [STUDENT: add detail] for a faculty member the student would look up. Only claim what the excerpts say. Never invent an application prompt.",
+              content: draftSystemMessage(input.weak),
             },
             { role: "user", content: prompt },
           ],

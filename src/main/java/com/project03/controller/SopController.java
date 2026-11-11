@@ -2,6 +2,7 @@ package com.project03.controller;
 
 import com.project03.dto.SopDraftRequest;
 import com.project03.dto.SopDraftResponse;
+import com.project03.dto.SopOverlapResponse;
 import com.project03.dto.SopProgramResponse;
 import com.project03.dto.SopResumeResponse;
 import com.project03.dto.SopResumeTextRequest;
@@ -61,6 +62,14 @@ public class SopController {
             Authentication authentication) {
         User user = currentUser.require(authentication);
         return ResponseEntity.ok(sop.storeResumeFile(user, schoolId, file));
+    }
+
+    @PostMapping("/overlap")
+    public ResponseEntity<SopOverlapResponse> overlap(
+            @RequestBody Map<String, Object> body,
+            Authentication authentication) {
+        User user = currentUser.require(authentication);
+        return ResponseEntity.ok(sop.overlap(user, schoolId(body)));
     }
 
     @PostMapping("/draft")

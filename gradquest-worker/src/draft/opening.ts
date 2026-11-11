@@ -1,4 +1,7 @@
 import type { Excerpt } from "../crawl/excerpts";
+import type { JudgedPair } from "../facts/judge";
+import { MIN_STRONG_PAIRS } from "../facts/match";
+import { guardNames, type AllowedNames } from "./nameGuard";
 
 export const DRAFT_LABEL = "Draft outline — edit before you use it";
 
@@ -14,6 +17,8 @@ export type DraftInput = {
   pageExcerpts: Excerpt[];
   pastedPrompt?: string;
   openingFact?: Excerpt;
+  pairs: JudgedPair[];
+  weak: boolean;
 };
 
 export type DraftResult = {
@@ -360,8 +365,7 @@ export function acceptModelDraft(text: string, input: DraftInput): string | null
   if (!raw || raw.length > DRAFT_CHAR_CAP) return null;
   const flat = raw.replace(/\s+/g, " ").trim();
   if (draftProblem(flat, input)) return null;
-  const known = new Set([...input.resumeChunks, ...input.pageExcerpts].map((item) => item.id));
-  const polished = polishBlocks(raw, known);
+  const polished = polishBlocks(raw, knownCitationIds(input));
   if (!polished) return null;
   const source = draftSources(input);
   for (const banned of BANNED_UNLESS_SOURCED) {
@@ -379,14 +383,19 @@ export function cohesiveDraft(text: string | null, input: DraftInput): string | 
   const flat = raw.replace(/\s+/g, " ").trim();
   const stats = draftStats(flat);
   if (stats.words < 80 || stats.sentences < 3) return null;
-  const known = new Set([...input.resumeChunks, ...input.pageExcerpts].map((item) => item.id));
-  const polished = polishBlocks(raw, known);
+  const polished = polishBlocks(raw, knownCitationIds(input));
   if (!polished || !/\[(?:R\d+|P\d+)\]/.test(polished)) return null;
   const source = draftSources(input);
   for (const banned of BANNED_UNLESS_SOURCED) {
     if (polished.includes(banned) && !source.includes(banned)) return null;
   }
   return polished;
+}
+
+function knownCitationIds(input: DraftInput): Set<string> {
+  const known = new Set([...input.resumeChunks, ...input.pageExcerpts].map((item) => item.id));
+  for (let index = 1; index <= input.pairs.length; index += 1) known.add(`P${index}`);
+  return known;
 }
 
 function polishBlocks(raw: string, known: Set<string>): string | null {
@@ -420,6 +429,7 @@ export function retryNoteFor(
   stats: DraftStats,
   problem: string | string[] | null,
   previous: string,
+  weak = false,
 ): string | null {
   const problems = (Array.isArray(problem) ? problem : problem ? [problem] : []).slice(0, 6);
   if (problems.length > 0) {
@@ -430,16 +440,51 @@ export function retryNoteFor(
     ].join("\n");
   }
   if (stats.words >= TARGET_MIN_WORDS) return null;
+  const expansion = weak
+    ? "Do not name faculty or courses. Write a [STUDENT: add detail] program-fit paragraph. Do not turn the statement into a list of resume bullets."
+    : "Add paragraphs that use the kept pairs and connect each one to its résumé text [R#] [P#]. Do not turn the statement into a list of resume bullets.";
   return [
     `Your previous draft had only ${stats.words} words in ${stats.sentences} sentences. It needs at least ${TARGET_MIN_WORDS} words; aim for about 600, in 4 to 6 paragraphs.`,
-    "Add paragraphs that name courses, tracks, or requirements from the page excerpts and connect each one to a resume fact [R#] [P#]. Do not turn the statement into a list of resume bullets.",
+    expansion,
     `Previous draft:\n${previous}`,
   ].join("\n");
 }
 
+function namesAllowed(input: DraftInput): AllowedNames {
+  if (input.weak) return { faculty: [], courses: [] };
+  return {
+    faculty: input.pairs.filter((pair) => pair.fact.kind === "faculty").map((pair) => pair.fact.name),
+    courses: input.pairs.filter((pair) => pair.fact.kind === "course").map((pair) => pair.fact.name),
+  };
+}
+
+function sourceText(text: string, allowed: AllowedNames): string {
+  return guardNames(text, allowed).text;
+}
+
+export function draftSystemMessage(weak: boolean): string {
+  const length =
+    "You write a full statement of purpose: about 600 words in 4 to 6 paragraphs separated by a blank line.";
+  if (weak) {
+    return `${length} Do not name faculty or courses. Write a [STUDENT: add detail] program-fit paragraph. Never invent an application prompt.`;
+  }
+  return `${length} At least two paragraphs use the kept pairs and connect each one to its résumé text. Do not name a faculty member or course that is not one of those pairs. Never invent an application prompt.`;
+}
+
 export function draftPrompt(input: DraftInput): string {
-  const resume = input.resumeChunks.map((item) => `[${item.id}] ${item.text}`).join("\n");
-  const pages = input.pageExcerpts.map((item) => `[${item.id}] ${item.text}`).join("\n");
+  const allowed = namesAllowed(input);
+  const resume = input.resumeChunks.map((item) => `[${item.id}] ${sourceText(item.text, allowed)}`).join("\n");
+  const pages = input.pageExcerpts.map((item) => `[${item.id}] ${sourceText(item.text, allowed)}`).join("\n");
+  const keptPairs =
+    !input.weak && input.pairs.length >= MIN_STRONG_PAIRS
+      ? [
+          "Program fit uses only these kept pairs.",
+          ...input.pairs.map(
+            (pair, index) =>
+              `[P${index + 1}] ${pair.fact.name}. ${pair.fact.detail} Résumé: ${pair.resume.text}`,
+          ),
+        ].join("\n")
+      : "";
   return [
     "Write a full statement of purpose the student will edit. It is a draft, not an application to submit.",
     "Length: about 600 words, never under 400 or over 800. Use 4 to 6 paragraphs separated by a blank line. A single short paragraph is not acceptable.",
@@ -448,40 +493,58 @@ export function draftPrompt(input: DraftInput): string {
       "Structure:",
       input.openingFact
         ? "1. Open the first paragraph with the required opening fact given below [R#]. Never open with 'I am applying'."
-        : "1. Open the first paragraph with the resume fact that best matches a course or research area on the page [R#]. Do not automatically open with the first resume line. Never open with 'I am applying'.",
-      "2. At least two later paragraphs must be about the program. In each, name a course, track, or requirement that appears in the page excerpts and connect it to a resume fact [R#] [P#].",
-      "3. Use several different page excerpts, not the same one twice. Do not spend the statement restating the resume.",
-      "4. If no excerpt names a professor, do not invent one. One sentence may end with [STUDENT: add detail] for a faculty member the student would look up. Never invent a course name either.",
+        : input.weak
+          ? "1. Open the first paragraph with a resume fact [R#]. Do not automatically open with the first resume line. Never open with 'I am applying'."
+          : "1. Open the first paragraph with the resume fact that best matches a course or research area on the page [R#]. Do not automatically open with the first resume line. Never open with 'I am applying'.",
+      input.weak
+        ? "2. Do not name faculty or courses. Write a [STUDENT: add detail] program-fit paragraph."
+        : "2. At least two later paragraphs must be about the program. Use only the kept pairs below, and connect each pair to its résumé text [R#] [P#].",
+      "3. Do not spend the statement restating the resume.",
+      input.weak
+        ? "4. Do not name faculty or courses. Write a [STUDENT: add detail] program-fit paragraph."
+        : "4. Do not name a faculty member or course that is not one of the kept pairs.",
     ].join("\n"),
+    keptPairs,
     "Use each resume fact in at most two sentences, and never restate it the same way twice.",
-    "Do not write a stock sentence about the program's 'flexibility to concentrate in one or more areas' unless that is the single best fit for this student. A named course, thesis option, or research area is almost always a better program fact than general flexibility.",
+    "Do not write a stock sentence about the program's 'flexibility to concentrate in one or more areas' unless that is the single best fit for this student.",
+    input.weak
+      ? ""
+      : "A named course, thesis option, or research area is almost always a better program fact than general flexibility.",
     "[STUDENT: add detail] always finishes a complete sentence that already makes a real claim. Never use it to fill a blank inside a sentence, and never put it after 'but', 'including', 'such as', 'of', or a comma. The sentence must still read correctly if the marker is deleted.",
     "Good (from an unrelated field, do not copy): 'I want my history thesis to trace how archival letters from cannery workers reshaped local labor records [STUDENT: add detail].' Bad: 'My thesis would draw on the archive, but [STUDENT: add detail].'",
     "Every evaluative claim about the program (reputation, ranking, rigor, 'emphasis on', 'known for', 'will allow me') must come from a [P#] excerpt that actually says it. If no excerpt says it, leave the claim out.",
     "Never call the program reputable, ranked, prestigious, world-class, rigorous, or renowned unless an excerpt uses that word.",
     "Do not praise the program in general terms such as 'strong curriculum', 'great fit', 'perfect fit', 'excellent program', 'necessary resources', 'research opportunities', or 'meaningful advancements'.",
-    "Never write that a requirement, unit count, deadline, or required course will help, allow, or prepare the student, or that it aligns with their goals. Mention a course only to say the student wants to take it and why, tied to a resume fact.",
-    "For courses, use this shape: 'I want to take <course name> because <resume fact> [R#] [P#].' Do not write 'required courses', 'the requirement to', or 'the program's requirement', and do not make a course code the subject of 'will help', 'will allow', or 'aligns with my goals'.",
+    input.weak
+      ? ""
+      : "Never write that a requirement, unit count, deadline, or required course will help, allow, or prepare the student, or that it aligns with their goals. Mention a course only to say the student wants to take it and why, tied to a resume fact.",
+    input.weak
+      ? ""
+      : "For courses, use this shape: 'I want to take <course name> because <resume fact> [R#] [P#].' Do not write 'required courses', 'the requirement to', or 'the program's requirement', and do not make a course code the subject of 'will help', 'will allow', or 'aligns with my goals'.",
     "The last sentence must tie one resume fact to one program fact [R#] [P#], or be an honest sentence about a specific goal ending with [STUDENT: add detail]. Never start it with 'Overall', and never end on a summary judgment such as 'is a great fit' or 'I look forward to contributing'.",
     "Avoid clichés such as 'endless possibilities', 'passionate about', 'ever since I was young', 'from a young age', and 'in today's world'.",
     "Vary how sentences begin; do not start every sentence with 'I'.",
     "Do not chain facts together with commas and 'and I'. End the sentence and start a new one instead.",
-    "Use the page excerpts to show fit: name the courses, tracks, and research areas they actually contain, and say what the student wants to study or build there.",
+    "",
     "Never restate admission requirements, unit counts, or application documents as the student's obligations or goals. Never write 'I must', 'I am aware that', or 'To be eligible'.",
     "Ignore blended, BS+MS, 4+1, or other options meant only for the school's own undergraduates. The student is applying from outside.",
     "Only cite [R#] or [P#] on a sentence that actually states a fact from that excerpt.",
-    "Use only the resume excerpts and public-page excerpts below.",
+    input.weak
+      ? "Use only the resume excerpts below."
+      : "Use only the resume excerpts and public-page excerpts below.",
     "Cite a resume fact as [R#] and a page fact as [P#] at the end of the sentence it supports, just before the period.",
     "If a detail is missing, write [STUDENT: add detail] instead of inventing it.",
     "Do not invent an application prompt. Do not mention Cal State Apply or Slate unless those words are in the sources.",
     "Every sentence must include [R#], [P#], or [STUDENT: add detail].",
     `Mode: ${input.mode}. Program: ${input.programName}. School: ${input.schoolName}.`,
     input.openingFact
-      ? `Open with this fact and no other: ${input.openingFact.text} [${input.openingFact.id}]`
+      ? `Open with this fact and no other: ${sourceText(input.openingFact.text, allowed)} [${input.openingFact.id}]`
       : "",
-    input.pastedPrompt?.trim() ? `Prompt the student pasted:\n${input.pastedPrompt.trim()}` : "No prompt was pasted.",
+    input.pastedPrompt?.trim()
+      ? `Prompt the student pasted:\n${sourceText(input.pastedPrompt.trim(), allowed)}`
+      : "No prompt was pasted.",
     resume ? `Resume excerpts:\n${resume}` : "No resume excerpts.",
-    pages ? `Public page excerpts:\n${pages}` : "No public page excerpts.",
+    input.weak ? "" : pages ? `Public page excerpts:\n${pages}` : "No public page excerpts.",
   ]
     .filter(Boolean)
     .join("\n\n");

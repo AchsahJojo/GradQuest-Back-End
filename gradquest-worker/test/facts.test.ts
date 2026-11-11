@@ -1,6 +1,10 @@
-import { describe, expect, it } from "vitest";
+import { describe, expect, it, vi } from "vitest";
+import type { Excerpt } from "../src/crawl/excerpts";
 import type { ProgramFact, ProgramResearch } from "../src/facts/schema";
 import { parseProgramResearch } from "../src/facts/schema";
+import { judgePairs, judgePrompt, parseJudgement } from "../src/facts/judge";
+import { precisionRecall, readTokenUsage } from "../src/facts/evalMetrics";
+import { MATCH_MIN_SCORE, cosine, embedTexts, reportOverlap, topPairs, type Pair } from "../src/facts/match";
 import { D1FactStore } from "../src/facts/store";
 import {
   carryForwardFacts,
@@ -714,5 +718,504 @@ describe("D1FactStore", () => {
 
   it('latest("99") returns null', async () => {
     expect(await storeWithTwoSnapshots().latest("99")).toBeNull();
+  });
+});
+
+function matchFact(id: string, kind: ProgramFact["kind"]): ProgramFact {
+  return {
+    id,
+    kind,
+    name: id,
+    detail: `${id} detail`,
+    sourceUrl: `https://example.edu/${id}`,
+    quote: `${id} quote from the catalog`,
+  };
+}
+
+function matchExcerpt(id: string, text: string): Excerpt {
+  return { id, text };
+}
+
+describe("cosine", () => {
+  it("returns 1 for identical non-zero vectors", () => {
+    expect(cosine([2, 0, 0], [2, 0, 0])).toBe(1);
+    expect(cosine([1, 0], [4, 0])).toBe(1);
+  });
+
+  it("returns 0 for orthogonal vectors and for a zero or empty vector", () => {
+    expect(cosine([1, 0], [0, 1])).toBe(0);
+    expect(cosine([0, 0], [1, 0])).toBe(0);
+    expect(cosine([], [1, 0])).toBe(0);
+  });
+});
+
+describe("topPairs", () => {
+  it("returns at most k pairs", () => {
+    const resume = [
+      matchExcerpt("a", "Built a storage service in college"),
+      matchExcerpt("b", "Taught an operating systems lab"),
+      matchExcerpt("c", "Published a short systems note"),
+    ];
+    const facts = [matchFact("f0", "faculty"), matchFact("f1", "faculty"), matchFact("f2", "faculty")];
+    const pairs = topPairs(
+      [
+        [1, 0],
+        [1, 0],
+        [1, 0],
+      ],
+      [
+        [1, 0],
+        [1, 0],
+        [1, 0],
+      ],
+      resume,
+      facts,
+      { k: 2, minScore: 0.5 },
+    );
+    expect(pairs.map((pair) => pair.pairId)).toEqual(["0:f0", "0:f1"]);
+  });
+
+  it("keeps at most six distinct résumé facts, chosen by score", () => {
+    const resume = [0, 1, 2, 3, 4, 5, 6].map((index) =>
+      matchExcerpt(`r${index}`, `Resume fact number ${index} is here`),
+    );
+    const pairs = topPairs(
+      [
+        [3, 4],
+        [3, 4],
+        [3, 4],
+        [3, 4],
+        [3, 4],
+        [3, 4],
+        [1, 0],
+      ],
+      [[1, 0]],
+      resume,
+      [matchFact("fac", "faculty")],
+      { k: 10, minScore: 0.5 },
+    );
+    expect(pairs.map((pair) => pair.pairId)).toEqual(["6:fac", "0:fac", "1:fac", "2:fac", "3:fac", "4:fac"]);
+  });
+
+  it("pairs one résumé fact with at most two program facts", () => {
+    const resume = [matchExcerpt("r", "Built a storage service in college")];
+    const facts = [0, 1, 2, 3].map((index) => matchFact(`f${index}`, "faculty"));
+    const pairs = topPairs([[1, 0]], facts.map(() => [1, 0]), resume, facts, { k: 10, minScore: 0.5 });
+    expect(pairs.map((pair) => pair.pairId)).toEqual(["0:f0", "0:f1"]);
+  });
+
+  it("treats the same id and text as one résumé fact and keeps the higher-scoring index", () => {
+    const same = "Built a distributed storage service";
+    const resume = [
+      matchExcerpt("r", same),
+      matchExcerpt("r", same),
+      matchExcerpt("s", "Taught an operating systems lab"),
+    ];
+    const facts = [matchFact("fa", "faculty"), matchFact("fb", "faculty")];
+    const pairs = topPairs(
+      [
+        [1, 1],
+        [4, 0],
+        [0, 4],
+      ],
+      [
+        [1, 0],
+        [0, 1],
+      ],
+      resume,
+      facts,
+      { k: 10, minScore: 0.5 },
+    );
+    expect(pairs.map((pair) => pair.pairId)).toEqual(["1:fa", "2:fb", "0:fb"]);
+    expect(pairs.filter((pair) => pair.resume.id === "r")).toHaveLength(2);
+  });
+
+  it("drops pairs below minScore", () => {
+    const resume = [matchExcerpt("r", "Built a storage service in college")];
+    const facts = [matchFact("keep", "faculty"), matchFact("drop", "course")];
+    const pairs = topPairs([[1, 0]], [[1, 0], [1, 2]], resume, facts, { k: 8, minScore: MATCH_MIN_SCORE });
+    expect(pairs.map((pair) => pair.pairId)).toEqual(["0:keep"]);
+    expect(pairs[0].score).toBe(1);
+  });
+
+  it("uses only faculty and course facts", () => {
+    const resume = [matchExcerpt("r", "Built a storage service in college")];
+    const facts = [
+      matchFact("over", "overview"),
+      matchFact("req", "requirement"),
+      matchFact("due", "deadline"),
+      matchFact("fac", "faculty"),
+      matchFact("crs", "course"),
+    ];
+    const pairs = topPairs(
+      [[1, 0]],
+      facts.map(() => [1, 0]),
+      resume,
+      facts,
+      { k: 8, minScore: 0.5 },
+    );
+    expect(pairs.map((pair) => pair.fact.kind)).toEqual(["faculty", "course"]);
+  });
+
+  it("breaks equal scores by earlier résumé index, then earlier fact index", () => {
+    const resume = [
+      matchExcerpt("a", "Built a storage service in college"),
+      matchExcerpt("b", "Taught an operating systems lab"),
+    ];
+    const facts = [matchFact("f0", "faculty"), matchFact("f1", "course")];
+    const pairs = topPairs(
+      [
+        [1, 0],
+        [1, 0],
+      ],
+      [
+        [1, 0],
+        [1, 0],
+      ],
+      resume,
+      facts,
+      { k: 3, minScore: 0.5 },
+    );
+    expect(pairs.map((pair) => pair.pairId)).toEqual(["0:f0", "0:f1", "1:f0"]);
+  });
+
+  it("throws when a vector list length does not match its texts", () => {
+    const resume = [matchExcerpt("r", "Built a storage service in college")];
+    const facts = [matchFact("fac", "faculty")];
+    expect(() => topPairs([], [[1, 0]], resume, facts, { k: 1, minScore: 0 })).toThrow(Error);
+    expect(() => topPairs([[1, 0]], [], resume, facts, { k: 1, minScore: 0 })).toThrow(Error);
+  });
+});
+
+describe("reportOverlap", () => {
+  const faculty = matchFact("fac", "faculty");
+  const course = matchFact("crs", "course");
+  const overview = matchFact("over", "overview");
+  const resume = matchExcerpt("r", "Built a storage service in college");
+
+  function pair(fact: ProgramFact, pairId: string): Pair {
+    return { pairId, resume, fact, score: 0.9 };
+  }
+
+  it("marks fewer than two pairs as weak and lists missing faculty then course", () => {
+    const one = reportOverlap([pair(faculty, "0:fac")], [faculty, course, overview]);
+    expect(one.weak).toBe(true);
+    expect(one.unmatchedKinds).toEqual(["course"]);
+    expect(one.pairs).toHaveLength(1);
+
+    const none = reportOverlap([], []);
+    expect(none.weak).toBe(true);
+    expect(none.unmatchedKinds).toEqual(["faculty", "course"]);
+
+    const both = reportOverlap([pair(faculty, "0:fac"), pair(course, "1:crs")], [overview]);
+    expect(both.weak).toBe(false);
+    expect(both.unmatchedKinds).toEqual([]);
+  });
+});
+
+describe("embedTexts", () => {
+  it("returns no vectors for empty input without calling the model", async () => {
+    let called = false;
+    const ai = {
+      async run() {
+        called = true;
+        return { data: [] };
+      },
+    } as unknown as Env["AI"];
+    expect(await embedTexts(ai, [])).toEqual([]);
+    expect(called).toBe(false);
+  });
+
+  it("calls bge-base in batches of 100 and reads data", async () => {
+    const texts = Array.from({ length: 250 }, (_, index) => `sentence ${index} from the resume`);
+    const calls: { model: string; size: number }[] = [];
+    const ai = {
+      async run(model: string, inputs: { text: string[] }) {
+        calls.push({ model, size: inputs.text.length });
+        return { data: inputs.text.map((_, index) => [calls.length, index]) };
+      },
+    } as unknown as Env["AI"];
+    const vectors = await embedTexts(ai, texts);
+    expect(calls.map((call) => call.model)).toEqual([
+      "@cf/baai/bge-base-en-v1.5",
+      "@cf/baai/bge-base-en-v1.5",
+      "@cf/baai/bge-base-en-v1.5",
+    ]);
+    expect(calls.map((call) => call.size)).toEqual([100, 100, 50]);
+    expect(vectors).toHaveLength(250);
+    expect(vectors[0]).toEqual([1, 0]);
+    expect(vectors[100]).toEqual([2, 0]);
+    expect(vectors[249]).toEqual([3, 49]);
+  });
+
+  it("throws when a batch returns a different number of vectors", async () => {
+    const ai = {
+      async run() {
+        return { data: [[1, 0]] };
+      },
+    } as unknown as Env["AI"];
+    await expect(embedTexts(ai, ["one two three four", "five six seven eight"])).rejects.toThrow(Error);
+  });
+});
+
+function judgePair(pairId: string, resumeText: string, factName: string, detail: string): Pair {
+  return {
+    pairId,
+    resume: { id: pairId, text: resumeText },
+    fact: {
+      id: pairId,
+      kind: "course",
+      name: factName,
+      detail,
+      sourceUrl: "https://example.edu/course",
+      quote: "A public catalog quote for this course.",
+    },
+    score: 0.8,
+  };
+}
+
+const JUDGE_PAIRS = [
+  judgePair("p1", "Implemented pipelined processors", "CSC 530", "Pipelining and memory hierarchy"),
+  judgePair("p2", "Organized a volunteer fair", "Jane Smith", "Distributed systems research"),
+];
+
+describe("parseJudgement", () => {
+  it("keeps a yes pair and drops a no pair", () => {
+    const text = JSON.stringify([
+      { pairId: "p1", verdict: "yes", reason: "Both discuss pipelining" },
+      { pairId: "p2", verdict: "no", reason: "Different topics" },
+    ]);
+    expect(parseJudgement(text, JUDGE_PAIRS)).toEqual([
+      { ...JUDGE_PAIRS[0], reason: "Both discuss pipelining" },
+    ]);
+  });
+
+  it("drops an unknown pairId", () => {
+    const text = JSON.stringify([
+      { pairId: "missing", verdict: "yes", reason: "Looks related" },
+      { pairId: "p1", verdict: "yes", reason: "Shared method" },
+    ]);
+    expect(parseJudgement(text, JUDGE_PAIRS).map((pair) => pair.pairId)).toEqual(["p1"]);
+  });
+
+  it("drops a yes with an empty reason", () => {
+    const text = JSON.stringify([
+      { pairId: "p1", verdict: "yes", reason: "   " },
+      { pairId: "p2", verdict: "yes", reason: "" },
+    ]);
+    expect(parseJudgement(text, JUDGE_PAIRS)).toEqual([]);
+  });
+
+  it("returns an empty list for malformed JSON", () => {
+    expect(parseJudgement("not json", JUDGE_PAIRS)).toEqual([]);
+    expect(parseJudgement("{", JUDGE_PAIRS)).toEqual([]);
+  });
+
+  it("keeps a trimmed yes and the trimmed reason", () => {
+    const text = JSON.stringify([{ pairId: "p1", verdict: " Yes ", reason: "  shared pipeline method  " }]);
+    expect(parseJudgement(text, JUDGE_PAIRS)).toEqual([
+      { ...JUDGE_PAIRS[0], reason: "shared pipeline method" },
+    ]);
+  });
+
+  it("keeps the first accepted row when a pairId repeats", () => {
+    const text = JSON.stringify([
+      { pairId: "p1", verdict: "no", reason: "nope" },
+      { pairId: "p1", verdict: "yes", reason: "first kept" },
+      { pairId: "p1", verdict: "yes", reason: "second" },
+    ]);
+    expect(parseJudgement(text, JUDGE_PAIRS)).toEqual([{ ...JUDGE_PAIRS[0], reason: "first kept" }]);
+  });
+});
+
+describe("judgePrompt", () => {
+  it("states the concrete topic-or-method rule and lists each pair", () => {
+    const prompt = judgePrompt(JUDGE_PAIRS);
+    expect(prompt.toLowerCase()).toContain("concrete");
+    expect(prompt.toLowerCase()).toContain("topic");
+    expect(prompt.toLowerCase()).toContain("method");
+    expect(prompt).toContain("p1");
+    expect(prompt).toContain("Implemented pipelined processors");
+    expect(prompt).toContain("CSC 530");
+    expect(prompt).toContain("Pipelining and memory hierarchy");
+    expect(prompt).toContain("p2");
+    expect(prompt).toContain("Organized a volunteer fair");
+    expect(prompt).toContain("Jane Smith");
+    expect(prompt).toContain("Distributed systems research");
+    expect(prompt.toLowerCase()).not.toContain("outside knowledge");
+    expect(prompt.toLowerCase()).not.toContain("school");
+  });
+});
+
+describe("judgePairs", () => {
+  it("keeps only yes and calls llama once", async () => {
+    const calls: { model: string; input: { messages: { role: string; content: string }[]; max_tokens: number } }[] = [];
+    const ai = {
+      async run(model: string, input: { messages: { role: string; content: string }[]; max_tokens: number }) {
+        calls.push({ model, input });
+        return {
+          response: JSON.stringify([
+            { pairId: "p1", verdict: "yes", reason: "Both cover pipelining" },
+            { pairId: "p2", verdict: "no", reason: "Unrelated" },
+          ]),
+        };
+      },
+    } as unknown as Env["AI"];
+
+    const judged = await judgePairs(ai, JUDGE_PAIRS);
+
+    expect(judged).toEqual([{ ...JUDGE_PAIRS[0], reason: "Both cover pipelining" }]);
+    expect(calls).toHaveLength(1);
+    expect(calls[0].model).toBe("@cf/meta/llama-3.3-70b-instruct-fp8-fast");
+    expect(calls[0].input.max_tokens).toBe(800);
+    expect(calls[0].input.messages[0].role).toBe("system");
+    expect(calls[0].input.messages[0].content.toLowerCase()).toContain("concrete");
+    expect(calls[0].input.messages[0].content.toLowerCase()).toContain("json");
+    expect(calls[0].input.messages[1]).toEqual({ role: "user", content: judgePrompt(JUDGE_PAIRS) });
+  });
+
+  it("falls back when the model throws and logs sop_judge_fallback", async () => {
+    const logs: unknown[] = [];
+    const spy = vi.spyOn(console, "log").mockImplementation((message?: unknown) => {
+      logs.push(message);
+    });
+    const ai = {
+      async run() {
+        throw new Error("model down");
+      },
+    } as unknown as Env["AI"];
+    try {
+      await expect(judgePairs(ai, JUDGE_PAIRS)).resolves.toEqual(
+        JUDGE_PAIRS.map((pair) => ({ ...pair, reason: "" })),
+      );
+      expect(logs).toContain(JSON.stringify({ event: "sop_judge_fallback" }));
+    } finally {
+      spy.mockRestore();
+    }
+  });
+
+  it("returns an empty list for an all-no array without logging fallback", async () => {
+    const logs: unknown[] = [];
+    const spy = vi.spyOn(console, "log").mockImplementation((message?: unknown) => {
+      logs.push(message);
+    });
+    const ai = {
+      async run() {
+        return JSON.stringify([
+          { pairId: "p1", verdict: "no", reason: "Different" },
+          { pairId: "p2", verdict: "no", reason: "Different" },
+        ]);
+      },
+    } as unknown as Env["AI"];
+    try {
+      await expect(judgePairs(ai, JUDGE_PAIRS)).resolves.toEqual([]);
+      expect(logs.some((line) => String(line).includes("sop_judge_fallback"))).toBe(false);
+    } finally {
+      spy.mockRestore();
+    }
+  });
+
+  it("does not call the model for empty input", async () => {
+    let called = false;
+    const ai = {
+      async run() {
+        called = true;
+        return "[]";
+      },
+    } as unknown as Env["AI"];
+    await expect(judgePairs(ai, [])).resolves.toEqual([]);
+    expect(called).toBe(false);
+  });
+
+  it("falls back when the model text is empty", async () => {
+    const logs: unknown[] = [];
+    const spy = vi.spyOn(console, "log").mockImplementation((message?: unknown) => {
+      logs.push(message);
+    });
+    const ai = {
+      async run() {
+        return { response: "   " };
+      },
+    } as unknown as Env["AI"];
+    try {
+      await expect(judgePairs(ai, JUDGE_PAIRS)).resolves.toEqual(
+        JUDGE_PAIRS.map((pair) => ({ ...pair, reason: "" })),
+      );
+      expect(logs).toContain(JSON.stringify({ event: "sop_judge_fallback" }));
+    } finally {
+      spy.mockRestore();
+    }
+  });
+
+  it("falls back when the model text is not a JSON array", async () => {
+    const logs: unknown[] = [];
+    const spy = vi.spyOn(console, "log").mockImplementation((message?: unknown) => {
+      logs.push(message);
+    });
+    const ai = {
+      async run() {
+        return { text: JSON.stringify({ pairId: "p1", verdict: "yes", reason: "Shared method" }) };
+      },
+    } as unknown as Env["AI"];
+    try {
+      await expect(judgePairs(ai, JUDGE_PAIRS)).resolves.toEqual(
+        JUDGE_PAIRS.map((pair) => ({ ...pair, reason: "" })),
+      );
+      expect(logs).toContain(JSON.stringify({ event: "sop_judge_fallback" }));
+    } finally {
+      spy.mockRestore();
+    }
+  });
+
+  it("falls back when the model text is not valid JSON", async () => {
+    const logs: unknown[] = [];
+    const spy = vi.spyOn(console, "log").mockImplementation((message?: unknown) => {
+      logs.push(message);
+    });
+    const ai = {
+      async run() {
+        return { result: "not json" };
+      },
+    } as unknown as Env["AI"];
+    try {
+      await expect(judgePairs(ai, JUDGE_PAIRS)).resolves.toEqual(
+        JUDGE_PAIRS.map((pair) => ({ ...pair, reason: "" })),
+      );
+      expect(logs).toContain(JSON.stringify({ event: "sop_judge_fallback" }));
+    } finally {
+      spy.mockRestore();
+    }
+  });
+});
+
+describe("precisionRecall", () => {
+  it("computes precision and recall for mixed labels at a threshold", () => {
+    const pairs = [
+      { score: 0.8, related: true },
+      { score: 0.6, related: true },
+      { score: 0.75, related: false },
+      { score: 0.4, related: false },
+    ];
+    expect(precisionRecall(pairs, 0.7)).toEqual({ precision: 0.5, recall: 0.5 });
+  });
+
+  it("returns null when a denominator is zero", () => {
+    expect(precisionRecall([{ score: 0.2, related: true }], 0.9)).toEqual({ precision: null, recall: 0 });
+    expect(precisionRecall([{ score: 0.1, related: false }], 0.9)).toEqual({ precision: null, recall: null });
+  });
+});
+
+describe("readTokenUsage", () => {
+  it("reads snake_case and camelCase usage, and zeros when usage is missing", () => {
+    expect(readTokenUsage({ usage: { prompt_tokens: 11, completion_tokens: 7 } })).toEqual({
+      promptTokens: 11,
+      completionTokens: 7,
+    });
+    expect(readTokenUsage({ usage: { promptTokens: 3, completionTokens: 4 } })).toEqual({
+      promptTokens: 3,
+      completionTokens: 4,
+    });
+    expect(readTokenUsage({})).toEqual({ promptTokens: 0, completionTokens: 0 });
+    expect(readTokenUsage(null)).toEqual({ promptTokens: 0, completionTokens: 0 });
   });
 });

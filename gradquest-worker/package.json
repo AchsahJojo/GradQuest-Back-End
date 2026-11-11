@@ -8,7 +8,8 @@
     "types": "wrangler types",
     "check": "tsc --noEmit && tsc --noEmit -p scripts",
     "facts:verify": "tsx scripts/verifyFacts.ts",
-    "facts:sql": "tsx scripts/factsToSql.ts"
+    "facts:sql": "tsx scripts/factsToSql.ts",
+    "facts:eval": "tsx scripts/evalOverlap.ts"
   },
   "dependencies": {
     "agents": "^0.28.1",
