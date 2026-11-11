@@ -1,7 +1,7 @@
 import type { Excerpt } from "../crawl/excerpts";
 import type { JudgedPair } from "../facts/judge";
 import { MIN_STRONG_PAIRS } from "../facts/match";
-import { guardNames, type AllowedNames } from "./nameGuard";
+import { guardNames, type AllowedNames, type NameRoster } from "./nameGuard";
 
 export const DRAFT_LABEL = "Draft outline — edit before you use it";
 
@@ -19,6 +19,7 @@ export type DraftInput = {
   openingFact?: Excerpt;
   pairs: JudgedPair[];
   weak: boolean;
+  roster?: NameRoster;
 };
 
 export type DraftResult = {
@@ -29,6 +30,25 @@ export type DraftResult = {
 };
 
 const BANNED_UNLESS_SOURCED = ["Cal State Apply", "Slate", "Technolutions"];
+
+export function weakOverlapParagraph(input: { schoolName: string; programName: string }): string {
+  const school = input.schoolName.trim() || "this school";
+  const program = input.programName.trim() || "this program";
+  return [
+    `We found little connection between your résumé and the faculty or courses in ${program} at ${school}.`,
+    "Those parts are left for you to write.",
+    "[STUDENT: add detail] about a faculty member or research area you want to name.",
+    "[STUDENT: add detail] about a course you want to take and why it fits your background.",
+  ].join(" ");
+}
+
+export function stripUnfilledProgramCitations(text: string): string {
+  return text
+    .replace(/[ \t]*\[P#\]/g, "")
+    .replace(/[ \t]{2,}/g, " ")
+    .replace(/[ \t]+([.,;:!?])/g, "$1")
+    .trim();
+}
 
 export function draftParagraph(input: DraftInput): DraftResult {
   const school = input.schoolName || "this school";
@@ -458,8 +478,8 @@ function namesAllowed(input: DraftInput): AllowedNames {
   };
 }
 
-function sourceText(text: string, allowed: AllowedNames): string {
-  return guardNames(text, allowed).text;
+function sourceText(text: string, allowed: AllowedNames, roster: NameRoster): string {
+  return guardNames(text, allowed, roster).text;
 }
 
 export function draftSystemMessage(weak: boolean): string {
@@ -473,8 +493,9 @@ export function draftSystemMessage(weak: boolean): string {
 
 export function draftPrompt(input: DraftInput): string {
   const allowed = namesAllowed(input);
-  const resume = input.resumeChunks.map((item) => `[${item.id}] ${sourceText(item.text, allowed)}`).join("\n");
-  const pages = input.pageExcerpts.map((item) => `[${item.id}] ${sourceText(item.text, allowed)}`).join("\n");
+  const roster = input.roster ?? { faculty: [], courses: [] };
+  const resume = input.resumeChunks.map((item) => `[${item.id}] ${sourceText(item.text, allowed, roster)}`).join("\n");
+  const pages = input.pageExcerpts.map((item) => `[${item.id}] ${sourceText(item.text, allowed, roster)}`).join("\n");
   const keptPairs =
     !input.weak && input.pairs.length >= MIN_STRONG_PAIRS
       ? [
@@ -538,10 +559,10 @@ export function draftPrompt(input: DraftInput): string {
     "Every sentence must include [R#], [P#], or [STUDENT: add detail].",
     `Mode: ${input.mode}. Program: ${input.programName}. School: ${input.schoolName}.`,
     input.openingFact
-      ? `Open with this fact and no other: ${sourceText(input.openingFact.text, allowed)} [${input.openingFact.id}]`
+      ? `Open with this fact and no other: ${sourceText(input.openingFact.text, allowed, roster)} [${input.openingFact.id}]`
       : "",
     input.pastedPrompt?.trim()
-      ? `Prompt the student pasted:\n${sourceText(input.pastedPrompt.trim(), allowed)}`
+      ? `Prompt the student pasted:\n${sourceText(input.pastedPrompt.trim(), allowed, roster)}`
       : "No prompt was pasted.",
     resume ? `Resume excerpts:\n${resume}` : "No resume excerpts.",
     input.weak ? "" : pages ? `Public page excerpts:\n${pages}` : "No public page excerpts.",

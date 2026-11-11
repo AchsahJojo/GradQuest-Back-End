@@ -14,7 +14,7 @@ import { expiresAtFor, type CachedPage, type PageCache } from "../src/crawl/page
 import { readPublicPage } from "../src/crawl/readPublicPage";
 import { isPathAllowed } from "../src/crawl/robots";
 import { keptPairsForDraft } from "../src/draft/keptPairs";
-import { guardNames } from "../src/draft/nameGuard";
+import { guardNames, rosterFromSnapshot } from "../src/draft/nameGuard";
 import {
   acceptModelDraft,
   cohesiveDraft,
@@ -22,6 +22,8 @@ import {
   draftParagraph,
   draftPrompt,
   draftProblems,
+  stripUnfilledProgramCitations,
+  weakOverlapParagraph,
   draftShapeProblem,
   draftSystemMessage,
   draftSources,
@@ -947,39 +949,43 @@ describe("kept pairs and name guard", () => {
   });
 
   it("keeps a confirmed professor when the sentence uses a possessive", () => {
-    const guarded = guardNames("Professor Ada Lovelace's research is the reason I applied.", {
-      faculty: ["Ada Lovelace"],
-      courses: [],
-    });
+    const guarded = guardNames(
+      "Professor Ada Lovelace's research is the reason I applied.",
+      { faculty: ["Ada Lovelace"], courses: [] },
+      { faculty: ["Ada Lovelace"], courses: [] },
+    );
     expect(guarded.text).toContain("Professor Ada Lovelace's research");
     expect(guarded.removed).toEqual([]);
   });
 
   it("keeps an allowed professor and course", () => {
-    const guarded = guardNames("I want to study with Dr. Ada Lovelace and take CSC530.", {
-      faculty: ["Professor Ada Lovelace"],
-      courses: ["CSC 530"],
-    });
+    const guarded = guardNames(
+      "I want to study with Dr. Ada Lovelace and take CSC530.",
+      { faculty: ["Professor Ada Lovelace"], courses: ["CSC 530"] },
+      { faculty: ["Ada Lovelace"], courses: ["CSC 530 - Computer Architecture"] },
+    );
     expect(guarded.text).toContain("Dr. Ada Lovelace");
     expect(guarded.text).toContain("CSC530");
     expect(guarded.removed).toEqual([]);
   });
 
-  it("replaces Professor Jane Smith when she is not allowed", () => {
-    const guarded = guardNames("I hope to work with Professor Jane Smith on systems.", {
-      faculty: ["Ada Lovelace"],
-      courses: [],
-    });
+  it("replaces Professor Jane Smith when she is verified and not kept", () => {
+    const guarded = guardNames(
+      "I hope to work with Professor Jane Smith on systems.",
+      { faculty: ["Ada Lovelace"], courses: [] },
+      { faculty: ["Jane Smith", "Ada Lovelace"], courses: [] },
+    );
     expect(guarded.text).not.toContain("Jane Smith");
     expect(guarded.text).toContain("[STUDENT: add detail]");
     expect(guarded.removed).toContain("Professor Jane Smith");
   });
 
-  it("replaces a two-word name in the same sentence as research when that faculty is not allowed", () => {
-    const guarded = guardNames("The research group includes Jane Smith this year.", {
-      faculty: ["Ada Lovelace"],
-      courses: [],
-    });
+  it("removes a verified faculty name in a sentence about research", () => {
+    const guarded = guardNames(
+      "The research group includes Jane Smith this year.",
+      { faculty: ["Ada Lovelace"], courses: [] },
+      { faculty: ["Jane Smith"], courses: [] },
+    );
     expect(guarded.text).not.toContain("Jane Smith");
     expect(guarded.removed).toContain("Jane Smith");
   });
@@ -1003,6 +1009,67 @@ describe("kept pairs and name guard", () => {
     expect(guarded.removed).toEqual([]);
   });
 
+  it("keeps course titles and the program name when the sentence mentions a lab or research", () => {
+    const draft = [
+      "I want to take CSC 5887 - Advanced Deep Learning because I classified lab images.",
+      "I want to take CSE 252A - Computer Vision I because I classified lab images.",
+      "I also want to take CSE 251A - AI: Learning Algorithms because I classified lab images.",
+      "The Computer Science program will let me explore my research interests.",
+    ].join(" ");
+    const guarded = guardNames(draft, {
+      faculty: ["Daniel Frishberg"],
+      courses: [
+        "CSC 5887 - Advanced Deep Learning",
+        "CSE 252A - Computer Vision I",
+        "CSE 251A - AI: Learning Algorithms",
+      ],
+    });
+    expect(guarded.removed).toEqual([]);
+    expect(guarded.text).toContain("CSC 5887 - Advanced Deep Learning");
+    expect(guarded.text).toContain("CSE 252A - Computer Vision I");
+    expect(guarded.text).toContain("CSE 251A - AI: Learning Algorithms");
+    expect(guarded.text).toContain("The Computer Science program");
+  });
+
+  it("leaves a professor who is not a verified faculty name", () => {
+    const guarded = guardNames("I hope to work with Professor Jane Smith on systems.", {
+      faculty: ["Ada Lovelace"],
+      courses: [],
+    });
+    expect(guarded.text).toContain("Professor Jane Smith");
+    expect(guarded.removed).toEqual([]);
+  });
+
+  it("removes a verified faculty name that was not kept, including inside a course title only once outside it", () => {
+    const guarded = guardNames(
+      "I want to take CSE 291 - Jane Smith Seminar. I also hope to work with Professor Jane Smith.",
+      { faculty: [], courses: [] },
+      { faculty: ["Jane Smith"], courses: ["CSE 291 - Jane Smith Seminar"] },
+    );
+    expect(guarded.text).toContain("CSE 291 - Jane Smith Seminar");
+    expect(guarded.text).not.toContain("Professor Jane Smith");
+    expect(guarded.removed).toEqual(["Professor Jane Smith"]);
+  });
+
+  it("reads verified faculty and course names from a snapshot", () => {
+    expect(
+      rosterFromSnapshot(
+        JSON.stringify({
+          facts: [
+            { kind: "faculty", name: "Mihir Bellare" },
+            { kind: "course", name: "CSE 252A - Computer Vision I" },
+            { kind: "overview", name: "Program overview" },
+          ],
+        }),
+      ),
+    ).toEqual({
+      faculty: ["Mihir Bellare"],
+      courses: ["CSE 252A - Computer Vision I"],
+    });
+    expect(rosterFromSnapshot(undefined)).toEqual({ faculty: [], courses: [] });
+    expect(rosterFromSnapshot("{")).toEqual({ faculty: [], courses: [] });
+  });
+
   it("labels each kept pair and omits unpaired faculty and courses", () => {
     const prompt = draftPrompt({
       ...PAIR_DRAFT_INPUT,
@@ -1011,7 +1078,16 @@ describe("kept pairs and name guard", () => {
         judgedPair("course", "Compilers", "A graduate compilers course.", "Built a compiler."),
       ],
       weak: false,
-      pageExcerpts: [{ id: "P9", text: "Professor Jane Smith teaches CSC 999." }],
+      roster: {
+        faculty: ["Jane Smith"],
+        courses: ["CSC 5887 - Advanced Deep Learning"],
+      },
+      pageExcerpts: [
+        {
+          id: "P9",
+          text: "Professor Jane Smith teaches CSC 999. The catalog lists CSC 5887 - Advanced Deep Learning.",
+        },
+      ],
     });
     expect(prompt).toContain("[P1] Ada Lovelace");
     expect(prompt).toContain("Studies formal methods.");
@@ -1021,10 +1097,41 @@ describe("kept pairs and name guard", () => {
     expect(prompt).toContain("Built a compiler.");
     expect(prompt).not.toContain("Jane Smith");
     expect(prompt).not.toContain("CSC 999");
+    expect(prompt).toContain("CSC 5887 - Advanced Deep Learning");
     expect(prompt).not.toContain("name a course, track, or requirement");
     expect(prompt).not.toContain("name the courses, tracks, and research areas");
     expect(prompt).toContain("UC San Diego");
     expect(prompt).toContain("Computer Science and Engineering, M.S.");
+  });
+
+  it("returns a short little-overlap message and does not cite program facts when weak", () => {
+    const text = weakOverlapParagraph({
+      schoolName: "California State University, Fullerton",
+      programName: "Computer Science, M.S.",
+    });
+    expect(text).toContain("little connection");
+    expect(text).toContain("Computer Science, M.S.");
+    expect(text).toContain("[STUDENT: add detail]");
+    expect(text).not.toMatch(/\[P#\]/);
+    expect(text).not.toMatch(/\[P\d+\]/);
+    expect(text.split(/\s+/).length).toBeLessThan(80);
+    const guarded = guardNames(
+      text,
+      { faculty: [], courses: [] },
+      {
+        faculty: ["Mihir Bellare", "Daniel Frishberg"],
+        courses: ["CSC 5887 - Advanced Deep Learning", "CSE 252A - Computer Vision I"],
+      },
+    );
+    expect(guarded.removed).toEqual([]);
+    expect(stripUnfilledProgramCitations(guarded.text)).toBe(text);
+  });
+
+  it("strips a literal [P#] and keeps numbered citations", () => {
+    const text = stripUnfilledProgramCitations(
+      "The program aligns with my goals [P#]. I want to take the course [P1] [R2].",
+    );
+    expect(text).toBe("The program aligns with my goals. I want to take the course [P1] [R2].");
   });
 
   it("forbids naming faculty or courses and asks for a program-fit paragraph when weak", () => {

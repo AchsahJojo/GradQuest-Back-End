@@ -3,7 +3,7 @@ import type { Excerpt } from "../src/crawl/excerpts";
 import type { ProgramFact, ProgramResearch } from "../src/facts/schema";
 import { parseProgramResearch } from "../src/facts/schema";
 import { judgePairs, judgePrompt, parseJudgement } from "../src/facts/judge";
-import { precisionRecall, readTokenUsage } from "../src/facts/evalMetrics";
+import { citationShare, precisionRecall, readTokenUsage } from "../src/facts/evalMetrics";
 import { MATCH_MIN_SCORE, cosine, embedTexts, reportOverlap, topPairs, type Pair } from "../src/facts/match";
 import { D1FactStore } from "../src/facts/store";
 import {
@@ -1202,6 +1202,27 @@ describe("precisionRecall", () => {
   it("returns null when a denominator is zero", () => {
     expect(precisionRecall([{ score: 0.2, related: true }], 0.9)).toEqual({ precision: null, recall: 0 });
     expect(precisionRecall([{ score: 0.1, related: false }], 0.9)).toEqual({ precision: null, recall: null });
+  });
+});
+
+describe("citationShare", () => {
+  it("fails when the draft contains a literal [P#]", () => {
+    const paragraph =
+      "The Computer Science program at California State University, Fullerton, aligns with my goals [P#].";
+    expect(citationShare(paragraph, 0, true)).toMatchObject({ maps: false, unmapped: 1 });
+  });
+
+  it("still maps numbered citations and ignores a draft with none", () => {
+    expect(citationShare("I want to take the course [P1] [P2].", 2, false)).toMatchObject({
+      maps: true,
+      unmapped: 0,
+    });
+    expect(citationShare("No program citation here.", 0, true)).toMatchObject({
+      share: "n/a",
+      maps: true,
+      unmapped: 0,
+    });
+    expect(citationShare("I want to take the course [P1] and [P#].", 1, false).maps).toBe(false);
   });
 });
 

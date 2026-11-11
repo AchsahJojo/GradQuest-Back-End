@@ -5,7 +5,7 @@ import { browserMarkdown } from "../crawl/markdown";
 import { resolveOverlap } from "./overlapRead";
 import { resolveProgramRead } from "./programRead";
 import { keptPairsForDraft } from "../draft/keptPairs";
-import { guardNames } from "../draft/nameGuard";
+import { guardNames, rosterFromSnapshot } from "../draft/nameGuard";
 import {
   acceptModelDraft,
   draftParagraph,
@@ -17,6 +17,8 @@ import {
   forOutsideApplicants,
   pickOpeningFact,
   retryNoteFor,
+  stripUnfilledProgramCitations,
+  weakOverlapParagraph,
   TARGET_MIN_WORDS,
   type DraftInput,
   type DraftMode,
@@ -186,6 +188,10 @@ export class SopAgent extends Agent<Env, SopState> {
     const overlapRows = this.sql<{ report_json: string }>`
       SELECT report_json FROM overlap_reads WHERE school_id = ${schoolId}
     `;
+    const snapshotRows = this.sql<{ snapshot_json: string }>`
+      SELECT snapshot_json FROM snapshot_reads WHERE school_id = ${schoolId}
+    `;
+    const roster = rosterFromSnapshot(snapshotRows[0]?.snapshot_json);
     const selected = keptPairsForDraft(overlapRows[0]?.report_json, body.pairIds);
     const input: DraftInput = {
       mode,
@@ -201,76 +207,90 @@ export class SopAgent extends Agent<Env, SopState> {
       openingFact: pickOpeningFact(resumeChunks, this.nextDraftTurn(schoolId)),
       pairs: selected.pairs,
       weak: selected.weak,
+      roster,
     };
     const grounded = draftParagraph(input);
     const tracked = trackAiUsage(this.env.AI);
-    let accepted: string | null = null;
-    let acceptedWords = 0;
-    let lastModel: string | null = null;
-    let retryNote: string | undefined;
-    for (let attempt = 1; attempt <= 2; attempt += 1) {
-      const modelText = await this.modelParagraph(tracked.ai, input, retryNote);
-      if (!modelText) break;
-      const candidate = acceptModelDraft(modelText, input);
-      const cleaned = modelText.replace(/\s+/g, " ").trim();
-      lastModel = cleaned;
-      const stats = draftStats(candidate ?? cleaned);
-      const problems = candidate ? [] : draftProblems(cleaned, input);
-      const problem = problems[0] ?? null;
-      if (candidate) {
+    let draftText = grounded.paragraph;
+    let namesRemoved: string[] = [];
+    if (input.weak) {
+      const guarded = guardNames(
+        weakOverlapParagraph({ schoolName: input.schoolName, programName: input.programName }),
+        { faculty: [], courses: [] },
+        roster,
+      );
+      draftText = guarded.text;
+      namesRemoved = guarded.removed;
+      console.log(JSON.stringify({ event: "sop_weak_overlap", schoolId }));
+    } else {
+      let accepted: string | null = null;
+      let acceptedWords = 0;
+      let lastModel: string | null = null;
+      let retryNote: string | undefined;
+      for (let attempt = 1; attempt <= 2; attempt += 1) {
+        const modelText = await this.modelParagraph(tracked.ai, input, retryNote);
+        if (!modelText) break;
+        const candidate = acceptModelDraft(modelText, input);
+        const cleaned = modelText.replace(/\s+/g, " ").trim();
+        lastModel = cleaned;
+        const stats = draftStats(candidate ?? cleaned);
+        const problems = candidate ? [] : draftProblems(cleaned, input);
+        const problem = problems[0] ?? null;
+        if (candidate) {
+          console.log(
+            JSON.stringify({
+              event: "sop_model_accepted",
+              attempt,
+              ...stats,
+              belowTarget: stats.words < TARGET_MIN_WORDS,
+              openingFact: input.openingFact?.text.slice(0, 40) ?? null,
+            }),
+          );
+          if (stats.words > acceptedWords) {
+            accepted = candidate;
+            acceptedWords = stats.words;
+          }
+        } else {
+          console.error(
+            JSON.stringify({
+              event: "sop_model_rejected",
+              attempt,
+              ...stats,
+              problem,
+              preview: cleaned.slice(0, 160),
+            }),
+          );
+        }
+        if (acceptedWords >= TARGET_MIN_WORDS) break;
+        retryNote = retryNoteFor(stats, problems, candidate ?? cleaned, input.weak) ?? undefined;
+        if (!retryNote) break;
+      }
+      const kept = accepted ?? cohesiveDraft(lastModel, input);
+      if (!accepted && kept) {
         console.log(
           JSON.stringify({
-            event: "sop_model_accepted",
-            attempt,
-            ...stats,
-            belowTarget: stats.words < TARGET_MIN_WORDS,
-            openingFact: input.openingFact?.text.slice(0, 40) ?? null,
-          }),
-        );
-        if (stats.words > acceptedWords) {
-          accepted = candidate;
-          acceptedWords = stats.words;
-        }
-      } else {
-        console.error(
-          JSON.stringify({
-            event: "sop_model_rejected",
-            attempt,
-            ...stats,
-            problem,
-            preview: cleaned.slice(0, 160),
+            event: "sop_model_kept",
+            words: draftStats(kept).words,
+            reason: "style check failed; showing the model paragraph instead of the outline",
           }),
         );
       }
-      if (acceptedWords >= TARGET_MIN_WORDS) break;
-      retryNote = retryNoteFor(stats, problems, candidate ?? cleaned, input.weak) ?? undefined;
-      if (!retryNote) break;
+      const allowed = {
+        faculty: selected.pairs
+          .filter((pair) => pair.fact.kind === "faculty")
+          .map((pair) => pair.fact.name),
+        courses: selected.pairs
+          .filter((pair) => pair.fact.kind === "course")
+          .map((pair) => pair.fact.name),
+      };
+      const guarded = guardNames(kept ?? grounded.paragraph, allowed, roster);
+      draftText = guarded.text;
+      namesRemoved = guarded.removed;
     }
-    const kept = accepted ?? cohesiveDraft(lastModel, input);
-    if (!accepted && kept) {
-      console.log(
-        JSON.stringify({
-          event: "sop_model_kept",
-          words: draftStats(kept).words,
-          reason: "style check failed; showing the model paragraph instead of the outline",
-        }),
-      );
+    if (namesRemoved.length > 0) {
+      console.log(JSON.stringify({ event: "sop_names_removed", removed: namesRemoved }));
     }
-    const allowed = selected.weak
-      ? { faculty: [], courses: [] }
-      : {
-          faculty: selected.pairs
-            .filter((pair) => pair.fact.kind === "faculty")
-            .map((pair) => pair.fact.name),
-          courses: selected.pairs
-            .filter((pair) => pair.fact.kind === "course")
-            .map((pair) => pair.fact.name),
-        };
-    const guarded = guardNames(kept ?? grounded.paragraph, allowed);
-    if (guarded.removed.length > 0) {
-      console.log(JSON.stringify({ event: "sop_names_removed", removed: guarded.removed }));
-    }
-    const paragraph = guarded.text;
+    const paragraph = stripUnfilledProgramCitations(draftText);
     return Response.json({
       paragraph,
       label: grounded.label,
@@ -278,7 +298,7 @@ export class SopAgent extends Agent<Env, SopState> {
         (match) => match[1],
       ),
       pageStatus: input.pageStatus,
-      namesRemoved: guarded.removed,
+      namesRemoved,
       usage: tracked.snapshot(),
     });
   }

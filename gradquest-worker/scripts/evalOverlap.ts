@@ -3,7 +3,7 @@ import { existsSync, readFileSync, writeFileSync } from "node:fs";
 import { join, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 import { getPlatformProxy } from "wrangler";
-import { precisionRecall, readTokenUsage, trackAiUsage, type TokenUsage } from "../src/facts/evalMetrics";
+import { citationShare, precisionRecall, readTokenUsage, trackAiUsage, type TokenUsage } from "../src/facts/evalMetrics";
 import { cosine, embedTexts } from "../src/facts/match";
 
 const PORT = 8797;
@@ -317,22 +317,6 @@ function addUsage(total: TokenUsage, usage: unknown): void {
   const read = readTokenUsage({ usage });
   total.promptTokens += read.promptTokens;
   total.completionTokens += read.completionTokens;
-}
-
-function citationShare(
-  paragraph: string,
-  kept: number,
-  weak: boolean,
-): { share: string; unmapped: number; maps: boolean } {
-  const numbers = [...paragraph.matchAll(/\[P(\d+)\]/g)].map((match) => Number(match[1]));
-  if (numbers.length === 0) return { share: "n/a", unmapped: 0, maps: weak };
-  const mapped = numbers.filter((number) => number >= 1 && number <= kept).length;
-  const unmapped = numbers.length - mapped;
-  return {
-    share: `${(mapped / numbers.length).toFixed(3)} (${mapped}/${numbers.length})`,
-    unmapped,
-    maps: unmapped === 0,
-  };
 }
 
 function formatMetric(value: number | null): string {

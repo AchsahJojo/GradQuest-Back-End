@@ -1,58 +1,33 @@
 export type AllowedNames = { faculty: string[]; courses: string[] };
 
-const COURSE = /\b[A-Z]{2,4} ?\d{2,3}[A-Z]?\b/g;
-const NAME_WORD = String.raw`\p{Lu}[\p{L}'’-]*`;
-const TITLE_NAME = new RegExp(
-  String.raw`(?<![\p{L}])(?:Dr\.|Professor)\s+${NAME_WORD}(?:(?:\s+\p{Lu}\.)?\s+${NAME_WORD}){0,3}`,
-  "gu",
-);
-const TWO_WORD = new RegExp(
-  String.raw`(?<![\p{L}])${NAME_WORD}\s+${NAME_WORD}(?![\p{L}])`,
-  "gu",
-);
-const NEAR = /\b(?:professor|lab|research)\b/i;
-const ABBREV = /^(?:Dr|Mr|Ms|Mrs|Prof|St|vs)\.$/;
-const INITIALS = /^(?:[A-Za-z]\.)+$/;
+export type NameRoster = { faculty: string[]; courses: string[] };
 
-type Span = { start: number; end: number; kind: "faculty" | "course" };
+const COURSE = String.raw`\b[A-Z]{2,4} ?\d{2,3}[A-Z]?\b`;
+const EMPTY_ROSTER: NameRoster = { faculty: [], courses: [] };
 
-export function guardNames(draft: string, allowed: AllowedNames): { text: string; removed: string[] } {
-  const spans = detections(draft);
-  let cursor = 0;
-  let text = "";
-  const removed: string[] = [];
-  for (const span of spans) {
-    const surface = draft.slice(span.start, span.end);
-    if (isAllowed(surface, span.kind, allowed)) continue;
-    text += draft.slice(cursor, span.start);
-    text += "[STUDENT: add detail]";
-    removed.push(surface);
-    cursor = span.end;
-  }
-  text += draft.slice(cursor);
-  return { text, removed };
-}
+type Span = { start: number; end: number };
 
-function detections(draft: string): Span[] {
+export function guardNames(
+  draft: string,
+  allowed: AllowedNames,
+  roster: NameRoster = EMPTY_ROSTER,
+): { text: string; removed: string[] } {
+  const protectedSpans = phraseSpans(draft, [...roster.courses, ...allowed.courses]);
+  const allowedFaculty = new Set(allowed.faculty.map(facultyKey));
   const spans: Span[] = [];
-  for (const match of draft.matchAll(TITLE_NAME)) {
-    if (match.index === undefined) continue;
-    spans.push({ start: match.index, end: match.index + match[0].length, kind: "faculty" });
+  for (const name of roster.faculty) {
+    const phrase = facultyKey(name);
+    if (!phrase || allowedFaculty.has(phrase)) continue;
+    for (const span of facultySpans(draft, phrase)) {
+      if (overlaps(span, protectedSpans)) continue;
+      spans.push(span);
+    }
   }
-  for (const match of draft.matchAll(COURSE)) {
+  for (const match of draft.matchAll(new RegExp(COURSE, "g"))) {
     if (match.index === undefined) continue;
-    spans.push({ start: match.index, end: match.index + match[0].length, kind: "course" });
-  }
-  const sentences = sentenceRanges(draft);
-  for (const match of draft.matchAll(TWO_WORD)) {
-    if (match.index === undefined) continue;
-    const start = match.index;
-    const end = start + match[0].length;
-    if (spans.some((span) => start < span.end && end > span.start)) continue;
-    const sentence = sentences.find((range) => start >= range.start && start < range.end);
-    const sentenceText = sentence ? draft.slice(sentence.start, sentence.end) : draft;
-    if (!NEAR.test(sentenceText)) continue;
-    spans.push({ start, end, kind: "faculty" });
+    const span = { start: match.index, end: match.index + match[0].length };
+    if (isAllowedCourse(match[0], allowed) || overlaps(span, protectedSpans)) continue;
+    spans.push(span);
   }
   spans.sort((left, right) => left.start - right.start || right.end - left.end);
   const chosen: Span[] = [];
@@ -61,16 +36,86 @@ function detections(draft: string): Span[] {
     if (last && span.start < last.end) continue;
     chosen.push(span);
   }
-  return chosen;
+
+  let cursor = 0;
+  let text = "";
+  const removed: string[] = [];
+  for (const span of chosen) {
+    text += draft.slice(cursor, span.start);
+    text += "[STUDENT: add detail]";
+    removed.push(draft.slice(span.start, span.end));
+    cursor = span.end;
+  }
+  text += draft.slice(cursor);
+  return { text, removed };
 }
 
-function isAllowed(surface: string, kind: Span["kind"], allowed: AllowedNames): boolean {
-  if (kind === "course") {
-    const key = surface.replace(/ /g, "");
-    return allowed.courses.some((course) => course.replace(/ /g, "").includes(key));
+export function rosterFromSnapshot(json: string | undefined): NameRoster {
+  if (!json) return { faculty: [], courses: [] };
+  try {
+    const parsed = JSON.parse(json) as { facts?: unknown };
+    if (!Array.isArray(parsed.facts)) return { faculty: [], courses: [] };
+    const faculty: string[] = [];
+    const courses: string[] = [];
+    for (const fact of parsed.facts) {
+      if (!fact || typeof fact !== "object") continue;
+      const row = fact as { kind?: unknown; name?: unknown };
+      if (typeof row.name !== "string" || !row.name.trim()) continue;
+      if (row.kind === "faculty") faculty.push(row.name.trim());
+      else if (row.kind === "course") courses.push(row.name.trim());
+    }
+    return { faculty, courses };
+  } catch {
+    return { faculty: [], courses: [] };
   }
-  const key = facultyKey(surface);
-  return allowed.faculty.some((name) => facultyKey(name) === key);
+}
+
+function phraseSpans(draft: string, phrases: string[]): Span[] {
+  const spans: Span[] = [];
+  for (const phrase of phrases) {
+    const body = phraseBody(phrase);
+    if (!body) continue;
+    const pattern = new RegExp(String.raw`(?<![\p{L}\p{N}])${body}(?![\p{L}\p{N}])`, "gu");
+    for (const match of draft.matchAll(pattern)) {
+      if (match.index === undefined) continue;
+      spans.push({ start: match.index, end: match.index + match[0].length });
+    }
+  }
+  return spans;
+}
+
+function facultySpans(draft: string, name: string): Span[] {
+  const body = phraseBody(name);
+  if (!body) return [];
+  const pattern = new RegExp(
+    String.raw`(?<![\p{L}])(?:(?:Dr\.|Professor)\s+)?${body}(?:['’]s)?(?![\p{L}])`,
+    "gu",
+  );
+  const spans: Span[] = [];
+  for (const match of draft.matchAll(pattern)) {
+    if (match.index === undefined) continue;
+    spans.push({ start: match.index, end: match.index + match[0].length });
+  }
+  return spans;
+}
+
+function phraseBody(phrase: string): string {
+  const words = phrase.trim().split(/\s+/).filter(Boolean);
+  if (words.length === 0) return "";
+  return words.map(escapeRegExp).join(String.raw`\s+`);
+}
+
+function escapeRegExp(value: string): string {
+  return value.replace(/[\\^$.*+?()[\]{}|]/g, "\\$&");
+}
+
+function overlaps(span: Span, ranges: Span[]): boolean {
+  return ranges.some((range) => span.start < range.end && span.end > range.start);
+}
+
+function isAllowedCourse(surface: string, allowed: AllowedNames): boolean {
+  const key = surface.replace(/ /g, "");
+  return allowed.courses.some((course) => course.replace(/ /g, "").includes(key));
 }
 
 function facultyKey(name: string): string {
@@ -79,42 +124,4 @@ function facultyKey(name: string): string {
     .replace(/(?:['’]s)+$/u, "")
     .replace(/\s+/g, " ")
     .trim();
-}
-
-function sentenceRanges(text: string): { start: number; end: number }[] {
-  const ranges: { start: number; end: number }[] = [];
-  let start = 0;
-  for (let index = 0; index < text.length; index += 1) {
-    const ch = text[index];
-    if (ch === "\n") {
-      if (index > start) ranges.push({ start, end: index });
-      while (index + 1 < text.length && text[index + 1] === "\n") index += 1;
-      start = index + 1;
-      continue;
-    }
-    if (ch !== "." && ch !== "!" && ch !== "?") continue;
-    const word = tokenBefore(text, index);
-    if (ABBREV.test(word)) continue;
-    const next = nextNonSpace(text, index + 1);
-    if (INITIALS.test(word) && next && /[a-z]/i.test(next)) continue;
-    ranges.push({ start, end: index + 1 });
-    let nextIndex = index + 1;
-    while (nextIndex < text.length && /[ \t]/.test(text[nextIndex])) nextIndex += 1;
-    start = nextIndex;
-    index = nextIndex - 1;
-  }
-  if (start < text.length) ranges.push({ start, end: text.length });
-  return ranges;
-}
-
-function tokenBefore(text: string, punctIndex: number): string {
-  let begin = punctIndex;
-  while (begin > 0 && !/\s/.test(text[begin - 1])) begin -= 1;
-  return text.slice(begin, punctIndex + 1);
-}
-
-function nextNonSpace(text: string, index: number): string {
-  let cursor = index;
-  while (cursor < text.length && /\s/.test(text[cursor])) cursor += 1;
-  return text[cursor] ?? "";
 }

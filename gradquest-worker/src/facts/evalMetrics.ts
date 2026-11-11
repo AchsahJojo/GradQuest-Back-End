@@ -22,6 +22,24 @@ export function precisionRecall(
   };
 }
 
+export function citationShare(
+  paragraph: string,
+  kept: number,
+  weak: boolean,
+): { share: string; unmapped: number; maps: boolean } {
+  const unfilled = [...paragraph.matchAll(/\[P#\]/g)].length;
+  const numbers = [...paragraph.matchAll(/\[P(\d+)\]/g)].map((match) => Number(match[1]));
+  const total = numbers.length + unfilled;
+  if (total === 0) return { share: "n/a", unmapped: 0, maps: weak };
+  const mapped = numbers.filter((number) => number >= 1 && number <= kept).length;
+  const unmapped = total - mapped;
+  return {
+    share: `${(mapped / total).toFixed(3)} (${mapped}/${total})`,
+    unmapped,
+    maps: unmapped === 0,
+  };
+}
+
 export function readTokenUsage(result: unknown): TokenUsage {
   if (!result || typeof result !== "object") return { promptTokens: 0, completionTokens: 0 };
   const usage = (result as { usage?: unknown }).usage;
