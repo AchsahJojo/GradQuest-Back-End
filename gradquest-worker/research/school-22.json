@@ -1,0 +1,577 @@
+{
+  "schoolId": 22,
+  "schoolName": "UC San Diego",
+  "programName": "Computer Science and Engineering, M.S.",
+  "pages": [
+    {
+      "kind": "overview",
+      "url": "https://cse.ucsd.edu/graduate/degree-programs/ms-program"
+    },
+    {
+      "kind": "overview",
+      "url": "https://cse.ucsd.edu/research"
+    },
+    {
+      "kind": "admissions",
+      "url": "https://cse.ucsd.edu/graduate/admissions"
+    },
+    {
+      "kind": "curriculum",
+      "url": "https://cse.ucsd.edu/graduate/degree-programs/ms-program"
+    },
+    {
+      "kind": "curriculum",
+      "url": "https://cse.ucsd.edu/graduate/plan-i-thesis"
+    },
+    {
+      "kind": "faculty",
+      "url": "https://cse.ucsd.edu/people/faculty-profiles"
+    },
+    {
+      "kind": "faculty",
+      "url": "https://cseweb.ucsd.edu/~mihir/"
+    },
+    {
+      "kind": "faculty",
+      "url": "https://cseweb.ucsd.edu/~dakane/"
+    },
+    {
+      "kind": "faculty",
+      "url": "https://cseweb.ucsd.edu/~slovett/home.html"
+    },
+    {
+      "kind": "faculty",
+      "url": "https://cseweb.ucsd.edu/~npolikarpova/"
+    },
+    {
+      "kind": "faculty",
+      "url": "https://cseweb.ucsd.edu/~yiying/"
+    },
+    {
+      "kind": "faculty",
+      "url": "https://cseweb.ucsd.edu/~arunkk/"
+    },
+    {
+      "kind": "faculty",
+      "url": "https://cseweb.ucsd.edu/~hadi/"
+    },
+    {
+      "kind": "faculty",
+      "url": "https://cseweb.ucsd.edu/~tullsen/"
+    },
+    {
+      "kind": "faculty",
+      "url": "https://cseweb.ucsd.edu/~savage/"
+    },
+    {
+      "kind": "faculty",
+      "url": "https://cseweb.ucsd.edu/~voelker/"
+    },
+    {
+      "kind": "deadlines",
+      "url": "https://cse.ucsd.edu/graduate/admissions"
+    },
+    {
+      "kind": "faculty",
+      "url": "https://jacobsschool.ucsd.edu/faculty/profile?id=337"
+    },
+    {
+      "kind": "faculty",
+      "url": "https://swanson.ucsd.edu/"
+    },
+    {
+      "kind": "faculty",
+      "url": "https://leoporter.ucsd.edu/"
+    },
+    {
+      "kind": "faculty",
+      "url": "https://cseweb.ucsd.edu/~ravir/"
+    },
+    {
+      "kind": "faculty",
+      "url": "https://healthrobotics.ucsd.edu/people/laurel-riek.html"
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "kind": "overview",
+      "name": "CS and CE majors",
+      "detail": "MS offers both majors.",
+      "sourceUrl": "https://cse.ucsd.edu/graduate/degree-programs/ms-program",
+      "quote": "majors in both computer science and computer engineering."
+    },
+    {
+      "id": "f2",
+      "kind": "overview",
+      "name": "Three MS plans",
+      "detail": "Thesis / Comp Standard / Comp Interdisciplinary.",
+      "sourceUrl": "https://cse.ucsd.edu/graduate/degree-programs/ms-program",
+      "quote": "Thesis Plan, Comprehensive Standard Plan, or Comprehensive Interdisciplinary Plan."
+    },
+    {
+      "id": "f3",
+      "kind": "overview",
+      "name": "Degree titles",
+      "detail": "CSE or CSE (Computer Engineering).",
+      "sourceUrl": "https://cse.ucsd.edu/graduate/degree-programs/ms-program",
+      "quote": "Computer Science and Engineering or Computer Science and Engineering (Computer Engineering)."
+    },
+    {
+      "id": "f4",
+      "kind": "overview",
+      "name": "Full-time or part-time",
+      "detail": "Industry part-time allowed.",
+      "sourceUrl": "https://cse.ucsd.edu/graduate/degree-programs/ms-program",
+      "quote": "completed full-time or part-time by students working in industry."
+    },
+    {
+      "id": "f5",
+      "kind": "overview",
+      "name": "Department research areas",
+      "detail": "Department-wide strengths list.",
+      "sourceUrl": "https://cse.ucsd.edu/research",
+      "quote": "significant strengths in most major fields of computer science and engineering, including:"
+    },
+    {
+      "id": "f6",
+      "kind": "requirement",
+      "name": "Breadth 12 units",
+      "detail": "Three courses; letter grade B- or higher.",
+      "sourceUrl": "https://cse.ucsd.edu/graduate/degree-programs/ms-program",
+      "quote": "three graduate courses (twelve units) to satisfy this requirement. Courses must be taken for a letter grade and completed with grade of B- or higher."
+    },
+    {
+      "id": "f7",
+      "kind": "requirement",
+      "name": "Depth 12 units",
+      "detail": "Three approved depth courses.",
+      "sourceUrl": "https://cse.ucsd.edu/graduate/degree-programs/ms-program",
+      "quote": "three graduate courses (12 units) of approved courses to fulfill the depth requirement."
+    },
+    {
+      "id": "f8",
+      "kind": "requirement",
+      "name": "GPA 3.0 standing",
+      "detail": "Maintain minimum overall GPA 3.0.",
+      "sourceUrl": "https://cse.ucsd.edu/graduate/degree-programs/ms-program",
+      "quote": "minimum overall GPA of 3.0 at UC San Diego."
+    },
+    {
+      "id": "f9",
+      "kind": "requirement",
+      "name": "CSE 298 thesis units",
+      "detail": "8–12 units CSE 298 for thesis plan.",
+      "sourceUrl": "https://cse.ucsd.edu/graduate/degree-programs/ms-program",
+      "quote": "minimum of eight and maximum of twelve units of CSE 298 (Independent Research) is required."
+    },
+    {
+      "id": "f10",
+      "kind": "requirement",
+      "name": "Admission GPA",
+      "detail": "At least 3.0 GPA.",
+      "sourceUrl": "https://cse.ucsd.edu/graduate/admissions",
+      "quote": "At least a B average (3.0 GPA) or its equivalent is required for admission."
+    },
+    {
+      "id": "f11",
+      "kind": "requirement",
+      "name": "Preferred undergrad majors",
+      "detail": "CS/CE/EE/math preferred.",
+      "sourceUrl": "https://cse.ucsd.edu/graduate/admissions",
+      "quote": "bachelor's degree in computer science, computer engineering, electrical engineering, or mathematics is preferred, but not required."
+    },
+    {
+      "id": "f12",
+      "kind": "requirement",
+      "name": "GRE not required Fall 2027",
+      "detail": "GRE optional.",
+      "sourceUrl": "https://cse.ucsd.edu/graduate/admissions",
+      "quote": "The GRE is not required for PhD and MS applications for Fall 2027."
+    },
+    {
+      "id": "f13",
+      "kind": "requirement",
+      "name": "Apply to MS or PhD only",
+      "detail": "Cannot apply to both.",
+      "sourceUrl": "https://cse.ucsd.edu/graduate/admissions",
+      "quote": "applications for both the MS and PhD programs will not be accepted."
+    },
+    {
+      "id": "f14",
+      "kind": "deadline",
+      "name": "Fall 2027 application window",
+      "detail": "Sep 2–Dec 16, 2026 PST.",
+      "sourceUrl": "https://cse.ucsd.edu/graduate/admissions",
+      "quote": "opens for Fall 2027 admission from September 2, 2026 until December 16, 2026 at 11:59 p.m.  PST."
+    },
+    {
+      "id": "f15",
+      "kind": "deadline",
+      "name": "Fall admission only",
+      "detail": "No Spring new admits.",
+      "sourceUrl": "https://cse.ucsd.edu/graduate/admissions",
+      "quote": "Admission is given for Fall quarter only. We do not admit new students in Spring quarters."
+    },
+    {
+      "id": "f16",
+      "kind": "requirement",
+      "name": "CS breadth areas",
+      "detail": "Theory, Systems, Applications.",
+      "sourceUrl": "https://cse.ucsd.edu/graduate/plan-i-thesis",
+      "quote": "one course from  each of the three breadth areas: Theory, Systems, and Applications."
+    },
+    {
+      "id": "f17",
+      "kind": "requirement",
+      "name": "Thesis committee composition",
+      "detail": "Three members; ≥2 CSE.",
+      "sourceUrl": "https://cse.ucsd.edu/graduate/plan-i-thesis",
+      "quote": "three faculty members, with at least two members from with the CSE department."
+    },
+    {
+      "id": "f20",
+      "kind": "course",
+      "name": "CSE 200 - Computability Complexity",
+      "detail": "Listed on Plan I Thesis curriculum page.",
+      "sourceUrl": "https://cse.ucsd.edu/graduate/plan-i-thesis",
+      "quote": "CSE 200 - Computability Complexity"
+    },
+    {
+      "id": "f21",
+      "kind": "course",
+      "name": "CSE 202 - Algorithm Design and Analysis",
+      "detail": "Listed on Plan I Thesis curriculum page.",
+      "sourceUrl": "https://cse.ucsd.edu/graduate/plan-i-thesis",
+      "quote": "CSE 202 - Algorithm Design and Analysis"
+    },
+    {
+      "id": "f22",
+      "kind": "course",
+      "name": "CSE 207A - Modern Cryptography",
+      "detail": "Listed on Plan I Thesis curriculum page.",
+      "sourceUrl": "https://cse.ucsd.edu/graduate/plan-i-thesis",
+      "quote": "CSE 207A - Modern Cryptography"
+    },
+    {
+      "id": "f23",
+      "kind": "course",
+      "name": "CSE 221 - Operating Systems",
+      "detail": "Listed on Plan I Thesis curriculum page.",
+      "sourceUrl": "https://cse.ucsd.edu/graduate/plan-i-thesis",
+      "quote": "CSE 221 - Operating Systems"
+    },
+    {
+      "id": "f24",
+      "kind": "course",
+      "name": "CSE 222A - Computer Communication Networks",
+      "detail": "Listed on Plan I Thesis curriculum page.",
+      "sourceUrl": "https://cse.ucsd.edu/graduate/plan-i-thesis",
+      "quote": "CSE 222A - Computer Communication Networks"
+    },
+    {
+      "id": "f25",
+      "kind": "course",
+      "name": "CSE 227 - Computer Security",
+      "detail": "Listed on Plan I Thesis curriculum page.",
+      "sourceUrl": "https://cse.ucsd.edu/graduate/plan-i-thesis",
+      "quote": "CSE 227 - Computer Security"
+    },
+    {
+      "id": "f26",
+      "kind": "course",
+      "name": "CSE 210 - Principles of Software Engineering",
+      "detail": "Listed on Plan I Thesis curriculum page.",
+      "sourceUrl": "https://cse.ucsd.edu/graduate/plan-i-thesis",
+      "quote": "CSE 210 - Principles of Software Engineering"
+    },
+    {
+      "id": "f27",
+      "kind": "course",
+      "name": "CSE 230 - Principles of Programming Languages",
+      "detail": "Listed on Plan I Thesis curriculum page.",
+      "sourceUrl": "https://cse.ucsd.edu/graduate/plan-i-thesis",
+      "quote": "CSE 230 - Principles of Programming Languages"
+    },
+    {
+      "id": "f28",
+      "kind": "course",
+      "name": "CSE 232 - Principles of Database Systems",
+      "detail": "Listed on Plan I Thesis curriculum page.",
+      "sourceUrl": "https://cse.ucsd.edu/graduate/plan-i-thesis",
+      "quote": "CSE 232 - Principles of Database Systems"
+    },
+    {
+      "id": "f29",
+      "kind": "course",
+      "name": "CSE 250A - AI: Probabilistic Reasoning and Learning",
+      "detail": "Listed on Plan I Thesis curriculum page.",
+      "sourceUrl": "https://cse.ucsd.edu/graduate/plan-i-thesis",
+      "quote": "CSE 250A - AI: Probabilistic Reasoning and Learning"
+    },
+    {
+      "id": "f30",
+      "kind": "course",
+      "name": "CSE 251A - AI: Learning Algorithms",
+      "detail": "Listed on Plan I Thesis curriculum page.",
+      "sourceUrl": "https://cse.ucsd.edu/graduate/plan-i-thesis",
+      "quote": "CSE 251A - AI: Learning Algorithms"
+    },
+    {
+      "id": "f31",
+      "kind": "course",
+      "name": "CSE 252A - Computer Vision I",
+      "detail": "Listed on Plan I Thesis curriculum page.",
+      "sourceUrl": "https://cse.ucsd.edu/graduate/plan-i-thesis",
+      "quote": "CSE 252A - Computer Vision I"
+    },
+    {
+      "id": "f32",
+      "kind": "course",
+      "name": "CSE 256 - Statistical NLP",
+      "detail": "Listed on Plan I Thesis curriculum page.",
+      "sourceUrl": "https://cse.ucsd.edu/graduate/plan-i-thesis",
+      "quote": "CSE 256 - Statistical NLP"
+    },
+    {
+      "id": "f33",
+      "kind": "course",
+      "name": "CSE 240A - Principles of Computer Architecture",
+      "detail": "Listed on Plan I Thesis curriculum page.",
+      "sourceUrl": "https://cse.ucsd.edu/graduate/plan-i-thesis",
+      "quote": "CSE 240A - Principles of Computer Architecture"
+    },
+    {
+      "id": "f34",
+      "kind": "course",
+      "name": "CSE 276A Introduction to Robotics",
+      "detail": "Listed on Plan I Thesis curriculum page.",
+      "sourceUrl": "https://cse.ucsd.edu/graduate/plan-i-thesis",
+      "quote": "CSE 276A Introduction to Robotics"
+    },
+    {
+      "id": "f60",
+      "kind": "faculty",
+      "name": "Mihir Bellare",
+      "detail": "Personal research page. Cryptography.",
+      "sourceUrl": "https://cseweb.ucsd.edu/~mihir/",
+      "quote": "My research is in cryptography, with emphasis on provable-security for primitives of applied interest."
+    },
+    {
+      "id": "f61",
+      "kind": "faculty",
+      "name": "Daniel M. Kane",
+      "detail": "Personal research page. Computational statistics.",
+      "sourceUrl": "https://cseweb.ucsd.edu/~dakane/",
+      "quote": "the\nbulk of my research has been in computational statistics."
+    },
+    {
+      "id": "f62",
+      "kind": "faculty",
+      "name": "Shachar Lovett",
+      "detail": "Personal research page. Theory interests.",
+      "sourceUrl": "https://cseweb.ucsd.edu/~slovett/home.html",
+      "quote": "computational complexity, randomness and pseudo-randomness, algebraic constructions,\ncoding theory"
+    },
+    {
+      "id": "f63",
+      "kind": "faculty",
+      "name": "Nadia Polikarpova",
+      "detail": "Personal research page. PL/AI/HCI.",
+      "sourceUrl": "https://cseweb.ucsd.edu/~npolikarpova/",
+      "quote": "intersection of programming languages, AI, human-computer interaction, and social computing."
+    },
+    {
+      "id": "f64",
+      "kind": "faculty",
+      "name": "Yiying Zhang",
+      "detail": "Personal research page. ML systems.",
+      "sourceUrl": "https://cseweb.ucsd.edu/~yiying/",
+      "quote": "building systems for ML/AI and using ML/AI to solve systems problems."
+    },
+    {
+      "id": "f65",
+      "kind": "faculty",
+      "name": "Arun Kumar",
+      "detail": "Personal research page. Data management / AI systems.",
+      "sourceUrl": "https://cseweb.ucsd.edu/~arunkk/",
+      "quote": "data management and systems for AI engineering and data analytics."
+    },
+    {
+      "id": "f66",
+      "kind": "faculty",
+      "name": "Hadi Esmaeilzadeh",
+      "detail": "Personal page. Computer architecture chair title.",
+      "sourceUrl": "https://cseweb.ucsd.edu/~hadi/",
+      "quote": "Halicioğlu Chair in Computer Architecture"
+    },
+    {
+      "id": "f67",
+      "kind": "faculty",
+      "name": "Dean M. Tullsen",
+      "detail": "Personal page. Computer architecture research.",
+      "sourceUrl": "https://cseweb.ucsd.edu/~tullsen/",
+      "quote": "I do research in the area of Computer Architecture"
+    },
+    {
+      "id": "f68",
+      "kind": "faculty",
+      "name": "Stefan Savage",
+      "detail": "Personal page. Systems and networking group.",
+      "sourceUrl": "https://cseweb.ucsd.edu/~savage/",
+      "quote": "Systems and Networking Group"
+    },
+    {
+      "id": "f69",
+      "kind": "faculty",
+      "name": "Geoffrey M. Voelker",
+      "detail": "Personal page. Systems and networking research group.",
+      "sourceUrl": "https://cseweb.ucsd.edu/~voelker/",
+      "quote": "Systems and Networking Research Group"
+    },
+    {
+      "id": "f100",
+      "kind": "faculty",
+      "name": "Christine Alvarado",
+      "detail": "Title/role stated on Jacobs School faculty profile.",
+      "sourceUrl": "https://jacobsschool.ucsd.edu/faculty/profile?id=337",
+      "quote": "Associate Dean of the Division of Undergraduate Education, UC San Diego"
+    },
+    {
+      "id": "f101",
+      "kind": "faculty",
+      "name": "Christine Alvarado",
+      "detail": "Endowed chair title stated on Jacobs School faculty profile.",
+      "sourceUrl": "https://jacobsschool.ucsd.edu/faculty/profile?id=337",
+      "quote": "Paul R. Kube Endowed Chair of Computer Science"
+    },
+    {
+      "id": "f102",
+      "kind": "faculty",
+      "name": "Christine Alvarado",
+      "detail": "Research focus: CS education curriculum/program design for underrepresented groups.",
+      "sourceUrl": "https://jacobsschool.ucsd.edu/faculty/profile?id=337",
+      "quote": "Curriculum and program design for computer science education, with a focus on better serving underrepresented groups."
+    },
+    {
+      "id": "f103",
+      "kind": "faculty",
+      "name": "Christine Alvarado",
+      "detail": "Founded CSE Early Research Scholars Program for early undergraduates.",
+      "sourceUrl": "https://jacobsschool.ucsd.edu/faculty/profile?id=337",
+      "quote": "she founded the CSE Early Research Scholars Program, an inclusive research apprenticeship for early computing undergraduates."
+    },
+    {
+      "id": "f104",
+      "kind": "faculty",
+      "name": "Steven Swanson",
+      "detail": "Professor and director of the Non-Volatile Systems Lab.",
+      "sourceUrl": "https://swanson.ucsd.edu/",
+      "quote": "Professor  \nDirector, Non-Volatile Systems Lab"
+    },
+    {
+      "id": "f105",
+      "kind": "faculty",
+      "name": "Steven Swanson",
+      "detail": "Research theme: software for persistent memory.",
+      "sourceUrl": "https://swanson.ucsd.edu/",
+      "quote": "Building Software for Persistent Memory"
+    },
+    {
+      "id": "f106",
+      "kind": "faculty",
+      "name": "Steven Swanson",
+      "detail": "Builds system software for persistent memory and RDMA networking.",
+      "sourceUrl": "https://swanson.ucsd.edu/",
+      "quote": "We build cutting-edge system software to support persistent memories and RDMA-based networking."
+    },
+    {
+      "id": "f107",
+      "kind": "faculty",
+      "name": "Steven Swanson",
+      "detail": "Builds compilers/language/debugging/verification tools for PMEM programming.",
+      "sourceUrl": "https://swanson.ucsd.edu/",
+      "quote": "We are also building compilers, language support, debugging, and verification tools make PMEM programming easy and safe."
+    },
+    {
+      "id": "f108",
+      "kind": "faculty",
+      "name": "Leo Porter",
+      "detail": "Research interests: CS education research and computer architecture.",
+      "sourceUrl": "https://leoporter.ucsd.edu/",
+      "quote": "I am a Professor of Computer Science at UC San Diego interested in computer science education research and computer architecture."
+    },
+    {
+      "id": "f109",
+      "kind": "faculty",
+      "name": "Leo Porter",
+      "detail": "Co-founded Computing Education Research Laboratory.",
+      "sourceUrl": "https://leoporter.ucsd.edu/",
+      "quote": "I co-founded the Computing Education Research Laboratory dedicated to better understanding how students learn computing and creating instructional environments where students can succeed."
+    },
+    {
+      "id": "f110",
+      "kind": "faculty",
+      "name": "Leo Porter",
+      "detail": "Co-founded/co-directs GenAI in CS Education Consortium.",
+      "sourceUrl": "https://leoporter.ucsd.edu/",
+      "quote": "I also co-founded and co-direct the GenAI in CS Education Consortium whose mission is to help educators integrate GenAI into the computer science curriculum."
+    },
+    {
+      "id": "f111",
+      "kind": "faculty",
+      "name": "Ravi Ramamoorthi",
+      "detail": "Endowed professor title.",
+      "sourceUrl": "https://cseweb.ucsd.edu/~ravir/",
+      "quote": "Ronald L. Graham Professor of Computer Science"
+    },
+    {
+      "id": "f112",
+      "kind": "faculty",
+      "name": "Ravi Ramamoorthi",
+      "detail": "Director of UC San Diego Center for Visual Computing.",
+      "sourceUrl": "https://cseweb.ucsd.edu/~ravir/",
+      "quote": "Director, UC San Diego Center for Visual Computing"
+    },
+    {
+      "id": "f113",
+      "kind": "faculty",
+      "name": "Ravi Ramamoorthi",
+      "detail": "Research goal: graphics and vision group at UCSD.",
+      "sourceUrl": "https://cseweb.ucsd.edu/~ravir/",
+      "quote": "My goal is to build a world-leading graphics and vision\ngroup at UCSD."
+    },
+    {
+      "id": "f114",
+      "kind": "faculty",
+      "name": "Ravi Ramamoorthi",
+      "detail": "Part-time Distinguished Research Scientist (Graphics) at NVIDIA. [exclude-from-matching: NVIDIA appointment is outside UCSD program context]",
+      "sourceUrl": "https://cseweb.ucsd.edu/~ravir/",
+      "quote": "I also hold a part-time appointment as a Distinguished Research Scientist, Graphics at NVIDIA."
+    },
+    {
+      "id": "f115",
+      "kind": "faculty",
+      "name": "Laurel Riek",
+      "detail": "David R. Miller Professor in CSE with joint appointment in Emergency Medicine.",
+      "sourceUrl": "https://healthrobotics.ucsd.edu/people/laurel-riek.html",
+      "quote": "Dr. Laurel Riek is the David R. Miller Professor in Computer Science and \nEngineering at the University of California, San Diego, with a joint \nappointment in the Department of Emergency Medicine"
+    },
+    {
+      "id": "f116",
+      "kind": "faculty",
+      "name": "Laurel Riek",
+      "detail": "Directs Healthcare Robotics Lab; research in HRI, assistive/accessible tech, embodied AI, health informatics.",
+      "sourceUrl": "https://healthrobotics.ucsd.edu/people/laurel-riek.html",
+      "quote": "Dr. Riek directs \nthe Healthcare Robotics Lab, and leads research in human-robot \ninteraction (HRI), assistive and acessible technology, embodied AI, and \nhealth informatics."
+    },
+    {
+      "id": "f117",
+      "kind": "faculty",
+      "name": "Laurel Riek",
+      "detail": "Current projects apply to acute care, neuro-rehabilitation, and home health.",
+      "sourceUrl": "https://healthrobotics.ucsd.edu/people/laurel-riek.html",
+      "quote": "current research projects have applications in \nacute care, neuro-rehabilitation, and home health."
+    }
+  ]
+}

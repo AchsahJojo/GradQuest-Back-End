@@ -1,0 +1,1 @@
+I fit probabilistic models to noisy sensor traces collected in a physics lab. I applied machine learning to cluster spectrometer readings from material samples. I calibrated optical lenses on a microscopy bench for a biology course. I recorded heat transfer measurements during a materials experiment. I kept a paper inventory of chemicals in a teaching stockroom.

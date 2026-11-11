@@ -29,6 +29,7 @@ public class SchoolMatchResult {
     private BigDecimal fullProgramCost;
     private Double minGpa;
     private String grePolicy;
+    private Boolean sopRequired;
 
     private ProgramTerm.Term term;
     private Integer startYear;
@@ -55,6 +56,7 @@ public class SchoolMatchResult {
         r.fullProgramCost = school.getFullProgramCost();
         r.minGpa = school.getMinGpa();
         r.grePolicy = school.getGrePolicy() != null ? school.getGrePolicy().name() : null;
+        r.sopRequired = school.getSopRequired();
         if (matchedTerm != null) {
             r.term = matchedTerm.getTerm();
             r.startYear = matchedTerm.getStartYear();
@@ -123,6 +125,10 @@ public class SchoolMatchResult {
 
     public String getGrePolicy() {
         return grePolicy;
+    }
+
+    public Boolean getSopRequired() {
+        return sopRequired;
     }
 
     public ProgramTerm.Term getTerm() {
