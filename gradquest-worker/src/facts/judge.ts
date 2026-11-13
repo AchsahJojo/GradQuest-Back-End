@@ -5,12 +5,13 @@ export type JudgedPair = Pair & { reason: string };
 const JUDGE_MODEL = "@cf/meta/llama-3.3-70b-instruct-fp8-fast";
 
 const JUDGE_SYSTEM =
-  "A pair is yes only when both sides share a concrete topic or method. The reply is only a JSON array of {pairId, verdict, reason}.";
+  "A pair is yes only when both sides share a concrete topic or method. Reply with only a JSON array of {pairId, verdict, reason}. Each verdict is exactly yes or no.";
 
 export function judgePrompt(pairs: Pair[]): string {
   const lines = [
     "A pair is yes only when both sides share a concrete topic or method.",
     "Reply with only a JSON array of {pairId, verdict, reason}.",
+    "Each verdict is exactly yes or no.",
     "",
   ];
   for (const pair of pairs) {
@@ -28,7 +29,7 @@ export function judgePrompt(pairs: Pair[]): string {
 export function parseJudgement(text: string, pairs: Pair[]): JudgedPair[] {
   let parsed: unknown;
   try {
-    parsed = JSON.parse(text);
+    parsed = JSON.parse(unwrapVerdict(text));
   } catch {
     return [];
   }
@@ -55,33 +56,33 @@ export function parseJudgement(text: string, pairs: Pair[]): JudgedPair[] {
 
 export async function judgePairs(ai: Env["AI"], pairs: Pair[]): Promise<JudgedPair[]> {
   if (pairs.length === 0) return [];
-  let result: unknown;
-  try {
-    result = await ai.run(JUDGE_MODEL, {
-      messages: [
-        { role: "system", content: JUDGE_SYSTEM },
-        { role: "user", content: judgePrompt(pairs) },
-      ],
-      max_tokens: 800,
-    });
-  } catch {
-    return fallback(pairs);
-  }
+  const result = await ai.run(JUDGE_MODEL, {
+    messages: [
+      { role: "system", content: JUDGE_SYSTEM },
+      { role: "user", content: judgePrompt(pairs) },
+    ],
+    max_tokens: 800,
+    temperature: 0,
+  });
   const text = textFromModel(result);
-  if (!text) return fallback(pairs);
+  const unwrapped = text ? unwrapVerdict(text) : "";
   let parsed: unknown;
   try {
-    parsed = JSON.parse(text);
+    parsed = unwrapped ? JSON.parse(unwrapped) : undefined;
   } catch {
-    return fallback(pairs);
+    parsed = undefined;
   }
-  if (!Array.isArray(parsed)) return fallback(pairs);
-  return parseJudgement(text, pairs);
+  if (!Array.isArray(parsed)) {
+    console.log(JSON.stringify({ event: "sop_judge_unusable", response: result }));
+    return [];
+  }
+  return parseJudgement(unwrapped, pairs);
 }
 
-function fallback(pairs: Pair[]): JudgedPair[] {
-  console.log(JSON.stringify({ event: "sop_judge_fallback" }));
-  return pairs.map((pair) => ({ ...pair, reason: "" }));
+function unwrapVerdict(text: string): string {
+  const trimmed = text.trim();
+  const fence = trimmed.match(/^```(?:json)?[ \t]*\r?\n?([\s\S]*?)```$/i);
+  return (fence ? fence[1] : trimmed).trim();
 }
 
 function textFromModel(result: unknown): string | null {
@@ -92,15 +93,19 @@ function textFromModel(result: unknown): string | null {
     result?: { response?: unknown } | string;
     output_text?: unknown;
     text?: unknown;
+    choices?: { message?: { content?: unknown } }[];
   };
+  const choice = record.choices?.[0]?.message?.content;
   const candidates = [
     record.response,
+    choice,
     record.output_text,
     record.text,
     typeof record.result === "string" ? record.result : record.result?.response,
   ];
   for (const candidate of candidates) {
     if (typeof candidate === "string" && candidate.trim()) return candidate;
+    if (Array.isArray(candidate)) return JSON.stringify(candidate);
   }
   return null;
 }

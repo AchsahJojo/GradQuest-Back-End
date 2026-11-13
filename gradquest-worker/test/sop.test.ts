@@ -1585,6 +1585,73 @@ describe("overlap report", () => {
     });
   });
 
+  it("returns a temporary matching error when the judge call fails", async () => {
+    const snapshot = sampleSnapshot([FACULTY, COURSE]);
+    const { calls, sql } = overlapRecordingSql({
+      snapshotJson: JSON.stringify(snapshot),
+      resumes: [{ id: "R1", text: "I studied formal methods and compilers." }],
+    });
+    const ai = {
+      async run(model: string, input: { text?: string[] }) {
+        if (model === "@cf/baai/bge-base-en-v1.5") {
+          return { data: (input.text ?? []).map(() => [1, 0]) };
+        }
+        throw new Error("judge down");
+      },
+    };
+
+    const result = await resolveOverlap({
+      schoolId: "6",
+      sql,
+      db: new ThrowingFactsD1() as unknown as D1Database,
+      ai: ai as unknown as Env["AI"],
+    });
+
+    expect(result).toEqual({
+      status: 503,
+      body: { error: "Matching is temporarily unavailable, try again later" },
+    });
+    expect(result.body).not.toMatchObject({ weak: true });
+    const stored = calls.find((call) => call.text.includes("overlap_reads") && call.text.includes("INSERT"));
+    const json = stored?.values.find((value) => typeof value === "string" && value.startsWith("{"));
+    expect(JSON.parse(String(json))).toEqual({
+      error: "Matching is temporarily unavailable, try again later",
+    });
+  });
+
+  it("returns a weak report with no pairs when the judge verdict is unusable", async () => {
+    const snapshot = sampleSnapshot([FACULTY, COURSE]);
+    const { sql } = overlapRecordingSql({
+      snapshotJson: JSON.stringify(snapshot),
+      resumes: [{ id: "R1", text: "I studied formal methods and compilers." }],
+    });
+    const ai = {
+      async run(model: string, input: { text?: string[] }) {
+        if (model === "@cf/baai/bge-base-en-v1.5") {
+          return { data: (input.text ?? []).map(() => [1, 0]) };
+        }
+        return { response: "not a verdict" };
+      },
+    };
+
+    const result = await resolveOverlap({
+      schoolId: "6",
+      sql,
+      db: new ThrowingFactsD1() as unknown as D1Database,
+      ai: ai as unknown as Env["AI"],
+    });
+
+    expect(result).toEqual({
+      status: 200,
+      body: {
+        pairs: [],
+        weak: true,
+        unmatchedKinds: ["faculty", "course"],
+        verifiedAsOf: "2026-03-01T00:00:00Z",
+      },
+    });
+  });
+
   it("asks for a résumé and does not store a report when no résumé rows exist", async () => {
     const read = vi.spyOn(publicPages, "readPublicPage").mockResolvedValue(LIVE_PAGE);
     const { calls, sql } = overlapRecordingSql({
