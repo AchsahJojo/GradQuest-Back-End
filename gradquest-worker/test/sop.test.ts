@@ -43,10 +43,14 @@ const SLO = "https://catalog.calpoly.edu/engineering/computer-science-software/c
 const UCSD = "https://cse.ucsd.edu/graduate/degree-programs/ms-program";
 
 describe("allowlist", () => {
-  it("accepts only the three public program pages", () => {
+  it("accepts the legacy and batch2 public program pages", () => {
     expect(isAllowlisted(CSUF)).toBe(true);
     expect(isAllowlisted(`${SLO}`)).toBe(true);
     expect(isAllowlisted(UCSD)).toBe(true);
+    expect(
+      isAllowlisted("https://degrees.asu.edu/masters-phd/major/ASU00/ESCOMSCMS/computer-science-ms"),
+    ).toBe(true);
+    expect(isAllowlisted("https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12288")).toBe(true);
     expect(isAllowlisted("https://www.calstate.edu/apply")).toBe(false);
     expect(isAllowlisted("https://example.edu/login")).toBe(false);
     expect(isAllowlisted("http://www.fullerton.edu/ecs/academics/graduate-admissions.html")).toBe(false);
