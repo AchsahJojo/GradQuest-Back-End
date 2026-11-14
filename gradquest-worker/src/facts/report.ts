@@ -1,5 +1,5 @@
 import type { FactKind } from "./schema";
-import type { CheckedFact, CheckedResearch } from "./verify";
+import { pageHash, quoteFound, type CheckedFact, type CheckedResearch } from "./verify";
 
 const FACT_KINDS: FactKind[] = ["overview", "requirement", "course", "faculty", "deadline"];
 
@@ -45,6 +45,96 @@ export function reportMarkdown(checked: CheckedResearch): string {
     lines.push(`- ${kind}: ${foundCount}/${factsOfKind.length} quotes found`);
   }
 
+  return lines.join("\n");
+}
+
+export type ChangeReport = {
+  schoolId: number;
+  missingQuotes: CheckedFact[];
+  changedPages: string[];
+  unreachable: string[];
+};
+
+function relevantUrls(checked: CheckedResearch): string[] {
+  const urls: string[] = [];
+  const seen = new Set<string>();
+  const add = (url: string) => {
+    if (seen.has(url)) return;
+    seen.add(url);
+    urls.push(url);
+  };
+  for (const page of checked.pages) add(page.url);
+  for (const fact of checked.facts) add(fact.sourceUrl);
+  return urls;
+}
+
+/**
+ * Compares a verified snapshot with a fresh fetch.
+ * A verified quote missing from a fetched page is listed in `missingQuotes`.
+ * A fetched page whose hash differs is listed in `changedPages`.
+ * A snapshot URL with no fetched text is listed in `unreachable`.
+ * An unchanged page adds nothing to those lists.
+ */
+export async function compareSnapshot(
+  checked: CheckedResearch,
+  pages: Map<string, string>,
+): Promise<ChangeReport> {
+  const changedPages: string[] = [];
+  const unreachable: string[] = [];
+  for (const url of relevantUrls(checked)) {
+    const text = pages.get(url);
+    if (text === undefined) {
+      unreachable.push(url);
+      continue;
+    }
+    const hash = await pageHash(text);
+    if (hash !== checked.pageHashes[url]) changedPages.push(url);
+  }
+
+  const missingQuotes = checked.facts.filter((fact) => {
+    if (!fact.verified) return false;
+    const text = pages.get(fact.sourceUrl);
+    if (text === undefined) return false;
+    return !quoteFound(text, fact.quote, fact.kind);
+  });
+
+  return {
+    schoolId: checked.schoolId,
+    missingQuotes,
+    changedPages,
+    unreachable,
+  };
+}
+
+export function changesMarkdown(report: ChangeReport): string {
+  const lines: string[] = [];
+  lines.push(`# School ${report.schoolId} changes`);
+  lines.push("");
+  lines.push("## Missing quotes");
+  if (report.missingQuotes.length === 0) {
+    lines.push("None.");
+  } else {
+    for (const fact of report.missingQuotes) {
+      lines.push(`- [${fact.kind}] ${fact.name} (${fact.id}) — ${fact.sourceUrl}`);
+      lines.push(`  quote: "${fact.quote}"`);
+    }
+  }
+  lines.push("");
+  lines.push("## Changed pages");
+  if (report.changedPages.length === 0) {
+    lines.push("None.");
+  } else {
+    for (const url of report.changedPages) lines.push(`- ${url}`);
+  }
+  lines.push("");
+  lines.push("## Unreachable");
+  if (report.unreachable.length === 0) {
+    lines.push("None.");
+  } else {
+    for (const url of report.unreachable) lines.push(`- ${url}`);
+  }
+  lines.push("");
+  lines.push("Nothing here is applied automatically. If a quote is missing or a page changed, rerun research for this school.");
   return lines.join("\n");
 }
 

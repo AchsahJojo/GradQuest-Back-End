@@ -9,6 +9,7 @@
     "check": "tsc --noEmit && tsc --noEmit -p scripts",
     "facts:verify": "tsx scripts/verifyFacts.ts",
     "facts:sql": "tsx scripts/factsToSql.ts",
+    "facts:check": "tsx scripts/checkChanges.ts",
     "facts:eval": "tsx scripts/evalOverlap.ts"
   },
   "dependencies": {

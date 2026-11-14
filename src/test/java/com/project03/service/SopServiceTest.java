@@ -14,6 +14,7 @@ import com.project03.dto.SopDraftRequest;
 import com.project03.dto.SopDraftResponse;
 import com.project03.dto.SopOverlapResponse;
 import com.project03.dto.SopProgramResponse;
+import com.project03.dto.SopResumeDeleteResponse;
 import com.project03.model.School;
 import com.project03.model.User;
 import com.project03.repository.SchoolRepository;
@@ -193,6 +194,26 @@ class SopServiceTest {
         verify(worker, org.mockito.Mockito.times(2)).post(eq("/internal/draft"), body.capture());
         assertThat(body.getAllValues().get(0)).doesNotContainKey("pairIds");
         assertThat(body.getAllValues().get(1)).containsEntry("pairIds", List.of("0:faculty-ada", "1:course-compilers"));
+    }
+
+    @Test
+    @DisplayName("delete résumé posts the session user and copies deleted and failed")
+    void deleteResumeCopiesWorkerResult() throws Exception {
+        when(worker.post(eq("/internal/resume/delete"), any())).thenReturn(mapper.readTree("""
+                {"deleted":false,"failed":["r2"]}
+                """));
+
+        SopResumeDeleteResponse response = service.deleteResume(user());
+
+        assertThat(response.isDeleted()).isFalse();
+        assertThat(response.getFailed()).containsExactly("r2");
+
+        @SuppressWarnings("unchecked")
+        ArgumentCaptor<Map<String, Object>> body = ArgumentCaptor.forClass(Map.class);
+        verify(worker).post(eq("/internal/resume/delete"), body.capture());
+        assertThat(body.getValue()).containsEntry("userId", "4");
+        assertThat(body.getValue()).doesNotContainKey("url");
+        verify(schools, never()).findById(any());
     }
 
     @Test

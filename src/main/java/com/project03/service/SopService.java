@@ -5,6 +5,7 @@ import com.project03.dto.SopDraftRequest;
 import com.project03.dto.SopDraftResponse;
 import com.project03.dto.SopOverlapResponse;
 import com.project03.dto.SopProgramResponse;
+import com.project03.dto.SopResumeDeleteResponse;
 import com.project03.dto.SopResumeResponse;
 import com.project03.model.School;
 import com.project03.model.User;
@@ -112,6 +113,16 @@ public class SopService {
         } catch (Exception e) {
             throw new ResponseStatusException(HttpStatus.BAD_REQUEST, "Could not read that file");
         }
+    }
+
+    public SopResumeDeleteResponse deleteResume(User user) {
+        Map<String, Object> body = new HashMap<>();
+        body.put("userId", String.valueOf(user.getId()));
+        JsonNode node = worker.post("/internal/resume/delete", body);
+        SopResumeDeleteResponse response = new SopResumeDeleteResponse();
+        response.setDeleted(node.path("deleted").asBoolean(false));
+        node.path("failed").forEach(item -> response.getFailed().add(item.asText()));
+        return response;
     }
 
     public SopOverlapResponse overlap(User user, long schoolId) {

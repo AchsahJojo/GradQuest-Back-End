@@ -8,6 +8,7 @@ import static org.mockito.Mockito.verifyNoInteractions;
 import static org.mockito.Mockito.when;
 
 import com.project03.dto.SopOverlapResponse;
+import com.project03.dto.SopResumeDeleteResponse;
 import com.project03.model.User;
 import com.project03.repository.UserRepository;
 import com.project03.service.CurrentUserService;
@@ -67,5 +68,40 @@ class SopControllerTest {
         assertThat(response.getBody()).isSameAs(report);
         verify(currentUser).require(auth);
         verify(sop).overlap(user, 6L);
+    }
+
+    @Test
+    @DisplayName("delete résumé without a session is 401 through require")
+    void deleteResumeWithoutSessionIsUnauthorized() {
+        CurrentUserService realUser = new CurrentUserService(
+                mock(UserRepository.class), mock(OAuthUserService.class));
+        SopService untouched = mock(SopService.class);
+        SopController sessionless = new SopController(realUser, untouched);
+
+        assertThatThrownBy(() -> sessionless.deleteResume(null))
+                .isInstanceOf(ResponseStatusException.class)
+                .satisfies(error -> {
+                    ResponseStatusException status = (ResponseStatusException) error;
+                    assertThat(status.getStatusCode()).isEqualTo(HttpStatus.UNAUTHORIZED);
+                    assertThat(status.getReason()).isEqualTo("Not signed in");
+                });
+        verifyNoInteractions(untouched);
+    }
+
+    @Test
+    @DisplayName("a signed-in delete résumé call forwards the session user")
+    void deleteResumeForwardsSessionUser() {
+        User user = new User();
+        user.setId(4L);
+        when(currentUser.require(auth)).thenReturn(user);
+        SopResumeDeleteResponse body = new SopResumeDeleteResponse();
+        body.setDeleted(true);
+        when(sop.deleteResume(user)).thenReturn(body);
+
+        ResponseEntity<SopResumeDeleteResponse> response = controller.deleteResume(auth);
+
+        assertThat(response.getStatusCode()).isEqualTo(HttpStatus.OK);
+        assertThat(response.getBody()).isSameAs(body);
+        verify(sop).deleteResume(user);
     }
 }

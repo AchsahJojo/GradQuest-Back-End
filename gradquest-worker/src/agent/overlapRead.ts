@@ -30,7 +30,10 @@ export type OverlapReportBody = {
 
 export type OverlapResult =
   | { status: 200; body: OverlapReportBody }
-  | { status: 400; body: { error: "Upload a resume first" } };
+  | { status: 400; body: { error: "Upload a resume first" } }
+  | { status: 503; body: { error: typeof MATCHING_UNAVAILABLE } };
+
+export const MATCHING_UNAVAILABLE = "Matching is temporarily unavailable, try again later";
 
 const NO_SNAPSHOT: OverlapReportBody = {
   pairs: [],
@@ -57,19 +60,30 @@ export async function resolveOverlap(input: {
 
   const sentences = resumeFacts(resumeRows.map((row) => ({ id: row.id, text: row.text })));
   const facts = snapshot.facts.filter((fact) => fact.kind === "faculty" || fact.kind === "course");
-  const resumeVecs = await embedTexts(
-    input.ai,
-    sentences.map((sentence) => sentence.text),
-  );
-  const factVecs = await embedTexts(
-    input.ai,
-    facts.map((fact) => `${fact.name}. ${fact.detail}`),
-  );
-  const ranked = topPairs(resumeVecs, factVecs, sentences, facts, {
-    k: MATCH_TOP_K,
-    minScore: MATCH_MIN_SCORE,
-  });
-  const judged = await judgePairs(input.ai, ranked);
+  let judged;
+  try {
+    const resumeVecs = await embedTexts(
+      input.ai,
+      sentences.map((sentence) => sentence.text),
+    );
+    const factVecs = await embedTexts(
+      input.ai,
+      facts.map((fact) => `${fact.name}. ${fact.detail}`),
+    );
+    const ranked = topPairs(resumeVecs, factVecs, sentences, facts, {
+      k: MATCH_TOP_K,
+      minScore: MATCH_MIN_SCORE,
+    });
+    judged = await judgePairs(input.ai, ranked);
+  } catch (error) {
+    const message = error instanceof Error ? error.message : "failed";
+    console.error(JSON.stringify({ event: "sop_overlap_error", message }));
+    const failure = JSON.stringify({ error: MATCHING_UNAVAILABLE });
+    input.sql`
+      INSERT OR REPLACE INTO overlap_reads (school_id, report_json) VALUES (${input.schoolId}, ${failure})
+    `;
+    return { status: 503, body: { error: MATCHING_UNAVAILABLE } };
+  }
   const report = reportOverlap(judged, facts);
   const body: OverlapReportBody = {
     pairs: judged.map((pair) => ({
@@ -110,6 +124,17 @@ async function loadSnapshot(input: {
     INSERT OR REPLACE INTO snapshot_reads (school_id, snapshot_json) VALUES (${input.schoolId}, ${snapshotJson})
   `;
   return latest;
+}
+
+export function storedMatchingError(reportJson: string | null | undefined): string | null {
+  if (!reportJson) return null;
+  try {
+    const parsed = JSON.parse(reportJson) as { error?: unknown };
+    if (parsed && parsed.error === MATCHING_UNAVAILABLE) return MATCHING_UNAVAILABLE;
+  } catch {
+    return null;
+  }
+  return null;
 }
 
 function parseSnapshot(json: string | undefined): Snapshot | null {

@@ -5,6 +5,7 @@ import { resolveProgramRead, type AgentSql } from "../src/agent/programRead";
 import type { PageRead } from "../src/crawl/readPublicPage";
 import * as publicPages from "../src/crawl/readPublicPage";
 import type { Snapshot } from "../src/facts/store";
+import { deleteStoredResume } from "../src/agent/resumeDelete";
 import { secretsMatch } from "../src/auth/secret";
 import { excerptsFromMarkdown, excerptsFromText } from "../src/crawl/excerpts";
 import { fetchWithRetry } from "../src/crawl/fetchWithRetry";
@@ -1551,6 +1552,106 @@ describe("overlap report", () => {
     expect(JSON.parse(String(json))).toEqual(result.body);
   });
 
+  it("returns a temporary matching error and does not store a weak report when embeddings fail with 4006", async () => {
+    const snapshot = sampleSnapshot([FACULTY, COURSE]);
+    const { calls, sql } = overlapRecordingSql({
+      snapshotJson: JSON.stringify(snapshot),
+      resumes: [{ id: "R1", text: "I studied distributed systems in a lab." }],
+    });
+    const ai = {
+      async run() {
+        throw new Error(
+          "4006: you have used up your daily free allocation of 10,000 neurons, please upgrade to Cloudflare's Workers Paid plan if you would like to continue usage.",
+        );
+      },
+    };
+
+    const result = await resolveOverlap({
+      schoolId: "6",
+      sql,
+      db: new ThrowingFactsD1() as unknown as D1Database,
+      ai: ai as unknown as Env["AI"],
+    });
+
+    expect(result).toEqual({
+      status: 503,
+      body: { error: "Matching is temporarily unavailable, try again later" },
+    });
+    expect(result.body).not.toMatchObject({ weak: true });
+    const stored = calls.find((call) => call.text.includes("overlap_reads") && call.text.includes("INSERT"));
+    const json = stored?.values.find((value) => typeof value === "string" && value.startsWith("{"));
+    expect(JSON.parse(String(json))).toEqual({
+      error: "Matching is temporarily unavailable, try again later",
+    });
+  });
+
+  it("returns a temporary matching error when the judge call fails", async () => {
+    const snapshot = sampleSnapshot([FACULTY, COURSE]);
+    const { calls, sql } = overlapRecordingSql({
+      snapshotJson: JSON.stringify(snapshot),
+      resumes: [{ id: "R1", text: "I studied formal methods and compilers." }],
+    });
+    const ai = {
+      async run(model: string, input: { text?: string[] }) {
+        if (model === "@cf/baai/bge-base-en-v1.5") {
+          return { data: (input.text ?? []).map(() => [1, 0]) };
+        }
+        throw new Error("judge down");
+      },
+    };
+
+    const result = await resolveOverlap({
+      schoolId: "6",
+      sql,
+      db: new ThrowingFactsD1() as unknown as D1Database,
+      ai: ai as unknown as Env["AI"],
+    });
+
+    expect(result).toEqual({
+      status: 503,
+      body: { error: "Matching is temporarily unavailable, try again later" },
+    });
+    expect(result.body).not.toMatchObject({ weak: true });
+    const stored = calls.find((call) => call.text.includes("overlap_reads") && call.text.includes("INSERT"));
+    const json = stored?.values.find((value) => typeof value === "string" && value.startsWith("{"));
+    expect(JSON.parse(String(json))).toEqual({
+      error: "Matching is temporarily unavailable, try again later",
+    });
+  });
+
+  it("returns a weak report with no pairs when the judge verdict is unusable", async () => {
+    const snapshot = sampleSnapshot([FACULTY, COURSE]);
+    const { sql } = overlapRecordingSql({
+      snapshotJson: JSON.stringify(snapshot),
+      resumes: [{ id: "R1", text: "I studied formal methods and compilers." }],
+    });
+    const ai = {
+      async run(model: string, input: { text?: string[] }) {
+        if (model === "@cf/baai/bge-base-en-v1.5") {
+          return { data: (input.text ?? []).map(() => [1, 0]) };
+        }
+        return { response: "not a verdict" };
+      },
+    };
+
+    const result = await resolveOverlap({
+      schoolId: "6",
+      sql,
+      db: new ThrowingFactsD1() as unknown as D1Database,
+      ai: ai as unknown as Env["AI"],
+    });
+
+    expect(result).toEqual({
+      status: 200,
+      body: {
+        pairs: [],
+        weak: true,
+        unmatchedKinds: ["faculty", "course"],
+        verifiedAsOf: "2026-03-01T00:00:00Z",
+      },
+    });
+  });
+
   it("asks for a résumé and does not store a report when no résumé rows exist", async () => {
     const read = vi.spyOn(publicPages, "readPublicPage").mockResolvedValue(LIVE_PAGE);
     const { calls, sql } = overlapRecordingSql({
@@ -1618,6 +1719,112 @@ describe("overlap report", () => {
     expect(result.status).toBe(200);
     expect(result.body).toMatchObject({ weak: true, pairs: [], verifiedAsOf: "2026-03-01T00:00:00Z" });
     expect(read).not.toHaveBeenCalled();
+  });
+});
+
+describe("deleteStoredResume", () => {
+  function stores(options?: { vectorizeThrows?: boolean; d1Throws?: boolean }) {
+    const calls: string[] = [];
+    const sqlText: string[] = [];
+    const vectorIds: string[][] = [];
+    const deletedKeys: string[] = [];
+    const listedPrefixes: string[] = [];
+    let state = { resumeReady: true, chunkCount: 2, pageStatus: "ok" };
+    return {
+      calls,
+      sqlText,
+      vectorIds,
+      deletedKeys,
+      listedPrefixes,
+      state: () => state,
+      input: {
+        userId: "4",
+        readChunkIds: () => {
+          calls.push("read");
+          return ["c1", "c2"];
+        },
+        sql: ((strings: TemplateStringsArray) => {
+          sqlText.push(strings.join(" "));
+          calls.push("sql");
+          return [];
+        }) as AgentSql,
+        getState: () => state,
+        setState: (next: typeof state) => {
+          state = next;
+          calls.push("state");
+        },
+        db: {
+          prepare(query: string) {
+            return {
+              bind: (...args: unknown[]) => ({
+                run: async () => {
+                  if (options?.d1Throws) throw new Error("d1 down");
+                  calls.push(`d1 ${query} ${args.join(",")}`);
+                },
+              }),
+            };
+          },
+        },
+        resumes: {
+          list: async ({ prefix, cursor }: { prefix: string; cursor?: string }) => {
+            listedPrefixes.push(prefix);
+            calls.push("r2-list");
+            if (cursor) return { objects: [{ key: "resumes/4/22/notes.txt" }], truncated: false };
+            return {
+              objects: [{ key: "resumes/4/6/resume.pdf" }],
+              truncated: true,
+              cursor: "next",
+            };
+          },
+          delete: async (keys: string[]) => {
+            deletedKeys.push(...keys);
+            calls.push("r2-delete");
+          },
+        },
+        vectorize: {
+          deleteByIds: async (ids: string[]) => {
+            if (options?.vectorizeThrows) throw new Error("vectorize down");
+            vectorIds.push(ids);
+            calls.push("vectorize");
+          },
+        },
+      },
+    };
+  }
+
+  it("clears each store and reports deleted", async () => {
+    const harness = stores();
+    const result = await deleteStoredResume(harness.input);
+    expect(result).toEqual({ deleted: true });
+    expect(harness.vectorIds).toEqual([["4:c1", "4:c2"]]);
+    expect(harness.calls.indexOf("read")).toBeLessThan(harness.calls.indexOf("vectorize"));
+    expect(harness.calls.indexOf("vectorize")).toBeLessThan(harness.calls.indexOf("sql"));
+    expect(harness.sqlText.join("\n")).toContain("DELETE FROM resume_chunks");
+    expect(harness.sqlText.join("\n")).toContain("DELETE FROM overlap_reads");
+    expect(harness.sqlText.join("\n")).toContain("DELETE FROM draft_turns");
+    expect(harness.sqlText.join("\n")).not.toContain("snapshot_reads");
+    expect(harness.sqlText.join("\n")).not.toContain("page_reads");
+    expect(harness.calls.some((call) => call.includes("DELETE FROM resume_chunks WHERE user_id = ?") && call.includes("4"))).toBe(true);
+    expect(harness.listedPrefixes).toEqual(["resumes/4/", "resumes/4/"]);
+    expect(harness.deletedKeys).toEqual(["resumes/4/6/resume.pdf", "resumes/4/22/notes.txt"]);
+    expect(harness.state()).toEqual({ resumeReady: false, chunkCount: 0, pageStatus: "ok" });
+  });
+
+  it("names the store that failed and still clears the others", async () => {
+    const harness = stores({ vectorizeThrows: true });
+    const result = await deleteStoredResume(harness.input);
+    expect(result).toEqual({ deleted: false, failed: ["vectorize"] });
+    expect(harness.sqlText.join("\n")).toContain("DELETE FROM resume_chunks");
+    expect(harness.deletedKeys).toEqual(["resumes/4/6/resume.pdf", "resumes/4/22/notes.txt"]);
+    expect(harness.state()).toEqual({ resumeReady: false, chunkCount: 0, pageStatus: "ok" });
+  });
+
+  it("names d1 when that delete throws", async () => {
+    const harness = stores({ d1Throws: true });
+    const result = await deleteStoredResume(harness.input);
+    expect(result).toEqual({ deleted: false, failed: ["d1"] });
+    expect(harness.vectorIds).toEqual([["4:c1", "4:c2"]]);
+    expect(harness.deletedKeys).toHaveLength(2);
   });
 });
 

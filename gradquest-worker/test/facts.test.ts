@@ -14,7 +14,7 @@ import {
   type CheckedFact,
   type CheckedResearch,
 } from "../src/facts/verify";
-import { reportMarkdown, snapshotSql } from "../src/facts/report";
+import { compareSnapshot, reportMarkdown, snapshotSql } from "../src/facts/report";
 import { stripHtml } from "../src/crawl/loginWall";
 
 const PAGE = "https://catalog.calpoly.edu/engineering/computer-science-software/computer-science-ms/";
@@ -1044,14 +1044,21 @@ describe("judgePrompt", () => {
     expect(prompt).toContain("Distributed systems research");
     expect(prompt.toLowerCase()).not.toContain("outside knowledge");
     expect(prompt.toLowerCase()).not.toContain("school");
+    expect(prompt.toLowerCase()).toContain("exactly yes or no");
   });
 });
 
 describe("judgePairs", () => {
-  it("keeps only yes and calls llama once", async () => {
-    const calls: { model: string; input: { messages: { role: string; content: string }[]; max_tokens: number } }[] = [];
+  it("keeps only yes and calls llama once at temperature 0", async () => {
+    const calls: {
+      model: string;
+      input: { messages: { role: string; content: string }[]; max_tokens: number; temperature?: number };
+    }[] = [];
     const ai = {
-      async run(model: string, input: { messages: { role: string; content: string }[]; max_tokens: number }) {
+      async run(
+        model: string,
+        input: { messages: { role: string; content: string }[]; max_tokens: number; temperature?: number },
+      ) {
         calls.push({ model, input });
         return {
           response: JSON.stringify([
@@ -1068,30 +1075,47 @@ describe("judgePairs", () => {
     expect(calls).toHaveLength(1);
     expect(calls[0].model).toBe("@cf/meta/llama-3.3-70b-instruct-fp8-fast");
     expect(calls[0].input.max_tokens).toBe(800);
+    expect(calls[0].input.temperature).toBe(0);
     expect(calls[0].input.messages[0].role).toBe("system");
     expect(calls[0].input.messages[0].content.toLowerCase()).toContain("concrete");
     expect(calls[0].input.messages[0].content.toLowerCase()).toContain("json");
+    expect(calls[0].input.messages[0].content.toLowerCase()).toContain("exactly yes or no");
     expect(calls[0].input.messages[1]).toEqual({ role: "user", content: judgePrompt(JUDGE_PAIRS) });
   });
 
-  it("falls back when the model throws and logs sop_judge_fallback", async () => {
-    const logs: unknown[] = [];
-    const spy = vi.spyOn(console, "log").mockImplementation((message?: unknown) => {
-      logs.push(message);
-    });
+  it("keeps a yes when the model returns a parsed verdict array", async () => {
+    const ai = {
+      async run() {
+        return {
+          response: [
+            { pairId: "p1", verdict: "yes", reason: "Both cover pipelining" },
+            { pairId: "p2", verdict: "no", reason: "Unrelated" },
+          ],
+          choices: [
+            {
+              message: {
+                content:
+                  '[{"pairId":"p1","verdict":"yes","reason":"Both cover pipelining"},{"pairId":"p2","verdict":"no","reason":"Unrelated"}]',
+              },
+            },
+          ],
+        };
+      },
+    } as unknown as Env["AI"];
+
+    await expect(judgePairs(ai, JUDGE_PAIRS)).resolves.toEqual([
+      { ...JUDGE_PAIRS[0], reason: "Both cover pipelining" },
+    ]);
+  });
+
+  it("throws when the model call fails and does not keep the embedding pairs", async () => {
     const ai = {
       async run() {
         throw new Error("model down");
       },
     } as unknown as Env["AI"];
-    try {
-      await expect(judgePairs(ai, JUDGE_PAIRS)).resolves.toEqual(
-        JUDGE_PAIRS.map((pair) => ({ ...pair, reason: "" })),
-      );
-      expect(logs).toContain(JSON.stringify({ event: "sop_judge_fallback" }));
-    } finally {
-      spy.mockRestore();
-    }
+
+    await expect(judgePairs(ai, JUDGE_PAIRS)).rejects.toThrow("model down");
   });
 
   it("returns an empty list for an all-no array without logging fallback", async () => {
@@ -1109,7 +1133,7 @@ describe("judgePairs", () => {
     } as unknown as Env["AI"];
     try {
       await expect(judgePairs(ai, JUDGE_PAIRS)).resolves.toEqual([]);
-      expect(logs.some((line) => String(line).includes("sop_judge_fallback"))).toBe(false);
+      expect(logs.some((line) => String(line).includes("sop_judge_unusable"))).toBe(false);
     } finally {
       spy.mockRestore();
     }
@@ -1127,7 +1151,7 @@ describe("judgePairs", () => {
     expect(called).toBe(false);
   });
 
-  it("falls back when the model text is empty", async () => {
+  it("drops every pair and logs the raw response when the model text is empty", async () => {
     const logs: unknown[] = [];
     const spy = vi.spyOn(console, "log").mockImplementation((message?: unknown) => {
       logs.push(message);
@@ -1138,36 +1162,33 @@ describe("judgePairs", () => {
       },
     } as unknown as Env["AI"];
     try {
-      await expect(judgePairs(ai, JUDGE_PAIRS)).resolves.toEqual(
-        JUDGE_PAIRS.map((pair) => ({ ...pair, reason: "" })),
-      );
-      expect(logs).toContain(JSON.stringify({ event: "sop_judge_fallback" }));
+      await expect(judgePairs(ai, JUDGE_PAIRS)).resolves.toEqual([]);
+      expect(logs).toContain(JSON.stringify({ event: "sop_judge_unusable", response: { response: "   " } }));
     } finally {
       spy.mockRestore();
     }
   });
 
-  it("falls back when the model text is not a JSON array", async () => {
+  it("drops every pair and logs the raw response when the model text is not a JSON array", async () => {
     const logs: unknown[] = [];
     const spy = vi.spyOn(console, "log").mockImplementation((message?: unknown) => {
       logs.push(message);
     });
+    const raw = { text: JSON.stringify({ pairId: "p1", verdict: "yes", reason: "Shared method" }) };
     const ai = {
       async run() {
-        return { text: JSON.stringify({ pairId: "p1", verdict: "yes", reason: "Shared method" }) };
+        return raw;
       },
     } as unknown as Env["AI"];
     try {
-      await expect(judgePairs(ai, JUDGE_PAIRS)).resolves.toEqual(
-        JUDGE_PAIRS.map((pair) => ({ ...pair, reason: "" })),
-      );
-      expect(logs).toContain(JSON.stringify({ event: "sop_judge_fallback" }));
+      await expect(judgePairs(ai, JUDGE_PAIRS)).resolves.toEqual([]);
+      expect(logs).toContain(JSON.stringify({ event: "sop_judge_unusable", response: raw }));
     } finally {
       spy.mockRestore();
     }
   });
 
-  it("falls back when the model text is not valid JSON", async () => {
+  it("drops every pair and logs the raw response when the model text is not valid JSON", async () => {
     const logs: unknown[] = [];
     const spy = vi.spyOn(console, "log").mockImplementation((message?: unknown) => {
       logs.push(message);
@@ -1178,13 +1199,50 @@ describe("judgePairs", () => {
       },
     } as unknown as Env["AI"];
     try {
-      await expect(judgePairs(ai, JUDGE_PAIRS)).resolves.toEqual(
-        JUDGE_PAIRS.map((pair) => ({ ...pair, reason: "" })),
-      );
-      expect(logs).toContain(JSON.stringify({ event: "sop_judge_fallback" }));
+      await expect(judgePairs(ai, JUDGE_PAIRS)).resolves.toEqual([]);
+      expect(String(logs)).toContain("not json");
+      expect(String(logs)).toContain("sop_judge_unusable");
     } finally {
       spy.mockRestore();
     }
+  });
+
+  it("drops a malformed verdict and keeps a strict yes", async () => {
+    const ai = {
+      async run() {
+        return {
+          response: JSON.stringify([
+            { pairId: "p1", verdict: "maybe", reason: "Unclear" },
+            { pairId: "p2", verdict: "yes", reason: "Shared method" },
+          ]),
+        };
+      },
+    } as unknown as Env["AI"];
+
+    await expect(judgePairs(ai, JUDGE_PAIRS)).resolves.toEqual([
+      { ...JUDGE_PAIRS[1], reason: "Shared method" },
+    ]);
+  });
+
+  it("reads a fenced JSON verdict", async () => {
+    const ai = {
+      async run() {
+        return {
+          response: [
+            "```json",
+            JSON.stringify([
+              { pairId: "p1", verdict: "yes", reason: "Shared method" },
+              { pairId: "p2", verdict: "true", reason: "Not a strict yes or no" },
+            ]),
+            "```",
+          ].join("\n"),
+        };
+      },
+    } as unknown as Env["AI"];
+
+    await expect(judgePairs(ai, JUDGE_PAIRS)).resolves.toEqual([
+      { ...JUDGE_PAIRS[0], reason: "Shared method" },
+    ]);
   });
 });
 
@@ -1223,6 +1281,73 @@ describe("citationShare", () => {
       unmapped: 0,
     });
     expect(citationShare("I want to take the course [P1] and [P#].", 1, false).maps).toBe(false);
+  });
+});
+
+describe("compareSnapshot", () => {
+  const url = "https://catalog.calpoly.edu/engineering/computer-science-software/computer-science-ms/";
+  const quote = "The M.S. in Computer Science prepares students for research and professional practice in computing.";
+
+  function checkedWith(pageText: string, hashText: string, extras: Partial<CheckedResearch> = {}): Promise<CheckedResearch> {
+    return pageHash(hashText).then((hash) => {
+      const base = sampleChecked();
+      const fact = base.facts[0];
+      const dropped = base.facts[1];
+      return {
+        ...base,
+        pages: [{ kind: "overview", url }],
+        pageHashes: { [url]: hash },
+        facts: [
+          { ...fact, sourceUrl: url, quote, verified: true, quoteFound: true },
+          {
+            ...dropped,
+            sourceUrl: url,
+            quote: "This unverified sentence is not on the page and must stay out of the report.",
+            verified: false,
+            quoteFound: false,
+          },
+        ],
+        ...extras,
+      };
+    });
+  }
+
+  it("lists a verified quote that is no longer on the page", async () => {
+    const pageText = "The catalog now describes a different set of requirements for this degree program.";
+    const checked = await checkedWith(pageText, pageText);
+    const report = await compareSnapshot(checked, new Map([[url, pageText]]));
+    expect(report.schoolId).toBe(checked.schoolId);
+    expect(report.missingQuotes.map((fact) => fact.id)).toEqual([checked.facts[0].id]);
+    expect(report.changedPages).toEqual([]);
+    expect(report.unreachable).toEqual([]);
+  });
+
+  it("lists a page whose pageHash differs", async () => {
+    const original = `${quote} Students complete the public catalog requirements.`;
+    const changed = `${original} A new sentence was added to the catalog page.`;
+    const checked = await checkedWith(changed, original);
+    const report = await compareSnapshot(checked, new Map([[url, changed]]));
+    expect(report.changedPages).toEqual([url]);
+    expect(report.missingQuotes).toEqual([]);
+    expect(report.unreachable).toEqual([]);
+  });
+
+  it("lists a URL missing from the fetched pages", async () => {
+    const pageText = `${quote} Students complete the public catalog requirements.`;
+    const checked = await checkedWith(pageText, pageText);
+    const report = await compareSnapshot(checked, new Map());
+    expect(report.unreachable).toEqual([url]);
+    expect(report.missingQuotes).toEqual([]);
+    expect(report.changedPages).toEqual([]);
+  });
+
+  it("returns empty lists when the page is unchanged", async () => {
+    const pageText = `${quote} Students complete the public catalog requirements.`;
+    const checked = await checkedWith(pageText, pageText);
+    const report = await compareSnapshot(checked, new Map([[url, pageText]]));
+    expect(report.missingQuotes).toEqual([]);
+    expect(report.changedPages).toEqual([]);
+    expect(report.unreachable).toEqual([]);
   });
 });
 

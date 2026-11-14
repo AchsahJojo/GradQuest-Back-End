@@ -17,19 +17,19 @@ WHERE program_page_url IN (
     'https://www.fullerton.edu/ecs/academics/graduate-admissions.html',
     'https://www.csun.edu/engineering-computer-science/computer-science/programs/graduate-programs/ms-computer-science',
     'https://electrical.sdsu.edu/programs/graduate/ms-computer-engineering',
-    'https://catalog.sdsu.edu/preview_program.php?catoid=11&poid=11044',
-    'https://catalog.csueastbay.edu/preview_program.php?catoid=44&poid=20563',
+    'https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12288',
+    'https://www.csueastbay.edu/',
     'https://www.fullerton.edu/ecs/mse/requirements/',
     'https://www.csun.edu/engineering-computer-science/computer-science/programs/graduate-programs/ms-software-engineering',
     'https://catalog.csus.edu/colleges/engineering-computer-science/computer-science/ms-in-computer-science/',
     'https://www.sjsu.edu/pdp/programs/msda/requirements/index.html',
-    'https://catalog.unlv.edu/preview_program.php?catoid=48&poid=13525'
+    'https://catalog.unlv.edu/preview_program.php?catoid=52&poid=14606'
 );
 
 UPDATE public.schools SET sop_required = TRUE
 WHERE program_page_url IN (
     'https://degrees.asu.edu/masters-phd/major/ASU00/ESCOMSCMS/computer-science-ms',
-    'https://catalog.cpp.edu/preview_program.php?catoid=69&poid=19730',
+    'https://catalog.cpp.edu/preview_program.php?catoid=78&poid=24271',
     'https://www1.cs.ucr.edu/programs/graduate/computer-science-masters',
     'https://catalog.calpoly.edu/engineering/computer-science-software/computer-science-ms/',
     'https://www.csuchico.edu/academics/majors-programs/computer-science-ms.shtml',

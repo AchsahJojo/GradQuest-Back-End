@@ -4,6 +4,7 @@ import com.project03.dto.SopDraftRequest;
 import com.project03.dto.SopDraftResponse;
 import com.project03.dto.SopOverlapResponse;
 import com.project03.dto.SopProgramResponse;
+import com.project03.dto.SopResumeDeleteResponse;
 import com.project03.dto.SopResumeResponse;
 import com.project03.dto.SopResumeTextRequest;
 import com.project03.model.User;
@@ -12,6 +13,7 @@ import com.project03.service.SopService;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.core.Authentication;
+import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -62,6 +64,12 @@ public class SopController {
             Authentication authentication) {
         User user = currentUser.require(authentication);
         return ResponseEntity.ok(sop.storeResumeFile(user, schoolId, file));
+    }
+
+    @DeleteMapping("/resume")
+    public ResponseEntity<SopResumeDeleteResponse> deleteResume(Authentication authentication) {
+        User user = currentUser.require(authentication);
+        return ResponseEntity.ok(sop.deleteResume(user));
     }
 
     @PostMapping("/overlap")
