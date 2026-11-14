@@ -1,0 +1,575 @@
+{
+  "schoolId": 4,
+  "schoolName": "California State University, Chico",
+  "programName": "Computer Science, M.S.",
+  "factsSubmitted": 47,
+  "factsPassed": 47,
+  "factsFailed": 0,
+  "checks": [
+    {
+      "id": "f1",
+      "kind": "overview",
+      "name": "On-campus delivery",
+      "sourceUrl": "https://www.csuchico.edu/academics/majors-programs/computer-science-ms.shtml",
+      "quote": "On Campus",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/04-chico-start.html"
+      ]
+    },
+    {
+      "id": "f2",
+      "kind": "overview",
+      "name": "Open to any discipline",
+      "sourceUrl": "https://www.csuchico.edu/academics/majors-programs/computer-science-ms.shtml",
+      "quote": "Our program is open to applicants from any discipline and combines a strong foundation in computer science theory with practical, project-based learning opportunities.",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/04-chico-start.html"
+      ]
+    },
+    {
+      "id": "f3",
+      "kind": "overview",
+      "name": "Catalog welcome statement",
+      "sourceUrl": "https://catalog.csuchico.edu/colleges-departments/college-engineering-computer-science-construction-management/computer-science/computer-science-ms/",
+      "quote": "The Master of Science in Computer Science welcomes students from all undergraduate disciplines. The program is designed to accommodate students with and without a computer science background.",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/04-chico-catalog-ms.html"
+      ]
+    },
+    {
+      "id": "f4",
+      "kind": "overview",
+      "name": "Students without a CS background",
+      "sourceUrl": "https://www.csuchico.edu/academics/majors-programs/computer-science-ms.shtml",
+      "quote": "Students from any discipline can enter the program. Students without background courses can take all courses after enrolling.",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/04-chico-start.html"
+      ]
+    },
+    {
+      "id": "f5",
+      "kind": "requirement",
+      "name": "30 units",
+      "sourceUrl": "https://catalog.csuchico.edu/colleges-departments/college-engineering-computer-science-construction-management/computer-science/computer-science-ms/",
+      "quote": "Total Units Required: 30",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/04-chico-catalog-ms.html"
+      ]
+    },
+    {
+      "id": "f6",
+      "kind": "requirement",
+      "name": "600-level minimum",
+      "sourceUrl": "https://catalog.csuchico.edu/colleges-departments/college-engineering-computer-science-construction-management/computer-science/computer-science-ms/",
+      "quote": "At least 18 of the units required for the degree in 600-level courses.",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/04-chico-catalog-ms.html"
+      ]
+    },
+    {
+      "id": "f7",
+      "kind": "requirement",
+      "name": "Core courses",
+      "sourceUrl": "https://catalog.csuchico.edu/colleges-departments/college-engineering-computer-science-construction-management/computer-science/computer-science-ms/",
+      "quote": "Completion of three graduate core courses (nine units): CSCI 608, CSCI 611, or CSCI 612; CSCI 630 and CSCI 650.",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/04-chico-catalog-ms.html"
+      ]
+    },
+    {
+      "id": "f8",
+      "kind": "requirement",
+      "name": "CSCI 605 excluded",
+      "sourceUrl": "https://catalog.csuchico.edu/colleges-departments/college-engineering-computer-science-construction-management/computer-science/computer-science-ms/",
+      "quote": "CSCI 605 may not be taken to meet program requirements.",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/04-chico-catalog-ms.html"
+      ]
+    },
+    {
+      "id": "f9",
+      "kind": "requirement",
+      "name": "Most common capstone",
+      "sourceUrl": "https://catalog.csuchico.edu/colleges-departments/college-engineering-computer-science-construction-management/computer-science/computer-science-ms/",
+      "quote": "The most common culminating experience for master's students in Computer Science is to demonstrate competency in graduate study by completion of the capstone course using plan (a).",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/04-chico-catalog-ms.html"
+      ]
+    },
+    {
+      "id": "f10",
+      "kind": "requirement",
+      "name": "Capstone course CSCI 693",
+      "sourceUrl": "https://catalog.csuchico.edu/colleges-departments/college-engineering-computer-science-construction-management/computer-science/computer-science-ms/",
+      "quote": "This plan includes 30 units of in-class coursework, including a passing score in the capstone course CSCI 693. CSCI 693 is to be taken as part of the last 9 units, or during the last semester of the graduate program.",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/04-chico-catalog-ms.html"
+      ]
+    },
+    {
+      "id": "f11",
+      "kind": "requirement",
+      "name": "Project plan qualifications",
+      "sourceUrl": "https://catalog.csuchico.edu/colleges-departments/college-engineering-computer-science-construction-management/computer-science/computer-science-ms/",
+      "quote": "maintaining a GPA of 3.5 or above in their post-baccalaureate coursework,",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/04-chico-catalog-ms.html"
+      ]
+    },
+    {
+      "id": "f12",
+      "kind": "requirement",
+      "name": "3.0 GPA to remain in program",
+      "sourceUrl": "https://catalog.csuchico.edu/colleges-departments/college-engineering-computer-science-construction-management/computer-science/computer-science-ms/",
+      "quote": "Students must maintain a minimum 3.0 grade point average in each of the following three categories: all coursework taken at any accredited institution subsequent to admission to the master's program;",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/04-chico-catalog-ms.html"
+      ]
+    },
+    {
+      "id": "f13",
+      "kind": "requirement",
+      "name": "C-grade limit",
+      "sourceUrl": "https://catalog.csuchico.edu/colleges-departments/college-engineering-computer-science-construction-management/computer-science/computer-science-ms/",
+      "quote": "In addition, students may not count more than two courses in which they receive a grade of C toward the approved program.",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/04-chico-catalog-ms.html"
+      ]
+    },
+    {
+      "id": "f14",
+      "kind": "requirement",
+      "name": "Five-year time limit",
+      "sourceUrl": "https://catalog.csuchico.edu/colleges-departments/college-engineering-computer-science-construction-management/computer-science/computer-science-ms/",
+      "quote": "Due to the rapid changes in the field of computer science, the Department of Computer Science requires all candidates to complete the program within five years, including projects and theses. No course validation will be allowed and no program extensions will be granted.",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/04-chico-catalog-ms.html"
+      ]
+    },
+    {
+      "id": "f15",
+      "kind": "requirement",
+      "name": "GRE on program page",
+      "sourceUrl": "https://www.csuchico.edu/academics/majors-programs/computer-science-ms.shtml",
+      "quote": "The Graduate Record Exam (GRE) is required unless the applicant's bachelor's degree was awarded by an ABET-accredited program in computer science or a related discipline. A GRE score of 300 or higher is preferred.",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/04-chico-start.html"
+      ]
+    },
+    {
+      "id": "f16",
+      "kind": "requirement",
+      "name": "GRE in catalog",
+      "sourceUrl": "https://catalog.csuchico.edu/colleges-departments/college-engineering-computer-science-construction-management/computer-science/computer-science-ms/",
+      "quote": "Completion of the Graduate Record Examination (GRE) with a combined score of 300 on the verbal and quantitative portions. Graduates of an ABET accredited program in computer science are exempt from this requirement.",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/04-chico-catalog-ms.html"
+      ]
+    },
+    {
+      "id": "f17",
+      "kind": "requirement",
+      "name": "Statement of purpose",
+      "sourceUrl": "https://www.csuchico.edu/academics/majors-programs/computer-science-ms.shtml",
+      "quote": "Statement of purpose, resume (optional)",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/04-chico-start.html"
+      ]
+    },
+    {
+      "id": "f18",
+      "kind": "requirement",
+      "name": "Letters of reference in catalog",
+      "sourceUrl": "https://catalog.csuchico.edu/colleges-departments/college-engineering-computer-science-construction-management/computer-science/computer-science-ms/",
+      "quote": "Submission of two letters of reference.",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/04-chico-catalog-ms.html"
+      ]
+    },
+    {
+      "id": "f19",
+      "kind": "requirement",
+      "name": "Prerequisite courses for classified status",
+      "sourceUrl": "https://catalog.csuchico.edu/colleges-departments/college-engineering-computer-science-construction-management/computer-science/computer-science-ms/",
+      "quote": "Courses taken for the purpose of advancement to classified status will not be used towards the MS degree.",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/04-chico-catalog-ms.html"
+      ]
+    },
+    {
+      "id": "f20",
+      "kind": "requirement",
+      "name": "CSCI 211 and 311 restriction",
+      "sourceUrl": "https://catalog.csuchico.edu/colleges-departments/college-engineering-computer-science-construction-management/computer-science/computer-science-ms/",
+      "quote": "Only courses from ABET accredited programs may be used for CSCI 211 and CSCI 311.",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/04-chico-catalog-ms.html"
+      ]
+    },
+    {
+      "id": "f21",
+      "kind": "course",
+      "name": "CSCI 608",
+      "sourceUrl": "https://catalog.csuchico.edu/colleges-departments/college-engineering-computer-science-construction-management/computer-science/#coursestext",
+      "quote": "CSCI 608 Data Science for Graduate Studies 3 Units",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/04-chico-catalog-csci-courses.html"
+      ]
+    },
+    {
+      "id": "f22",
+      "kind": "course",
+      "name": "CSCI 611",
+      "sourceUrl": "https://catalog.csuchico.edu/colleges-departments/college-engineering-computer-science-construction-management/computer-science/#coursestext",
+      "quote": "CSCI 611 Applied Machine Learning 3 Units",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/04-chico-catalog-csci-courses.html"
+      ]
+    },
+    {
+      "id": "f23",
+      "kind": "course",
+      "name": "CSCI 612",
+      "sourceUrl": "https://catalog.csuchico.edu/colleges-departments/college-engineering-computer-science-construction-management/computer-science/#coursestext",
+      "quote": "CSCI 612 Applied Computer Vision 3 Units",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/04-chico-catalog-csci-courses.html"
+      ]
+    },
+    {
+      "id": "f24",
+      "kind": "course",
+      "name": "CSCI 630",
+      "sourceUrl": "https://catalog.csuchico.edu/colleges-departments/college-engineering-computer-science-construction-management/computer-science/#coursestext",
+      "quote": "CSCI 630 Software Design and Maintenance 3 Units",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/04-chico-catalog-csci-courses.html"
+      ]
+    },
+    {
+      "id": "f25",
+      "kind": "course",
+      "name": "CSCI 650",
+      "sourceUrl": "https://catalog.csuchico.edu/colleges-departments/college-engineering-computer-science-construction-management/computer-science/#coursestext",
+      "quote": "CSCI 650 Algorithms and Computability 3 Units",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/04-chico-catalog-csci-courses.html"
+      ]
+    },
+    {
+      "id": "f26",
+      "kind": "course",
+      "name": "CSCI 693",
+      "sourceUrl": "https://catalog.csuchico.edu/colleges-departments/college-engineering-computer-science-construction-management/computer-science/#coursestext",
+      "quote": "CSCI 693 Research Methods in Computer Science 3 Units",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/04-chico-catalog-csci-courses.html"
+      ]
+    },
+    {
+      "id": "f27",
+      "kind": "course",
+      "name": "CSCI 699P",
+      "sourceUrl": "https://catalog.csuchico.edu/colleges-departments/college-engineering-computer-science-construction-management/computer-science/#coursestext",
+      "quote": "CSCI 699P Master's Project 3 Units",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/04-chico-catalog-csci-courses.html"
+      ]
+    },
+    {
+      "id": "f28",
+      "kind": "course",
+      "name": "CSCI 699T",
+      "sourceUrl": "https://catalog.csuchico.edu/colleges-departments/college-engineering-computer-science-construction-management/computer-science/#coursestext",
+      "quote": "CSCI 699T Master's Thesis 1-6 Units",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/04-chico-catalog-csci-courses.html"
+      ]
+    },
+    {
+      "id": "f29",
+      "kind": "course",
+      "name": "CSCI 605 title",
+      "sourceUrl": "https://catalog.csuchico.edu/colleges-departments/college-engineering-computer-science-construction-management/computer-science/#coursestext",
+      "quote": "CSCI 605 Data Structures and Algorithms for Data Science 3 Units",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/04-chico-catalog-csci-courses.html"
+      ]
+    },
+    {
+      "id": "f30",
+      "kind": "course",
+      "name": "Writing proficiency",
+      "sourceUrl": "https://catalog.csuchico.edu/colleges-departments/college-engineering-computer-science-construction-management/computer-science/computer-science-ms/",
+      "quote": "Computer science students will demonstrate their writing competence in the English language by successfully passing CSCI 693, CSCI 699P, or CSCI 699T.",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/04-chico-catalog-ms.html"
+      ]
+    },
+    {
+      "id": "f31",
+      "kind": "deadline",
+      "name": "Fall deadline",
+      "sourceUrl": "https://www.csuchico.edu/academics/majors-programs/computer-science-ms.shtml",
+      "quote": "Fall: April 1",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/04-chico-start.html"
+      ]
+    },
+    {
+      "id": "f32",
+      "kind": "deadline",
+      "name": "Spring deadline",
+      "sourceUrl": "https://www.csuchico.edu/academics/majors-programs/computer-science-ms.shtml",
+      "quote": "Spring: December 1 (October 1 for international applicants)",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/04-chico-start.html"
+      ]
+    },
+    {
+      "id": "f33",
+      "kind": "deadline",
+      "name": "Blended program deadlines",
+      "sourceUrl": "https://catalog.csuchico.edu/colleges-departments/college-engineering-computer-science-construction-management/computer-science/computer-science-ms/",
+      "quote": "Application deadlines: April 1 for fall start, November 1 for spring start.",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/04-chico-catalog-ms.html"
+      ]
+    },
+    {
+      "id": "f34",
+      "kind": "faculty",
+      "name": "Department listing",
+      "sourceUrl": "https://www.csuchico.edu/academics/college/engineering/departments/computer-science/faculty-staff.shtml",
+      "quote": "Todd Gibson Chair and Professor",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/04-chico-faculty-staff.html"
+      ]
+    },
+    {
+      "id": "f35",
+      "kind": "faculty",
+      "name": "Todd Gibson",
+      "sourceUrl": "https://www.csuchico.edu/academics/college/engineering/departments/computer-science/faculty-staff.shtml",
+      "quote": "Todd Gibson Chair and Professor",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/04-chico-faculty-staff.html"
+      ]
+    },
+    {
+      "id": "f36",
+      "kind": "faculty",
+      "name": "Abbas Attarwala",
+      "sourceUrl": "https://www.csuchico.edu/academics/college/engineering/departments/computer-science/faculty-staff.shtml",
+      "quote": "Abbas Attarwala Professor",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/04-chico-faculty-staff.html"
+      ]
+    },
+    {
+      "id": "f37",
+      "kind": "faculty",
+      "name": "Kevin Buffardi",
+      "sourceUrl": "https://www.csuchico.edu/academics/college/engineering/departments/computer-science/faculty-staff.shtml",
+      "quote": "Kevin Buffardi Professor",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/04-chico-faculty-staff.html"
+      ]
+    },
+    {
+      "id": "f38",
+      "kind": "faculty",
+      "name": "Bryan Dixon",
+      "sourceUrl": "https://www.csuchico.edu/academics/college/engineering/departments/computer-science/faculty-staff.shtml",
+      "quote": "Bryan Dixon Professor",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/04-chico-faculty-staff.html"
+      ]
+    },
+    {
+      "id": "f39",
+      "kind": "faculty",
+      "name": "Ben Juliano",
+      "sourceUrl": "https://www.csuchico.edu/academics/college/engineering/departments/computer-science/faculty-staff.shtml",
+      "quote": "Ben Juliano Professor",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/04-chico-faculty-staff.html"
+      ]
+    },
+    {
+      "id": "f40",
+      "kind": "faculty",
+      "name": "Bo Shen",
+      "sourceUrl": "https://www.csuchico.edu/academics/college/engineering/departments/computer-science/faculty-staff.shtml",
+      "quote": "Bo Shen Associate Professor",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/04-chico-faculty-staff.html"
+      ]
+    },
+    {
+      "id": "f41",
+      "kind": "faculty",
+      "name": "Samuel B Siewert",
+      "sourceUrl": "https://www.csuchico.edu/academics/college/engineering/departments/computer-science/faculty-staff.shtml",
+      "quote": "Samuel B Siewert Professor",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/04-chico-faculty-staff.html"
+      ]
+    },
+    {
+      "id": "f42",
+      "kind": "faculty",
+      "name": "Kun Tian",
+      "sourceUrl": "https://www.csuchico.edu/academics/college/engineering/departments/computer-science/faculty-staff.shtml",
+      "quote": "Kun Tian Professor",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/04-chico-faculty-staff.html"
+      ]
+    },
+    {
+      "id": "f43",
+      "kind": "faculty",
+      "name": "Richard C Tillquist",
+      "sourceUrl": "https://www.csuchico.edu/academics/college/engineering/departments/computer-science/faculty-staff.shtml",
+      "quote": "Richard C Tillquist Associate Professor",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/04-chico-faculty-staff.html"
+      ]
+    },
+    {
+      "id": "f44",
+      "kind": "faculty",
+      "name": "David Zeichick",
+      "sourceUrl": "https://www.csuchico.edu/academics/college/engineering/departments/computer-science/faculty-staff.shtml",
+      "quote": "David Zeichick Associate Professor",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/04-chico-faculty-staff.html"
+      ]
+    },
+    {
+      "id": "f45",
+      "kind": "faculty",
+      "name": "Oleksiy Al-Saadi",
+      "sourceUrl": "https://www.csuchico.edu/academics/college/engineering/departments/computer-science/faculty-staff.shtml",
+      "quote": "Oleksiy Al-Saadi Assistant Professor",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/04-chico-faculty-staff.html"
+      ]
+    },
+    {
+      "id": "f46",
+      "kind": "faculty",
+      "name": "Kathleen Isenegger",
+      "sourceUrl": "https://www.csuchico.edu/academics/college/engineering/departments/computer-science/faculty-staff.shtml",
+      "quote": "Kathleen Isenegger Assistant Professor",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/04-chico-faculty-staff.html"
+      ]
+    },
+    {
+      "id": "f47",
+      "kind": "faculty",
+      "name": "Jaime Raigoza",
+      "sourceUrl": "https://www.csuchico.edu/academics/college/engineering/departments/computer-science/faculty-staff.shtml",
+      "quote": "Jaime Raigoza Interim Associate Dean",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/04-chico-faculty-staff.html"
+      ]
+    }
+  ],
+  "droppedFacts": []
+}

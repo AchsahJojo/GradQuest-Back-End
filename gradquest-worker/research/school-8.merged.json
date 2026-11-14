@@ -1,0 +1,905 @@
+{
+  "schoolId": 8,
+  "schoolName": "California State University, Long Beach",
+  "programName": "Computer Science, M.S.",
+  "pages": [
+    {
+      "kind": "overview",
+      "url": "https://www.csulb.edu/hung-family-college-of-engineering/master-of-science-computer-science"
+    },
+    {
+      "kind": "overview",
+      "url": "https://www.csulb.edu/college-of-engineering/computer-engineering-computer-science"
+    },
+    {
+      "kind": "admissions",
+      "url": "https://www.csulb.edu/hung-family-college-of-engineering/mscs-admissions"
+    },
+    {
+      "kind": "admissions",
+      "url": "https://www.csulb.edu/admissions/graduate-programs-admission-eligibility"
+    },
+    {
+      "kind": "faculty",
+      "url": "https://www.csulb.edu/college-of-engineering/computer-engineering-computer-science/faculty-staff"
+    },
+    {
+      "kind": "faculty",
+      "url": "https://www.csulb.edu/college-of-engineering/computer-engineering-computer-science/faculty-staff?page=1"
+    },
+    {
+      "kind": "faculty",
+      "url": "https://www.csulb.edu/college-of-engineering/computer-engineering-computer-science/faculty-staff?page=2"
+    },
+    {
+      "kind": "deadlines",
+      "url": "https://www.csulb.edu/enrollment-services/key-dates-and-deadlines"
+    },
+    {
+      "kind": "faculty",
+      "url": "https://www.csulb.edu/college-of-engineering/computer-engineering-computer-science/page/dr-shadnaz-asgari"
+    },
+    {
+      "kind": "faculty",
+      "url": "https://www.csulb.edu/college-of-engineering/computer-engineering-computer-science/page/dr-todd-ebert"
+    },
+    {
+      "kind": "faculty",
+      "url": "https://www.csulb.edu/college-of-engineering/computer-engineering-computer-science/page/dr-bo-fu"
+    },
+    {
+      "kind": "faculty",
+      "url": "https://www.csulb.edu/college-of-engineering/computer-engineering-computer-science/page/dr-amir-ghasemkhani"
+    },
+    {
+      "kind": "faculty",
+      "url": "https://www.csulb.edu/college-of-engineering/computer-engineering-computer-science/page/dr-darin-goldstein"
+    },
+    {
+      "kind": "faculty",
+      "url": "https://www.csulb.edu/college-of-engineering/computer-engineering-computer-science/page/dr-min-he"
+    },
+    {
+      "kind": "faculty",
+      "url": "https://www.csulb.edu/college-of-engineering/computer-engineering-computer-science/page/dr-tracy-bradley-maples"
+    },
+    {
+      "kind": "faculty",
+      "url": "https://www.csulb.edu/college-of-engineering/computer-engineering-computer-science/page/dr-jelena-trajkovic"
+    },
+    {
+      "kind": "faculty",
+      "url": "https://www.csulb.edu/college-of-engineering/computer-engineering-computer-science/page/dr-hossein-sayadi"
+    },
+    {
+      "kind": "faculty",
+      "url": "https://www.csulb.edu/college-of-engineering/computer-engineering-computer-science/page/dr-shabnam-sodagari"
+    },
+    {
+      "kind": "faculty",
+      "url": "https://www.csulb.edu/college-of-engineering/computer-engineering-computer-science/page/daniel-commey"
+    },
+    {
+      "kind": "faculty",
+      "url": "https://www.csulb.edu/college-of-engineering/computer-engineering-computer-science/page/dr-michael-hoffman"
+    },
+    {
+      "kind": "faculty",
+      "url": "https://www.csulb.edu/college-of-engineering/computer-engineering-computer-science/page/dr-amin-rezaei"
+    },
+    {
+      "kind": "faculty",
+      "url": "https://www.csulb.edu/college-of-engineering/computer-engineering-computer-science/page/dr-wenlu-zhang"
+    },
+    {
+      "kind": "faculty",
+      "url": "https://www.csulb.edu/college-of-engineering/computer-engineering-computer-science/page/dr-forouzan-golshani"
+    },
+    {
+      "kind": "curriculum",
+      "url": "https://catalog.csulb.edu/preview_program.php?catoid=12&poid=6290"
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "kind": "overview",
+      "name": "Program audience and curriculum focus",
+      "detail": "Program page: the M.S. is tailored to working professionals and is described as offering a current computing curriculum.",
+      "sourceUrl": "https://www.csulb.edu/hung-family-college-of-engineering/master-of-science-computer-science",
+      "quote": "Tailored to the schedules of working professionals, the CSULB Master of Science in Computer Science program offers the most relevant and up-to-date curriculum to meet the demands of the rapidly changing world of computing."
+    },
+    {
+      "id": "f2",
+      "kind": "overview",
+      "name": "Advanced study areas",
+      "detail": "Program page: the M.S. provides advanced study in software development and engineering, networking, operating systems, distributed computing, AI, and algorithm analysis.",
+      "sourceUrl": "https://www.csulb.edu/hung-family-college-of-engineering/master-of-science-computer-science",
+      "quote": "The M.S. in Computer Science provides advanced study in software development and engineering, networking, operating systems, distributed computing, artificial intelligence, and analysis of algorithms."
+    },
+    {
+      "id": "f3",
+      "kind": "overview",
+      "name": "Concentrations",
+      "detail": "Students can pursue concentrations in Advanced Systems or Software Development.",
+      "sourceUrl": "https://www.csulb.edu/hung-family-college-of-engineering/master-of-science-computer-science",
+      "quote": "Students can pursue concentrations in Advanced Systems or Software Development."
+    },
+    {
+      "id": "f4",
+      "kind": "requirement",
+      "name": "Culminating experience",
+      "detail": "Students finish with a comprehensive exam or a thesis research project.",
+      "sourceUrl": "https://www.csulb.edu/hung-family-college-of-engineering/master-of-science-computer-science",
+      "quote": "Complete your graduate degree with a comprehensive exam or thesis research project."
+    },
+    {
+      "id": "f5",
+      "kind": "requirement",
+      "name": "Bachelor's degree and GPA",
+      "detail": "MSCS admissions: bachelor's in computer engineering or computer science, or sufficient background, with a minimum 2.7 GPA in the last 60 semester or 90 quarter upper-division major units.",
+      "sourceUrl": "https://www.csulb.edu/hung-family-college-of-engineering/mscs-admissions",
+      "quote": "Hold a bachelor's degree in computer engineering or computer science or have sufficient background in computer engineering or computer science from a college or university with a minimum grade point average (GPA) of 2.7 in the last 60 semester or 90 quarter upper-division major units attempted."
+    },
+    {
+      "id": "f6",
+      "kind": "requirement",
+      "name": "University graduate admission requirements",
+      "detail": "The MSCS admissions page also requires applicants to satisfy university requirements for graduate admission.",
+      "sourceUrl": "https://www.csulb.edu/hung-family-college-of-engineering/mscs-admissions",
+      "quote": "Satisfy university requirements for graduate admission"
+    },
+    {
+      "id": "f7",
+      "kind": "requirement",
+      "name": "University minimum GPA options (university-wide)",
+      "detail": "University-wide graduate standing page: a baccalaureate with a cumulative GPA of at least 2.5, with no rounding. This is a university rule, not an MSCS-only rule.",
+      "sourceUrl": "https://www.csulb.edu/admissions/graduate-programs-admission-eligibility",
+      "quote": "Hold a baccalaureate degree with a cumulative GPA of at least 2.5. (No Rounding)"
+    },
+    {
+      "id": "f8",
+      "kind": "deadline",
+      "name": "University master's application latest dates (not MSCS-specific)",
+      "detail": "University Key Dates page: master's program deadlines vary by program. This is a university-wide latest-date rule, not an MSCS-only deadline.",
+      "sourceUrl": "https://www.csulb.edu/enrollment-services/key-dates-and-deadlines",
+      "quote": "Master’s programs and certificates application deadline"
+    },
+    {
+      "id": "f9",
+      "kind": "deadline",
+      "name": "Spring 2027 master's latest date (university-wide)",
+      "detail": "University-wide latest date for master's applications for Spring 2027 admission: no later than Nov. 1, 2026; the page says dates vary by program.",
+      "sourceUrl": "https://www.csulb.edu/enrollment-services/key-dates-and-deadlines",
+      "quote": "Varies by program (no later than Nov. 1, 2026)"
+    },
+    {
+      "id": "f10",
+      "kind": "deadline",
+      "name": "Fall 2027 master's latest date (university-wide)",
+      "detail": "University-wide latest date for master's applications for Fall 2027 admission: no later than June 1, 2027; the page says dates vary by program.",
+      "sourceUrl": "https://www.csulb.edu/enrollment-services/key-dates-and-deadlines",
+      "quote": "Varies by program (no later than June 1, 2027)"
+    },
+    {
+      "id": "f11",
+      "kind": "overview",
+      "name": "Department faculty research areas (department-wide)",
+      "detail": "CECS department page (not MSCS-specific): faculty research areas include data science, AI, cybersecurity, software engineering, IoT, and embedded systems.",
+      "sourceUrl": "https://www.csulb.edu/college-of-engineering/computer-engineering-computer-science",
+      "quote": "Our faculty are actively involved in advanced research across areas such as data science (with various applications including health), artificial intelligence, cybersecurity, software engineering, internet of things, embedded systems, and more."
+    },
+    {
+      "id": "f12",
+      "kind": "faculty",
+      "name": "Dr. Shadnaz Asgari",
+      "detail": "Named on the Computer Engineering & Computer Science faculty listing (department-wide, not MSCS-specific). The listing card does not state a research blurb.",
+      "sourceUrl": "https://www.csulb.edu/college-of-engineering/computer-engineering-computer-science/faculty-staff",
+      "quote": "Dr. Shadnaz Asgari"
+    },
+    {
+      "id": "f13",
+      "kind": "faculty",
+      "name": "Dr. Amin Rezaei",
+      "detail": "Named on the Computer Engineering & Computer Science faculty listing (department-wide, not MSCS-specific). The listing card does not state a research blurb.",
+      "sourceUrl": "https://www.csulb.edu/college-of-engineering/computer-engineering-computer-science/faculty-staff",
+      "quote": "Dr. Amin Rezaei"
+    },
+    {
+      "id": "f14",
+      "kind": "faculty",
+      "name": "Dr. Wenlu Zhang",
+      "detail": "Named on the Computer Engineering & Computer Science faculty listing (department-wide, not MSCS-specific). The listing card does not state a research blurb.",
+      "sourceUrl": "https://www.csulb.edu/college-of-engineering/computer-engineering-computer-science/faculty-staff",
+      "quote": "Dr. Wenlu Zhang"
+    },
+    {
+      "id": "f15",
+      "kind": "faculty",
+      "name": "Daniel Commey",
+      "detail": "Named on the Computer Engineering & Computer Science faculty listing (department-wide, not MSCS-specific). The listing card does not state a research blurb.",
+      "sourceUrl": "https://www.csulb.edu/college-of-engineering/computer-engineering-computer-science/faculty-staff",
+      "quote": "Daniel Commey"
+    },
+    {
+      "id": "f16",
+      "kind": "faculty",
+      "name": "Dr. Todd Ebert",
+      "detail": "Named on the Computer Engineering & Computer Science faculty listing (department-wide, not MSCS-specific). The listing card does not state a research blurb.",
+      "sourceUrl": "https://www.csulb.edu/college-of-engineering/computer-engineering-computer-science/faculty-staff",
+      "quote": "Dr. Todd Ebert"
+    },
+    {
+      "id": "f17",
+      "kind": "faculty",
+      "name": "Dr. Bo Fu",
+      "detail": "Named on the Computer Engineering & Computer Science faculty listing (department-wide, not MSCS-specific). The listing card does not state a research blurb.",
+      "sourceUrl": "https://www.csulb.edu/college-of-engineering/computer-engineering-computer-science/faculty-staff",
+      "quote": "Dr. Bo Fu"
+    },
+    {
+      "id": "f18",
+      "kind": "faculty",
+      "name": "Dr. Amir Ghasemkhani",
+      "detail": "Named on the Computer Engineering & Computer Science faculty listing (department-wide, not MSCS-specific). The listing card does not state a research blurb.",
+      "sourceUrl": "https://www.csulb.edu/college-of-engineering/computer-engineering-computer-science/faculty-staff",
+      "quote": "Dr. Amir Ghasemkhani"
+    },
+    {
+      "id": "f19",
+      "kind": "faculty",
+      "name": "Dr. Darin Goldstein",
+      "detail": "Named on the Computer Engineering & Computer Science faculty listing (department-wide, not MSCS-specific). The listing card does not state a research blurb.",
+      "sourceUrl": "https://www.csulb.edu/college-of-engineering/computer-engineering-computer-science/faculty-staff",
+      "quote": "Dr. Darin Goldstein"
+    },
+    {
+      "id": "f20",
+      "kind": "faculty",
+      "name": "Dr. Forouzan Golshani",
+      "detail": "Named on the Computer Engineering & Computer Science faculty listing (department-wide, not MSCS-specific). The listing card does not state a research blurb.",
+      "sourceUrl": "https://www.csulb.edu/college-of-engineering/computer-engineering-computer-science/faculty-staff?page=1",
+      "quote": "Dr. Forouzan Golshani"
+    },
+    {
+      "id": "f21",
+      "kind": "faculty",
+      "name": "Dr. Min He",
+      "detail": "Named on the Computer Engineering & Computer Science faculty listing (department-wide, not MSCS-specific). The listing card does not state a research blurb.",
+      "sourceUrl": "https://www.csulb.edu/college-of-engineering/computer-engineering-computer-science/faculty-staff?page=1",
+      "quote": "Dr. Min He"
+    },
+    {
+      "id": "f22",
+      "kind": "faculty",
+      "name": "Dr. Michael Hoffman",
+      "detail": "Named on the Computer Engineering & Computer Science faculty listing (department-wide, not MSCS-specific). The listing card does not state a research blurb.",
+      "sourceUrl": "https://www.csulb.edu/college-of-engineering/computer-engineering-computer-science/faculty-staff?page=1",
+      "quote": "Dr. Michael Hoffman"
+    },
+    {
+      "id": "f23",
+      "kind": "faculty",
+      "name": "Dr. Tracy Bradley Maples",
+      "detail": "Named on the Computer Engineering & Computer Science faculty listing (department-wide, not MSCS-specific). The listing card does not state a research blurb.",
+      "sourceUrl": "https://www.csulb.edu/college-of-engineering/computer-engineering-computer-science/faculty-staff?page=1",
+      "quote": "Dr. Tracy Bradley Maples"
+    },
+    {
+      "id": "f24",
+      "kind": "faculty",
+      "name": "Dr. Ju Cheol Moon",
+      "detail": "Named on the Computer Engineering & Computer Science faculty listing (department-wide, not MSCS-specific). The listing card does not state a research blurb.",
+      "sourceUrl": "https://www.csulb.edu/college-of-engineering/computer-engineering-computer-science/faculty-staff?page=1",
+      "quote": "Dr. Ju Cheol Moon"
+    },
+    {
+      "id": "f25",
+      "kind": "faculty",
+      "name": "Dr. Frank Murgolo",
+      "detail": "Named on the Computer Engineering & Computer Science faculty listing (department-wide, not MSCS-specific). The listing card does not state a research blurb.",
+      "sourceUrl": "https://www.csulb.edu/college-of-engineering/computer-engineering-computer-science/faculty-staff?page=1",
+      "quote": "Dr. Frank Murgolo"
+    },
+    {
+      "id": "f26",
+      "kind": "faculty",
+      "name": "Dr. Oscar Morales Ponce",
+      "detail": "Named on the Computer Engineering & Computer Science faculty listing (department-wide, not MSCS-specific). The listing card does not state a research blurb.",
+      "sourceUrl": "https://www.csulb.edu/college-of-engineering/computer-engineering-computer-science/faculty-staff?page=1",
+      "quote": "Dr. Oscar Morales Ponce"
+    },
+    {
+      "id": "f27",
+      "kind": "faculty",
+      "name": "Dr. Xin Qin",
+      "detail": "Named on the Computer Engineering & Computer Science faculty listing (department-wide, not MSCS-specific). The listing card does not state a research blurb.",
+      "sourceUrl": "https://www.csulb.edu/college-of-engineering/computer-engineering-computer-science/faculty-staff?page=1",
+      "quote": "Dr. Xin Qin"
+    },
+    {
+      "id": "f28",
+      "kind": "faculty",
+      "name": "Dr. Muhammad Abdul Basit Ur Rahim",
+      "detail": "Named on the Computer Engineering & Computer Science faculty listing (department-wide, not MSCS-specific). The listing card does not state a research blurb.",
+      "sourceUrl": "https://www.csulb.edu/college-of-engineering/computer-engineering-computer-science/faculty-staff?page=1",
+      "quote": "Dr. Muhammad Abdul Basit Ur Rahim"
+    },
+    {
+      "id": "f29",
+      "kind": "faculty",
+      "name": "Dr. Arash Sarshar",
+      "detail": "Named on the Computer Engineering & Computer Science faculty listing (department-wide, not MSCS-specific). The listing card does not state a research blurb.",
+      "sourceUrl": "https://www.csulb.edu/college-of-engineering/computer-engineering-computer-science/faculty-staff?page=1",
+      "quote": "Dr. Arash Sarshar"
+    },
+    {
+      "id": "f30",
+      "kind": "faculty",
+      "name": "Dr. Hossein Sayadi",
+      "detail": "Named on the Computer Engineering & Computer Science faculty listing (department-wide, not MSCS-specific). The listing card does not state a research blurb.",
+      "sourceUrl": "https://www.csulb.edu/college-of-engineering/computer-engineering-computer-science/faculty-staff?page=1",
+      "quote": "Dr. Hossein Sayadi"
+    },
+    {
+      "id": "f31",
+      "kind": "faculty",
+      "name": "Dr. Shabnam Sodagari",
+      "detail": "Named on the Computer Engineering & Computer Science faculty listing (department-wide, not MSCS-specific). The listing card does not state a research blurb.",
+      "sourceUrl": "https://www.csulb.edu/college-of-engineering/computer-engineering-computer-science/faculty-staff?page=2",
+      "quote": "Dr. Shabnam Sodagari"
+    },
+    {
+      "id": "f32",
+      "kind": "faculty",
+      "name": "Dr. Jelena Trajkovic",
+      "detail": "Named on the Computer Engineering & Computer Science faculty listing (department-wide, not MSCS-specific). The listing card does not state a research blurb.",
+      "sourceUrl": "https://www.csulb.edu/college-of-engineering/computer-engineering-computer-science/faculty-staff?page=2",
+      "quote": "Dr. Jelena Trajkovic"
+    },
+    {
+      "id": "f33",
+      "kind": "faculty",
+      "name": "Wei Wei",
+      "detail": "Named on the Computer Engineering & Computer Science faculty listing (department-wide, not MSCS-specific). The listing card does not state a research blurb.",
+      "sourceUrl": "https://www.csulb.edu/college-of-engineering/computer-engineering-computer-science/faculty-staff?page=2",
+      "quote": "Wei Wei"
+    },
+    {
+      "id": "f34",
+      "kind": "faculty",
+      "name": "Dr. Xiaolong Wu",
+      "detail": "Named on the Computer Engineering & Computer Science faculty listing (department-wide, not MSCS-specific). The listing card does not state a research blurb.",
+      "sourceUrl": "https://www.csulb.edu/college-of-engineering/computer-engineering-computer-science/faculty-staff?page=2",
+      "quote": "Dr. Xiaolong Wu"
+    },
+    {
+      "id": "f35",
+      "kind": "faculty",
+      "name": "Dr. Hailu Xu",
+      "detail": "Named on the Computer Engineering & Computer Science faculty listing (department-wide, not MSCS-specific). The listing card does not state a research blurb.",
+      "sourceUrl": "https://www.csulb.edu/college-of-engineering/computer-engineering-computer-science/faculty-staff?page=2",
+      "quote": "Dr. Hailu Xu"
+    },
+    {
+      "id": "f36",
+      "kind": "faculty",
+      "name": "Dr. Yutong Zhao",
+      "detail": "Named on the Computer Engineering & Computer Science faculty listing (department-wide, not MSCS-specific). The listing card does not state a research blurb.",
+      "sourceUrl": "https://www.csulb.edu/college-of-engineering/computer-engineering-computer-science/faculty-staff?page=2",
+      "quote": "Dr. Yutong Zhao"
+    },
+    {
+      "id": "f37",
+      "kind": "faculty",
+      "name": "Shadnaz Asgari",
+      "detail": "CECS chair; profile states research integrating AI, signal processing, and computational modeling in clinical and biomedical contexts.",
+      "sourceUrl": "https://www.csulb.edu/college-of-engineering/computer-engineering-computer-science/page/dr-shadnaz-asgari",
+      "quote": "Dr. Asgari’s research integrates artificial intelligence, signal processing, and computational modeling to solve problems in clinical and biomedical contexts."
+    },
+    {
+      "id": "f38",
+      "kind": "faculty",
+      "name": "Todd Ebert",
+      "detail": "Profile: research interests in constraint programming.",
+      "sourceUrl": "https://www.csulb.edu/college-of-engineering/computer-engineering-computer-science/page/dr-todd-ebert",
+      "quote": "research interests lie in constraint programming, including high-level languages for stating constraint problems, and robust algorithms for solving them."
+    },
+    {
+      "id": "f39",
+      "kind": "faculty",
+      "name": "Bo Fu",
+      "detail": "Profile: research intersects Web Semantics, Human Data Interaction, and Visual Analytics.",
+      "sourceUrl": "https://www.csulb.edu/college-of-engineering/computer-engineering-computer-science/page/dr-bo-fu",
+      "quote": "Dr. Fu’s research intersects Web Semantics, Human Data Interaction, and Visual Analytics."
+    },
+    {
+      "id": "f40",
+      "kind": "faculty",
+      "name": "Amir Ghasemkhani",
+      "detail": "Profile: research interests in AI privacy and security for cyber-physical system applications.",
+      "sourceUrl": "https://www.csulb.edu/college-of-engineering/computer-engineering-computer-science/page/dr-amir-ghasemkhani",
+      "quote": "research interests revolve around AI privacy and security for cyber physical system (CPS) applications."
+    },
+    {
+      "id": "f41",
+      "kind": "faculty",
+      "name": "Darin Goldstein",
+      "detail": "Profile: interests include algorithms and data structures, games, distributed computation, and computational complexity.",
+      "sourceUrl": "https://www.csulb.edu/college-of-engineering/computer-engineering-computer-science/page/dr-darin-goldstein",
+      "quote": "Dr. Goldstein's interests include algorithms and data structures, games, distributed computation, computational complexity"
+    },
+    {
+      "id": "f42",
+      "kind": "faculty",
+      "name": "Min He",
+      "detail": "Profile: research interests include embedded systems, hardware/software codesign, software engineering for embedded systems, parallel algorithms, and optical interconnection networks.",
+      "sourceUrl": "https://www.csulb.edu/college-of-engineering/computer-engineering-computer-science/page/dr-min-he",
+      "quote": "research interests include embedded systems, hardware/software codesign for embedded systems, software engineering for embedded systems, parallel algorithms and models, and optical interconnection networks."
+    },
+    {
+      "id": "f43",
+      "kind": "faculty",
+      "name": "Tracy Bradley Maples",
+      "detail": "Profile: research interests in computer networking and modeling and simulation.",
+      "sourceUrl": "https://www.csulb.edu/college-of-engineering/computer-engineering-computer-science/page/dr-tracy-bradley-maples",
+      "quote": "research interests lie in the areas of computer networking, modeling and simulation."
+    },
+    {
+      "id": "f44",
+      "kind": "faculty",
+      "name": "Jelena Trajkovic",
+      "detail": "Profile: research interests include multicore embedded systems, pervasive computing, and IoT for critical biomedical and control applications.",
+      "sourceUrl": "https://www.csulb.edu/college-of-engineering/computer-engineering-computer-science/page/dr-jelena-trajkovic",
+      "quote": "research interests include multicore embedded systems, pervasive computing, and Internet of Things technologies for critical biomedical and control applications."
+    },
+    {
+      "id": "f45",
+      "kind": "faculty",
+      "name": "Hossein Sayadi",
+      "detail": "Profile: research interests span hardware security, AI and machine learning, cybersecurity, computer architecture, cyber-physical systems, and CS education.",
+      "sourceUrl": "https://www.csulb.edu/college-of-engineering/computer-engineering-computer-science/page/dr-hossein-sayadi",
+      "quote": "His research interests span hardware security, AI and machine learning, cybersecurity, computer architecture, cyber-physical systems, and computer science education."
+    },
+    {
+      "id": "f46",
+      "kind": "faculty",
+      "name": "Shabnam Sodagari",
+      "detail": "Graduate advisor. Profile notes teaching in information security, quantum computing, and machine learning.",
+      "sourceUrl": "https://www.csulb.edu/college-of-engineering/computer-engineering-computer-science/page/dr-shabnam-sodagari",
+      "quote": "She has taught courses on information security, quantum computing, and machine learning."
+    },
+    {
+      "id": "f47",
+      "kind": "faculty",
+      "name": "Daniel Commey",
+      "detail": "",
+      "sourceUrl": "https://www.csulb.edu/college-of-engineering/computer-engineering-computer-science/page/daniel-commey",
+      "quote": "Daniel Commey"
+    },
+    {
+      "id": "f48",
+      "kind": "faculty",
+      "name": "Michael Hoffman",
+      "detail": "",
+      "sourceUrl": "https://www.csulb.edu/college-of-engineering/computer-engineering-computer-science/page/dr-michael-hoffman",
+      "quote": "Dr. Michael Hoffman"
+    },
+    {
+      "id": "f49",
+      "kind": "faculty",
+      "name": "Amin Rezaei",
+      "detail": "Profile lists research interests in hardware security, machine learning, and computer architecture.",
+      "sourceUrl": "https://www.csulb.edu/college-of-engineering/computer-engineering-computer-science/page/dr-amin-rezaei",
+      "quote": "Hardware Security"
+    },
+    {
+      "id": "f50",
+      "kind": "faculty",
+      "name": "Wenlu Zhang",
+      "detail": "",
+      "sourceUrl": "https://www.csulb.edu/college-of-engineering/computer-engineering-computer-science/page/dr-wenlu-zhang",
+      "quote": "Dr. Wenlu Zhang"
+    },
+    {
+      "id": "f51",
+      "kind": "faculty",
+      "name": "Forouzan Golshani",
+      "detail": "Profile emphasizes career honors; it does not state a compact current research-area sentence.",
+      "sourceUrl": "https://www.csulb.edu/college-of-engineering/computer-engineering-computer-science/page/dr-forouzan-golshani",
+      "quote": "Forouzan Golshani is a Fellow of the National Academy of Inventors, a Life Time Fellow of IEEE and a Fellow of AAIA."
+    },
+    {
+      "id": "f52",
+      "kind": "overview",
+      "name": "Catalog heading",
+      "detail": "The 2026-2027 University Catalog program heading is Computer Science, M.S.",
+      "sourceUrl": "https://catalog.csulb.edu/preview_program.php?catoid=12&poid=6290",
+      "quote": "Computer Science, M.S."
+    },
+    {
+      "id": "f53",
+      "kind": "overview",
+      "name": "Program mission",
+      "detail": "The catalog describes a graduate program meant to prepare leaders in industry and also students who later pursue advanced degrees, with advanced courses in software and hardware analysis and design.",
+      "sourceUrl": "https://catalog.csulb.edu/preview_program.php?catoid=12&poid=6290",
+      "quote": "The mission of the graduate program in Computer Science at CSULB is to provide a high-quality educational experience and the technical specialization required to become successful leaders in industry."
+    },
+    {
+      "id": "f54",
+      "kind": "requirement",
+      "name": "Thesis or comprehensive examination",
+      "detail": "Students may finish with a thesis or a comprehensive examination.",
+      "sourceUrl": "https://catalog.csulb.edu/preview_program.php?catoid=12&poid=6290",
+      "quote": "The students may choose to do a thesis or take a comprehensive examination as the culmination of their program."
+    },
+    {
+      "id": "f55",
+      "kind": "requirement",
+      "name": "Admission degree background",
+      "detail": "Applicants need a bachelor's degree in computer engineering or computer science, or sufficient background in those fields, from a college or university.",
+      "sourceUrl": "https://catalog.csulb.edu/preview_program.php?catoid=12&poid=6290",
+      "quote": "To be considered for admission the graduate applicant must have earned a bachelor's degree in computer engineering, computer science or sufficient background in computer engineering or computer science from a college or university"
+    },
+    {
+      "id": "f56",
+      "kind": "requirement",
+      "name": "Admission GPA of 2.7 in last 60 semester units",
+      "detail": "The minimum GPA is 2.7 in the last 60 semester or 90 quarter upper-division major units attempted.",
+      "sourceUrl": "https://catalog.csulb.edu/preview_program.php?catoid=12&poid=6290",
+      "quote": "a minimum grade point average (GPA) of 2.7 in the last 60 semester or 90 quarter upper division major units attempted."
+    },
+    {
+      "id": "f57",
+      "kind": "requirement",
+      "name": "Apply through Cal State Apply, not the department",
+      "detail": "Applications go through Cal State Apply; the page says not to send an application to the department. International students also apply at Cal State Apply.",
+      "sourceUrl": "https://catalog.csulb.edu/preview_program.php?catoid=12&poid=6290",
+      "quote": "The student should apply online at www.calstate.edu/apply . Do not send an application to the Department."
+    },
+    {
+      "id": "f58",
+      "kind": "requirement",
+      "name": "Remove deficiencies before graduate-level courses",
+      "detail": "All deficiencies must be removed before a student attempts graduate-level courses.",
+      "sourceUrl": "https://catalog.csulb.edu/preview_program.php?catoid=12&poid=6290",
+      "quote": "All deficiencies must be removed before attempting graduate-level courses."
+    },
+    {
+      "id": "f59",
+      "kind": "requirement",
+      "name": "Advancement to candidacy: deficiencies and overall GPA",
+      "detail": "Students applying for advancement to candidacy must have completed all undergraduate deficiencies with grades of C or better and have an overall GPA of 3.0.",
+      "sourceUrl": "https://catalog.csulb.edu/preview_program.php?catoid=12&poid=6290",
+      "quote": "Students applying for advancement to candidacy must: have completed all undergraduate deficiencies with grades of \"C\" or better; have attained an overall grade point average (GPA) of 3.0;"
+    },
+    {
+      "id": "f60",
+      "kind": "requirement",
+      "name": "Advancement to candidacy: 9 units and advisor approval",
+      "detail": "They must also complete at least 9 units of required degree-applicable courses with a 3.0 GPA in those units, and have a plan of study approved by the CECS department graduate advisor.",
+      "sourceUrl": "https://catalog.csulb.edu/preview_program.php?catoid=12&poid=6290",
+      "quote": "have completed at least 9 units of required courses applicable to the degree with a GPA of at least 3.0 for the completed units; and have their plans of studies approved by the CECS department graduate advisor."
+    },
+    {
+      "id": "f61",
+      "kind": "requirement",
+      "name": "Degree unit total",
+      "detail": "The degree requires 30 units.",
+      "sourceUrl": "https://catalog.csulb.edu/preview_program.php?catoid=12&poid=6290",
+      "quote": "Degree Requirements (30 units)"
+    },
+    {
+      "id": "f62",
+      "kind": "requirement",
+      "name": "First-semester plan of study",
+      "detail": "Students must meet the Graduate Program Adviser at the start of the first semester to make a tentative plan of study. The page also says a detailed required-and-elective list is kept on the Graduate Program website.",
+      "sourceUrl": "https://catalog.csulb.edu/preview_program.php?catoid=12&poid=6290",
+      "quote": "Students must meet with the Graduate Program Adviser at the beginning of their first semester to create a tentative plan of study."
+    },
+    {
+      "id": "f63",
+      "kind": "requirement",
+      "name": "Culminating options and 400-level cap",
+      "detail": "Students must choose the Thesis Option or the Comprehensive Exam Option. At most 9 units of 400-level coursework may count toward the degree.",
+      "sourceUrl": "https://catalog.csulb.edu/preview_program.php?catoid=12&poid=6290",
+      "quote": "As a culminating activity, students must elect either the Thesis Option or the Comprehensive Exam Option. A maximum of 9 units of 400-level coursework may be applied toward the degree."
+    },
+    {
+      "id": "f64",
+      "kind": "requirement",
+      "name": "Comprehensive exam option unit split",
+      "detail": "The exam option requires 30 graduate hours in computer science, a passing comprehensive exam, 15 units of required core courses, and 15 units of allowed electives, with no more than 9 units from 400-level courses.",
+      "sourceUrl": "https://catalog.csulb.edu/preview_program.php?catoid=12&poid=6290",
+      "quote": "Student must complete 30 graduate hours credit in computer science and pass the comprehensive exam. 15 units of required core courses"
+    },
+    {
+      "id": "f65",
+      "kind": "requirement",
+      "name": "Exam-option elective units",
+      "detail": "Under the comprehensive exam option, students take 15 units from the allowed electives, with no more than 9 units from 400-level courses.",
+      "sourceUrl": "https://catalog.csulb.edu/preview_program.php?catoid=12&poid=6290",
+      "quote": "15 units from allowed electives (No more than 9 units may be from the 400 level courses.)"
+    },
+    {
+      "id": "f66",
+      "kind": "requirement",
+      "name": "Comprehensive exam covered courses",
+      "detail": "The comprehensive exam covers CECS 524, CECS 528, and CECS 543. The page does not list CECS 530 or CECS 558 among the covered courses, even though those two are in the required core.",
+      "sourceUrl": "https://catalog.csulb.edu/preview_program.php?catoid=12&poid=6290",
+      "quote": "Comprehensive examination covering the following required courses: CECS 524 - Advanced Topics in Programming Languages (3 units) CECS 528 - Advanced Analysis of Algorithms (3 units) CECS 543 - Advanced Software Engineering (3 units)"
+    },
+    {
+      "id": "f67",
+      "kind": "requirement",
+      "name": "Thesis option unit split",
+      "detail": "The thesis option requires 15 units of required courses, 9 units of allowed electives (no more than 9 units from 400-level courses), and 6 units of research and thesis.",
+      "sourceUrl": "https://catalog.csulb.edu/preview_program.php?catoid=12&poid=6290",
+      "quote": "15 units of required courses"
+    },
+    {
+      "id": "f68",
+      "kind": "requirement",
+      "name": "Thesis-option elective units",
+      "detail": "Under the thesis option, students take 9 units from allowed electives, with no more than 9 units from 400-level courses.",
+      "sourceUrl": "https://catalog.csulb.edu/preview_program.php?catoid=12&poid=6290",
+      "quote": "9 units from allowed electives (No more than 9 units may be from the 400 level courses.);"
+    },
+    {
+      "id": "f69",
+      "kind": "requirement",
+      "name": "Thesis research and report",
+      "detail": "The thesis option includes 6 units of research and thesis with a written report and oral presentation approved by the thesis committee. At least 3 of those units must be CECS 698; the remaining 3 units may be CECS 697 or CECS 698.",
+      "sourceUrl": "https://catalog.csulb.edu/preview_program.php?catoid=12&poid=6290",
+      "quote": "6 units of research and thesis with written report and oral presentation approved by the thesis committee."
+    },
+    {
+      "id": "f70",
+      "kind": "requirement",
+      "name": "Thesis minimum from CECS 698",
+      "detail": "At least 3 of the 6 thesis-option research units must be taken from CECS 698 Thesis or Industrial Project.",
+      "sourceUrl": "https://catalog.csulb.edu/preview_program.php?catoid=12&poid=6290",
+      "quote": "At least 3 units must be taken from the following course CECS 698 - Thesis or Industrial Project (3-6 units)"
+    },
+    {
+      "id": "f71",
+      "kind": "requirement",
+      "name": "Thesis remaining 3 units",
+      "detail": "The remaining 3 thesis research units may be CECS 697 Directed Research or CECS 698 Thesis or Industrial Project.",
+      "sourceUrl": "https://catalog.csulb.edu/preview_program.php?catoid=12&poid=6290",
+      "quote": "Remaining 3 units may be taken from either of the following courses CECS 697 - Directed Research (1-3 units) CECS 698 - Thesis or Industrial Project (3-6 units)"
+    },
+    {
+      "id": "f72",
+      "kind": "course",
+      "name": "CECS 524",
+      "detail": "Required 3-unit core course for both culminating options; also covered on the comprehensive exam.",
+      "sourceUrl": "https://catalog.csulb.edu/preview_program.php?catoid=12&poid=6290",
+      "quote": "CECS 524 - Advanced Topics in Programming Languages (3 units)"
+    },
+    {
+      "id": "f73",
+      "kind": "course",
+      "name": "CECS 528",
+      "detail": "Required 3-unit core course for both culminating options; also covered on the comprehensive exam.",
+      "sourceUrl": "https://catalog.csulb.edu/preview_program.php?catoid=12&poid=6290",
+      "quote": "CECS 528 - Advanced Analysis of Algorithms (3 units)"
+    },
+    {
+      "id": "f74",
+      "kind": "course",
+      "name": "CECS 530",
+      "detail": "Required 3-unit core course for both culminating options.",
+      "sourceUrl": "https://catalog.csulb.edu/preview_program.php?catoid=12&poid=6290",
+      "quote": "CECS 530 - Advanced Computer Architecture I (3 units)"
+    },
+    {
+      "id": "f75",
+      "kind": "course",
+      "name": "CECS 543",
+      "detail": "Required 3-unit core course for both culminating options; also covered on the comprehensive exam.",
+      "sourceUrl": "https://catalog.csulb.edu/preview_program.php?catoid=12&poid=6290",
+      "quote": "CECS 543 - Advanced Software Engineering (3 units)"
+    },
+    {
+      "id": "f76",
+      "kind": "course",
+      "name": "CECS 558",
+      "detail": "Required 3-unit core course for both culminating options.",
+      "sourceUrl": "https://catalog.csulb.edu/preview_program.php?catoid=12&poid=6290",
+      "quote": "CECS 558 - Deep Learning (3 units)"
+    },
+    {
+      "id": "f77",
+      "kind": "course",
+      "name": "CECS 698",
+      "detail": "Thesis or Industrial Project, 3-6 units; at least 3 units are required in the thesis option.",
+      "sourceUrl": "https://catalog.csulb.edu/preview_program.php?catoid=12&poid=6290",
+      "quote": "CECS 698 - Thesis or Industrial Project (3-6 units)"
+    },
+    {
+      "id": "f78",
+      "kind": "course",
+      "name": "CECS 697",
+      "detail": "Directed Research, 1-3 units; listed among exam-option electives and as a way to finish the remaining 3 thesis units.",
+      "sourceUrl": "https://catalog.csulb.edu/preview_program.php?catoid=12&poid=6290",
+      "quote": "CECS 697 - Directed Research (1-3 units)"
+    },
+    {
+      "id": "f79",
+      "kind": "course",
+      "name": "CECS 519",
+      "detail": "Listed among allowed electives on the 2026-2027 catalog program page for the comprehensive-exam and/or thesis option.",
+      "sourceUrl": "https://catalog.csulb.edu/preview_program.php?catoid=12&poid=6290",
+      "quote": "CECS 519 - Theory of Computation (3 units)"
+    },
+    {
+      "id": "f80",
+      "kind": "course",
+      "name": "CECS 521",
+      "detail": "Listed among allowed electives on the 2026-2027 catalog program page for the comprehensive-exam and/or thesis option.",
+      "sourceUrl": "https://catalog.csulb.edu/preview_program.php?catoid=12&poid=6290",
+      "quote": "CECS 521 - Database Architecture (3 units)"
+    },
+    {
+      "id": "f81",
+      "kind": "course",
+      "name": "CECS 526",
+      "detail": "Listed among allowed electives on the 2026-2027 catalog program page for the comprehensive-exam and/or thesis option.",
+      "sourceUrl": "https://catalog.csulb.edu/preview_program.php?catoid=12&poid=6290",
+      "quote": "CECS 526 - Advanced Operating Systems (3 units)"
+    },
+    {
+      "id": "f82",
+      "kind": "course",
+      "name": "CECS 529",
+      "detail": "Listed among allowed electives on the 2026-2027 catalog program page for the comprehensive-exam and/or thesis option.",
+      "sourceUrl": "https://catalog.csulb.edu/preview_program.php?catoid=12&poid=6290",
+      "quote": "CECS 529 - Search Engine Technology (3 units)"
+    },
+    {
+      "id": "f83",
+      "kind": "course",
+      "name": "CECS 532",
+      "detail": "Listed among allowed electives on the 2026-2027 catalog program page for the comprehensive-exam and/or thesis option.",
+      "sourceUrl": "https://catalog.csulb.edu/preview_program.php?catoid=12&poid=6290",
+      "quote": "CECS 532 - Memory Design and Implementation (3 units)"
+    },
+    {
+      "id": "f84",
+      "kind": "course",
+      "name": "CECS 544",
+      "detail": "Listed among allowed electives on the 2026-2027 catalog program page for the comprehensive-exam and/or thesis option.",
+      "sourceUrl": "https://catalog.csulb.edu/preview_program.php?catoid=12&poid=6290",
+      "quote": "CECS 544 - Software Testing and Verification (3 units)"
+    },
+    {
+      "id": "f85",
+      "kind": "course",
+      "name": "CECS 545",
+      "detail": "Listed among allowed electives on the 2026-2027 catalog program page for the comprehensive-exam and/or thesis option.",
+      "sourceUrl": "https://catalog.csulb.edu/preview_program.php?catoid=12&poid=6290",
+      "quote": "CECS 545 - Software Architecture (3 units)"
+    },
+    {
+      "id": "f86",
+      "kind": "course",
+      "name": "CECS 546",
+      "detail": "Listed among allowed electives on the 2026-2027 catalog program page for the comprehensive-exam and/or thesis option.",
+      "sourceUrl": "https://catalog.csulb.edu/preview_program.php?catoid=12&poid=6290",
+      "quote": "CECS 546 - Fault Tolerant Computing Systems (3 units)"
+    },
+    {
+      "id": "f87",
+      "kind": "course",
+      "name": "CECS 547",
+      "detail": "Listed among allowed electives on the 2026-2027 catalog program page for the comprehensive-exam and/or thesis option.",
+      "sourceUrl": "https://catalog.csulb.edu/preview_program.php?catoid=12&poid=6290",
+      "quote": "CECS 547 - Software Maintenance, Reengineering and Reuse (3 units)"
+    },
+    {
+      "id": "f88",
+      "kind": "course",
+      "name": "CECS 550",
+      "detail": "Listed among allowed electives on the 2026-2027 catalog program page for the comprehensive-exam and/or thesis option.",
+      "sourceUrl": "https://catalog.csulb.edu/preview_program.php?catoid=12&poid=6290",
+      "quote": "CECS 550 - Pattern Recognition (3 units)"
+    },
+    {
+      "id": "f89",
+      "kind": "course",
+      "name": "CECS 551",
+      "detail": "Listed among allowed electives on the 2026-2027 catalog program page for the comprehensive-exam and/or thesis option.",
+      "sourceUrl": "https://catalog.csulb.edu/preview_program.php?catoid=12&poid=6290",
+      "quote": "CECS 551 - Advanced Artificial Intelligence (3 units)"
+    },
+    {
+      "id": "f90",
+      "kind": "course",
+      "name": "CECS 552",
+      "detail": "Listed among allowed electives on the 2026-2027 catalog program page for the comprehensive-exam and/or thesis option.",
+      "sourceUrl": "https://catalog.csulb.edu/preview_program.php?catoid=12&poid=6290",
+      "quote": "CECS 552 - Computer Simulation and Modeling (3 units)"
+    },
+    {
+      "id": "f91",
+      "kind": "course",
+      "name": "CECS 553",
+      "detail": "Listed among allowed electives on the 2026-2027 catalog program page for the comprehensive-exam and/or thesis option.",
+      "sourceUrl": "https://catalog.csulb.edu/preview_program.php?catoid=12&poid=6290",
+      "quote": "CECS 553 - Machine Vision (3 units)"
+    },
+    {
+      "id": "f92",
+      "kind": "course",
+      "name": "CECS 561",
+      "detail": "Listed among allowed electives on the 2026-2027 catalog program page for the comprehensive-exam and/or thesis option.",
+      "sourceUrl": "https://catalog.csulb.edu/preview_program.php?catoid=12&poid=6290",
+      "quote": "CECS 561 - Hardware/Software Co-design (3 units)"
+    },
+    {
+      "id": "f93",
+      "kind": "course",
+      "name": "CECS 570",
+      "detail": "Listed among allowed electives on the 2026-2027 catalog program page for the comprehensive-exam and/or thesis option.",
+      "sourceUrl": "https://catalog.csulb.edu/preview_program.php?catoid=12&poid=6290",
+      "quote": "CECS 570 - Concurrent Parallel Programming (3 units)"
+    },
+    {
+      "id": "f94",
+      "kind": "course",
+      "name": "CECS 571",
+      "detail": "Listed among allowed electives on the 2026-2027 catalog program page for the comprehensive-exam and/or thesis option.",
+      "sourceUrl": "https://catalog.csulb.edu/preview_program.php?catoid=12&poid=6290",
+      "quote": "CECS 571 - Fundamentals of Semantic Web technologies (3 units)"
+    },
+    {
+      "id": "f95",
+      "kind": "course",
+      "name": "CECS 572",
+      "detail": "Listed among allowed electives on the 2026-2027 catalog program page for the comprehensive-exam and/or thesis option.",
+      "sourceUrl": "https://catalog.csulb.edu/preview_program.php?catoid=12&poid=6290",
+      "quote": "CECS 572 - Advanced Computer Networking (3 units)"
+    },
+    {
+      "id": "f96",
+      "kind": "course",
+      "name": "CECS 574",
+      "detail": "Listed among allowed electives on the 2026-2027 catalog program page for the comprehensive-exam and/or thesis option.",
+      "sourceUrl": "https://catalog.csulb.edu/preview_program.php?catoid=12&poid=6290",
+      "quote": "CECS 574 - Distributed Computing (3 units)"
+    },
+    {
+      "id": "f97",
+      "kind": "course",
+      "name": "CECS 575",
+      "detail": "Listed among allowed electives on the 2026-2027 catalog program page for the comprehensive-exam and/or thesis option.",
+      "sourceUrl": "https://catalog.csulb.edu/preview_program.php?catoid=12&poid=6290",
+      "quote": "CECS 575 - Object-Oriented Analysis and Design (3 units)"
+    },
+    {
+      "id": "f98",
+      "kind": "course",
+      "name": "CECS 577",
+      "detail": "Listed among allowed electives on the 2026-2027 catalog program page for the comprehensive-exam and/or thesis option.",
+      "sourceUrl": "https://catalog.csulb.edu/preview_program.php?catoid=12&poid=6290",
+      "quote": "CECS 577 - Blockchain Technology (3 units)"
+    },
+    {
+      "id": "f99",
+      "kind": "course",
+      "name": "CECS 579",
+      "detail": "Listed among allowed electives on the 2026-2027 catalog program page for the comprehensive-exam and/or thesis option.",
+      "sourceUrl": "https://catalog.csulb.edu/preview_program.php?catoid=12&poid=6290",
+      "quote": "CECS 579 - Information Security (3 units)"
+    },
+    {
+      "id": "f100",
+      "kind": "course",
+      "name": "CECS 590",
+      "detail": "Listed among allowed electives on the 2026-2027 catalog program page for the comprehensive-exam and/or thesis option.",
+      "sourceUrl": "https://catalog.csulb.edu/preview_program.php?catoid=12&poid=6290",
+      "quote": "CECS 590 - Selected Topics in Computer Science (3 units)"
+    }
+  ]
+}

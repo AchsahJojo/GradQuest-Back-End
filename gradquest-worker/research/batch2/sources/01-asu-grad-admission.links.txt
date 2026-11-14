@@ -1,0 +1,168 @@
+#skip-to-content	Skip to main content
+https://accessibility.asu.edu/report	Report an accessibility problem
+https://asu.edu	ASU Home
+https://my.asu.edu	My ASU
+https://www.asu.edu/academics/colleges-schools	Colleges and Schools
+/caslogin	Sign In
+https://www.asu.edu	
+https://admission.asu.edu/	Admission
+/apply	Apply
+/future-student-request	Request info
+/	Home
+https://admission.asu.edu/apply/student-type	Info for
+https://admission.asu.edu/apply/student-type	Admission Info
+https://admission.asu.edu/apply	Apply
+https://admission.asu.edu/apply/first-year	First-Year Student
+/apply/first-year/admission	Admission requirements
+/apply/first-year/admitted/cancel-defer	Canceling or deferring your undergrad admission
+/apply/first-year/competency-requirements	Detailed admission requirements
+/apply/international/undergrad/english-proficiency	English proficiency for international undergraduate applicants
+/apply/first-year/highschool	Prepare for college
+https://admission.asu.edu/apply/transfer	Transfer
+/apply/transfer	Transfer to ASU
+/apply/transfer/admission	Steps and Requirements
+/apply/transfer/MyPath2ASU	MyPath2ASU®
+/apply/transfer/transferring-credits	Transferring Credits to ASU
+/apply/transfer/admitted	Admitted students
+/aas-bas/brigham-young-university-idaho	AAS to BAS for Brigham Young University Idaho
+/aas-bas/central-arizona-college	AAS to BAS for Central Arizona College
+/aas-bas/eastern-arizona-college	AAS to BAS for Eastern Arizona College
+/aas-bas-eastern-arizona-college	AAS to BAS for Eastern Arizona College
+/transfer/santa-monica-college	ASU and Santa Monica College
+/transfer/byu-idaho	BYU-Idaho partnership
+/transfer/gila-valley/org-leadership	Gila Valley Organizational Leadership
+/transfer/maricopa	Maricopa Community colleges
+/transfer/pinal/org-leadership	Pinal Organizational Leadership
+/transfer/transfer-achievement-grant	Transfer Achievement Award
+/transfer/transfer-guide-faqs	Transfer Guide FAQs
+/transfer/asu-yuma/criminology-criminal-justice	Yuma Criminal Justice
+https://admission.asu.edu/apply/graduate	Graduate
+https://admission.asu.edu/apply/international	International
+/apply/international	International experience
+/apply/international/first-year	International first-year admission
+/apply/international/admitted/arrival	International Arrival and Welcome
+/apply/international/transfer	International transfer student admission
+/apply/international/graduate	International graduate admission
+/apply/international/admitted/first-year	Admitted student next steps: International first-year students
+/apply/international/student-visa	International student visa
+/apply/parents-families	Parents
+https://admission.asu.edu/apply/counselors	Counselors
+/apply/veterans	Veterans
+https://asuonline.asu.edu	ASU Online
+/academics	Academics
+/academics/majors-degrees	Majors and Degrees
+/academics/schools	Schools and Colleges
+https://barretthonors.asu.edu/admissions	Barrett, the Honors College
+/academics/success	Success and Results
+/cost-aid	Cost and Aid
+/cost-aid/resident-first-year	First-year Student from Arizona
+/cost-aid/non-resident-first-year	First-year Student from Another State
+/cost-aid/transfer	Transfer
+/cost-aid/graduate	Graduate
+/cost-aid/international	International
+/cost-aid/veteran-military	Veteran
+https://asuonline.asu.edu/what-it-costs	Online
+/cost-aid/wue	Western Undergraduate Exchange
+https://medicine.asu.edu/future-students/tuition-fees	School of Medicine
+/campus-life	ASU Student Life
+https://campus.asu.edu/	Campuses
+/campus-life/get-involved	Get Involved
+/campus-life/health-wellness	Health and Wellness
+/campus-life/housing-dining	Housing and Dining
+/campus-life/phoenix	Metro Phoenix
+/campus-life/resources	Resources
+https://visit.asu.edu	Visit ASU
+https://visit.asu.edu/schedule	Walking Tours
+https://tours.asu.edu	On-Demand Virtual Tours
+https://yourfuture.asu.edu/campus-fit	Campus Fit Quiz
+https://visit.asu.edu/what-to-expect	What to Expect for Your On-Campus Visit
+/contact	Contact
+/contact/undergraduate	Undergraduate
+/contact/graduate	Graduate
+/contact/veterans	Veterans
+/contact	Contact Us
+/college-planning-advice	College Planning Advice
+/contact/faqs	FAQs
+/	Home
+/apply	Apply
+/apply/graduate	Graduate
+https://ope.ed.gov/accreditation/Search.aspx	regionally accredited institution
+/graduate/letter-of-recommendation	letters of recommendation
+https://degrees.apps.asu.edu/masters-phd	Graduate Degree Search
+/apply/international/graduate/english-proficiency	English proficiency
+/apply/international/student-visa	U.S. visa
+https://admission.asu.edu/apply/transcripts	transcripts
+/apply/graduate	Pursue an Advanced Degree
+/apply/graduate/admission	Steps and Requirements
+/apply/graduate/student-resources	Graduate Student Resources
+/apply/graduate/admitted	Admitted Students
+/apply/international/graduate	International graduate admission
+https://degrees.apps.asu.edu/masters-phd	Degree Search
+/apply/international/graduate	international graduate admission steps and requirements
+https://admission.asu.edu/apply/graduate/admission	minimum standards
+https://degrees.apps.asu.edu/masters-phd	View degree requirements
+https://webapp4.asu.edu/dgsadmissions/Index.jsp	ASU’s Application for Admission
+https://law.asu.edu/admissions	admission site
+#steps	Watch these step-by-step videos
+https://webapp4.asu.edu/dgsadmissions/Index.jsp	Apply now
+https://tuition.asu.edu/cost/tuition-estimator	ASU Tuition Estimator
+https://admission.asu.edu/apply/transcripts	transcripts
+/cdn-cgi/l/email-protection	[email protected]
+https://admission.asu.edu/apply/transcripts	More about transcripts
+https://admission.asu.edu/international/graduate/english-proficiency	https://admission.asu.edu/international/graduate/english-proficiency
+https://webapp4.asu.edu/programs/t5/graduate/false	Degree Search
+https://admission.asu.edu/graduate/letter-of-recommendation	letters of recommendation
+https://admission.asu.edu/international/graduate/english-proficiency	English proficiency
+https://degrees.apps.asu.edu/masters-phd	Degree Search
+https://webapp4.asu.edu/dgsadmissions/?_ga=2.194432104.490850193.1629130351-false	application
+/graduate/letter-of-recommendation	letters of recommendation
+/graduate/personal-statement	personal statement
+https://webapp4.asu.edu/programs/t5/graduate/false?_ga=2.147734770.490850193.1629130351-false	Degree Search
+/apply/calculate-gpa	calculators
+/graduate/seminars	ASU's Explore Graduate School Seminars
+https://admission.asu.edu/apply/graduate/admission#webspark-anchor-link--3168	chart above
+/contact/faqs#graduate	View more FAQs
+https://www.facebook.com/FutureSunDevils	
+https://twitter.com/FutureSunDevils	
+https://www.instagram.com/FutureSunDevils	
+https://www.youtube.com/@futuresundevils	
+https://www.asufoundation.org/?_gl=1*19x7vxk*_gcl_au*MTY1Njg5MDEzMC4xNzc2NzI2NTYyLjE0NzI3Mjc0Ni4xNzc4Njg2OTAwLjE3Nzg2ODY5MDA.*FP	Support ASU
+#footlink-Second-1	First-year Students
+/apply/first-year	Overview
+/apply/first-year/admission	Steps and Requirements
+/cost-aid/resident-first-year	Cost and Aid
+/apply/nondegree	Nondegree First-year
+/apply/first-year/readmission	Readmission
+/visiting	Visiting University Students
+/contact/undergraduate	Contact Your Rep
+#footlink-Third-1	Transfer and Second Bachelor Students
+/apply/transfer	Overview
+/apply/transfer/admission	Steps and Requirements
+/cost-aid/resident-transfer	Cost and Aid
+/apply/transfer/transferring-credits	Transferring Credits
+/apply/transfer/MyPath2ASU	Pathway Programs
+/contact/undergraduate	Contact Your Rep
+#footlink-Fourth-1	Graduate Students
+/apply/graduate	Overview
+/apply/graduate/admission	Steps and Requirements
+/cost-aid/graduate	Cost and Aid
+/apply/graduate/student-resources	Resources
+/graduate/nondegree	Nondegree Graduate
+/apply/graduate/admitted	Admitted Students
+/contact/graduate	Contact Your Rep
+#footlink-Fifth-1	International Students
+/apply/international	Steps and Requirements
+/apply/international/student-visa	Student Visa
+/apply/international/admitted/arrival	Orientation
+/contact	Contact Your Rep
+https://www.asu.edu/about/locations-maps	Maps and Locations
+https://cfo.asu.edu/applicant	Jobs
+https://search.asu.edu/?search-tabs=web_dir_faculty_staff	Directory
+https://www.asu.edu/about/contact	Contact ASU
+https://my.asu.edu	My ASU
+https://www.asu.edu/rankings	
+https://www.asu.edu/about/copyright-trademark	Copyright and Trademark
+https://accessibility.asu.edu/report	Accessibility
+https://www.asu.edu/about/privacy	Privacy
+https://www.asu.edu/about/terms-of-use	Terms of Use
+https://www.asu.edu/emergency	Emergency

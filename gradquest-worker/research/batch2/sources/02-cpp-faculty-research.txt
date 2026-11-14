@@ -1,0 +1,398 @@
+TITLE: 
+Faculty Research Interests
+
+- 
+
+- 
+- 
+
+- 
+- 
+- 
+- 
+- 
+
+- 
+
+- 
+apply 
+visit 
+info 
+give 
+mycpp 
+
+Search 
+
+- 
+
+- 
+apply 
+visit 
+info 
+give 
+mycpp 
+
+- 
+
+apply 
+visit 
+info 
+give 
+mycpp 
+
+- 
+Home 
+
+- 
+
+about 
+
+- 
+
+admissions & aid 
+
+- 
+
+academics 
+
+- 
+
+life at CPP 
+
+- 
+athletics 
+
+- 
+alumni 
+
+- 
+news & events 
+
+- 
+future students 
+| 
+
+- 
+current students 
+| 
+
+- 
+families 
+| 
+
+- 
+faculty & staff 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+Computer Science
+
+- 
+Home 
+
+- 
+Program Evaluation 
+
+- 
+
+Program Evaluation
+
+- 
+
+Program Accreditation & Assessment
+
+- 
+Undergraduate Program 
+
+- 
+
+Undergraduate Program
+
+- 
+
+Course Descriptions
+
+- 
+
+Student Resources
+
+- 
+
+Employment Opportunities
+
+- 
+
+Research Opportunities
+
+- 
+
+Scholarship Opportunities
+
+- 
+
+Minor in CS
+
+- 
+
+CS Senior Project
+
+- 
+
+CS Internship
+
+- 
+
+Forms
+
+- 
+
+Minor in Data Science
+
+- 
+
+Artificial Intelligence Minor
+
+- 
+
+Computational Linguistics Minor
+
+- 
+
+Cyber Security Minor
+
+- 
+Prospective Graduate Students 
+
+- 
+
+Prospective Graduate Students
+
+- 
+
+Program Information
+
+- 
+
+Admission Requirements
+
+- 
+
+Application Procedures
+
+- 
+
+Frequently Asked Questions
+
+- 
+Current Graduate Students 
+
+- 
+
+Current Graduate Students
+
+- 
+
+News & Announcements
+
+- 
+
+Course Descriptions
+
+- 
+
+Planned Future Course Offerings
+
+- 
+
+Faculty Research and Interests
+
+- 
+
+Recent Master’s Theses/Projects
+
+- 
+
+Program Assessment
+
+- 
+
+Graduate Resources
+
+- 
+Faculty & Staff 
+
+- 
+
+Faculty & Staff
+
+- 
+
+Permanent Faculty
+
+- 
+
+Lecturers
+
+- 
+
+Emeritus
+
+- 
+
+Staff
+
+- 
+
+Faculty Research Interests
+
+- 
+
+Faculty & Staff Awards
+
+- 
+CS Student Labs 
+
+- 
+
+CS Student Labs
+
+- 
+
+Lab Use and Hours
+
+- 
+
+Instructional Labs
+
+- 
+
+Research Labs
+
+- 
+CS Student Clubs 
+
+- 
+Advising & Procedures 
+
+- 
+
+College of Science Advising Center
+
+- 
+
+Alumni
+
+- 
+
+CSSA @ CPP
+
+- 
+Collaboration and Outreach 
+
+- 
+
+Support the Department
+
+- 
+
+Contact Information
+
+H1: Faculty Research Interests
+
+H3: 🔐 Dr. Abdelfattah Amamra 
+
+Expertise: Android security, network security, malware analysis and detection, embedded system virtualization and security, anomaly detection, machine learning classifiers
+
+H3: 🛡️ Dr. Tingting Chen 
+
+Expertise: Big data security and privacy, health informatics, and cybersecurity in general
+
+H3: 🕵️ Dr. Mohammad Husain 
+
+Expertise: Systems and network security, digital forensics in embedded systems and cloud computing, smartphone security and social applications, power-aware secure computing
+
+H3: 🎵 Dr. Fatemeh Jamshidi 
+
+Expertise: Artificial intelligence, computer science education, computer music, machine learning and deep learning in music, game AI, game music, XR and mixed reality, large language models in music, human-AI cooperation
+
+H3: ⚙️ Dr. Hao Ji 
+
+Expertise: Big data analysis, high performance computing, large-scale linear algebra
+
+H3: 🧮 Dr. John Korah 
+
+Expertise: Parallel & distributed algorithm design, high performance computing, large & dynamic network analysis, computational social systems, cybersecurity, parallel/distributed information retrieval, modeling & simulation
+
+H3: 🔍 Dr. Ericsson Santana Marin 
+
+Expertise: Cyber-threat intelligence, social network analysis, network science, machine learning, data mining, artificial intelligence
+
+H3: 📷 Dr. Amar Raheja 
+
+Expertise: Image processing, computer vision, machine learning, multidimensional data analysis and visualization, applied AI (biomedical, agriculture, controls, geology)
+
+H3: 🌿 Dr. Brianna Posadas 
+
+Expertise: Human-computer interaction, user-centered design and technology adoption, usable security, accessibility and inclusive design, applied computing in agriculture and other real-world domains, data science and big data analysis, remote sensing (UAVs), computing education 
+
+H3: 💾 Dr. Salam Salloum 
+
+Expertise: Fault tolerant computing, computer architecture (arithmetic, sorting networks, interconnection networks), algorithm design, software engineering, database theory & design, information security
+
+H3: 👩‍💻 Dr. Wendy Shi 
+
+Expertise: Human-computer interaction, computing education, collaborative and social computing, learning analytics, educational data mining, AI in education, data visualization, future of work
+
+H3: 🌐 Dr. Ben Steichen 
+
+Expertise: Human-centered computing, personalization, adaptive information retrieval & visualization, web & data science, multilingualism
+
+H3: ☁️ Dr. Yu Sun 
+
+Expertise: Software engineering, cloud computing, mobile computing, software entrepreneurship
+
+H3: 🤖 Dr. Daisy Tang 
+
+Expertise: Robotics, AI, human-robot interaction, machine learning, multi-agent systems, educational robotics
+
+H3: 🚗 Dr. Yunsheng Wang 
+
+Expertise: Wireless networks and mobile computing, AIoT, connected and autonomous vehicles, edge computing, cybersecurity
+
+H3: 🔒 Dr. Mingyan Xiao 
+
+Expertise: Privacy preserving, mobile crowdsourcing, system security
+
+H3: 🧩 Dr. Lan Yang 
+
+Expertise: Big data analytics, cloud computing, web-based software development, parallel and distributed computing, computer architecture
+
+H3: 💡 Dr. G. S. Young 
+
+Expertise: Parallel and distributed computing, computer networks, parallel computer architecture, supercomputing, scheduling, combinatorial optimization
+
+Apply 
+Maps 
+Visit 
+Contact Us 
+
+Copyright © California State Polytechnic University, Pomona. All Rights Reserved 
+
+A campus of 
+
+The California State University .
+
+Title IX 
+Feedback 
+Privacy 
+Cookie Preferences 
+Accessibility 
+Document Readers

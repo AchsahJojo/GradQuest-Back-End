@@ -1,0 +1,37 @@
+                                                                    CSUEB Degree Roadmap
+
+
+                   Master of Computer Science - Computer Science Concentration in the Department of Computer Science
+
+A Master's Degree must have at least 30 units. Use the area below to list all program requirements in the recommended sequence, using
+as many semesters as required.
+                               TOTAL UNITS TO DEGREE:                                                                                   30
+                 Course        Course Title                                                           Units
+First Semester
+                 CS 601        Advanced Algorithms                                                                                       3
+                 CS 621        Operating System Design                                                                                   3
+                 CS 651        Web Systems                                                                                               3
+                 CS xxx        Elective                                                                                                  3
+                 ***           if student has assigned prerequisites take in 1st & 2nd semester
+                                                                                             TOTAL:                                     12
+Second Semester
+            CS 611             Theory of Computation                                                                                     3
+            CS 671             Cybersecurity                                                                                             3
+            CS xxx             Elective                                                                                                  3
+            CS xxx             Elective                                                                                                  3
+            ***                if student has assigned prerequisites take in 1st & 2nd semester
+                                                                                             TOTAL:                                     12
+Third Semester
+              CS xxx           Elective                                                                                                  3
+              CS 69x           Comp Exams, Cap Project, Thesis                                                                           3
+
+
+                                                                                           TOTAL:                                        6
+
+Total All Semesters                                                                        TOTAL:                                       30
+
+
+
+
+                                                                                                                                             form updated July 31, 2015
+

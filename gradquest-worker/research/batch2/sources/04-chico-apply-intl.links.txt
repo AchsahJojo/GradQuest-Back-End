@@ -1,0 +1,155 @@
+#content	Skip to Main Content
+/	California State University, Chico
+https://www.csuchico.edu/academics/index.shtml	Academics
+https://www.csuchico.edu/academics/majors-programs/index.shtml	Majors and Programs
+https://www.csuchico.edu/academics/graduate-studies.shtml	Graduate Studies
+https://www.csuchico.edu/academics/college/index.shtml	Colleges
+https://www.csuchico.edu/academics/online.shtml	Online Learning
+https://www.csuchico.edu/academics/advising/index.shtml	Academic Advising
+https://www.csuchico.edu/academics/enrichment/index.shtml	Academic Enrichment
+https://catalog.csuchico.edu/	Catalog
+https://www.csuchico.edu/schedule/index.shtml	Class Schedule
+https://www.csuchico.edu/admissions/index.shtml	Admissions
+https://www.csuchico.edu/admissions/first-time/index.shtml	First-Time in College
+https://www.csuchico.edu/admissions/transfer/index.shtml	Transfer Students
+https://www.csuchico.edu/admissions/graduate/index.shtml	Graduate Students
+https://www.csuchico.edu/admissions/international/index.shtml	International Students
+https://www.csuchico.edu/admissions/returning.shtml	Returning Students
+https://www.csuchico.edu/admissions/online.shtml	Online Students
+https://www.csuchico.edu/admissions/second-bachelors.shtml	Second Bachelor's Degree
+https://www.csuchico.edu/cost-aid/index.shtml	Cost and Aid
+https://www.csuchico.edu/cost-aid/financial-aid-scholarships.shtml	Financial Aid and Scholarships
+https://www.csuchico.edu/cost-aid/calculator.shtml	Calculate Your Cost
+https://www.csuchico.edu/cost-aid/cost-of-attendance.shtml	Cost of Attendance
+https://www.csuchico.edu/cost-aid/aid-steps.shtml	Steps to Financial Aid
+https://www.csuchico.edu/student-life/index.shtml	Student Life
+https://www.csuchico.edu/student-life/housing-dining/index.shtml	Housing and Dining
+https://csuchico.campuslabs.com/engage/	Clubs and Organizations
+https://www.csuchico.edu/student-life/health-wellness.shtml	Health and Wellness
+https://www.csuchico.edu/resources/index.shtml	Student Services
+https://www.csuchico.edu/studyabroad/index.shtml	Study Abroad and Exchange
+https://chicowildcats.com/	Athletics
+https://outlook.com/csuchico.edu	Email
+https://portal.csuchico.edu	Portal
+https://www.csuchico.edu/resources/index.shtml	Student Services
+https://library.csuchico.edu/	Library
+https://www.csuchico.edu/alumni/index.shtml	Alumni
+https://www.csuchico.edu/about/index.shtml	About Chico
+https://www.csuchico.edu/espanol/index.shtml	Español
+https://www.csuchico.edu/give/index.shtml	Give
+https://www.csuchico.edu/apply/request-information.shtml	Request Info
+https://www.csuchico.edu/visit/index.shtml	Visit
+https://www.csuchico.edu/apply/index.shtml	Apply
+https://www.csuchico.edu/about/index.shtml	About Chico
+https://www.csuchico.edu/espanol/index.shtml	Español
+https://www.csuchico.edu/give/index.shtml	Give
+https://outlook.com/csuchico.edu	Email
+https://portal.csuchico.edu	Portal
+https://www.csuchico.edu/resources/index.shtml	Student Services
+https://library.csuchico.edu/	Library
+https://www.csuchico.edu/alumni/index.shtml	Alumni
+https://www.csuchico.edu/apply/request-information.shtml	Request Info
+https://www.csuchico.edu/visit/index.shtml	Visit
+https://www.csuchico.edu/apply/index.shtml	Apply
+/	California State University, Chico
+https://www.csuchico.edu/academics/index.shtml	Academics
+https://www.csuchico.edu/academics/majors-programs/index.shtml	Majors and Programs
+https://www.csuchico.edu/academics/graduate-studies.shtml	Graduate Studies
+https://www.csuchico.edu/academics/college/index.shtml	Colleges
+https://www.csuchico.edu/academics/online.shtml	Online Learning
+https://www.csuchico.edu/academics/advising/index.shtml	Academic Advising
+https://www.csuchico.edu/academics/enrichment/index.shtml	Academic Enrichment
+https://catalog.csuchico.edu/	Catalog
+https://www.csuchico.edu/schedule/index.shtml	Class Schedule
+https://www.csuchico.edu/admissions/index.shtml	Admissions
+https://www.csuchico.edu/admissions/first-time/index.shtml	First-Time in College
+https://www.csuchico.edu/admissions/transfer/index.shtml	Transfer Students
+https://www.csuchico.edu/admissions/graduate/index.shtml	Graduate Students
+https://www.csuchico.edu/admissions/international/index.shtml	International Students
+https://www.csuchico.edu/admissions/returning.shtml	Returning Students
+https://www.csuchico.edu/admissions/online.shtml	Online Students
+https://www.csuchico.edu/admissions/second-bachelors.shtml	Second Bachelor's Degree
+https://www.csuchico.edu/cost-aid/index.shtml	Cost and Aid
+https://www.csuchico.edu/cost-aid/financial-aid-scholarships.shtml	Financial Aid and Scholarships
+https://www.csuchico.edu/cost-aid/calculator.shtml	Calculate Your Cost
+https://www.csuchico.edu/cost-aid/cost-of-attendance.shtml	Cost of Attendance
+https://www.csuchico.edu/cost-aid/aid-steps.shtml	Steps to Financial Aid
+https://www.csuchico.edu/student-life/index.shtml	Student Life
+https://www.csuchico.edu/student-life/housing-dining/index.shtml	Housing and Dining
+https://csuchico.campuslabs.com/engage/	Clubs and Organizations
+https://www.csuchico.edu/student-life/health-wellness.shtml	Health and Wellness
+https://www.csuchico.edu/resources/index.shtml	Student Services
+https://www.csuchico.edu/studyabroad/index.shtml	Study Abroad and Exchange
+https://chicowildcats.com/	Athletics
+/	Home
+https://www.csuchico.edu/admissions/index.shtml	Admissions
+https://www.csuchico.edu/admissions/international/index.shtml	International Students
+https://www.csuchico.edu/admissions/international/index.shtml	International Students
+https://www.csuchico.edu/admissions/international/how-to-apply-freshman.shtml	How to Apply: International Freshmen
+https://www.csuchico.edu/admissions/international/how-to-apply-transfer.shtml	How to Apply: International Transfer
+https://www.csuchico.edu/admissions/international/requirements.shtml	International Admissions Requirements
+https://www.csuchico.edu/admissions/international/cost-of-attendance.shtml	International Tuition and Fees
+https://www.csuchico.edu/admissions/international/already-applied.shtml	Already Applied: International
+https://www.csuchico.edu/admissions/international/accepted.shtml	Once You’re Accepted: International
+https://www.csuchico.edu/admissions/international/index.shtml	International Students
+https://www.csuchico.edu/admissions/international/how-to-apply-freshman.shtml	How to Apply: International Freshmen
+https://www.csuchico.edu/admissions/international/how-to-apply-transfer.shtml	How to Apply: International Transfer
+https://www.csuchico.edu/admissions/international/requirements.shtml	International Admissions Requirements
+https://www.csuchico.edu/admissions/international/cost-of-attendance.shtml	International Tuition and Fees
+https://www.csuchico.edu/admissions/international/already-applied.shtml	Already Applied: International
+https://www.csuchico.edu/admissions/international/accepted.shtml	Once You’re Accepted: International
+https://www.csuchico.edu/admissions/international/index.shtml	International Students
+https://www.csuchico.edu/admissions/international/how-to-apply-freshman.shtml	How to Apply: International Freshmen
+https://www.csuchico.edu/admissions/international/how-to-apply-transfer.shtml	How to Apply: International Transfer
+https://www.csuchico.edu/admissions/international/requirements.shtml	International Admissions Requirements
+https://www.csuchico.edu/admissions/international/cost-of-attendance.shtml	International Tuition and Fees
+https://www.csuchico.edu/admissions/international/already-applied.shtml	Already Applied: International
+https://www.csuchico.edu/admissions/international/accepted.shtml	Once You’re Accepted: International
+https://www.csuchico.edu/admissions/contact.shtml#schedule-an-international-admissions-advising-appointment	Schedule a virtual appointment
+tel:+1%20530 898 5415	+1 530 898 5415
+mailto:apply@csuchico.edu	apply@csuchico.edu
+https://www.csuchico.edu/admissions/contact.shtml#international-admissions	Mailing Address
+https://www.calstate.edu/apply/international	Start Application
+https://www.csuchico.edu/academics/majors-programs/index.shtml?degree_type=Graduate	specific graduate program
+https://www.csuchico.edu/admissions/international/requirements.shtml#international-masters-requirements	Review Admissions Criteria
+https://www.csuchico.edu/admissions/english-proficiency.shtml	English proficiency
+https://www.calstate.edu/apply/international	Start application
+https://help.liaisonedu.com/Cal_State_Apply_Applicant_Help_Center	Help Center
+https://www.csuchico.edu/admissions/international/document-submission.shtml	Upload Digital Supporting Documents
+https://www.csuchico.edu/graduatestudies/programs/index.shtml	if required by program
+https://www.csuchico.edu/admissions/international/documentation.shtml#financial-support-documentation	Financial support documents
+https://www.csuchico.edu/admissions/english-proficiency.shtml	English language proficiency
+https://amspub.abet.org/aps/name-search?searchType=institution	ABET accredited school
+https://www.csuchico.edu/academics/majors-programs/index.shtml?degree_type=Graduate	graduate program page
+mailto:apply@csuchico.edu	apply@csuchico.edu
+http://www.csuchico.edu/admissions/international/already-applied.shtml	Check Your Status
+http://portal.csuchico.edu/	Portal
+http://www.csuchico.edu/admissions/international/accepted.shtml	Accept Admissions Offer
+https://www.calstate.edu/apply/paying-for-college/pages/fee-waiver.aspx	CSU policy
+mailto:apply@csuchico.edu	apply@csuchico.edu
+https://www.csuchico.edu/admissions/international/documentation.shtml	International Admissions Documents and Standards
+https://studyinthestates.dhs.gov/students/prepare/students-and-the-form-i-20	Form i-20
+https://www.csuchico.edu/admissions/english-proficiency.shtml	language proficiency requirements
+https://www.csuchico.edu/admissions/contact.shtml#schedule-an-international-admissions-advising-appointment	Schedule a virtual appointment
+tel:+1%20530 898 5415	+1 530 898 5415
+mailto:apply@csuchico.edu	apply@csuchico.edu
+https://www.csuchico.edu/admissions/contact.shtml#international-admissions	Mailing Address
+#top	Scroll To Top
+https://www.csuchico.edu/maps/campus/	Campus Map
+https://www.csuchico.edu/contact.shtml	Contact Us
+https://www.csuchico.edu/give/index.shtml	Give
+https://www.facebook.com/CaliforniaStateUniversityChico/	Facebook Facebook
+https://www.instagram.com/chicostate/	Instagram Instagram
+https://www.tiktok.com/@chicostate	TikTok TikTok
+https://www.csuchico.edu/apply/index.shtml	Apply
+https://www.csuchico.edu/about/job-opportunities.shtml	Career Opportunities
+https://www.csuchico.edu/about/faculty-staff-resources.shtml	Faculty and Staff Resources
+https://www.csuchico.edu/alerts/index.shtml	Emergency Alerts and Updates
+https://www.csuchico.edu/about/safety/index.shtml	Safety
+https://apps.csuchico.edu/directory/	Campus Directory
+https://www.csuchico.edu/ati/procedures/web-acccessibility.shtml	Report an Accessibility Issue
+https://support.csuchico.edu/TDClient/1984/Portal/Requests/ServiceDet?ID=45100	Report a Broken Link
+https://www.csuchico.edu/about/office/information-technology/policies/privacy-policy.shtml	Privacy Policy
+https://www.csuchico.edu/clery/_assets/documents/annual-security-report.pdf	Annual Security Report
+https://www.csuchico.edu/_assets/documents/office/safety/notice-of-non-descrimination-attachment-a.pdf	Notice of Nondiscrimination
+https://www.csuchico.edu/about/safety/civil-rights-title-ix/index.shtml	Title IX

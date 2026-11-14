@@ -1,0 +1,386 @@
+{
+  "schoolId": 9,
+  "tier": "primary_live_only",
+  "accessed": "2026-11-13",
+  "pass": 47,
+  "fail": 0,
+  "errors": [],
+  "checks": [
+    {
+      "id": "f1",
+      "sourceUrl": "https://www.calstatela.edu/ecst/cs/graduate",
+      "quote": "Our Master's Program at Cal State LA offers a comprehensive education in the rapidly changing and emerging field of Computer Science and prepares students to enter the competitive technology industry.",
+      "len": 200,
+      "ok": true,
+      "reason": "OK"
+    },
+    {
+      "id": "f2",
+      "sourceUrl": "https://www.calstatela.edu/ecst/cs/graduate",
+      "quote": "With the approval of the CS advisor, choose 18 units of 4000/5000 level courses as well as the Thesis and Project courses.",
+      "len": 122,
+      "ok": true,
+      "reason": "OK"
+    },
+    {
+      "id": "f3",
+      "sourceUrl": "https://www.calstatela.edu/ecst/cs/graduate",
+      "quote": "Complete 24 units of 4000/5000 level courses and undertake a comprehensive examination to demonstrate your knowledge.",
+      "len": 117,
+      "ok": true,
+      "reason": "OK"
+    },
+    {
+      "id": "f4",
+      "sourceUrl": "https://www.calstatela.edu/ecst/cs/graduate",
+      "quote": "Anyone with a Bachelor's Degree in Computer Science or a closely related field with an overall GPA of 3.0 may apply. Prerequisite courses may be required for non-CS students or for students from non-ABET accredited CS programs.",
+      "len": 227,
+      "ok": true,
+      "reason": "OK"
+    },
+    {
+      "id": "f5",
+      "sourceUrl": "https://www.calstatela.edu/ecst/cs/graduate",
+      "quote": "GRE and Recommendation letters are NOT required",
+      "len": 47,
+      "ok": true,
+      "reason": "OK"
+    },
+    {
+      "id": "f6",
+      "sourceUrl": "https://www.calstatela.edu/ecst/cs/graduate",
+      "quote": "Promising applicants with a GPA between 2.5 and 2.99 may be conditionally admitted and are encouraged to apply",
+      "len": 110,
+      "ok": true,
+      "reason": "OK"
+    },
+    {
+      "id": "f7",
+      "sourceUrl": "https://www.calstatela.edu/ecst/cs/admission-prerequisites",
+      "quote": "Applicants must possess a Bachelor's Degree in Computer Science or a closely related field with an overall GPA of 3.0 or better to be considered for full admission",
+      "len": 163,
+      "ok": true,
+      "reason": "OK"
+    },
+    {
+      "id": "f8",
+      "sourceUrl": "https://www.calstatela.edu/ecst/cs/admission-prerequisites",
+      "quote": "A promising applicant with a GPA between 2.5 and 2.99 may be conditionally admitted as a special action student.",
+      "len": 112,
+      "ok": true,
+      "reason": "OK"
+    },
+    {
+      "id": "f9",
+      "sourceUrl": "https://www.calstatela.edu/ecst/cs/admission-prerequisites",
+      "quote": "These students are given up to three prerequisites (based on the evaluation of their transcripts).",
+      "len": 98,
+      "ok": true,
+      "reason": "OK"
+    },
+    {
+      "id": "f10",
+      "sourceUrl": "https://www.calstatela.edu/ecst/cs/admission-prerequisites",
+      "quote": "The application process is centralized at the university and requires TWO steps as described below:",
+      "len": 99,
+      "ok": true,
+      "reason": "OK"
+    },
+    {
+      "id": "f11",
+      "sourceUrl": "https://www.calstatela.edu/ecst/cs/graduate-curriculum-requirements",
+      "quote": "The MS CS degree requires the completion of 30 units.",
+      "len": 53,
+      "ok": true,
+      "reason": "OK"
+    },
+    {
+      "id": "f12",
+      "sourceUrl": "https://www.calstatela.edu/ecst/cs/planner",
+      "quote": "The minimum requirement for candidacy advancement are the completion of 12 units and a minimum GPA of 3.0.",
+      "len": 106,
+      "ok": true,
+      "reason": "OK"
+    },
+    {
+      "id": "f13",
+      "sourceUrl": "https://www.calstatela.edu/ecst/cs/planner",
+      "quote": "CS 5990 should be taken exactly twice.",
+      "len": 38,
+      "ok": true,
+      "reason": "OK"
+    },
+    {
+      "id": "f14",
+      "sourceUrl": "https://www.calstatela.edu/ecst/cs/planner",
+      "quote": "The Graduate Writing Assessment Requirement (GWAR) is no longer required for graduate students, effective for catalog years beginning Fall 2023.",
+      "len": 144,
+      "ok": true,
+      "reason": "OK"
+    },
+    {
+      "id": "f15",
+      "sourceUrl": "https://www.calstatela.edu/ecst/cs/graduate",
+      "quote": "Spring 2027 classes begin January 25, 2027.",
+      "len": 43,
+      "ok": true,
+      "reason": "OK"
+    },
+    {
+      "id": "f16",
+      "sourceUrl": "https://www.calstatela.edu/ecst/cs/graduate",
+      "quote": "Fall 2027 classes begin August 23, 2027.",
+      "len": 40,
+      "ok": true,
+      "reason": "OK"
+    },
+    {
+      "id": "f17",
+      "sourceUrl": "https://www.calstatela.edu/ecst/cs/graduate",
+      "quote": "July 1, 2026 – August 31, 2026",
+      "len": 30,
+      "ok": true,
+      "reason": "OK"
+    },
+    {
+      "id": "f18",
+      "sourceUrl": "https://www.calstatela.edu/ecst/cs/graduate",
+      "quote": "July 1, 2026 – October 31, 2026",
+      "len": 31,
+      "ok": true,
+      "reason": "OK"
+    },
+    {
+      "id": "f19",
+      "sourceUrl": "https://www.calstatela.edu/ecst/cs/graduate",
+      "quote": "August 1, 2026 – February 15, 2027",
+      "len": 34,
+      "ok": true,
+      "reason": "OK"
+    },
+    {
+      "id": "f20",
+      "sourceUrl": "https://www.calstatela.edu/ecst/cs/graduate",
+      "quote": "August 1, 2026 – May 31, 2027",
+      "len": 29,
+      "ok": true,
+      "reason": "OK"
+    },
+    {
+      "id": "f21",
+      "sourceUrl": "https://www.calstatela.edu/ecst/cs/faculty",
+      "quote": "Database performance optimization, communication, and network applications",
+      "len": 74,
+      "ok": true,
+      "reason": "OK"
+    },
+    {
+      "id": "f22",
+      "sourceUrl": "https://www.calstatela.edu/ecst/cs/faculty",
+      "quote": "Machine Learning and Mobile Computing",
+      "len": 37,
+      "ok": true,
+      "reason": "OK"
+    },
+    {
+      "id": "f23",
+      "sourceUrl": "https://www.calstatela.edu/ecst/cs/faculty",
+      "quote": "Human-Computer Interaction, Assistive Technology, Pervasive Computing",
+      "len": 69,
+      "ok": true,
+      "reason": "OK"
+    },
+    {
+      "id": "f24",
+      "sourceUrl": "https://www.calstatela.edu/ecst/cs/faculty",
+      "quote": "Artificial Intelligence (AI), Optimization, Computational Biology, Human-Center AI",
+      "len": 82,
+      "ok": true,
+      "reason": "OK"
+    },
+    {
+      "id": "f25",
+      "sourceUrl": "https://www.calstatela.edu/ecst/cs/faculty",
+      "quote": "Computational Biology, Optimization, Computational Geometry",
+      "len": 59,
+      "ok": true,
+      "reason": "OK"
+    },
+    {
+      "id": "f26",
+      "sourceUrl": "https://www.calstatela.edu/ecst/cs/faculty",
+      "quote": "Computer Networks and Data Security",
+      "len": 35,
+      "ok": true,
+      "reason": "OK"
+    },
+    {
+      "id": "f27",
+      "sourceUrl": "https://www.calstatela.edu/ecst/cs/faculty",
+      "quote": "Software Engineering, Networks, and Operating Systems",
+      "len": 53,
+      "ok": true,
+      "reason": "OK"
+    },
+    {
+      "id": "f28",
+      "sourceUrl": "https://www.calstatela.edu/ecst/cs/faculty",
+      "quote": "Computer Vision, Computer Graphics, and Image Processing",
+      "len": 56,
+      "ok": true,
+      "reason": "OK"
+    },
+    {
+      "id": "f29",
+      "sourceUrl": "https://www.calstatela.edu/ecst/cs/faculty",
+      "quote": "System Design, Communication, and Security in Internet of Things (IoT) Networks, e.g., Drone Swarms, Smart Vehicles",
+      "len": 115,
+      "ok": true,
+      "reason": "OK"
+    },
+    {
+      "id": "f30",
+      "sourceUrl": "https://www.calstatela.edu/ecst/cs/faculty",
+      "quote": "Human-computer interaction, 3D interaction, virtual and augmented reality",
+      "len": 73,
+      "ok": true,
+      "reason": "OK"
+    },
+    {
+      "id": "f31",
+      "sourceUrl": "https://www.calstatela.edu/ecst/cs/faculty",
+      "quote": "Internet Of Things, Cyber-Physical Systems, Wireless Networking, Wireless Sensor Networks",
+      "len": 89,
+      "ok": true,
+      "reason": "OK"
+    },
+    {
+      "id": "f32",
+      "sourceUrl": "https://www.calstatela.edu/ecst/cs/faculty",
+      "quote": "Data Science, Machine Learning, Artificial Intelligence",
+      "len": 55,
+      "ok": true,
+      "reason": "OK"
+    },
+    {
+      "id": "f33",
+      "sourceUrl": "https://www.calstatela.edu/ecst/cs/faculty",
+      "quote": "Specialization: Networking",
+      "len": 26,
+      "ok": true,
+      "reason": "OK"
+    },
+    {
+      "id": "f34",
+      "sourceUrl": "https://www.calstatela.edu/ecst/cs/faculty",
+      "quote": "Distributed Computing, Complex Data Mining",
+      "len": 42,
+      "ok": true,
+      "reason": "OK"
+    },
+    {
+      "id": "f35",
+      "sourceUrl": "https://www.calstatela.edu/ecst/cs/faculty",
+      "quote": "General Systems Methodology, Information Theory, and Software Engineering",
+      "len": 73,
+      "ok": true,
+      "reason": "OK"
+    },
+    {
+      "id": "f36",
+      "sourceUrl": "https://www.calstatela.edu/faculty/chengyu-sun",
+      "quote": "Research interests: database systems, data mining, web and mobile development",
+      "len": 77,
+      "ok": true,
+      "reason": "OK"
+    },
+    {
+      "id": "f37",
+      "sourceUrl": "https://www.calstatela.edu/faculty/navid-amini",
+      "quote": "Research Interests: Glaucoma and Quality of Life, Structure-Function Relationships in Glaucoma, mHealth App Development",
+      "len": 119,
+      "ok": true,
+      "reason": "OK"
+    },
+    {
+      "id": "f38",
+      "sourceUrl": "https://www.calstatela.edu/faculty/huiping-guo",
+      "quote": "Research Interests: Database security and network security Privacy and digital rights protection Blockchains and IoT security",
+      "len": 125,
+      "ok": true,
+      "reason": "OK"
+    },
+    {
+      "id": "f39",
+      "sourceUrl": "https://www.calstatela.edu/faculty/jiang-guo",
+      "quote": "RESEARCH AREAS Machine Learning Artificial Intelligence Data Science Software Engineering",
+      "len": 89,
+      "ok": true,
+      "reason": "OK"
+    },
+    {
+      "id": "f40",
+      "sourceUrl": "https://www.calstatela.edu/faculty/elaine-kang",
+      "quote": "research interests are in Computer Vision, Computer Graphics, Augmented/Mixed Reality, and Game Programming.",
+      "len": 108,
+      "ok": true,
+      "reason": "OK"
+    },
+    {
+      "id": "f41",
+      "sourceUrl": "https://www.calstatela.edu/faculty/manveen-kaur",
+      "quote": "Research areas of interest: Cyber-physical systems (CPS), Internet-of-Things (IoT), Named Data Networking (NDN)",
+      "len": 111,
+      "ok": true,
+      "reason": "OK"
+    },
+    {
+      "id": "f42",
+      "sourceUrl": "https://www.calstatela.edu/faculty/david-krum",
+      "quote": "research interests include human-computer interaction, 3D interaction, and virtual/augmented reality.",
+      "len": 101,
+      "ok": true,
+      "reason": "OK"
+    },
+    {
+      "id": "f43",
+      "sourceUrl": "https://www.calstatela.edu/faculty/jung-lim",
+      "quote": "research interests are the Internet of Things, Cyber-Physical systems, wireless networking, wireless sensor networking, and software engineering.",
+      "len": 145,
+      "ok": true,
+      "reason": "OK"
+    },
+    {
+      "id": "f44",
+      "sourceUrl": "https://www.calstatela.edu/faculty/mohammad-pourhomayoun",
+      "quote": "My research focuses on Artificial Intelligence, Machine Learning, and Data Science for various applications including sustainability, environment (wildfire, air quality), healthcare, traffic management, and other social good applications.",
+      "len": 238,
+      "ok": true,
+      "reason": "OK"
+    },
+    {
+      "id": "f45",
+      "sourceUrl": "https://www.calstatela.edu/faculty/zilong-ye",
+      "quote": "research interests focus on algorithm and system design in the computer networking areas, including optical networking and sensing, satellite networking, fog computing, IoT, SDN/NFV, and information-centric networking.",
+      "len": 218,
+      "ok": true,
+      "reason": "OK"
+    },
+    {
+      "id": "f46",
+      "sourceUrl": "https://sites.google.com/view/armandobeltran/",
+      "quote": "My research explores AI for computational biology, health informatics, and human-computer interaction, with a focus on augmenting human capabilities and decision-making.",
+      "len": 169,
+      "ok": true,
+      "reason": "OK"
+    },
+    {
+      "id": "f47",
+      "sourceUrl": "https://www.calstatela.edu/faculty/negin-forouzesh",
+      "quote": "I received my Ph.D. in computer science from Virginia Tech in 2020 where I developed computational models to better understand protein-ligand binding.",
+      "len": 150,
+      "ok": true,
+      "reason": "OK"
+    }
+  ]
+}

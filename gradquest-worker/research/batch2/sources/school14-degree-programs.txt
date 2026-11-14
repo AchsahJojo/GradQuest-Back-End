@@ -1,0 +1,39 @@
+TITLE: Computer Science Degree Programs – Department of Computer Science
+SOURCE: /workspace/gradquest-program-research-batch2/sources/school14-degree-programs.html
+
+The Computer Science program at San Diego State University (SDSU) provides a robust foundation for students interested in the dynamic field of computing. The Bachelor of Science (B.S.) degree in Computer Science equips students with essential skills in software development, system design, and data analysis, preparing them for diverse careers in technology and engineering.
+The Bachelor of Science in Computer Science degree is accredited by the Computing Accreditation Commission of
+ABET
+under the commission’s General Criteria and Program Criteria for Computer Science.
+Students in the program gain hands-on experience through various projects and internships, allowing them to apply their knowledge in practical settings. The curriculum covers key areas such as algorithms, data structures, artificial intelligence (AI), and cybersecurity, ensuring graduates are well-versed in current technologies and methodologies.
+At the graduate level, SDSU offers advanced degrees that allow students to specialize in fields like software engineering, machine learning, large language models (LLMs), and network security. Graduates from the program have successfully secured roles in prominent tech companies, startups, and research institutions, pursuing careers as web developers, cybersecurity analysts, mobile app developers, and systems architects.
+SDSU also emphasizes community engagement and provides resources for students to participate in coding clubs, hackathons, and outreach initiatives, fostering a collaborative and innovative environment. With access to cutting-edge labs and facilities, students are well-prepared to contribute to the ever-evolving landscape of computer science.
+B.S. in Computer Science
+The Bachelor of Science degree in Computer Science is designed for students who are seeking an in-depth understanding of computer science while preparing for a wide range of career opportunities such as a software developer, systems analyst, or even a data scientist. Students in the major can navigate various focuses such as programming, algorithms, software engineering, and data structures. The program highlights theoretical knowledge as well as practical application, ensuring that graduates are prepared to handle technology challenges as they enter the workforce.
+Curricula:
+Catalog: B.S. in Computer Science
+Major Academic Plan:
+Roadmap: B.S. in Computer Science
+M.S. in Computer Science
+Graduates of the Master of Science in Computer Science program at San Diego State University engage in advanced study and research in various computing domains, including artificial intelligence, machine learning, and software engineering. Students may choose to either complete a thesis project, collaborating closely with faculty on innovative research that addresses real-world problems, or opt for a comprehensive exam to fulfill their degree requirements.
+The program offers valuable hands-on experience through internships and collaborative projects with industry partners, allowing students to apply their skills in practical settings. Additionally, opportunities for teaching apprenticeship are available, where students can lead undergraduate courses and labs, enhancing their educational experience. By integrating academic rigor, research opportunities, and professional development, the program prepares graduates for successful careers in technology, research, and academia.
+Curricula:
+Catalog: M.S. in Computer Science
+M.S. in Artificial Intelligence and Technology
+The program is designed to meet the growing demand for skilled professionals in the foundations of artificial intelligence and the applications of AI in future technology.
+The two-year master’s program covers theoretical analysis of AI techniques and their applications in real-world problems, giving students solid theoretical foundations and real-world experience needed to thrive in today’s fast-changing tech landscape.
+Curricula:
+Catalog: (Available in 2026/27)
+More Information
+Apply:
+(Open October 2025)
+CalState Apply
+Online Option
+The online
+Master of Science in Artificial Intelligence and Technology
+program through SDSU Online is designed for working professionals who are ready to advance their careers in a rapidly growing field.
+Minor in Computer Science
+For those looking to enhance their understanding of computer science while majoring in another discipline, SDSU offers a minor in Computer Science. This minor is ideal for students from fields such as mathematics, engineering, physics, and other related areas who wish to integrate computing principles into their primary studies.
+By pursuing a minor in Computer Science, students can gain a competitive edge in their primary fields, equipping themselves with essential technical skills that complement their major studies.
+Curricula:
+Catalog: Minor in Computer Science

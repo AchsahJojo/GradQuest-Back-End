@@ -1,0 +1,120 @@
+TITLE: Admission & Prerequisites | Cal State LA
+URL_FILE: /workspace/gradquest-program-research-batch2/sources/school9-admission-prerequisites.html
+
+Department of Computer Science
+Department of Computer Science
+Objectives & Outcomes
+Undergraduate
+Admission
+Curriculum & Requirements
+Roadmaps
+CS Courses
+GE Courses
+Schedule of Courses
+Capstone Senior Design
+Graduate
+Admission & Prerequisites
+Curriculum & Requirements
+Roadmaps
+Thesis/Projects
+Courses
+Schedule of Courses
+Integrated BS MS
+Minor in CS
+CS Supplementary Authorization
+Advising & Resources
+Faculty Advisors
+Forms
+Resources
+Faculty
+Staff
+Research
+Employment
+Contact
+Admission & Prerequisites
+Application and Admission Information
+Application Deadline
+Application deadlines for domestic and international graduate programs vary.  Transfer students applying to a graduate program follow the same deadlines. Please see the table below for details. Visit the
+Admissions and Recruitment webpage
+for deadline details.
+SPRING 2027
+DEADLINE
+International Applicants
+July 1, 2026 – August 31, 2026
+Domestic Applicants
+July 1, 2026 – October 31, 2026
+Spring 2027 classes begin January 25, 2027.
+Visit Admissions and Recruitment for
+Spring 2027 university admissions details
+.
+FALL 2027
+DEADLINE
+International Applicants
+August 1, 2026 – February 15, 2027
+Domestic Applicants
+August 1, 2026 – May 31, 2027
+Fall 2027 classes begin August 23, 2027.
+Visit Admissions and Recruitment for
+Fall 2027 university admissions details.
+Application Process
+The application process is centralized at the university and requires TWO steps as described below:
+Apply Online at
+Cal State Apply
+.
+Submit official
+academic records/transcripts
+to the Admissions Office
+within three weeks of university application submission.
+Effective with the Fall 2021 application cycle, unofficial academic transcripts must be uploaded as part of the Cal State Apply application. Please plan to have them readily available at time of university admission application submission. For Fall admission, transcripts should include coursework completed through the preceding fall term (usually ending in December). For Spring admission, transcripts should include coursework completed through the preceding summer term (usually ending in August).
+Be aware:
+If you are a current (or former) Cal State LA student, the Cal State LA transcript does
+not
+need to be submitted to the Admissions Office.
+If you have studied at an institution outside of the US
+, you will need to have your foreign academic work evaluated by the
+International Education Research Foundation (IERF)
+or
+World Education Services (WES)
+for securing admission into the program.
+IERF
+- Visit
+IERF website
+to create an online application requesting the
+"Detailed Report"
+. The foreign evaluation fee is $165 (USD). When submitting your course work to IERF please make sure to indicate that you were referred by
+"CSU Los Angeles-Office of Graduate Admissions"
+and that you would like to have the official agency copy of the evaluation report sent directly to CSU Los Angeles-Office of Graduate Admissions.
+WES -
+Visit
+WES website
+to create an online application. You will need to order the course-by-course evaluation report. The cost is $160 for the WES Basic or $205 for the WES ICAP.
+For steps on how to submit your foreign academic records to these agencies, visit the
+Admissions and Recruitment page on IERF/WES
+.
+If you do not possess a Bachelor's (or advanced) degree from a postsecondary college/university where English is the only language of instruction, you will need to submit official TOEFL, IELTS, or PTE test scores to the Cal State LA Admissions Office. Be aware, scores are only valid for two years from exam date. Duolingo English Test will be also accepted for the English Language Proficiency Exams.
+See also
+/admissions/graduate-application-and-admission
+.
+Admission Offers
+Applicants must possess a Bachelor's Degree in Computer Science or a closely related field with an overall GPA of 3.0 or better to be considered for full admission (a.k.a "Classified Graduate Standing").
+Some applicants are admitted provisionally with Certain Conditions (a.k.a. “Conditionally Classified Graduate Standing”). The MSCS program requires new students to satisfy the given conditions during their first term of enrollment.
+A promising applicant with a GPA between 2.5 and 2.99 may be conditionally admitted as a special action student. Special action students must achieve an overall GPA of 3.0 for four qualifying courses as approved in advance by the department.
+Promising applicants from non-CS majors or non-ABET accredited CS programs may be conditionally admitted and required to complete
+prerequisite courses.
+These students are given
+up to three prerequisites
+(based on the evaluation of their transcripts). Three prerequisites are fundamental CS 3000-level core courses from
+Programming (CS 3035)
+Algorithms (CS 3112)
+Automata Theory (CS 3186)
+Web (CS 3220)
+Software Engineering (CS 3337)
+Operating Systems (CS 4440)
+Students admitted under “Conditionally Classified Graduate Standing” can request the opportunity to remove any of the assigned prerequisite conditions with appropriate documentation. The request will be processed by the graduate committee individually.
+The Computer Science Department will conduct advisement/orientation sessions (prior to the start of their first semester) for all new incoming graduate students. Students would be guided to set up a study plan to complete all the prerequisites in the first semester.
+Contact Us
+For questions regarding the MSCS Program Graduate Admissions, please
+visit the FAQ
+or contact us:
+[email protected]
+.

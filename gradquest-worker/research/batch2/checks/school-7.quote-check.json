@@ -1,0 +1,635 @@
+{
+  "schoolId": 7,
+  "schoolName": "California State University, Fullerton",
+  "programName": "Software Engineering, M.S. (online)",
+  "factsSubmitted": 52,
+  "factsPassed": 52,
+  "factsFailed": 0,
+  "checks": [
+    {
+      "id": "f1",
+      "kind": "overview",
+      "name": "Online MSE purpose",
+      "sourceUrl": "https://www.fullerton.edu/ecs/mse/about/",
+      "quote": "The Master of Science in Software Engineering (MSE) is an online program that prepares individuals for careers as software engineers and software project managers in industry and government agencies.",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/07-csuf-about.html"
+      ]
+    },
+    {
+      "id": "f2",
+      "kind": "overview",
+      "name": "Process-oriented curriculum",
+      "sourceUrl": "https://www.fullerton.edu/ecs/mse/about/",
+      "quote": "The program emphasizes a comprehensive and thorough process-oriented approach to software development, and its curriculum is fundamentally grounded in software engineering research, theory, principles, and practice",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/07-csuf-about.html"
+      ]
+    },
+    {
+      "id": "f3",
+      "kind": "overview",
+      "name": "Designed for working professionals",
+      "sourceUrl": "https://www.fullerton.edu/ecs/mse/about/",
+      "quote": "The program is designed for professionals working in the field of computer science who wish to further their skills and pursue graduate level education in Software Engineering.",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/07-csuf-about.html"
+      ]
+    },
+    {
+      "id": "f4",
+      "kind": "overview",
+      "name": "Culminating practicum project",
+      "sourceUrl": "https://www.fullerton.edu/ecs/mse/about/",
+      "quote": "The culminating activity of the M.S. will be a practicum project where each student applies his or her knowledge and skills to a large-scale software project.",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/07-csuf-about.html"
+      ]
+    },
+    {
+      "id": "f5",
+      "kind": "overview",
+      "name": "100% online asynchronous",
+      "sourceUrl": "https://www.fullerton.edu/ecs/mse/",
+      "quote": "All courses 100% online",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/07-csuf-mse-home.html"
+      ]
+    },
+    {
+      "id": "f6",
+      "kind": "overview",
+      "name": "No I-20 for this program",
+      "sourceUrl": "https://www.fullerton.edu/ecs/mse/faq.php",
+      "quote": "An I-20 cannot be issued for the MSE program, since it is offered entirely online. U.S. immigration policy prohibits the student visa for entirely online programs.",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/07-csuf-faq.html"
+      ]
+    },
+    {
+      "id": "f7",
+      "kind": "overview",
+      "name": "Distinct from on-campus AMSE",
+      "sourceUrl": "https://www.fullerton.edu/ecs/mse/faq.php",
+      "quote": "CSUF offers two software engineering programs: the online MSE program and the on-campus Accelerated Master of Science in Software Engineering (AMSE) program.",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/07-csuf-faq.html"
+      ]
+    },
+    {
+      "id": "f8",
+      "kind": "overview",
+      "name": "Degree title has no 'Online'",
+      "sourceUrl": "https://www.fullerton.edu/ecs/mse/faq.php",
+      "quote": "No. Although this is a fully online program, the degree itself is a \"Master of Science in Software Engineering.\" The word \"Online\" will not appear on your degree.",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/07-csuf-faq.html"
+      ]
+    },
+    {
+      "id": "f9",
+      "kind": "overview",
+      "name": "Program length",
+      "sourceUrl": "https://www.fullerton.edu/ecs/mse/faq.php",
+      "quote": "Regularly MSE takes 22 months, while AMSE takes 17 months to complete.",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/07-csuf-faq.html"
+      ]
+    },
+    {
+      "id": "f10",
+      "kind": "requirement",
+      "name": "University GPA",
+      "sourceUrl": "https://www.fullerton.edu/ecs/mse/requirements/",
+      "quote": "The applicant must have completed four-year college course of study and hold an acceptable baccalaureate degree with a minimum/cumulative grade point average of 2.5 for applicants having an undergraduate degree in Computer Science or 3.0 for other degree holders.",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/07-csuf-start.html"
+      ]
+    },
+    {
+      "id": "f11",
+      "kind": "requirement",
+      "name": "Transcripts",
+      "sourceUrl": "https://www.fullerton.edu/ecs/mse/requirements/",
+      "quote": "An official transcript is required from each university or college you have attended.",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/07-csuf-start.html"
+      ]
+    },
+    {
+      "id": "f12",
+      "kind": "requirement",
+      "name": "International English scores",
+      "sourceUrl": "https://www.fullerton.edu/ecs/mse/requirements/",
+      "quote": "For international students: a minimum score of 550 (paper) or 80 in TOEFL or 6.5 Academic in IELTS or 58 in PTE.",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/07-csuf-start.html"
+      ]
+    },
+    {
+      "id": "f13",
+      "kind": "requirement",
+      "name": "Software engineering background",
+      "sourceUrl": "https://www.fullerton.edu/ecs/mse/requirements/",
+      "quote": "The applicant should have taken an Introductory Software Engineering course (equivalent with CPSC 362 at CSUF) or should have work experience in software development.",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/07-csuf-start.html"
+      ]
+    },
+    {
+      "id": "f14",
+      "kind": "requirement",
+      "name": "Work-experience alternative",
+      "sourceUrl": "https://www.fullerton.edu/ecs/mse/faq.php",
+      "quote": "To apply, at least one year of experience in software development is expected.",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/07-csuf-faq.html"
+      ]
+    },
+    {
+      "id": "f15",
+      "kind": "requirement",
+      "name": "GRE not required",
+      "sourceUrl": "https://www.fullerton.edu/ecs/mse/faq.php",
+      "quote": "No, we do not require the GRE.",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/07-csuf-faq.html"
+      ]
+    },
+    {
+      "id": "f16",
+      "kind": "requirement",
+      "name": "TOEFL/IELTS when needed",
+      "sourceUrl": "https://www.fullerton.edu/ecs/mse/faq.php",
+      "quote": "Yes, if you have not earned at least 72 college-level units in the U.S. or another majority English-speaking country. Residency/citizenship is irrelevant to this requirement.",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/07-csuf-faq.html"
+      ]
+    },
+    {
+      "id": "f17",
+      "kind": "requirement",
+      "name": "No exit exam or thesis",
+      "sourceUrl": "https://www.fullerton.edu/ecs/mse/faq.php",
+      "quote": "No, there is no exit exam. Students are required to complete a significant terminal project as part of the curriculum (CPSC 597). There is no thesis option.",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/07-csuf-faq.html"
+      ]
+    },
+    {
+      "id": "f18",
+      "kind": "requirement",
+      "name": "One course per semester costs the same",
+      "sourceUrl": "https://www.fullerton.edu/ecs/mse/faq.php",
+      "quote": "Yes, but this will cost the same as taking two courses per semester. Also, since MSE offers each course once per year, you will need to wait a year if you miss taking a certain course.",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/07-csuf-faq.html"
+      ]
+    },
+    {
+      "id": "f19",
+      "kind": "requirement",
+      "name": "No program-level scholarship",
+      "sourceUrl": "https://www.fullerton.edu/ecs/mse/faq.php",
+      "quote": "There is no scholarship at the program level. However, you may check the university Financial Aid website for available funding opportunities.",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/07-csuf-faq.html"
+      ]
+    },
+    {
+      "id": "f20",
+      "kind": "course",
+      "name": "CPSC 541",
+      "sourceUrl": "https://www.fullerton.edu/ecs/mse/programs/courses.php",
+      "quote": "CPSC 541 - Systems and Software Standards and Requirements (3 units)",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/07-csuf-courses.html"
+      ]
+    },
+    {
+      "id": "f21",
+      "kind": "course",
+      "name": "CPSC 542",
+      "sourceUrl": "https://www.fullerton.edu/ecs/mse/programs/courses.php",
+      "quote": "CPSC 542 - Software Verification and Validation (3 units)",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/07-csuf-courses.html"
+      ]
+    },
+    {
+      "id": "f22",
+      "kind": "course",
+      "name": "CPSC 543",
+      "sourceUrl": "https://www.fullerton.edu/ecs/mse/programs/courses.php",
+      "quote": "CPSC 543 - Software Maintenance (3 units)",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/07-csuf-courses.html"
+      ]
+    },
+    {
+      "id": "f23",
+      "kind": "course",
+      "name": "CPSC 544",
+      "sourceUrl": "https://www.fullerton.edu/ecs/mse/programs/courses.php",
+      "quote": "CPSC 544 - Advanced Software Process (3 units)",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/07-csuf-courses.html"
+      ]
+    },
+    {
+      "id": "f24",
+      "kind": "course",
+      "name": "CPSC 545",
+      "sourceUrl": "https://www.fullerton.edu/ecs/mse/programs/courses.php",
+      "quote": "CPSC 545 - Software Design and Architecture (3 units)",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/07-csuf-courses.html"
+      ]
+    },
+    {
+      "id": "f25",
+      "kind": "course",
+      "name": "CPSC 546",
+      "sourceUrl": "https://www.fullerton.edu/ecs/mse/programs/courses.php",
+      "quote": "CPSC 546 - Modern Software Management (3 units)",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/07-csuf-courses.html"
+      ]
+    },
+    {
+      "id": "f26",
+      "kind": "course",
+      "name": "CPSC 547",
+      "sourceUrl": "https://www.fullerton.edu/ecs/mse/programs/courses.php",
+      "quote": "CPSC 547 - Software Measurement (3 units)",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/07-csuf-courses.html"
+      ]
+    },
+    {
+      "id": "f27",
+      "kind": "course",
+      "name": "CPSC 548",
+      "sourceUrl": "https://www.fullerton.edu/ecs/mse/programs/courses.php",
+      "quote": "CPSC 548 - Professional, Ethical and Legal Issues for Software Engineers (3 units)",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/07-csuf-courses.html"
+      ]
+    },
+    {
+      "id": "f28",
+      "kind": "course",
+      "name": "CPSC 589",
+      "sourceUrl": "https://www.fullerton.edu/ecs/mse/programs/courses.php",
+      "quote": "The online version of CPSC 589, offered to MSE students only. Prepare for the graduate project - survey related work and build a project proposal.",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/07-csuf-courses.html"
+      ]
+    },
+    {
+      "id": "f29",
+      "kind": "course",
+      "name": "CPSC 597",
+      "sourceUrl": "https://www.fullerton.edu/ecs/mse/programs/courses.php",
+      "quote": "The on-line version of CPSC 597, offered to MSE students only. Perform a graduate project as you proposed in CPSC 589 and write a project report.",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/07-csuf-courses.html"
+      ]
+    },
+    {
+      "id": "f30",
+      "kind": "course",
+      "name": "First-year fall schedule",
+      "sourceUrl": "https://www.fullerton.edu/ecs/mse/programs/courses.php",
+      "quote": "CPSC 541",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/07-csuf-courses.html"
+      ]
+    },
+    {
+      "id": "f31",
+      "kind": "course",
+      "name": "Schedule by semester",
+      "sourceUrl": "https://www.fullerton.edu/ecs/mse/programs/courses.php",
+      "quote": "Schedule by Semester",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/07-csuf-courses.html"
+      ]
+    },
+    {
+      "id": "f32",
+      "kind": "course",
+      "name": "Second-year spring",
+      "sourceUrl": "https://www.fullerton.edu/ecs/mse/programs/courses.php",
+      "quote": "Second Year: Spring",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/07-csuf-courses.html"
+      ]
+    },
+    {
+      "id": "f33",
+      "kind": "deadline",
+      "name": "Fall 2026 application window",
+      "sourceUrl": "https://www.fullerton.edu/ecs/mse/",
+      "quote": "Applications for Fall 2026 admission are open on October 1, 2025!",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/07-csuf-mse-home.html"
+      ]
+    },
+    {
+      "id": "f34",
+      "kind": "deadline",
+      "name": "Cal State Apply deadline",
+      "sourceUrl": "https://www.fullerton.edu/ecs/mse/",
+      "quote": "Application (Cal State Apply) Deadline:",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/07-csuf-mse-home.html"
+      ]
+    },
+    {
+      "id": "f35",
+      "kind": "deadline",
+      "name": "May 1, 2026",
+      "sourceUrl": "https://www.fullerton.edu/ecs/mse/",
+      "quote": "May 1, 2026",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/07-csuf-mse-home.html"
+      ]
+    },
+    {
+      "id": "f36",
+      "kind": "deadline",
+      "name": "Documents deadline",
+      "sourceUrl": "https://www.fullerton.edu/ecs/mse/",
+      "quote": "Required Documents Deadline:",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/07-csuf-mse-home.html"
+      ]
+    },
+    {
+      "id": "f37",
+      "kind": "deadline",
+      "name": "May 15, 2026",
+      "sourceUrl": "https://www.fullerton.edu/ecs/mse/",
+      "quote": "May 15, 2026",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/07-csuf-mse-home.html"
+      ]
+    },
+    {
+      "id": "f38",
+      "kind": "deadline",
+      "name": "Application window on requirements page",
+      "sourceUrl": "https://www.fullerton.edu/ecs/mse/requirements/",
+      "quote": "The online application will be open from October 1, 2025 to May 1, 2026. A $70 application fee will apply and must be paid online.",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/07-csuf-start.html"
+      ]
+    },
+    {
+      "id": "f39",
+      "kind": "deadline",
+      "name": "First come, first served",
+      "sourceUrl": "https://www.fullerton.edu/ecs/mse/requirements/",
+      "quote": "Usually it takes a few weeks or months to get the result. First come, first served. Therefore, apply as early as possible.",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/07-csuf-start.html"
+      ]
+    },
+    {
+      "id": "f40",
+      "kind": "deadline",
+      "name": "Enrollment deposit",
+      "sourceUrl": "https://www.fullerton.edu/ecs/mse/requirements/",
+      "quote": "The deadline to accept the offer of admission and pay a non-refundable $250 enrollment deposit is TBD.",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/07-csuf-start.html"
+      ]
+    },
+    {
+      "id": "f41",
+      "kind": "deadline",
+      "name": "FAQ cost estimate",
+      "sourceUrl": "https://www.fullerton.edu/ecs/mse/faq.php",
+      "quote": "The online MSE program costs roughly $14,000 for a California resident, and $26,000 for a non-resident (including international students).",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/07-csuf-faq.html"
+      ]
+    },
+    {
+      "id": "f42",
+      "kind": "deadline",
+      "name": "Cost page dated Fall 2023",
+      "sourceUrl": "https://www.fullerton.edu/ecs/mse/programs/programcost.php",
+      "quote": "based on the rate as of Fall 2023",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/07-csuf-cost.html"
+      ]
+    },
+    {
+      "id": "f43",
+      "kind": "faculty",
+      "name": "Bin Cong",
+      "sourceUrl": "https://www.fullerton.edu/ecs/mse/faculty/index.php",
+      "quote": "Bin Cong, Ph.D.",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/07-csuf-faculty.html"
+      ]
+    },
+    {
+      "id": "f44",
+      "kind": "faculty",
+      "name": "Bin Cong expertise",
+      "sourceUrl": "https://www.fullerton.edu/ecs/mse/faculty/index.php",
+      "quote": "SEI Authorized CMM Lead Assessor",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/07-csuf-faculty.html"
+      ]
+    },
+    {
+      "id": "f45",
+      "kind": "faculty",
+      "name": "Ning Chen",
+      "sourceUrl": "https://www.fullerton.edu/ecs/mse/faculty/index.php",
+      "quote": "Ning Chen, Ph.D.",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/07-csuf-faculty.html"
+      ]
+    },
+    {
+      "id": "f46",
+      "kind": "faculty",
+      "name": "Ning Chen expertise",
+      "sourceUrl": "https://www.fullerton.edu/ecs/mse/faculty/index.php",
+      "quote": "Embedded Systems and Wireless Sensor Network (Linux Kernel, Contiki, TinyOS)",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/07-csuf-faculty.html"
+      ]
+    },
+    {
+      "id": "f47",
+      "kind": "faculty",
+      "name": "James Choi",
+      "sourceUrl": "https://www.fullerton.edu/ecs/mse/faculty/index.php",
+      "quote": "James Choi, Ph.D.",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/07-csuf-faculty.html"
+      ]
+    },
+    {
+      "id": "f48",
+      "kind": "faculty",
+      "name": "James Choi expertise",
+      "sourceUrl": "https://www.fullerton.edu/ecs/mse/faculty/index.php",
+      "quote": "Software Development Methodology",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/07-csuf-faculty.html"
+      ]
+    },
+    {
+      "id": "f49",
+      "kind": "faculty",
+      "name": "Christopher Ryu",
+      "sourceUrl": "https://www.fullerton.edu/ecs/mse/faculty/index.php",
+      "quote": "Christopher Ryu, Ph.D.",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/07-csuf-faculty.html"
+      ]
+    },
+    {
+      "id": "f50",
+      "kind": "faculty",
+      "name": "Christopher Ryu expertise",
+      "sourceUrl": "https://www.fullerton.edu/ecs/mse/faculty/index.php",
+      "quote": "Software Design and Architecture",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/07-csuf-faculty.html"
+      ]
+    },
+    {
+      "id": "f51",
+      "kind": "faculty",
+      "name": "Chang-Hyun Jo",
+      "sourceUrl": "https://www.fullerton.edu/ecs/mse/faculty/index.php",
+      "quote": "Chang-Hyun Jo, Ph.D.",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/07-csuf-faculty.html"
+      ]
+    },
+    {
+      "id": "f52",
+      "kind": "faculty",
+      "name": "Chang-Hyun Jo expertise",
+      "sourceUrl": "https://www.fullerton.edu/ecs/mse/faculty/index.php",
+      "quote": "Agile Software Process & CMMI/ISO",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/07-csuf-faculty.html"
+      ]
+    }
+  ],
+  "droppedFacts": []
+}

@@ -1,0 +1,506 @@
+{
+  "schoolId": 23,
+  "tier": "primary_live_only",
+  "accessed": "2026-11-13",
+  "pass": 62,
+  "fail": 0,
+  "errors": [],
+  "checks": [
+    {
+      "id": "f1",
+      "sourceUrl": "https://www.unlv.edu/degree/ms-computer-science",
+      "quote": "Graduate degree programs in the Department of Computer Science provide students the opportunity to study different subject areas of computing science, conduct research in specialized areas, and make original contributions to the field.",
+      "len": 235,
+      "ok": true,
+      "reason": "OK"
+    },
+    {
+      "id": "f2",
+      "sourceUrl": "https://www.unlv.edu/degree/ms-computer-science",
+      "quote": "Available Options Thesis Track Project Track Integrated BS-MS Track",
+      "len": 67,
+      "ok": true,
+      "reason": "OK"
+    },
+    {
+      "id": "f3",
+      "sourceUrl": "https://www.unlv.edu/degree/ms-computer-science",
+      "quote": "Exam Track - Foundations and Theory Exam Track - Cyber Security Exam Track - AI and Machine Learning",
+      "len": 100,
+      "ok": true,
+      "reason": "OK"
+    },
+    {
+      "id": "f4",
+      "sourceUrl": "https://www.unlv.edu/degree/ms-computer-science",
+      "quote": "Our master's program gives you the opportunity to study different areas, including: Design and analysis of algorithms.",
+      "len": 118,
+      "ok": true,
+      "reason": "OK"
+    },
+    {
+      "id": "f5",
+      "sourceUrl": "https://www.unlv.edu/cs/graduate/masters",
+      "quote": "you must pass at least 30 credits of 600- and 700-level courses with a grade of C or better",
+      "len": 91,
+      "ok": true,
+      "reason": "OK"
+    },
+    {
+      "id": "f6",
+      "sourceUrl": "https://www.unlv.edu/cs/graduate/masters",
+      "quote": "At least 24 credits must be in computer science.",
+      "len": 48,
+      "ok": true,
+      "reason": "OK"
+    },
+    {
+      "id": "f7",
+      "sourceUrl": "https://www.unlv.edu/cs/graduate/masters",
+      "quote": "At least 18 credits of computer science courses must be at the 700 level.",
+      "len": 73,
+      "ok": true,
+      "reason": "OK"
+    },
+    {
+      "id": "f8",
+      "sourceUrl": "https://www.unlv.edu/cs/graduate/masters",
+      "quote": "If equivalent courses have not been taken previously, CS 656, 660, and 677 must be included.",
+      "len": 92,
+      "ok": true,
+      "reason": "OK"
+    },
+    {
+      "id": "f9",
+      "sourceUrl": "https://www.unlv.edu/cs/graduate/masters",
+      "quote": "At most, six credits of CS 791 (Thesis Option) or three credits of CS 790 (Project Option) can be included.",
+      "len": 107,
+      "ok": true,
+      "reason": "OK"
+    },
+    {
+      "id": "f10",
+      "sourceUrl": "https://www.unlv.edu/cs/graduate/masters",
+      "quote": "A GPA of 3.0 or higher must be maintained at all times while in the program.",
+      "len": 76,
+      "ok": true,
+      "reason": "OK"
+    },
+    {
+      "id": "f11",
+      "sourceUrl": "https://www.unlv.edu/sites/default/files/media/document/2026-07/2026-27-MS-CS-Thesis.docx",
+      "quote": "Complete 24 credits of 600- or 700- level Computer Science (CS) courses. Students may complete up to 3 credits outside of CS.",
+      "len": 125,
+      "ok": true,
+      "reason": "OK"
+    },
+    {
+      "id": "f12",
+      "sourceUrl": "https://www.unlv.edu/sites/default/files/media/document/2026-07/2026-27-MS-CS-Thesis.docx",
+      "quote": "Thesis – Credits: 6",
+      "len": 19,
+      "ok": true,
+      "reason": "OK"
+    },
+    {
+      "id": "f13",
+      "sourceUrl": "https://www.unlv.edu/sites/default/files/media/document/2026-07/2026-27-MS-CS-Thesis.docx",
+      "quote": "Minimum credits required for graduation = 30",
+      "len": 44,
+      "ok": true,
+      "reason": "OK"
+    },
+    {
+      "id": "f14",
+      "sourceUrl": "https://www.unlv.edu/sites/default/files/media/document/2026-07/2026-27-MS-CS-Project.docx",
+      "quote": "Complete 27 credits of 600- or 700- level Computer Science (CS) courses. Students may complete up to 3 credits outside of CS.",
+      "len": 125,
+      "ok": true,
+      "reason": "OK"
+    },
+    {
+      "id": "f15",
+      "sourceUrl": "https://www.unlv.edu/sites/default/files/media/document/2026-07/2026-27-MS-CS-Project.docx",
+      "quote": "Project – Credits: 3",
+      "len": 20,
+      "ok": true,
+      "reason": "OK"
+    },
+    {
+      "id": "f16",
+      "sourceUrl": "https://www.unlv.edu/sites/default/files/media/document/2026-07/2026-27-MS-CS-Thesis.docx",
+      "quote": "A minimum of 50 percent of the degree program must be 700-level courses excluding thesis, dissertation, or professional/scholarly paper.",
+      "len": 136,
+      "ok": true,
+      "reason": "OK"
+    },
+    {
+      "id": "f17",
+      "sourceUrl": "https://www.unlv.edu/sites/default/files/media/document/2026-07/2026-27-MS-CS-Exam-Foundations-Theory.docx",
+      "quote": "Required Courses - Credits: 9",
+      "len": 29,
+      "ok": true,
+      "reason": "OK"
+    },
+    {
+      "id": "f18",
+      "sourceUrl": "https://www.unlv.edu/sites/default/files/media/document/2026-07/2026-27-MS-CS-Exam-Foundations-Theory.docx",
+      "quote": "CS 656",
+      "len": 6,
+      "ok": true,
+      "reason": "OK"
+    },
+    {
+      "id": "f19",
+      "sourceUrl": "https://www.unlv.edu/sites/default/files/media/document/2026-07/2026-27-MS-CS-Exam-Foundations-Theory.docx",
+      "quote": "CS 677",
+      "len": 6,
+      "ok": true,
+      "reason": "OK"
+    },
+    {
+      "id": "f20",
+      "sourceUrl": "https://www.unlv.edu/sites/default/files/media/document/2026-07/2026-27-MS-CS-Exam-Foundations-Theory.docx",
+      "quote": "CS 715",
+      "len": 6,
+      "ok": true,
+      "reason": "OK"
+    },
+    {
+      "id": "f21",
+      "sourceUrl": "https://www.unlv.edu/cs/admissions",
+      "quote": "Two letters of recommendation concerning your potential for success in the graduate program.",
+      "len": 92,
+      "ok": true,
+      "reason": "OK"
+    },
+    {
+      "id": "f22",
+      "sourceUrl": "https://www.unlv.edu/cs/admissions",
+      "quote": "A minimal grade point average (GPA) of 2.75 overall or 3.0 on the last two years of undergraduate work.",
+      "len": 103,
+      "ok": true,
+      "reason": "OK"
+    },
+    {
+      "id": "f23",
+      "sourceUrl": "https://www.unlv.edu/cs/admissions",
+      "quote": "Evidence that courses equivalent to our basic undergraduate courses have been completed with an average grade of B or better.",
+      "len": 125,
+      "ok": true,
+      "reason": "OK"
+    },
+    {
+      "id": "f24",
+      "sourceUrl": "https://www.unlv.edu/cs/admissions",
+      "quote": "Evidence that a bachelor's degree in some field has been earned from an accredited four-year college or university, with an official transcript.",
+      "len": 144,
+      "ok": true,
+      "reason": "OK"
+    },
+    {
+      "id": "f25",
+      "sourceUrl": "https://www.unlv.edu/cs/admissions",
+      "quote": "Results of the Graduate Record Examination.",
+      "len": 43,
+      "ok": true,
+      "reason": "OK"
+    },
+    {
+      "id": "f26",
+      "sourceUrl": "https://www.unlv.edu/cs/admissions",
+      "quote": "The deadline for receiving all materials is August 1 (for Fall) and December 1 (for Spring) admission.",
+      "len": 102,
+      "ok": true,
+      "reason": "OK"
+    },
+    {
+      "id": "f27",
+      "sourceUrl": "https://www.unlv.edu/sites/default/files/media/document/2026-08/MS-PhD-ComputerScience-Handbook.pdf",
+      "quote": "In Computer Science, it is expected to take two years for the Master degree and four to six years for the Ph.D. degree.",
+      "len": 119,
+      "ok": true,
+      "reason": "OK"
+    },
+    {
+      "id": "f28",
+      "sourceUrl": "https://www.unlv.edu/cs/directory",
+      "quote": "Shaikh Arifuzzaman, Ph.D.",
+      "len": 25,
+      "ok": true,
+      "reason": "OK"
+    },
+    {
+      "id": "f29",
+      "sourceUrl": "https://www.unlv.edu/cs/directory",
+      "quote": "Wolfgang Bein, Ph.D.",
+      "len": 20,
+      "ok": true,
+      "reason": "OK"
+    },
+    {
+      "id": "f30",
+      "sourceUrl": "https://www.unlv.edu/cs/directory",
+      "quote": "Hal Berghel, Ph.D.",
+      "len": 18,
+      "ok": true,
+      "reason": "OK"
+    },
+    {
+      "id": "f31",
+      "sourceUrl": "https://www.unlv.edu/cs/directory",
+      "quote": "John Businge, Ph.D.",
+      "len": 19,
+      "ok": true,
+      "reason": "OK"
+    },
+    {
+      "id": "f32",
+      "sourceUrl": "https://www.unlv.edu/cs/directory?page=1",
+      "quote": "Jorge Fonseca Cacho, Ph.D.",
+      "len": 26,
+      "ok": true,
+      "reason": "OK"
+    },
+    {
+      "id": "f33",
+      "sourceUrl": "https://www.unlv.edu/cs/directory?page=1",
+      "quote": "Laxmi Gewali, Ph.D.",
+      "len": 19,
+      "ok": true,
+      "reason": "OK"
+    },
+    {
+      "id": "f34",
+      "sourceUrl": "https://www.unlv.edu/cs/directory?page=1",
+      "quote": "Ju-Yeon Jo, Ph.D.",
+      "len": 17,
+      "ok": true,
+      "reason": "OK"
+    },
+    {
+      "id": "f35",
+      "sourceUrl": "https://www.unlv.edu/cs/directory?page=1",
+      "quote": "Mingon Kang, Ph.D.",
+      "len": 18,
+      "ok": true,
+      "reason": "OK"
+    },
+    {
+      "id": "f36",
+      "sourceUrl": "https://www.unlv.edu/cs/directory?page=1",
+      "quote": "Yoohwan Kim, Ph.D.",
+      "len": 18,
+      "ok": true,
+      "reason": "OK"
+    },
+    {
+      "id": "f37",
+      "sourceUrl": "https://www.unlv.edu/cs/directory?page=1",
+      "quote": "Lawrence Larmore, Ph.D.",
+      "len": 23,
+      "ok": true,
+      "reason": "OK"
+    },
+    {
+      "id": "f38",
+      "sourceUrl": "https://www.unlv.edu/cs/directory?page=1",
+      "quote": "John Minor",
+      "len": 10,
+      "ok": true,
+      "reason": "OK"
+    },
+    {
+      "id": "f39",
+      "sourceUrl": "https://www.unlv.edu/cs/directory?page=1",
+      "quote": "Prashant Modekurthy, Ph.D.",
+      "len": 26,
+      "ok": true,
+      "reason": "OK"
+    },
+    {
+      "id": "f40",
+      "sourceUrl": "https://www.unlv.edu/cs/directory?page=1",
+      "quote": "Fatma Nasoz, Ph.D.",
+      "len": 18,
+      "ok": true,
+      "reason": "OK"
+    },
+    {
+      "id": "f41",
+      "sourceUrl": "https://www.unlv.edu/cs/directory?page=2",
+      "quote": "Jan \"Matt\" Pedersen",
+      "len": 19,
+      "ok": true,
+      "reason": "OK"
+    },
+    {
+      "id": "f42",
+      "sourceUrl": "https://www.unlv.edu/cs/directory?page=2",
+      "quote": "Bryar Shareef, Ph.D.",
+      "len": 20,
+      "ok": true,
+      "reason": "OK"
+    },
+    {
+      "id": "f43",
+      "sourceUrl": "https://www.unlv.edu/cs/directory?page=2",
+      "quote": "Junggab Son, Ph.D.",
+      "len": 18,
+      "ok": true,
+      "reason": "OK"
+    },
+    {
+      "id": "f44",
+      "sourceUrl": "https://www.unlv.edu/cs/directory?page=2",
+      "quote": "Andreas Stefik, Ph.D.",
+      "len": 21,
+      "ok": true,
+      "reason": "OK"
+    },
+    {
+      "id": "f45",
+      "sourceUrl": "https://www.unlv.edu/cs/directory?page=2",
+      "quote": "Kazem Taghva",
+      "len": 12,
+      "ok": true,
+      "reason": "OK"
+    },
+    {
+      "id": "f46",
+      "sourceUrl": "https://www.unlv.edu/cs/directory?page=2",
+      "quote": "Chuck Tessler, Ph.D.",
+      "len": 20,
+      "ok": true,
+      "reason": "OK"
+    },
+    {
+      "id": "f47",
+      "sourceUrl": "https://www.unlv.edu/cs/directory?page=2",
+      "quote": "Zuobin Xiong, Ph.D.",
+      "len": 19,
+      "ok": true,
+      "reason": "OK"
+    },
+    {
+      "id": "f48",
+      "sourceUrl": "https://www.unlv.edu/people/fatma-nasoz",
+      "quote": "research interests include machine learning and deep learning, with a focus on analyzing primary and secondary data across health, education, finance, and genomics.",
+      "len": 164,
+      "ok": true,
+      "reason": "OK"
+    },
+    {
+      "id": "f49",
+      "sourceUrl": "https://www.unlv.edu/people/zuobin-xiong",
+      "quote": "research interests lie in a broad area of cybersecurity and privacy, including privacy-preserving machine learning, privacy-preserving data mining, the Internet of Things (IoT), and data security related topics.",
+      "len": 211,
+      "ok": true,
+      "reason": "OK"
+    },
+    {
+      "id": "f50",
+      "sourceUrl": "https://www.unlv.edu/people/shaikh-arifuzzaman",
+      "quote": "Shaikh Arifuzzaman, Ph.D.",
+      "len": 25,
+      "ok": true,
+      "reason": "OK"
+    },
+    {
+      "id": "f51",
+      "sourceUrl": "https://www.unlv.edu/people/wolfgang-bein",
+      "quote": "Wolfgang Bein, Ph.D.",
+      "len": 20,
+      "ok": true,
+      "reason": "OK"
+    },
+    {
+      "id": "f52",
+      "sourceUrl": "https://www.unlv.edu/people/hal-berghel",
+      "quote": "Hal Berghel, Ph.D.",
+      "len": 18,
+      "ok": true,
+      "reason": "OK"
+    },
+    {
+      "id": "f53",
+      "sourceUrl": "https://www.unlv.edu/people/john-businge",
+      "quote": "John Businge, Ph.D.",
+      "len": 19,
+      "ok": true,
+      "reason": "OK"
+    },
+    {
+      "id": "f54",
+      "sourceUrl": "https://www.unlv.edu/people/jorge-fonseca-cacho",
+      "quote": "Jorge Fonseca Cacho, Ph.D.",
+      "len": 26,
+      "ok": true,
+      "reason": "OK"
+    },
+    {
+      "id": "f55",
+      "sourceUrl": "https://www.unlv.edu/people/laxmi-gewali",
+      "quote": "Laxmi Gewali, Ph.D.",
+      "len": 19,
+      "ok": true,
+      "reason": "OK"
+    },
+    {
+      "id": "f56",
+      "sourceUrl": "https://www.unlv.edu/people/ju-yeon-jo",
+      "quote": "Ju-Yeon Jo, Ph.D.",
+      "len": 17,
+      "ok": true,
+      "reason": "OK"
+    },
+    {
+      "id": "f57",
+      "sourceUrl": "https://www.unlv.edu/people/mingon-kang",
+      "quote": "Mingon Kang, Ph.D.",
+      "len": 18,
+      "ok": true,
+      "reason": "OK"
+    },
+    {
+      "id": "f58",
+      "sourceUrl": "https://www.unlv.edu/people/yoohwan-kim",
+      "quote": "Yoohwan Kim, Ph.D.",
+      "len": 18,
+      "ok": true,
+      "reason": "OK"
+    },
+    {
+      "id": "f59",
+      "sourceUrl": "https://www.unlv.edu/people/lawrence-larmore",
+      "quote": "Lawrence Larmore, Ph.D.",
+      "len": 23,
+      "ok": true,
+      "reason": "OK"
+    },
+    {
+      "id": "f60",
+      "sourceUrl": "https://www.unlv.edu/people/prashant-modekurthy",
+      "quote": "Prashant Modekurthy, Ph.D.",
+      "len": 26,
+      "ok": true,
+      "reason": "OK"
+    },
+    {
+      "id": "f61",
+      "sourceUrl": "https://www.unlv.edu/people/andreas-stefik",
+      "quote": "Andreas Stefik, Ph.D.",
+      "len": 21,
+      "ok": true,
+      "reason": "OK"
+    },
+    {
+      "id": "f62",
+      "sourceUrl": "https://www.unlv.edu/people/john-minor",
+      "quote": "John Minor",
+      "len": 10,
+      "ok": true,
+      "reason": "OK"
+    }
+  ]
+}

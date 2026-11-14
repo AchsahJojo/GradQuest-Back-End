@@ -1,0 +1,14 @@
+HTTP/1.1 202 Accepted
+Date: Sat, 14 Nov 2026 06:13:38 GMT
+Content-Type: text/html; charset=UTF-8
+Content-Length: 2011
+Connection: keep-alive
+x-amzn-waf-action: challenge
+Cache-Control: no-store, max-age=0
+Access-Control-Allow-Origin: *
+Access-Control-Max-Age: 86400
+Access-Control-Allow-Methods: OPTIONS,GET,POST
+Access-Control-Expose-Headers: x-amzn-waf-action
+Server: director
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+

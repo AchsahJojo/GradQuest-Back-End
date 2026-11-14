@@ -1,0 +1,418 @@
+{
+  "schoolId": 8,
+  "tier": "primary_live_only",
+  "accessed": "2026-11-13",
+  "pass": 51,
+  "fail": 0,
+  "errors": [],
+  "checks": [
+    {
+      "id": "f1",
+      "sourceUrl": "https://www.csulb.edu/hung-family-college-of-engineering/master-of-science-computer-science",
+      "quote": "Tailored to the schedules of working professionals, the CSULB Master of Science in Computer Science program offers the most relevant and up-to-date curriculum to meet the demands of the rapidly changing world of computing.",
+      "len": 222,
+      "ok": true,
+      "reason": "OK"
+    },
+    {
+      "id": "f2",
+      "sourceUrl": "https://www.csulb.edu/hung-family-college-of-engineering/master-of-science-computer-science",
+      "quote": "The M.S. in Computer Science provides advanced study in software development and engineering, networking, operating systems, distributed computing, artificial intelligence, and analysis of algorithms.",
+      "len": 200,
+      "ok": true,
+      "reason": "OK"
+    },
+    {
+      "id": "f3",
+      "sourceUrl": "https://www.csulb.edu/hung-family-college-of-engineering/master-of-science-computer-science",
+      "quote": "Students can pursue concentrations in Advanced Systems or Software Development.",
+      "len": 79,
+      "ok": true,
+      "reason": "OK"
+    },
+    {
+      "id": "f4",
+      "sourceUrl": "https://www.csulb.edu/hung-family-college-of-engineering/master-of-science-computer-science",
+      "quote": "Complete your graduate degree with a comprehensive exam or thesis research project.",
+      "len": 83,
+      "ok": true,
+      "reason": "OK"
+    },
+    {
+      "id": "f5",
+      "sourceUrl": "https://www.csulb.edu/hung-family-college-of-engineering/mscs-admissions",
+      "quote": "Hold a bachelor's degree in computer engineering or computer science or have sufficient background in computer engineering or computer science from a college or university with a minimum grade point average (GPA) of 2.7 in the last 60 semester or 90 quarter upper-division major units attempted.",
+      "len": 295,
+      "ok": true,
+      "reason": "OK"
+    },
+    {
+      "id": "f6",
+      "sourceUrl": "https://www.csulb.edu/hung-family-college-of-engineering/mscs-admissions",
+      "quote": "Satisfy university requirements for graduate admission",
+      "len": 54,
+      "ok": true,
+      "reason": "OK"
+    },
+    {
+      "id": "f7",
+      "sourceUrl": "https://www.csulb.edu/admissions/graduate-programs-admission-eligibility",
+      "quote": "Hold a baccalaureate degree with a cumulative GPA of at least 2.5. (No Rounding)",
+      "len": 80,
+      "ok": true,
+      "reason": "OK"
+    },
+    {
+      "id": "f8",
+      "sourceUrl": "https://www.csulb.edu/enrollment-services/key-dates-and-deadlines",
+      "quote": "Master’s programs and certificates application deadline",
+      "len": 55,
+      "ok": true,
+      "reason": "OK"
+    },
+    {
+      "id": "f9",
+      "sourceUrl": "https://www.csulb.edu/enrollment-services/key-dates-and-deadlines",
+      "quote": "Varies by program (no later than Nov. 1, 2026)",
+      "len": 46,
+      "ok": true,
+      "reason": "OK"
+    },
+    {
+      "id": "f10",
+      "sourceUrl": "https://www.csulb.edu/enrollment-services/key-dates-and-deadlines",
+      "quote": "Varies by program (no later than June 1, 2027)",
+      "len": 46,
+      "ok": true,
+      "reason": "OK"
+    },
+    {
+      "id": "f11",
+      "sourceUrl": "https://www.csulb.edu/college-of-engineering/computer-engineering-computer-science",
+      "quote": "Our faculty are actively involved in advanced research across areas such as data science (with various applications including health), artificial intelligence, cybersecurity, software engineering, internet of things, embedded systems, and more.",
+      "len": 244,
+      "ok": true,
+      "reason": "OK"
+    },
+    {
+      "id": "f12",
+      "sourceUrl": "https://www.csulb.edu/college-of-engineering/computer-engineering-computer-science/faculty-staff",
+      "quote": "Dr. Shadnaz Asgari",
+      "len": 18,
+      "ok": true,
+      "reason": "OK"
+    },
+    {
+      "id": "f13",
+      "sourceUrl": "https://www.csulb.edu/college-of-engineering/computer-engineering-computer-science/faculty-staff",
+      "quote": "Dr. Amin Rezaei",
+      "len": 15,
+      "ok": true,
+      "reason": "OK"
+    },
+    {
+      "id": "f14",
+      "sourceUrl": "https://www.csulb.edu/college-of-engineering/computer-engineering-computer-science/faculty-staff",
+      "quote": "Dr. Wenlu Zhang",
+      "len": 15,
+      "ok": true,
+      "reason": "OK"
+    },
+    {
+      "id": "f15",
+      "sourceUrl": "https://www.csulb.edu/college-of-engineering/computer-engineering-computer-science/faculty-staff",
+      "quote": "Daniel Commey",
+      "len": 13,
+      "ok": true,
+      "reason": "OK"
+    },
+    {
+      "id": "f16",
+      "sourceUrl": "https://www.csulb.edu/college-of-engineering/computer-engineering-computer-science/faculty-staff",
+      "quote": "Dr. Todd Ebert",
+      "len": 14,
+      "ok": true,
+      "reason": "OK"
+    },
+    {
+      "id": "f17",
+      "sourceUrl": "https://www.csulb.edu/college-of-engineering/computer-engineering-computer-science/faculty-staff",
+      "quote": "Dr. Bo Fu",
+      "len": 9,
+      "ok": true,
+      "reason": "OK"
+    },
+    {
+      "id": "f18",
+      "sourceUrl": "https://www.csulb.edu/college-of-engineering/computer-engineering-computer-science/faculty-staff",
+      "quote": "Dr. Amir Ghasemkhani",
+      "len": 20,
+      "ok": true,
+      "reason": "OK"
+    },
+    {
+      "id": "f19",
+      "sourceUrl": "https://www.csulb.edu/college-of-engineering/computer-engineering-computer-science/faculty-staff",
+      "quote": "Dr. Darin Goldstein",
+      "len": 19,
+      "ok": true,
+      "reason": "OK"
+    },
+    {
+      "id": "f20",
+      "sourceUrl": "https://www.csulb.edu/college-of-engineering/computer-engineering-computer-science/faculty-staff?page=1",
+      "quote": "Dr. Forouzan Golshani",
+      "len": 21,
+      "ok": true,
+      "reason": "OK"
+    },
+    {
+      "id": "f21",
+      "sourceUrl": "https://www.csulb.edu/college-of-engineering/computer-engineering-computer-science/faculty-staff?page=1",
+      "quote": "Dr. Min He",
+      "len": 10,
+      "ok": true,
+      "reason": "OK"
+    },
+    {
+      "id": "f22",
+      "sourceUrl": "https://www.csulb.edu/college-of-engineering/computer-engineering-computer-science/faculty-staff?page=1",
+      "quote": "Dr. Michael Hoffman",
+      "len": 19,
+      "ok": true,
+      "reason": "OK"
+    },
+    {
+      "id": "f23",
+      "sourceUrl": "https://www.csulb.edu/college-of-engineering/computer-engineering-computer-science/faculty-staff?page=1",
+      "quote": "Dr. Tracy Bradley Maples",
+      "len": 24,
+      "ok": true,
+      "reason": "OK"
+    },
+    {
+      "id": "f24",
+      "sourceUrl": "https://www.csulb.edu/college-of-engineering/computer-engineering-computer-science/faculty-staff?page=1",
+      "quote": "Dr. Ju Cheol Moon",
+      "len": 17,
+      "ok": true,
+      "reason": "OK"
+    },
+    {
+      "id": "f25",
+      "sourceUrl": "https://www.csulb.edu/college-of-engineering/computer-engineering-computer-science/faculty-staff?page=1",
+      "quote": "Dr. Frank Murgolo",
+      "len": 17,
+      "ok": true,
+      "reason": "OK"
+    },
+    {
+      "id": "f26",
+      "sourceUrl": "https://www.csulb.edu/college-of-engineering/computer-engineering-computer-science/faculty-staff?page=1",
+      "quote": "Dr. Oscar Morales Ponce",
+      "len": 23,
+      "ok": true,
+      "reason": "OK"
+    },
+    {
+      "id": "f27",
+      "sourceUrl": "https://www.csulb.edu/college-of-engineering/computer-engineering-computer-science/faculty-staff?page=1",
+      "quote": "Dr. Xin Qin",
+      "len": 11,
+      "ok": true,
+      "reason": "OK"
+    },
+    {
+      "id": "f28",
+      "sourceUrl": "https://www.csulb.edu/college-of-engineering/computer-engineering-computer-science/faculty-staff?page=1",
+      "quote": "Dr. Muhammad Abdul Basit Ur Rahim",
+      "len": 33,
+      "ok": true,
+      "reason": "OK"
+    },
+    {
+      "id": "f29",
+      "sourceUrl": "https://www.csulb.edu/college-of-engineering/computer-engineering-computer-science/faculty-staff?page=1",
+      "quote": "Dr. Arash Sarshar",
+      "len": 17,
+      "ok": true,
+      "reason": "OK"
+    },
+    {
+      "id": "f30",
+      "sourceUrl": "https://www.csulb.edu/college-of-engineering/computer-engineering-computer-science/faculty-staff?page=1",
+      "quote": "Dr. Hossein Sayadi",
+      "len": 18,
+      "ok": true,
+      "reason": "OK"
+    },
+    {
+      "id": "f31",
+      "sourceUrl": "https://www.csulb.edu/college-of-engineering/computer-engineering-computer-science/faculty-staff?page=2",
+      "quote": "Dr. Shabnam Sodagari",
+      "len": 20,
+      "ok": true,
+      "reason": "OK"
+    },
+    {
+      "id": "f32",
+      "sourceUrl": "https://www.csulb.edu/college-of-engineering/computer-engineering-computer-science/faculty-staff?page=2",
+      "quote": "Dr. Jelena Trajkovic",
+      "len": 20,
+      "ok": true,
+      "reason": "OK"
+    },
+    {
+      "id": "f33",
+      "sourceUrl": "https://www.csulb.edu/college-of-engineering/computer-engineering-computer-science/faculty-staff?page=2",
+      "quote": "Wei Wei",
+      "len": 7,
+      "ok": true,
+      "reason": "OK"
+    },
+    {
+      "id": "f34",
+      "sourceUrl": "https://www.csulb.edu/college-of-engineering/computer-engineering-computer-science/faculty-staff?page=2",
+      "quote": "Dr. Xiaolong Wu",
+      "len": 15,
+      "ok": true,
+      "reason": "OK"
+    },
+    {
+      "id": "f35",
+      "sourceUrl": "https://www.csulb.edu/college-of-engineering/computer-engineering-computer-science/faculty-staff?page=2",
+      "quote": "Dr. Hailu Xu",
+      "len": 12,
+      "ok": true,
+      "reason": "OK"
+    },
+    {
+      "id": "f36",
+      "sourceUrl": "https://www.csulb.edu/college-of-engineering/computer-engineering-computer-science/faculty-staff?page=2",
+      "quote": "Dr. Yutong Zhao",
+      "len": 15,
+      "ok": true,
+      "reason": "OK"
+    },
+    {
+      "id": "f37",
+      "sourceUrl": "https://www.csulb.edu/college-of-engineering/computer-engineering-computer-science/page/dr-shadnaz-asgari",
+      "quote": "Dr. Asgari’s research integrates artificial intelligence, signal processing, and computational modeling to solve problems in clinical and biomedical contexts.",
+      "len": 158,
+      "ok": true,
+      "reason": "OK"
+    },
+    {
+      "id": "f38",
+      "sourceUrl": "https://www.csulb.edu/college-of-engineering/computer-engineering-computer-science/page/dr-todd-ebert",
+      "quote": "research interests lie in constraint programming, including high-level languages for stating constraint problems, and robust algorithms for solving them.",
+      "len": 153,
+      "ok": true,
+      "reason": "OK"
+    },
+    {
+      "id": "f39",
+      "sourceUrl": "https://www.csulb.edu/college-of-engineering/computer-engineering-computer-science/page/dr-bo-fu",
+      "quote": "Dr. Fu’s research intersects Web Semantics, Human Data Interaction, and Visual Analytics.",
+      "len": 89,
+      "ok": true,
+      "reason": "OK"
+    },
+    {
+      "id": "f40",
+      "sourceUrl": "https://www.csulb.edu/college-of-engineering/computer-engineering-computer-science/page/dr-amir-ghasemkhani",
+      "quote": "research interests revolve around AI privacy and security for cyber physical system (CPS) applications.",
+      "len": 103,
+      "ok": true,
+      "reason": "OK"
+    },
+    {
+      "id": "f41",
+      "sourceUrl": "https://www.csulb.edu/college-of-engineering/computer-engineering-computer-science/page/dr-darin-goldstein",
+      "quote": "Dr. Goldstein's interests include algorithms and data structures, games, distributed computation, computational complexity",
+      "len": 122,
+      "ok": true,
+      "reason": "OK"
+    },
+    {
+      "id": "f42",
+      "sourceUrl": "https://www.csulb.edu/college-of-engineering/computer-engineering-computer-science/page/dr-min-he",
+      "quote": "research interests include embedded systems, hardware/software codesign for embedded systems, software engineering for embedded systems, parallel algorithms and models, and optical interconnection networks.",
+      "len": 206,
+      "ok": true,
+      "reason": "OK"
+    },
+    {
+      "id": "f43",
+      "sourceUrl": "https://www.csulb.edu/college-of-engineering/computer-engineering-computer-science/page/dr-tracy-bradley-maples",
+      "quote": "research interests lie in the areas of computer networking, modeling and simulation.",
+      "len": 84,
+      "ok": true,
+      "reason": "OK"
+    },
+    {
+      "id": "f44",
+      "sourceUrl": "https://www.csulb.edu/college-of-engineering/computer-engineering-computer-science/page/dr-jelena-trajkovic",
+      "quote": "research interests include multicore embedded systems, pervasive computing, and Internet of Things technologies for critical biomedical and control applications.",
+      "len": 161,
+      "ok": true,
+      "reason": "OK"
+    },
+    {
+      "id": "f45",
+      "sourceUrl": "https://www.csulb.edu/college-of-engineering/computer-engineering-computer-science/page/dr-hossein-sayadi",
+      "quote": "His research interests span hardware security, AI and machine learning, cybersecurity, computer architecture, cyber-physical systems, and computer science education.",
+      "len": 165,
+      "ok": true,
+      "reason": "OK"
+    },
+    {
+      "id": "f46",
+      "sourceUrl": "https://www.csulb.edu/college-of-engineering/computer-engineering-computer-science/page/dr-shabnam-sodagari",
+      "quote": "She has taught courses on information security, quantum computing, and machine learning.",
+      "len": 88,
+      "ok": true,
+      "reason": "OK"
+    },
+    {
+      "id": "f47",
+      "sourceUrl": "https://www.csulb.edu/college-of-engineering/computer-engineering-computer-science/page/daniel-commey",
+      "quote": "Daniel Commey",
+      "len": 13,
+      "ok": true,
+      "reason": "OK"
+    },
+    {
+      "id": "f48",
+      "sourceUrl": "https://www.csulb.edu/college-of-engineering/computer-engineering-computer-science/page/dr-michael-hoffman",
+      "quote": "Dr. Michael Hoffman",
+      "len": 19,
+      "ok": true,
+      "reason": "OK"
+    },
+    {
+      "id": "f49",
+      "sourceUrl": "https://www.csulb.edu/college-of-engineering/computer-engineering-computer-science/page/dr-amin-rezaei",
+      "quote": "Hardware Security",
+      "len": 17,
+      "ok": true,
+      "reason": "OK"
+    },
+    {
+      "id": "f50",
+      "sourceUrl": "https://www.csulb.edu/college-of-engineering/computer-engineering-computer-science/page/dr-wenlu-zhang",
+      "quote": "Dr. Wenlu Zhang",
+      "len": 15,
+      "ok": true,
+      "reason": "OK"
+    },
+    {
+      "id": "f51",
+      "sourceUrl": "https://www.csulb.edu/college-of-engineering/computer-engineering-computer-science/page/dr-forouzan-golshani",
+      "quote": "Forouzan Golshani is a Fellow of the National Academy of Inventors, a Life Time Fellow of IEEE and a Fellow of AAIA.",
+      "len": 116,
+      "ok": true,
+      "reason": "OK"
+    }
+  ]
+}

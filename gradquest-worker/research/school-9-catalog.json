@@ -1,0 +1,422 @@
+{
+  "schoolId": 9,
+  "schoolName": "California State University, Los Angeles",
+  "programName": "Computer Science, M.S.",
+  "sourceNote": "Saved from user's browser 2026-11-13 (live catalog WAF-blocks scripted fetch)",
+  "pages": [
+    {
+      "kind": "curriculum",
+      "url": "https://ecatalog.calstatela.edu/preview_program.php?catoid=77&poid=35252"
+    }
+  ],
+  "facts": [
+    {
+      "id": "f48",
+      "kind": "overview",
+      "name": "Catalog heading and campus",
+      "detail": "The selected catalog is University Catalog 2026-2027. The program heading is Computer Science, M.S., and the page lists Location(s): Main Campus.",
+      "sourceUrl": "https://ecatalog.calstatela.edu/preview_program.php?catoid=77&poid=35252",
+      "quote": "University Catalog 2026-2027 Computer Science, M.S. Location(s): Main Campus"
+    },
+    {
+      "id": "f49",
+      "kind": "overview",
+      "name": "Program purpose",
+      "detail": "The catalog says the M.S. is structured to prepare students for advancement in employment as a computer scientist and for later doctoral study.",
+      "sourceUrl": "https://ecatalog.calstatela.edu/preview_program.php?catoid=77&poid=35252",
+      "quote": "The program is structured to prepare students for advancement in employment as a computer scientist as well as for further study at the doctoral level."
+    },
+    {
+      "id": "f50",
+      "kind": "requirement",
+      "name": "3.0 GPA for conditional admission",
+      "detail": "Applicants with a bachelor's in Computer Science or a closely related field and an overall GPA of 3.0 or better are considered for conditional admission. An earlier department-page fact quoted similar wording but said 'full admission' instead of 'conditional admission.' Both quotes are kept and no winner is chosen.",
+      "sourceUrl": "https://ecatalog.calstatela.edu/preview_program.php?catoid=77&poid=35252",
+      "quote": "Applicants must possess a Bachelor's Degree in Computer Science or a closely related field with overall GPA of 3.0 or better to be considered for conditional admission."
+    },
+    {
+      "id": "f51",
+      "kind": "requirement",
+      "name": "Special action admission at 2.5-2.99 GPA",
+      "detail": "A promising applicant with a GPA between 2.5 and 2.99 may be admitted as a special action student and must then earn a 3.0 GPA in four qualifying courses approved in advance by the department.",
+      "sourceUrl": "https://ecatalog.calstatela.edu/preview_program.php?catoid=77&poid=35252",
+      "quote": "A promising applicant with a GPA between 2.5 and 2.99 may be admitted as a special action student. Special action students must achieve an overall GPA of 3.0 for four qualifying courses as approved in advance by the department."
+    },
+    {
+      "id": "f52",
+      "kind": "requirement",
+      "name": "Prerequisites for non-CS or non-ABET backgrounds",
+      "detail": "Prerequisite courses may be required for non-CS students or for students from non-ABET-accredited CS programs.",
+      "sourceUrl": "https://ecatalog.calstatela.edu/preview_program.php?catoid=77&poid=35252",
+      "quote": "Prerequisite courses may be required for non-CS students or for students from non-ABET-accredited CS programs."
+    },
+    {
+      "id": "f53",
+      "kind": "requirement",
+      "name": "Classified students and 4000-level prerequisites",
+      "detail": "Classified Master of Science students are not required to take prerequisites below the 4000-level when they use 4000-level courses to satisfy the degree requirement.",
+      "sourceUrl": "https://ecatalog.calstatela.edu/preview_program.php?catoid=77&poid=35252",
+      "quote": "Classified Master of Science students are not required to take any prerequisites below the 4000-level when they take 4000-level courses to satisfy the degree requirement."
+    },
+    {
+      "id": "f54",
+      "kind": "requirement",
+      "name": "30 units with 18-unit 5000-level core",
+      "detail": "The degree requires 30 units, including 18 units in 5000-level core courses. This 2026-2027 catalog page is a later official curriculum source than the department curriculum page earlier tagged as 2023-2024; both sources are kept and no winner is chosen.",
+      "sourceUrl": "https://ecatalog.calstatela.edu/preview_program.php?catoid=77&poid=35252",
+      "quote": "The Master of Science degree in Computer Science degree requires completion of 30 units, with 18 units in 5000-level core courses."
+    },
+    {
+      "id": "f55",
+      "kind": "requirement",
+      "name": "Pre-classified coursework cap",
+      "detail": "Up to 6 units of acceptable post-baccalaureate coursework completed before classified standing may be included in the master's program.",
+      "sourceUrl": "https://ecatalog.calstatela.edu/preview_program.php?catoid=77&poid=35252",
+      "quote": "Up to 6 units of acceptable post-baccalaureate coursework completed before entrance into classified standing may be included in the master's degree program."
+    },
+    {
+      "id": "f56",
+      "kind": "requirement",
+      "name": "Thesis or comprehensive examination required",
+      "detail": "A thesis or a comprehensive examination satisfies the Culminating Experiences requirement.",
+      "sourceUrl": "https://ecatalog.calstatela.edu/preview_program.php?catoid=77&poid=35252",
+      "quote": "A thesis or comprehensive examination is required to satisfy the Culminating Experiences requirement."
+    },
+    {
+      "id": "f57",
+      "kind": "requirement",
+      "name": "Core course structure",
+      "detail": "The 18 core units are met by selecting two courses from each of three areas of study (6 units each).",
+      "sourceUrl": "https://ecatalog.calstatela.edu/preview_program.php?catoid=77&poid=35252",
+      "quote": "Requirement for Core Courses (18 units) Select two courses from each of the three areas of study:"
+    },
+    {
+      "id": "f58",
+      "kind": "requirement",
+      "name": "Software Design and Implementation core area",
+      "detail": "Area I is Software Design and Implementation (6 units); students select two courses from that list.",
+      "sourceUrl": "https://ecatalog.calstatela.edu/preview_program.php?catoid=77&poid=35252",
+      "quote": "I. Software Design and Implementation (6 units) Select two courses."
+    },
+    {
+      "id": "f59",
+      "kind": "requirement",
+      "name": "System Infrastructure core area",
+      "detail": "Area II is System Infrastructure (6 units); students select two courses from that list.",
+      "sourceUrl": "https://ecatalog.calstatela.edu/preview_program.php?catoid=77&poid=35252",
+      "quote": "II. System Infrastructure (6 units) Select two courses."
+    },
+    {
+      "id": "f60",
+      "kind": "requirement",
+      "name": "Computing in the World core area",
+      "detail": "Area III is Computing in the World (6 units); students select two courses from that list.",
+      "sourceUrl": "https://ecatalog.calstatela.edu/preview_program.php?catoid=77&poid=35252",
+      "quote": "III. Computing in the World (6 units) Select two courses."
+    },
+    {
+      "id": "f61",
+      "kind": "requirement",
+      "name": "Directed electives 6 or 12 units",
+      "detail": "Directed electives are 6 or 12 units: CS 5960 (comprehensive exam) students must select 12 units; CS 5990 (thesis) students select 6 units.",
+      "sourceUrl": "https://ecatalog.calstatela.edu/preview_program.php?catoid=77&poid=35252",
+      "quote": "Requirements for Directed Electives (6 or 12 units) CS 5960 students must select 12 units to satisfy the degree requirement. CS 5990 students select 6 units."
+    },
+    {
+      "id": "f62",
+      "kind": "requirement",
+      "name": "Culminating experience courses",
+      "detail": "Students select one culminating path: CS 5960 Comprehensive Examination (0 units) or CS 5990 Thesis at 3 units, completed for 6 units. Students who take CS 5960 must complete 12 units of electives.",
+      "sourceUrl": "https://ecatalog.calstatela.edu/preview_program.php?catoid=77&poid=35252",
+      "quote": "Culminating Experiences (0 or 6 units) Select one course. CS 5960 - Comprehensive Examination [0] * CS 5990 - Thesis [3] (complete 6 units) * Students who take CS 5960 must complete a total of 12 units of electives."
+    },
+    {
+      "id": "f63",
+      "kind": "course",
+      "name": "CS 5035",
+      "detail": "A 3-unit choice in the Software Design and Implementation core area; also listed among directed electives.",
+      "sourceUrl": "https://ecatalog.calstatela.edu/preview_program.php?catoid=77&poid=35252",
+      "quote": "CS 5035 - Topics in Functional Programming [3]"
+    },
+    {
+      "id": "f64",
+      "kind": "course",
+      "name": "CS 5112",
+      "detail": "A 3-unit choice in the Software Design and Implementation core area; also listed among directed electives.",
+      "sourceUrl": "https://ecatalog.calstatela.edu/preview_program.php?catoid=77&poid=35252",
+      "quote": "CS 5112 - Design and Analysis of Algorithms [3]"
+    },
+    {
+      "id": "f65",
+      "kind": "course",
+      "name": "CS 5220",
+      "detail": "A 3-unit choice in the Software Design and Implementation core area; also listed among directed electives.",
+      "sourceUrl": "https://ecatalog.calstatela.edu/preview_program.php?catoid=77&poid=35252",
+      "quote": "CS 5220 - Advanced Topics in Web Programming [3]"
+    },
+    {
+      "id": "f66",
+      "kind": "course",
+      "name": "CS 5337",
+      "detail": "A 3-unit choice in the Software Design and Implementation core area; also listed among directed electives.",
+      "sourceUrl": "https://ecatalog.calstatela.edu/preview_program.php?catoid=77&poid=35252",
+      "quote": "CS 5337 - Advanced Software Engineering [3]"
+    },
+    {
+      "id": "f67",
+      "kind": "course",
+      "name": "CS 5440",
+      "detail": "A 3-unit choice in the System Infrastructure core area; also listed among directed electives.",
+      "sourceUrl": "https://ecatalog.calstatela.edu/preview_program.php?catoid=77&poid=35252",
+      "quote": "CS 5440 - Advanced Topics in Operating Systems [3]"
+    },
+    {
+      "id": "f68",
+      "kind": "course",
+      "name": "CS 5470",
+      "detail": "A 3-unit choice in the System Infrastructure core area; also listed among directed electives.",
+      "sourceUrl": "https://ecatalog.calstatela.edu/preview_program.php?catoid=77&poid=35252",
+      "quote": "CS 5470 - Advanced Computer Networks [3]"
+    },
+    {
+      "id": "f69",
+      "kind": "course",
+      "name": "CS 5780",
+      "detail": "A 3-unit choice in the System Infrastructure core area; also listed among directed electives.",
+      "sourceUrl": "https://ecatalog.calstatela.edu/preview_program.php?catoid=77&poid=35252",
+      "quote": "CS 5780 - Advanced Information Security [3]"
+    },
+    {
+      "id": "f70",
+      "kind": "course",
+      "name": "CS 5781",
+      "detail": "A 3-unit choice in the System Infrastructure core area; also listed among directed electives.",
+      "sourceUrl": "https://ecatalog.calstatela.edu/preview_program.php?catoid=77&poid=35252",
+      "quote": "CS 5781 - Computer and Network Security [3]"
+    },
+    {
+      "id": "f71",
+      "kind": "course",
+      "name": "CS 5550",
+      "detail": "A 3-unit choice in the Computing in the World core area; also listed among directed electives.",
+      "sourceUrl": "https://ecatalog.calstatela.edu/preview_program.php?catoid=77&poid=35252",
+      "quote": "CS 5550 - Advanced Computer Graphics [3]"
+    },
+    {
+      "id": "f72",
+      "kind": "course",
+      "name": "CS 5660",
+      "detail": "A 3-unit choice in the Computing in the World core area; also listed among directed electives.",
+      "sourceUrl": "https://ecatalog.calstatela.edu/preview_program.php?catoid=77&poid=35252",
+      "quote": "CS 5660 - Advanced Topics in Artificial Intelligence [3]"
+    },
+    {
+      "id": "f73",
+      "kind": "course",
+      "name": "CS 5661",
+      "detail": "A 3-unit choice in the Computing in the World core area; also listed among directed electives.",
+      "sourceUrl": "https://ecatalog.calstatela.edu/preview_program.php?catoid=77&poid=35252",
+      "quote": "CS 5661 - Topics in Data Science [3]"
+    },
+    {
+      "id": "f74",
+      "kind": "course",
+      "name": "CS 5960",
+      "detail": "Comprehensive Examination, 0 units. Students who take this course must complete 12 units of electives.",
+      "sourceUrl": "https://ecatalog.calstatela.edu/preview_program.php?catoid=77&poid=35252",
+      "quote": "CS 5960 - Comprehensive Examination [0]"
+    },
+    {
+      "id": "f75",
+      "kind": "course",
+      "name": "CS 5990",
+      "detail": "Thesis, listed as [3] with the instruction to complete 6 units. Thesis students select 6 units of directed electives.",
+      "sourceUrl": "https://ecatalog.calstatela.edu/preview_program.php?catoid=77&poid=35252",
+      "quote": "CS 5990 - Thesis [3] (complete 6 units)"
+    },
+    {
+      "id": "f76",
+      "kind": "course",
+      "name": "CS 4075",
+      "detail": "Listed among directed electives on the 2026-2027 catalog program page.",
+      "sourceUrl": "https://ecatalog.calstatela.edu/preview_program.php?catoid=77&poid=35252",
+      "quote": "CS 4075 - Concurrent and Distributed Programming [3]"
+    },
+    {
+      "id": "f77",
+      "kind": "course",
+      "name": "CS 4188",
+      "detail": "Listed among directed electives on the 2026-2027 catalog program page.",
+      "sourceUrl": "https://ecatalog.calstatela.edu/preview_program.php?catoid=77&poid=35252",
+      "quote": "CS 4188 - Compilers [3]"
+    },
+    {
+      "id": "f78",
+      "kind": "course",
+      "name": "CS 4220",
+      "detail": "Listed among directed electives on the 2026-2027 catalog program page.",
+      "sourceUrl": "https://ecatalog.calstatela.edu/preview_program.php?catoid=77&poid=35252",
+      "quote": "CS 4220 - Current Trends in Web Design and Development [3]"
+    },
+    {
+      "id": "f79",
+      "kind": "course",
+      "name": "CS 4222",
+      "detail": "Listed among directed electives on the 2026-2027 catalog program page.",
+      "sourceUrl": "https://ecatalog.calstatela.edu/preview_program.php?catoid=77&poid=35252",
+      "quote": "CS 4222 - Principles of Data Base Systems [3]"
+    },
+    {
+      "id": "f80",
+      "kind": "course",
+      "name": "CS 4470",
+      "detail": "Listed among directed electives on the 2026-2027 catalog program page.",
+      "sourceUrl": "https://ecatalog.calstatela.edu/preview_program.php?catoid=77&poid=35252",
+      "quote": "CS 4470 - Computer Networking Protocols [3]"
+    },
+    {
+      "id": "f81",
+      "kind": "course",
+      "name": "CS 4471",
+      "detail": "Listed among directed electives on the 2026-2027 catalog program page.",
+      "sourceUrl": "https://ecatalog.calstatela.edu/preview_program.php?catoid=77&poid=35252",
+      "quote": "CS 4471 - Computer Networks Configuration and Management [3]"
+    },
+    {
+      "id": "f82",
+      "kind": "course",
+      "name": "CS 4472",
+      "detail": "Listed among directed electives on the 2026-2027 catalog program page.",
+      "sourceUrl": "https://ecatalog.calstatela.edu/preview_program.php?catoid=77&poid=35252",
+      "quote": "CS 4472 - Computer and Cyber Security [3]"
+    },
+    {
+      "id": "f83",
+      "kind": "course",
+      "name": "CS 4540",
+      "detail": "Listed among directed electives on the 2026-2027 catalog program page.",
+      "sourceUrl": "https://ecatalog.calstatela.edu/preview_program.php?catoid=77&poid=35252",
+      "quote": "CS 4540 - Topics in Advanced Computer Science [1-3]"
+    },
+    {
+      "id": "f84",
+      "kind": "course",
+      "name": "CS 4550",
+      "detail": "Listed among directed electives on the 2026-2027 catalog program page.",
+      "sourceUrl": "https://ecatalog.calstatela.edu/preview_program.php?catoid=77&poid=35252",
+      "quote": "CS 4550 - Computer Graphics [3]"
+    },
+    {
+      "id": "f85",
+      "kind": "course",
+      "name": "CS 4551",
+      "detail": "Listed among directed electives on the 2026-2027 catalog program page.",
+      "sourceUrl": "https://ecatalog.calstatela.edu/preview_program.php?catoid=77&poid=35252",
+      "quote": "CS 4551 - Multimedia Software Systems [3]"
+    },
+    {
+      "id": "f86",
+      "kind": "course",
+      "name": "CS 4555",
+      "detail": "Listed among directed electives on the 2026-2027 catalog program page.",
+      "sourceUrl": "https://ecatalog.calstatela.edu/preview_program.php?catoid=77&poid=35252",
+      "quote": "CS 4555 - Introduction to 3D Computer Game Programming [3]"
+    },
+    {
+      "id": "f87",
+      "kind": "course",
+      "name": "CS 4556",
+      "detail": "Listed among directed electives on the 2026-2027 catalog program page.",
+      "sourceUrl": "https://ecatalog.calstatela.edu/preview_program.php?catoid=77&poid=35252",
+      "quote": "CS 4556 - Multiplayer Online Game Design and Development [3]"
+    },
+    {
+      "id": "f88",
+      "kind": "course",
+      "name": "CS 4635",
+      "detail": "Listed among directed electives on the 2026-2027 catalog program page.",
+      "sourceUrl": "https://ecatalog.calstatela.edu/preview_program.php?catoid=77&poid=35252",
+      "quote": "CS 4635 - Modeling and Simulation [3]"
+    },
+    {
+      "id": "f89",
+      "kind": "course",
+      "name": "CS 4660",
+      "detail": "Listed among directed electives on the 2026-2027 catalog program page.",
+      "sourceUrl": "https://ecatalog.calstatela.edu/preview_program.php?catoid=77&poid=35252",
+      "quote": "CS 4660 - Artificial Intelligence [3]"
+    },
+    {
+      "id": "f90",
+      "kind": "course",
+      "name": "CS 4661",
+      "detail": "Listed among directed electives on the 2026-2027 catalog program page.",
+      "sourceUrl": "https://ecatalog.calstatela.edu/preview_program.php?catoid=77&poid=35252",
+      "quote": "CS 4661 - Introduction to Data Science [3]"
+    },
+    {
+      "id": "f91",
+      "kind": "course",
+      "name": "CS 4662",
+      "detail": "Listed among directed electives on the 2026-2027 catalog program page.",
+      "sourceUrl": "https://ecatalog.calstatela.edu/preview_program.php?catoid=77&poid=35252",
+      "quote": "CS 4662 - Advanced Machine Learning and Deep Learning [3]"
+    },
+    {
+      "id": "f92",
+      "kind": "course",
+      "name": "CS 4665",
+      "detail": "Listed among directed electives on the 2026-2027 catalog program page.",
+      "sourceUrl": "https://ecatalog.calstatela.edu/preview_program.php?catoid=77&poid=35252",
+      "quote": "CS 4665 - Introduction to Data Visualization [3]"
+    },
+    {
+      "id": "f93",
+      "kind": "course",
+      "name": "CS 4780",
+      "detail": "Listed among directed electives on the 2026-2027 catalog program page.",
+      "sourceUrl": "https://ecatalog.calstatela.edu/preview_program.php?catoid=77&poid=35252",
+      "quote": "CS 4780 - Cryptography and Information Security [3]"
+    },
+    {
+      "id": "f94",
+      "kind": "course",
+      "name": "CS 4875",
+      "detail": "Listed among directed electives on the 2026-2027 catalog program page.",
+      "sourceUrl": "https://ecatalog.calstatela.edu/preview_program.php?catoid=77&poid=35252",
+      "quote": "CS 4875 - Human Centered Computing [3]"
+    },
+    {
+      "id": "f95",
+      "kind": "course",
+      "name": "CS 5188",
+      "detail": "Listed among directed electives on the 2026-2027 catalog program page.",
+      "sourceUrl": "https://ecatalog.calstatela.edu/preview_program.php?catoid=77&poid=35252",
+      "quote": "CS 5188 - Languages and Translators [3]"
+    },
+    {
+      "id": "f96",
+      "kind": "course",
+      "name": "CS 5390",
+      "detail": "Listed among directed electives on the 2026-2027 catalog program page.",
+      "sourceUrl": "https://ecatalog.calstatela.edu/preview_program.php?catoid=77&poid=35252",
+      "quote": "CS 5390 - Advanced Software Architecture [3]"
+    },
+    {
+      "id": "f97",
+      "kind": "course",
+      "name": "CS 5540",
+      "detail": "Listed among directed electives on the 2026-2027 catalog program page.",
+      "sourceUrl": "https://ecatalog.calstatela.edu/preview_program.php?catoid=77&poid=35252",
+      "quote": "CS 5540 - Graduate Topics in Computer Science [3]"
+    },
+    {
+      "id": "f98",
+      "kind": "course",
+      "name": "CS 5960",
+      "detail": "Listed among directed electives on the 2026-2027 catalog program page.",
+      "sourceUrl": "https://ecatalog.calstatela.edu/preview_program.php?catoid=77&poid=35252",
+      "quote": "CS 5960 - Comprehensive Examination [0] *"
+    }
+  ]
+}

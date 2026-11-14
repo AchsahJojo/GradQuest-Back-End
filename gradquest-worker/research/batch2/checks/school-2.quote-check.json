@@ -1,0 +1,611 @@
+{
+  "schoolId": 2,
+  "schoolName": "Cal Poly Pomona",
+  "programName": "Computer Science, M.S. (on-campus)",
+  "factsSubmitted": 50,
+  "factsPassed": 50,
+  "factsFailed": 0,
+  "checks": [
+    {
+      "id": "f1",
+      "kind": "overview",
+      "name": "Program aim",
+      "sourceUrl": "https://www.cpp.edu/sci/computer-science/prospective-graduate-students/index.shtml",
+      "quote": "The Master of Science program in Computer Science provides an opportunity for students to enhance their understanding of the principal hardware and software themes.",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/02-cpp-grad-prospective.html"
+      ]
+    },
+    {
+      "id": "f2",
+      "kind": "overview",
+      "name": "Evening classes",
+      "sourceUrl": "https://www.cpp.edu/sci/computer-science/prospective-graduate-students/frequently-asked-questions.shtml",
+      "quote": "Evening classes with a wide range of topics in computer science",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/02-cpp-grad-faq.html"
+      ]
+    },
+    {
+      "id": "f3",
+      "kind": "overview",
+      "name": "Department also plans an online M.S.",
+      "sourceUrl": "https://www.cpp.edu/sci/computer-science/",
+      "quote": "Online Master of Science in Computer Science",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/02-cpp-cs-dept.html"
+      ]
+    },
+    {
+      "id": "f4",
+      "kind": "requirement",
+      "name": "Undergraduate CS presumption",
+      "sourceUrl": "https://www.cpp.edu/sci/computer-science/prospective-graduate-students/admission-requirements.shtml",
+      "quote": "The graduate program is based on the presumption that the student has an undergraduate degree with a major in computer science, or equivalent coursework in the principal computer science and mathematics subjects required",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/02-cpp-grad-admission.html"
+      ]
+    },
+    {
+      "id": "f5",
+      "kind": "requirement",
+      "name": "Admission is competitive",
+      "sourceUrl": "https://www.cpp.edu/sci/computer-science/prospective-graduate-students/admission-requirements.shtml",
+      "quote": "These are minimum requirements for the program admission. Admission is competitive and meeting minimum requirement does not guarantee admission to the program.",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/02-cpp-grad-admission.html"
+      ]
+    },
+    {
+      "id": "f6",
+      "kind": "requirement",
+      "name": "Unconditional GPA",
+      "sourceUrl": "https://www.cpp.edu/sci/computer-science/prospective-graduate-students/admission-requirements.shtml",
+      "quote": "Applicants seeking unconditional admission must have a bachelor's degree in Computer Science or closely related field with a GPA of 3.0 or better in all courses or the most recent 60 semester units attempted",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/02-cpp-grad-admission.html"
+      ]
+    },
+    {
+      "id": "f7",
+      "kind": "requirement",
+      "name": "Unconditional topic coverage",
+      "sourceUrl": "https://www.cpp.edu/sci/computer-science/prospective-graduate-students/admission-requirements.shtml",
+      "quote": "10-12 semester units including Calculus and Probability and Statistics",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/02-cpp-grad-admission.html"
+      ]
+    },
+    {
+      "id": "f8",
+      "kind": "requirement",
+      "name": "Conditional admission",
+      "sourceUrl": "https://www.cpp.edu/sci/computer-science/prospective-graduate-students/admission-requirements.shtml",
+      "quote": "Applicants who do not meet unconditional admission but have a bachelor's degree with a GPA above 3.0 may seek conditional admission. However, priority will be given to unconditional admissions first.",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/02-cpp-grad-admission.html"
+      ]
+    },
+    {
+      "id": "f9",
+      "kind": "requirement",
+      "name": "International students not conditionally admitted",
+      "sourceUrl": "https://www.cpp.edu/sci/computer-science/prospective-graduate-students/admission-requirements.shtml",
+      "quote": "However, per CSU Admissions and SEVIS Policy, international students attending the University on a visa requiring issuance of an I-20 will NOT be conditionally admitted and must meet all requirements prior to gaining admission to the University.",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/02-cpp-grad-admission.html"
+      ]
+    },
+    {
+      "id": "f10",
+      "kind": "requirement",
+      "name": "Conditional students and aid",
+      "sourceUrl": "https://www.cpp.edu/sci/computer-science/prospective-graduate-students/admission-requirements.shtml",
+      "quote": "Students in conditional standing do not qualify for federal financial aid until they are in unconditional standing.",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/02-cpp-grad-admission.html"
+      ]
+    },
+    {
+      "id": "f11",
+      "kind": "requirement",
+      "name": "English language requirement",
+      "sourceUrl": "https://www.cpp.edu/sci/computer-science/prospective-graduate-students/admission-requirements.shtml",
+      "quote": "must have passed the International English Language Testing System (IELTS) exam with a minimum score of 6.5 or the Test of English as a Foreign Language (TOEFL) exam with a minimum score of 213 on the computer-based, or 550 on the paper-based, or 80 on the Internet-based TOEFL.",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/02-cpp-grad-admission.html"
+      ]
+    },
+    {
+      "id": "f12",
+      "kind": "requirement",
+      "name": "Supplemental application form",
+      "sourceUrl": "https://www.cpp.edu/sci/computer-science/prospective-graduate-students/application-procedures.shtml",
+      "quote": "This Program Application form is REQUIRED and applications missing this completed form uploaded to Cal State Mentor site may be declined without review.",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/02-cpp-grad-apply.html"
+      ]
+    },
+    {
+      "id": "f13",
+      "kind": "requirement",
+      "name": "SOP, resume, letters, unofficial transcript",
+      "sourceUrl": "https://www.cpp.edu/sci/computer-science/prospective-graduate-students/application-procedures.shtml",
+      "quote": "applicants are REQUIRED to submit a statement of purpose (why applying to CPP CS MS program and how it will help to achieve your career objectives), resume/CV, two letters of recommendation and unoffical pdf transcript on Cal State Apply.",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/02-cpp-grad-apply.html"
+      ]
+    },
+    {
+      "id": "f14",
+      "kind": "requirement",
+      "name": "GRE not required",
+      "sourceUrl": "https://www.cpp.edu/sci/computer-science/prospective-graduate-students/frequently-asked-questions.shtml",
+      "quote": "The department does not require the GRE. However, it is recommended that you take it if your major GPA does not meet the 3.0 requirement.",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/02-cpp-grad-faq.html"
+      ]
+    },
+    {
+      "id": "f15",
+      "kind": "requirement",
+      "name": "GPA to maintain",
+      "sourceUrl": "https://www.cpp.edu/sci/computer-science/prospective-graduate-students/program-information.shtml",
+      "quote": "A grade point average of 3.0 (B) or better must be maintained in all upper-division undergraduate and all graduate courses.",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/02-cpp-grad-program-info.html"
+      ]
+    },
+    {
+      "id": "f16",
+      "kind": "requirement",
+      "name": "Transfer unit cap",
+      "sourceUrl": "https://www.cpp.edu/sci/computer-science/prospective-graduate-students/program-information.shtml",
+      "quote": "No more than 9 semester units of acceptable graduate credit may be transferred from another graduate institution.",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/02-cpp-grad-program-info.html"
+      ]
+    },
+    {
+      "id": "f17",
+      "kind": "requirement",
+      "name": "Combined transfer limit",
+      "sourceUrl": "https://www.cpp.edu/sci/computer-science/prospective-graduate-students/program-information.shtml",
+      "quote": "A total limit of 9 semester units of transfer, Extended University, and/or units petitioned for graduate credit may be included on a master's contract. The stipulated time limit of 7 years applies to all of the above.",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/02-cpp-grad-program-info.html"
+      ]
+    },
+    {
+      "id": "f18",
+      "kind": "course",
+      "name": "Total units",
+      "sourceUrl": "https://www.cpp.edu/sci/computer-science/prospective-graduate-students/program-information.shtml",
+      "quote": "TOTAL UNITS REQUIRED: 30 units",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/02-cpp-grad-program-info.html"
+      ]
+    },
+    {
+      "id": "f19",
+      "kind": "course",
+      "name": "CS 5250",
+      "sourceUrl": "https://www.cpp.edu/sci/computer-science/prospective-graduate-students/program-information.shtml",
+      "quote": "CS 5250 Advanced Computer Architecture (3 units)",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/02-cpp-grad-program-info.html"
+      ]
+    },
+    {
+      "id": "f20",
+      "kind": "course",
+      "name": "CS 5300",
+      "sourceUrl": "https://www.cpp.edu/sci/computer-science/prospective-graduate-students/program-information.shtml",
+      "quote": "CS 5300 Advanced Algorithm Design and Analysis (3units)",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/02-cpp-grad-program-info.html"
+      ]
+    },
+    {
+      "id": "f21",
+      "kind": "course",
+      "name": "CS 5800",
+      "sourceUrl": "https://www.cpp.edu/sci/computer-science/prospective-graduate-students/program-information.shtml",
+      "quote": "CS 5800 Advanced Software Engineering (3 units)",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/02-cpp-grad-program-info.html"
+      ]
+    },
+    {
+      "id": "f22",
+      "kind": "course",
+      "name": "CS 6640",
+      "sourceUrl": "https://www.cpp.edu/sci/computer-science/prospective-graduate-students/program-information.shtml",
+      "quote": "CS 6640 Graduate Seminar (1 unit)",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/02-cpp-grad-program-info.html"
+      ]
+    },
+    {
+      "id": "f23",
+      "kind": "course",
+      "name": "Project option units",
+      "sourceUrl": "https://www.cpp.edu/sci/computer-science/prospective-graduate-students/program-information.shtml",
+      "quote": "CS 6910 Directed Study (1 unit) and",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/02-cpp-grad-program-info.html"
+      ]
+    },
+    {
+      "id": "f24",
+      "kind": "course",
+      "name": "CS 6950 project",
+      "sourceUrl": "https://www.cpp.edu/sci/computer-science/prospective-graduate-students/program-information.shtml",
+      "quote": "CS 6950 Master's Degree Project (1 unit)",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/02-cpp-grad-program-info.html"
+      ]
+    },
+    {
+      "id": "f25",
+      "kind": "course",
+      "name": "Thesis option units",
+      "sourceUrl": "https://www.cpp.edu/sci/computer-science/prospective-graduate-students/program-information.shtml",
+      "quote": "CS 6960 Master's Degree Thesis (3 units)",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/02-cpp-grad-program-info.html"
+      ]
+    },
+    {
+      "id": "f26",
+      "kind": "course",
+      "name": "Elective units",
+      "sourceUrl": "https://www.cpp.edu/sci/computer-science/prospective-graduate-students/program-information.shtml",
+      "quote": "Select 18 units (with Master's Degree Project) or 15 units (with Master's Degree Thesis) from the following list of courses or other courses approved by the Computer Science Graduate Committee:",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/02-cpp-grad-program-info.html"
+      ]
+    },
+    {
+      "id": "f27",
+      "kind": "course",
+      "name": "4000-level electives",
+      "sourceUrl": "https://www.cpp.edu/sci/computer-science/prospective-graduate-students/program-information.shtml",
+      "quote": "Computer Science MS students can take up to 6 semester units of CS 4000+ levels elective classes to satisfy their elective courses requirement, excluding the following courses: CS 4000, CS 4310, CS 4610, CS 4620, CS 4630, and CS 4800.",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/02-cpp-grad-program-info.html"
+      ]
+    },
+    {
+      "id": "f28",
+      "kind": "course",
+      "name": "Required courses offered yearly",
+      "sourceUrl": "https://www.cpp.edu/sci/computer-science/prospective-graduate-students/program-information.shtml",
+      "quote": "The required courses CS 5250, CS 5300, CS 5800 and CS 6640 are offered every year. All other graduate courses CS 5xxx are offered every two years.",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/02-cpp-grad-program-info.html"
+      ]
+    },
+    {
+      "id": "f29",
+      "kind": "course",
+      "name": "Evening graduate courses",
+      "sourceUrl": "https://www.cpp.edu/sci/computer-science/prospective-graduate-students/program-information.shtml",
+      "quote": "Graduate courses traditionally meet in late afternoons and evenings.",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/02-cpp-grad-program-info.html"
+      ]
+    },
+    {
+      "id": "f30",
+      "kind": "deadline",
+      "name": "Fall 2027 on-campus CS M.S.",
+      "sourceUrl": "https://www.cpp.edu/admissions/graduate/masters-explore.shtml",
+      "quote": "Computer Science",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/02-cpp-grad-deadlines.html"
+      ]
+    },
+    {
+      "id": "f31",
+      "kind": "deadline",
+      "name": "Spring 2027 on-campus CS M.S.",
+      "sourceUrl": "https://www.cpp.edu/admissions/graduate/masters-explore.shtml",
+      "quote": "10/1/2026",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/02-cpp-grad-deadlines.html"
+      ]
+    },
+    {
+      "id": "f32",
+      "kind": "deadline",
+      "name": "Spring 2027 applications open",
+      "sourceUrl": "https://www.cpp.edu/admissions/graduate/masters-explore.shtml",
+      "quote": "Spring 2027 applications open July 1, 2026",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/02-cpp-grad-deadlines.html"
+      ]
+    },
+    {
+      "id": "f33",
+      "kind": "deadline",
+      "name": "Fall 2027 applications open",
+      "sourceUrl": "https://www.cpp.edu/admissions/graduate/masters-explore.shtml",
+      "quote": "Fall 2027 applications open on August 1, 2026",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/02-cpp-grad-deadlines.html"
+      ]
+    },
+    {
+      "id": "f34",
+      "kind": "deadline",
+      "name": "International 5/1 rule",
+      "sourceUrl": "https://www.cpp.edu/admissions/graduate/masters-explore.shtml",
+      "quote": "International applicants: For graduate programs that have a Fall application deadline beyond 5/1, international applicants must submit an application no later than 5/1 to ensure sufficient time to obtain a visa.",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/02-cpp-grad-deadlines.html"
+      ]
+    },
+    {
+      "id": "f35",
+      "kind": "deadline",
+      "name": "Applications accepted except summer",
+      "sourceUrl": "https://www.cpp.edu/sci/computer-science/prospective-graduate-students/application-procedures.shtml",
+      "quote": "Applications are accepted semester by semester except Summer.",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/02-cpp-grad-apply.html"
+      ]
+    },
+    {
+      "id": "f36",
+      "kind": "faculty",
+      "name": "Graduate coordinator",
+      "sourceUrl": "https://www.cpp.edu/sci/computer-science/faculty-and-staff/permanent-faculty.shtml",
+      "quote": "Professor & Graduate Coordinator",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/02-cpp-faculty-permanent.html"
+      ]
+    },
+    {
+      "id": "f37",
+      "kind": "faculty",
+      "name": "Department chair",
+      "sourceUrl": "https://www.cpp.edu/sci/computer-science/faculty-and-staff/permanent-faculty.shtml",
+      "quote": "Professor & Chair",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/02-cpp-faculty-permanent.html"
+      ]
+    },
+    {
+      "id": "f38",
+      "kind": "faculty",
+      "name": "Abdelfattah Amamra research",
+      "sourceUrl": "https://www.cpp.edu/faculty/aamamra/index.shtml",
+      "quote": "Dr. Amamra research intersts include Cyber Security, Big Data Analysis, and Machine Learning.",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/02-fac-amamra.html"
+      ]
+    },
+    {
+      "id": "f39",
+      "kind": "faculty",
+      "name": "Tingting Chen research",
+      "sourceUrl": "https://www.cpp.edu/faculty/tingtingchen/index.shtml",
+      "quote": "My current research interests include data privacy, health informatics and AI applications in medical systems.",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/02-fac-chen.html"
+      ]
+    },
+    {
+      "id": "f40",
+      "kind": "faculty",
+      "name": "Hao Ji research",
+      "sourceUrl": "https://www.cpp.edu/faculty/hji/index.shtml",
+      "quote": "His research interests include Large-scale Numerical Methods, High-performance Computing, Machine Learning, Computer Vision, and Physically-based Animation.",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/02-fac-ji.html"
+      ]
+    },
+    {
+      "id": "f41",
+      "kind": "faculty",
+      "name": "Amar Raheja research",
+      "sourceUrl": "https://www.cpp.edu/faculty/raheja/index.shtml",
+      "quote": "My research interests are in the area of image processing, computer vision and machine learning.",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/02-fac-raheja.html"
+      ]
+    },
+    {
+      "id": "f42",
+      "kind": "faculty",
+      "name": "Wendy Shi research",
+      "sourceUrl": "https://www.cpp.edu/faculty/wendyshi/index.shtml",
+      "quote": "Her research explores the intersection of human-computer interaction, computing education, and data science, with a focus on understanding how technology can support learning, collaboration, and meaningful work.",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/02-fac-shi.html"
+      ]
+    },
+    {
+      "id": "f43",
+      "kind": "faculty",
+      "name": "Yunsheng Wang research",
+      "sourceUrl": "https://www.cpp.edu/faculty/yunshengwang/index.shtml",
+      "quote": "His research interests include Artificial Intelligence of Things (AIoT), connected and autonomous driving, edge computing, cybersecurity, and social networks.",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/02-fac-wang.html"
+      ]
+    },
+    {
+      "id": "f44",
+      "kind": "faculty",
+      "name": "Yu Sun role",
+      "sourceUrl": "https://www.cpp.edu/faculty/yusun/index.shtml",
+      "quote": "where he serves as the director of the Software Engineering and Mobile Cloud Computing Lab (SoftCom Lab).",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/02-fac-sun.html"
+      ]
+    },
+    {
+      "id": "f45",
+      "kind": "faculty",
+      "name": "Daisy Tang research",
+      "sourceUrl": "https://www.cpp.edu/faculty/ftang/index.shtml",
+      "quote": "performing her research on multi-robot systems.",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/02-fac-tang.html"
+      ]
+    },
+    {
+      "id": "f46",
+      "kind": "faculty",
+      "name": "Ericsson Santana Marin research",
+      "sourceUrl": "https://www.cpp.edu/faculty/santanamarin/index.shtml",
+      "quote": "My research focuses on AI for Threat Intelligence (ATI), which develops predictive and adaptive learning models to anticipate emerging threats in adversarial online environments.",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/02-fac-marin.html"
+      ]
+    },
+    {
+      "id": "f47",
+      "kind": "faculty",
+      "name": "Ben Steichen research lab",
+      "sourceUrl": "https://www.cpp.edu/faculty/bsteichen/index.shtml",
+      "quote": "Dr. Steichen leads the hapii lab (human-centered, adaptive, and personalized information interaction), which researches novel information access solutions that support each individual person.",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/02-fac-steichen.html"
+      ]
+    },
+    {
+      "id": "f48",
+      "kind": "faculty",
+      "name": "Mohammad Husain expertise (listing)",
+      "sourceUrl": "https://www.cpp.edu/sci/computer-science/faculty-and-staff/faculty-research-int.shtml",
+      "quote": "Expertise: Systems and network security, digital forensics in embedded systems and cloud computing, smartphone security and social applications, power-aware secure computing",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/02-cpp-faculty-research.html"
+      ]
+    },
+    {
+      "id": "f49",
+      "kind": "faculty",
+      "name": "Brianna Posadas expertise (listing)",
+      "sourceUrl": "https://www.cpp.edu/sci/computer-science/faculty-and-staff/faculty-research-int.shtml",
+      "quote": "Expertise: Human-computer interaction, user-centered design and technology adoption, usable security, accessibility and inclusive design, applied computing in agriculture and other real-world domains, data science and big data analysis, remote sensing (UAVs), computing education",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/02-cpp-faculty-research.html"
+      ]
+    },
+    {
+      "id": "f50",
+      "kind": "faculty",
+      "name": "John Korah expertise (listing)",
+      "sourceUrl": "https://www.cpp.edu/sci/computer-science/faculty-and-staff/faculty-research-int.shtml",
+      "quote": "Expertise: Parallel & distributed algorithm design, high performance computing, large & dynamic network analysis, computational social systems, cybersecurity, parallel/distributed information retrieval, modeling & simulation",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/02-cpp-faculty-research.html"
+      ]
+    }
+  ],
+  "droppedFacts": []
+}

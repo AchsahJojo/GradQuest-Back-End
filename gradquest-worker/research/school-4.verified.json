@@ -1,0 +1,410 @@
+{
+  "schoolId": 4,
+  "schoolName": "California State University, Chico",
+  "programName": "Computer Science, M.S.",
+  "pages": [
+    {
+      "kind": "overview",
+      "url": "https://www.csuchico.edu/academics/majors-programs/computer-science-ms.shtml"
+    },
+    {
+      "kind": "admissions",
+      "url": "https://www.csuchico.edu/academics/majors-programs/computer-science-ms.shtml"
+    },
+    {
+      "kind": "curriculum",
+      "url": "https://catalog.csuchico.edu/colleges-departments/college-engineering-computer-science-construction-management/computer-science/computer-science-ms/"
+    },
+    {
+      "kind": "faculty",
+      "url": "https://www.csuchico.edu/academics/college/engineering/departments/computer-science/faculty-staff.shtml"
+    },
+    {
+      "kind": "deadlines",
+      "url": "https://www.csuchico.edu/academics/majors-programs/computer-science-ms.shtml"
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "kind": "overview",
+      "name": "On-campus delivery",
+      "detail": "The program page lists this M.S. as an on-campus graduate program.",
+      "sourceUrl": "https://www.csuchico.edu/academics/majors-programs/computer-science-ms.shtml",
+      "quote": "On Campus"
+    },
+    {
+      "id": "f2",
+      "kind": "overview",
+      "name": "Open to any discipline",
+      "detail": "The program is open to applicants from any discipline and includes a computer science theory foundation plus project-based learning.",
+      "sourceUrl": "https://www.csuchico.edu/academics/majors-programs/computer-science-ms.shtml",
+      "quote": "Our program is open to applicants from any discipline and combines a strong foundation in computer science theory with practical, project-based learning opportunities."
+    },
+    {
+      "id": "f3",
+      "kind": "overview",
+      "name": "Catalog welcome statement",
+      "detail": "The 2026-2027 catalog says the M.S. welcomes students from all undergraduate disciplines, including those without a CS background.",
+      "sourceUrl": "https://catalog.csuchico.edu/colleges-departments/college-engineering-computer-science-construction-management/computer-science/computer-science-ms/",
+      "quote": "The Master of Science in Computer Science welcomes students from all undergraduate disciplines. The program is designed to accommodate students with and without a computer science background."
+    },
+    {
+      "id": "f4",
+      "kind": "overview",
+      "name": "Students without a CS background",
+      "detail": "The program page says students from any discipline can enter and can take background courses after enrolling.",
+      "sourceUrl": "https://www.csuchico.edu/academics/majors-programs/computer-science-ms.shtml",
+      "quote": "Students from any discipline can enter the program. Students without background courses can take all courses after enrolling."
+    },
+    {
+      "id": "f5",
+      "kind": "requirement",
+      "name": "30 units",
+      "detail": "The 2026-2027 catalog lists 30 total units required.",
+      "sourceUrl": "https://catalog.csuchico.edu/colleges-departments/college-engineering-computer-science-construction-management/computer-science/computer-science-ms/",
+      "quote": "Total Units Required: 30"
+    },
+    {
+      "id": "f6",
+      "kind": "requirement",
+      "name": "600-level minimum",
+      "detail": "At least 18 of the units required for the degree must be in 600-level courses.",
+      "sourceUrl": "https://catalog.csuchico.edu/colleges-departments/college-engineering-computer-science-construction-management/computer-science/computer-science-ms/",
+      "quote": "At least 18 of the units required for the degree in 600-level courses."
+    },
+    {
+      "id": "f7",
+      "kind": "requirement",
+      "name": "Core courses",
+      "detail": "Students complete three graduate core courses (nine units): CSCI 608, CSCI 611, or CSCI 612; plus CSCI 630 and CSCI 650.",
+      "sourceUrl": "https://catalog.csuchico.edu/colleges-departments/college-engineering-computer-science-construction-management/computer-science/computer-science-ms/",
+      "quote": "Completion of three graduate core courses (nine units): CSCI 608, CSCI 611, or CSCI 612; CSCI 630 and CSCI 650."
+    },
+    {
+      "id": "f8",
+      "kind": "requirement",
+      "name": "CSCI 605 excluded",
+      "detail": "CSCI 605 may not be taken to meet program requirements.",
+      "sourceUrl": "https://catalog.csuchico.edu/colleges-departments/college-engineering-computer-science-construction-management/computer-science/computer-science-ms/",
+      "quote": "CSCI 605 may not be taken to meet program requirements."
+    },
+    {
+      "id": "f9",
+      "kind": "requirement",
+      "name": "Most common capstone",
+      "detail": "The most common culminating experience is the capstone course plan.",
+      "sourceUrl": "https://catalog.csuchico.edu/colleges-departments/college-engineering-computer-science-construction-management/computer-science/computer-science-ms/",
+      "quote": "The most common culminating experience for master's students in Computer Science is to demonstrate competency in graduate study by completion of the capstone course using plan (a)."
+    },
+    {
+      "id": "f10",
+      "kind": "requirement",
+      "name": "Capstone course CSCI 693",
+      "detail": "The capstone plan is 30 units of in-class coursework including a passing score in CSCI 693, taken in the last 9 units or last semester, with a maximum of three attempts.",
+      "sourceUrl": "https://catalog.csuchico.edu/colleges-departments/college-engineering-computer-science-construction-management/computer-science/computer-science-ms/",
+      "quote": "This plan includes 30 units of in-class coursework, including a passing score in the capstone course CSCI 693. CSCI 693 is to be taken as part of the last 9 units, or during the last semester of the graduate program."
+    },
+    {
+      "id": "f11",
+      "kind": "requirement",
+      "name": "Project plan qualifications",
+      "detail": "The project plan requires a 3.5 GPA, a faculty nomination, and faculty approval of a project proposal by a 2/3 majority vote.",
+      "sourceUrl": "https://catalog.csuchico.edu/colleges-departments/college-engineering-computer-science-construction-management/computer-science/computer-science-ms/",
+      "quote": "maintaining a GPA of 3.5 or above in their post-baccalaureate coursework,"
+    },
+    {
+      "id": "f12",
+      "kind": "requirement",
+      "name": "3.0 GPA to remain in program",
+      "detail": "Students must maintain a minimum 3.0 GPA in specified coursework categories.",
+      "sourceUrl": "https://catalog.csuchico.edu/colleges-departments/college-engineering-computer-science-construction-management/computer-science/computer-science-ms/",
+      "quote": "Students must maintain a minimum 3.0 grade point average in each of the following three categories: all coursework taken at any accredited institution subsequent to admission to the master's program;"
+    },
+    {
+      "id": "f13",
+      "kind": "requirement",
+      "name": "C-grade limit",
+      "detail": "No more than two courses with a grade of C may count toward the approved program.",
+      "sourceUrl": "https://catalog.csuchico.edu/colleges-departments/college-engineering-computer-science-construction-management/computer-science/computer-science-ms/",
+      "quote": "In addition, students may not count more than two courses in which they receive a grade of C toward the approved program."
+    },
+    {
+      "id": "f14",
+      "kind": "requirement",
+      "name": "Five-year time limit",
+      "detail": "All degree requirements must be completed within five years, and the department says no course validation or program extensions will be granted.",
+      "sourceUrl": "https://catalog.csuchico.edu/colleges-departments/college-engineering-computer-science-construction-management/computer-science/computer-science-ms/",
+      "quote": "Due to the rapid changes in the field of computer science, the Department of Computer Science requires all candidates to complete the program within five years, including projects and theses. No course validation will be allowed and no program extensions will be granted."
+    },
+    {
+      "id": "f15",
+      "kind": "requirement",
+      "name": "GRE on program page",
+      "detail": "The program page requires the GRE unless the bachelor's degree was awarded by an ABET-accredited program in computer science or a related discipline, and prefers a score of 300 or higher.",
+      "sourceUrl": "https://www.csuchico.edu/academics/majors-programs/computer-science-ms.shtml",
+      "quote": "The Graduate Record Exam (GRE) is required unless the applicant's bachelor's degree was awarded by an ABET-accredited program in computer science or a related discipline. A GRE score of 300 or higher is preferred.",
+      "verified": false,
+      "verifiedBy": "user 2026-11-13",
+      "rejectedReason": "Rejected by the user: GRE is required. This program-page exemption wording (ABET-accredited program in computer science or a related discipline) was not kept; the 2026-2027 catalog GRE requirement was kept."
+    },
+    {
+      "id": "f16",
+      "kind": "requirement",
+      "name": "GRE in catalog",
+      "detail": "The 2026-2027 catalog requires a combined GRE verbal and quantitative score of 300 and exempts graduates of an ABET-accredited program in computer science (it does not mention a related discipline).",
+      "sourceUrl": "https://catalog.csuchico.edu/colleges-departments/college-engineering-computer-science-construction-management/computer-science/computer-science-ms/",
+      "quote": "Completion of the Graduate Record Examination (GRE) with a combined score of 300 on the verbal and quantitative portions. Graduates of an ABET accredited program in computer science are exempt from this requirement.",
+      "verified": true,
+      "verifiedBy": "user 2026-11-13"
+    },
+    {
+      "id": "f17",
+      "kind": "requirement",
+      "name": "Statement of purpose",
+      "detail": "A statement of purpose is required; the program page lists a resume as optional.",
+      "sourceUrl": "https://www.csuchico.edu/academics/majors-programs/computer-science-ms.shtml",
+      "quote": "Statement of purpose, resume (optional)"
+    },
+    {
+      "id": "f18",
+      "kind": "requirement",
+      "name": "Letters of reference in catalog",
+      "detail": "The catalog lists submission of two letters of reference among classified-status prerequisites.",
+      "sourceUrl": "https://catalog.csuchico.edu/colleges-departments/college-engineering-computer-science-construction-management/computer-science/computer-science-ms/",
+      "quote": "Submission of two letters of reference."
+    },
+    {
+      "id": "f19",
+      "kind": "requirement",
+      "name": "Prerequisite courses for classified status",
+      "detail": "Classified status requires completion of program prerequisites equivalent to CSCI 111, 211, 217, 311, 370, 430, and 440, which do not count toward the M.S.",
+      "sourceUrl": "https://catalog.csuchico.edu/colleges-departments/college-engineering-computer-science-construction-management/computer-science/computer-science-ms/",
+      "quote": "Courses taken for the purpose of advancement to classified status will not be used towards the MS degree."
+    },
+    {
+      "id": "f20",
+      "kind": "requirement",
+      "name": "CSCI 211 and 311 restriction",
+      "detail": "Only courses from ABET-accredited programs may be used for CSCI 211 and CSCI 311.",
+      "sourceUrl": "https://catalog.csuchico.edu/colleges-departments/college-engineering-computer-science-construction-management/computer-science/computer-science-ms/",
+      "quote": "Only courses from ABET accredited programs may be used for CSCI 211 and CSCI 311."
+    },
+    {
+      "id": "f21",
+      "kind": "course",
+      "name": "CSCI 608",
+      "detail": "Catalog course title: CSCI 608 Data Science for Graduate Studies (3 units).",
+      "sourceUrl": "https://catalog.csuchico.edu/colleges-departments/college-engineering-computer-science-construction-management/computer-science/#coursestext",
+      "quote": "CSCI 608 Data Science for Graduate Studies 3 Units"
+    },
+    {
+      "id": "f22",
+      "kind": "course",
+      "name": "CSCI 611",
+      "detail": "Catalog course title: CSCI 611 Applied Machine Learning (3 units).",
+      "sourceUrl": "https://catalog.csuchico.edu/colleges-departments/college-engineering-computer-science-construction-management/computer-science/#coursestext",
+      "quote": "CSCI 611 Applied Machine Learning 3 Units"
+    },
+    {
+      "id": "f23",
+      "kind": "course",
+      "name": "CSCI 612",
+      "detail": "Catalog course title: CSCI 612 Applied Computer Vision (3 units).",
+      "sourceUrl": "https://catalog.csuchico.edu/colleges-departments/college-engineering-computer-science-construction-management/computer-science/#coursestext",
+      "quote": "CSCI 612 Applied Computer Vision 3 Units"
+    },
+    {
+      "id": "f24",
+      "kind": "course",
+      "name": "CSCI 630",
+      "detail": "Catalog course title: CSCI 630 Software Design and Maintenance (3 units).",
+      "sourceUrl": "https://catalog.csuchico.edu/colleges-departments/college-engineering-computer-science-construction-management/computer-science/#coursestext",
+      "quote": "CSCI 630 Software Design and Maintenance 3 Units"
+    },
+    {
+      "id": "f25",
+      "kind": "course",
+      "name": "CSCI 650",
+      "detail": "Catalog course title: CSCI 650 Algorithms and Computability (3 units).",
+      "sourceUrl": "https://catalog.csuchico.edu/colleges-departments/college-engineering-computer-science-construction-management/computer-science/#coursestext",
+      "quote": "CSCI 650 Algorithms and Computability 3 Units"
+    },
+    {
+      "id": "f26",
+      "kind": "course",
+      "name": "CSCI 693",
+      "detail": "Catalog course title: CSCI 693 Research Methods in Computer Science (3 units).",
+      "sourceUrl": "https://catalog.csuchico.edu/colleges-departments/college-engineering-computer-science-construction-management/computer-science/#coursestext",
+      "quote": "CSCI 693 Research Methods in Computer Science 3 Units"
+    },
+    {
+      "id": "f27",
+      "kind": "course",
+      "name": "CSCI 699P",
+      "detail": "Catalog course title: CSCI 699P Master's Project (3 units).",
+      "sourceUrl": "https://catalog.csuchico.edu/colleges-departments/college-engineering-computer-science-construction-management/computer-science/#coursestext",
+      "quote": "CSCI 699P Master's Project 3 Units"
+    },
+    {
+      "id": "f28",
+      "kind": "course",
+      "name": "CSCI 699T",
+      "detail": "Catalog course title: CSCI 699T Master's Thesis (1-6 units).",
+      "sourceUrl": "https://catalog.csuchico.edu/colleges-departments/college-engineering-computer-science-construction-management/computer-science/#coursestext",
+      "quote": "CSCI 699T Master's Thesis 1-6 Units"
+    },
+    {
+      "id": "f29",
+      "kind": "course",
+      "name": "CSCI 605 title",
+      "detail": "CSCI 605 is titled Data Structures and Algorithms for Data Science and may not be used to meet CS M.S. program requirements.",
+      "sourceUrl": "https://catalog.csuchico.edu/colleges-departments/college-engineering-computer-science-construction-management/computer-science/#coursestext",
+      "quote": "CSCI 605 Data Structures and Algorithms for Data Science 3 Units"
+    },
+    {
+      "id": "f30",
+      "kind": "course",
+      "name": "Writing proficiency",
+      "detail": "Writing proficiency is demonstrated by passing CSCI 693, CSCI 699P, or CSCI 699T.",
+      "sourceUrl": "https://catalog.csuchico.edu/colleges-departments/college-engineering-computer-science-construction-management/computer-science/computer-science-ms/",
+      "quote": "Computer science students will demonstrate their writing competence in the English language by successfully passing CSCI 693, CSCI 699P, or CSCI 699T."
+    },
+    {
+      "id": "f31",
+      "kind": "deadline",
+      "name": "Fall deadline",
+      "detail": "The program page lists a Fall application deadline of April 1.",
+      "sourceUrl": "https://www.csuchico.edu/academics/majors-programs/computer-science-ms.shtml",
+      "quote": "Fall: April 1"
+    },
+    {
+      "id": "f32",
+      "kind": "deadline",
+      "name": "Spring deadline",
+      "detail": "The program page lists a Spring deadline of December 1, and October 1 for international applicants.",
+      "sourceUrl": "https://www.csuchico.edu/academics/majors-programs/computer-science-ms.shtml",
+      "quote": "Spring: December 1 (October 1 for international applicants)"
+    },
+    {
+      "id": "f33",
+      "kind": "deadline",
+      "name": "Blended program deadlines",
+      "detail": "The blended BS + MS application deadlines are April 1 for fall start and November 1 for spring start; GRE is not required for the blended path.",
+      "sourceUrl": "https://catalog.csuchico.edu/colleges-departments/college-engineering-computer-science-construction-management/computer-science/computer-science-ms/",
+      "quote": "Application deadlines: April 1 for fall start, November 1 for spring start."
+    },
+    {
+      "id": "f34",
+      "kind": "faculty",
+      "name": "Department listing",
+      "detail": "The department faculty-and-staff page is a department-wide listing and does not include research blurbs.",
+      "sourceUrl": "https://www.csuchico.edu/academics/college/engineering/departments/computer-science/faculty-staff.shtml",
+      "quote": "Todd Gibson Chair and Professor"
+    },
+    {
+      "id": "f35",
+      "kind": "faculty",
+      "name": "Todd Gibson",
+      "detail": "Listed as Chair and Professor; directory profile has no research description.",
+      "sourceUrl": "https://www.csuchico.edu/academics/college/engineering/departments/computer-science/faculty-staff.shtml",
+      "quote": "Todd Gibson Chair and Professor"
+    },
+    {
+      "id": "f36",
+      "kind": "faculty",
+      "name": "Abbas Attarwala",
+      "detail": "Listed as Professor; no research blurb on the department listing.",
+      "sourceUrl": "https://www.csuchico.edu/academics/college/engineering/departments/computer-science/faculty-staff.shtml",
+      "quote": "Abbas Attarwala Professor"
+    },
+    {
+      "id": "f37",
+      "kind": "faculty",
+      "name": "Kevin Buffardi",
+      "detail": "Listed as Professor; no research blurb on the department listing.",
+      "sourceUrl": "https://www.csuchico.edu/academics/college/engineering/departments/computer-science/faculty-staff.shtml",
+      "quote": "Kevin Buffardi Professor"
+    },
+    {
+      "id": "f38",
+      "kind": "faculty",
+      "name": "Bryan Dixon",
+      "detail": "Listed as Professor; no research blurb on the department listing.",
+      "sourceUrl": "https://www.csuchico.edu/academics/college/engineering/departments/computer-science/faculty-staff.shtml",
+      "quote": "Bryan Dixon Professor"
+    },
+    {
+      "id": "f39",
+      "kind": "faculty",
+      "name": "Ben Juliano",
+      "detail": "Listed as Professor; no research blurb on the department listing.",
+      "sourceUrl": "https://www.csuchico.edu/academics/college/engineering/departments/computer-science/faculty-staff.shtml",
+      "quote": "Ben Juliano Professor"
+    },
+    {
+      "id": "f40",
+      "kind": "faculty",
+      "name": "Bo Shen",
+      "detail": "Listed as Associate Professor; no research blurb on the department listing.",
+      "sourceUrl": "https://www.csuchico.edu/academics/college/engineering/departments/computer-science/faculty-staff.shtml",
+      "quote": "Bo Shen Associate Professor"
+    },
+    {
+      "id": "f41",
+      "kind": "faculty",
+      "name": "Samuel B Siewert",
+      "detail": "Listed as Professor; no research blurb on the department listing.",
+      "sourceUrl": "https://www.csuchico.edu/academics/college/engineering/departments/computer-science/faculty-staff.shtml",
+      "quote": "Samuel B Siewert Professor"
+    },
+    {
+      "id": "f42",
+      "kind": "faculty",
+      "name": "Kun Tian",
+      "detail": "Listed as Professor; no research blurb on the department listing.",
+      "sourceUrl": "https://www.csuchico.edu/academics/college/engineering/departments/computer-science/faculty-staff.shtml",
+      "quote": "Kun Tian Professor"
+    },
+    {
+      "id": "f43",
+      "kind": "faculty",
+      "name": "Richard C Tillquist",
+      "detail": "Listed as Associate Professor; no research blurb on the department listing.",
+      "sourceUrl": "https://www.csuchico.edu/academics/college/engineering/departments/computer-science/faculty-staff.shtml",
+      "quote": "Richard C Tillquist Associate Professor"
+    },
+    {
+      "id": "f44",
+      "kind": "faculty",
+      "name": "David Zeichick",
+      "detail": "Listed as Associate Professor; no research blurb on the department listing.",
+      "sourceUrl": "https://www.csuchico.edu/academics/college/engineering/departments/computer-science/faculty-staff.shtml",
+      "quote": "David Zeichick Associate Professor"
+    },
+    {
+      "id": "f45",
+      "kind": "faculty",
+      "name": "Oleksiy Al-Saadi",
+      "detail": "Listed as Assistant Professor; no research blurb on the department listing.",
+      "sourceUrl": "https://www.csuchico.edu/academics/college/engineering/departments/computer-science/faculty-staff.shtml",
+      "quote": "Oleksiy Al-Saadi Assistant Professor"
+    },
+    {
+      "id": "f46",
+      "kind": "faculty",
+      "name": "Kathleen Isenegger",
+      "detail": "Listed as Assistant Professor; no research blurb on the department listing.",
+      "sourceUrl": "https://www.csuchico.edu/academics/college/engineering/departments/computer-science/faculty-staff.shtml",
+      "quote": "Kathleen Isenegger Assistant Professor"
+    },
+    {
+      "id": "f47",
+      "kind": "faculty",
+      "name": "Jaime Raigoza",
+      "detail": "Listed as Interim Associate Dean; no research blurb on the department listing.",
+      "sourceUrl": "https://www.csuchico.edu/academics/college/engineering/departments/computer-science/faculty-staff.shtml",
+      "quote": "Jaime Raigoza Interim Associate Dean"
+    }
+  ]
+}

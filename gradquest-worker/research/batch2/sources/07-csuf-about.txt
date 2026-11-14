@@ -1,0 +1,187 @@
+TITLE: Master of Science in Software Engineering - Software Engineering Program | CSUF
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+- 
+- 
+
+Skip Navigation 
+
+California State University, Fullerton 
+
+Site Menu 
+
+College of Engineering and Computer Science 
+Software Engineering Program 
+
+- Main Navigation 
+
+- 
+About
+
+- 
+Program Cost
+
+- 
+Courses
+
+- 
+FAQ
+
+- 
+How to Apply
+
+- 
+How to Enroll
+
+- 
+Faculty
+
+- 
+Contact and Support
+
+- 
+Program Brochure
+
+- 
+Program Handbook
+
+- 
+Orientation and Midpoint Seminars
+
+- 
+Workshop and Lectures
+
+H1: Master of Science in Software Engineering (MSE)
+
+H2: General Information
+
+The Master of Science in Software Engineering (MSE) is an online program that prepares individuals for careers as software engineers and software project managers in industry and government agencies. 
+
+The program emphasizes a comprehensive and thorough process-oriented approach to software development, and its curriculum is fundamentally grounded in software engineering research, theory, principles, and practice (e.g. CMMI, ISO standards, agile processes, Scrum, XP, software architecture and design patterns). The emphasis on process-oriented methodologies makes this program unique among professional master's degrees.
+
+H2: Design
+
+The program is designed for professionals working in the field of computer science who wish to further their skills and pursue graduate level education in Software Engineering. 
+
+The program incorporates eight strands of assessment and evaluation: critical thinking/problem solving, collaboration/team work, research, software process implementation, software process assessment/appraisal, software standard comprehension, literacy in legal and ethical issues, and communication.
+
+H2: Faculty
+
+The faculty work group carefully examined similar M.S. programs across the nation prior to designing this program. The faculty decided that the courses in the MSE program should be conceptually linked in pairs in a sequential manner. Each course includes both software engineering theory and practical applications. Additionally, the courses include elements of the eight assessment strands listed above. Throughout each course students will experience both the theory and the practical application of software engineering knowledge and skills.
+
+The culminating activity of the M.S. will be a practicum project where each student applies his or her knowledge and skills to a large-scale software project. Students will design, develop, and test the product. The design and development of the software product is a cumulative process, which will take place in stages throughout the entire program with elements integrated throughout and occurring in different courses (e.g. review of research literature, problem definition, requirements analysis, cost analysis, design, project implementation, and project assessment and evaluation). Students completing the M.S. will have a well-rounded understanding of the theory, research, implementation, and evaluation of the software process as it applies to a variety of applications.
+
+H2: 
+LEARNING GOALS 
+
+The student learning goals are incorporated into eight overarching program goals:
+
+- 
+Implementation of Software Process: The ability to define and apply a software process to real-world problems
+
+- 
+Process Assessment/Appraisal: The ability to analyze and estimate software process costs
+
+- 
+Software Standard Comprehension: The ability to identify, analyze and apply software standards in software engineering practice
+
+- 
+Professional, Legal and Ethical Issues: The ability to analyze, assess and interpret professional codes of ethics and regulatory documents pertaining to software engineering
+
+- 
+Critical Thinking and Problem Solving: The ability to analyze, evaluate and synthesize information as well as generate and apply appropriate solutions to solve problems based on reasoned rationale
+
+- 
+Collaboration and Team Work: The ability to work productively in team or collaborative settings to achieve common goals or purposes
+
+- 
+Research: The ability to conduct, evaluate and synthesize research and apply theoretical ideas to practical settings
+
+- 
+Communication: The ability to effectively present ideas in a logical framework in a variety of forms with proper language structure and mechanics
+
+This site is maintained by 
+College of Engineering and Computer Science .
+
+Last Published 4/14/26 
+
+To report problems or comments with this site, please contact 
+[email protected] . 
+
+© California State University, Fullerton. All Rights Reserved.
+
+H2: Web Accessibility
+
+CSUF is committed to ensuring equal accessibility to our users. Let us know about any accessibility problems you encounter using this website.
+
+We'll do our best to improve things and get you the information you need.
+
+- Resources:
+
+- Download Adobe Acrobat Reader
+
+- 
+Adobe Reader 
+
+- Download Word viewer, or download Excel viewer, or download PowerPoint viewer
+
+- 
+Microsoft Viewers 
+
+- 
+Report An ATI Issue 
+
+- 
+Accessible @ CSUF 
+
+Version_4.8.10

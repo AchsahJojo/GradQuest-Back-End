@@ -1,0 +1,63 @@
+TITLE: Department of Computer Science
+SOURCE: /workspace/gradquest-program-research-batch2/sources/school14-cs-home.html
+
+Why Computer Science at SDSU?
+Our students learn essential skills in computer science including how to store and retrieve information and how to use and design programming languages. Required coursework also covers the hardware systems that interpret such languages and the theoretical principles in data structures and architecture that form the foundations of computing.
+We offer a variety of specialized electives in areas such as artificial intelligence, autonomous systems, robotics, graphics, systems programming, simulation, and computer networks.
+1,419
+Enrollment: Fall 2025
+1,297
+Bachelor's
+122
+Master's
+368
+Degrees Awarded: 2024-2025
+339
+Bachelor's
+29
+Master's
+Computer Science Community
+Several student organizations focus on computer science and offer academic support, leadership development, and resumé-building accolades.
+Design a Videogame
+The
+Aztec Game Lab
+regularly hosts game jams to collaboratively build video games from start to finish
+Get Your Hack On
+SDSU's
+Cyber Defense Team
+participates in competitions and hack-a-thons to improve best practices in cyber security
+Tackle a Turing Test
+Join the
+SDSU AI Club
+to apply your coding know-how to a variety of artificial intelligence problems
+Innovating Every Day
+Opportunities abound to contribute to the newest advancements in artificial intelligence and machine learning, cybersecurity and cryptocurrency, autonomous vehicles and robots, wireless networks and real-time embedded systems, among others.
+Time spent doing research can be paid or completed for course credit.
+Increasingly Diverse
+Faculty receive grants to make computer science more welcoming for women and historically excluded students
+Autonomous Experts
+Multiple faculty members are optimizing self-driving vehicles' real-time performance
+Crash Course in Teamwork
+The research capstone gives students hands-on experience with project management
+Endless Career Possibilities
+In addition to being well-reputed scholars, faculty in the Department of Computer Science have extensive experience working in industry at corporations such as Google, Microsoft, Adobe and AT&T.
+Nearly 10,000 Computer Science alumni work as developers, analysts, IT professionals, strategic managers and more at companies including Northrop Grumman, Qualcomm, Amazon, Apple and Intuit.
+Intern Turned Machine Learning Engineer
+After transferring to SDSU, Dwayne Wilkes founded the Artificial Intelligence Club and leveraged his interpersonal skills from acting to start a career at Viasat
+Northrop Grumman Alumnus Paves the Way
+Jayton Harps wants other Black software engineers to follow in his footsteps
+Where Are They Now?
+BMC Scholarship recipient Natalia Arzua finds her home as an applications software engineer at Workday
+Announcements
+Celebrating the Outstanding Accomplishments of our Computer Science Students at the Sixth Annual Computer Science Conference for CSU Undergraduates
+April 30, 2026
+We proudly celebrate our students’ achievements at the conference. Christopher Anderson (Advisor: Xin Zhang) received the Best Paper Award, recognizing the top research paper for […]
+Congratulations to Dr. Robert Beverly: Recognized Among the World’s Most Influential Scientists
+October 2, 2025
+We are thrilled to share the outstanding news that Professor Robert Beverly has been named among the world’s most influential scientists, according to the latest rankings published by Elsevier and Stanford University.
+SDSU, Cyber Center of Excellence, CSU San Marcos and National University receive $1M from Google to launch Cybersecurity Clinic
+June 4, 2024
+In collaboration with the Consortium of Cybersecurity Clinics, Google.org will provide funding, volunteers and in-kind support to establish the San Diego Cyber Clinic. Learn more […]
+1
+2
+Next →

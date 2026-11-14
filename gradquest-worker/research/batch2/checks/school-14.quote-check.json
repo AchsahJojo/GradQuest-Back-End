@@ -1,0 +1,314 @@
+{
+  "schoolId": 14,
+  "tier": "primary_live_only",
+  "accessed": "2026-11-13",
+  "pass": 38,
+  "fail": 0,
+  "errors": [],
+  "checks": [
+    {
+      "id": "f1",
+      "sourceUrl": "https://cs.sdsu.edu/computer-science-degree-programs/",
+      "quote": "Graduates of the Master of Science in Computer Science program at San Diego State University engage in advanced study and research in various computing domains, including artificial intelligence, machine learning, and software engineering.",
+      "len": 239,
+      "ok": true,
+      "reason": "OK"
+    },
+    {
+      "id": "f2",
+      "sourceUrl": "https://cs.sdsu.edu/computer-science-degree-programs/",
+      "quote": "Students may choose to either complete a thesis project, collaborating closely with faculty on innovative research that addresses real-world problems, or opt for a comprehensive exam to fulfill their degree requirements.",
+      "len": 220,
+      "ok": true,
+      "reason": "OK"
+    },
+    {
+      "id": "f3",
+      "sourceUrl": "https://admissions.sdsu.edu/grad-programs/masters",
+      "quote": "The Computer Science Department does not require nor take into consideration letters of recommendation, statements of purpose, or resumes.",
+      "len": 138,
+      "ok": true,
+      "reason": "OK"
+    },
+    {
+      "id": "f4",
+      "sourceUrl": "https://admissions.sdsu.edu/grad-programs/masters",
+      "quote": "resumes. Fall 2027 Deadlines Submit Cal State Apply Application: February 1",
+      "len": 75,
+      "ok": true,
+      "reason": "OK"
+    },
+    {
+      "id": "f5",
+      "sourceUrl": "https://admissions.sdsu.edu/grad-programs/masters",
+      "quote": "Submit Documents to Graduate Admissions: February 15 Spring 2027 Deadlines Not currently accepting applications for spring semester Contact Information Department of Computer Science",
+      "len": 182,
+      "ok": true,
+      "reason": "OK"
+    },
+    {
+      "id": "f6",
+      "sourceUrl": "https://admissions.sdsu.edu/grad-programs/masters",
+      "quote": "Not currently accepting applications for spring semester",
+      "len": 56,
+      "ok": true,
+      "reason": "OK"
+    },
+    {
+      "id": "f7",
+      "sourceUrl": "https://cs.sdsu.edu/graduate-advising/",
+      "quote": "Roger Whitney, Ph.D. Graduate Advisor Associate Professor of Computer Science",
+      "len": 77,
+      "ok": true,
+      "reason": "OK"
+    },
+    {
+      "id": "f8",
+      "sourceUrl": "https://cs.sdsu.edu/graduate-advising/",
+      "quote": "Wei Wang, Ph.D. Graduate Advisor Professor of Computer Science",
+      "len": 62,
+      "ok": true,
+      "reason": "OK"
+    },
+    {
+      "id": "f9",
+      "sourceUrl": "https://cs.sdsu.edu/faculty/",
+      "quote": "Real-Time Embedded and Cyber-Physical Systems",
+      "len": 45,
+      "ok": true,
+      "reason": "OK"
+    },
+    {
+      "id": "f10",
+      "sourceUrl": "https://cs.sdsu.edu/faculty/",
+      "quote": "Self-Aware Computing Systems, Cyber-Physical Systems Management and Optimization",
+      "len": 80,
+      "ok": true,
+      "reason": "OK"
+    },
+    {
+      "id": "f11",
+      "sourceUrl": "https://cs.sdsu.edu/faculty/",
+      "quote": "Data Science, Database, Applied Machine Learning, Interpretability of Machine Learning, Big Data Quality Assurance",
+      "len": 114,
+      "ok": true,
+      "reason": "OK"
+    },
+    {
+      "id": "f12",
+      "sourceUrl": "https://cs.sdsu.edu/faculty/",
+      "quote": "Computer Vision, Machine Learning, Computational Statistics and their Applications to Clinic Diagnosis, Sports, Transportation, Surveillance, Video Games",
+      "len": 153,
+      "ok": true,
+      "reason": "OK"
+    },
+    {
+      "id": "f13",
+      "sourceUrl": "https://cs.sdsu.edu/faculty/",
+      "quote": "Theoretical Computer Science, Graph and Approximation Algorithms, Parameterized Algorithms, Sketching Algorithms",
+      "len": 112,
+      "ok": true,
+      "reason": "OK"
+    },
+    {
+      "id": "f14",
+      "sourceUrl": "https://cs.sdsu.edu/faculty/",
+      "quote": "Spatial-Temporal Data Science, Deep Learning, Imitation Learning, Meta-learning",
+      "len": 79,
+      "ok": true,
+      "reason": "OK"
+    },
+    {
+      "id": "f15",
+      "sourceUrl": "https://cs.sdsu.edu/faculty/",
+      "quote": "Cyber-Physical Systems, Real-Time Scheduling, Cloud Computing",
+      "len": 61,
+      "ok": true,
+      "reason": "OK"
+    },
+    {
+      "id": "f16",
+      "sourceUrl": "https://cs.sdsu.edu/faculty/",
+      "quote": "Object-Oriented Programming, Functional Programming, Software Development, Mobile Computing",
+      "len": 91,
+      "ok": true,
+      "reason": "OK"
+    },
+    {
+      "id": "f17",
+      "sourceUrl": "https://cs.sdsu.edu/faculty/",
+      "quote": "Wireless Networks, Wireless Multimedia QoE/QoS, Machine Learning in Wireless Networks",
+      "len": 85,
+      "ok": true,
+      "reason": "OK"
+    },
+    {
+      "id": "f18",
+      "sourceUrl": "https://cs.sdsu.edu/faculty/",
+      "quote": "Robert Beverly, Ph.D.",
+      "len": 21,
+      "ok": true,
+      "reason": "OK"
+    },
+    {
+      "id": "f19",
+      "sourceUrl": "https://cs.sdsu.edu/faculty/",
+      "quote": "Joann Qiongna Chen, Ph.D.",
+      "len": 25,
+      "ok": true,
+      "reason": "OK"
+    },
+    {
+      "id": "f20",
+      "sourceUrl": "https://cs.sdsu.edu/faculty/",
+      "quote": "Salimeh Sekeh, Ph.D.",
+      "len": 20,
+      "ok": true,
+      "reason": "OK"
+    },
+    {
+      "id": "f21",
+      "sourceUrl": "https://cs.sdsu.edu/faculty/",
+      "quote": "Jianshu Liu, Ph.D.",
+      "len": 18,
+      "ok": true,
+      "reason": "OK"
+    },
+    {
+      "id": "f22",
+      "sourceUrl": "https://cs.sdsu.edu/faculty/",
+      "quote": "Yifan Zhang, Ph.D.",
+      "len": 18,
+      "ok": true,
+      "reason": "OK"
+    },
+    {
+      "id": "f23",
+      "sourceUrl": "https://cs.sdsu.edu/faculty/",
+      "quote": "Tao Xie, Ph.D.",
+      "len": 14,
+      "ok": true,
+      "reason": "OK"
+    },
+    {
+      "id": "f24",
+      "sourceUrl": "https://cs.sdsu.edu/people/hyunjong-choi",
+      "quote": "Hyunjong Choi, Ph.D.",
+      "len": 20,
+      "ok": true,
+      "reason": "OK"
+    },
+    {
+      "id": "f25",
+      "sourceUrl": "https://cs.sdsu.edu/people/bryan-donyanavard",
+      "quote": "Bryan Donyanavard, Ph.D.",
+      "len": 24,
+      "ok": true,
+      "reason": "OK"
+    },
+    {
+      "id": "f26",
+      "sourceUrl": "https://cs.sdsu.edu/people/hajar-homayouni",
+      "quote": "Hajar Homayouni, Ph.D.",
+      "len": 22,
+      "ok": true,
+      "reason": "OK"
+    },
+    {
+      "id": "f27",
+      "sourceUrl": "https://cs.sdsu.edu/people/xiaobai-liu",
+      "quote": "Xiaobai Liu, Ph.D.",
+      "len": 18,
+      "ok": true,
+      "reason": "OK"
+    },
+    {
+      "id": "f28",
+      "sourceUrl": "https://cs.sdsu.edu/people/hoa-vu",
+      "quote": "Hoa Vu, Ph.D.",
+      "len": 13,
+      "ok": true,
+      "reason": "OK"
+    },
+    {
+      "id": "f29",
+      "sourceUrl": "https://cs.sdsu.edu/people/xin-zhang",
+      "quote": "Xin Zhang, Ph.D.",
+      "len": 16,
+      "ok": true,
+      "reason": "OK"
+    },
+    {
+      "id": "f30",
+      "sourceUrl": "https://cs.sdsu.edu/people/shangping-ren",
+      "quote": "Shangping Ren, Ph.D.",
+      "len": 20,
+      "ok": true,
+      "reason": "OK"
+    },
+    {
+      "id": "f31",
+      "sourceUrl": "https://cs.sdsu.edu/people/roger-whitney",
+      "quote": "Roger Whitney, Ph.D.",
+      "len": 20,
+      "ok": true,
+      "reason": "OK"
+    },
+    {
+      "id": "f32",
+      "sourceUrl": "https://cs.sdsu.edu/people/wei-wang",
+      "quote": "Wei Wang, Ph.D.",
+      "len": 15,
+      "ok": true,
+      "reason": "OK"
+    },
+    {
+      "id": "f33",
+      "sourceUrl": "https://cs.sdsu.edu/people/robert-beverly/",
+      "quote": "Robert Beverly, Ph.D.",
+      "len": 21,
+      "ok": true,
+      "reason": "OK"
+    },
+    {
+      "id": "f34",
+      "sourceUrl": "https://cs.sdsu.edu/people/joann-chen/",
+      "quote": "Joann Q. Chen",
+      "len": 13,
+      "ok": true,
+      "reason": "OK"
+    },
+    {
+      "id": "f35",
+      "sourceUrl": "https://cs.sdsu.edu/people/salimeh-sekeh/",
+      "quote": "Salimeh Sekeh, Ph.D.",
+      "len": 20,
+      "ok": true,
+      "reason": "OK"
+    },
+    {
+      "id": "f36",
+      "sourceUrl": "https://cs.sdsu.edu/people/jianshu-liu/",
+      "quote": "Jianshu Liu, Ph.D.",
+      "len": 18,
+      "ok": true,
+      "reason": "OK"
+    },
+    {
+      "id": "f37",
+      "sourceUrl": "https://cs.sdsu.edu/people/yifan-zhang/",
+      "quote": "Yifan Zhang, Ph.D.",
+      "len": 18,
+      "ok": true,
+      "reason": "OK"
+    },
+    {
+      "id": "f38",
+      "sourceUrl": "https://cs.sdsu.edu/people/tao-xie",
+      "quote": "Tao Xie, Ph.D.",
+      "len": 14,
+      "ok": true,
+      "reason": "OK"
+    }
+  ]
+}

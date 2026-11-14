@@ -1,0 +1,519 @@
+TITLE: Faculty – Department of Computer Science
+SOURCE: /workspace/gradquest-program-research-batch2/sources/school14-faculty.html
+
+First Name
+Last Name
+Suffix
+Display Name
+Title
+Department
+Research Interests
+Student Opportunities
+Campus
+Profile URL
+Alt Text
+Image URL
+Page Slug
+Hyunjong
+Choi
+Ph.D.
+Hyunjong Choi, Ph.D.
+Assistant Professor of Computer Science
+Department of Computer Science
+Real-Time Embedded and Cyber-Physical Systems
+No
+San Diego
+https://cs.sdsu.edu/people/hyunjong-choi
+Closeup of Hyunjong Choi
+https://cs.sdsu.edu/wp-content/uploads/profiles/hyunjong-choi-300.jpg
+Hyunjong Choi, Ph.D.
+Assistant Professor of Computer Science
+Department of Computer Science
+Real-Time Embedded and Cyber-Physical Systems
+San Diego
+Bryan
+Donyanavard
+Ph.D.
+Bryan Donyanavard, Ph.D.
+Assistant Professor of Computer Science
+Department of Computer Science
+Self-Aware Computing Systems, Cyber-Physical Systems Management and Optimization Industry Experience: SPARC Systems, Oracle; Infrastructure, Google; Mobile, Google; IoT and Cyber-Physical Systems, Ericsson Research
+Yes
+San Diego
+https://cs.sdsu.edu/people/bryan-donyanavard
+Closeup of Bryan Donyanavard
+https://cs.sdsu.edu/wp-content/uploads/profiles/bryan-donyanavard-300.jpg
+Bryan Donyanavard, Ph.D.
+Assistant Professor of Computer Science
+Department of Computer Science
+Self-Aware Computing Systems, Cyber-Physical Systems Management and Optimization Industry Experience: SPARC Systems, Oracle; Infrastructure, Google; Mobile, Google; IoT and Cyber-Physical Systems, Ericsson Research
+Student Opportunities
+San Diego
+Hajar
+Homayouni
+Ph.D.
+Hajar Homayouni, Ph.D.
+Assistant Professor of Computer Science
+Department of Computer Science
+Data Science, Database, Applied Machine Learning, Interpretability of Machine Learning, Big Data Quality Assurance
+No
+San Diego
+https://cs.sdsu.edu/people/hajar-homayouni
+Closeup of Hajar Homayouni
+https://cs.sdsu.edu/wp-content/uploads/profiles/hajar-homayouni-300.jpg
+Hajar Homayouni, Ph.D.
+Assistant Professor of Computer Science
+Department of Computer Science
+Data Science, Database, Applied Machine Learning, Interpretability of Machine Learning, Big Data Quality Assurance
+San Diego
+Xiaobai
+Liu
+Ph.D.
+Xiaobai Liu, Ph.D.
+Associate Professor of Computer Science
+Department of Computer Science
+Computer Vision, Machine Learning, Computational Statistics and their Applications to Clinic Diagnosis, Sports, Transportation, Surveillance, Video Games
+No
+San Diego
+https://cs.sdsu.edu/people/xiaobai-liu
+Closeup of Xiaobai Liu
+https://cs.sdsu.edu/wp-content/uploads/profiles/xiaobai-liu-300.jpg
+Xiaobai Liu, Ph.D.
+Associate Professor of Computer Science
+Department of Computer Science
+Computer Vision, Machine Learning, Computational Statistics and their Applications to Clinic Diagnosis, Sports, Transportation, Surveillance, Video Games
+San Diego
+Hoa
+Vu
+Ph.D.
+Hoa Vu, Ph.D.
+Assistant Professor of Computer Science
+Department of Computer Science
+Theoretical Computer Science, Graph and Approximation Algorithms, Parameterized Algorithms, Sketching Algorithms
+No
+San Diego
+https://cs.sdsu.edu/people/hoa-vu
+Closeup of Hoa Vu
+https://cs.sdsu.edu/wp-content/uploads/profiles/hoa-vu-300.jpg
+Hoa Vu, Ph.D.
+Assistant Professor of Computer Science
+Department of Computer Science
+Theoretical Computer Science, Graph and Approximation Algorithms, Parameterized Algorithms, Sketching Algorithms
+San Diego
+Xin
+Zhang
+Ph.D.
+Xin Zhang, Ph.D.
+Assistant Professor of Computer Science
+Department of Computer Science
+Spatial-Temporal Data Science, Deep Learning, Imitation Learning, Meta-learning
+No
+San Diego
+https://cs.sdsu.edu/people/xin-zhang
+Closeup of Xin Zhang
+https://cs.sdsu.edu/wp-content/uploads/profiles/xin-zhang-300.jpg
+Xin Zhang, Ph.D.
+Assistant Professor of Computer Science
+Department of Computer Science
+Spatial-Temporal Data Science, Deep Learning, Imitation Learning, Meta-learning
+San Diego
+Shangping
+Ren
+Ph.D.
+Shangping Ren, Ph.D.
+Department Chair
+Professor of Computer Science
+Department of Computer Science
+Cyber-Physical Systems, Real-Time Scheduling, Cloud Computing
+San Diego
+https://cs.sdsu.edu/people/shangping-ren
+Closeup of Shangping Ren
+https://cs.sdsu.edu/wp-content/uploads/profiles/shangping-ren-300.jpg
+Shangping Ren, Ph.D.
+Department Chair
+Professor of Computer Science
+Department of Computer Science
+Cyber-Physical Systems, Real-Time Scheduling, Cloud Computing
+San Diego
+Roger
+Whitney
+Ph.D.
+Roger Whitney, Ph.D.
+Graduate Advisor
+Associate Professor of Computer Science
+Department of Computer Science
+Object-Oriented Programming, Functional Programming, Software Development, Mobile Computing
+No
+San Diego
+https://cs.sdsu.edu/people/roger-whitney
+Closeup of Roger Whitney
+https://cs.sdsu.edu/wp-content/uploads/profiles/roger-whitney-300.jpg
+Roger Whitney, Ph.D.
+Graduate Advisor
+Associate Professor of Computer Science
+Department of Computer Science
+Object-Oriented Programming, Functional Programming, Software Development, Mobile Computing
+San Diego
+Wei
+Wang
+Ph.D.
+Wei Wang, Ph.D.
+Graduate Advisor
+Professor of Computer Science
+Department of Computer Science
+Wireless Networks, Wireless Multimedia QoE/QoS, Machine Learning in Wireless Networks, Networks Economics, Smart Data/Media Pricing, Resource Allocation with Game Theory and Auction, Internet of Things, Energy Harvesting Wireless Sensor Networks
+No
+San Diego
+https://cs.sdsu.edu/people/wei-wang
+Closeup of Wei Wang
+https://cs.sdsu.edu/wp-content/uploads/profiles/wei-wang-300.jpg
+Wei Wang, Ph.D.
+Graduate Advisor
+Professor of Computer Science
+Department of Computer Science
+Wireless Networks, Wireless Multimedia QoE/QoS, Machine Learning in Wireless Networks, Networks Economics, Smart Data/Media Pricing, Resource Allocation with Game Theory and Auction, Internet of Things, Energy Harvesting Wireless Sensor Networks
+San Diego
+Peter
+Bartoli
+B.S.
+Peter Bartoli, B.S.
+Lecturer of Computer Science
+Department of Computer Science
+Offensive and Defensive Security, Digital Forensics, Network Wargaming, and Head Coach for Cybersecurity Competitions
+No
+San Diego
+https://cs.sdsu.edu/people/peter-bartoli
+Closeup of Peter Bartoli
+https://cs.sdsu.edu/wp-content/uploads/profiles/peter-bartoli-300.jpg
+Peter Bartoli, B.S.
+Lecturer of Computer Science
+Department of Computer Science
+Offensive and Defensive Security, Digital Forensics, Network Wargaming, and Head Coach for Cybersecurity Competitions
+San Diego
+Christopher
+Fodor
+Christopher Fodor
+Lecturer of Computer Science
+Department of Computer Science
+No
+San Diego
+https://cs.sdsu.edu/people/christopher-fodor
+Closeup of Christopher Fodor
+Christopher Fodor
+Lecturer of Computer Science
+Department of Computer Science
+San Diego
+Gus
+Hanna
+Ph.D.
+Gus Hanna, Ph.D.
+Lecturer of Computer Science
+Department of Computer Science
+Cybersecurity, Software Development, Information Technology and Management
+No
+San Diego
+https://cs.sdsu.edu/people/gus-hanna
+Closeup of Gus Hanna
+https://cs.sdsu.edu/wp-content/uploads/profiles/gus-hanna-300.jpg
+Gus Hanna, Ph.D.
+Lecturer of Computer Science
+Department of Computer Science
+Cybersecurity, Software Development, Information Technology and Management
+San Diego
+Md. Rakibul
+Hasan
+Ph.D.
+Md. Rakibul Hasan, Ph.D.
+Lecturer of Computer Science
+Department of Computer Science
+No
+San Diego
+https://cs.sdsu.edu/people/md.-rakibul-hasan
+Closeup of Md. Rakibul Hasan
+Md. Rakibul Hasan, Ph.D.
+Lecturer of Computer Science
+Department of Computer Science
+San Diego
+Reza
+Hashemi
+Reza Hashemi
+Lecturer of Computer Science
+Department of Computer Science
+No
+San Diego
+https://cs.sdsu.edu/people/reza-hashemi
+Closeup of Reza Hashemi
+Reza Hashemi
+Lecturer of Computer Science
+Department of Computer Science
+San Diego
+Patricia
+Kraft
+M.S.
+Patricia Kraft, M.S.
+Lecturer of Computer Science
+Department of Computer Science
+Data Communications Embedded Systems, Biotechnology Large Scale Web Applications.
+No
+San Diego
+https://cs.sdsu.edu/people/patricia-kraft
+Closeup of Patricia Kraft
+https://cs.sdsu.edu/wp-content/uploads/profiles/patricia-kraft-300.jpg
+Patricia Kraft, M.S.
+Lecturer of Computer Science
+Department of Computer Science
+Data Communications Embedded Systems, Biotechnology Large Scale Web Applications.
+San Diego
+Guy
+Leonard
+M.S.
+Guy Leonard, M.S.
+Lecturer of Computer Science
+Department of Computer Science
+Systems Programming
+No
+San Diego
+https://cs.sdsu.edu/people/guy-leonard
+Closeup of Guy Leonard
+https://cs.sdsu.edu/wp-content/uploads/profiles/guy-leonard-300.jpg
+Guy Leonard, M.S.
+Lecturer of Computer Science
+Department of Computer Science
+Systems Programming
+San Diego
+Manju Muralidharan
+Priya
+M.S.
+Manju Muralidharan Priya, M.S.
+Lecturer of Computer Science
+Department of Computer Science
+Data Structures & Algorithms, Curriculum Design
+No
+San Diego
+https://cs.sdsu.edu/people/manju-muralidharan-priya/
+Closeup of Manju Muralidharan Priya
+https://cs.sdsu.edu/wp-content/uploads/profiles/manju-muralidharan-priya-300.jpg
+Manju Muralidharan Priya, M.S.
+Lecturer of Computer Science
+Department of Computer Science
+Data Structures & Algorithms, Curriculum Design
+San Diego
+Hau
+Nguyen
+M.S., MBA
+Hau Nguyen, M.S., MBA
+Lecturer of Computer Science
+Department of Computer Science
+Artificial Intelligence, Cybersecurity, Information Systems
+No
+San Diego
+https://cs.sdsu.edu/people/hau-nguyen/
+Closeup of Hau Nguyen
+https://sciences.sdsu.edu/people/_resources/images/hau-nguyen-300.jpg
+Hau Nguyen, M.S., MBA
+Lecturer of Computer Science
+Department of Computer Science
+Artificial Intelligence, Cybersecurity, Information Systems
+San Diego
+Mohammad
+Ramezanali
+Ph.D.
+Mohammad Ramezanali, Ph.D.
+Lecturer of Computer Science
+Department of Computer Science
+Foundation Models, Machine Learning, Natural Language Processing, Computer Vision, Robotics, Autonomous Agents
+No
+San Diego
+https://cs.sdsu.edu/people/mohammad-ramezanali
+Closeup of Mohammad Ramezanali
+Mohammad Ramezanali, Ph.D.
+Lecturer of Computer Science
+Department of Computer Science
+Foundation Models, Machine Learning, Natural Language Processing, Computer Vision, Robotics, Autonomous Agents
+San Diego
+Stacy
+Warner
+B.A.
+Stacy Warner, B.A.
+Lecturer of Computer Science
+Department of Computer Science
+No
+San Diego
+https://cs.sdsu.edu/people/stacy-warner
+Closeup of Stacy Warner
+Stacy Warner, B.A.
+Lecturer of Computer Science
+Department of Computer Science
+San Diego
+Tao
+Xie
+Ph.D.
+Tao Xie, Ph.D.
+Professor of Computer Science
+Department of Computer Science
+High Performance Computing, Storage Systems, Cluster and Grid Computing, Parallel Processing, Distributed Systems, Real- Time/Embedded Systems, Dynamic Resource Management, Performance Evaluation.
+No
+San Diego
+https://cs.sdsu.edu/people/tao-xie
+Closeup of Tao Xie
+https://cs.sdsu.edu/wp-content/uploads/profiles/tao-xie-300.jpg
+Tao Xie, Ph.D.
+Professor of Computer Science
+Department of Computer Science
+High Performance Computing, Storage Systems, Cluster and Grid Computing, Parallel Processing, Distributed Systems, Real- Time/Embedded Systems, Dynamic Resource Management, Performance Evaluation.
+San Diego
+Ben
+Shen
+M.S.
+Ben Shen, M.S.
+Undergraduate Advisor
+Lecturer of Computer Science
+Department of Computer Science
+No
+San Diego
+https://cs.sdsu.edu/people/ben-shen
+Closeup of Ben Shen
+Ben Shen, M.S.
+Undergraduate Advisor
+Lecturer of Computer Science
+Department of Computer Science
+San Diego
+Joann Qiongna
+Chen
+PH.D.
+Joann Qiongna Chen, Ph.D.
+Assistant Professor of Computer Science
+Department of Computer Science
+Differential Privacy, Privacy Enhancing Technologies, Privacy in Machine Learning
+Yes
+San Diego
+https://cs.sdsu.edu/people/joann-chen/
+Closeup of Joann Qiongna Chen
+https://cs.sdsu.edu/wp-content/uploads/profiles/joann-chen-300.jpg
+Joann Qiongna Chen, Ph.D.
+Assistant Professor of Computer Science
+Department of Computer Science
+Differential Privacy, Privacy Enhancing Technologies, Privacy in Machine Learning
+Student Opportunities
+San Diego
+Robert
+Beverly
+Ph.D.
+Robert Beverly, Ph.D.
+Director, Cybersecurity Center for Research and Education
+Professor of Computer Science
+Department of Computer Science
+Systems, Networks, Applied Cybersecurity
+No
+San Diego
+https://cs.sdsu.edu/people/robert-beverly/
+Closeup of Robert Beverly
+https://cs.sdsu.edu/wp-content/uploads/profiles/rob-beverly-300.jpg
+Robert Beverly, Ph.D.
+Director, Cybersecurity Center for Research and Education
+Professor of Computer Science
+Department of Computer Science
+Systems, Networks, Applied Cybersecurity
+San Diego
+Salimeh
+Sekeh
+Ph.D.
+Salimeh Sekeh, Ph.D.
+Associate Professor of Computer Science
+Department of Computer Science
+Machine Learning, Computer Vision, Artificial Intelligence, Large Scale Data Science
+No
+San Diego
+https://cs.sdsu.edu/people/salimeh-sekeh/
+Closeup of Salimeh Sekeh
+https://cs.sdsu.edu/wp-content/uploads/profiles/salimeh-sekeh-300.jpg
+Salimeh Sekeh, Ph.D.
+Associate Professor of Computer Science
+Department of Computer Science
+Machine Learning, Computer Vision, Artificial Intelligence, Large Scale Data Science
+San Diego
+Shams Al
+Ajrawi
+Ph.D.
+Shams Al Ajrawi, Ph.D.
+Lecturer of Computer Science
+Department of Computer Science
+Brain-Computer Interface Applications, Wireless Network Communication, Artificial Intelligence, Advanced Signal Processing, Machine Learning, Cybersecurity.
+No
+San Diego
+https://cs.sdsu.edu/shams-ajrawi/
+Closeup of Shams Al Ajrawi
+https://cs.sdsu.edu/wp-content/uploads/profiles/shams-ajrawi-300.jpg
+Shams Al Ajrawi, Ph.D.
+Lecturer of Computer Science
+Department of Computer Science
+Brain-Computer Interface Applications, Wireless Network Communication, Artificial Intelligence, Advanced Signal Processing, Machine Learning, Cybersecurity.
+San Diego
+Jianshu
+Liu
+Ph.D.
+Jianshu Liu, Ph.D.
+Assistant Professor of Computer Science
+Department of Computer Science
+Distributed Systems, Cloud Computing, Web application, Stream Processing Systems, Microservices, Resource Management, Performance Evaluation
+No
+San Diego
+https://cs.sdsu.edu/people/jianshu-liu/
+Closeup of Jianshu Liu
+https://cs.sdsu.edu/wp-content/uploads/profiles/jianshu-liu-300.jpg
+Jianshu Liu, Ph.D.
+Assistant Professor of Computer Science
+Department of Computer Science
+Distributed Systems, Cloud Computing, Web application, Stream Processing Systems, Microservices, Resource Management, Performance Evaluation
+San Diego
+Yifan
+Zhang
+Ph.D.
+Yifan Zhang, Ph.D.
+Assistant Professor of Computer Science
+Department of Computer Science
+Cyber Security, Privacy
+No
+San Diego
+https://cs.sdsu.edu/people/yifan-zhang/
+Closeup of Yifan Zhang
+https://sciences.sdsu.edu/people/_resources/images/yifan-zhang-300.jpg
+Yifan Zhang, Ph.D.
+Assistant Professor of Computer Science
+Department of Computer Science
+Cyber Security, Privacy
+San Diego
+Dan
+Houston
+M.S.
+Dan Houston, M.S.
+Lecturer of Computer Science
+Department of Computer Science
+Gamification in Education, Curriculum Design, Instructional Design, Educational Game Design
+No
+San Diego
+https://sciences.sdsu.edu/people/dan-houston
+Closeup of Dan Houston
+https://sciences.sdsu.edu/people/_resources/images/dan-houston-300.jpg
+Dan Houston, M.S.
+Lecturer of Computer Science
+Department of Computer Science
+Gamification in Education, Curriculum Design, Instructional Design, Educational Game Design
+San Diego
+Randy
+Scovil
+M.S.
+Randy Scovil, M.S.
+Lecturer of Computer Science
+Department of Computer Science
+Data Structures, Mobile Development, Intro to Programming, Computer Science Education
+No
+San Diego
+https://sciences.sdsu.edu/people/randy-scovil
+Closeup of Randy Scovil
+https://sciences.sdsu.edu/people/_resources/images/randy-scovil-300.jpg
+Randy Scovil, M.S.
+Lecturer of Computer Science
+Department of Computer Science
+Data Structures, Mobile Development, Intro to Programming, Computer Science Education
+San Diego

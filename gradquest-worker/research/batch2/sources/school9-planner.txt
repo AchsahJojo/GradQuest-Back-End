@@ -1,0 +1,83 @@
+TITLE: Planner | Cal State LA
+URL_FILE: /workspace/gradquest-program-research-batch2/sources/school9-planner.html
+
+Department of Computer Science
+Department of Computer Science
+Objectives & Outcomes
+Undergraduate
+Admission
+Curriculum & Requirements
+Roadmaps
+CS Courses
+GE Courses
+Schedule of Courses
+Capstone Senior Design
+Graduate
+Admission & Prerequisites
+Curriculum & Requirements
+Roadmaps
+Thesis/Projects
+Courses
+Schedule of Courses
+Integrated BS MS
+Minor in CS
+CS Supplementary Authorization
+Advising & Resources
+Faculty Advisors
+Forms
+Resources
+Faculty
+Staff
+Research
+Employment
+Contact
+Planner
+MSCS Course Flow
+Fall 2026 MSCS Program Course Diagram
+Recommended 2-Year Roadmaps
+Graduation roadmaps are suggested academic plans. Students should design their own plans to complete the degree requirements in a timely fashion.
+Check the scheduling patterns of the courses and ensue that the CS 4xxx prerequisite course is completed prior to the CS 5xxx course.
+It is strongly recommended to complete no more than three courses during any term.
+Courses in the summer term can be taken to accelerate completion of the requirements.
+Academic Status and Progression
+Conditionally Classified Graduate Standing (G1)
+: Students given prerequisite courses as part of their provisional admission must complete these courses in their first semester following the recommendation of their advisor. After completing the prerequisites, students are required to submit a completed
+GS-8 form
+to their graduate faculty advisor to transition their classification status from
+Conditionally Classified (G1) to Classified (G2)
+.
+Classified Graduate Standing (G2):
+Review the program requirements and the suggested roadmap. Ensure you complete the degree requirements while maintaining a minimum term GPA of 3.0.
+Advance to Candidacy (G3):
+Students ready to enroll in a thesis or take the comprehensive exam should advance to candidacy (from
+G2 to G3
+). The minimum requirement for candidacy advancement are the completion of 12 units and a minimum GPA of 3.0. To advance, students must submit a completed
+GS-10 form
+. It is recommended that students submit this form during the registration period for the term in which they plan to start their thesis or take the exam.
+Thesis course (CS 5990) registration
+CS 5990 should be taken
+exactly twice
+.
+First time registration: Upon advancement to candidacy, submit a
+CS 5990 request form
+during the registration period for the first term in which you plan to start the thesis.
+Second time registration: Submit a
+CS 5990 request form
+during the registration period for the second term in which you plan to complete the thesis. There is no need to advance to candidacy a second time.
+Optional step: Students who have been advanced to candidacy and have completed all coursework including 6-units of thesis but need additional time to complete their thesis, must be registered in
+UNIV 9000
+.
+CS 5990 Syllabus
+Comp exam course (CS 5960) registration
+Upon advancement to candidacy, send an email to
+the faculty graduate advisor
+to request a permit to add CS 5960.
+CS 5960 Syllabus
+Graduation application
+: Students must submit their
+graduation application
+one term before the expected graduation term.
+Form:
+Graduation Application for Graduate/Doctorate Degrees
+Graduate Writing Requirement
+The Graduate Writing Assessment Requirement (GWAR) is no longer required for graduate students, effective for catalog years beginning Fall 2023.

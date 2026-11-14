@@ -1,0 +1,289 @@
+TITLE: 
+Ben Steichen
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+Skip to content 
+
+apply 
+visit 
+info 
+give 
+mycpp 
+
+Search 
+
+- 
+
+apply 
+visit 
+info 
+give 
+mycpp 
+
+apply 
+visit 
+info 
+give 
+mycpp 
+
+- 
+Home 
+
+- 
+
+about 
+
+- 
+
+admissions & aid 
+
+- 
+
+academics 
+
+- 
+
+life at CPP 
+
+- 
+athletics 
+
+- 
+alumni 
+
+- 
+news & events 
+
+- 
+future students 
+| 
+
+- 
+Admitted Students 
+| 
+
+- 
+current students 
+| 
+
+- 
+families 
+| 
+
+- 
+faculty & staff 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+H1: Ben Steichen
+
+Associate Professor
+
+Computer Science, College of Science
+
+H2: Email
+
+bsteichen@cpp.edu 
+
+H2: Phone number
+
+909.869.3437
+
+H2: Office location
+
+8-21 
+
+H2: Office hours
+
+M W | TBA
+
+- 
+
+About Me 
+
+H2: About me
+
+Dr. Ben Steichen is an Associate Professor in the Computer Science Department at California State Polytechnic University, Pomona . He received his PhD from Trinity College Dublin (TCD), Ireland, an M.Sc. degree in Computer Science from TCD, and a First Class Honours B.Sc. degree in Computing Sciences from the University of East Anglia , UK.
+
+Dr. Steichen leads the hapii lab (human-centered, adaptive, and personalized information interaction), which researches novel information access solutions that support each individual person. This research involves techniques and concepts from the fields of Human-Computer Interaction, Artificial Intelligence, Information Retrieval & Visualization, and Web & Information Science.
+
+H2: Publications 
+
+H4: Book chapters 
+
+Steichen, B. Computational Methods to Infer Human Factors for Adaptation and Personalization Using Eye Tracking , A Human-Centered Perspective of Intelligent Personalized Environments and Systems. Human–Computer Interaction Series. Springer, 2024.
+
+H2: 
+
+H4: Journal, Conference, and Workshop Articles 
+
+Steichen, B., Isaacs, M., To, S., Tran, K., and Varela, D. Humans and AI against Misinformation - Understanding the Role of User Characteristics on Susceptibility to Misleading Visualizations & the Potential of AI Assistance. Proceedings of the International Workshop on Designing and Building Hybrid Human-AI Systems (SYNERGY 2026), co-located with the 18th International Conference on Advanced Visual Interfaces (AVI 2026), to appear, 2026.
+
+Steichen, B., Mahadevappa, S., Gershman, M., Geronimo, M., Kermad, A., Stoehr, K., and Figueira, S. Math-Language Minigames - Helping Bilingual Children Learn Mathematics by Closing the Language Gap . Proceedings of the International Workshop on Designing Advanced Interfaces for Learning and Teaching, co-located with the 18th International Conference on Advanced Visual Interfaces (AVI 2026), 2026.
+
+Mahadevappa, S., Dasari, W.W., Nagalapatti, G., Steichen, B., Figueira, S. MathTarea: Mathematics Homework Support for Bilingual Students . Proceedings of the 25th Annual ACM Interaction Design and Children Conference (IDC '26), pp. 1179–1185, 2026.
+
+Steichen, B., Ling, C., and Figueira, S. Multilingual News Search - A Comparative User Study of Desktop and Mobile Interfaces . International Journal of Human–Computer Interaction, 40(19), pp. 5648-5663, 2024.
+
+Steichen, B., Kosasih, W., Becerra, C. Inferring Search User Language Proficiency from Eye Gaze Data . Proceedings of the 7th ACM SIGIR Conference on Human Information Interaction and Retrieval (CHIIR 2022), pp. 211-220, 2022.
+
+Fu, B., Steichen, B. Impending Success or Failure? An Investigation of Gaze-Based User Predictions During Interaction with Ontology Visualizations . Proceedings of the International Conference on Advanced Visual Interfaces (AVI 2022), Article No.7, 1-9, 2022.
+
+Fu, B., Steichen, B. Supporting User-Centered Ontology Visualization: Predictive Analytics using Eye Gaze to Enhance Human-Ontology Interaction . International Journal of Intelligent Information and Database Systems, Vol. 15, No. 1, 2022.
+
+Steichen, B., Lowe, R. How do multilingual users search? An investigation of query and result list language choices. Journal of the Association for Information Science and Technology, 72(6), pp.759-776, 2021.
+
+Steichen, B., Fu, B. Cognitive Style and Information Visualization - Modeling Users Through Eye Gaze Data. Frontiers in Computer Science, 2, 49, 2020.
+
+Steichen, B., Castillo, C., Scroggins, K. Personalized Multilingual Search - Predicting Search Result List Language Preferences . Proceedings of the international ACM conference on User Modeling, Adaptation, and Personalization (UMAP 2020), pp. 343-347, 2020.
+
+Steichen, B., Fu, B., Nguyen, T. Inferring Cognitive Style from Eye Gaze Behavior During Information Visualization Usage . Proceedings of the international ACM conference on User Modeling, Adaptation, and Personalization (UMAP 2020), pp. 348-352, 2020.
+
+Fu, B., Steichen, B., McBride, A. Tumbling to Succeed: A Predictive Analysis of User Success in Interactive Ontology Visualization. Proceedings of the 10th International Conference on Web Intelligence, Mining and Semantics (WIMS’20), 2020.
+
+Ling, C., Steichen, B., Figueira, S. Multilingual News - An Investigation of Consumption, Querying, and Search Result Selection Behaviors. International Journal of Human-Computer Interaction, 36(6), 2019.
+
+Steichen, B., Fu, B. Towards Adaptive Information Visualization - a Study of Information Visualization Aids and the Role of User Cognitive Style. Frontiers in Artificial Intelligence, 2, 22, 2019.
+
+Fu, B., Steichen, B., Zhang, W. Towards Adaptive Ontology Visualization - Predicting User Success from Behavioral Data. International Journal of Semantic Computing, 13(4), 2019.
+
+Fu, B., Steichen, B. Using Behavior Data to Predict User Success in Ontology Class Mapping – An Application of Machine Learning in Interaction Analysis. Proceedings of the 13th IEEE International Conference on Semantic Computing (ICSC 2019), pp. 216-223, 2019. (Best Paper nominee)
+
+Ling, C., Steichen, B., Choulos, A. A Comparative User Study of Interactive Multilingual Search Interfaces. Proceedings of the 2018 Conference on Human Information Interaction & Retrieval (CHIIR '18), pp. 211-220, 2018.
+
+Lowe, R., Steichen, B. Multilingual Search User Behaviors – Exploring Multilingual Querying and Result Selection Through Crowdsourcing. Proceedings of the international conference on User Modeling, Adaptation, and Personalization (UMAP 2017), pp. 303-307, 2017.
+
+Koidl, K., Levacher, K., Conlan, O., Steichen, B. ECP: Evaluation Community Portal - A Portal for Evaluation And Collaboration in User Modelling and Personalisation Research. Proceedings of the EvalUMAP2016 Workshop: Towards Comparative Evaluation in the User Modelling, Adaptation and Personalization Space, in conjunction with the 24th conference on User Modeling, Adaptation and Personalization (UMAP 2016), CEUR Workshop Proceedings, ISSN 1613-0073, Vol-1618, 2016.
+
+Steichen, B., Freund, L. Supporting the Modern Polyglot - A Comparison of Multilingual Search Interfaces. Proceedings of the ACM CHI Conference on Human Factors in Computing Systems (CHI 2015), pp. 3483-3492, 2015.
+
+Steichen, B., Ghorab, M. R., Lawless, S., O'Connor, A., Wade, V. Towards Personalized Multilingual Information Access - Exploring the Browsing and Search Behavior of Multilingual Users. Proceedings of the international conference on User Modeling, Adaptation, and Personalization (UMAP 2014), pp. 435-446, 2014.
+
+Steichen, B., Carenini, G., Conati, C. Inferring Visualization Task Properties, User Performance, and User Cognitive Abilities from Eye Gaze Data. ACM Transactions on Interactive Intelligent Systems, 4, 2, Article 11, 2014. (Best Paper Award)
+
+Conati, C., Carenini, G., Hoque, E., Steichen, B., Toker, D. Evaluating the Impact of User Characteristics and Different Layouts on an Interactive Visualization for Decision Making. Computer Graphics Forum, Volume 33, Issue 3, pp. 371–380, 2014.
+
+Steichen, B., Wu, M. M. A., Toker, D., Conati, C., Carenini, G. Te,Te,Hi,Hi: Eye Gaze Sequence Analysis for Informing User-Adaptive Information Visualizations. Proceedings of the international conference on User Modeling, Adaptation, and Personalization (UMAP 2014), pp. 183-194, 2014. (Best Paper Award)
+
+Carenini, G., Conati, C., Steichen, B., Toker, D., and Enns, J. Highlighting Interventions and User Differences: Informing Adaptive Information Visualization Support. Proceedings of the ACM CHI Conference on Human Factors in Computing Systems (CHI 2014), pp. 1835-1844, 2014.
+
+Toker, D., Steichen, B., Gingerich, M., Conati, C., Carenini, G. Towards facilitating user skill acquisition - Identifying untrained visualization users through eye tracking. Proceedings of the International Conference on Intelligent User Interfaces (IUI 2014), pp. 105-114, 2014. (Best Paper nominee)
+
+Toker, D., Conati, C., Steichen, B., Carenini G., Individual User Characteristics and Information Visualization: Connecting the Dots through Eye Tracking. Proceedings of the ACM SIGCHI Conference on Human Factors in Computing Systems (CHI 2013), pp. 295-304, 2013.
+
+Steichen, B., Schmid, O., Conati, C., Carenini, G. Seeing how you’re looking - Using Real-Time Eye Gaze Data for User-Adaptive Visualization. Proceedings of the 1st International Workshop on User-Adaptive Information Visualization (WUAV 2013), in conjunction with the 21st conference on User Modeling, Adaptation and Personalization (UMAP 2013), CEUR Workshop Proceedings, ISSN 1613-0073, Vol-997, 2013.
+
+Conati, C., Hoque, E., Toker, D., Steichen, B. When to Adapt: Detecting User’s Confusion During Visualization Processing. Proceedings of the 1st International Workshop on User-Adaptive Information Visualization (WUAV 2013), in conjunction with the 21st conference on User Modeling, Adaptation and Personalization (UMAP 2013), CEUR Workshop Proceedings, ISSN 1613-0073, Vol-997, 2013.
+
+Carenini, G., Conati, C., Hoque, E., Steichen, B. User Task Adaptation in Multimedia Presentations. Proceedings of the 1st International Workshop on User-Adaptive Information Visualization (WUAV 2013), in conjunction with the 21st conference on User Modeling, Adaptation and Personalization (UMAP 2013), CEUR Workshop Proceedings, ISSN 1613-0073, Vol-997, 2013.
+
+Steichen, B., Ashman, H., Wade, V. A comparative survey of Personalised Information Retrieval and Adaptive Hypermedia techniques. Information Processing & Management, Volume 48, Issue 4, pp. 698–724, 2012.
+
+Steichen, B., Carenini, G., Conati, C. User-Adaptive Information Visualization - Using eye gaze data to infer visualization tasks and user cognitive abilities. Proceedings of the International Conference on Intelligent User Interfaces (IUI 2013), pp. 317-328, 2013. (Best Paper nominee)
+
+Steichen, B., O'Connor, A., Wade, V. Personalisation in the Wild - Providing Personalisation across Semantic, Social and Open-Web Resources. In Proceedings of the 22nd ACM conference on Hypertext and hypermedia (HT '11), pp. 73-82, 2011.
+
+Ghorab, M. R., Zhou, D., Steichen, B., Wade, V. Towards Multilingual User Models for Personalized Multilingual Information Retrieval. In Proceedings of the 1st Workshop on Personalized Multilingual Hypertext Retrieval (PMHR 2011), in conjunction with the 22nd ACM conference on Hypertext and hypermedia (HT '11), 2011.
+
+Steichen, B., Wade, V. Adaptive Retrieval and Composition of Socio-Semantic Content for Personalised Customer Care. In Proceedings of the International Workshop on Adaptation in Social and Semantic Web (SAS-WEB 2010), in conjunction with the 19th conference on User Modeling, Adaptation and Personalization (UMAP 2010), CEUR Workshop Proceedings, ISSN 1613-0073, Vol-590, pp. 1-10, 2010.
+
+Steichen, B., Lawless, S., O'Connor, A., Wade, V. Dynamic hypertext generation for reusing open corpus content. In Proceedings of the 20th ACM conference on Hypertext and hypermedia (HT '09), pp. 119-128, 2009.
+
+Steichen, B., Clarke, S. Wireless Collaboration for Context-Aware Services using Mobile Networked Applications. In Proceedings of the 4th IEEE International Conference on Wireless Communications, Networking and Mobile Computing (WiCom 2008), ISBN 978-1-4244-2107-7, pp.1-9, 2008.
+
+Fu, B., Bernáth, G., Steichen, B., Weber, S. Wireless Background Noise in the Wi-Fi Spectrum. In Proceedings of the 4th IEEE International Conference on Wireless Communications, Networking and Mobile Computing (WiCom 2008), ISBN 978-1-4244-2107-7, pp. 1-7, 2008.
+
+H4: Proceedings Editing & Workshop Reports 
+
+Germanakos, P., Dimitrova, V., Steichen, B., Ferwerda, B., Tkalcic, M. HAAPIE 2024: 9th International Workshop on Human Aspects in Adaptive and Personalized Interactive Environments. Adjunct Proceedings of the 32nd international ACM conference on User Modeling, Adaptation, and Personalization (UMAP 2024), 2024.
+
+Germanakos, P., Dimitrova, V., Steichen, B., Ferwerda, B., Tkalcic, M. HAAPIE 2023: 8th International Workshop on Human Aspects in Adaptive and Personalized Interactive Environments. Adjunct Proceedings of the 31st international ACM conference on User Modeling, Adaptation, and Personalization (UMAP 2023), 2023.
+
+Germanakos, P., Dimitrova, V., Steichen, B., Ferwerda, B., Tkalcic, M. HAAPIE 2022: 8th International Workshop on Human Aspects in Adaptive and Personalized Interactive Environments. Adjunct Proceedings of the 30th international ACM conference on User Modeling, Adaptation, and Personalization (UMAP 2022), 2022.
+
+Germanakos, P., Dimitrova, V., Steichen, B., Piotrkowicz, A. HAAPIE 2021: 6th International Workshop on Human Aspects in Adaptive and Personalized Interactive Environments. Adjunct Proceedings of the 29th international ACM conference on User Modeling, Adaptation, and Personalization (UMAP 2021), 2021.
+
+Germanakos, P., Dimitrova, V., Steichen, B., Piotrkowicz, A. HAAPIE 2020: 5th International Workshop on Human Aspects in Adaptive and Personalized Interactive Environments Chairs' Welcome. Adjunct Publication of the 28th ACM Conference on User Modeling, Adaptation and Personalization (UMAP '20 Adjunct), 2020.
+
+Germanakos, P., Dimitrova, V., Steichen, B., Piotrkowicz, A. UMAP 2019 HAAPIE (Human Aspects in Adaptive and Personalized Interactive Environments) Workshop Chairs' Welcome. Adjunct Publication of the 27th Conference on User Modeling, Adaptation and Personalization (UMAP'19 Adjunct), 2019.
+
+Kleanthous, S., Bielikova, M., and Steichen, B. UMAP 2019 Demo and Late-Breaking Results - Chairs' Preface. Adjunct Publication of the 27th Conference on User Modeling, Adaptation and Personalization (UMAP'19 Adjunct), 2019.
+
+Germanakos, P., Kleanthous-Loizou, S., Samaras, G., Dimitrova, V., Steichen, B., Piotrkowicz, A. 3rd International Workshop on Human Aspects in Adaptive and Personalized Interactive Environments (HAAPIE 2018). Adjunct Publication of the 26th international conference on User Modeling, Adaptation and Personalization (UMAP 2018), 2018.
+
+Germanakos, P., Kleanthous-Loizou, S., Samaras, G., Dimitrova, V., Steichen, B. 2nd International Workshop on Human Aspects in Adaptive and Personalized Interactive Environments (HAAPIE 2017). Adjunct Publication of the 25th international conference on User Modeling, Adaptation and Personalization (UMAP 2017), pp. 213-214, 2017.
+
+Steichen, B., Ferro, N., Lewis, D., Chi, E. H. 1st International Workshop on Multilingual Web Access (MWA 2015). SIGIR Forum 49, 2 (January 2016), 137-140, 2016.
+
+Steichen, B., Ferro, N., Lewis, D., Chi, E.H. 1st International Workshop on Multilingual Web Access (MWA 2015) - Chairs’ Welcome. Companion proceedings of the 24th international conference on World Wide Web, 2015.
+
+Steichen, B., Ruotsalo, T., Agosti, M., Jacucci, G., Lawless, S., Brusilovsky, P., Wade, V., Kaski, S., Barral, O. Joint Workshop on Personalized Information Access-PIA 2014. Extended proceedings of the international conference on User Modeling, Adaptation, and Personalization (UMAP 2014), CEUR Workshop Proceedings, ISSN 1613-0073, Vol-1181, 2014.
+
+H4: Conference Posters 
+
+Gadon, A., Steichen, B., Leon, J. Bridging the Online Language Gap with Polyvox. Southern California Conferences for Undergraduate Research, 2019.
+
+Castillo, C., Scroggins, K., Steichen, B. Supporting Multilingual Users Through Personalized Multilingual Search. Southern California Conferences for Undergraduate Research, 2019.
+
+Daroy, P., Steichen, B. Personalized Information Visualization Through the Use of Adaptive Overlays. Southern California Conferences for Undergraduate Research, 2019.
+
+Castillo, C., Chen, K., Steichen, B. Towards Multilingual Search – Gathering Multilingual Query Logs using Crowdsourcing. Southern California Conferences for Undergraduate Research, 2018.
+
+Pierre-Louis, D., Arima, J., Steichen, B. Cookies for Breakfast, Lunch, and Dinner: Designing a GDPR Compliant Accountability Tool for Web Services and Web Apps. Southern California Conferences for Undergraduate Research, 2018.
+
+Toker, D., Steichen, B., Birk, M. Predicting Player Type in Social Network Games. Extended proceedings of the international conference on User Modeling, Adaptation, and Personalization (UMAP 2014), CEUR Workshop Proceedings, ISSN 1613-0073, Vol-1181, 2014.
+
+Steichen, B., Carenini, G., Conati, C. Adaptive Information Visualization - Predicting user characteristics and task context from eye gaze. Poster and Workshop Proceedings of the 20th conference on User Modeling, Adaptation and Personalization (UMAP 2012), CEUR Workshop Proceedings, ISSN 1613-0073, Vol-872, 2012.
+
+H4: Theses 
+
+Steichen B., Adaptive Retrieval, Composition & Presentation of Closed-Corpus and Open-Corpus Information. PhD thesis. School of Computer Science and Statistics, Trinity College Dublin, 2012. (Best Thesis Award)
+
+Steichen B., Activity Dispatching for Cooperative Trails-based Applications. MSc thesis. School of Computer Science and Statistics, Trinity College Dublin, 2007.
+
+H2: Related Links
+
+- the hapii lab 
+
+- Google Scholar profile 
+
+Apply 
+Maps 
+Visit 
+Contact Us 
+
+Copyright © California State Polytechnic University, Pomona. All Rights Reserved 
+
+A campus of 
+
+The California State University .
+
+Title IX 
+Feedback 
+Privacy 
+Cookie Preferences 
+Accessibility 
+Document Readers

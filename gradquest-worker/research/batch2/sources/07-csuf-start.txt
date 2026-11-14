@@ -1,0 +1,210 @@
+TITLE: Requirements - Software Engineering Program | CSUF
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+- 
+- 
+
+Skip Navigation 
+
+California State University, Fullerton 
+
+Site Menu 
+
+College of Engineering and Computer Science 
+Software Engineering Program 
+
+- Main Navigation 
+
+- 
+About
+
+- 
+Program Cost
+
+- 
+Courses
+
+- 
+FAQ
+
+- 
+How to Apply
+
+- 
+How to Enroll
+
+- 
+Faculty
+
+- 
+Contact and Support
+
+- 
+Program Brochure
+
+- 
+Program Handbook
+
+- 
+Orientation and Midpoint Seminars
+
+- 
+Workshop and Lectures
+
+H2: Before you apply, please check that you meet the following requirements:
+
+- 
+
+H2: University Requirements:
+
+- The applicant must meet the minimum criteria for the admission.
+
+- The applicant must have completed four-year college course of study and hold an acceptable baccalaureate degree with a minimum/cumulative grade point average of 2.5 for applicants having an undergraduate degree in Computer Science or 3.0 for other degree holders.
+
+- An official transcript is required from each university or college you have attended.
+
+- For international students: a minimum score of 550 (paper) or 80 in TOEFL or 6.5 Academic in IELTS or 58 in PTE.
+
+- For further details, please visit graduate admissions. 
+
+- 
+
+H2: Program Requirements:
+
+- The applicant should have taken an Introductory Software Engineering course (equivalent with CPSC 362 
+at CSUF) or should have work experience in software development.
+
+- If you did not complete the above Software Engineering course, email your resume to the MSE Program Coordinator at [email protected] 
+to check your qualifications.
+
+- If you would like to know more about the program, please email [email protected] 
+.
+
+H2: If you meet both the above requirements, apply using the following steps:
+
+- Apply online at the apply page 
+. The online application will be open from October 1, 2025 to May 1, 2026 . A $70 application fee will apply and must be paid online.
+
+- Submit all your supporting documents (official transcripts from all institutions attended, mark sheets, degree certificate, and official TOEFL/ IETLS /PTE scores) to the following address:
+
+California State University, Fullerton 
+Office of Admissions 
+800 N State College Blvd 
+Langsdorf Hall Room 111 
+Fullerton, CA 92831 
+
+Documents may be sent electronically to [email protected] . Documents must be sent directly from the school/institution of origin. 
+For more details, please visit graduate admission 
+.
+Note: Usually it takes a few weeks or months to get the result. First come, first served. Therefore, apply as early as possible.
+
+H2: After you get an admission letter:
+
+- The deadline to accept the offer of admission and pay a non-refundable $250 enrollment deposit is TBD.
+Note: After completing this step, you might have to wait for a few days for the process to be completed.
+
+- Enroll in the classes (usually starting from April - to be notified). For more information on the enrollment process, please visit the enroll page 
+.
+
+- Attend the MSE Orientation on campus* (usually on the 1st Saturday starting the Fall semester - to be notified). 
+We strongly recommend you attend the Orientation as it is an excellent opportunity to form groups with your classmates for your group projects and meet the professors in person.
+
+- Attend the class on time (check the university calendar and your university email account)
+
+*In case you cannot attend the Orientation for some reasons, you can review the Orientation video later 
+
+H2: Advanced Software Engineering Management Courses (6 units total)
+
+CPSC-546 - Modern Software Management
+CPSC 548 - Professional, Ethical and Legal Issues for Software Engineers
+
+H2: Capstone Experience (6 units total)
+
+CPSC 597 I - Graduate Project in Computer Science 
+CPSC 597 II - Graduate Project in Computer Science
+
+This site is maintained by 
+College of Engineering and Computer Science .
+
+Last Published 9/12/25 
+
+To report problems or comments with this site, please contact 
+[email protected] . 
+
+© California State University, Fullerton. All Rights Reserved.
+
+H2: Web Accessibility
+
+CSUF is committed to ensuring equal accessibility to our users. Let us know about any accessibility problems you encounter using this website.
+
+We'll do our best to improve things and get you the information you need.
+
+- Resources:
+
+- Download Adobe Acrobat Reader
+
+- 
+Adobe Reader 
+
+- Download Word viewer, or download Excel viewer, or download PowerPoint viewer
+
+- 
+Microsoft Viewers 
+
+- 
+Report An ATI Issue 
+
+- 
+Accessible @ CSUF 
+
+Version_4.8.10

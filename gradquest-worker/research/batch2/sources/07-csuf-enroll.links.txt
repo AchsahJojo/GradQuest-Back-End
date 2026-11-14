@@ -1,0 +1,28 @@
+#skipnavigation	Skip Navigation
+https://www.fullerton.edu	California State University, Fullerton
+https://www.fullerton.edu/ecs	College of Engineering and Computer Science
+https://www.fullerton.edu/ecs/mse	Software Engineering Program
+javascript:ShowMainNavMobile()	Main Navigation
+https://www.fullerton.edu/ecs/mse/about	About
+https://www.fullerton.edu/ecs/mse/programs/programcost.php	Program Cost
+https://www.fullerton.edu/ecs/mse/programs/courses.php	Courses
+https://www.fullerton.edu/ecs/mse/faq.php	FAQ
+https://www.fullerton.edu/ecs/mse/requirements/index.php	How to Apply
+https://www.fullerton.edu/ecs/mse/requirements/how-to-enroll.php	How to Enroll
+https://www.fullerton.edu/ecs/mse/faculty/index.php	Faculty
+https://www.fullerton.edu/ecs/mse/contact-support/index.php	Contact and Support
+https://www.fullerton.edu/ecs/mse/seminars	Orientation and Midpoint Seminars
+https://www.fullerton.edu/ecs/mse/seminars/WorkshopAndLectures.php	Workshop and Lectures
+https://www.fullerton.edu/	fullerton.edu
+https://csuf.screenstepslive.com/s/peoplesoft/m/70025/l/1454310-adding-a-class	How to Add Classes (CSUF Information Technology)
+http://records.fullerton.edu/_resources/pdfs/registration-guides/Spring2022.pdf	Registration Guide (for Spring 2022)
+http://records.fullerton.edu/registration/guides/QRG-Registering_for_Classes.pdf	
+#top	
+https://www.fullerton.edu	
+https://www.fullerton.edu/ecs	College of Engineering and Computer Science
+https://a.cms.omniupdate.com/11/?skin=csufullerton&account=ECS&site=MSE_v4&action=de&path=/requirements/how-to-enroll.pcf	Last Published 4/5/22
+/cdn-cgi/l/email-protection#8eebedfdf9ebece3effdfaebfccee8fbe2e2ebfcfae1e0a0ebeafb	[email protected]
+https://get.adobe.com/reader/	Adobe Reader
+https://www.microsoft.com/en-us/download/office.aspx	Microsoft Viewers
+https://www.fullerton.edu/reportati/	Report An ATI Issue
+//www.fullerton.edu/ATI	Accessible @ CSUF

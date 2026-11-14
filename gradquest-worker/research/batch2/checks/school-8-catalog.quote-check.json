@@ -1,0 +1,601 @@
+{
+  "schoolId": 8,
+  "schoolName": "California State University, Long Beach",
+  "programName": "Computer Science, M.S.",
+  "sourceNote": "Saved from user's browser 2026-11-13 (live catalog WAF-blocks scripted fetch)",
+  "factsSubmitted": 49,
+  "factsPassed": 49,
+  "factsFailed": 0,
+  "checks": [
+    {
+      "id": "f52",
+      "kind": "overview",
+      "name": "Catalog heading",
+      "sourceUrl": "https://catalog.csulb.edu/preview_program.php?catoid=12&poid=6290",
+      "quote": "Computer Science, M.S.",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-8-csulb-cs-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f53",
+      "kind": "overview",
+      "name": "Program mission",
+      "sourceUrl": "https://catalog.csulb.edu/preview_program.php?catoid=12&poid=6290",
+      "quote": "The mission of the graduate program in Computer Science at CSULB is to provide a high-quality educational experience and the technical specialization required to become successful leaders in industry.",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-8-csulb-cs-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f54",
+      "kind": "requirement",
+      "name": "Thesis or comprehensive examination",
+      "sourceUrl": "https://catalog.csulb.edu/preview_program.php?catoid=12&poid=6290",
+      "quote": "The students may choose to do a thesis or take a comprehensive examination as the culmination of their program.",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-8-csulb-cs-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f55",
+      "kind": "requirement",
+      "name": "Admission degree background",
+      "sourceUrl": "https://catalog.csulb.edu/preview_program.php?catoid=12&poid=6290",
+      "quote": "To be considered for admission the graduate applicant must have earned a bachelor's degree in computer engineering, computer science or sufficient background in computer engineering or computer science from a college or university",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-8-csulb-cs-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f56",
+      "kind": "requirement",
+      "name": "Admission GPA of 2.7 in last 60 semester units",
+      "sourceUrl": "https://catalog.csulb.edu/preview_program.php?catoid=12&poid=6290",
+      "quote": "a minimum grade point average (GPA) of 2.7 in the last 60 semester or 90 quarter upper division major units attempted.",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-8-csulb-cs-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f57",
+      "kind": "requirement",
+      "name": "Apply through Cal State Apply, not the department",
+      "sourceUrl": "https://catalog.csulb.edu/preview_program.php?catoid=12&poid=6290",
+      "quote": "The student should apply online at www.calstate.edu/apply . Do not send an application to the Department.",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-8-csulb-cs-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f58",
+      "kind": "requirement",
+      "name": "Remove deficiencies before graduate-level courses",
+      "sourceUrl": "https://catalog.csulb.edu/preview_program.php?catoid=12&poid=6290",
+      "quote": "All deficiencies must be removed before attempting graduate-level courses.",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-8-csulb-cs-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f59",
+      "kind": "requirement",
+      "name": "Advancement to candidacy: deficiencies and overall GPA",
+      "sourceUrl": "https://catalog.csulb.edu/preview_program.php?catoid=12&poid=6290",
+      "quote": "Students applying for advancement to candidacy must: have completed all undergraduate deficiencies with grades of \"C\" or better; have attained an overall grade point average (GPA) of 3.0;",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-8-csulb-cs-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f60",
+      "kind": "requirement",
+      "name": "Advancement to candidacy: 9 units and advisor approval",
+      "sourceUrl": "https://catalog.csulb.edu/preview_program.php?catoid=12&poid=6290",
+      "quote": "have completed at least 9 units of required courses applicable to the degree with a GPA of at least 3.0 for the completed units; and have their plans of studies approved by the CECS department graduate advisor.",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-8-csulb-cs-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f61",
+      "kind": "requirement",
+      "name": "Degree unit total",
+      "sourceUrl": "https://catalog.csulb.edu/preview_program.php?catoid=12&poid=6290",
+      "quote": "Degree Requirements (30 units)",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-8-csulb-cs-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f62",
+      "kind": "requirement",
+      "name": "First-semester plan of study",
+      "sourceUrl": "https://catalog.csulb.edu/preview_program.php?catoid=12&poid=6290",
+      "quote": "Students must meet with the Graduate Program Adviser at the beginning of their first semester to create a tentative plan of study.",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-8-csulb-cs-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f63",
+      "kind": "requirement",
+      "name": "Culminating options and 400-level cap",
+      "sourceUrl": "https://catalog.csulb.edu/preview_program.php?catoid=12&poid=6290",
+      "quote": "As a culminating activity, students must elect either the Thesis Option or the Comprehensive Exam Option. A maximum of 9 units of 400-level coursework may be applied toward the degree.",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-8-csulb-cs-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f64",
+      "kind": "requirement",
+      "name": "Comprehensive exam option unit split",
+      "sourceUrl": "https://catalog.csulb.edu/preview_program.php?catoid=12&poid=6290",
+      "quote": "Student must complete 30 graduate hours credit in computer science and pass the comprehensive exam. 15 units of required core courses",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-8-csulb-cs-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f65",
+      "kind": "requirement",
+      "name": "Exam-option elective units",
+      "sourceUrl": "https://catalog.csulb.edu/preview_program.php?catoid=12&poid=6290",
+      "quote": "15 units from allowed electives (No more than 9 units may be from the 400 level courses.)",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-8-csulb-cs-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f66",
+      "kind": "requirement",
+      "name": "Comprehensive exam covered courses",
+      "sourceUrl": "https://catalog.csulb.edu/preview_program.php?catoid=12&poid=6290",
+      "quote": "Comprehensive examination covering the following required courses: CECS 524 - Advanced Topics in Programming Languages (3 units) CECS 528 - Advanced Analysis of Algorithms (3 units) CECS 543 - Advanced Software Engineering (3 units)",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-8-csulb-cs-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f67",
+      "kind": "requirement",
+      "name": "Thesis option unit split",
+      "sourceUrl": "https://catalog.csulb.edu/preview_program.php?catoid=12&poid=6290",
+      "quote": "15 units of required courses",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-8-csulb-cs-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f68",
+      "kind": "requirement",
+      "name": "Thesis-option elective units",
+      "sourceUrl": "https://catalog.csulb.edu/preview_program.php?catoid=12&poid=6290",
+      "quote": "9 units from allowed electives (No more than 9 units may be from the 400 level courses.);",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-8-csulb-cs-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f69",
+      "kind": "requirement",
+      "name": "Thesis research and report",
+      "sourceUrl": "https://catalog.csulb.edu/preview_program.php?catoid=12&poid=6290",
+      "quote": "6 units of research and thesis with written report and oral presentation approved by the thesis committee.",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-8-csulb-cs-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f70",
+      "kind": "requirement",
+      "name": "Thesis minimum from CECS 698",
+      "sourceUrl": "https://catalog.csulb.edu/preview_program.php?catoid=12&poid=6290",
+      "quote": "At least 3 units must be taken from the following course CECS 698 - Thesis or Industrial Project (3-6 units)",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-8-csulb-cs-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f71",
+      "kind": "requirement",
+      "name": "Thesis remaining 3 units",
+      "sourceUrl": "https://catalog.csulb.edu/preview_program.php?catoid=12&poid=6290",
+      "quote": "Remaining 3 units may be taken from either of the following courses CECS 697 - Directed Research (1-3 units) CECS 698 - Thesis or Industrial Project (3-6 units)",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-8-csulb-cs-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f72",
+      "kind": "course",
+      "name": "CECS 524",
+      "sourceUrl": "https://catalog.csulb.edu/preview_program.php?catoid=12&poid=6290",
+      "quote": "CECS 524 - Advanced Topics in Programming Languages (3 units)",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-8-csulb-cs-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f73",
+      "kind": "course",
+      "name": "CECS 528",
+      "sourceUrl": "https://catalog.csulb.edu/preview_program.php?catoid=12&poid=6290",
+      "quote": "CECS 528 - Advanced Analysis of Algorithms (3 units)",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-8-csulb-cs-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f74",
+      "kind": "course",
+      "name": "CECS 530",
+      "sourceUrl": "https://catalog.csulb.edu/preview_program.php?catoid=12&poid=6290",
+      "quote": "CECS 530 - Advanced Computer Architecture I (3 units)",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-8-csulb-cs-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f75",
+      "kind": "course",
+      "name": "CECS 543",
+      "sourceUrl": "https://catalog.csulb.edu/preview_program.php?catoid=12&poid=6290",
+      "quote": "CECS 543 - Advanced Software Engineering (3 units)",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-8-csulb-cs-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f76",
+      "kind": "course",
+      "name": "CECS 558",
+      "sourceUrl": "https://catalog.csulb.edu/preview_program.php?catoid=12&poid=6290",
+      "quote": "CECS 558 - Deep Learning (3 units)",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-8-csulb-cs-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f77",
+      "kind": "course",
+      "name": "CECS 698",
+      "sourceUrl": "https://catalog.csulb.edu/preview_program.php?catoid=12&poid=6290",
+      "quote": "CECS 698 - Thesis or Industrial Project (3-6 units)",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-8-csulb-cs-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f78",
+      "kind": "course",
+      "name": "CECS 697",
+      "sourceUrl": "https://catalog.csulb.edu/preview_program.php?catoid=12&poid=6290",
+      "quote": "CECS 697 - Directed Research (1-3 units)",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-8-csulb-cs-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f79",
+      "kind": "course",
+      "name": "CECS 519",
+      "sourceUrl": "https://catalog.csulb.edu/preview_program.php?catoid=12&poid=6290",
+      "quote": "CECS 519 - Theory of Computation (3 units)",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-8-csulb-cs-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f80",
+      "kind": "course",
+      "name": "CECS 521",
+      "sourceUrl": "https://catalog.csulb.edu/preview_program.php?catoid=12&poid=6290",
+      "quote": "CECS 521 - Database Architecture (3 units)",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-8-csulb-cs-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f81",
+      "kind": "course",
+      "name": "CECS 526",
+      "sourceUrl": "https://catalog.csulb.edu/preview_program.php?catoid=12&poid=6290",
+      "quote": "CECS 526 - Advanced Operating Systems (3 units)",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-8-csulb-cs-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f82",
+      "kind": "course",
+      "name": "CECS 529",
+      "sourceUrl": "https://catalog.csulb.edu/preview_program.php?catoid=12&poid=6290",
+      "quote": "CECS 529 - Search Engine Technology (3 units)",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-8-csulb-cs-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f83",
+      "kind": "course",
+      "name": "CECS 532",
+      "sourceUrl": "https://catalog.csulb.edu/preview_program.php?catoid=12&poid=6290",
+      "quote": "CECS 532 - Memory Design and Implementation (3 units)",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-8-csulb-cs-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f84",
+      "kind": "course",
+      "name": "CECS 544",
+      "sourceUrl": "https://catalog.csulb.edu/preview_program.php?catoid=12&poid=6290",
+      "quote": "CECS 544 - Software Testing and Verification (3 units)",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-8-csulb-cs-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f85",
+      "kind": "course",
+      "name": "CECS 545",
+      "sourceUrl": "https://catalog.csulb.edu/preview_program.php?catoid=12&poid=6290",
+      "quote": "CECS 545 - Software Architecture (3 units)",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-8-csulb-cs-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f86",
+      "kind": "course",
+      "name": "CECS 546",
+      "sourceUrl": "https://catalog.csulb.edu/preview_program.php?catoid=12&poid=6290",
+      "quote": "CECS 546 - Fault Tolerant Computing Systems (3 units)",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-8-csulb-cs-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f87",
+      "kind": "course",
+      "name": "CECS 547",
+      "sourceUrl": "https://catalog.csulb.edu/preview_program.php?catoid=12&poid=6290",
+      "quote": "CECS 547 - Software Maintenance, Reengineering and Reuse (3 units)",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-8-csulb-cs-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f88",
+      "kind": "course",
+      "name": "CECS 550",
+      "sourceUrl": "https://catalog.csulb.edu/preview_program.php?catoid=12&poid=6290",
+      "quote": "CECS 550 - Pattern Recognition (3 units)",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-8-csulb-cs-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f89",
+      "kind": "course",
+      "name": "CECS 551",
+      "sourceUrl": "https://catalog.csulb.edu/preview_program.php?catoid=12&poid=6290",
+      "quote": "CECS 551 - Advanced Artificial Intelligence (3 units)",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-8-csulb-cs-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f90",
+      "kind": "course",
+      "name": "CECS 552",
+      "sourceUrl": "https://catalog.csulb.edu/preview_program.php?catoid=12&poid=6290",
+      "quote": "CECS 552 - Computer Simulation and Modeling (3 units)",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-8-csulb-cs-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f91",
+      "kind": "course",
+      "name": "CECS 553",
+      "sourceUrl": "https://catalog.csulb.edu/preview_program.php?catoid=12&poid=6290",
+      "quote": "CECS 553 - Machine Vision (3 units)",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-8-csulb-cs-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f92",
+      "kind": "course",
+      "name": "CECS 561",
+      "sourceUrl": "https://catalog.csulb.edu/preview_program.php?catoid=12&poid=6290",
+      "quote": "CECS 561 - Hardware/Software Co-design (3 units)",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-8-csulb-cs-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f93",
+      "kind": "course",
+      "name": "CECS 570",
+      "sourceUrl": "https://catalog.csulb.edu/preview_program.php?catoid=12&poid=6290",
+      "quote": "CECS 570 - Concurrent Parallel Programming (3 units)",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-8-csulb-cs-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f94",
+      "kind": "course",
+      "name": "CECS 571",
+      "sourceUrl": "https://catalog.csulb.edu/preview_program.php?catoid=12&poid=6290",
+      "quote": "CECS 571 - Fundamentals of Semantic Web technologies (3 units)",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-8-csulb-cs-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f95",
+      "kind": "course",
+      "name": "CECS 572",
+      "sourceUrl": "https://catalog.csulb.edu/preview_program.php?catoid=12&poid=6290",
+      "quote": "CECS 572 - Advanced Computer Networking (3 units)",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-8-csulb-cs-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f96",
+      "kind": "course",
+      "name": "CECS 574",
+      "sourceUrl": "https://catalog.csulb.edu/preview_program.php?catoid=12&poid=6290",
+      "quote": "CECS 574 - Distributed Computing (3 units)",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-8-csulb-cs-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f97",
+      "kind": "course",
+      "name": "CECS 575",
+      "sourceUrl": "https://catalog.csulb.edu/preview_program.php?catoid=12&poid=6290",
+      "quote": "CECS 575 - Object-Oriented Analysis and Design (3 units)",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-8-csulb-cs-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f98",
+      "kind": "course",
+      "name": "CECS 577",
+      "sourceUrl": "https://catalog.csulb.edu/preview_program.php?catoid=12&poid=6290",
+      "quote": "CECS 577 - Blockchain Technology (3 units)",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-8-csulb-cs-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f99",
+      "kind": "course",
+      "name": "CECS 579",
+      "sourceUrl": "https://catalog.csulb.edu/preview_program.php?catoid=12&poid=6290",
+      "quote": "CECS 579 - Information Security (3 units)",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-8-csulb-cs-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f100",
+      "kind": "course",
+      "name": "CECS 590",
+      "sourceUrl": "https://catalog.csulb.edu/preview_program.php?catoid=12&poid=6290",
+      "quote": "CECS 590 - Selected Topics in Computer Science (3 units)",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-8-csulb-cs-ms-catalog-2026-27.html"
+      ]
+    }
+  ],
+  "droppedFacts": [],
+  "mergedSkippedDuplicateQuotes": []
+}

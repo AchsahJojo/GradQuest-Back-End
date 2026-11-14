@@ -1,0 +1,470 @@
+TITLE: 
+Permanent Faculty
+
+- 
+
+- 
+- 
+
+- 
+- 
+- 
+- 
+- 
+
+- 
+
+- 
+apply 
+visit 
+info 
+give 
+mycpp 
+
+Search 
+
+- 
+
+- 
+apply 
+visit 
+info 
+give 
+mycpp 
+
+- 
+
+apply 
+visit 
+info 
+give 
+mycpp 
+
+- 
+Home 
+
+- 
+
+about 
+
+- 
+
+admissions & aid 
+
+- 
+
+academics 
+
+- 
+
+life at CPP 
+
+- 
+athletics 
+
+- 
+alumni 
+
+- 
+news & events 
+
+- 
+future students 
+| 
+
+- 
+current students 
+| 
+
+- 
+families 
+| 
+
+- 
+faculty & staff 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+Computer Science
+
+- 
+Home 
+
+- 
+Program Evaluation 
+
+- 
+
+Program Evaluation
+
+- 
+
+Program Accreditation & Assessment
+
+- 
+Undergraduate Program 
+
+- 
+
+Undergraduate Program
+
+- 
+
+Course Descriptions
+
+- 
+
+Student Resources
+
+- 
+
+Employment Opportunities
+
+- 
+
+Research Opportunities
+
+- 
+
+Scholarship Opportunities
+
+- 
+
+Minor in CS
+
+- 
+
+CS Senior Project
+
+- 
+
+CS Internship
+
+- 
+
+Forms
+
+- 
+
+Minor in Data Science
+
+- 
+
+Artificial Intelligence Minor
+
+- 
+
+Computational Linguistics Minor
+
+- 
+
+Cyber Security Minor
+
+- 
+Prospective Graduate Students 
+
+- 
+
+Prospective Graduate Students
+
+- 
+
+Program Information
+
+- 
+
+Admission Requirements
+
+- 
+
+Application Procedures
+
+- 
+
+Frequently Asked Questions
+
+- 
+Current Graduate Students 
+
+- 
+
+Current Graduate Students
+
+- 
+
+News & Announcements
+
+- 
+
+Course Descriptions
+
+- 
+
+Planned Future Course Offerings
+
+- 
+
+Faculty Research and Interests
+
+- 
+
+Recent Master’s Theses/Projects
+
+- 
+
+Program Assessment
+
+- 
+
+Graduate Resources
+
+- 
+Faculty & Staff 
+
+- 
+
+Faculty & Staff
+
+- 
+
+Permanent Faculty
+
+- 
+
+Lecturers
+
+- 
+
+Emeritus
+
+- 
+
+Staff
+
+- 
+
+Faculty Research Interests
+
+- 
+
+Faculty & Staff Awards
+
+- 
+CS Student Labs 
+
+- 
+
+CS Student Labs
+
+- 
+
+Lab Use and Hours
+
+- 
+
+Instructional Labs
+
+- 
+
+Research Labs
+
+- 
+CS Student Clubs 
+
+- 
+Advising & Procedures 
+
+- 
+
+College of Science Advising Center
+
+- 
+
+Alumni
+
+- 
+
+CSSA @ CPP
+
+- 
+Collaboration and Outreach 
+
+- 
+
+Support the Department
+
+- 
+
+Contact Information
+
+H1: Permanent Faculty
+
+H2: Abdelfattah Amamra
+
+Title: Associate Professor 
+Office: 8-11 
+Phone: (909) 869-3447 
+Email: aamamra@cpp.edu 
+Web: cpp.edu/faculty/aamamra/ 
+
+H2: Tingting Chen
+
+Title: Professor & Graduate Coordinator
+Office: 8-14
+Phone: (909) 869-4842 
+Email: tingtingchen@cpp.edu 
+Web: cpp.edu/faculty/tingtingchen/ 
+
+H2: Mohammad Husain
+
+Title: Professor & Associate Chair 
+Office: 8-14A
+Phone: (909) 869-2022 
+Email: mihusain@cpp.edu 
+Web: cpp.edu/faculty/mihusain/ 
+
+H2: Fatemeh Jamshidi
+
+Title: Assistant Professor 
+Office: 8-40
+Phone: (909) 869-3451
+Email: fjamshidi@cpp.edu 
+Web: cpp.edu/faculty/fjamshidi/ 
+
+H2: Hao Ji
+
+Title: Associate Professor 
+Office: 8-42 
+Phone: (909) 869-5521 
+Email: hji@cpp.edu 
+Web: cpp.edu/faculty/hji/ 
+
+H2: John Korah
+
+Title: Associate Professor 
+Office: 8-15 
+Phone : (909) 869-3441 
+Email : jkorah@cpp.edu 
+Web : cpp.edu/faculty/jkorah/ 
+
+H2: Sai Kosaraju
+
+Title: Assistant Professor 
+Office: 8-46
+Phone: (909) 869-3542
+Email: skosaraju@cpp.edu 
+Web: https://saikosaraju.com 
+
+H2: Ericsson Santana Marin
+
+Title: Assistant Professor 
+Office: 8-39 
+Phone: (909) 869-3909 
+Email: santanamarin@cpp.edu 
+Web: cpp.edu/faculty/santanamarin 
+
+H2: Brianna Posadas
+
+Title: Assistant Professor 
+Office: 8-43
+Phone: (909) 869-3469
+Email: bbposadas@cpp.edu 
+Web: 
+
+H2: Amar Raheja
+
+Title: Professor & Chair
+Office: 8-49 A
+Phone: (909) 869-4412 
+Email: raheja@cpp.edu 
+Web: cpp.edu/faculty/raheja/ 
+
+H2: Salam Salloum
+
+Title : Professor 
+Office : 8-8 
+Phone : (909) 869-5317 
+Email : ssalloum@cpp.edu 
+Web : cpp.edu/faculty/ssalloum/ 
+
+H2: Wendy Shi
+
+Title : Assistant Professor 
+Office : 8-44
+Phone : (909) 869-4052
+Email : wendyshi@cpp.edu 
+Web : cpp.edu/faculty/wendyshi/ 
+
+H2: Ben Steichen
+
+Title: Associate Professor 
+Office: 8-21 
+Phone: (909) 869-3437 
+Email: bsteichen@cpp.edu 
+Web: cpp.edu/faculty/bsteichen/ 
+
+H2: Yu Sun
+
+Title : Professor 
+Office : 8-13 
+Phone : (909) 869-3449 
+Email : yusun@cpp.edu 
+Web : cpp.edu/faculty/yusun/ 
+
+H2: Daisy Tang
+
+Title : Professor 
+Office : 8-10
+Phone : (909) 869-2157 
+Email : ftang@cpp.edu 
+Web : cpp.edu/faculty/ftang/ 
+
+H2: Yunsheng Wang
+
+Title : Associate Professor
+Office : 8-09
+Phone : (909) 869-3447
+Email : yunshengwang@cpp.edu 
+Web : cpp.edu/faculty/yunshengwang/ 
+
+H2: Mingyan Xiao
+
+Title : Assistant Professor 
+Office : 8-45 
+Phone : (909) 979-5519
+Email : mxiao@cpp.edu 
+Web : cpp.edu/faculty/mxiao/ 
+
+H2: Gilbert S. Young
+
+Title : Professor 
+Office : 8-12
+Phone : (909) 869-4413 
+Email : gsyoung@cpp.edu 
+Web : cpp.edu/faculty/gsyoung/ 
+
+Apply 
+Maps 
+Visit 
+Contact Us 
+
+Copyright © California State Polytechnic University, Pomona. All Rights Reserved 
+
+A campus of 
+
+The California State University .
+
+Title IX 
+Feedback 
+Privacy 
+Cookie Preferences 
+Accessibility 
+Document Readers

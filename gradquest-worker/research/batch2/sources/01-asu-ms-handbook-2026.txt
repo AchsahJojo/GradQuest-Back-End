@@ -1,0 +1,1443 @@
+                                                                              1
+
+
+
+
+     Master of Science in Computer Science
+              Graduate Handbook
+                   2026-2027
+​
+
+
+    Including concentrations in Big Data Systems, Cybersecurity, Artificial
+       Intelligence, Biomedical Informatics and Media Arts & Sciences
+
+
+
+
+                        MANUAL OF THE M.S. DEGREE IN
+                            COMPUTER SCIENCE
+                           AND CONCENTRATIONS
+
+                             ARIZONA STATE UNIVERSITY
+
+                          For more information, please contact:
+
+                                  Office of Graduate Programs
+                        School of Computing and Augmented Intelligence
+                              Ira A. Fulton Schools of Engineering
+                                    Arizona State University
+                                         P.O. Box 878809
+                                     Tempe, AZ 85287-8809
+                                    PHONE: (480) 965-3199
+                               https://scai.engineering.asu.edu/
+                           E-mail address: scai.grad.tempe@asu.edu
+
+
+
+
+Updated June2026
+                                                                                                                                                2
+
+
+                                                       Table of Contents
+1. The ASU Computer Science Program......................................................................................... 4
+2. Master of Science in Computer Science...................................................................................... 4
+3. Objective of the Handbook.......................................................................................................... 4
+4. Student Responsibility ................................................................................................................ 5
+5. ASU Resources............................................................................................................................ 5
+6. Faculty Responsibility................................................................................................................. 6
+7. Admission to the MS Degree Programs.......................................................................................6
+    A. Eligibility ............................................................................................................................. 6
+    B. Application............................................................................................................................ 6
+    C. Application Deadlines........................................................................................................... 7
+    D. English Proficiency............................................................................................................... 7
+    E. Personal Statement............................................................................................................... 7
+    F. Transcripts..............................................................................................................................7
+    G. GPA Requirement................................................................................................................. 7
+    H. Application Evaluation........................................................................................................ 8
+    I. Notice of Admission...............................................................................................................8
+    J. Admission Deferrals...............................................................................................................8
+    K. Additional Course Requirements (Deficiencies).................................................................. 8
+    L. Pre-admission Credits and Transfer Credit........................................................................... 9
+8. MS Degree Requirements.......................................................................................................... 10
+    A. MS Program Options ......................................................................................................... 10
+    B. Formulation of the Plan of Study ....................................................................................... 15
+    C. Details of the Thesis Option................................................................................................17
+    D. Applied Project................................................................................................................... 20
+    E. Accelerated Computer Science Degree .............................................................................. 20
+9. General Information, Policies, and Procedures..........................................................................21
+    A. Research Standards for Publication of Thesis.....................................................................21
+    B. Financial Assistance and/or Fellowships............................................................................ 21
+    C. Continuous Enrollment ...................................................................................................... 21
+    D. Medical/Compassionate Withdrawal.................................................................................. 22
+    E. Leave of Absence Policies...................................................................................................22
+    F. Maximum Time Limit.........................................................................................................22
+    G. Maximum Credit Load........................................................................................................23
+    H. Transfer from an Incomplete ASU CS Graduate Program to Another ASU CS Graduate
+    Program ..................................................................................................................................23
+    I. Registration Requirements for Research Assistants (RA) and Teaching Assistants (TA)... 24
+    J. Policy for Maintaining Academic Satisfactory Progress..................................................... 25
+                                                                                                                                   3
+
+
+K. Dismissal without an Appeal for Additional Course Requirements................................... 27
+L. Filing for Graduation...........................................................................................................28
+M. Academic Integrity............................................................................................................. 28
+N. CSE 584 Internship............................................................................................................. 28
+O. CSE 590 Independent Study (Thesis students only)...........................................................30
+P. Engineering Student Organizations......................................................................................30
+Q. Instructional Concerns and Course-Related Complaints.................................................... 30
+                                                                                               4
+
+
+
+1. The ASU Computer Science Program
+At ASU’s School of Computing and Augmented Intelligence (SCAI), we envision a society
+where secure, accurate, and current information is ubiquitously available, and data is seamlessly
+collected, managed, and converted into information that entertains individuals, empowers
+businesses, and guides the decisions of both in their daily affairs.
+
+We envision our school as a community recognized by its colleagues internationally as a leader
+in envisioning and enabling an information-driven society and by its students as a preferred
+location for acquiring the knowledge and skills necessary to contribute to this vision.
+
+Our mission is to benefit society through excellence in education, use-inspired research from
+basic to translational, and leadership in service to the profession and community. We seek to
+provide a supportive environment that promotes creativity, inclusive excellence,
+multidisciplinary teaming, scholarship, and ethical behavior to advance knowledge and practice
+in computing, information and decision technologies to enhance society.
+
+
+2. Master of Science in Computer Science
+The Master of Science in Computer Science is a 30-credit hour program that provides students
+with a comprehensive foundation in computer science and AI and prepares them for highly
+technical jobs in the computing industry, research labs, and to pursue doctoral degrees.
+
+The MS in CS program offers six concentrations:
+   ●​ Generic (G)
+   ●​ Concentration in Big Data Systems (BDS)
+   ●​ Concentration in Cybersecurity (CS)
+   ●​ Concentration in Artificial Intelligence (AI)
+   ●​ Concentration in Biomedical Informatics (BMI)
+   ●​ Concentration in Media Arts and Science (MAS)
+
+The MS in CS programs offer three options: a course-based option, an applied project, or a
+thesis. The thesis option is ideal for research-oriented students who are interested in delving
+deeper into cutting-edge technologies with a faculty supervisor. The applied project allows the
+student to undertake a semester-long hands-on project. The course-based option is suitable for
+students interested in learning about the science of computers in a non-research environment.
+The MS program provides numerous opportunities for interdisciplinary study. The MAS and
+BMI concentrations do not support the course-based option.
+
+
+3. Objective of the Handbook
+The purpose of this handbook is to provide guidance and information related to admission,
+degree requirements, and general policies and procedures. In case there are any differences
+between the Graduate College policies and procedures and the computer science program
+requirements, it is because the Computer Science (CS) program has established higher standards.
+                                                                                             5
+
+
+Students must satisfy both sets of requirements. Policies and procedures are occasionally
+amended to improve the program. Changes will be communicated to students through their ASU
+e-mail, our primary form of communication. Any updates to this handbook will be posted on our
+website: https://scai.engineering.asu.edu/handbooks/.
+
+
+4. Student Responsibility
+All students are expected to become familiar and abide by:
+    1.​ The Graduate College policies and procedures -​
+        https://graduate.asu.edu/policies-procedures
+    2.​ The Ira A. Fulton Schools of Engineering policies and procedures -​
+         http://engineering.asu.edu
+    3.​ And the Computer Science program requirements - laid out in this handbook
+
+
+5. ASU Resources
+We believe graduate education provides an opportunity to grow in our knowledge and
+expertise, and during our studies, we may face challenges and hardships that can affect our
+well-being. The CS program and ASU have compiled resources and best practices guides to help
+your educational journey. We encourage you to contact a SCAI Graduate Advisor if you need
+additional guidance and support.
+   ●​ Ira A. Fulton Schools of Engineering
+   ●​ International Students and Scholars Center, if applicable
+   ●​ Graduate Wellness Resources – a one-page guide to Financial, Social, Emotional, and
+        Physical Health and Wellness Resources for ASU Graduate Students was developed by
+        the GPSA.
+   ●​ 10 Best Practices in Graduate Student Well-being – proven ways to help graduate
+        students better care for themselves under the increasing demands of graduate school
+   ●​ Financial Aid - A dedicated team for all your financial, funding, scholarship and FAFSA
+        questions.
+   ●​ Pat Tillman Veterans Center - Support team and services to ensure success among
+        military students.
+   ●​ ASU Help Desk - The ASU Helpdesk is available 24/7 to provide you with Technical
+        support and assistance with your courses.
+   ●​ ASU Library - All the resources of a traditional library, at your fingertips... articles,
+        eBooks, tutorials, and research assistance to support your academic success!
+   ●​ Student Accessibility and Inclusive Learning - Also known as “SAILS” provides services
+        to qualified students with disabilities on all ASU campuses.
+   ●​ Career Services - Whether you are a student looking for an internship, an alum looking
+        for a job or an employer looking to recruit, Handshake can get you connected.
+   ●​ Alumni Association - Online students are welcome and encouraged to attend alumni
+        events in their area.
+   ●​ Sun Devils Connect - An ASU Online Facebook group dedicated to current students.
+        Connect and network with other students around the country and get the insider scoop on
+        ASU Online events, competitions and opportunities.
+                                                                                                6
+
+
+   ●​ Slack - Live chat with your Success Coach, instructors, classmates or join a social
+      channel.
+   ●​ ASU Bookstore – Shop for your textbooks, computers, tablets, and other accessories as
+      needed.
+
+ASU prohibits all forms of discrimination, harassment and retaliation. To view ASU’s policy
+please see https://www.asu.edu/aad/manuals/acd/acd401.html.
+
+Title IX protects individuals from discrimination based on sex in any educational program or
+activity operated by recipients of federal financial assistance. As required by Title IX, ASU does
+not discriminate based on sex in the education programs or activities that we operate, including
+in admission and employment. Inquiries concerning the application of Title IX may be referred
+to the Title IX Coordinator, the U.S. Department of Education, Assistant Secretary, or both.
+Contact titleixcoordinator@asu.edu or 480-965-0696 for more information. Office located at
+1120 S. Cady Mall, INTDSB 284. For information on how to make a report, please go to
+www.asu.edu/reportit/.
+
+
+6. Faculty Responsibility
+The members of the faculty of Computer Science have diverse backgrounds and knowledge.
+They are available to assist you in your plan of study and your educational and career goals. We
+encourage you to take the opportunity to make individual appointments with faculty members
+with whom you have common interests. Please refer to the SCAI website for a list of the faculty
+names, areas of expertise, and research interests.
+
+
+7. Admission to the MS Degree Programs
+The Computer Science MS degree requires a background in engineering, math, sciences, or
+closely related fields. However, in some cases, students with non-traditional educational
+backgrounds will be considered for admission. These students may be required to take
+foundational courses to better prepare for the graduate coursework. A student is encouraged to
+contact the School of Computing and Augmented Intelligence Advising Office to obtain advice
+on their educational pursuits.
+
+       A. Eligibility
+       Before applying to the CS MS program, students are required to have completed 2
+       semesters or 6 credit hours of calculus, equivalent to Calculus I and II. A background in
+       discrete math is required for admission .
+
+       B. Application
+       All students must submit an application and all required supporting materials to the
+       Office of Graduate Admission and pay the required fee to have their application reviewed
+       and processed.
+                                                                                          7
+
+
+C. Application Deadlines
+   ●​ December 1 for Fall start
+   ●​ August 1 for Spring start
+   To receive full consideration, please submit all required documents by the deadline.
+
+GRE scores are not required.
+
+D. English Proficiency
+The University requires all applicants whose native language is not English to
+demonstrate proficiency in the English language, regardless of their current residency.
+Applicants demonstrate proficiency by scoring at least 80 (if taken before January 21,
+2026) or 4 (if taken on or after January 21, 2026) on the TOEFL iBT, 6.5 on the IELTS,
+or 105 on the Duolingo English test. Note that your application will not be processed
+until the university receives official English Proficiency scores, which are valid for
+two (2) years from the start date of the degree program. Visit the Graduate Admission
+English Proficiency site for other ways to demonstrate English proficiency:
+https://students.asu.edu/graduate/proficiency. Please address all English Proficiency
+questions with the Office of Graduate Admission. The ASU institution code is 4007. If a
+department code is required, use 99 for TOEFL.
+
+E. Personal Statement
+The application must include a personal statement. The statement should explain
+professional goals and reasons for desiring to enroll in the M.S. program. A student
+interested in pursuing a thesis option should describe any research experience, indicate
+personal research interests, and identify two (2) or three (3) ASU CS faculty members
+with matching research interests.
+
+F. Transcripts
+At the time of application, students can upload their complete unofficial transcripts
+(associate, bachelor’s and master’s degree). Once matriculated at ASU, students are
+required to submit official transcripts and degree certificates.
+
+G. GPA Requirement
+To be considered for the MS program, we require a minimum cumulative GPA of 3.25 in
+the last 60 credit hours of the undergraduate degree. Applicants who have previously
+completed graduate-level coursework must have a minimum post-baccalaureate/graduate
+GPA of 3.00.
+                                                                                         8
+
+
+H. Application Evaluation
+Several factors are taken into consideration when evaluating a student’s application: the
+student’s cumulative GPA, major, institution, personal statement, and performance in
+individual courses.
+
+I. Notice of Admission
+CS submits its recommendation to the Office of Graduate Admission, who will then
+email the applicant the final notice of admission. You may check your application status
+on My ASU (my.asu.edu).
+
+J. Admission Deferrals
+With the approval of the degree program, students may defer their start semester for one
+semester per request, maximum two requests. Requests for deferrals must be submitted
+by the start of the term of original admission. Students who miss the deferral deadlines
+will be required to submit a new application. For more information, please visit The
+Graduate Admission site on deferring or canceling your graduate admission.
+
+K. Additional Course Requirements (Deficiencies)
+Students in the MS programs are admitted from a variety of backgrounds. To ensure that
+all students have an adequate background and breadth of knowledge in computer science
+at the undergraduate level, all students need to show competence in the following areas,
+as covered by the following ASU undergraduate courses:
+   ●​ CSE 230 - Computer Organization and Assembly Language Programming
+   ●​ CSE 310 - Data Structures and Algorithms
+   ●​ CSE 330 - Operating Systems
+   ●​ CSE 340 - Principles of Programming Languages or CSE 355 - Introduction to
+      Theoretical Computer Science
+
+Many students meet this requirement by taking courses in these areas in their
+undergraduate years. Students who have not taken the equivalent of these courses or
+earned a low grade in these courses may be assigned additional course requirements
+(deficiencies) upon admission. At least one of these courses must be completed before
+applying; up to three additional courses may be assigned. Please refer to your admit letter
+for assigned “additional course requirements”. These requirements are also listed in the
+iPOS as “progression requirements”.
+
+All students assigned with additional course requirements in their admission letter have
+three (3) options to satisfy them:
+        1. Petition for Re-evaluation
+        2. Competency (test-out) exam or
+        3. Enroll in the course and pass it with a grade of “C” or better.
+Please note that each option has a specific deadline that you must meet.
+                                                                                        9
+
+
+Option 1: Petition for Reevaluation
+Students wishing to have their course syllabi examined as evidence that the course has
+been satisfied must submit a petition. The request must be submitted using the Petition
+for Reevaluation form and supporting documents such as a syllabus, catalog description,
+and university transcripts (including the grade scale), to prove they have met the
+requirements. Be advised that the documents uploaded during the admission application
+have been evaluated. A re-evaluation petition should only be submitted if there is new
+information to provide. Once the petition has been reviewed, the decision is final. There
+will be no future petitions or consideration requests. Students must submit a petition for
+each course to be re-evaluated. If the petition is not approved after the evaluation, the
+student may choose to take the competency examination (through Career Catalyst) or
+complete the ASU course.
+
+Deadline: Students must submit the Petition for Re-evaluation for the courses that
+they want to be re-evaluated BEFORE the first day of classes of the admission term.
+
+Option 2: Competency (Test-Out) Exam
+An online competency examination (offered through Career Catalyst) is provided to
+allow students entering with additional course requirements (listed in the admission
+letter) to test out of the class. These exams establish whether the student’s knowledge of
+the course material is sufficient for the requirement to be waived. Each examination costs
+$99, per attempt, payable at the time of registration.
+
+Deadline: Students may only take the exam during the designated testing period, prior
+to the first day of classes of their admission term. No other arrangements will be made
+for students to test-out of assigned deficiencies. The passing certificates must be
+submitted immediately. Students who do not meet this deadline must complete the
+assigned course.
+
+Option 3: Enroll in the Course
+Students can choose to enroll and pass the course(s) in their first year. A student has a
+total of two (2) attempts to pass the course(s). Assigned course requirements must be
+completed with a grade of C or higher in the first year of the program. Students assigned
+CSE 340 have the option of enrolling in CSE 340 or CSE 355. For CSE 340/355, the two
+attempts are combined. A student cannot take CSE 340 twice and CSE 355 twice, as this
+would total four attempts. The successful completion of a graduate course that follows a
+prerequisite class does not satisfy the requirement.
+
+Deadline: Students must complete the additional course(s) within one year from the
+start of classes of the admission term.
+
+L. Pre-admission Credits and Transfer Credit
+Credit hours completed at ASU or at another regionally accredited U.S. institution or
+international institution officially recognized by that country, before the semester and
+                                                                                               10
+
+
+        year of admission to an ASU graduate degree program, are considered pre-admission
+        credits. The CS Program allows a student to transfer a maximum of six (6) credit hours
+        of graduate coursework from another accredited institution. With the approval of the
+        academic unit and the Graduate College, students may transfer a maximum of fifteen (15)
+        credit hours of graduate coursework that was taken at ASU. The graduate-level credit
+        hours must have grades of “B” or better and must not have been used toward a previous
+        degree. A course with a grade of “Pass”, “Credit”, or “Satisfactory” is not acceptable for
+        transfer. Pre-admission credits must have been taken within seven (7) years of admission
+        to the ASU degree or certificate program to be accepted. If coursework older than seven
+        (7) years from the admission term of a new program is being applied towards the
+        program as pre-admission coursework, the maximum time limit to complete the current
+        degree may be updated to reflect the start date of the pre-admission coursework.
+
+        A student who wishes to transfer credits from another institution should contact a
+        graduate advisor in the SCAI Advising Center to initiate the transfer credit process.
+        Acceptance of transfer credit is at the discretion of the CS Program Chair. See the
+        Pre-Admission Credit Section of the Graduate College Policies and Procedures Manual
+        for more details. Approved transfer credit cannot count towards meeting the core
+        requirement unless the credit was earned at ASU.
+
+
+8. MS Degree Requirements
+The Master of Science in Computer Science is a 30-credit hour program that provides students
+with a comprehensive foundation in computer science and AI and prepares them for highly
+technical jobs in the computing industry, research labs, and to pursue doctoral degrees. The CS
+MS program options are outlined below. Please note the following:
+
+Electives: Additional elective coursework may be required. If a student selects any of the
+concentration courses that are also listed as a core area course, additional coursework may be
+required to complete the degree. Courses may not be double-counted toward core, concentration,
+and elective requirements. Students should check with their academic advisor to ensure that the
+total credit hours of their plan of study are equal to 30.
+
+Thesis Option: Up to six (6) of these hours can be CSE 590 Reading and Conference
+(Independent Study). Note: Students must successfully pass a thesis defense to graduate.
+
+Applied Project Option: Students in the Applied Project must complete the project with a grade
+of “B” or better. A written and oral presentation are required.
+
+      A.​MS Program Options
+
+1.​     MS in Computer Science - Thesis, Applied Project, Course-based Option
+                                                                                           11
+
+
+       COURSE-BASED OPTION
+
+       Required Core Courses: 9 credit hours
+          ●​ Systems (3)
+          ●​ Applications (3)
+          ●​ Foundations (3)
+
+       Elective Courses: 21 credit hours
+
+       OPTIONS WITH CULMINATING EXPERIENCE
+
+       Required Core Courses: 9 credit hours
+          ●​ Systems (3)
+          ●​ Applications (3)
+          ●​ Foundations (3)
+
+       Elective Courses: 15 - 18 credit hours
+
+       Culminating Event Options: 3 - 6 hours
+          ●​ CSE 593 Applied Project (3)
+          ●​ CSE 599 Thesis (6)
+
+
+2. ​   MS in Computer Science (Big Data Systems Concentration) - Thesis,
+       Applied Project, Course-based Option
+
+       COURSE-BASED OPTION
+
+       Required Core Courses: 9 credit hours
+          ●​ Systems (3)
+          ●​ Applications (3)
+          ●​ Foundations (3)
+
+       Required Concentration Courses: 9 credit hours
+          ●​ CSE 510 Database Management System Implementation (3)
+          ●​ CSE 512 Distributed Database Systems (3)
+          ●​ CSE 572 Data Mining (3) or IEE 520 Statistical Learning for Data Mining (3)
+
+       Restricted Electives: 6 credit hours
+          ●​ CSE 515 Multimedia and Web Databases (3)
+          ●​ CSE 546 Cloud Computing (3)
+          ●​ CSE 573 Semantic Web Mining (3)
+          ●​ CSE 575 Statistical Machine Learning (3)
+          ●​ CSE 578 Data Visualization (3)
+
+       Elective Courses: 6 credit hours
+                                                                                          12
+
+
+      OPTIONS WITH CULMINATING EXPERIENCE
+
+      Required Core Courses: 9 credit hours
+         ●​ Systems (3)
+         ●​ Applications (3)
+         ●​ Foundations (3)
+
+      Required Concentration Courses: 9 credit hours
+         ●​ CSE 510 Database Management System Implementation (3)
+         ●​ CSE 512 Distributed Database Systems (3)
+         ●​ CSE 572 Data Mining (3) or IEE 520 Statistical Learning for Data Mining (3)
+
+
+      Restricted Electives: 6 credit hours
+         ●​ CSE 515 Multimedia and Web Databases (3)
+         ●​ CSE 546 Cloud Computing (3)
+         ●​ CSE 573 Semantic Web Mining (3)
+         ●​ CSE 575 Statistical Machine Learning (3)
+         ●​ CSE 578 Data Visualization (3)
+
+      Elective Courses: 0 - 3 credit hours
+
+      Culminating Event Options: 3 - 6 hours
+         ●​ CSE 593 Applied Project (3 credits)
+         ●​ CSE 599 Thesis (6 credits)
+
+
+3.​   MS in Computer Science (Cybersecurity concentration) -Thesis, Applied
+      Project, Course-based Option
+      COURSE-BASED OPTION
+
+      Required Core Courses: 9 credit hours
+         ●​ Systems (3)
+         ●​ Applications (3)
+         ●​ Foundations (3)
+
+      Required Concentration Courses: 9 credit hours
+      Required 3 credit hours
+         ●​ CSE 543: Information Assurance and Security (3)
+      Choose 2 courses (6 credit hours) from the following:
+         ●​ CSE 539 Applied Cryptography (3)
+         ●​ CSE 545 Software Security (3)
+         ●​ CSE 548 Advanced Computer Network Security (3)
+
+      Elective Courses: 12 credit hours
+                                                                                13
+
+
+      OPTIONS WITH CULMINATING EXPERIENCE
+
+      Required Core Courses: 9 credit hours
+         ●​ Systems (3)
+         ●​ Applications (3)
+         ●​ Foundations (3)
+
+      Required Concentration Courses: 9 credit hours
+      Required 3 credit hours
+         ●​ CSE 543: Information Assurance and Security (3)
+      Choose 2 courses (6 credit hours) from the following:
+         ●​ CSE 539 Applied Cryptography (3)
+         ●​ CSE 545: Software Security (3)
+         ●​ CSE 548: Advanced Computer Network Security (3)
+
+      Elective Courses: 6 - 9 credit hours
+
+      Culminating Event Options:
+         ●​ CSE 593 Applied Project (3)
+         ●​ CSE 599 Thesis (6)
+
+
+
+4.​   MS in Computer Science (Artificial Intelligence concentration) -Thesis,
+      Applied Project, Course-based Option
+      COURSE-BASED OPTION
+
+      Required Core Courses: 9 credit hours
+         ●​ Systems (3)
+         ●​ Applications (3)
+         ●​ Foundations (3)
+
+      Required Concentration Courses: 12 credit hours
+         ●​ CSE 571 Artificial Intelligence (3)
+         ●​ CSE 575 Statistical Machine Learning (3)
+         ●​ CSE 576 Topics in Natural Language Processing (3)
+         ●​ CSE 574 Planning and Learning Methods in AI (3)
+
+      Elective Courses: 9 credit hours
+
+      OPTIONS WITH CULMINATING EXPERIENCE
+
+      Required Core Courses: 9 credit hours
+         ●​ Systems (3)
+         ●​ Applications (3)
+         ●​ Foundations (3)
+                                                                                 14
+
+
+      Required Concentration Courses: 12 credit hours
+         ●​ CSE 571 Artificial Intelligence (3)
+         ●​ CSE 575 Statistical Machine Learning (3)
+         ●​ CSE 576 Topics in Natural Language Processing (3)
+         ●​ CSE 574 Planning and Learning Methods in AI (3)
+
+      Elective Courses: 3 - 6 credit hours
+
+      Culminating Event Options:
+      CSE 593 Applied Project (3)
+      CSE 599 Thesis (6)
+
+
+5.​   MS in Computer Science (Media Arts and Sciences) - Thesis, Applied
+      Project
+      Required Core Courses: 9 credit hours
+         ●​ Systems (3)
+         ●​ Applications (3)
+         ●​ Foundations (3)
+
+      Required Concentration Courses: 9 credit hours of coursework in Media Arts and
+      Science.
+          ●​ AME 511 Advanced Interactive Sound (3)
+          ●​ AME 515 Machine Vision and Pattern Recognition (3)
+          ●​ AME 520 Movement and Computing (3)
+          ●​ AME 532 Creating Interactive Media (3)
+          ●​ AME 534 Machine Learning for Media Arts (3)
+          ●​ AME 535 Mobile Development (3)
+          ●​ AME 551 Designing Extended-Reality Experiences (3)
+          ●​ AME 570 Programming for Social and Interactive Media (3)
+​     ​
+      Elective Courses: 6 - 9 credit hours
+
+      Culminating Event Options: 3 - 6 credit hours
+         ●​ CSE 599 Thesis (4) and
+         ●​ AME 599 Thesis (2) or
+         ●​ CSE 593 Applied Project (3)
+
+
+6.​   MS in Computer Science (Biomedical Informatics) - Thesis, Applied Project
+      Required Core Courses: 9 credit hours
+         ●​ Systems (3)
+         ●​ Applications (3)
+         ●​ Foundations (3)
+                                                                                        15
+
+
+  Required Concentration Courses: 9 credit hours of coursework in Biomedical
+  Informatics:
+  Required 6 credit hours
+      ●​ BMI 502 Foundations of Biomedical Informatics Methods I (3)
+      ●​ BMI 601 Fundamentals of Health Informatics (3)
+  Select 1 course (3 credit hours) from the list below:
+      ●​ BMI 505 Foundations of Biomedical Informatics Methods II(3)
+      ●​ BMI/CEN/CSE 507 Image Processing and Analysis (3)
+      ●​ BMI 517 Advanced Biostatistics for Biomedical Research and Health Care (3)
+      ●​ BMI 550 Translational Bioinformatics (3)
+      ●​ BMI 598 Topic: Knowledge Management and Engineering (3)
+      ●​ BMI 615 Human Factors Engineering for Biomedical Applications (3)
+      ●​ BMI 616 Clinical Decision Support and Evidence-based Medicine (3)
+
+  Elective Courses: 6 - 9 credit hours
+
+  Culminating Event Options: 3 - 6 credit hours
+     ●​ CSE 593 Applied Project (3)
+     ●​ CSE 599 Thesis (6)
+
+  Students will focus their research in one of the following areas:
+     ●​ bioinformatics
+     ●​ biomedical informatics
+     ●​ clinical informatics
+     ●​ imaging informatics
+     ●​ public health informatics
+
+B. Formulation of the Plan of Study
+  A minimum of 30 semester hours - not including additional course requirements
+  (deficiency courses) and CS 584 (CPT credits).
+
+  The MS is comprised of major milestones, which all students are required to complete
+  successfully prior to graduation:
+     1.​ Filing an approved plan of study
+     2.​ Completion of coursework
+     3.​ If applicable, successful oral defense of an approved written thesis or completion
+         of an applied project.
+
+  A student must submit a plan of study (iPOS) online through My ASU before the end of
+  their first semester of starting the graduate program. iPOS degree check sheets are
+  available on the SCAI Handbooks page. The iPOS is subject to approval by the Graduate
+  Program Chair and the thesis student’s supervisory committee. Thesis students need to
+  finalize their committee in their third semester. After approval at the school level, the
+  iPOS is forwarded to the Graduate College for final approval.
+                                                                                          16
+
+
+The iPOS must contain a minimum of 30 semester hours of approved graduate-level
+work. At least 24 of these hours must be CSE-5XX credits at ASU. Exceptions will be
+made for the MAS and the BMI programs. A maximum of 6 credit hours of 400-level
+coursework may be allowed on the iPOS per Graduate College guidelines. All 30
+semester hours must be from formal course work (including CSE 591, 594, and 598).
+CSE 590 is allowed only for students completing the thesis option.
+
+Students may not take and count both CSE 450/551 or CSE 471/571 or CSE 511/512 or
+IEE 520/CSE 572 as these courses are classified as anti-requisites in the academic catalog
+due to significant overlap between the courses.
+
+In addition to meeting the requirements specified above, thesis and applied project
+students are required to pass an oral thesis defense or complete an applied project.
+Students in the Applied Project must complete the project with a grade of a B (3.00)
+grade or higher and pass the oral presentation.
+
+All students must take and pass at least three (3) credit hours in each of the three (3) core
+courses: Foundations, Systems, and Applications. Transfer credits cannot count
+towards meeting the core area requirement unless the credit was earned at ASU
+(course lists available at: https://scai.engineering.asu.edu/graduate-computer-science/).
+
+1.​ Approved 400 and 4XX/5XX Level Courses and non-CSE electives
+       A maximum of six (6) credit hours of 400-level coursework is allowed. A
+       maximum of 12 hours of 400-level and cross-listed courses (4XX/5XX) is
+       allowed. If a 400-level course is cross-listed with a 500-level course, students will
+       be required to enroll in the 500-level course. (CSE 4XX course lists available at:
+        https://scai.engineering.asu.edu/graduate-computer-science/).
+
+       To count toward the degree requirements, any non-CSE course offered outside the
+       department must be approved by the Program Chair before you enroll.
+
+       What is not allowed for non-CSE 5XX electives:
+       1. A graduate course from a different program that is like or is a subset of an
+       undergraduate course in Computer Science.
+
+       2. A graduate course from a different program that substantially overlaps (more
+       than 30%) with a course previously taken or are planning to take.
+
+       If a course from another program sounds similar to one that you have taken or are
+       planning to take, please submit the syllabus of both classes and explain why you
+       think the overlap is less than 30%.
+                                                                                       17
+
+
+C. Details of the Thesis Option
+
+  1.​ Selection of Faculty Advisor
+     When a student has decided on a primary area of research, the student must select
+     a faculty advisor. The faculty advisor must have the right to chair computer
+     science committees. The faculty advisor will serve as the chair of the supervisory
+     committee that supervises the student’s thesis. A list of approved faculty who can
+     serve     as     the    chair    of   a    CS    MS       thesis   committee     is
+     here: https://scai.engineering.asu.edu/handbooks/.
+
+     In cases where a student identifies a faculty member with the right to co-chair for
+     their thesis, they will need to secure a second faculty member who has the right to
+     chair. Faculty will serve as co-chairs for the student’s thesis in the plan of study.
+
+  2.​ Thesis Supervisory Committee
+     The faculty advisor and the student will select a supervisory committee of at least
+     three members. The supervisory committee must include the faculty advisor(s)
+     (thesis chair or two co-chairs) and one or two committee members. For students in
+     the Cybersecurity, BDS, AI, BMI, and MAS concentrations, at least one member
+     of the student's committee must be from that concentration.
+
+     The composition of the committee must be in accordance with the guidelines of
+     the Graduate College. Once the committee is established, changes to the
+     committee are highly discouraged. Any changes to the committee must be
+     submitted by completing a Graduate Committee Change form that is signed by the
+     student and all members of the student’s committee.
+
+     The supervisory committee approves the subject and title of the thesis. The
+     supervisory committee also advises the student during the formulation of the
+     research topic and the completion of the research and thesis.
+
+     Thesis Proposal Requirements:
+     All thesis students are expected to have a proposal on file when registering for the
+     last 3 credit hours of CSE 599.
+
+  3.​ Thesis Defense
+     A student must be enrolled in at least one graduate-level credit at the time of the
+     defense. If holding the defense during the interim period between semesters, the
+     student must be registered for the following semester. For example, if defending
+     during the period between the spring and summer semester, the student must be
+     registered for the summer session. Please see the Graduate College policies.
+
+     Once the thesis is completed, the student will submit it to the committee
+     members. There will be an open oral defense following the completion of the
+                                                                                     18
+
+
+   thesis. A student can schedule the defense after securing approval from the thesis
+   chair. The student must schedule their defense through MyASU at least 10
+   business days prior to the defense date. A student must also submit their thesis to
+   the Graduate College for approval of the formatted thesis document.
+
+   The Graduate College publishes information regarding thesis preparation, format
+   requirements, deadlines, and oral examinations. The student must comply with all
+   guidelines that the Graduate College publishes regarding submitting a thesis and
+   scheduling a thesis defense.
+
+   Students must be physically present at the oral defense of their thesis or
+   dissertation. It is expected that oral defenses will be held on an ASU campus (for
+   in-person defenses) and during regular business hours (8am-5pm AZ Mountain
+   Standard Time) to facilitate student, faculty, and public accessibility. A student
+   has the option to include a virtual link to encourage audience attendance. When
+   there are sound educational reasons for holding a defense under different
+   circumstances, contact the Graduate College for approval before scheduling the
+   defense.
+
+   All members of a student’s supervisory committee must attend the final oral
+   defense of a thesis or dissertation. However, there are situations (e.g. faculty
+   travel, faculty emergencies and/or faculty leave) that may necessitate holding a
+   defense with one or more committee member(s) absent. The committee chair must
+   be in attendance. If a committee member cannot attend, a qualified substitute must
+   be appointed to attend in their place. The substitute should be a regular faculty
+   member within the academic unit. In these circumstances, the Graduate College
+   must be notified with the name of the member who will be absent, the faculty
+   member who will attend as a substitute, and the student’s name and ID number.
+   This information must be submitted before the defense.
+
+   Once a defense has been scheduled and approved in the iPOS, students must
+   submit within 10 business days of the defense, a complete draft copy of the
+   thesis/dissertation to be defended. This is completed by uploading the document
+   to their Interactive Plan of Study.
+
+   The supervisory committee evaluates the thesis and the student’s performance on
+   the defense. The committee votes the thesis as pass, pass with changes (major or
+   minor), or fail. The decision to fail is final. Failure will result in dismissal from
+   the program.
+
+4. Prior to defense:
+   1.​ Obtain a consensus of approval from the committee chair and the members to
+       proceed with the oral defense.
+   2.​ Schedule a date and time with your committee for the oral defense.
+   3.​ Important: Ensure that a minimum of 50% of the official committee will be
+       physically present at the defense. If at least 50% of the committee cannot be
+                                                                                       19
+
+
+         physically present, the defense must be rescheduled. Visit the Graduate
+         College website to become familiar with the dates and deadlines on format
+         approval and oral defense. Rules for absent committee members are here.
+
+5. 10 days prior to the defense:
+      These steps are required to be completed at least 10 business days prior to the date
+      of the oral defense.
+      1.​ Follow the instructions here to reserve a room with SCAI.
+      2.​ Schedule your defense through your iPOS/My ASU.
+      3.​ Once the defense is scheduled, an announcement will automatically post to the
+          Graduate College Defense Calendar. Refer to this page for additional
+          information regarding defense announcements.
+
+6. On the day of the defense:
+      Set up all your equipment at least one half-hour prior to your presentation to make
+      sure it works.
+
+7. After the defense:
+     Your committee will discuss the results of the exam with you and may have
+     additional comments for you. In the end, the committee will make a
+     recommendation: Pass, Pass with minor revisions, Pass with major revisions, or
+     Fail. The preliminary defense results must be submitted by all committee members
+     via the defense results tab in the iPOS within 10 days after the defense occurrence.
+     If there are revisions required by the committee, they will need to be completed
+     and approved by the committee before a full “Pass” can be designated in the iPOS.
+     If the committee’s requested revisions are not completed by the graduation
+     deadlines for the semester of the defense, the student will need to maintain
+     continuous enrollment until they are completed. If they are not successfully
+     completed within one year of the defense, re-submission of the document and a
+     re-defense of the thesis or dissertation may be required in order to ensure the
+     currency of research.
+
+     A Fail decision is final.
+
+     Revisions are normal and are expected to be completed within one year. A student
+     must remain registered until the finished document has been uploaded to ProQuest.
+
+     Follow the steps on My ASU for uploading your final thesis to the Graduate
+     College and ProQuest. More instructions for graduate college rules and procedures
+     after the defense are here:
+     https://graduate.asu.edu/current-students/completing-your-degree/about-your-defen
+     se#nav-after-defense
+                                                                                        20
+
+
+D. Applied Project
+CSE 593 is a “capstone” project for the master’s degree in computer science, with any
+concentration. Students will work with a faculty member on a semester-long project. The
+faculty member and the student agree upon the project. The student works on the project
+for one semester with the faculty, and at the end of the semester the project is submitted
+to the faculty for final approval. A written and oral presentation are required.
+
+Choosing a faculty advisor: Your faculty advisor should have chair or co-chairing rights
+in the Computer Science graduate program. The list of faculty that have the rights to chair
+an applied project is here: https://scai.engineering.asu.edu/handbooks/
+
+Reach out to the Advising Office if you want to register for CSE 593 with a faculty
+member who does not have CS Chairing rights in the program. For students in the
+Cybersecurity, BDS, AI, BMI, and MAS concentrations, the faculty member must be
+from that concentration.
+
+To successfully complete the applied project culminating experience, the student must
+obtain a grade of “B” or better in CSE 593. Students who fail CSE 593 can only attempt
+it one more time. The student must identify a new faculty advisor and will need their
+approval to take CSE 593 a second time.
+
+Cybersecurity scholarship students need two cybersecurity faculty to share the CSE 593
+supervision. Cybersecurity scholarship students may have additional scholarship
+requirements to complete as part of their culminating event. The scholarship coordinator
+is required to sign off on project requests.
+
+E. Accelerated Computer Science Degree
+An Accelerated (4+1) BS-BSE/MS program is available for SCAI undergraduate students
+in Computer Science, Computer Systems Engineering, and Software Engineering. The
+accelerated program allows a maximum of 9 credit hours to be shared with their
+undergraduate and graduate programs, and 6 credit hours to be reserved for the graduate
+program.
+
+All students must maintain a GPA of 3.0 or higher (Cumulative, Graduate and IPOS). If a
+student falls below a 3.0 GPA, they are placed on probation and provided with the
+timeframe for the GPA to be raised to a satisfactory level. Students who do not raise their
+GPA to a 3.0 within the provided timeline risk dismissal from the program.
+
+Note: any 500 level courses taken as an undergraduate student will immediately count
+towards your satisfactory progress graduate GPA calculation once you become a graduate
+student.
+
+SER BS students in the accelerated program can take courses (SER 421, 423, 450, 460,
+463, 464, 475).
+                                                                                           21
+
+
+
+9. General Information, Policies, and Procedures
+    A. Research Standards for Publication of Thesis
+    Graduate research is the study of an issue that is of sufficient breadth and depth to be
+    publishable in a CS-related journal. The effort should reflect a minimum of 750 hours of
+    thoughtful work. The research should follow the “scientific method” and be both
+    objective and reproducible. The thesis should demonstrate independent, original, and
+    creative inquiry. There should be predefined hypotheses or developmental goals and
+    objectives that are measurable and can be tested. The document should demonstrate
+    written English proficiency and conform to the Graduate College format guidelines.
+    Publication of a research paper is not required for a thesis defense.
+
+    B. Financial Assistance and/or Fellowships
+    There are limited funds for MS and PhD students. Students are encouraged to pursue
+    assistantships outside of CS and not limit their search to only CS. Information regarding
+    other sources of financial assistance is available on the following websites:
+        ●​ Financial aid: https://students.asu.edu/financialaid
+        ●​ Graduate College: https://graduate.asu.edu/pay-for-college
+        ●​ Fulton: https://graduate.engineering.asu.edu/graduate-fellowships/
+
+    C. Continuous Enrollment
+    Once admitted to a graduate degree program, students must be registered for at least one
+    (1) credit hour during all phases of their graduate education, including the term in which
+    they graduate. This includes periods when students are engaged in research, working on
+    or defending theses, or in any other way utilizing university resources, facilities, or
+    faculty time.
+
+    Registration for every fall and spring semester is required. Summer registration is
+    required for students taking examinations, completing culminating experiences,
+    defending theses, or graduating from the degree program.
+
+    To maintain continuous enrollment, the credit hour(s) must satisfy one or more of the
+    following:
+        ●​ 500, 600, or 700-level graduate course
+        ●​ 400-level undergraduate course that is a degree requirement on an approved iPOS
+        ●​ Undergraduate course that is a progression requirement (deficiency course)
+
+    Grades of "W" and/or "X" are not considered valid registration for continuous
+    enrollment. "W" grades are received when students officially withdraw from a course
+    after the drop/add period.
+
+    "X" grades are received for audit courses. All other grades, including “E,” “EU” and/or
+    “EN” are considered valid registration for continuous enrollment purposes despite
+                                                                                      22
+
+
+receiving no credit. “E” is a failing grade, “EU” is for failing and did not complete the
+course, and “EN” is for failing and never participated in the course. Undergraduate
+courses not included on the iPOS do not satisfy the Graduate College continuous
+enrollment policy.
+
+Additionally, students completing work for a course in which they received an
+incomplete grade of "I" must maintain continuous enrollment as defined previously.
+Graduate students have one year to complete work for an incomplete grade; if the work is
+not complete and the grade changed within one year, the "I" grade becomes permanent
+and will remain on the students' transcripts. Additional information regarding incomplete
+grades can be found at asu.edu/aad/manuals/ssm/ssm203-09.html.
+
+D. Medical/Compassionate Withdrawal
+There are appropriate circumstances when students may need to withdraw from the
+university (i.e., medical withdrawal, compassionate leave). The policies for such
+withdrawals are the same for undergraduate and graduate students. An approved
+Medical/Compassionate Withdrawal is valid toward meeting the continuous enrollment
+policy.
+
+E. Leave of Absence Policies
+Graduate students planning to discontinue registration for a semester or more, must
+submit a request for a Leave of Absence through their iPOS. Requests should have
+enough detail to fully understand the situation and should include a plan for
+continuing in the next semester. This request must be submitted and approved before
+the anticipated semester of non-registration. Students may request a maximum of two (2)
+semesters of leave during their entire program.
+
+Having a Leave of Absence approved by the Graduate College will enable students to
+re-enter their program without reapplying to the university. Students who do not
+register for a fall or spring semester without an approved Leave of Absence are
+considered withdrawn from the university under the assumption that they have
+decided to discontinue their program. A student removed for this reason may re-apply
+for admission to resume their degree program. Their application will be considered along
+with all other new applications to the degree program.
+
+A student with a Graduate College-approved Leave of Absence is not required to pay
+tuition and/or fees. However, the student is not permitted to place any demands on
+university faculty or use any university resources. These resources include university
+libraries, laboratories, recreation facilities, or faculty and staff time.
+
+F. Maximum Time Limit
+Master’s students must complete all program requirements within a four (4) year period.
+The four-year period starts with the semester and year of admission to the master’s
+                                                                                        23
+
+
+program. Graduate courses taken prior to admission that are included in the plan of study
+must have been completed within seven (7) years of the semester and year of admission
+to the program. If coursework completed over seven (7) years ago is being applied
+towards a degree program as pre-admission coursework, the maximum time limit may be
+updated to reflect the start date of the pre-admission coursework.
+
+Any exceptions must be approved by the supervisory committee (thesis students),
+Graduate Program Chair, and the Graduate College. The Graduate College may withdraw
+students who are unable to complete all degree requirements and graduate within the
+allowed maximum time limit.
+
+G. Maximum Credit Load
+SCAI students on the Tempe campus are limited to a maximum of 11 credit hours per
+semester, unless they hold an RA/TA position. After the first semester, students in good
+academic standing may submit an overload request for permission to enroll in 12 credit
+hours. The 12 credits are the maximum allowed credit enrollment for SCAI graduate
+students.
+
+H. Transfer from an Incomplete ASU CS Graduate Program
+to Another ASU CS Graduate Program
+Students who want to change from any CS Master’s program (thesis, course-based,
+applied project) or MCS Online to the Ph.D. program in Computer Science must submit a
+new application to ASU Graduate Admission here: https://admission.asu.edu/apply.
+Admission to the Ph.D. program is not guaranteed.
+
+MCS Online students who want to change to any other MS program or Ph.D. program
+must submit a new application for admission here: https://admission.asu.edu/apply.
+Admission to the new program is not guaranteed.
+
+All other program change requests can be made by following the process outlined here.
+
+Students changing from the MCS/MS Tempe campus to MCS Online should consult with
+an Academic Advisor before submitting a request. Please note that culminating event
+options vary by campus and program.
+
+Students should consult with an academic advisor for all other program change requests.
+
+Credit Transfer limits between programs:
+
+Change between MS program (thesis, course-based, applied project) and MCS
+Online - Can transfer any number of credits if the grades in the courses are “B” or higher.
+Credits from CSE 590, 790, 792, 799, 599, 593 cannot be transferred.
+                                                                                       24
+
+
+Change between MS course-based and MS applied project - Can transfer any number
+of credits. Credits from CSE 590, 790, 792, 799, 599, 593 cannot be transferred.
+
+MS course-based or MS applied project to MS thesis - Can transfer any number of
+credits to the MS thesis program. A total of 6 credit hours from CSE 590 and/or 790
+(combined) can be transferred. At most 6 credits hours from CSE 599 can be transferred.
+Credits from 792, 799, 593 cannot be transferred. Students will still need to finish their
+culminating event - MS thesis.
+
+MS thesis to MS course-based or MS applied project - Can transfer any number of
+credits from the MS thesis program. Credits from CSE 590, 790, 792, 799, 599 cannot be
+transferred.
+
+MS (thesis, course-based, applied project) and MCS Online to Ph.D. - Can transfer
+any number of credits from the MS/MCS program to the Ph.D. program if the grades in
+the courses are “B” or higher. Credits from CSE 590, 790, 792, 799 can be transferred.
+Credits from CSE 599, 593 cannot be transferred.
+
+Ph.D. to MS thesis - Can transfer any number of credits from the Ph.D. program to the
+MS program if the grades in the courses are “B” or higher. A total of 6 credit hours from
+CSE 590 and/or 790 (combined) can be transferred. At most 6 credits hours from CSE
+599 can be transferred. No credits from CSE 792 and 799 can be transferred.
+
+Ph.D. to MS course-based, MS applied project, and MCS Online - Can transfer any
+number of credits from the Ph.D. program to the MS program as long the grades in the
+courses are “B” or higher. Credits from courses CSE 590, 790, 599, 792, 799 cannot be
+transferred.
+
+I. Registration Requirements for Research Assistants (RA)
+and Teaching Assistants (TA)
+Students awarded an assistantship within the Ira A. Fulton School of Engineering are
+required to be registered for 12 credit hours. Audit credit hours do not count toward the
+12 credit hours.
+
+Students who obtain an assistantship outside the Ira A. Fulton School of Engineering are
+required to be enrolled in a minimum of 6 credit hours. Audit credit does not count
+toward the 6 credit hours. Enrollment in continuing registration (CSE 595) does not count
+toward the 6-hour requirement.
+
+International students are required to enroll in a minimum of 9 credit hours in Fall and
+Spring, with an exception for a reduced course load in the final semester only.
+
+Students with TA/RA .50 FTE appointments (i.e., 20 hours per week), who are appointed
+within the first 8 weeks of a semester during the academic year, receive an award
+                                                                                       25
+
+
+covering tuition for the semester. Students with TA/RA .50 FTE appointments during the
+summer session(s) receive an award covering tuition.
+
+Students with TA/RA .25–.49 FTE appointments (i.e., 10–19 hours per week), who are
+appointed within the first 8 weeks of a semester during the academic year, receive an
+award covering 100% of the nonresident portion of tuition and an award covering 50% of
+the remaining tuition for the semester. Students with TA/RA .25–.49 FTE appointments
+during the summer session(s) receive an award covering 100% of the nonresident portion
+of tuition and an award covering 50% of the remaining tuition.
+
+The university provides an award covering the premium for individual health insurance
+for teaching and research assistants/associates who meet the minimum eligibility
+requirements during the duration of their appointment (coverage periods are August 16 -
+January 15 and January 16 – August 15). These are:
+   ●​ appointment at 50% time (20 hours per week)
+   ●​ hired as a TA or RA no later than the end of the eighth week of classes of the
+       semester.
+
+There are four ways a student can fulfill the TA English language requirement.
+   1.​ Take and pass the SPEAK test administered by ASU Global Launch. Only
+       SPEAK scores from Global Launch are allowed.
+          a.​ Full certification = 55+ Certified with qualifications = 50
+   2.​ IELTS test – Speaking section score only
+          a.​ Full certification = 8 Certified with qualifications = 7.5
+   3.​ TOEFL iBT – Speaking section score only
+          a.​ Full certification = 26 Certified with qualifications = 24
+   4.​ Complete the ITA Teacher Training Course
+   (Please note that the scores referred to above are only valid for two years.)
+
+J. Policy for Maintaining Academic Satisfactory Progress
+After each completed semester, the school will conduct an audit to determine if the
+student is maintaining the required minimum satisfactory progress. This includes
+progress on academic requirements (GPAs and completion of assigned additional course
+requirements or deficiency courses) and probationary issues. Any student that is not in
+compliance with the satisfactory academic/ progress requirements is notified that they are
+either
+    ●​ on academic probation and is given the next 9 credit hours or two semesters (fall
+       and spring) to bring the GPA up to the proper level or
+    ●​ on continued probation and is required to meet the conditions outlined in the
+       continued probation letter.
+
+Failure to properly remediate the GPA or the conditions outlined in the letter within the
+time frame will result in the school recommending that the student be dismissed from the
+program.
+                                                                                          26
+
+
+  Note: Fully admitted students who take optional summer courses are placed on
+  probation after the summer term if the earned grade(s) causes their GPA to fall below the
+  satisfactory progress GPA minimum.
+
+  If applicable, the above-noted audit will also review each student’s progress towards
+  satisfying additional course requirements (deficiency courses) and/or any other degree
+  requirement milestone(s). Failure to satisfactorily complete all additional course
+  requirements and/or required milestones by the stipulated deadline may result in a
+  recommendation for dismissal to the Graduate College.
+
+   Each semester, the Computer Science program reviews student performance for
+   satisfactory progress toward completion of their degree. All students fall into one of the
+   following four categories. Those in categories 2-4 are placed on probation or withdrawn
+   from the program:
+       1.​ Satisfactory Progress
+       2.​ Academic Probation
+       3.​ Progress Probation
+       4.​ Withdrawal from the CS Program
+     ​
+1. Satisfactory Progress
+   The student is meeting all program requirements. For thesis students, satisfactory
+   progress includes communicating each semester with the student’s committee chair
+   regarding his or her progress.
+
+2. Academic Probation
+   A student who has been admitted to a graduate degree program in SCAI with either
+   regular or provisional admission status must maintain a grade point average (GPA) of 3.0:
+
+       1.​ in all work taken for graduate credit (courses numbered 500 or higher),
+       2.​ in the coursework on the student’s approved iPOS (interactive plan of study), and
+       3.​ in all coursework taken at ASU (overall GPA) post-baccalaureate
+       4.​ And earn a grade of “C” or better in additional course requirements (deficiency
+           courses).
+
+  A student will be placed on academic probation if one or more of the student's GPAs
+  listed above falls below 3.0 after all grades have been posted for the semester. Students
+  will be notified by e-mail when placed on academic probation.
+
+  A student will achieve good academic standing by obtaining a 3.0 or better in the GPAs
+  listed above by the time the next nine (9) graduate hours are completed. A maximum of
+  two semesters is allowed to complete the nine (9) hours of graduate-level coursework to
+  raise the GPA, whichever comes first. Coursework such as thesis registration, that is for Z
+  or Y grades cannot be included in these nine (9) hours. It is strongly recommended that
+  students focus on improving their grades and meeting additional course requirements.
+                                                                                           27
+
+
+3. Progress Probation
+   A student under probation who is not making progress towards a degree. The following
+   are notices/letters a student will receive if one of these pertains to their academics:
+       ●​ Lack of progress toward completion of additional course requirements
+           (deficiencies) as listed on the admission letter. Students who choose to take
+           graduate coursework and not enroll in assigned additional courses will be subject
+           to dismissal. Students must meet their admission letter requirements.
+       ●​ Failure to stay in communication with their thesis chair each semester.
+       ●​ Failure to submit an iPOS by the end of the 1st semester.
+       ●​ Failure to finalize the Supervisory Committee, for the thesis option, by the end of
+           the 3rd semester.
+
+4. Withdrawal from the CS Program
+  M.S. students may be removed from the program for any of the reasons listed above.
+
+  A student is recommended for withdrawal from the CS program if they fail to meet the
+  probationary requirements in the probationary letter within the specified time limit. The
+  student will receive a letter from the Computer Science program explaining the reasons
+  for the withdrawal. The student will have five (5) calendar days from the date of the letter
+  to appeal the decision. The CS Graduate Program Committee (GPC) will review the
+  appeal and make the necessary recommendations. The Graduate Program Chair, or GPC
+  will provide a written explanation of the outcome. If the appeal is approved, the student
+  must meet all the outlined requirements by the end of the specified period. The student
+  will be required to sign an agreement acknowledging the requirements and the
+  consequences if the agreement is not fulfilled.
+
+  If the GPC recommends that the student’s appeal be denied, the graduate program chair
+  will recommend to the Dean’s Office that the student be withdrawn from the CS program.
+  The student’s appeal and all supporting documents will be forwarded to the Ira A. Fulton
+  Schools Standards Committee, which will review the student’s case and communicate the
+  final ruling to Associate Dean and the CS program. If the appeal is denied again, the
+  Dean’s Office of Academic and Student Affairs will recommend to the Graduate College
+  that the student be withdrawn from the CS program. Please refer to the Graduate College
+  Policies and Procedures or contact a graduate advisor in the SCAI Advising Center.
+
+  K. Dismissal without an Appeal for Additional Course
+  Requirements
+  Students admitted with additional course requirements (deficiency courses) in their
+  admission letter who cannot complete the course within two attempts will have their
+  names forwarded to the Graduate College to be removed from the program. Once the
+  Graduate College completes the removal process, it will be final. Students wanting to
+  return to the program must submit a new application for consideration. If any medical or
+  extenuating circumstances hindered your progress from completing the course(s), please
+  act on it immediately rather than waiting for the outcome.
+                                                                                        28
+
+
+L. Filing for Graduation
+During the final semester, a student must file an application for graduation with the
+Graduation Office of the Registrar through MyASU. The student's approved plan of study
+(iPOS) must be on file with Graduate College before the student can apply for
+graduation.
+
+M. Academic Integrity
+The highest standards of academic integrity are expected of all graduate students in their
+academic coursework and related research activities. The failure of any graduate student
+to meet these standards may result in serious consequences, including suspension or
+expulsion from the university and/or other sanctions as specified in the academic integrity
+policies of individual schools and the university.
+
+Violations of academic integrity include but are not limited to cheating, fabrication,
+tampering, plagiarism, and/or aiding and facilitating such activities. Students are
+expected to be familiar with these issues at the graduate level and each student must take
+personal responsibility for their work. Graduate students are expected to follow university
+guidelines related to the Student Code of Conduct. University policies related to
+academic integrity and code of conduct are available in the Office of the University
+Provost, or at https://provost.asu.edu/academic-integrity. Students also should be aware
+of Ira A. Fulton School’s resources related to academic integrity:
+https://engineering.asu.edu/integrity/.
+
+Unless explicitly allowed by your instructor, the use of generative AI tools to complete
+any portion of a course assignment or exam will be considered academic dishonesty and a
+violation of the ASU Academic Integrity Policy. Students confirmed to be engaging in
+non-allowable use of generative AI will be sanctioned according to the academic integrity
+policy and FSE sanctioning guidelines.
+
+N. CSE 584 Internship
+Curricular Practical Training (CPT) is an academic experience usually obtained at
+off-campus work settings. A CPT experience allows the student to apply knowledge and
+skills gained from various graduate-level classes. It is intended as a unique, hands-on
+learning experience to provide students with several valuable skills that they can use
+upon graduation from their degree programs. It is not available to full-time or part-time
+workers regularly employed by the company where the internship is proposed.
+
+CSE584 Internship is available to both domestic and international students. International
+students must work with the International Students and Scholars Center (ISSC) and
+submit additional documentation to obtain work authorization. Students desiring to do
+CPT must include the CPT course CSE 584 (1 credit hour) as an integral part of their
+program of study, reflected by their approved iPOS. SCAI recommends listing 3
+individual CSE 584 (1 credit hour) courses in the iPOS. The addition of CPT credit(s)
+should be done at the initial submission of the student’s iPOS. The Internship course
+                                                                                        29
+
+
+cannot be added to an iPOS after initial iPOS approval. Exceptions may be made if the
+internship is relevant to the student’s thesis research. In such cases, the CSE program
+chair will determine the need for a CPT internship in consultation with the graduate
+academic advisor.
+
+Approval of an iPOS with CSE 584 credit confirms that the internship is an integral part
+of the degree requirements as planned by the student. An internship that is not part of the
+educational plan can be removed from iPOS. Note: Only internship courses can be
+removed from the iPOS. Courses that are approved as part of the overall degree program
+in the iPOS can only be replaced with other approved coursework.
+
+To be eligible for an internship, a student must be in good academic standing
+(cumulative, graduate, and iPOS GPA of 3.0 or above). . Students must also have
+completed or be in progress to complete assigned additional course requirements
+(deficiencies) within the one-year timeframe (including summer). Students who have
+been placed on probation should not apply for CPT until the current semester grades are
+posted to ensure they are eligible to continue in the program.
+
+Summer:
+  ●​ Students can participate in an out-of-state or an in-state internship, full-time or
+     part-time, in the summer semester if ALL of their GPAs (graduate, iPOS, and
+     CUM GPA) are at least 2.5.
+
+Fall/Spring semesters:
+   ●​ Students with a GPA of 3.0-3.24 may participate in an in-state internship,
+       part-time only. Campus presence is required.
+   ●​ Students with a GPA of 3.25 or higher may participate in an in-state or
+       out-of-state internship, full or part-time. Campus presence is required.
+
+Full-time CPT is 21 hours or more. Part-time CPT is 20 hours or less.
+
+For students doing CPT in their last semester, the end date is the last day of finals
+(Fall/Spring) or last day of class (Summer).
+
+During the regular fall and spring semesters, international graduate students on F-1 status
+must register for a minimum of nine (9) credit hours to maintain full-time status. Six (6)
+credit hours must be in-person, on-campus coursework at the ASU Tempe campus and
+three (3) credit hours of online coursework are permitted. The CSE 580 practicum course
+will not satisfy the student’s “physical presence” at ASU.
+
+Required documents and forms for the internship proposal must be submitted online at
+least four (4) weeks before the beginning of the semester in which the internship is
+planned. Students cannot request late-add registration of the CSE 584 Internship credit to
+their class schedule after each semester's add/drop deadline. Students will be asked to
+enroll in the next session within the term.
+                                                                                           30
+
+
+An approved application is required before commencing the internship. The request will
+include a statement from the employer that indicates they understand the work is to
+satisfy a degree requirement. A sample letter and other required forms are available on
+the SCAI CPT website.
+
+Thesis students must receive approval from their faculty advisor before registering for
+CSE 584. At the thesis level, an internship is intended to enhance the student’s research
+capabilities in the area related to the thesis. Therefore, the internship plan must show the
+relationship between the work proposed and the intended research program. The faculty
+advisor may be asked to write a separate letter explaining why the internship is required.
+
+Renege: (verb) to fail to carry out a promise or commitment
+It is unethical for students to continue to seek or consider other employment opportunities
+once an offer has been accepted. SCAI expects students to honor an acceptance and
+withdraw from all employment-seeking activities. Students who accept an offer from an
+organization and later renege/decline the offer will be prohibited from requesting future
+CPT pending a meeting with the Associate Director.
+
+A five-page final report is required at the end of the internship before a grade is given.
+The final report must be submitted to the reporting supervisor (Industry Mentor) for
+comments and then to the faculty advisor for grade assignment. Non-Thesis students do
+not need a faculty mentor signature. Refer to the SCAI CPT website for guidelines for
+preparing the final report.
+
+O. CSE 590 Independent Study (Thesis students only)
+Independent study is available for thesis students. The student must get written approval
+from the supervising faculty outlining the content to be covered. The independent study
+form must be approved by the faculty advisor and will be placed in the student’s file. A
+final paper is required for each registered Independent Study course. A maximum of 6
+credit hours is allowed on an MS thesis iPOS.
+
+P. Engineering Student Organizations
+There are dozens of engineering student organizations and teams ranging from honors
+and professional associations to groups creating underwater robots, concrete canoes, and
+launching rockets. Student organizations are excellent opportunities to learn about career
+possibilities. Many of the student groups operate in conjunction with industry
+professional       societies      …        get        involved       today! Please       visit
+http://studentorgs.engineering.asu.edu/ for a list of engineering student organizations.
+
+Q. Instructional Concerns and Course-Related Complaints
+Being part of a large university creates opportunities to learn from a diverse instructor
+population each with different teaching styles and modalities for delivering course
+content. Courses are offered by a diverse set of faculty, including those who are
+                                                                                      31
+
+
+research-intensive, those whose primary responsibility is teaching, and part-time faculty
+who are working in the field. Based on enrollment or the modality of the offerings,
+faculty may also be supported by graduate student teaching assistants (TAs), Graduate
+Student Assistants (GSAs), and graders. This diverse higher education delivery platform
+may differ significantly from previous experiences. While this unique delivery platform
+expands a student’s ability to learn and develop problem-solving skills, concerns and
+conflicts with requirements and instructors may occasionally arise.
+
+SCAI students with instructional concerns should review and adhere to the following
+guidelines to attempt to resolve their issues. Please remember that the faculty and
+advising staff are experienced, dedicated educators here to help you achieve your
+educational goals. At the same time, they are responsible for ensuring standards are
+maintained and student outcomes are achieved before graduation. University culture
+recognizes the value of diversity in multiple dimensions and the presumption of expertise
+and academic freedom of the faculty.
+
+   1.​ Addressing Concerns with your Instructor:
+       Should any concerns arise in class, please visit your instructor or TA/GSA during
+       their office hours. Instructors and TA/GSAs are also available through email.
+       They are here to help! Remember the student code of conduct when speaking with
+       faculty.
+
+       If you are still having problems in the course after communicating with your
+       instructor, TA or GSA, connect with your academic advisor to understand your
+       options moving forward.
+
+   2.​ Connect with Your CS Graduate Program Chair
+       If you are unable to resolve the concern after initial contact with the instructor
+       GSA or TA, and you have met with your academic advisor, you should then
+       contact the program chair for your degree (or the department offering the course).
+       The program chair will confer with the instructor and/or GSA/TA to better
+       understand the concern and try to resolve the problem. Please note that before
+       meeting with the program chair, you should have made a reasonable effort to meet
+       with the course instructor (not just the support GSA or TA) and get the issue
+       resolved. When contacting the program chair, provide all the relevant details such
+       as the course syllabus, assignment handout, email exchange with the instructor,
+       etc., so that the program chair can promptly act on your concerns. Please be brief
+       and precise in the description of your concerns. In some cases, the graduate
+       program chair would like to meet you. When coming for the meeting, bring along
+       all the relevant documents.
+
+       If the instructional concern is not resolved with the program chair or the
+       department offering the course, contact the Associate Dean of Academic Affairs
+       Office for the college offering the course for assistance through the grade
+       grievance process https://engineering.asu.edu/grade-grievance/.
+                                                                                     32
+
+
+3.​ Studying Suggestions
+    As a graduate student, you are expected to keep up with your coursework. If any
+    assignment appears unclear to you, please contact your instructor immediately.
+    The suggested study hours for a class are as follows:
+        ●​ 8-10 hours per week for each 3-hour course credit for a 15-week course
+        ●​ 18 hours per week for each 3-hour course credit for a 7.5-week course ​
+
+4.​ Remain Focused
+    When faced with instructional concerns, it is important to remain focused on the
+    rest of the course while addressing specific areas that are under review. Be sure to
+    stay connected with your academic advisor if there are any changes in your
+    situation.
+    NOTE:
+        ●​ Misrepresentation of facts or disrespectful behavior when confronting
+            your instructor or teaching assistant is considered an academic integrity
+            violation.
+        ●​ Maintain all documentation.
+        ●​ Act proactively and promptly.
+
+5.​ In Summary, Guidelines for Avoiding Problems
+        ●​ Be sure you have the prerequisite knowledge before starting a course
+        ●​ Attend class and online exercises regularly
+        ●​ Devote time each week to studying to avoid falling behind
+        ●​ Contact the TA (if assigned) or instructor during office hours at first sign
+           of trouble and come prepared to ask precise questions and to explain your
+           difficulty
+        ●​ Accept the fact that you grow intellectually and professionally by being
+           challenged and learning to deal with diverse expectations and
+           environments.
+
+6.​ Process for Resolving Conflicts in Grading, Course Expectations, etc.
+       ●​ Contact the TA (if available) or instructor to explain your concern and
+          seek resolution
+       ●​ If the TA/instructor has attempted to assist you, but you are still having an
+          academic difficulty that is causing personal stress or hindering your
+          academic success, see your Academic Advisor
+       ●​ If the TA/instructor is not responsive or does not provide a legitimate
+          response/accommodation, then contact your graduate program chair.
+       ●​ If you still feel there is a legal, ethical, or procedural violation that is
+          victimizing you, contact the Office of the Associate Dean of Engineering
+          for Academic Affairs.
+       ●​ Circumventing this process will be considered a violation of professional
+          ethics and protocol.
+       ●​ See ASU's policy for Grade Appeals https://catalog.asu.edu/appeal ​
+

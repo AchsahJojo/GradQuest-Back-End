@@ -1,0 +1,545 @@
+{
+  "schoolId": 5,
+  "schoolName": "California State University, East Bay",
+  "programName": "Computer Science, M.S.",
+  "factsSubmitted": 44,
+  "factsPassed": 44,
+  "factsFailed": 0,
+  "checks": [
+    {
+      "id": "f1",
+      "kind": "overview",
+      "name": "30-unit program",
+      "sourceUrl": "https://www.csueastbay.edu/cs/prospective-students/index.html",
+      "quote": "The M.S. Computer Science degree program is 30 units equivalent to 10 courses. Of these, 5 courses (15 units) are required by all students in the program, 4 courses (12 units) are elective courses, and once course is a capstone experience (3-6 units).",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/05-csueb-prospective.html"
+      ]
+    },
+    {
+      "id": "f2",
+      "kind": "overview",
+      "name": "Three concentrations",
+      "sourceUrl": "https://www.csueastbay.edu/cs/prospective-students/index.html",
+      "quote": "When you apply you will be asked to select a concentration. We currently have three concentrations that allow specialization in a particular area.",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/05-csueb-prospective.html"
+      ]
+    },
+    {
+      "id": "f3",
+      "kind": "overview",
+      "name": "Typical load",
+      "sourceUrl": "https://www.csueastbay.edu/cs/prospective-students/index.html",
+      "quote": "Students enrolled in the M.S. graduate program typically take 1-4 courses (3-12 units) each semester, depending on their situation.",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/05-csueb-prospective.html"
+      ]
+    },
+    {
+      "id": "f4",
+      "kind": "requirement",
+      "name": "Admissions review path",
+      "sourceUrl": "https://www.csueastbay.edu/cs/degrees-programs1/csms.html",
+      "quote": "After the Office of Admissions has completed their review, applications are forwarded to the Computer Science department which makes the decision whether to accept or reject the applicant.",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/05-csueb-start.html"
+      ]
+    },
+    {
+      "id": "f5",
+      "kind": "requirement",
+      "name": "GRE required on start page",
+      "sourceUrl": "https://www.csueastbay.edu/cs/degrees-programs1/csms.html",
+      "quote": "GRE general test scores are required.",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/05-csueb-start.html"
+      ]
+    },
+    {
+      "id": "f6",
+      "kind": "requirement",
+      "name": "GRE no longer required on prospective page",
+      "sourceUrl": "https://www.csueastbay.edu/cs/prospective-students/index.html",
+      "quote": "Please note: GRE scores are no longer required.",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/05-csueb-prospective.html"
+      ]
+    },
+    {
+      "id": "f7",
+      "kind": "requirement",
+      "name": "Undergraduate GPA 3.0",
+      "sourceUrl": "https://www.csueastbay.edu/cs/degrees-programs1/csms.html",
+      "quote": "must have a grade point average of 3.0 in all undergraduate work, and must have earned a \"B\" or better in the Computer Science and Mathematics courses listed below.",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/05-csueb-start.html"
+      ]
+    },
+    {
+      "id": "f8",
+      "kind": "requirement",
+      "name": "Preferred B+ in important courses",
+      "sourceUrl": "https://www.csueastbay.edu/cs/degrees-programs1/csms.html",
+      "quote": "Currently, to be eligible for admission into the M.S. program, we prefer at least a B+ average in the important courses.",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/05-csueb-start.html"
+      ]
+    },
+    {
+      "id": "f9",
+      "kind": "requirement",
+      "name": "International class standing",
+      "sourceUrl": "https://www.csueastbay.edu/cs/degrees-programs1/csms.html",
+      "quote": "For international applicants, we look for students who have graduated first class or first class with distinction.",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/05-csueb-start.html"
+      ]
+    },
+    {
+      "id": "f10",
+      "kind": "requirement",
+      "name": "Conditional admission",
+      "sourceUrl": "https://www.csueastbay.edu/cs/degrees-programs1/csms.html",
+      "quote": "may be admitted to the program at the discretion of the department as a \"Conditionally Classified Graduate\" student, provided the student's record clearly demonstrates the capability of completing all the course requirements after admission.",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/05-csueb-start.html"
+      ]
+    },
+    {
+      "id": "f11",
+      "kind": "requirement",
+      "name": "Deficiency grades on start page",
+      "sourceUrl": "https://www.csueastbay.edu/cs/degrees-programs1/csms.html",
+      "quote": "Students must complete any course deficiencies or remediation with grades of \"B\" or better. Course deficiencies or remediation must be completed before enrolling in graduate Computer Science courses.",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/05-csueb-start.html"
+      ]
+    },
+    {
+      "id": "f12",
+      "kind": "requirement",
+      "name": "Prerequisite grade on first-year page",
+      "sourceUrl": "https://www.csueastbay.edu/cs/first-year-masters-students/index.html",
+      "quote": "Each prerequisite must be passed with a B− or better and does not count toward the MS degree.",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/05-csueb-firstyear-ms.html"
+      ]
+    },
+    {
+      "id": "f13",
+      "kind": "requirement",
+      "name": "Most students conditionally classified",
+      "sourceUrl": "https://www.csueastbay.edu/cs/first-year-masters-students/index.html",
+      "quote": "Nearly all incoming students are admitted as Conditionally Classified, which means your admission letter lists prerequisite or remediation courses to complete in addition to your graduate coursework.",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/05-csueb-firstyear-ms.html"
+      ]
+    },
+    {
+      "id": "f14",
+      "kind": "requirement",
+      "name": "Lower-division CS prerequisites",
+      "sourceUrl": "https://www.csueastbay.edu/cs/degrees-programs1/csms.html",
+      "quote": "CS 101 Computer Science I",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/05-csueb-start.html"
+      ]
+    },
+    {
+      "id": "f15",
+      "kind": "requirement",
+      "name": "Upper-division CS prerequisites",
+      "sourceUrl": "https://www.csueastbay.edu/cs/degrees-programs1/csms.html",
+      "quote": "CS 301 Data Structures and Algorithms",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/05-csueb-start.html"
+      ]
+    },
+    {
+      "id": "f16",
+      "kind": "requirement",
+      "name": "Math prerequisites",
+      "sourceUrl": "https://www.csueastbay.edu/cs/degrees-programs1/csms.html",
+      "quote": "MATH 130 Calculus I",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/05-csueb-start.html"
+      ]
+    },
+    {
+      "id": "f17",
+      "kind": "requirement",
+      "name": "Junior college limit",
+      "sourceUrl": "https://www.csueastbay.edu/cs/degrees-programs1/csms.html",
+      "quote": "Courses from junior colleges can be used to fulfill lower division admission prerequisites (100 and 200 level) but not upper division admission prerequisites (300 or 400 level.)",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/05-csueb-start.html"
+      ]
+    },
+    {
+      "id": "f18",
+      "kind": "requirement",
+      "name": "Open University note",
+      "sourceUrl": "https://www.csueastbay.edu/cs/degrees-programs1/csms.html",
+      "quote": "While Open University allows students to take courses before being accepted to the Master's program, Open University students have the last registration priority and no student visa are sponsored by the Open University program.",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/05-csueb-start.html"
+      ]
+    },
+    {
+      "id": "f19",
+      "kind": "requirement",
+      "name": "Graduate GPA",
+      "sourceUrl": "https://www.csueastbay.edu/cs/first-year-masters-students/index.html",
+      "quote": "The MS in Computer Science requires 30 units of 600-level coursework, each passed with a C or better and an overall 3.0 graduate GPA.",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/05-csueb-firstyear-ms.html"
+      ]
+    },
+    {
+      "id": "f20",
+      "kind": "course",
+      "name": "Five required core courses",
+      "sourceUrl": "https://www.csueastbay.edu/cs/first-year-masters-students/index.html",
+      "quote": "Every student completes five required core courses: CS 601, CS 611, CS 621, CS 651, and CS 671.",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/05-csueb-firstyear-ms.html"
+      ]
+    },
+    {
+      "id": "f21",
+      "kind": "course",
+      "name": "Capstone options",
+      "sourceUrl": "https://www.csueastbay.edu/cs/first-year-masters-students/index.html",
+      "quote": "You also complete a concentration and a capstone — the Comprehensive Exam (CS 692), a Project (CS 693), or a Thesis (CS 699).",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/05-csueb-firstyear-ms.html"
+      ]
+    },
+    {
+      "id": "f22",
+      "kind": "course",
+      "name": "CS 601 on 2015 roadmap",
+      "sourceUrl": "https://www.csueastbay.edu/cs/files/docs/ms-cs-cs-concentration-roadmap.pdf",
+      "quote": "CS 601        Advanced Algorithms",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/05-csueb-roadmap-cs.txt",
+        "/workspace/gradquest-program-research-batch2/sources/05-csueb-roadmap-cs.pdf"
+      ]
+    },
+    {
+      "id": "f23",
+      "kind": "course",
+      "name": "CS 621 title",
+      "sourceUrl": "https://www.csueastbay.edu/cs/files/docs/ms-cs-cs-concentration-roadmap.pdf",
+      "quote": "CS 621        Operating System Design",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/05-csueb-roadmap-cs.txt",
+        "/workspace/gradquest-program-research-batch2/sources/05-csueb-roadmap-cs.pdf"
+      ]
+    },
+    {
+      "id": "f24",
+      "kind": "course",
+      "name": "CS 651 title",
+      "sourceUrl": "https://www.csueastbay.edu/cs/files/docs/ms-cs-cs-concentration-roadmap.pdf",
+      "quote": "CS 651        Web Systems",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/05-csueb-roadmap-cs.txt",
+        "/workspace/gradquest-program-research-batch2/sources/05-csueb-roadmap-cs.pdf"
+      ]
+    },
+    {
+      "id": "f25",
+      "kind": "course",
+      "name": "CS 611 title",
+      "sourceUrl": "https://www.csueastbay.edu/cs/files/docs/ms-cs-cs-concentration-roadmap.pdf",
+      "quote": "CS 611             Theory of Computation",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/05-csueb-roadmap-cs.txt",
+        "/workspace/gradquest-program-research-batch2/sources/05-csueb-roadmap-cs.pdf"
+      ]
+    },
+    {
+      "id": "f26",
+      "kind": "course",
+      "name": "CS 671 title",
+      "sourceUrl": "https://www.csueastbay.edu/cs/files/docs/ms-cs-cs-concentration-roadmap.pdf",
+      "quote": "CS 671             Cybersecurity",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/05-csueb-roadmap-cs.txt",
+        "/workspace/gradquest-program-research-batch2/sources/05-csueb-roadmap-cs.pdf"
+      ]
+    },
+    {
+      "id": "f27",
+      "kind": "course",
+      "name": "AI/ML concentration courses",
+      "sourceUrl": "https://www.csueastbay.edu/cs/files/docs/ms-cs-aiml-concentration-roadmap.pdf",
+      "quote": "CS 661      Advanced Artificial Intelligence",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/05-csueb-roadmap-aiml.txt",
+        "/workspace/gradquest-program-research-batch2/sources/05-csueb-roadmap-aiml.pdf"
+      ]
+    },
+    {
+      "id": "f28",
+      "kind": "course",
+      "name": "CS 692 eligibility",
+      "sourceUrl": "https://www.csueastbay.edu/cs/graduate-capstone/faq-cs-692-capstone-exam.html",
+      "quote": "and have a cumulative GPA of 3.0.",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/05-csueb-cs692.html"
+      ]
+    },
+    {
+      "id": "f29",
+      "kind": "course",
+      "name": "CS 692 attempts",
+      "sourceUrl": "https://www.csueastbay.edu/cs/graduate-capstone/faq-cs-692-capstone-exam.html",
+      "quote": "CS 692 Capstone Exams is a three (3) unit class. Grading is CR/NC. Students need to pass all three exams to earn a credit for the class.",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/05-csueb-cs692.html"
+      ]
+    },
+    {
+      "id": "f30",
+      "kind": "course",
+      "name": "CS 693 GPA",
+      "sourceUrl": "https://www.csueastbay.edu/cs/graduate-capstone/cs-693-faq.html",
+      "quote": "In addition, the student must have a cumulative GPA of 3.5 or higher.",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/05-csueb-cs693.html"
+      ]
+    },
+    {
+      "id": "f31",
+      "kind": "course",
+      "name": "CS 699 GPA",
+      "sourceUrl": "https://www.csueastbay.edu/cs/graduate-capstone/cs-699-thesis.html",
+      "quote": "In addition, the student must have a graduate course GPA and cumulative CSUEB GPA of 3.5 or higher.",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/05-csueb-thesis.html"
+      ]
+    },
+    {
+      "id": "f32",
+      "kind": "deadline",
+      "name": "Pay fees by the deadline",
+      "sourceUrl": "https://www.csueastbay.edu/cs/first-year-masters-students/index.html",
+      "quote": "Pay your fees by the deadline — even if you are waitlisted. Unpaid fees can drop you from all classes.",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/05-csueb-firstyear-ms.html"
+      ]
+    },
+    {
+      "id": "f33",
+      "kind": "deadline",
+      "name": "International full-time enrollment",
+      "sourceUrl": "https://www.csueastbay.edu/cs/first-year-masters-students/index.html",
+      "quote": "International (F-1) students must enroll in at least 8 units each fall and spring.",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/05-csueb-firstyear-ms.html"
+      ]
+    },
+    {
+      "id": "f34",
+      "kind": "deadline",
+      "name": "Financial aid and prerequisites",
+      "sourceUrl": "https://www.csueastbay.edu/cs/first-year-masters-students/index.html",
+      "quote": "Because prerequisites are undergraduate courses that do not count toward the degree, enrolling in prerequisites alone — even a full load — does not establish aid eligibility.",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/05-csueb-firstyear-ms.html"
+      ]
+    },
+    {
+      "id": "f35",
+      "kind": "faculty",
+      "name": "Department listing is department-wide",
+      "sourceUrl": "https://www.csueastbay.edu/cs/faculty-staff/index.html",
+      "quote": "CSUEB Computer Science Professors",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/05-csueb-faculty.html"
+      ]
+    },
+    {
+      "id": "f36",
+      "kind": "faculty",
+      "name": "Varick Erickson",
+      "sourceUrl": "https://www.csueastbay.edu/cs/faculty-staff/index.html",
+      "quote": "Erickson, Varick",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/05-csueb-faculty.html"
+      ]
+    },
+    {
+      "id": "f37",
+      "kind": "faculty",
+      "name": "Levent Ertaul research",
+      "sourceUrl": "https://www.csueastbay.edu/directory/profiles/cs/ertaullevent.html",
+      "quote": "Research: Cyber Security & Privacy, Cyber War, Hacking Technoligies, Cyber Security Policies, Computer Networks Security, Cryptology, Wireless Security, Cloud Security, International Governance of Cyber Space",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/05-fac-ertaul.html"
+      ]
+    },
+    {
+      "id": "f38",
+      "kind": "faculty",
+      "name": "Lynne Grewe research",
+      "sourceUrl": "https://www.csueastbay.edu/directory/profiles/cs/grewelynne.html",
+      "quote": "Computer Vision, Machine Learning & Artificial Intelligence, Media in Social and Mobile Applications",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/05-fac-grewe.html"
+      ]
+    },
+    {
+      "id": "f39",
+      "kind": "faculty",
+      "name": "Matt Johnson research",
+      "sourceUrl": "https://www.csueastbay.edu/directory/profiles/cs/johnsonmatthew.html",
+      "quote": "Research: Genetic Algorithms, Artificial Intelligence",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/05-fac-johnson.html"
+      ]
+    },
+    {
+      "id": "f40",
+      "kind": "faculty",
+      "name": "Farzan Roohparvar research",
+      "sourceUrl": "https://www.csueastbay.edu/directory/profiles/cs/roohparvarfarzan.html",
+      "quote": "Research: System On Chip (SOC) Design",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/05-fac-roohparvar.html"
+      ]
+    },
+    {
+      "id": "f41",
+      "kind": "faculty",
+      "name": "Yashas Hariprasad research",
+      "sourceUrl": "https://www.csueastbay.edu/directory/profiles/cs/hariprasadyashas.html",
+      "quote": "My expertise lies at the convergence of artificial intelligence, cybersecurity, digital forensics, and quantum-safe communication.",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/05-fac-hariprasad.html"
+      ]
+    },
+    {
+      "id": "f42",
+      "kind": "faculty",
+      "name": "Jiaofei Zhong focus",
+      "sourceUrl": "https://www.csueastbay.edu/directory/profiles/cs/zhongfay.html",
+      "quote": "Extended Reality, Data Engineering, STEM Education",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/05-fac-zhong.html"
+      ]
+    },
+    {
+      "id": "f43",
+      "kind": "faculty",
+      "name": "Farzan Roohparvar title",
+      "sourceUrl": "https://www.csueastbay.edu/cs/faculty-staff/index.html",
+      "quote": "Roohparvar, Farzan (Bobby)- Interim Department Chair",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/05-csueb-faculty.html"
+      ]
+    },
+    {
+      "id": "f44",
+      "kind": "faculty",
+      "name": "Levent Ertaul title",
+      "sourceUrl": "https://www.csueastbay.edu/cs/faculty-staff/index.html",
+      "quote": "Ertaul, Levent - Department Chair",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/05-csueb-faculty.html"
+      ]
+    }
+  ],
+  "droppedFacts": []
+}

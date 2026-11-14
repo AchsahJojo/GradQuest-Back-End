@@ -1,0 +1,593 @@
+TITLE: 
+CSUEB Computer Science Prospective Students
+
+- 
+- 
+- 
+- 
+- 
+
+Skip to main content
+
+California State University, East Bay Home 
+- Apply 
+
+- Request Info 
+
+- Give 
+
+EN 
+- Afrikaans 
+
+- Albanian 
+
+- Amharic 
+
+- Arabic 
+
+- Armenian 
+
+- Azerbaijani 
+
+- Basque 
+
+- Belarusian 
+
+- Bengali 
+
+- Bosnian 
+
+- Bulgarian 
+
+- Catalan 
+
+- Cebuano 
+
+- Chichewa 
+
+- Chinese (Simplified) 
+
+- Chinese (Traditional) 
+
+- Corsican 
+
+- Croatian 
+
+- Czech 
+
+- Danish 
+
+- Dutch 
+
+- English 
+
+- Esperanto 
+
+- Estonian 
+
+- Filipino 
+
+- Finnish 
+
+- French 
+
+- Frisian 
+
+- Galician 
+
+- Georgian 
+
+- German 
+
+- Greek 
+
+- Gujarati 
+
+- Haitian Creole 
+
+- Hausa 
+
+- Hawaiian 
+
+- Hebrew 
+
+- Hindi 
+
+- Hmong 
+
+- Hungarian 
+
+- Icelandic 
+
+- Igbo 
+
+- Indonesian 
+
+- Irish 
+
+- Italian 
+
+- Japanese 
+
+- Javanese 
+
+- Kannada 
+
+- Kazakh 
+
+- Khmer 
+
+- Kinyarwanda 
+
+- Korean 
+
+- Kurdish (Kurmanji) 
+
+- Kyrgyz 
+
+- Lao 
+
+- Latin 
+
+- Latvian 
+
+- Lithuanian 
+
+- Luxembourgish 
+
+- Macedonian 
+
+- Malagasy 
+
+- Malay 
+
+- Malayalam 
+
+- Maltese 
+
+- Maori 
+
+- Marathi 
+
+- Mongolian 
+
+- Myanmar (Burmese) 
+
+- Nepali 
+
+- Norwegian 
+
+- Odia (Oriya) 
+
+- Pashto 
+
+- Persian 
+
+- Polish 
+
+- Portuguese 
+
+- Punjabi 
+
+- Romanian 
+
+- Russian 
+
+- Samoan 
+
+- Scots Gaelic 
+
+- Serbian 
+
+- Sesotho 
+
+- Shona 
+
+- Sindhi 
+
+- Sinhala 
+
+- Slovak 
+
+- Slovenian 
+
+- Somali 
+
+- Spanish 
+
+- Sundanese 
+
+- Swahili 
+
+- Swedish 
+
+- Tajik 
+
+- Tamil 
+
+- Tatar 
+
+- Telugu 
+
+- Thai 
+
+- Turkish 
+
+- Turkmen 
+
+- Ukrainian 
+
+- Urdu 
+
+- Uyghur 
+
+- Uzbek 
+
+- Vietnamese 
+
+- Welsh 
+
+- Xhosa 
+
+- Yiddish 
+
+- Yoruba 
+
+- Zulu 
+
+Search the site Submit Search 
+
+INFO FOR
+Press Enter to open the info for dropdown 
+- Current Students 
+
+- Future Students 
+
+- Alumni 
+
+- Faculty 
+
+- Staff 
+
+MENU
+
+Menu 
+
+Site Navigation Menu 
+APPLY REQUEST INFO MAKE A GIFT 
+
+Information for:
+
+- Current Students 
+
+- Future Students 
+
+- Alumni 
+
+- Faculty 
+
+- Staff 
+
+- About 
+
+- About 
+
+- Accessibility 
+
+- Alumni 
+
+- Athletics 
+
+- Bookstore 
+
+- Campus Maps 
+
+- Concord Center 
+
+- News Center 
+
+- Office of the President 
+
+- Rentals & Scheduling 
+
+- Colleges and Departments 
+
+- Colleges and Departments 
+
+- College of Business and Economics 
+
+- College of Health 
+
+- College of Letters, Arts, and Social Sciences 
+
+- College of Science 
+
+- Continuing Education 
+
+- Online Programs 
+
+- Future Students 
+
+- Future Students 
+
+- Admissions 
+
+- Application Deadlines 
+
+- Cost and Financial Aid 
+
+- Graduate Studies 
+
+- Undergraduate Majors 
+
+- Visit Campus 
+
+- Current Students 
+
+- Current Students 
+
+- Academics 
+
+- Academic Support Programs 
+
+- Calendar 
+
+- Campus Life 
+
+- Cashier's Office 
+
+- Financial Aid 
+
+- International Programs 
+
+- Student Research Opportunities 
+
+- Pioneer Dining 
+
+- Student Records 
+
+- University Housing & Residence Life 
+
+- University Catalog 
+
+- Administrative Resources 
+
+- Faculty 
+
+- Staff 
+
+- Faculty and Staff Email (Google) 
+
+- Faculty and Staff Email (Outlook/MS365) 
+
+- Human Resources 
+
+- Career Opportunities 
+
+- MyCSUEB 
+
+- Canvas 
+
+- Library 
+
+- Email 
+
+- MyCompass 
+
+- Directory 
+
+Close
+
+- 
+
+- Computer Science 
+
+- Prospective Students
+
+Department of Computer Science click here to expand the navigation 
+
+- Vision, Mission, & Values 
+
+- Degrees & Programs 
+
+- Courses 
+
+- Current Students 
+
+- Forms 
+
+- Internship Course 
+
+- Advising 
+
+- Prospective Students 
+
+- First Year Transfer Students 
+
+- First Semester Schedule Planner 
+
+- First Year Master's Students 
+
+- First Semester Masters Student Planner 
+
+- Faculty & Staff 
+
+- Office Hours 
+
+- Professors Emeritus 
+
+- Industrial Advisory Board 
+
+- Financial Assistance 
+
+- Employment Opportunities 
+
+- Donate 
+
+- Graduate Capstone 
+
+- CS 699 Thesis 
+
+- FAQ CS 692 – Capstone Exam 
+
+- CS 693 Capstone Project 
+
+- Careers for Majors 
+
+- Resources 
+
+- Contact Us 
+
+- Help for Students 
+
+H1: Prospective Students
+
+H2: Welcome to the Computer Science Department
+
+System.out.println("Hello World!") 
+
+- Bachelor of Science FAQ 
+
+- Master of Science FAQ 
+
+H2: M.S. in Computer Science
+
+H3: Admission 
+
+To apply for admission to the Master of Science program in Computer Science, a student must submit the proper forms, fees and transcripts to the university’s Office of Admissions, which initially reviews each application. After the Office of Admissions has completed their review, applications are forwarded to the Computer Science department which makes the decision whether to accept or reject the applicant.
+
+Please note: GRE scores are no longer required. 
+
+A student wishing to enter the M.S. in Computer Science program will normally have an undergraduate degree in Computer Science or in a related field, have a grade point average of 3.0 in all undergraduate work, and have earned a “B” grade or better in the Computer Science and Mathematics courses listed below.
+
+H3: Computer Science Admission Requirements 
+
+Four lower-division Computer Science courses equivalent to the following CSU East Bay courses: 
+
+- CS 101 Computer Science I 
+
+- CS 201 Computer Science II 
+
+- CS 211 Mathematical Foundations of Computer Science 
+
+- CS 221 Computer Organization and Assembly Programming 
+
+Six upper division Computer Science courses equivalent to the following CSU East Bay courses: 
+
+- CS 301 Data Structures and Algorithms 
+
+- CS 311 Programming Language Concepts 
+
+- CS 321 Computer Architecture
+
+- CS 411 Automata and Computation
+
+- CS 413 Analysis of Algorithms 
+
+- CS 421 Operating Systems 
+
+Mathematics Admission Requirements 
+
+- MATH 130 Calculus I 
+
+- MATH 131 Calculus II 
+
+- MATH 225 Numerical Algorithms and Linear Algebra for Computer Science
+
+- STAT 316 Statistics and Probability for Science and Engineering I
+
+A student who has not completed all of the course admission requirements may be admitted to the program at the discretion of the department as a “Conditionally Classified Graduate” student, provided the student’s record clearly demonstrates the capability of completing all the course requirements after admission. In any case, the student should have completed at least Data Structures (CS 301) and most lower-division prerequisites. Students must complete any course deficiencies or remediation with grades of “B” or better. Course deficiencies or remediation must be completed before enrolling in graduate Computer Science courses. Note that courses taken to make up deficiencies for admission are not applied toward the units required for the master’s degree.
+
+Courses from community colleges can be used to fulfill lower division admission prerequisites (courses numbered 100 to 299). Upper division admission prerequisites (courses numbered 300 to 499) must be completed at an accredited 4-year university. Courses from unaccredited technical programs or UC extension cannot be used to fulfill prerequisites.
+
+H3: Program
+
+Students enrolled in the M.S. graduate program typically take 1-4 courses (3-12 units) each semester, depending on their situation.
+
+The M.S. Computer Science degree program is 30 units equivalent to 10 courses. Of these, 5 courses (15 units) are required by all students in the program, 4 courses (12 units) are elective courses, and once course is a capstone experience (3-6 units). Please see the university catalog for a comprehensive description.
+
+H3: Concentrations
+
+When you apply you will be asked to select a concentration. We currently have three concentrations that allow specialization in a particular area. These concentrations are listed below:
+
+- MS Computer Science - Computer Science Concentration
+
+- MS Computer Science - Computer Networking Concentration
+
+- MS Computer Science - Artificial Intelligence and Machine Learning Concentration
+
+H3: Thank you for your interest in our program. We hope you can join our community at Cal State East Bay!
+
+H4: For further inquiries or details, please contact the MS Computer Science graduate coordinator, Varick Erickson ( varick.erickson@csueastbay.edu )
+
+California State University, East Bay 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+25800 Carlos Bee Boulevard 
+Hayward, CA 94542 (510) 885-3000 
+
+- Sexual Assault / Title IX 
+
+- Request Information 
+
+- Current Students 
+
+- Faculty 
+
+- Staff 
+
+- Alumni & Friends 
+
+- Accessibility 
+
+- Mission Statement 
+
+- Library 
+
+- Bookstore 
+
+- Academic Programs 
+
+- Viewbook of Colleges 
+
+- Contact Us 
+
+- Directory 
+
+- Maps & Directions 
+
+- Career Opportunities 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- Privacy Statement 
+
+- Emergency Info 
+
+- Annual Security Report 
+
+- Campus Safety Plan 
+
+- Register a Complaint 
+
+- Notice of Non-Discrimination and Retaliation Prohibition 
+
+- Cookie Settings 
+© 2026 California State University, East Bay. All Rights Reserved.

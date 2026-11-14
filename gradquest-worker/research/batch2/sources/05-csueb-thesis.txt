@@ -1,0 +1,646 @@
+TITLE: 
+CS 699 Thesis
+
+- 
+- 
+- 
+- 
+- 
+
+Skip to main content
+
+California State University, East Bay Home 
+- Apply 
+
+- Request Info 
+
+- Give 
+
+EN 
+- Afrikaans 
+
+- Albanian 
+
+- Amharic 
+
+- Arabic 
+
+- Armenian 
+
+- Azerbaijani 
+
+- Basque 
+
+- Belarusian 
+
+- Bengali 
+
+- Bosnian 
+
+- Bulgarian 
+
+- Catalan 
+
+- Cebuano 
+
+- Chichewa 
+
+- Chinese (Simplified) 
+
+- Chinese (Traditional) 
+
+- Corsican 
+
+- Croatian 
+
+- Czech 
+
+- Danish 
+
+- Dutch 
+
+- English 
+
+- Esperanto 
+
+- Estonian 
+
+- Filipino 
+
+- Finnish 
+
+- French 
+
+- Frisian 
+
+- Galician 
+
+- Georgian 
+
+- German 
+
+- Greek 
+
+- Gujarati 
+
+- Haitian Creole 
+
+- Hausa 
+
+- Hawaiian 
+
+- Hebrew 
+
+- Hindi 
+
+- Hmong 
+
+- Hungarian 
+
+- Icelandic 
+
+- Igbo 
+
+- Indonesian 
+
+- Irish 
+
+- Italian 
+
+- Japanese 
+
+- Javanese 
+
+- Kannada 
+
+- Kazakh 
+
+- Khmer 
+
+- Kinyarwanda 
+
+- Korean 
+
+- Kurdish (Kurmanji) 
+
+- Kyrgyz 
+
+- Lao 
+
+- Latin 
+
+- Latvian 
+
+- Lithuanian 
+
+- Luxembourgish 
+
+- Macedonian 
+
+- Malagasy 
+
+- Malay 
+
+- Malayalam 
+
+- Maltese 
+
+- Maori 
+
+- Marathi 
+
+- Mongolian 
+
+- Myanmar (Burmese) 
+
+- Nepali 
+
+- Norwegian 
+
+- Odia (Oriya) 
+
+- Pashto 
+
+- Persian 
+
+- Polish 
+
+- Portuguese 
+
+- Punjabi 
+
+- Romanian 
+
+- Russian 
+
+- Samoan 
+
+- Scots Gaelic 
+
+- Serbian 
+
+- Sesotho 
+
+- Shona 
+
+- Sindhi 
+
+- Sinhala 
+
+- Slovak 
+
+- Slovenian 
+
+- Somali 
+
+- Spanish 
+
+- Sundanese 
+
+- Swahili 
+
+- Swedish 
+
+- Tajik 
+
+- Tamil 
+
+- Tatar 
+
+- Telugu 
+
+- Thai 
+
+- Turkish 
+
+- Turkmen 
+
+- Ukrainian 
+
+- Urdu 
+
+- Uyghur 
+
+- Uzbek 
+
+- Vietnamese 
+
+- Welsh 
+
+- Xhosa 
+
+- Yiddish 
+
+- Yoruba 
+
+- Zulu 
+
+Search the site Submit Search 
+
+INFO FOR
+Press Enter to open the info for dropdown 
+- Current Students 
+
+- Future Students 
+
+- Alumni 
+
+- Faculty 
+
+- Staff 
+
+MENU
+
+Menu 
+
+Site Navigation Menu 
+APPLY REQUEST INFO MAKE A GIFT 
+
+Information for:
+
+- Current Students 
+
+- Future Students 
+
+- Alumni 
+
+- Faculty 
+
+- Staff 
+
+- About 
+
+- About 
+
+- Accessibility 
+
+- Alumni 
+
+- Athletics 
+
+- Bookstore 
+
+- Campus Maps 
+
+- Concord Center 
+
+- News Center 
+
+- Office of the President 
+
+- Rentals & Scheduling 
+
+- Colleges and Departments 
+
+- Colleges and Departments 
+
+- College of Business and Economics 
+
+- College of Health 
+
+- College of Letters, Arts, and Social Sciences 
+
+- College of Science 
+
+- Continuing Education 
+
+- Online Programs 
+
+- Future Students 
+
+- Future Students 
+
+- Admissions 
+
+- Application Deadlines 
+
+- Cost and Financial Aid 
+
+- Graduate Studies 
+
+- Undergraduate Majors 
+
+- Visit Campus 
+
+- Current Students 
+
+- Current Students 
+
+- Academics 
+
+- Academic Support Programs 
+
+- Calendar 
+
+- Campus Life 
+
+- Cashier's Office 
+
+- Financial Aid 
+
+- International Programs 
+
+- Student Research Opportunities 
+
+- Pioneer Dining 
+
+- Student Records 
+
+- University Housing & Residence Life 
+
+- University Catalog 
+
+- Administrative Resources 
+
+- Faculty 
+
+- Staff 
+
+- Faculty and Staff Email (Google) 
+
+- Faculty and Staff Email (Outlook/MS365) 
+
+- Human Resources 
+
+- Career Opportunities 
+
+- MyCSUEB 
+
+- Canvas 
+
+- Library 
+
+- Email 
+
+- MyCompass 
+
+- Directory 
+
+Close
+
+- 
+
+- Computer Science 
+
+- Graduate Capstone 
+
+- CS 699 Thesis 
+
+Department of Computer Science click here to expand the navigation 
+
+- Vision, Mission, & Values 
+
+- Degrees & Programs 
+
+- Courses 
+
+- Current Students 
+
+- Forms 
+
+- Internship Course 
+
+- Advising 
+
+- Prospective Students 
+
+- First Year Transfer Students 
+
+- First Semester Schedule Planner 
+
+- First Year Master's Students 
+
+- First Semester Masters Student Planner 
+
+- Faculty & Staff 
+
+- Office Hours 
+
+- Professors Emeritus 
+
+- Industrial Advisory Board 
+
+- Financial Assistance 
+
+- Employment Opportunities 
+
+- Donate 
+
+- Graduate Capstone 
+
+- CS 699 Thesis 
+
+- FAQ CS 692 – Capstone Exam 
+
+- CS 693 Capstone Project 
+
+- Careers for Majors 
+
+- Resources 
+
+- Contact Us 
+
+- Help for Students 
+
+H1: CS 699 Thesis
+
+A thesis is a unique and new addition to the field of computer science. It consists of a literature review around the thesis topic as well as a software implementation of the thesis proposal. A thesis includes background research in related projects, a written description of what will be implemented and how it will be tested, a summary of results. On completion students will provide a paper and give an oral defense to their thesis committee. The committee will vote after the defense to pass or fail the thesis.
+
+- 
+
+H3: 
+
+Qualifications for Enrolling in CS 699 Thesis
+
+Students wishing to pursue a thesis must first complete all prerequisite and/or deficiency courses with a grade of B- or better. Students must also have completed the five required courses for the degree (CS 601, CS 611, CS 621, CS 651, and Cs 671) with a “B” or better average. In addition, the student must have a graduate course GPA and cumulative CSUEB GPA of 3.5 or higher. 
+
+- 
+
+H3: 
+
+Student Process
+
+Students who wish to pursue a thesis must first find an advisor from the Computer Science Department faculty. The advisor may be a lecturer if the lecturer has a PhD in Computer Science. 
+
+The advisor and student will then create a proposal and create a thesis committee.
+
+- 
+
+H3: 
+
+Thesis Committee
+
+The thesis committee will be composed of the advisor and two other full time faculty members from CSU East Bay of which two are from the Department of Computer Science.
+
+The thesis committee will review and approve or reject the thesis proposal and final report and oral defense.
+
+Please note: Students should NOT come to advisors with a thesis proposal already written. Students and advisors MUST work together on proposals . Advisors are responsible for checking student’s work for accuracy and authenticity. 
+
+- 
+
+H3: 
+
+How to Enroll
+
+After the proposal is approved by the thesis committee, the advisor and student will submit a special registration petition.
+
+Enrollment into the CS 699 Thesis class will be done manually by the Computer Science office administrative staff after proposal approval and submission of the signed Special Registration Petition. The minimum number of units for CS 699 is three (3).
+
+- 
+
+H3: 
+
+After Enrollment
+
+After enrollment, students will begin work with their advisor. It is expected that a thesis will take at least a semester and up to a year or more to complete. When work is completed, a final report will be submitted to the Thesis committee prior to the thesis defense. The report should be provided to the committee 2 weeks in advance to the oral defense so that committee members have time to review the document prior to the defense. 
+
+Thesis defense presentations will be held in Fall and Spring semesters only. 
+
+All graduate students are invited to the oral defense of a thesis.
+
+Students who need more than a semester will earn an RP (Report in Progress) grade until the thesis is defended and completed. They will need to sign up for CS 699 again for 1-3 units depending on work needed for completion. When work is completed, a final grade will be submitted by the advisor.
+
+- 
+
+H3: 
+
+Grading and Units
+
+A minimum of 3 units must be taken for CS 699 Thesis
+
+Grading: A-F only
+
+- 
+
+H3: 
+
+Recommended Format for the Proposal
+
+Although there is no specific template for the proposal, it is recommended for the proposal to have the following sections: introduction, relevant past research, definition of problem and models to be used, tentative timeline, and bibliography. There is no page limit as long as the recommended topics are in the proposal which are finalized with your advisor.
+
+Templates:
+
+Capstone Overview: https://www.overleaf.com/5262616573qnzkvnmkzrqd 
+
+Capstone Proposal Template: https://www.overleaf.com/read/stygdsrftqvj 
+
+Capstone Paper Template: https://www.overleaf.com/read/dpktdbmdnjpk 
+
+Word Version - Google Drive
+
+https://docs.google.com/document/d/1hFj9F3D-ZkXfZxiKdYZZxLtlZEJEwxDx/edit?usp=sharing&ouid=106722361047203674539&rtpof=true&sd=true
+
+- 
+
+H3: 
+
+Format of the Thesis
+
+Theses can also follow Department of Computer Science standards from our discipline.
+Please note that all student theses will be bound by the university and stored in the
+library as a publication.
+
+A department thesis at the minimum should include the following: Introduction, related
+work, description of process, findings, results, conclusion, future work, and bibliography.
+Please use 12 pt font, 1 inch margins, double spaced
+
+- 
+
+H3: 
+
+Plagiarism of the Proposal
+
+If a proposal is found to be plagiarized from other sources, the student will lose the
+privilege of doing a Capstone Project. An Academic Dishonesty report will be filed. The
+student will lose advisor recommendations, TA/grader/scholarship, and internships
+privileges.
+
+The student will need to sign up for the Capstone Exams as a replacement (CS 692).
+
+- 
+
+H3: 
+
+Plagiarism of Final Thesis Report
+
+If an advisor finds that a thesis report has been plagiarized, the student will fail the Capstone Thesis and will not earn their degree. They may not switch to a different Capstone experience.
+
+- 
+
+H3: 
+
+CSU 5-Year Rule
+
+Please note that the CSU system has a 5 year currency rule. If course work and the Capstone Experience is not completed within 5 years, currency is lost, and the student will need to start over to complete their degree.
+
+California State University, East Bay 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+25800 Carlos Bee Boulevard 
+Hayward, CA 94542 (510) 885-3000 
+
+- Sexual Assault / Title IX 
+
+- Request Information 
+
+- Current Students 
+
+- Faculty 
+
+- Staff 
+
+- Alumni & Friends 
+
+- Accessibility 
+
+- Mission Statement 
+
+- Library 
+
+- Bookstore 
+
+- Academic Programs 
+
+- Viewbook of Colleges 
+
+- Contact Us 
+
+- Directory 
+
+- Maps & Directions 
+
+- Career Opportunities 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- Privacy Statement 
+
+- Emergency Info 
+
+- Annual Security Report 
+
+- Campus Safety Plan 
+
+- Register a Complaint 
+
+- Notice of Non-Discrimination and Retaliation Prohibition 
+
+- Cookie Settings 
+© 2026 California State University, East Bay. All Rights Reserved.

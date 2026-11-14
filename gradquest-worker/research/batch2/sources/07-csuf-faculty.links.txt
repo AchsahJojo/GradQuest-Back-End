@@ -1,0 +1,24 @@
+#skipnavigation	Skip Navigation
+https://www.fullerton.edu	California State University, Fullerton
+https://www.fullerton.edu/ecs	College of Engineering and Computer Science
+https://www.fullerton.edu/ecs/mse	Software Engineering Program
+javascript:ShowMainNavMobile()	Main Navigation
+https://www.fullerton.edu/ecs/mse/about	About
+https://www.fullerton.edu/ecs/mse/programs/programcost.php	Program Cost
+https://www.fullerton.edu/ecs/mse/programs/courses.php	Courses
+https://www.fullerton.edu/ecs/mse/faq.php	FAQ
+https://www.fullerton.edu/ecs/mse/requirements/index.php	How to Apply
+https://www.fullerton.edu/ecs/mse/requirements/how-to-enroll.php	How to Enroll
+https://www.fullerton.edu/ecs/mse/faculty/index.php	Faculty
+https://www.fullerton.edu/ecs/mse/contact-support/index.php	Contact and Support
+https://www.fullerton.edu/ecs/mse/seminars	Orientation and Midpoint Seminars
+https://www.fullerton.edu/ecs/mse/seminars/WorkshopAndLectures.php	Workshop and Lectures
+#top	
+https://www.fullerton.edu	
+https://www.fullerton.edu/ecs	College of Engineering and Computer Science
+https://a.cms.omniupdate.com/11/?skin=csufullerton&account=ECS&site=MSE_v4&action=de&path=/faculty/index.pcf	Last Published 8/1/24
+/cdn-cgi/l/email-protection#4b2e28383c2e29262a383f2e390b2d3e27272e393f2425652e2f3e	[email protected]
+https://get.adobe.com/reader/	Adobe Reader
+https://www.microsoft.com/en-us/download/office.aspx	Microsoft Viewers
+https://www.fullerton.edu/reportati/	Report An ATI Issue
+//www.fullerton.edu/ATI	Accessible @ CSUF

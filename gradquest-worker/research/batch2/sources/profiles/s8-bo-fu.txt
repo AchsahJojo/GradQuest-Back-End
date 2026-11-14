@@ -1,0 +1,30 @@
+TITLE: Dr. Bo Fu | California State University Long Beach
+SOURCE: /workspace/gradquest-program-research-batch2/sources/profiles/s8-bo-fu.html
+
+Dr. Bo Fu | California State University Long Beach
+Skip to main content
+Open
+Menu
+Dr. Bo Fu
+Dr. Bo Fu is an Associate Professor and Boeing Endowed Professor in the Department of Computer Engineering and Computer Science at California State University Long Beach (CSULB). She received her B.Sc. (Joint Honors), M.Sc., and Ph.D. in Computer Science all from Trinity College Dublin, Ireland. Prior to joining CSULB, she was a Research Scientist at the Stanford National Center for Biomedical Ontology, and a Postdoctoral Fellow at the University of Victoria, Canada. Dr. Fu is currently a Visiting Scientist at the Massachusetts Institute of Technology Computer Science & Artificial Intelligence Lab.
+Dr. Fu’s research intersects Web Semantics, Human Data Interaction, and Visual Analytics. She is interested in accelerating research and innovation in semantic-oriented intelligent systems and interactive visual analytics that facilitate human decision-making. Through data semantics and enhanced interaction, the overall goal of her research is to help people make sense of complex datasets during the process of turning data to information, to knowledge, and to wisdom in collective intelligence. Dr. Fu has published her research at premier scientific venues including the Semantic Web Journal, the Journal of Web Semantics, the International Semantic Web Conference, and the Extended Semantic Web Conference. She has also chaired and served on numerous scientific panels and review committees, such as National Science Foundation programs, Big Data Research, Artificial Intelligence in Medicine, and BMC Bioinformatics.
+Image
+Dr. Bo
+            
+          
+     
+                
+        Fu
+Associate Professor/Boeing Endowed Professor
+Computer Engineering & Computer Science
+Office
+ECS-527
+Office Hours
+TTH 12:15-1:15PM
+Or by appointment
+Email
+bo.fu@csulb.edu
+Phone
+562.985.4386
+Personal Website:
+https://thed2lab.github.io/website/index.html

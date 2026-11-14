@@ -1,0 +1,66 @@
+#main-content	Skip to main content
+https://www.asu.edu/accessibility/	Report an accessibility problem
+https://www.asu.edu/	ASU home
+https://my.asu.edu/	My ASU
+https://www.asu.edu/colleges/	Colleges and Schools
+https://weblogin.asu.edu/cgi-bin/login	Sign In
+https://asu.edu	
+javascript:void(0)	Apply now
+#rfi-section	Request info
+#quick-facts	Quick facts
+#overview	Overview
+#courses	Curriculum
+#admissions	Admission requirements
+#cost	Cost
+#careers	Careers
+javascript:void(0)	Apply now
+#rfi-section	Request info
+https://campus.asu.edu/tempe	Tempe (opens in new window)
+https://engineering.asu.edu/	Ira A. Fulton Schools of Engineering (opens in new window)
+#courses	View curriculum
+https://admission.asu.edu/apply/graduate/admission	U.S. applicants (opens in new window)
+https://admission.asu.edu/apply/international/graduate	International applicants (opens in new window)
+https://admission.asu.edu/apply/international/graduate/english-proficiency	English proficiency (opens in new window)
+mailto:scai.4+1@asu.edu	scai.4+1@asu.edu
+mailto:scai.4+1@asu.edu	scai.4+1@asu.edu
+mailto:scai.4+1@asu.edu	scai.4+1@asu.edu
+/bachelors/major/ASU00/ESCSEBS/computer-science	Learn more about this program
+mailto:scai.accelerated@asu.edu	scai.accelerated@asu.edu
+mailto:Wendy.Biresch@asu.edu	Wendy.Biresch@asu.edu
+mailto:scai.accelerated@asu.edu	scai.accelerated@asu.edu
+/bachelors/major/ASU00/ESCSEAIBS/computer-science-artificial-intelligence	Learn more about this program
+mailto:scai.4+1@asu.edu	scai.4+1@asu.edu
+mailto:scai.4+1@asu.edu	scai.4+1@asu.edu
+mailto:scai.4+1@asu.edu	scai.4+1@asu.edu
+/bachelors/major/ASU00/ESCSEIBS/computer-science-cybersecurity	Learn more about this program
+mailto:scai.4+1@asu.edu	scai.4+1@asu.edu
+mailto:scai.4+1@asu.edu	scai.4+1@asu.edu
+mailto:scai.4+1@asu.edu	scai.4+1@asu.edu
+/bachelors/major/ASU00/ESCSESBS/computer-science-software-engineering	Learn more about this program
+mailto:scai.4+1@asu.edu	scai.4+1@asu.edu
+mailto:scai.4+1@asu.edu	scai.4+1@asu.edu
+mailto:scai.4+1@asu.edu	scai.4+1@asu.edu
+/bachelors/major/ASU00/ESCSEBSE/computer-systems-engineering	Learn more about this program
+mailto:scai.4+1@asu.edu	scai.4+1@asu.edu
+mailto:scai.4+1@asu.edu	scai.4+1@asu.edu
+mailto:scai.4+1@asu.edu	scai.4+1@asu.edu
+/bachelors/major/ASU00/ESCSEIBSE/computer-systems-engineering-cybersecurity	Learn more about this program
+mailto:scai.4+1@asu.edu	scai.4+1@asu.edu
+/bachelors/major/ASU00/TSSERBS/software-engineering	Learn more about this program
+https://acceleratedmasters.asu.edu/how-apply	how to apply
+https://tuition.asu.edu/financial-aid	financial aid
+https://tuition.asu.edu/cost/tuition-estimator	Get an estimate
+#rfi-container	Request for Information
+https://scai.engineering.asu.edu/graduate-computer-science/	Computer Science and Engineering Program
+/contact/SCAI.Grad.Admission@asu.edu/Computer Science and Engineering Program/Computer+Science%2C+MS/null	SCAI.Grad.Admission@asu.edu
+https://issc.asu.edu/f-1j-1-students/employment/stem	review the list of ASU degrees that qualify for the STEM-OPT extension (opens in new window)
+https://www.hlcommission.org/	Higher Learning Commission
+https://www.asu.edu/academics/faculty-excellence	Read more about faculty excellence
+https://acceleratedmasters.asu.edu/how-apply	how to apply . What are concurrent programs? Concurrent degrees allow students to pursue their own personal or professional interests, earn two distinct degrees and receive two diplomas. To add a concurrent degree to your existing degree, work with your academic advisor. What are joint programs? Joint programs, or jointly conferred degrees, are offered by more than one college and provide opportunities for students to take advantage of the academic strengths of two academic units. Upon graduation, students are awarded one degree and one diploma conferred by two colleges. What constitutes a new program? ASU adds new programs to Degree Search frequently. Come back often and look for the "New Programs" option. What are online programs? ASU Online offers programs in an entirely online format with multiple enrollment sessions throughout the year. See https://asuonline.asu.edu/ for more information. What is WRGP (Western Regional Graduate Program)? The Western Regional Graduate Program (WRGP) provides a reduced tuition rate to non-resident graduate students who qualify. Visit the WRGP/WICHE webpage for more information: https://graduate.asu.edu/wiche . Students from western states who select this major may be eligible for a reduced nonresident tuition rate of 150 percent of Arizona resident tuition plus all applicable fees. See more information and eligibility requirements on the Western Undergraduate Exchange (WUE) program Web site
+https://weblogin.asu.edu/cgi-bin/login?callapp=https%3A%2F%2Fdegrees.asu.edu%2Fmasters-phd%2Fmajor%2FASU00%2FESCOMSCMS%2Fcomputer-science-ms%3Finit%3Dfalse	sign in
+/masters-phd/favorite-degrees	0 saved programs
+https://asu.edu/about/locations-maps	Maps and Locations Jobs
+https://isearch.asu.edu/asu-people/	Directory
+http://asu.edu/about/contact	Contact ASU
+https://my.asu.edu/	My ASU
+https://www.asu.edu/about/rankings/ranked-number-one	

@@ -1,0 +1,52 @@
+[
+  {
+    "schoolId": 1,
+    "out": "/workspace/gradquest-program-research-batch2/research/school-1.json",
+    "check": "/workspace/gradquest-program-research-batch2/checks/school-1.quote-check.json",
+    "notes": "/workspace/gradquest-program-research-batch2/checks/school-1.notes.md",
+    "submitted": 56,
+    "passed": 56,
+    "failed": 0,
+    "failed_ids": []
+  },
+  {
+    "schoolId": 2,
+    "out": "/workspace/gradquest-program-research-batch2/research/school-2.json",
+    "check": "/workspace/gradquest-program-research-batch2/checks/school-2.quote-check.json",
+    "notes": "/workspace/gradquest-program-research-batch2/checks/school-2.notes.md",
+    "submitted": 50,
+    "passed": 50,
+    "failed": 0,
+    "failed_ids": []
+  },
+  {
+    "schoolId": 4,
+    "out": "/workspace/gradquest-program-research-batch2/research/school-4.json",
+    "check": "/workspace/gradquest-program-research-batch2/checks/school-4.quote-check.json",
+    "notes": "/workspace/gradquest-program-research-batch2/checks/school-4.notes.md",
+    "submitted": 47,
+    "passed": 47,
+    "failed": 0,
+    "failed_ids": []
+  },
+  {
+    "schoolId": 5,
+    "out": "/workspace/gradquest-program-research-batch2/research/school-5.json",
+    "check": "/workspace/gradquest-program-research-batch2/checks/school-5.quote-check.json",
+    "notes": "/workspace/gradquest-program-research-batch2/checks/school-5.notes.md",
+    "submitted": 44,
+    "passed": 44,
+    "failed": 0,
+    "failed_ids": []
+  },
+  {
+    "schoolId": 7,
+    "out": "/workspace/gradquest-program-research-batch2/research/school-7.json",
+    "check": "/workspace/gradquest-program-research-batch2/checks/school-7.quote-check.json",
+    "notes": "/workspace/gradquest-program-research-batch2/checks/school-7.notes.md",
+    "submitted": 52,
+    "passed": 52,
+    "failed": 0,
+    "failed_ids": []
+  }
+]

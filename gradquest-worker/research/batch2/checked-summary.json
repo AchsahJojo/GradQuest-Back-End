@@ -1,0 +1,135 @@
+[
+  {
+    "schoolId": 1,
+    "total": 56,
+    "verifiedTrue": 55,
+    "sqlEligible": 55,
+    "held": [],
+    "rejected": [
+      "f17"
+    ],
+    "manual": 0
+  },
+  {
+    "schoolId": 2,
+    "total": 99,
+    "verifiedTrue": 95,
+    "sqlEligible": 95,
+    "held": [
+      "f28"
+    ],
+    "rejected": [
+      "f23",
+      "f25",
+      "f26"
+    ],
+    "manual": 49
+  },
+  {
+    "schoolId": 4,
+    "total": 47,
+    "verifiedTrue": 46,
+    "sqlEligible": 46,
+    "held": [],
+    "rejected": [
+      "f15"
+    ],
+    "manual": 26
+  },
+  {
+    "schoolId": 5,
+    "total": 44,
+    "verifiedTrue": 43,
+    "sqlEligible": 43,
+    "held": [],
+    "rejected": [
+      "f6"
+    ],
+    "manual": 0
+  },
+  {
+    "schoolId": 7,
+    "total": 52,
+    "verifiedTrue": 41,
+    "sqlEligible": 41,
+    "held": [
+      "f18",
+      "f33",
+      "f34",
+      "f35",
+      "f36",
+      "f37",
+      "f38",
+      "f39",
+      "f40",
+      "f41",
+      "f42"
+    ],
+    "rejected": [],
+    "manual": 0
+  },
+  {
+    "schoolId": 8,
+    "total": 100,
+    "verifiedTrue": 100,
+    "sqlEligible": 100,
+    "held": [],
+    "rejected": [],
+    "manual": 49
+  },
+  {
+    "schoolId": 9,
+    "total": 98,
+    "verifiedTrue": 93,
+    "sqlEligible": 93,
+    "held": [
+      "f4",
+      "f11"
+    ],
+    "rejected": [
+      "f2",
+      "f3",
+      "f7"
+    ],
+    "manual": 51
+  },
+  {
+    "schoolId": 13,
+    "total": 123,
+    "verifiedTrue": 118,
+    "sqlEligible": 118,
+    "held": [
+      "f32"
+    ],
+    "rejected": [
+      "f30",
+      "f31",
+      "f70",
+      "f72"
+    ],
+    "manual": 58
+  },
+  {
+    "schoolId": 14,
+    "total": 112,
+    "verifiedTrue": 111,
+    "sqlEligible": 111,
+    "held": [],
+    "rejected": [
+      "f44"
+    ],
+    "manual": 74
+  },
+  {
+    "schoolId": 23,
+    "total": 62,
+    "verifiedTrue": 60,
+    "sqlEligible": 60,
+    "held": [
+      "f7",
+      "f16"
+    ],
+    "rejected": [],
+    "manual": 0
+  }
+]

@@ -1,0 +1,18 @@
+HTTP/2 200 
+date: Sat, 14 Nov 2026 06:13:37 GMT
+content-type: text/html;charset=UTF-8
+set-cookie: INGRESSCOOKIE=2aa4977ba2707192b3a490cf0afb73a7|26c2168d983f861a24ed9520c6970db9; Path=/; Secure; HttpOnly
+set-cookie: JSESSIONID=D84AF4FB4EA97EFF2D27AEA9DC5C1A4D; Path=/; Secure; HttpOnly
+x-frame-options: SAMEORIGIN
+content-language: en-US
+strict-transport-security: max-age=15552000
+cf-cache-status: DYNAMIC
+server-timing: cfCacheStatus;desc="DYNAMIC"
+server-timing: cfEdge;dur=8,cfOrigin;dur=79
+report-to: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=zHAce3aC42h6Fh9NfxH480m81dzbK%2Fuup394sf%2F2adQwdt35i5Nbh0ENcL9EzF5UF9l1OtJrva0d7zbCwNvhgTQfVIBtViSRjHgZ66heCOmhbXSdggvRDdguQzmTPBXSBmRs195NJbYd9jAx0g%3D%3D"}]}
+nel: {"report_to":"cf-nel","success_fraction":0.01,"max_age":604800}
+content-encoding: br
+server: cloudflare
+cf-ray: a5a3df0f3ff3c98d-IAD
+alt-svc: h3=":443"; ma=86400
+

@@ -1,0 +1,108 @@
+https://www.cpp.edu/	
+https://www.cpp.edu/apply/	apply
+https://www.cpp.edu/outreach/tours.shtml	visit
+https://engage.cpp.edu/register/ask_us_a_question	info
+https://www.cpp.edu/giving/	give
+https://my.cpp.edu	mycpp
+https://www.cpp.edu/	
+https://www.cpp.edu/apply/	apply
+https://www.cpp.edu/outreach/tours.shtml	visit
+https://engage.cpp.edu/register/ask_us_a_question	info
+https://www.cpp.edu/giving/	give
+https://my.cpp.edu	mycpp
+https://www.cpp.edu/apply/	apply
+https://www.cpp.edu/outreach/tours.shtml	visit
+https://engage.cpp.edu/register/ask_us_a_question	info
+https://www.cpp.edu/giving/	give
+https://my.cpp.edu	mycpp
+https://www.cpp.edu/	Home
+https://broncoathletics.com/	athletics
+https://www.cpp.edu/alumni/	alumni
+https://www.cpp.edu/news/	news & events
+https://www.cpp.edu/prospective-student-gateway/	future students
+https://www.cpp.edu/student-gateway/	current students
+https://www.cpp.edu/family/	families
+https://www.cpp.edu/faculty-staff-gateway/	faculty & staff
+https://www.instagram.com/calpolypomona/	
+https://www.linkedin.com/school/cal-poly-pomona/	
+https://www.youtube.com/user/calpolypomona	
+https://www.facebook.com/calpolypomona	
+https://twitter.com/calpolypomona	
+/sci/computer-science/index.shtml	Home
+#item-1	Program Evaluation
+/sci/computer-science/program-evaluation/index.shtml	Program Evaluation
+/sci/computer-science/program-evaluation/accreditation-and-assessment.shtml	Program Accreditation & Assessment
+#item-2	Undergraduate Program
+/sci/computer-science/undergraduate-program/index.shtml	Undergraduate Program
+/sci/computer-science/undergraduate-program/course-descriptions.shtml	Course Descriptions
+/sci/computer-science/undergraduate-program/student-resources.shtml	Student Resources
+/sci/computer-science/undergraduate-program/employment-opportunities.shtml	Employment Opportunities
+/sci/computer-science/undergraduate-program/research-opportunities.shtml	Research Opportunities
+/sci/computer-science/undergraduate-program/scholarship-opportunities.shtml	Scholarship Opportunities
+/sci/computer-science/undergraduate-program/minor-in-cs.shtml	Minor in CS
+/sci/computer-science/undergraduate-program/seniorproject.shtml	CS Senior Project
+/sci/computer-science/undergraduate-program/internship.shtml	CS Internship
+/sci/computer-science/undergraduate-program/forms.shtml	Forms
+https://www.cpp.edu/sci/ds/	Minor in Data Science
+/sci/computer-science/undergraduate-program/minor-in-ai.shtml	Artificial Intelligence Minor
+https://hapii-lab.github.io/Computational-Linguistics/index.html	Computational Linguistics Minor
+https://cpp-cs4.github.io/Cyber-Security-Minor/	Cyber Security Minor
+#item-3	Prospective Graduate Students
+/sci/computer-science/prospective-graduate-students/index.shtml	Prospective Graduate Students
+/sci/computer-science/prospective-graduate-students/program-information.shtml	Program Information
+/sci/computer-science/prospective-graduate-students/admission-requirements.shtml	Admission Requirements
+/sci/computer-science/prospective-graduate-students/application-procedures.shtml	Application Procedures
+/sci/computer-science/prospective-graduate-students/frequently-asked-questions.shtml	Frequently Asked Questions
+#item-4	Current Graduate Students
+/sci/computer-science/current-graduate-students/index.shtml	Current Graduate Students
+/sci/computer-science/current-graduate-students/news-and-announcements.shtml	News & Announcements
+/sci/computer-science/current-graduate-students/course-descriptions.shtml	Course Descriptions
+/sci/computer-science/current-graduate-students/planned-future-course-offerings.shtml	Planned Future Course Offerings
+https://www.cpp.edu/sci/computer-science/faculty-and-staff/faculty-research-int.shtml	Faculty Research and Interests
+/sci/computer-science/current-graduate-students/past-masters-theses.shtml	Recent Master’s Theses/Projects
+/sci/computer-science/current-graduate-students/program-assessment.shtml	Program Assessment
+/sci/computer-science/current-graduate-students/graduate-resources.shtml	Graduate Resources
+#item-5	Faculty & Staff
+/sci/computer-science/faculty-and-staff/index.shtml	Faculty & Staff
+/sci/computer-science/faculty-and-staff/permanent-faculty.shtml	Permanent Faculty
+/sci/computer-science/faculty-and-staff/lecturers.shtml	Lecturers
+/sci/computer-science/faculty-and-staff/emeritus.shtml	Emeritus
+/sci/computer-science/faculty-and-staff/staff.shtml	Staff
+/sci/computer-science/faculty-and-staff/faculty-research-int.shtml	Faculty Research Interests
+/sci/computer-science/faculty-and-staff/awards.shtml	Faculty & Staff Awards
+#item-6	CS Student Labs
+/sci/computer-science/student-labs/index.shtml	CS Student Labs
+/sci/computer-science/student-labs/use-and-hours.shtml	Lab Use and Hours
+/sci/computer-science/student-labs/instructional-labs.shtml	Instructional Labs
+/sci/computer-science/student-labs/research-labs.shtml	Research Labs
+/sci/computer-science/student-clubs/index.shtml	CS Student Clubs
+#item-7	Advising & Procedures
+https://www.cpp.edu/sci/advising-center/	College of Science Advising Center
+/sci/computer-science/alumni.shtml	Alumni
+/sci/computer-science/cs-for-all.shtml	CSSA @ CPP
+/sci/computer-science/collaboration-and-outreach/index.shtml	Collaboration and Outreach
+/sci/computer-science/support-the-department.shtml	Support the Department
+/sci/computer-science/contact-information.shtml	Contact Information
+https://www.cpp.edu/gradstudies/documents/graduate-student-handbook-2022-2023_.pdf	Graduate Student Handbook
+https://www.cpp.edu/gradstudies	Graduate Studies Office
+https://libguides.library.cpp.edu/Libraryformatreview	University Library
+http://schedule.cpp.edu/	Schedule of Classes
+https://www.cpp.edu/gradstudies/forms-and-procedures/graduate-forms.shtml	Graduation Petitions and Forms
+https://www.cpp.edu/faculty/mihusain/	Graduate Coordinator
+https://www.cpp.edu/	
+https://www.cpp.edu/apply/	Apply
+https://maps.cpp.edu/	Maps
+https://www.cpp.edu/outreach/tours.shtml	Visit
+https://www.cpp.edu/contact.shtml	Contact Us
+https://www.instagram.com/calpolypomona/	
+https://www.linkedin.com/school/cal-poly-pomona/	
+https://www.youtube.com/user/calpolypomona	
+https://www.facebook.com/calpolypomona	
+https://twitter.com/calpolypomona	
+https://www.calstate.edu/	The California State University
+https://www.cpp.edu/officeofequity/index.shtml	Title IX
+https://www.cpp.edu/website-feedback.shtml	Feedback
+https://www.cpp.edu/privacy.shtml	Privacy
+#	Cookie Preferences
+https://www.cpp.edu/accessibility.shtml	Accessibility
+https://www.cpp.edu/file-viewers.shtml	Document Readers

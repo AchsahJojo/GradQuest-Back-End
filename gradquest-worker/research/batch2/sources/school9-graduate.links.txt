@@ -1,0 +1,158 @@
+#main-content	Skip to main content
+/	Cal State LA
+/students	Students
+/faculty-staff	Faculty & Staff
+/alumni	Alumni
+https://my.calstatela.edu	MyCalStateLA
+https://directory.calstatela.edu	Directory
+/library	Library
+/search	Search
+https://bit.ly/calstatela-apply	APPLY
+/givenow	GIVE
+/search	
+/about	About
+/academics	Academics
+/admissions	Admissions & Aid
+/student-success	Student Success
+/campus-life	Campus Life
+/diversity	Diversity
+/public-good	Public Good
+https://lagoldeneagles.com	Athletics
+https://bit.ly/calstatela-apply	APPLY
+/givenow	GIVE
+/ecst/cs	Department of Computer Science
+/ecst/cs	Department of Computer Science
+https://www.calstatela.edu/ecst	ECST
+https://www.calstatela.edu/ecst/message-dean	Message from the Dean
+https://www.calstatela.edu/ecst/ecst-equity-diversity-inclusion-plan	ECST EDI Plan
+https://www.calstatela.edu/ecst/ecst-faculty-and-staff	Faculty and Staff
+https://www.calstatela.edu/ecst/support-and-resources	Resources and Support
+https://www.calstatela.edu/ecst/deans-advisory-board	Dean's Advisory Board
+https://www.calstatela.edu/ecst/news	ECST Newsroom
+https://www.calstatela.edu/ecst/ITCHelpTicket	ITC Help Ticket
+https://www.calstatela.edu/ecst/success/advising-center	Advising
+https://www.calstatela.edu/ecst/success/schedule-advising	Schedule Advising
+https://www.calstatela.edu/ecst/success	What We Do
+https://www.calstatela.edu/ecst/success/scholarships-awards	Scholarships and Awards
+https://www.calstatela.edu/ecst/success/careers-and-development	Careers and Development
+https://www.calstatela.edu/ecst/success/preview-orientation	Preview and Orientation
+https://www.calstatela.edu/ecst/departments-and-degree-programs	Departments and Majors
+https://www.calstatela.edu/ecst/departments-and-degree-programs	Undergraduate Programs
+https://www.calstatela.edu/ecst/graduateprogram	Graduate Programs
+https://www.calstatela.edu/ecst/success	ECST Engagement
+https://www.calstatela.edu/ecst/uav-competitions	UAV Competitions
+https://www.calstatela.edu/ecst/seniordesign	Capstone Senior Design
+https://www.calstatela.edu/ecst/student-competition-projects	Student Competition Teams
+https://www.calstatela.edu/ecst/success/clubs-and-organizations	Student Organizations and Clubs
+https://www.calstatela.edu/ecst/impact-la	IMPACT LA
+https://www.calstatela.edu/ecst/success/freshman-transfer-programs	Freshman and Transfer Programs
+https://www.calstatela.edu/ecst/success/pre-college-outreach-programs	Pre-College Programs
+https://www.calstatela.edu/ecst/research	Research
+https://www.calstatela.edu/ecst/research	Research Centers and Labs
+https://www.calstatela.edu/ecst/makerspace	ECST Makerspace
+https://www.calstatela.edu/ecst/h2station	Hydrogen Research and Fueling Facility
+https://www.calstatela.edu/ecst/give-ecst	Give to ECST
+/ecst/cs	Department of Computer Science
+/ecst/cs/objectives-outcomes	Objectives & Outcomes
+/ecst/cs/undergraduate	Undergraduate
+https://www.calstatela.edu/admissions	Admission
+/ecst/cs/curriculum-requirements	Curriculum & Requirements
+/ecst/cs/graduation-road-maps	Roadmaps
+https://ecatalog.calstatela.edu/content.php?filter%5B27%5D=CS&filter%5B29%5D=&filter%5Bcourse_type%5D=-1&filter%5Bkeyword%5D=&filter%5B32%5D=1&filter%5Bcpage%5D=1&cur_cat_oid=77&expand=&navoid=11994&search_database=Filter&filter%5Bexact_match%5D=1#acalog_template_course_filter	CS Courses
+https://ecatalog.calstatela.edu/content.php?catoid=77&navoid=11897	GE Courses
+https://www.calstatela.edu/registrar/schedule-classes	Schedule of Courses
+https://www.calstatela.edu/ecst/seniordesign	Capstone Senior Design
+/ecst/cs/graduate	Graduate
+/ecst/cs/admission-prerequisites	Admission & Prerequisites
+https://ecatalog.calstatela.edu/preview_program.php?catoid=77&poid=35252&hl=%22computer+science%22&returnto=search	Curriculum & Requirements
+/ecst/cs/planner	Roadmaps
+http://www.calstatela.edu/graduatethesis	Thesis/Projects
+https://ecatalog.calstatela.edu/content.php?filter%5B27%5D=CS&filter%5B29%5D=&filter%5Bcourse_type%5D=17248&filter%5Bkeyword%5D=&filter%5B32%5D=1&filter%5Bcpage%5D=1&cur_cat_oid=77&expand=&navoid=11994&search_database=Filter&filter%5Bexact_match%5D=1#acalog_template_course_filter	Courses
+https://www.calstatela.edu/registrar/schedule-classes	Schedule of Courses
+/ecst/cs/integrated-bsms	Integrated BS MS
+/ecst/cs/minor-requirements	Minor in CS
+https://www.calstatela.edu/page/computer-science-supplementary-authorization-program	CS Supplementary Authorization
+/ecst/cs/advisement-resources	Advising & Resources
+https://www.calstatela.edu/ecst/cs/cs-faculty-advising-and-office-hours	Faculty Advisors
+https://www.calstatela.edu/ecst/cs/forms	Forms
+https://www.calstatela.edu/ecst/cs/resources	Resources
+/ecst/cs/faculty	Faculty
+/ecst/cs/staff	Staff
+http://www.calstatela.edu/ecst/research	Research
+https://careers.calstatela.edu/en-us/search/?job-mail-subscribe-privacy=agree&search-keyword=Computer%20Science	Employment
+/ecst/cs/contact	Contact
+/ecst/cs/admission-prerequisites	Application Requirements
+/institutionaleffectiveness/student-enrollment	VIEW ENROLLMENT DATA ONLINE
+/ecst/cs/objectives-outcomes	OBJECTIVES & OUTCOMES
+/ecst/research	View Faculty Research
+/ecst/cs/faculty	Meet the Faculty
+/ecst/cs/curriculum-requirements-0	View Curriculum & Requirements
+/about	About Cal State LA
+https://news.calstatela.edu/2022/09/13/cal-state-la-us-news-world-report-rankings/	U.S. News & World Report
+https://www.calstatela.edu/financialaid/cost-attendance	View Cost of Attendance
+https://www.calstatela.edu/admissions/deadlines	Spring 2027 university admissions details
+https://www.calstatela.edu/admissions/deadlines	Fall 2027 university admissions details.
+https://www.calstate.edu/apply	Apply Now
+/cdn-cgi/l/email-protection#96d3d5c5c2d1e4f7f2d7f2fbffe5e5fff9f8d6f5f7fae5e2f7e2f3faf7b8f3f2e3	[email protected]
+/	
+https://www.facebook.com/CalStateLA	
+https://twitter.com/calstatela	
+https://www.instagram.com/calstatela	
+https://www.linkedin.com/school/california-state-university-los-angeles	
+https://www.youtube.com/user/csulosangeles	
+/contact-us	Contact Us
+https://news.calstatela.edu/	Media
+/strategic-communications/social-media-directory	Social Media Hub
+/advancement/ways-give	Ways to Give
+/map	Campus Map
+/publicsafety	Campus Safety
+/dining-on-campus/hours-services	Dining on Campus
+/file-viewers	File Viewers
+/parking	Parking & Transportation
+/studenthealthcenter	Student Health Center
+/accessibility/accessibility-statement-and-support	Accessibility
+/wscuc	Accreditation
+/sites/default/files/2026%20Annual%20Security%20Report.pdf	Annual Security Report
+/sites/default/files/2026%20Campus%20Safety%20Plan.pdf	Campus Safety Plan
+#cookiesettings	Cookie Settings
+https://www.calstate.edu/	CSU System
+/privacy	Privacy
+/hrm/oedi-title-ix	Title IX
+/tribal-relations	Tribal Relations
+#top	Back to top
+/academicresources/academic-calendar	Academic Calendar
+/accessibility/accessibility-statement-and-support	Accessibility
+/map	Campus Map
+/commencement	Commencement
+/president	Office of the President
+/students-families/students-dependents	Student Parent Resources
+https://www.facebook.com/CalStateLA	
+https://twitter.com/calstatela	
+https://www.instagram.com/calstatela	
+https://www.linkedin.com/school/california-state-university-los-angeles	
+https://www.youtube.com/user/csulosangeles	
+/about	About
+/academics	Academics
+/admissions	Admissions & Aid
+/student-success	Student Success
+/campus-life	Campus Life
+/diversity	Diversity
+/public-good	Public Good
+https://lagoldeneagles.com	Athletics
+https://bit.ly/calstatela-apply	APPLY
+/givenow	GIVE
+https://my.calstatela.edu	MyCalStateLA
+https://directory.calstatela.edu	Directory
+/library	Library
+/search	Search
+https://bit.ly/calstatela-apply	APPLY
+/givenow	GIVE
+/academicresources/academic-calendar	Academic Calendar
+/accessibility/accessibility-statement-and-support	Accessibility
+/map	Campus Map
+/commencement	Commencement
+/president	Office of the President
+/students-families/students-dependents	Student Parent Resources
+/students	Students
+/faculty-staff	Faculty & Staff
+/alumni	Alumni
