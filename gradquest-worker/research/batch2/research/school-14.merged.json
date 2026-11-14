@@ -1,0 +1,998 @@
+{
+  "schoolId": 14,
+  "schoolName": "San Diego State University",
+  "programName": "Computer Science, M.S.",
+  "pages": [
+    {
+      "kind": "overview",
+      "url": "https://cs.sdsu.edu/computer-science-degree-programs/"
+    },
+    {
+      "kind": "overview",
+      "url": "https://cs.sdsu.edu/"
+    },
+    {
+      "kind": "admissions",
+      "url": "https://admissions.sdsu.edu/grad-programs/masters"
+    },
+    {
+      "kind": "faculty",
+      "url": "https://cs.sdsu.edu/faculty/"
+    },
+    {
+      "kind": "faculty",
+      "url": "https://cs.sdsu.edu/graduate-advising/"
+    },
+    {
+      "kind": "deadlines",
+      "url": "https://admissions.sdsu.edu/grad-programs/masters"
+    },
+    {
+      "kind": "faculty",
+      "url": "https://cs.sdsu.edu/people/hyunjong-choi"
+    },
+    {
+      "kind": "faculty",
+      "url": "https://cs.sdsu.edu/people/bryan-donyanavard"
+    },
+    {
+      "kind": "faculty",
+      "url": "https://cs.sdsu.edu/people/hajar-homayouni"
+    },
+    {
+      "kind": "faculty",
+      "url": "https://cs.sdsu.edu/people/xiaobai-liu"
+    },
+    {
+      "kind": "faculty",
+      "url": "https://cs.sdsu.edu/people/hoa-vu"
+    },
+    {
+      "kind": "faculty",
+      "url": "https://cs.sdsu.edu/people/xin-zhang"
+    },
+    {
+      "kind": "faculty",
+      "url": "https://cs.sdsu.edu/people/shangping-ren"
+    },
+    {
+      "kind": "faculty",
+      "url": "https://cs.sdsu.edu/people/roger-whitney"
+    },
+    {
+      "kind": "faculty",
+      "url": "https://cs.sdsu.edu/people/wei-wang"
+    },
+    {
+      "kind": "faculty",
+      "url": "https://cs.sdsu.edu/people/robert-beverly/"
+    },
+    {
+      "kind": "faculty",
+      "url": "https://cs.sdsu.edu/people/joann-chen/"
+    },
+    {
+      "kind": "faculty",
+      "url": "https://cs.sdsu.edu/people/salimeh-sekeh/"
+    },
+    {
+      "kind": "faculty",
+      "url": "https://cs.sdsu.edu/people/jianshu-liu/"
+    },
+    {
+      "kind": "faculty",
+      "url": "https://cs.sdsu.edu/people/yifan-zhang/"
+    },
+    {
+      "kind": "faculty",
+      "url": "https://cs.sdsu.edu/people/tao-xie"
+    },
+    {
+      "kind": "curriculum",
+      "url": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12288"
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "kind": "overview",
+      "name": "M.S. study areas and culminating options",
+      "detail": "Department degree-programs page: the M.S. includes advanced study and research in areas such as AI, machine learning, and software engineering, with a thesis project or a comprehensive exam.",
+      "sourceUrl": "https://cs.sdsu.edu/computer-science-degree-programs/",
+      "quote": "Graduates of the Master of Science in Computer Science program at San Diego State University engage in advanced study and research in various computing domains, including artificial intelligence, machine learning, and software engineering."
+    },
+    {
+      "id": "f2",
+      "kind": "requirement",
+      "name": "Thesis or comprehensive exam",
+      "detail": "Students may complete a thesis project with faculty or a comprehensive exam.",
+      "sourceUrl": "https://cs.sdsu.edu/computer-science-degree-programs/",
+      "quote": "Students may choose to either complete a thesis project, collaborating closely with faculty on innovative research that addresses real-world problems, or opt for a comprehensive exam to fulfill their degree requirements."
+    },
+    {
+      "id": "f3",
+      "kind": "requirement",
+      "name": "No letters, SOP, or resumes",
+      "detail": "University master's-degrees page, Computer Science, M.S. section: the department does not require or consider letters of recommendation, statements of purpose, or resumes.",
+      "sourceUrl": "https://admissions.sdsu.edu/grad-programs/masters",
+      "quote": "The Computer Science Department does not require nor take into consideration letters of recommendation, statements of purpose, or resumes."
+    },
+    {
+      "id": "f4",
+      "kind": "deadline",
+      "name": "Fall 2027 Cal State Apply",
+      "detail": "Computer Science, M.S. section: Fall 2027 Cal State Apply deadline is February 1.",
+      "sourceUrl": "https://admissions.sdsu.edu/grad-programs/masters",
+      "quote": "resumes. Fall 2027 Deadlines Submit Cal State Apply Application: February 1"
+    },
+    {
+      "id": "f5",
+      "kind": "deadline",
+      "name": "Fall 2027 documents",
+      "detail": "Computer Science, M.S. section: documents to Graduate Admissions are due February 15.",
+      "sourceUrl": "https://admissions.sdsu.edu/grad-programs/masters",
+      "quote": "Submit Documents to Graduate Admissions: February 15 Spring 2027 Deadlines Not currently accepting applications for spring semester Contact Information Department of Computer Science"
+    },
+    {
+      "id": "f6",
+      "kind": "deadline",
+      "name": "Spring 2027 not accepting applications",
+      "detail": "Computer Science, M.S. section: the program is not currently accepting applications for spring semester.",
+      "sourceUrl": "https://admissions.sdsu.edu/grad-programs/masters",
+      "quote": "Not currently accepting applications for spring semester"
+    },
+    {
+      "id": "f7",
+      "kind": "faculty",
+      "name": "Roger Whitney",
+      "detail": "Graduate Advisor, Associate Professor of Computer Science (department listing).",
+      "sourceUrl": "https://cs.sdsu.edu/graduate-advising/",
+      "quote": "Roger Whitney, Ph.D. Graduate Advisor Associate Professor of Computer Science"
+    },
+    {
+      "id": "f8",
+      "kind": "faculty",
+      "name": "Wei Wang",
+      "detail": "Graduate Advisor, Professor of Computer Science (department listing).",
+      "sourceUrl": "https://cs.sdsu.edu/graduate-advising/",
+      "quote": "Wei Wang, Ph.D. Graduate Advisor Professor of Computer Science"
+    },
+    {
+      "id": "f9",
+      "kind": "faculty",
+      "name": "Hyunjong Choi, Ph.D.",
+      "detail": "Assistant Professor of Computer Science. Department-wide faculty listing (not M.S.-program-specific).",
+      "sourceUrl": "https://cs.sdsu.edu/faculty/",
+      "quote": "Real-Time Embedded and Cyber-Physical Systems"
+    },
+    {
+      "id": "f10",
+      "kind": "faculty",
+      "name": "Bryan Donyanavard, Ph.D.",
+      "detail": "Assistant Professor of Computer Science. Department-wide faculty listing (not M.S.-program-specific).",
+      "sourceUrl": "https://cs.sdsu.edu/faculty/",
+      "quote": "Self-Aware Computing Systems, Cyber-Physical Systems Management and Optimization"
+    },
+    {
+      "id": "f11",
+      "kind": "faculty",
+      "name": "Hajar Homayouni, Ph.D.",
+      "detail": "Assistant Professor of Computer Science. Department-wide faculty listing (not M.S.-program-specific).",
+      "sourceUrl": "https://cs.sdsu.edu/faculty/",
+      "quote": "Data Science, Database, Applied Machine Learning, Interpretability of Machine Learning, Big Data Quality Assurance"
+    },
+    {
+      "id": "f12",
+      "kind": "faculty",
+      "name": "Xiaobai Liu, Ph.D.",
+      "detail": "Associate Professor of Computer Science. Department-wide faculty listing (not M.S.-program-specific).",
+      "sourceUrl": "https://cs.sdsu.edu/faculty/",
+      "quote": "Computer Vision, Machine Learning, Computational Statistics and their Applications to Clinic Diagnosis, Sports, Transportation, Surveillance, Video Games"
+    },
+    {
+      "id": "f13",
+      "kind": "faculty",
+      "name": "Hoa Vu, Ph.D.",
+      "detail": "Assistant Professor of Computer Science. Department-wide faculty listing (not M.S.-program-specific).",
+      "sourceUrl": "https://cs.sdsu.edu/faculty/",
+      "quote": "Theoretical Computer Science, Graph and Approximation Algorithms, Parameterized Algorithms, Sketching Algorithms"
+    },
+    {
+      "id": "f14",
+      "kind": "faculty",
+      "name": "Xin Zhang, Ph.D.",
+      "detail": "Assistant Professor of Computer Science. Department-wide faculty listing (not M.S.-program-specific).",
+      "sourceUrl": "https://cs.sdsu.edu/faculty/",
+      "quote": "Spatial-Temporal Data Science, Deep Learning, Imitation Learning, Meta-learning"
+    },
+    {
+      "id": "f15",
+      "kind": "faculty",
+      "name": "Shangping Ren, Ph.D.",
+      "detail": "Department Chair, Professor of Computer Science. Department-wide faculty listing (not M.S.-program-specific).",
+      "sourceUrl": "https://cs.sdsu.edu/faculty/",
+      "quote": "Cyber-Physical Systems, Real-Time Scheduling, Cloud Computing"
+    },
+    {
+      "id": "f16",
+      "kind": "faculty",
+      "name": "Roger Whitney, Ph.D.",
+      "detail": "Graduate Advisor, Associate Professor. Department-wide faculty listing (not M.S.-program-specific).",
+      "sourceUrl": "https://cs.sdsu.edu/faculty/",
+      "quote": "Object-Oriented Programming, Functional Programming, Software Development, Mobile Computing"
+    },
+    {
+      "id": "f17",
+      "kind": "faculty",
+      "name": "Wei Wang, Ph.D.",
+      "detail": "Graduate Advisor, Professor. Department-wide faculty listing (not M.S.-program-specific).",
+      "sourceUrl": "https://cs.sdsu.edu/faculty/",
+      "quote": "Wireless Networks, Wireless Multimedia QoE/QoS, Machine Learning in Wireless Networks"
+    },
+    {
+      "id": "f18",
+      "kind": "faculty",
+      "name": "Robert Beverly, Ph.D.",
+      "detail": "Listed on the department faculty page (department-wide, not M.S.-program-specific).",
+      "sourceUrl": "https://cs.sdsu.edu/faculty/",
+      "quote": "Robert Beverly, Ph.D."
+    },
+    {
+      "id": "f19",
+      "kind": "faculty",
+      "name": "Joann Qiongna Chen, Ph.D.",
+      "detail": "Listed on the department faculty page (department-wide, not M.S.-program-specific).",
+      "sourceUrl": "https://cs.sdsu.edu/faculty/",
+      "quote": "Joann Qiongna Chen, Ph.D."
+    },
+    {
+      "id": "f20",
+      "kind": "faculty",
+      "name": "Salimeh Sekeh, Ph.D.",
+      "detail": "Listed on the department faculty page (department-wide, not M.S.-program-specific).",
+      "sourceUrl": "https://cs.sdsu.edu/faculty/",
+      "quote": "Salimeh Sekeh, Ph.D."
+    },
+    {
+      "id": "f21",
+      "kind": "faculty",
+      "name": "Jianshu Liu, Ph.D.",
+      "detail": "Listed on the department faculty page (department-wide, not M.S.-program-specific).",
+      "sourceUrl": "https://cs.sdsu.edu/faculty/",
+      "quote": "Jianshu Liu, Ph.D."
+    },
+    {
+      "id": "f22",
+      "kind": "faculty",
+      "name": "Yifan Zhang, Ph.D.",
+      "detail": "Listed on the department faculty page (department-wide, not M.S.-program-specific).",
+      "sourceUrl": "https://cs.sdsu.edu/faculty/",
+      "quote": "Yifan Zhang, Ph.D."
+    },
+    {
+      "id": "f23",
+      "kind": "faculty",
+      "name": "Tao Xie, Ph.D.",
+      "detail": "Listed on the department faculty page (department-wide, not M.S.-program-specific).",
+      "sourceUrl": "https://cs.sdsu.edu/faculty/",
+      "quote": "Tao Xie, Ph.D."
+    },
+    {
+      "id": "f24",
+      "kind": "faculty",
+      "name": "Hyunjong Choi",
+      "detail": "Profile is linked from the department faculty listing.",
+      "sourceUrl": "https://cs.sdsu.edu/people/hyunjong-choi",
+      "quote": "Hyunjong Choi, Ph.D."
+    },
+    {
+      "id": "f25",
+      "kind": "faculty",
+      "name": "Bryan Donyanavard",
+      "detail": "Profile is linked from the department faculty listing.",
+      "sourceUrl": "https://cs.sdsu.edu/people/bryan-donyanavard",
+      "quote": "Bryan Donyanavard, Ph.D."
+    },
+    {
+      "id": "f26",
+      "kind": "faculty",
+      "name": "Hajar Homayouni",
+      "detail": "Profile is linked from the department faculty listing.",
+      "sourceUrl": "https://cs.sdsu.edu/people/hajar-homayouni",
+      "quote": "Hajar Homayouni, Ph.D."
+    },
+    {
+      "id": "f27",
+      "kind": "faculty",
+      "name": "Xiaobai Liu",
+      "detail": "Profile is linked from the department faculty listing.",
+      "sourceUrl": "https://cs.sdsu.edu/people/xiaobai-liu",
+      "quote": "Xiaobai Liu, Ph.D."
+    },
+    {
+      "id": "f28",
+      "kind": "faculty",
+      "name": "Hoa Vu",
+      "detail": "Profile is linked from the department faculty listing.",
+      "sourceUrl": "https://cs.sdsu.edu/people/hoa-vu",
+      "quote": "Hoa Vu, Ph.D."
+    },
+    {
+      "id": "f29",
+      "kind": "faculty",
+      "name": "Xin Zhang",
+      "detail": "Profile is linked from the department faculty listing.",
+      "sourceUrl": "https://cs.sdsu.edu/people/xin-zhang",
+      "quote": "Xin Zhang, Ph.D."
+    },
+    {
+      "id": "f30",
+      "kind": "faculty",
+      "name": "Shangping Ren",
+      "detail": "Profile is linked from the department faculty listing.",
+      "sourceUrl": "https://cs.sdsu.edu/people/shangping-ren",
+      "quote": "Shangping Ren, Ph.D."
+    },
+    {
+      "id": "f31",
+      "kind": "faculty",
+      "name": "Roger Whitney",
+      "detail": "Profile is linked from the department faculty listing.",
+      "sourceUrl": "https://cs.sdsu.edu/people/roger-whitney",
+      "quote": "Roger Whitney, Ph.D."
+    },
+    {
+      "id": "f32",
+      "kind": "faculty",
+      "name": "Wei Wang",
+      "detail": "Profile is linked from the department faculty listing.",
+      "sourceUrl": "https://cs.sdsu.edu/people/wei-wang",
+      "quote": "Wei Wang, Ph.D."
+    },
+    {
+      "id": "f33",
+      "kind": "faculty",
+      "name": "Robert Beverly",
+      "detail": "Profile is linked from the department faculty listing.",
+      "sourceUrl": "https://cs.sdsu.edu/people/robert-beverly/",
+      "quote": "Robert Beverly, Ph.D."
+    },
+    {
+      "id": "f34",
+      "kind": "faculty",
+      "name": "Joann Qiongna Chen",
+      "detail": "Profile is linked from the department faculty listing.",
+      "sourceUrl": "https://cs.sdsu.edu/people/joann-chen/",
+      "quote": "Joann Q. Chen"
+    },
+    {
+      "id": "f35",
+      "kind": "faculty",
+      "name": "Salimeh Sekeh",
+      "detail": "Profile is linked from the department faculty listing.",
+      "sourceUrl": "https://cs.sdsu.edu/people/salimeh-sekeh/",
+      "quote": "Salimeh Sekeh, Ph.D."
+    },
+    {
+      "id": "f36",
+      "kind": "faculty",
+      "name": "Jianshu Liu",
+      "detail": "Profile is linked from the department faculty listing.",
+      "sourceUrl": "https://cs.sdsu.edu/people/jianshu-liu/",
+      "quote": "Jianshu Liu, Ph.D."
+    },
+    {
+      "id": "f37",
+      "kind": "faculty",
+      "name": "Yifan Zhang",
+      "detail": "Profile is linked from the department faculty listing.",
+      "sourceUrl": "https://cs.sdsu.edu/people/yifan-zhang/",
+      "quote": "Yifan Zhang, Ph.D."
+    },
+    {
+      "id": "f38",
+      "kind": "faculty",
+      "name": "Tao Xie",
+      "detail": "Profile is linked from the department faculty listing.",
+      "sourceUrl": "https://cs.sdsu.edu/people/tao-xie",
+      "quote": "Tao Xie, Ph.D."
+    },
+    {
+      "id": "f39",
+      "kind": "overview",
+      "name": "Catalog heading",
+      "detail": "The 2026-2027 University Catalog program heading is Computer Science, M.S., with Major Code 07011 and Academic Plan Code 773801MSS.",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12288",
+      "quote": "Computer Science, M.S. (Major Code: 07011) (Academic Plan Code: 773801MSS)"
+    },
+    {
+      "id": "f40",
+      "kind": "requirement",
+      "name": "Classified graduate standing required",
+      "detail": "The page requires classified graduate standing and the basic master's-degree requirements described elsewhere in the catalog, plus the departmental requirements on this page. This page does not itself spell out those general classified-standing rules.",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12288",
+      "quote": "In addition to meeting the requirements for classified graduate standing and the basic requirements for the master's degree as described in Requirements for Master's Degrees , the student must meet the following departmental requirements:"
+    },
+    {
+      "id": "f41",
+      "kind": "requirement",
+      "name": "Minimum 31 units",
+      "detail": "Students must complete a minimum of 31 units of 500-, 600-, and 700-level courses selected with advisor approval. Earlier department-page facts did not state a unit total.",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12288",
+      "quote": "Complete a minimum of 31 units of 500-, 600-, and 700-level courses selected with the approval of the advisor."
+    },
+    {
+      "id": "f42",
+      "kind": "requirement",
+      "name": "CS 798 internship units may be added to the 31",
+      "detail": "One to three units of Computer Science 798 may be added to the 31-unit minimum when used for an internship or practical training.",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12288",
+      "quote": "One to three units of Computer Science 798 may be added to the 31 minimum units required, when used for an internship or practical training."
+    },
+    {
+      "id": "f43",
+      "kind": "requirement",
+      "name": "At least 24 units from computer science and mathematics",
+      "detail": "All programs must include at least 24 units chosen from computer science and mathematics.",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12288",
+      "quote": "All programs must include at least 24 units chosen from computer science and mathematics."
+    },
+    {
+      "id": "f44",
+      "kind": "requirement",
+      "name": "Plan A thesis GPA of 3 (first statement)",
+      "detail": "In the departmental-requirements paragraph, the page says selecting Plan A is contingent on a minimum 3 GPA in courses applicable to the master's degree and on finding a full-time computer science faculty member to supervise the thesis, with faculty resources limiting how many students can be accommodated. A later paragraph on the same page says 3.3 GPA. Both sentences are quoted and no winner is chosen.",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12288",
+      "quote": "Selecting Plan A is contingent upon having a minimum 3 GPA in courses applicable to the master's degree, and upon finding a full time computer science faculty member to supervise the thesis.",
+      "verified": false,
+      "verifiedBy": "user 2026-11-13",
+      "rejectedReason": "Rejected by the user: the Plan A thesis GPA is 3.3. This same-page 'minimum 3 GPA' statement was not kept."
+    },
+    {
+      "id": "f45",
+      "kind": "requirement",
+      "name": "Plan A thesis GPA of 3.3 (second statement)",
+      "detail": "In the Advancement to Candidacy paragraph, the same page says selecting Plan A is contingent on a minimum 3.3 GPA in courses applicable to the master's degree and on finding a full-time computer science faculty member to supervise the thesis. The earlier paragraph on this page said 3 GPA. Both sentences are quoted and no winner is chosen.",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12288",
+      "quote": "Selecting Plan A is contingent upon having a minimum 3.3 GPA in courses applicable to the master's degree and finding a full-time computer science faculty member to supervise the thesis.",
+      "verified": true,
+      "verifiedBy": "user 2026-11-13"
+    },
+    {
+      "id": "f46",
+      "kind": "requirement",
+      "name": "Advancement to candidacy",
+      "detail": "All students must satisfy the general catalog requirements for advancement to candidacy and must select Plan A (Thesis) or Plan B (Comprehensive Examinations).",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12288",
+      "quote": "All students must satisfy the general requirements for advancement to candidacy as described in Requirements for Master's Degrees ."
+    },
+    {
+      "id": "f47",
+      "kind": "requirement",
+      "name": "Required courses 16 units",
+      "detail": "Both Plan A and Plan B require the same 16 units of required courses.",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12288",
+      "quote": "Required Courses (16 units) The following courses are required for both Plan A and Plan B."
+    },
+    {
+      "id": "f48",
+      "kind": "course",
+      "name": "CS 514",
+      "detail": "Required 3-unit course for both plans: Database Theory and Implementation.",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12288",
+      "quote": "CS 514 - Database Theory and Implementation Units: 3"
+    },
+    {
+      "id": "f49",
+      "kind": "course",
+      "name": "CS 549",
+      "detail": "Required 3-unit course for both plans: Machine Learning.",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12288",
+      "quote": "CS 549 - Machine Learning Units: 3"
+    },
+    {
+      "id": "f50",
+      "kind": "course",
+      "name": "CS 576",
+      "detail": "Required 3-unit course for both plans: Computer Networks and Distributed Systems.",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12288",
+      "quote": "CS 576 - Computer Networks and Distributed Systems Units: 3"
+    },
+    {
+      "id": "f51",
+      "kind": "course",
+      "name": "CS 577",
+      "detail": "Required 3-unit course for both plans: Principles and Techniques of Data Science.",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12288",
+      "quote": "CS 577 - Principles and Techniques of Data Science Units: 3"
+    },
+    {
+      "id": "f52",
+      "kind": "course",
+      "name": "CS 601",
+      "detail": "Required 1-unit course for both plans: Graduate Seminar.",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12288",
+      "quote": "CS 601 - Graduate Seminar Units: 1"
+    },
+    {
+      "id": "f53",
+      "kind": "course",
+      "name": "CS 660",
+      "detail": "Required 3-unit course for both plans: Algorithm Analysis and Design.",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12288",
+      "quote": "CS 660 - Algorithm Analysis and Design Units: 3"
+    },
+    {
+      "id": "f54",
+      "kind": "requirement",
+      "name": "Plan A elective units",
+      "detail": "Plan A students take 9 units of computer science electives from groups CSY, ISY, and DSC, including at least 6 units of 600- or 700-level computer science courses, excluding CS 790 through CS 799. Three units of 600-level mathematics and statistics from group MST may replace one 600-level computer science course. No more than 3 units of CS 696 and CS 798 can count toward those 9 elective units.",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12288",
+      "quote": "9 units of computer science elective courses from the groups CSY, ISY, and DSC listed below of which at least 6 units must be computer science 600-level or 700-level courses, excluding CS 790 through CS 799."
+    },
+    {
+      "id": "f55",
+      "kind": "requirement",
+      "name": "Plan A MST substitution and special-topics cap",
+      "detail": "Three units of 600-level mathematics and statistical courses from group MST may replace one 600-level computer science course. No more than 3 units of CS 696 and CS 798 can count toward the 9 Plan A elective units.",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12288",
+      "quote": "Three units of 600-level mathematics and statistical courses from the group MST listed below may replace one 600-level computer science course. No more than 3 units of CS 696 and CS 798 can be counted towards the 9 units of elective courses."
+    },
+    {
+      "id": "f56",
+      "kind": "requirement",
+      "name": "Plan A thesis and research units",
+      "detail": "Plan A students must take 3 units of CS797-Research and 3 units of CS799A-Thesis. The thesis requires a report and a defense. CS 799B Thesis or Project Extension, 0 units, may be used if needed.",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12288",
+      "quote": "Plan A students must take 3 units of CS797-Research and 3 units of CS799A-Thesis. The thesis requires report writing and defense."
+    },
+    {
+      "id": "f57",
+      "kind": "requirement",
+      "name": "Plan B elective units",
+      "detail": "Plan B students take 15 units from groups CSY, ISY, and DSC, including at least 12 units of 600- or 700-level computer science courses, excluding CS 790 through CS 799. Three units of 600-level mathematics from group MST may replace three units of 600-level computer science. No more than 3 units from the Special Topics Courses section count toward those 12 units.",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12288",
+      "quote": "15 units from groups CSY, ISY, DSC listed below with at least 12 units of which must be computer science 600 or 700-level courses, excluding CS 790 through CS 799."
+    },
+    {
+      "id": "f58",
+      "kind": "requirement",
+      "name": "Plan B comprehensive exam",
+      "detail": "Plan B students must pass a comprehensive exam covering the required courses and must finish the required courses before taking the exam.",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12288",
+      "quote": "Plan B students must pass the comprehensive exam covering the required courses. Students must complete the required courses before taking the exam."
+    },
+    {
+      "id": "f59",
+      "kind": "requirement",
+      "name": "International Plan B progress rule",
+      "detail": "Full-time international students on Plan B who have finished their required coursework must show progress in at least two areas of study each semester until they have completed all but one, either by qualifying examinations or by additional coursework preapproved by the graduate adviser.",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12288",
+      "quote": "Full-time international students on Plan B who have completed all their required coursework must show progress in at least two areas of study each semester (until they have completed all but one)."
+    },
+    {
+      "id": "f60",
+      "kind": "requirement",
+      "name": "Elective area 600-level unit reminders",
+      "detail": "Electives may come from one or more of the listed areas. In this later paragraph the page says six units must be Computer Sciences 600-level courses for Plan A students, and '12 Twelve' units must be Computer Science 600-level courses for Plan B students. The wording is quoted as written.",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12288",
+      "quote": "Six units must be Computer Sciences 600-level courses (for Plan A students). 12 Twelve units must be Computer Science 600-level courses (for Plan B students)."
+    },
+    {
+      "id": "f61",
+      "kind": "course",
+      "name": "CS 797",
+      "detail": "Plan A Research, 1-3 units; Plan A students must take 3 units.",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12288",
+      "quote": "CS 797 - Research Units: 1-3"
+    },
+    {
+      "id": "f62",
+      "kind": "course",
+      "name": "CS 799A",
+      "detail": "Plan A Thesis or Project, 3 units.",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12288",
+      "quote": "CS 799A - Thesis or Project Units: 3"
+    },
+    {
+      "id": "f63",
+      "kind": "course",
+      "name": "CS 799B",
+      "detail": "Thesis or Project Extension, 0 units, listed as 'if needed.'",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12288",
+      "quote": "CS 799B - Thesis or Project Extension Units: 0 (if needed)"
+    },
+    {
+      "id": "f64",
+      "kind": "course",
+      "name": "CS 562",
+      "detail": "Listed among elective area courses (CSY, ISY, DSC, STC, or MST) on the 2026-2027 catalog program page.",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12288",
+      "quote": "CS 562 - Automata Theory Units: 3"
+    },
+    {
+      "id": "f65",
+      "kind": "course",
+      "name": "CS 572",
+      "detail": "Listed among elective area courses (CSY, ISY, DSC, STC, or MST) on the 2026-2027 catalog program page.",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12288",
+      "quote": "CS 572 - Microprocessor Architecture Units: 3"
+    },
+    {
+      "id": "f66",
+      "kind": "course",
+      "name": "CS 574",
+      "detail": "Listed among elective area courses (CSY, ISY, DSC, STC, or MST) on the 2026-2027 catalog program page.",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12288",
+      "quote": "CS 574 - Computer Security Units: 3"
+    },
+    {
+      "id": "f67",
+      "kind": "course",
+      "name": "CS 578",
+      "detail": "Listed among elective area courses (CSY, ISY, DSC, STC, or MST) on the 2026-2027 catalog program page.",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12288",
+      "quote": "CS 578 - Wireless Networks Units: 3"
+    },
+    {
+      "id": "f68",
+      "kind": "course",
+      "name": "CS 620",
+      "detail": "Listed among elective area courses (CSY, ISY, DSC, STC, or MST) on the 2026-2027 catalog program page.",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12288",
+      "quote": "CS 620 - Formal Languages and Syntactic Analysis I Units: 3"
+    },
+    {
+      "id": "f69",
+      "kind": "course",
+      "name": "CS 635",
+      "detail": "Listed among elective area courses (CSY, ISY, DSC, STC, or MST) on the 2026-2027 catalog program page.",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12288",
+      "quote": "CS 635 - Advanced Object-Oriented Design and Programming Units: 3"
+    },
+    {
+      "id": "f70",
+      "kind": "course",
+      "name": "CS 636",
+      "detail": "Listed among elective area courses (CSY, ISY, DSC, STC, or MST) on the 2026-2027 catalog program page.",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12288",
+      "quote": "CS 636 - Management of Software Development Units: 3"
+    },
+    {
+      "id": "f71",
+      "kind": "course",
+      "name": "CS 679",
+      "detail": "Listed among elective area courses (CSY, ISY, DSC, STC, or MST) on the 2026-2027 catalog program page.",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12288",
+      "quote": "CS 679 - Advanced Multimedia Networks Units: 3"
+    },
+    {
+      "id": "f72",
+      "kind": "course",
+      "name": "CS 521",
+      "detail": "Listed among elective area courses (CSY, ISY, DSC, STC, or MST) on the 2026-2027 catalog program page.",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12288",
+      "quote": "CS 521 - Internet of Things - Software and Systems Units: 3"
+    },
+    {
+      "id": "f73",
+      "kind": "course",
+      "name": "CS 651",
+      "detail": "Listed among elective area courses (CSY, ISY, DSC, STC, or MST) on the 2026-2027 catalog program page.",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12288",
+      "quote": "CS 651 - Machine Learning Operations Units: 3"
+    },
+    {
+      "id": "f74",
+      "kind": "course",
+      "name": "CY 531",
+      "detail": "Listed among elective area courses (CSY, ISY, DSC, STC, or MST) on the 2026-2027 catalog program page.",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12288",
+      "quote": "CY 531 - Software Security Units: 3"
+    },
+    {
+      "id": "f75",
+      "kind": "course",
+      "name": "CY 533",
+      "detail": "Listed among elective area courses (CSY, ISY, DSC, STC, or MST) on the 2026-2027 catalog program page.",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12288",
+      "quote": "CY 533 - Wireless Security Units: 3"
+    },
+    {
+      "id": "f76",
+      "kind": "course",
+      "name": "CY 534",
+      "detail": "Listed among elective area courses (CSY, ISY, DSC, STC, or MST) on the 2026-2027 catalog program page.",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12288",
+      "quote": "CY 534 - Blockchain and Decentralized Cybersecurity Units: 3"
+    },
+    {
+      "id": "f77",
+      "kind": "course",
+      "name": "CY 542",
+      "detail": "Listed among elective area courses (CSY, ISY, DSC, STC, or MST) on the 2026-2027 catalog program page.",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12288",
+      "quote": "CY 542 - Data Privacy Units: 3"
+    },
+    {
+      "id": "f78",
+      "kind": "course",
+      "name": "CY 569",
+      "detail": "Listed among elective area courses (CSY, ISY, DSC, STC, or MST) on the 2026-2027 catalog program page.",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12288",
+      "quote": "CY 569 - Applied Cybersecurity Management Units: 3"
+    },
+    {
+      "id": "f79",
+      "kind": "course",
+      "name": "CY 575",
+      "detail": "Listed among elective area courses (CSY, ISY, DSC, STC, or MST) on the 2026-2027 catalog program page.",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12288",
+      "quote": "CY 575 - Advanced Data Network Security and Privacy Units: 3"
+    },
+    {
+      "id": "f80",
+      "kind": "course",
+      "name": "CS 553",
+      "detail": "Listed among elective area courses (CSY, ISY, DSC, STC, or MST) on the 2026-2027 catalog program page.",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12288",
+      "quote": "CS 553 - Neural Networks Units: 3"
+    },
+    {
+      "id": "f81",
+      "kind": "course",
+      "name": "CS 556",
+      "detail": "Listed among elective area courses (CSY, ISY, DSC, STC, or MST) on the 2026-2027 catalog program page.",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12288",
+      "quote": "CS 556 - Robotics Units: 3"
+    },
+    {
+      "id": "f82",
+      "kind": "course",
+      "name": "CS 559",
+      "detail": "Listed among elective area courses (CSY, ISY, DSC, STC, or MST) on the 2026-2027 catalog program page.",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12288",
+      "quote": "CS 559 - Computer Vision Units: 3"
+    },
+    {
+      "id": "f83",
+      "kind": "course",
+      "name": "CS 561",
+      "detail": "Listed among elective area courses (CSY, ISY, DSC, STC, or MST) on the 2026-2027 catalog program page.",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12288",
+      "quote": "CS 561 - Deep Learning for Natural Language Processing Units: 3"
+    },
+    {
+      "id": "f84",
+      "kind": "course",
+      "name": "CS 583",
+      "detail": "Listed among elective area courses (CSY, ISY, DSC, STC, or MST) on the 2026-2027 catalog program page.",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12288",
+      "quote": "CS 583 - 3D Game Programming Units: 3"
+    },
+    {
+      "id": "f85",
+      "kind": "course",
+      "name": "CS 653",
+      "detail": "Listed among elective area courses (CSY, ISY, DSC, STC, or MST) on the 2026-2027 catalog program page.",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12288",
+      "quote": "CS 653 - Data Mining Units: 3"
+    },
+    {
+      "id": "f86",
+      "kind": "course",
+      "name": "CS 656",
+      "detail": "Listed among elective area courses (CSY, ISY, DSC, STC, or MST) on the 2026-2027 catalog program page.",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12288",
+      "quote": "CS 656 - Advanced Robotics Units: 3"
+    },
+    {
+      "id": "f87",
+      "kind": "course",
+      "name": "CS 657",
+      "detail": "Listed among elective area courses (CSY, ISY, DSC, STC, or MST) on the 2026-2027 catalog program page.",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12288",
+      "quote": "CS 657 - Intelligent Systems Units: 3"
+    },
+    {
+      "id": "f88",
+      "kind": "course",
+      "name": "CS 659",
+      "detail": "Listed among elective area courses (CSY, ISY, DSC, STC, or MST) on the 2026-2027 catalog program page.",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12288",
+      "quote": "CS 659 - Visual Perception and Learning Units: 3"
+    },
+    {
+      "id": "f89",
+      "kind": "course",
+      "name": "CS 652",
+      "detail": "Listed among elective area courses (CSY, ISY, DSC, STC, or MST) on the 2026-2027 catalog program page.",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12288",
+      "quote": "CS 652 - Foundations of Deep Learning Units: 3"
+    },
+    {
+      "id": "f90",
+      "kind": "course",
+      "name": "CS 654",
+      "detail": "Listed among elective area courses (CSY, ISY, DSC, STC, or MST) on the 2026-2027 catalog program page.",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12288",
+      "quote": "CS 654 - Reinforcement Learning Units: 3"
+    },
+    {
+      "id": "f91",
+      "kind": "course",
+      "name": "CS 668",
+      "detail": "Listed among elective area courses (CSY, ISY, DSC, STC, or MST) on the 2026-2027 catalog program page.",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12288",
+      "quote": "CS 668 - Applied Large Language Models Units: 3"
+    },
+    {
+      "id": "f92",
+      "kind": "course",
+      "name": "CS 759",
+      "detail": "Listed among elective area courses (CSY, ISY, DSC, STC, or MST) on the 2026-2027 catalog program page.",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12288",
+      "quote": "CS 759 - Advanced Computer Vision Units: 3"
+    },
+    {
+      "id": "f93",
+      "kind": "course",
+      "name": "CY 541",
+      "detail": "Listed among elective area courses (CSY, ISY, DSC, STC, or MST) on the 2026-2027 catalog program page.",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12288",
+      "quote": "CY 541 - AI in Cybersecurity Units: 3"
+    },
+    {
+      "id": "f94",
+      "kind": "course",
+      "name": "CY 632",
+      "detail": "Listed among elective area courses (CSY, ISY, DSC, STC, or MST) on the 2026-2027 catalog program page.",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12288",
+      "quote": "CY 632 - Privacy and Security in Modern Computing Units: 3"
+    },
+    {
+      "id": "f95",
+      "kind": "course",
+      "name": "CS 558",
+      "detail": "Listed among elective area courses (CSY, ISY, DSC, STC, or MST) on the 2026-2027 catalog program page.",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12288",
+      "quote": "CS 558 - Computer Simulation Units: 3"
+    },
+    {
+      "id": "f96",
+      "kind": "course",
+      "name": "CS 581",
+      "detail": "Listed among elective area courses (CSY, ISY, DSC, STC, or MST) on the 2026-2027 catalog program page.",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12288",
+      "quote": "CS 581 - Computational Linguistics Units: 3"
+    },
+    {
+      "id": "f97",
+      "kind": "course",
+      "name": "CS 582",
+      "detail": "Listed among elective area courses (CSY, ISY, DSC, STC, or MST) on the 2026-2027 catalog program page.",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12288",
+      "quote": "CS 582 - Introduction to Speech Processing Units: 3"
+    },
+    {
+      "id": "f98",
+      "kind": "course",
+      "name": "CS 605",
+      "detail": "Listed among elective area courses (CSY, ISY, DSC, STC, or MST) on the 2026-2027 catalog program page.",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12288",
+      "quote": "CS 605 - Scientific Computing Units: 3"
+    },
+    {
+      "id": "f99",
+      "kind": "course",
+      "name": "CS 615",
+      "detail": "Listed among elective area courses (CSY, ISY, DSC, STC, or MST) on the 2026-2027 catalog program page.",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12288",
+      "quote": "CS 615 - Spatial Database Units: 3"
+    },
+    {
+      "id": "f100",
+      "kind": "course",
+      "name": "CS 662",
+      "detail": "Listed among elective area courses (CSY, ISY, DSC, STC, or MST) on the 2026-2027 catalog program page.",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12288",
+      "quote": "CS 662 - Theory of Parallel Algorithms Units: 3"
+    },
+    {
+      "id": "f101",
+      "kind": "course",
+      "name": "CS 682",
+      "detail": "Listed among elective area courses (CSY, ISY, DSC, STC, or MST) on the 2026-2027 catalog program page.",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12288",
+      "quote": "CS 682 - Speech Processing Units: 3"
+    },
+    {
+      "id": "f102",
+      "kind": "course",
+      "name": "CS 663",
+      "detail": "Listed among elective area courses (CSY, ISY, DSC, STC, or MST) on the 2026-2027 catalog program page.",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12288",
+      "quote": "CS 663 - Algorithms for Big Data Units: 3"
+    },
+    {
+      "id": "f103",
+      "kind": "course",
+      "name": "CS 677",
+      "detail": "Listed among elective area courses (CSY, ISY, DSC, STC, or MST) on the 2026-2027 catalog program page.",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12288",
+      "quote": "CS 677 - Data Quality Assurance Units: 3"
+    },
+    {
+      "id": "f104",
+      "kind": "course",
+      "name": "CS 649",
+      "detail": "Listed among elective area courses (CSY, ISY, DSC, STC, or MST) on the 2026-2027 catalog program page.",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12288",
+      "quote": "CS 649 - Big Data Tools and Methods Units: 3"
+    },
+    {
+      "id": "f105",
+      "kind": "course",
+      "name": "CS 696",
+      "detail": "Listed among elective area courses (CSY, ISY, DSC, STC, or MST) on the 2026-2027 catalog program page.",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12288",
+      "quote": "CS 696 - Selected Topics in Computer Science Units: 3"
+    },
+    {
+      "id": "f106",
+      "kind": "course",
+      "name": "CS 798",
+      "detail": "Listed among elective area courses (CSY, ISY, DSC, STC, or MST) on the 2026-2027 catalog program page.",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12288",
+      "quote": "CS 798 - Special Study Units: 1-3"
+    },
+    {
+      "id": "f107",
+      "kind": "course",
+      "name": "MATH 625",
+      "detail": "Listed among elective area courses (CSY, ISY, DSC, STC, or MST) on the 2026-2027 catalog program page.",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12288",
+      "quote": "MATH 625 - Algebraic Coding Theory Units: 3"
+    },
+    {
+      "id": "f108",
+      "kind": "course",
+      "name": "MATH 626",
+      "detail": "Listed among elective area courses (CSY, ISY, DSC, STC, or MST) on the 2026-2027 catalog program page.",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12288",
+      "quote": "MATH 626 - Cryptography Units: 3"
+    },
+    {
+      "id": "f109",
+      "kind": "course",
+      "name": "MATH 668",
+      "detail": "Listed among elective area courses (CSY, ISY, DSC, STC, or MST) on the 2026-2027 catalog program page.",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12288",
+      "quote": "MATH 668 - Applied Fourier Analysis Units: 3"
+    },
+    {
+      "id": "f110",
+      "kind": "course",
+      "name": "MATH 693A",
+      "detail": "Listed among elective area courses (CSY, ISY, DSC, STC, or MST) on the 2026-2027 catalog program page.",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12288",
+      "quote": "MATH 693A - Advanced Numerical Methods: Computational Optimization Units: 3"
+    },
+    {
+      "id": "f111",
+      "kind": "course",
+      "name": "STAT 610",
+      "detail": "Listed among elective area courses (CSY, ISY, DSC, STC, or MST) on the 2026-2027 catalog program page.",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12288",
+      "quote": "STAT 610 - Linear Regression Models Units: 3"
+    },
+    {
+      "id": "f112",
+      "kind": "course",
+      "name": "STAT 676",
+      "detail": "Listed among elective area courses (CSY, ISY, DSC, STC, or MST) on the 2026-2027 catalog program page.",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12288",
+      "quote": "STAT 676 - Bayesian Statistics Units: 3"
+    }
+  ]
+}

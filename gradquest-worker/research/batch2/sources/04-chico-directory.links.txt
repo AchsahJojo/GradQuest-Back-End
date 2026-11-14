@@ -1,0 +1,109 @@
+http://portal.csuchico.edu/	Portal
+https://outlook.com/csuchico.edu	Email
+http://www.csuchico.edu/resources	student resources
+http://www.csuchico.edu/catalog/	Catalog
+http://www.csuchico.edu/schedule/	Class Schedule
+https://www.csuchico.edu/maps/campus/index.shtml	Campus Map
+http://www.csuchico.edu/directory/	Directory
+http://www.csuchico.edu/library/	Library
+#task-nav	Open Task Nav
+#	Close Task Nav
+http://www.csuchico.edu/	California State University, Chico
+http://browsehappy.com/	Upgrade now
+/directory/	CAMPUS DIRECTORY
+http://www.csuchico.edu	CSU, Chico
+/directory/	Campus Directory
+/directory/Department/DepartmentDetails?deptID=1	Provost Office
+/directory/Department/DepartmentDetails?deptID=71	College of Engineering,...
+/directory/Department/DepartmentDetails?deptID=65	Computer Science Department
+tel:530-898-6442	530-898-6442
+https://www.csuchico.edu/academics/college/engineering/departments/computer-science/index.shtml	https://www.csuchico.edu/academics/college/engineering/departments/computer-science/index.shtml
+/directory/Employee/EmployeeDetails?userID=tagibson	Todd Gibson
+mailto:tagibson@csuchico.edu	tagibson@csuchico.edu
+tel:530-898-5709	530-898-5709
+/directory/Employee/EmployeeDetails?userID=kstumbo	Kathleen Stumbo
+mailto:kstumbo@csuchico.edu	kstumbo@csuchico.edu
+tel:530-898-6443	530-898-6443
+/directory/Employee/EmployeeDetails?userID=oal-saadi	Oleksiy Al-Saadi
+mailto:oal-saadi@csuchico.edu	oal-saadi@csuchico.edu
+tel:530-893-6442	530-893-6442
+/directory/Employee/EmployeeDetails?userID=aattarwala	Abbas Attarwala
+mailto:aattarwala@csuchico.edu	aattarwala@csuchico.edu
+tel:530-898-6210	530-898-6210
+/directory/Employee/EmployeeDetails?userID=kbuffardi	Kevin Buffardi
+mailto:kbuffardi@csuchico.edu	kbuffardi@csuchico.edu
+tel:530-898-5617	530-898-5617
+/directory/Employee/EmployeeDetails?userID=rdenn	Riley Denn
+mailto:rdenn@csuchico.edu	rdenn@csuchico.edu
+tel:--	--
+/directory/Employee/EmployeeDetails?userID=bcdixon	Bryan Dixon
+mailto:Bcdixon@csuchico.edu	Bcdixon@csuchico.edu
+tel:530-898-4864	530-898-4864
+/directory/Employee/EmployeeDetails?userID=bherring	Brian Herring
+mailto:BHerring@csuchico.edu	BHerring@csuchico.edu
+tel:530-898-6442	530-898-6442
+/directory/Employee/EmployeeDetails?userID=mhill18	Matthew D Hill
+mailto:mhill18@csuchico.edu	mhill18@csuchico.edu
+tel:530-898-6442	530-898-6442
+/directory/Employee/EmployeeDetails?userID=ktisenegger	Kathleen Isenegger
+mailto:ktisenegger@csuchico.edu	ktisenegger@csuchico.edu
+tel:530-898-6442	530-898-6442
+/directory/Employee/EmployeeDetails?userID=bjuliano	Ben Juliano
+mailto:bjuliano@csuchico.edu	bjuliano@csuchico.edu
+tel:530-898-6442	530-898-6442
+/directory/Employee/EmployeeDetails?userID=mlarson1	Michael Larson
+mailto:mlarson1@csuchico.edu	mlarson1@csuchico.edu
+tel:530-898-6442	530-898-6442
+/directory/Employee/EmployeeDetails?userID=jraigoza	Jaime Raigoza
+mailto:jraigoza@csuchico.edu	jraigoza@csuchico.edu
+tel:530-898-5998	530-898-5998
+/directory/Employee/EmployeeDetails?userID=bshen2	Bo Shen
+mailto:bshen2@csuchico.edu	bshen2@csuchico.edu
+tel:530-898-6442	530-898-6442
+/directory/Employee/EmployeeDetails?userID=sbsiewert	Samuel B Siewert
+mailto:sbsiewert@csuchico.edu	sbsiewert@csuchico.edu
+tel:530-898-4342	530-898-4342
+/directory/Employee/EmployeeDetails?userID=ktian	Kun Tian
+mailto:ktian@csuchico.edu	ktian@csuchico.edu
+tel:530-898-4449	530-898-4449
+/directory/Employee/EmployeeDetails?userID=rctillquist	Richard C Tillquist
+mailto:rctillquist@csuchico.edu	rctillquist@csuchico.edu
+tel:530-898-6806	530-898-6806
+/directory/Employee/EmployeeDetails?userID=swong26	Shelley M Wong
+mailto:swong26@csuchico.edu	swong26@csuchico.edu
+tel:530-898-6442	530-898-6442
+/directory/Employee/EmployeeDetails?userID=dzeichick	David Zeichick
+mailto:dzeichick@csuchico.edu	dzeichick@csuchico.edu
+tel:530-898-4304	530-898-4304
+#searchPanel	Alphabetical Listings
+#infoPanel	University Information
+http://www.csuchico.edu	http://www.csuchico.edu
+/directory/OrgChart	Campus Organizational Chart
+#emergencyPanel	Emergency Service
+#numbersPanel	Important Numbers
+#correctionsPanel	Corrections
+/directory/Maintainer	directory maintainer
+https://dirmain.csuchico.edu/dirmain	Directory Login
+#helpPanel	Directory Help
+https://support.csuchico.edu/TDClient/1984/Portal/KB/ArticleDet?ID=114843	Directory quick guides
+mailto:directory@csuchico.edu	directory@csuchico.edu
+http://www.csuchico.edu/contact/index.shtml	Contact Us
+http://www.csuchico.edu/index.shtml	Chico State Home
+http://www.csuchico.edu/about/index.shtml	About Us
+http://www.csuchico.edu/academics/index.shtml	Academics
+http://www.csuchico.edu/admissions/index.shtml	Admissions
+http://www.chicowildcats.com/	Athletics
+http://www.csuchico.edu/giving/index.shtml	Give a Gift
+http://www.csuchico.edu/prospective-students/index.shtml	Prospective Students
+http://www.csuchico.edu/alumni/index.shtml	Alumni
+http://www.csuchico.edu/parents/index.shtml	Parents
+http://www.csuchico.edu/visit-chico-state/index.shtml	Visitors
+http://www.csuchico.edu/emergencyprep/index.shtml	Emergency Preparedness
+http://www.csuchico.edu/employment/index.shtml	Employment Opportunity
+http://www.csuchico.edu/hr/coi/gifts-to-agency.shtml	Gifts to Agency
+http://www.csuchico.edu/title-ix/index.shtml	Title IX
+http://www.csuchico.edu/help/index.shtml	Help
+http://www.csuchico.edu/arc/index.shtml	Accessibility Resource Center
+http://www.csuchico.edu/arc/accessibility.shtml	Report an Accessibility Issue
+http://www.csuchico.edu/about-site/change-form.php	Report a Broken Link
+http://get.adobe.com/reader/	Download Adobe Reader

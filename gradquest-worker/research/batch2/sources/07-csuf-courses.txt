@@ -1,0 +1,281 @@
+TITLE: Courses - Software Engineering Program | CSUF
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+- 
+- 
+
+Skip Navigation 
+
+California State University, Fullerton 
+
+Site Menu 
+
+College of Engineering and Computer Science 
+Software Engineering Program 
+
+- Main Navigation 
+
+- 
+About
+
+- 
+Program Cost
+
+- 
+Courses
+
+- 
+FAQ
+
+- 
+How to Apply
+
+- 
+How to Enroll
+
+- 
+Faculty
+
+- 
+Contact and Support
+
+- 
+Program Brochure
+
+- 
+Program Handbook
+
+- 
+Orientation and Midpoint Seminars
+
+- 
+Workshop and Lectures
+
+H1: Courses
+
+H2: Software Engineering Course Description
+
+H3: 
+CPSC 541 - Systems and Software Standards and Requirements (3 units) 
+
+Prerequisite: CPSC 362 or equivalent work experience.
+
+Course Description: This class serves as the foundation for other process-oriented classes by outlining the benefits of Software Engineering Standards. The students will be introduced to the SESC framework and the IEEE Software Engineering Standards. The course will cover establishing of the following standards: Software Life Cycle Processes, Work Product Standards, Process Standards, Requirement Analysis and Management, and System Integration. Additionally, the framework of CMMI will be introduced, and a number of practical lessons discussed.
+
+Textbook: Software Requirements (3 rd edition), Karl Wiegers, Microsoft Press 2013.
+
+H3: 
+CPSC 542 - Software Verification and Validation (3 units) 
+
+Prerequisite: CPSC 362 or equivalent work experience. 
+
+Course Description: The students will learn how to ensure that a high quality software product is developed. The course will cover the theory and practice of V&V methods such as walkthroughs, inspections, and CleanRoom. It will show how to create functional test cases, using boundary value analysis and equivalence classes, and how to create structural test cases, determine degrees of coverage, and perform data flow analysis.
+
+Textbook: Practical Software Testing, by Ilene Burstein, Springer 2003 (ISBN 0-387-95131-8).
+
+H3: 
+CPSC 543 - Software Maintenance (3 units) 
+
+Prerequisite: CPSC 362 or equivalent work experience.
+
+Course Description: The Student will learn the principles of generating maintainable software. The course will also cover Theory and practice of maintaining large scale software and application of maintenance metrics. In this course, we will cover the problems in maintaining software systems, building software in view of the maintenance problems, the activity of maintenance and some management issues in maintenance.
+
+Textbook: Software Maintenance (2nd edition), Grubb and Takang, World Scientific 2003.
+
+H3: 
+CPSC 544 - Advanced Software Process (3 units) 
+
+Prerequisite: CPSC 362 or equivalent work experience.
+
+Course Description: This course provides advanced guidance for defining and improving the software development process. In this class, students will learn the concepts of software maturity framework, principles of process improvement and software process assessment. Current topics such as CMMI and SCAMPI will be covered.
+
+Textbook: Humphrey, Watts S. Managing Software Process, Addison Wesley 1989. (29 th Printing, 2003) (ISBN-10:0-201-18095-2) (ISBN-13:978-020-1180954)
+
+H3: 
+CPSC 545 - Software Design and Architecture (3 units) 
+
+Prerequisite: CPSC 362 or equivalent work experience.
+
+Course Description: The students will learn how to analyze and design large scale software and apply different architecture styles to software design. Case studies and projects are assigned as a practical component of the course.
+
+Textbook: Bass, Len, Clemets, Paul, and Kazman, Rick. Software Architecture in Practice, 3 rd Ed. 
+SEI Series in Software Engineering, Addison-Wesley Professional, Oct. 2012. Hardcover: 640 pages. (ISBN-13: 978-0-321- 81573-6) (ISBN-10: 0-321-81573-4)
+
+H3: 
+CPSC 546 - Modern Software Management (3 units) 
+
+Prerequisite: CPSC 362 or equivalent work experience. 
+
+Course Description: The students will learn the project management methodologies and techniques, software development process, planning, estimating, organizing, directing, monitoring, controlling software projects, managing risks, and other related software management issues such as infrastructure, quality software development, project and product metrics, and external factors.
+
+Textbooks: 
+(1) 
+
+J. Highsmith, Agile Project Management, ISBN [9780321658395], 
+
+2nd 
+
+edition, Addison - Wesley, 2010 
+
+(2) Donald J. Reifer, Software Management 7th edition edited by IEEE and Wiley Inc., 2006
+
+H3: 
+CPSC 547 - Software Measurement (3 units) 
+
+Prerequisite: CPSC 362 or equivalent work experience.
+
+Course Description: This course explores current software measurement practices. Topics include measuring software specifications and designs; measuring software code and implementation; measuring software testing and evaluation. The course stresses a practitioner-based approach to systematic measurement process model and outlines major paradigms for selecting measures.
+
+Textbook: William a. Florac. Anita D. Carletton, Measuring the Software Process, Statistical Process Control for Software Process Improvement. Addison Wesley. (ISBN 0-201-60444-2)
+
+H3: 
+CPSC 548 - Professional, Ethical and Legal Issues for Software Engineers (3 units) 
+
+Prerequisite: CPSC 362 or equivalent work experience.
+
+Course Description: This course explores professional, legal and ethical issues pertaining to software engineering. Topics include professional codes of ethics, intellectual property laws, computer privacy, and human-computer interaction. The course presents relevant regulatory documents and their applications in analyzing case studies.
+
+Textbook: Michael J. Quinn, Ethics for the INFORMATION AGE, 8th edition, Pearson.
+
+H3: 
+CPSC 589 - Seminar in Computer Science 
+
+Prerequisite: CPSC 362 or equivalent work experience.
+
+Course Description: The online version of CPSC 589, offered to MSE students only. Prepare for the graduate project - survey related work and build a project proposal.
+
+H3: 
+CPSC 597 - Project 
+
+Prerequisite: CPSC 589.
+
+Course Description: The on-line version of CPSC 597, offered to MSE students only. Perform a graduate project as you proposed in CPSC 589 and write a project report.
+
+H2: 
+Schedule by Semester 
+
+H3: First Year: Fall
+
+CPSC 541 
+
+CPSC 544 
+
+Total Units: 6 
+
+H3: First Year: Spring
+
+CPSC 545 
+
+CPSC 546 
+
+Total Units: 6 
+
+H3: First Year: Summer
+
+CPSC 548 
+
+CPSC 589 
+
+Total Units: 6 
+
+H3: Second Year: Fall
+
+CPSC 542 
+
+CPSC 547 
+
+Total Units: 6 
+
+H3: Second Year: Spring
+
+CPSC 543 
+
+CPSC 597 
+
+Total Units: 6 
+
+This site is maintained by 
+College of Engineering and Computer Science .
+
+Last Published 4/14/26 
+
+To report problems or comments with this site, please contact 
+[email protected] . 
+
+© California State University, Fullerton. All Rights Reserved.
+
+H2: Web Accessibility
+
+CSUF is committed to ensuring equal accessibility to our users. Let us know about any accessibility problems you encounter using this website.
+
+We'll do our best to improve things and get you the information you need.
+
+- Resources:
+
+- Download Adobe Acrobat Reader
+
+- 
+Adobe Reader 
+
+- Download Word viewer, or download Excel viewer, or download PowerPoint viewer
+
+- 
+Microsoft Viewers 
+
+- 
+Report An ATI Issue 
+
+- 
+Accessible @ CSUF 
+
+Version_4.8.10

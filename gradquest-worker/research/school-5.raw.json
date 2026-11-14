@@ -1,0 +1,381 @@
+{
+  "schoolId": 5,
+  "schoolName": "California State University, East Bay",
+  "programName": "Computer Science, M.S.",
+  "pages": [
+    {
+      "kind": "overview",
+      "url": "https://www.csueastbay.edu/cs/prospective-students/index.html"
+    },
+    {
+      "kind": "admissions",
+      "url": "https://www.csueastbay.edu/cs/degrees-programs1/csms.html"
+    },
+    {
+      "kind": "curriculum",
+      "url": "https://www.csueastbay.edu/cs/first-year-masters-students/index.html"
+    },
+    {
+      "kind": "faculty",
+      "url": "https://www.csueastbay.edu/cs/faculty-staff/index.html"
+    },
+    {
+      "kind": "deadlines",
+      "url": "https://www.csueastbay.edu/cs/first-year-masters-students/index.html"
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "kind": "overview",
+      "name": "30-unit program",
+      "detail": "The prospective-students page describes a 30-unit (10-course) M.S., with 5 required courses, 4 electives, and a capstone.",
+      "sourceUrl": "https://www.csueastbay.edu/cs/prospective-students/index.html",
+      "quote": "The M.S. Computer Science degree program is 30 units equivalent to 10 courses. Of these, 5 courses (15 units) are required by all students in the program, 4 courses (12 units) are elective courses, and once course is a capstone experience (3-6 units)."
+    },
+    {
+      "id": "f2",
+      "kind": "overview",
+      "name": "Three concentrations",
+      "detail": "Applicants select a concentration: Computer Science, Computer Networking, or Artificial Intelligence and Machine Learning.",
+      "sourceUrl": "https://www.csueastbay.edu/cs/prospective-students/index.html",
+      "quote": "When you apply you will be asked to select a concentration. We currently have three concentrations that allow specialization in a particular area."
+    },
+    {
+      "id": "f3",
+      "kind": "overview",
+      "name": "Typical load",
+      "detail": "Enrolled M.S. students typically take 1-4 courses (3-12 units) each semester.",
+      "sourceUrl": "https://www.csueastbay.edu/cs/prospective-students/index.html",
+      "quote": "Students enrolled in the M.S. graduate program typically take 1-4 courses (3-12 units) each semester, depending on their situation."
+    },
+    {
+      "id": "f4",
+      "kind": "requirement",
+      "name": "Admissions review path",
+      "detail": "Applications go first to the university Office of Admissions and are then forwarded to the Computer Science department for an admit or reject decision.",
+      "sourceUrl": "https://www.csueastbay.edu/cs/degrees-programs1/csms.html",
+      "quote": "After the Office of Admissions has completed their review, applications are forwarded to the Computer Science department which makes the decision whether to accept or reject the applicant."
+    },
+    {
+      "id": "f5",
+      "kind": "requirement",
+      "name": "GRE required on start page",
+      "detail": "The assigned start page still says GRE general test scores are required, with preferred percentiles above the 20th verbal and 60th quantitative.",
+      "sourceUrl": "https://www.csueastbay.edu/cs/degrees-programs1/csms.html",
+      "quote": "GRE general test scores are required."
+    },
+    {
+      "id": "f6",
+      "kind": "requirement",
+      "name": "GRE no longer required on prospective page",
+      "detail": "The department prospective-students page says GRE scores are no longer required.",
+      "sourceUrl": "https://www.csueastbay.edu/cs/prospective-students/index.html",
+      "quote": "Please note: GRE scores are no longer required."
+    },
+    {
+      "id": "f7",
+      "kind": "requirement",
+      "name": "Undergraduate GPA 3.0",
+      "detail": "Applicants normally need an undergraduate CS or related degree, a 3.0 GPA in all undergraduate work, and a B or better in listed CS and math courses.",
+      "sourceUrl": "https://www.csueastbay.edu/cs/degrees-programs1/csms.html",
+      "quote": "must have a grade point average of 3.0 in all undergraduate work, and must have earned a \"B\" or better in the Computer Science and Mathematics courses listed below."
+    },
+    {
+      "id": "f8",
+      "kind": "requirement",
+      "name": "Preferred B+ in important courses",
+      "detail": "The start page says the department prefers at least a B+ average in the important courses.",
+      "sourceUrl": "https://www.csueastbay.edu/cs/degrees-programs1/csms.html",
+      "quote": "Currently, to be eligible for admission into the M.S. program, we prefer at least a B+ average in the important courses."
+    },
+    {
+      "id": "f9",
+      "kind": "requirement",
+      "name": "International class standing",
+      "detail": "For international applicants, the department looks for students who graduated first class or first class with distinction.",
+      "sourceUrl": "https://www.csueastbay.edu/cs/degrees-programs1/csms.html",
+      "quote": "For international applicants, we look for students who have graduated first class or first class with distinction."
+    },
+    {
+      "id": "f10",
+      "kind": "requirement",
+      "name": "Conditional admission",
+      "detail": "Applicants missing some course prerequisites may be admitted as Conditionally Classified if they have completed at least Data Structures and most lower-division prerequisites.",
+      "sourceUrl": "https://www.csueastbay.edu/cs/degrees-programs1/csms.html",
+      "quote": "may be admitted to the program at the discretion of the department as a \"Conditionally Classified Graduate\" student, provided the student's record clearly demonstrates the capability of completing all the course requirements after admission."
+    },
+    {
+      "id": "f11",
+      "kind": "requirement",
+      "name": "Deficiency grades on start page",
+      "detail": "The start page says course deficiencies or remediation must be completed with grades of B or better before enrolling in graduate CS courses, and those courses do not count toward the master's degree.",
+      "sourceUrl": "https://www.csueastbay.edu/cs/degrees-programs1/csms.html",
+      "quote": "Students must complete any course deficiencies or remediation with grades of \"B\" or better. Course deficiencies or remediation must be completed before enrolling in graduate Computer Science courses."
+    },
+    {
+      "id": "f12",
+      "kind": "requirement",
+      "name": "Prerequisite grade on first-year page",
+      "detail": "The first-year master's page says each prerequisite must be passed with a B- or better and does not count toward the M.S. degree.",
+      "sourceUrl": "https://www.csueastbay.edu/cs/first-year-masters-students/index.html",
+      "quote": "Each prerequisite must be passed with a B− or better and does not count toward the MS degree."
+    },
+    {
+      "id": "f13",
+      "kind": "requirement",
+      "name": "Most students conditionally classified",
+      "detail": "The first-year page says nearly all incoming students are admitted as Conditionally Classified.",
+      "sourceUrl": "https://www.csueastbay.edu/cs/first-year-masters-students/index.html",
+      "quote": "Nearly all incoming students are admitted as Conditionally Classified, which means your admission letter lists prerequisite or remediation courses to complete in addition to your graduate coursework."
+    },
+    {
+      "id": "f14",
+      "kind": "requirement",
+      "name": "Lower-division CS prerequisites",
+      "detail": "Required lower-division equivalents include CS 101, CS 201, CS 211, and CS 221.",
+      "sourceUrl": "https://www.csueastbay.edu/cs/degrees-programs1/csms.html",
+      "quote": "CS 101 Computer Science I"
+    },
+    {
+      "id": "f15",
+      "kind": "requirement",
+      "name": "Upper-division CS prerequisites",
+      "detail": "Required upper-division equivalents include CS 301, CS 311, CS 321, CS 411, CS 413, and CS 421.",
+      "sourceUrl": "https://www.csueastbay.edu/cs/degrees-programs1/csms.html",
+      "quote": "CS 301 Data Structures and Algorithms"
+    },
+    {
+      "id": "f16",
+      "kind": "requirement",
+      "name": "Math prerequisites",
+      "detail": "Mathematics admission requirements include MATH 130, MATH 131, MATH 225, and STAT 316.",
+      "sourceUrl": "https://www.csueastbay.edu/cs/degrees-programs1/csms.html",
+      "quote": "MATH 130 Calculus I"
+    },
+    {
+      "id": "f17",
+      "kind": "requirement",
+      "name": "Junior college limit",
+      "detail": "Junior-college courses may fulfill lower-division but not upper-division admission prerequisites.",
+      "sourceUrl": "https://www.csueastbay.edu/cs/degrees-programs1/csms.html",
+      "quote": "Courses from junior colleges can be used to fulfill lower division admission prerequisites (100 and 200 level) but not upper division admission prerequisites (300 or 400 level.)"
+    },
+    {
+      "id": "f18",
+      "kind": "requirement",
+      "name": "Open University note",
+      "detail": "Students who lack enough prerequisites may use Open University; the page says Open University students have last registration priority and no student visa is sponsored by that program.",
+      "sourceUrl": "https://www.csueastbay.edu/cs/degrees-programs1/csms.html",
+      "quote": "While Open University allows students to take courses before being accepted to the Master's program, Open University students have the last registration priority and no student visa are sponsored by the Open University program."
+    },
+    {
+      "id": "f19",
+      "kind": "requirement",
+      "name": "Graduate GPA",
+      "detail": "The first-year page requires 30 units of 600-level coursework, each passed with a C or better, and an overall 3.0 graduate GPA.",
+      "sourceUrl": "https://www.csueastbay.edu/cs/first-year-masters-students/index.html",
+      "quote": "The MS in Computer Science requires 30 units of 600-level coursework, each passed with a C or better and an overall 3.0 graduate GPA."
+    },
+    {
+      "id": "f20",
+      "kind": "course",
+      "name": "Five required core courses",
+      "detail": "Every student completes five required core courses: CS 601, CS 611, CS 621, CS 651, and CS 671.",
+      "sourceUrl": "https://www.csueastbay.edu/cs/first-year-masters-students/index.html",
+      "quote": "Every student completes five required core courses: CS 601, CS 611, CS 621, CS 651, and CS 671."
+    },
+    {
+      "id": "f21",
+      "kind": "course",
+      "name": "Capstone options",
+      "detail": "The capstone is the Comprehensive Exam (CS 692), a Project (CS 693), or a Thesis (CS 699).",
+      "sourceUrl": "https://www.csueastbay.edu/cs/first-year-masters-students/index.html",
+      "quote": "You also complete a concentration and a capstone — the Comprehensive Exam (CS 692), a Project (CS 693), or a Thesis (CS 699)."
+    },
+    {
+      "id": "f22",
+      "kind": "course",
+      "name": "CS 601 on 2015 roadmap",
+      "detail": "A department-hosted Computer Science concentration roadmap lists CS 601 Advanced Algorithms (3 units). The form is dated July 31, 2015.",
+      "sourceUrl": "https://www.csueastbay.edu/cs/files/docs/ms-cs-cs-concentration-roadmap.pdf",
+      "quote": "CS 601        Advanced Algorithms"
+    },
+    {
+      "id": "f23",
+      "kind": "course",
+      "name": "CS 621 title",
+      "detail": "The same roadmap lists CS 621 Operating System Design.",
+      "sourceUrl": "https://www.csueastbay.edu/cs/files/docs/ms-cs-cs-concentration-roadmap.pdf",
+      "quote": "CS 621        Operating System Design"
+    },
+    {
+      "id": "f24",
+      "kind": "course",
+      "name": "CS 651 title",
+      "detail": "The same roadmap lists CS 651 Web Systems.",
+      "sourceUrl": "https://www.csueastbay.edu/cs/files/docs/ms-cs-cs-concentration-roadmap.pdf",
+      "quote": "CS 651        Web Systems"
+    },
+    {
+      "id": "f25",
+      "kind": "course",
+      "name": "CS 611 title",
+      "detail": "The same roadmap lists CS 611 Theory of Computation.",
+      "sourceUrl": "https://www.csueastbay.edu/cs/files/docs/ms-cs-cs-concentration-roadmap.pdf",
+      "quote": "CS 611             Theory of Computation"
+    },
+    {
+      "id": "f26",
+      "kind": "course",
+      "name": "CS 671 title",
+      "detail": "The same roadmap lists CS 671 Cybersecurity.",
+      "sourceUrl": "https://www.csueastbay.edu/cs/files/docs/ms-cs-cs-concentration-roadmap.pdf",
+      "quote": "CS 671             Cybersecurity"
+    },
+    {
+      "id": "f27",
+      "kind": "course",
+      "name": "AI/ML concentration courses",
+      "detail": "The AI/ML roadmap adds CS 661 Advanced Artificial Intelligence, CS 667 Machine Learning, and CS 663 Computer Vision. The form is dated July 31, 2015.",
+      "sourceUrl": "https://www.csueastbay.edu/cs/files/docs/ms-cs-aiml-concentration-roadmap.pdf",
+      "quote": "CS 661      Advanced Artificial Intelligence"
+    },
+    {
+      "id": "f28",
+      "kind": "course",
+      "name": "CS 692 eligibility",
+      "detail": "Students must complete the five required courses and have a cumulative GPA of 3.0 before the comprehensive exams, and may not take a required or deficiency course concurrently with CS 692.",
+      "sourceUrl": "https://www.csueastbay.edu/cs/graduate-capstone/faq-cs-692-capstone-exam.html",
+      "quote": "and have a cumulative GPA of 3.0."
+    },
+    {
+      "id": "f29",
+      "kind": "course",
+      "name": "CS 692 attempts",
+      "detail": "CS 692 is 3 units, graded CR/NC; students must pass all three exams and have a maximum of three attempts.",
+      "sourceUrl": "https://www.csueastbay.edu/cs/graduate-capstone/faq-cs-692-capstone-exam.html",
+      "quote": "CS 692 Capstone Exams is a three (3) unit class. Grading is CR/NC. Students need to pass all three exams to earn a credit for the class."
+    },
+    {
+      "id": "f30",
+      "kind": "course",
+      "name": "CS 693 GPA",
+      "detail": "The capstone project requires a cumulative GPA of 3.5 or higher and a B or better average in the five required courses.",
+      "sourceUrl": "https://www.csueastbay.edu/cs/graduate-capstone/cs-693-faq.html",
+      "quote": "In addition, the student must have a cumulative GPA of 3.5 or higher."
+    },
+    {
+      "id": "f31",
+      "kind": "course",
+      "name": "CS 699 GPA",
+      "detail": "The thesis option also requires a graduate and cumulative GPA of 3.5 or higher after the five required courses.",
+      "sourceUrl": "https://www.csueastbay.edu/cs/graduate-capstone/cs-699-thesis.html",
+      "quote": "In addition, the student must have a graduate course GPA and cumulative CSUEB GPA of 3.5 or higher."
+    },
+    {
+      "id": "f32",
+      "kind": "deadline",
+      "name": "Pay fees by the deadline",
+      "detail": "The first-year page warns students to pay fees by the deadline, even if waitlisted, or they can be dropped from all classes.",
+      "sourceUrl": "https://www.csueastbay.edu/cs/first-year-masters-students/index.html",
+      "quote": "Pay your fees by the deadline — even if you are waitlisted. Unpaid fees can drop you from all classes."
+    },
+    {
+      "id": "f33",
+      "kind": "deadline",
+      "name": "International full-time enrollment",
+      "detail": "F-1 students must enroll in at least 8 units each fall and spring and may take only one fully online course per semester.",
+      "sourceUrl": "https://www.csueastbay.edu/cs/first-year-masters-students/index.html",
+      "quote": "International (F-1) students must enroll in at least 8 units each fall and spring."
+    },
+    {
+      "id": "f34",
+      "kind": "deadline",
+      "name": "Financial aid and prerequisites",
+      "detail": "Financial aid is based on degree-applicable 600-level units; prerequisites alone do not establish aid eligibility. The page advises including at least 4 units of 600-level coursework each term.",
+      "sourceUrl": "https://www.csueastbay.edu/cs/first-year-masters-students/index.html",
+      "quote": "Because prerequisites are undergraduate courses that do not count toward the degree, enrolling in prerequisites alone — even a full load — does not establish aid eligibility."
+    },
+    {
+      "id": "f35",
+      "kind": "faculty",
+      "name": "Department listing is department-wide",
+      "detail": "The Faculty & Staff page is a department-wide directory, not limited to this M.S. program.",
+      "sourceUrl": "https://www.csueastbay.edu/cs/faculty-staff/index.html",
+      "quote": "CSUEB Computer Science Professors"
+    },
+    {
+      "id": "f36",
+      "kind": "faculty",
+      "name": "Varick Erickson",
+      "detail": "Listed as Graduate Coordinator on the department faculty page. His directory profile did not include a research blurb in the extracted text.",
+      "sourceUrl": "https://www.csueastbay.edu/cs/faculty-staff/index.html",
+      "quote": "Erickson, Varick"
+    },
+    {
+      "id": "f37",
+      "kind": "faculty",
+      "name": "Levent Ertaul research",
+      "detail": "His directory profile lists cybersecurity and related research areas. The listing is department-wide.",
+      "sourceUrl": "https://www.csueastbay.edu/directory/profiles/cs/ertaullevent.html",
+      "quote": "Research: Cyber Security & Privacy, Cyber War, Hacking Technoligies, Cyber Security Policies, Computer Networks Security, Cryptology, Wireless Security, Cloud Security, International Governance of Cyber Space"
+    },
+    {
+      "id": "f38",
+      "kind": "faculty",
+      "name": "Lynne Grewe research",
+      "detail": "Her directory profile lists computer vision, machine learning and AI, and media in social and mobile applications.",
+      "sourceUrl": "https://www.csueastbay.edu/directory/profiles/cs/grewelynne.html",
+      "quote": "Computer Vision, Machine Learning & Artificial Intelligence, Media in Social and Mobile Applications"
+    },
+    {
+      "id": "f39",
+      "kind": "faculty",
+      "name": "Matt Johnson research",
+      "detail": "His directory profile lists genetic algorithms and artificial intelligence.",
+      "sourceUrl": "https://www.csueastbay.edu/directory/profiles/cs/johnsonmatthew.html",
+      "quote": "Research: Genetic Algorithms, Artificial Intelligence"
+    },
+    {
+      "id": "f40",
+      "kind": "faculty",
+      "name": "Farzan Roohparvar research",
+      "detail": "His directory profile lists system-on-chip design and related areas. The department page also lists him as Interim Department Chair.",
+      "sourceUrl": "https://www.csueastbay.edu/directory/profiles/cs/roohparvarfarzan.html",
+      "quote": "Research: System On Chip (SOC) Design"
+    },
+    {
+      "id": "f41",
+      "kind": "faculty",
+      "name": "Yashas Hariprasad research",
+      "detail": "His directory profile describes research at the intersection of AI, cybersecurity, digital forensics, and quantum-safe communication.",
+      "sourceUrl": "https://www.csueastbay.edu/directory/profiles/cs/hariprasadyashas.html",
+      "quote": "My expertise lies at the convergence of artificial intelligence, cybersecurity, digital forensics, and quantum-safe communication."
+    },
+    {
+      "id": "f42",
+      "kind": "faculty",
+      "name": "Jiaofei Zhong focus",
+      "detail": "Her directory profile lists a professional focus in extended reality, data engineering, and STEM education.",
+      "sourceUrl": "https://www.csueastbay.edu/directory/profiles/cs/zhongfay.html",
+      "quote": "Extended Reality, Data Engineering, STEM Education"
+    },
+    {
+      "id": "f43",
+      "kind": "faculty",
+      "name": "Farzan Roohparvar title",
+      "detail": "The department faculty page lists Farzan (Bobby) Roohparvar as Interim Department Chair and Professor.",
+      "sourceUrl": "https://www.csueastbay.edu/cs/faculty-staff/index.html",
+      "quote": "Roohparvar, Farzan (Bobby)- Interim Department Chair"
+    },
+    {
+      "id": "f44",
+      "kind": "faculty",
+      "name": "Levent Ertaul title",
+      "detail": "The department faculty page lists Levent Ertaul as Department Chair and Professor.",
+      "sourceUrl": "https://www.csueastbay.edu/cs/faculty-staff/index.html",
+      "quote": "Ertaul, Levent - Department Chair"
+    }
+  ]
+}

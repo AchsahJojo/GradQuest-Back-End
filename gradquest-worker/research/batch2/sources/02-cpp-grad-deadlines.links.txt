@@ -1,0 +1,173 @@
+#main	Skip to content
+/	
+/	
+/apply/	apply
+/outreach/tours.shtml	visit
+https://engage.cpp.edu/register/ask_us_a_question	info
+/giving/	give
+https://my.cpp.edu	mycpp
+/	
+/apply/	apply
+/outreach/tours.shtml	visit
+https://engage.cpp.edu/register/ask_us_a_question	info
+/giving/	give
+https://my.cpp.edu	mycpp
+/apply/	apply
+/outreach/tours.shtml	visit
+https://engage.cpp.edu/register/ask_us_a_question	info
+/giving/	give
+https://my.cpp.edu	mycpp
+/	Home
+https://broncoathletics.com/	athletics
+/alumni/	alumni
+/news/	news & events
+/prospective-student-gateway/	future students
+/admit/	Admitted Students
+/student-gateway/	current students
+/family/	families
+/faculty-staff-gateway/	faculty & staff
+https://www.instagram.com/calpolypomona/	
+https://www.linkedin.com/school/cal-poly-pomona/	
+https://www.youtube.com/user/calpolypomona	
+https://www.facebook.com/calpolypomona	
+https://twitter.com/calpolypomona	
+https://www.cpp.edu/	
+https://www.cpp.edu/enrollment/	Division of Enrollment Management
+/admissions/index.shtml	Admissions
+/admissions/index.shtml	Home
+/admissions/freshmen/index.shtml	Freshmen Students
+/admissions/freshmen/direct-admission-for-freshmen.shtml	Direct Admission for Freshmen
+/admissions/freshmen/app-checklist.shtml	Application Checklist
+/admissions/freshmen/admitted.shtml	Admitted Student Checklist
+/admissions/freshmen/freshman-faq.shtml	Freshmen FAQs
+/admissions/freshmen/impacted-majors.shtml	Impaction
+/admissions/freshmen/local-area.shtml	Local Area Preference
+/admissions/freshmen/requirements.shtml	Requirements
+/admissions/freshmen/resources.shtml	Resources
+/admissions/admission-counselors.shtml	Counselors' Corner
+/admissions/transfer/index.shtml	Transfer Students
+/admissions/transfer/app-checklist.shtml	Application Checklist
+/admissions/transfer/admitted.shtml	Admitted Student Checklist
+/admissions/transfer/associate-degree-for-transfer.shtml	Associate Degree for Transfer
+/admissions/transfer/impacted-majors.shtml	Impaction
+/admissions/transfer/local-area.shtml	Local Area Preference
+/admissions/transfer/requirements.shtml	Requirements
+/admissions/transfer/resources.shtml	Resources
+/admissions/transfer/transfer-faq.shtml	Transfer FAQs
+/admissions/admission-counselors.shtml	Counselors' Corner
+/admissions/international/index.shtml	International Students
+/admissions/international/app-checklist.shtml	Application Checklist
+/admissions/international/admitted.shtml	Admitted Student Checklist
+/admissions/international/apply.shtml	Apply
+/admissions/international/faqs.shtml	International FAQs
+/admissions/international/freshmen.shtml	International Freshmen Requirements
+/admissions/international/transfer.shtml	International Transfer Requirements
+/admissions/international/graduate.shtml	International Graduate Requirements
+/admissions/international/resources.shtml	Resources
+/admissions/admission-counselors.shtml	Counselors' Corner
+/admissions/graduate/index.shtml	Graduate Students
+/admissions/graduate/masters-app-checklist.shtml	Application Checklist
+/admissions/graduate/apply.shtml	Application Filing Period
+/admissions/graduate/masters-admitted.shtml	Admitted Student Checklist
+/admissions/graduate/masters-explore.shtml	Explore Programs
+/admissions/graduate/masters-requirements.shtml	Requirements
+/admissions/graduate/masters-resources.shtml	Resources
+https://www.cpp.edu/gradstudies/index.shtml	Graduate Studies
+/admissions/returning-students/index.shtml	Returning Students
+/admissions/returning-students/application-checklist.shtml	Returning Student Checklist
+/admissions/returning-students/admitted-student-checklist.shtml	Admitted Returner Checklist
+/admissions/returning-students/returner-faq.shtml	Returning FAQs
+/admissions/returning-students/resources.shtml	Resources
+/admissions/admission-counselors.shtml	Counselors' Corner
+https://www.cpp.edu/ceis/credential-program/admission/program-application.shtml	Credentials
+https://www.cpp.edu/veterans/	Veterans
+https://www.cpp.edu/cpge/	CPGE
+/admissions/contact.shtml	Contact Us
+/admissions/admission-counselors.shtml	Counselors' Corner
+/admissions/other-resources/waitlist-faq.shtml	Waitlist FAQs
+/admissions/other-resources/appeals.shtml	Appeals
+/admissions/other-resources/wue.shtml	WUE
+/admissions/other-resources/residency.shtml	Residency
+/admissions/other-resources/cpp-choice.shtml	CPP Choice
+/admissions/other-resources/bronco-applicant-portal.shtml	Bronco Applicant Portal
+/admissions/other-resources/clery-act.shtml	Clery Act
+/admissions/index.shtml	Home
+/admissions/freshmen/index.shtml	Freshmen Students
+/admissions/freshmen/direct-admission-for-freshmen.shtml	Direct Admission for Freshmen
+/admissions/freshmen/app-checklist.shtml	Application Checklist
+/admissions/freshmen/admitted.shtml	Admitted Student Checklist
+/admissions/freshmen/freshman-faq.shtml	Freshmen FAQs
+/admissions/freshmen/impacted-majors.shtml	Impaction
+/admissions/freshmen/local-area.shtml	Local Area Preference
+/admissions/freshmen/requirements.shtml	Requirements
+/admissions/freshmen/resources.shtml	Resources
+/admissions/admission-counselors.shtml	Counselors' Corner
+/admissions/transfer/index.shtml	Transfer Students
+/admissions/transfer/app-checklist.shtml	Application Checklist
+/admissions/transfer/admitted.shtml	Admitted Student Checklist
+/admissions/transfer/associate-degree-for-transfer.shtml	Associate Degree for Transfer
+/admissions/transfer/impacted-majors.shtml	Impaction
+/admissions/transfer/local-area.shtml	Local Area Preference
+/admissions/transfer/requirements.shtml	Requirements
+/admissions/transfer/resources.shtml	Resources
+/admissions/transfer/transfer-faq.shtml	Transfer FAQs
+/admissions/admission-counselors.shtml	Counselors' Corner
+/admissions/international/index.shtml	International Students
+/admissions/international/app-checklist.shtml	Application Checklist
+/admissions/international/admitted.shtml	Admitted Student Checklist
+/admissions/international/apply.shtml	Apply
+/admissions/international/faqs.shtml	International FAQs
+/admissions/international/freshmen.shtml	International Freshmen Requirements
+/admissions/international/transfer.shtml	International Transfer Requirements
+/admissions/international/graduate.shtml	International Graduate Requirements
+/admissions/international/resources.shtml	Resources
+/admissions/admission-counselors.shtml	Counselors' Corner
+/admissions/graduate/index.shtml	Graduate Students
+/admissions/graduate/masters-app-checklist.shtml	Application Checklist
+/admissions/graduate/apply.shtml	Application Filing Period
+/admissions/graduate/masters-admitted.shtml	Admitted Student Checklist
+/admissions/graduate/masters-explore.shtml	Explore Programs
+/admissions/graduate/masters-requirements.shtml	Requirements
+/admissions/graduate/masters-resources.shtml	Resources
+https://www.cpp.edu/gradstudies/index.shtml	Graduate Studies
+/admissions/returning-students/index.shtml	Returning Students
+/admissions/returning-students/application-checklist.shtml	Returning Student Checklist
+/admissions/returning-students/admitted-student-checklist.shtml	Admitted Returner Checklist
+/admissions/returning-students/returner-faq.shtml	Returning FAQs
+/admissions/returning-students/resources.shtml	Resources
+/admissions/admission-counselors.shtml	Counselors' Corner
+https://www.cpp.edu/ceis/credential-program/admission/program-application.shtml	Credentials
+https://www.cpp.edu/veterans/	Veterans
+https://www.cpp.edu/cpge/	CPGE
+/admissions/contact.shtml	Contact Us
+/admissions/admission-counselors.shtml	Counselors' Corner
+/admissions/other-resources/waitlist-faq.shtml	Waitlist FAQs
+/admissions/other-resources/appeals.shtml	Appeals
+/admissions/other-resources/wue.shtml	WUE
+/admissions/other-resources/residency.shtml	Residency
+/admissions/other-resources/cpp-choice.shtml	CPP Choice
+/admissions/other-resources/bronco-applicant-portal.shtml	Bronco Applicant Portal
+/admissions/other-resources/clery-act.shtml	Clery Act
+https://www2.calstate.edu/apply#Cal State Apply	Cal State Apply
+https://www.cpp.edu/gradstudies/prospective-students/explore-our-grad-programs.shtml	Graduate Coordinator.
+https://my.cpp.edu	mycpp
+https://www.cpp.edu/ceis/credential-program/admission/admission-information.shtml	here.
+https://www.cpp.edu/enrollment/credential-populations/index.shtml	Credential Pathways
+https://www.instagram.com/cpp.ems/	Instagram opens a new window
+/	
+/apply/	Apply
+https://maps.cpp.edu/	Maps
+/outreach/tours.shtml	Visit
+/contact.shtml	Contact Us
+https://www.instagram.com/calpolypomona/	
+https://www.linkedin.com/school/cal-poly-pomona/	
+https://www.youtube.com/user/calpolypomona	
+https://www.facebook.com/calpolypomona	
+https://twitter.com/calpolypomona	
+https://www.calstate.edu/	The California State University
+https://www.cpp.edu/officeofequity/index.shtml	Title IX
+https://www.cpp.edu/website-feedback.shtml	Feedback
+https://www.cpp.edu/privacy.shtml	Privacy
+#	Cookie Preferences
+https://www.cpp.edu/accessibility.shtml	Accessibility
+https://www.cpp.edu/file-viewers.shtml	Document Readers

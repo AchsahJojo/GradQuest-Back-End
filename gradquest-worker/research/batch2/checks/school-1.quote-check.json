@@ -1,0 +1,692 @@
+{
+  "schoolId": 1,
+  "schoolName": "Arizona State University",
+  "programName": "Computer Science, M.S.",
+  "factsSubmitted": 56,
+  "factsPassed": 56,
+  "factsFailed": 0,
+  "checks": [
+    {
+      "id": "f1",
+      "kind": "overview",
+      "name": "On-campus research MS",
+      "sourceUrl": "https://degrees.asu.edu/masters-phd/major/ASU00/ESCOMSCMS/computer-science-ms",
+      "quote": "The on-campus Master of Science program in computer science provides rigorous, research-focused training in theory, systems and applications, preparing you to advance the frontiers of computing",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/01-asu-start.html"
+      ]
+    },
+    {
+      "id": "f2",
+      "kind": "overview",
+      "name": "Distinct from the MCS",
+      "sourceUrl": "https://degrees.asu.edu/masters-phd/major/ASU00/ESCOMSCMS/computer-science-ms",
+      "quote": "Unlike the industry-oriented Master of Computer Science program, the MS program in computer science emphasizes fundamental and applied research.",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/01-asu-start.html"
+      ]
+    },
+    {
+      "id": "f3",
+      "kind": "overview",
+      "name": "Location and college",
+      "sourceUrl": "https://degrees.asu.edu/masters-phd/major/ASU00/ESCOMSCMS/computer-science-ms",
+      "quote": "Ira A. Fulton Schools of Engineering",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/01-asu-start.html"
+      ]
+    },
+    {
+      "id": "f4",
+      "kind": "overview",
+      "name": "30 credit hours",
+      "sourceUrl": "https://degrees.asu.edu/masters-phd/major/ASU00/ESCOMSCMS/computer-science-ms",
+      "quote": "30 credit hours",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/01-asu-start.html"
+      ]
+    },
+    {
+      "id": "f5",
+      "kind": "overview",
+      "name": "Thesis or nonthesis option",
+      "sourceUrl": "https://degrees.asu.edu/masters-phd/major/ASU00/ESCOMSCMS/computer-science-ms",
+      "quote": "You may pursue either a thesis or nonthesis option as your culminating experience and can explore advanced topics such as:",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/01-asu-start.html"
+      ]
+    },
+    {
+      "id": "f6",
+      "kind": "overview",
+      "name": "Advanced topic areas",
+      "sourceUrl": "https://degrees.asu.edu/masters-phd/major/ASU00/ESCOMSCMS/computer-science-ms",
+      "quote": "including artificial intelligence, cybersecurity, quantum computing and other novel paradigms.",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/01-asu-start.html"
+      ]
+    },
+    {
+      "id": "f7",
+      "kind": "overview",
+      "name": "STEM-OPT eligible",
+      "sourceUrl": "https://degrees.asu.edu/masters-phd/major/ASU00/ESCOMSCMS/computer-science-ms",
+      "quote": "STEM-OPT extension eligible: Yes",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/01-asu-start.html"
+      ]
+    },
+    {
+      "id": "f8",
+      "kind": "overview",
+      "name": "STEM-OPT length",
+      "sourceUrl": "https://degrees.asu.edu/masters-phd/major/ASU00/ESCOMSCMS/computer-science-ms",
+      "quote": "International students (F1) can extend U.S. work experience by 24 months.",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/01-asu-start.html"
+      ]
+    },
+    {
+      "id": "f9",
+      "kind": "overview",
+      "name": "Handbook program summary",
+      "sourceUrl": "https://scai.engineering.asu.edu/wp-content/uploads/sites/31/2026/06/MS-CS-Handbook-2026-27.pdf",
+      "quote": "The Master of Science in Computer Science is a 30-credit hour program that provides students with a comprehensive foundation in computer science and AI",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/01-asu-ms-handbook-2026.txt",
+        "/workspace/gradquest-program-research-batch2/sources/01-asu-ms-handbook-2026.pdf"
+      ]
+    },
+    {
+      "id": "f10",
+      "kind": "overview",
+      "name": "Six concentrations",
+      "sourceUrl": "https://scai.engineering.asu.edu/wp-content/uploads/sites/31/2026/06/MS-CS-Handbook-2026-27.pdf",
+      "quote": "The MS in CS program offers six concentrations:",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/01-asu-ms-handbook-2026.txt",
+        "/workspace/gradquest-program-research-batch2/sources/01-asu-ms-handbook-2026.pdf"
+      ]
+    },
+    {
+      "id": "f11",
+      "kind": "requirement",
+      "name": "Graduate College and Fulton requirements",
+      "sourceUrl": "https://degrees.asu.edu/masters-phd/major/ASU00/ESCOMSCMS/computer-science-ms",
+      "quote": "Applicants must fulfill the requirements of both the Graduate College and the Ira A. Fulton Schools of Engineering.",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/01-asu-start.html"
+      ]
+    },
+    {
+      "id": "f12",
+      "kind": "requirement",
+      "name": "Prior degree field",
+      "sourceUrl": "https://degrees.asu.edu/masters-phd/major/ASU00/ESCOMSCMS/computer-science-ms",
+      "quote": "Applicants are eligible to apply to the program if they have earned a bachelor's or master's degree in computer science, computer engineering or a closely related area from a regionally accredited institution.",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/01-asu-start.html"
+      ]
+    },
+    {
+      "id": "f13",
+      "kind": "requirement",
+      "name": "GPA 3.25",
+      "sourceUrl": "https://degrees.asu.edu/masters-phd/major/ASU00/ESCOMSCMS/computer-science-ms",
+      "quote": "Applicants must have a minimum cumulative GPA of 3.25 (scale is 4.00 = \"A\") in the last 60 hours of their first bachelor's degree program or a minimum cumulative GPA of 3.25 (scale is 4.00 = \"A\") in an applicable master's degree program.",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/01-asu-start.html"
+      ]
+    },
+    {
+      "id": "f14",
+      "kind": "requirement",
+      "name": "Application materials",
+      "sourceUrl": "https://degrees.asu.edu/masters-phd/major/ASU00/ESCOMSCMS/computer-science-ms",
+      "quote": "All applicants must submit:",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/01-asu-start.html"
+      ]
+    },
+    {
+      "id": "f15",
+      "kind": "requirement",
+      "name": "Calculus prerequisite",
+      "sourceUrl": "https://degrees.asu.edu/masters-phd/major/ASU00/ESCOMSCMS/computer-science-ms",
+      "quote": "Before applying to the program, students must have completed two semesters or six credit hours of calculus, equivalent to Calculus I and II.",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/01-asu-start.html"
+      ]
+    },
+    {
+      "id": "f16",
+      "kind": "requirement",
+      "name": "Discrete math recommended on degree page",
+      "sourceUrl": "https://degrees.asu.edu/masters-phd/major/ASU00/ESCOMSCMS/computer-science-ms",
+      "quote": "Completion of a discrete math course is also recommended before admission.",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/01-asu-start.html"
+      ]
+    },
+    {
+      "id": "f17",
+      "kind": "requirement",
+      "name": "Discrete math required in handbook",
+      "sourceUrl": "https://scai.engineering.asu.edu/wp-content/uploads/sites/31/2026/06/MS-CS-Handbook-2026-27.pdf",
+      "quote": "A background in discrete math is required for admission",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/01-asu-ms-handbook-2026.txt",
+        "/workspace/gradquest-program-research-batch2/sources/01-asu-ms-handbook-2026.pdf"
+      ]
+    },
+    {
+      "id": "f18",
+      "kind": "requirement",
+      "name": "Deficiency courses",
+      "sourceUrl": "https://degrees.asu.edu/masters-phd/major/ASU00/ESCOMSCMS/computer-science-ms",
+      "quote": "CSE 230 Computer Organization and Assembly Language Programming",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/01-asu-start.html"
+      ]
+    },
+    {
+      "id": "f19",
+      "kind": "requirement",
+      "name": "Deficiency grade and timing",
+      "sourceUrl": "https://degrees.asu.edu/masters-phd/major/ASU00/ESCOMSCMS/computer-science-ms",
+      "quote": "Students assigned any additional coursework upon admission must complete those classes with a grade of \"C\" (scale is 4.00 = \"A\") or higher within two semesters of admission.",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/01-asu-start.html"
+      ]
+    },
+    {
+      "id": "f20",
+      "kind": "requirement",
+      "name": "Letters of recommendation not required",
+      "sourceUrl": "https://scai.engineering.asu.edu/graduate-computer-science/",
+      "quote": "Letters of Recommendation are not required for students applying to the Computer Science MCS/MS program.",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/01-asu-scai-grad-cs.html"
+      ]
+    },
+    {
+      "id": "f21",
+      "kind": "requirement",
+      "name": "GRE not required",
+      "sourceUrl": "https://scai.engineering.asu.edu/wp-content/uploads/sites/31/2026/06/MS-CS-Handbook-2026-27.pdf",
+      "quote": "GRE scores are not required.",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/01-asu-ms-handbook-2026.txt",
+        "/workspace/gradquest-program-research-batch2/sources/01-asu-ms-handbook-2026.pdf"
+      ]
+    },
+    {
+      "id": "f22",
+      "kind": "requirement",
+      "name": "Handbook GPA",
+      "sourceUrl": "https://scai.engineering.asu.edu/wp-content/uploads/sites/31/2026/06/MS-CS-Handbook-2026-27.pdf",
+      "quote": "To be considered for the MS program, we require a minimum cumulative GPA of 3.25 in the last 60 credit hours of the undergraduate degree.",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/01-asu-ms-handbook-2026.txt",
+        "/workspace/gradquest-program-research-batch2/sources/01-asu-ms-handbook-2026.pdf"
+      ]
+    },
+    {
+      "id": "f23",
+      "kind": "requirement",
+      "name": "English proficiency",
+      "sourceUrl": "https://scai.engineering.asu.edu/wp-content/uploads/sites/31/2026/06/MS-CS-Handbook-2026-27.pdf",
+      "quote": "Applicants demonstrate proficiency by scoring at least 80 (if taken before January 21, 2026) or 4 (if taken on or after January 21, 2026) on the TOEFL iBT, 6.5 on the IELTS, or 105 on the Duolingo English test.",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/01-asu-ms-handbook-2026.txt",
+        "/workspace/gradquest-program-research-batch2/sources/01-asu-ms-handbook-2026.pdf"
+      ]
+    },
+    {
+      "id": "f24",
+      "kind": "course",
+      "name": "Program options",
+      "sourceUrl": "https://degrees.asu.edu/masters-phd/major/ASU00/ESCOMSCMS/computer-science-ms",
+      "quote": "30 credit hours - course-based master's, or 30 credit hours and a thesis, or 30 credit hours including the required applied project course (CSE 593)",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/01-asu-start.html"
+      ]
+    },
+    {
+      "id": "f25",
+      "kind": "course",
+      "name": "Required core areas",
+      "sourceUrl": "https://degrees.asu.edu/masters-phd/major/ASU00/ESCOMSCMS/computer-science-ms",
+      "quote": "Required Core Areas (9 credit hours)",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/01-asu-start.html"
+      ]
+    },
+    {
+      "id": "f26",
+      "kind": "course",
+      "name": "Course-based electives",
+      "sourceUrl": "https://degrees.asu.edu/masters-phd/major/ASU00/ESCOMSCMS/computer-science-ms",
+      "quote": "Students in the course-based option take 21 credit hours of electives.",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/01-asu-start.html"
+      ]
+    },
+    {
+      "id": "f27",
+      "kind": "course",
+      "name": "Thesis electives",
+      "sourceUrl": "https://degrees.asu.edu/masters-phd/major/ASU00/ESCOMSCMS/computer-science-ms",
+      "quote": "Students in the thesis option take 15 credit hours of electives.",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/01-asu-start.html"
+      ]
+    },
+    {
+      "id": "f28",
+      "kind": "course",
+      "name": "Applied project electives",
+      "sourceUrl": "https://degrees.asu.edu/masters-phd/major/ASU00/ESCOMSCMS/computer-science-ms",
+      "quote": "Applied project students take 18 credit hours of electives.",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/01-asu-start.html"
+      ]
+    },
+    {
+      "id": "f29",
+      "kind": "course",
+      "name": "CSE 593 Applied Project",
+      "sourceUrl": "https://degrees.asu.edu/masters-phd/major/ASU00/ESCOMSCMS/computer-science-ms",
+      "quote": "CSE 593 Applied Project (3)",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/01-asu-start.html"
+      ]
+    },
+    {
+      "id": "f30",
+      "kind": "course",
+      "name": "CSE 599 Thesis",
+      "sourceUrl": "https://degrees.asu.edu/masters-phd/major/ASU00/ESCOMSCMS/computer-science-ms",
+      "quote": "CSE 599 Thesis (6)",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/01-asu-start.html"
+      ]
+    },
+    {
+      "id": "f31",
+      "kind": "course",
+      "name": "500-level CSE minimum",
+      "sourceUrl": "https://degrees.asu.edu/masters-phd/major/ASU00/ESCOMSCMS/computer-science-ms",
+      "quote": "At least 24 of these credit hours must be 500-level CSE courses at ASU.",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/01-asu-start.html"
+      ]
+    },
+    {
+      "id": "f32",
+      "kind": "course",
+      "name": "400-level limit",
+      "sourceUrl": "https://degrees.asu.edu/masters-phd/major/ASU00/ESCOMSCMS/computer-science-ms",
+      "quote": "Up to six credit hours of 400-level courses may be applied to the plan of study.",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/01-asu-start.html"
+      ]
+    },
+    {
+      "id": "f33",
+      "kind": "course",
+      "name": "AI concentration courses",
+      "sourceUrl": "https://scai.engineering.asu.edu/wp-content/uploads/sites/31/2026/06/MS-CS-Handbook-2026-27.pdf",
+      "quote": "CSE 571 Artificial Intelligence (3)",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/01-asu-ms-handbook-2026.txt",
+        "/workspace/gradquest-program-research-batch2/sources/01-asu-ms-handbook-2026.pdf"
+      ]
+    },
+    {
+      "id": "f34",
+      "kind": "course",
+      "name": "Cybersecurity concentration course",
+      "sourceUrl": "https://scai.engineering.asu.edu/wp-content/uploads/sites/31/2026/06/MS-CS-Handbook-2026-27.pdf",
+      "quote": "CSE 543: Information Assurance and Security (3)",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/01-asu-ms-handbook-2026.txt",
+        "/workspace/gradquest-program-research-batch2/sources/01-asu-ms-handbook-2026.pdf"
+      ]
+    },
+    {
+      "id": "f35",
+      "kind": "deadline",
+      "name": "Fall priority deadline",
+      "sourceUrl": "https://degrees.asu.edu/masters-phd/major/ASU00/ESCOMSCMS/computer-science-ms",
+      "quote": "12/01",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/01-asu-start.html"
+      ]
+    },
+    {
+      "id": "f36",
+      "kind": "deadline",
+      "name": "Spring priority deadline",
+      "sourceUrl": "https://degrees.asu.edu/masters-phd/major/ASU00/ESCOMSCMS/computer-science-ms",
+      "quote": "08/01",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/01-asu-start.html"
+      ]
+    },
+    {
+      "id": "f37",
+      "kind": "deadline",
+      "name": "Priority deadline meaning",
+      "sourceUrl": "https://degrees.asu.edu/masters-phd/major/ASU00/ESCOMSCMS/computer-science-ms",
+      "quote": "A priority deadline means that applications submitted and completed before the priority deadline will receive priority consideration.",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/01-asu-start.html"
+      ]
+    },
+    {
+      "id": "f38",
+      "kind": "deadline",
+      "name": "Handbook deadlines",
+      "sourceUrl": "https://scai.engineering.asu.edu/wp-content/uploads/sites/31/2026/06/MS-CS-Handbook-2026-27.pdf",
+      "quote": "December 1 for Fall start",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/01-asu-ms-handbook-2026.txt",
+        "/workspace/gradquest-program-research-batch2/sources/01-asu-ms-handbook-2026.pdf"
+      ]
+    },
+    {
+      "id": "f39",
+      "kind": "deadline",
+      "name": "SCAI deadline table",
+      "sourceUrl": "https://scai.engineering.asu.edu/graduate-computer-science/",
+      "quote": "December 1 (MS or MCS) or",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/01-asu-scai-grad-cs.html"
+      ]
+    },
+    {
+      "id": "f40",
+      "kind": "deadline",
+      "name": "TA application for master's students",
+      "sourceUrl": "https://scai.engineering.asu.edu/teaching-research-assistantships-fellowships-awards/",
+      "quote": "The application for spring 2027 TA, IA or Grader positions available for graduate students are now open. Priority deadline is November 7.",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/01-asu-ta-awards.html"
+      ]
+    },
+    {
+      "id": "f41",
+      "kind": "deadline",
+      "name": "TA awards emphasis",
+      "sourceUrl": "https://scai.engineering.asu.edu/teaching-research-assistantships-fellowships-awards/",
+      "quote": "TA positions are awarded to highly qualified PhD students.",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/01-asu-ta-awards.html"
+      ]
+    },
+    {
+      "id": "f42",
+      "kind": "faculty",
+      "name": "MS thesis chair list",
+      "sourceUrl": "https://docs.google.com/spreadsheets/d/1SpL7-42ZH0EuwMNZf515_hpVd2Jy0_yLz6_PM67ZwLQ/edit?gid=0#gid=0",
+      "quote": "This list below are the faculty who are currently approved to chair a MS thesis for the Computer Science MS programs.",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/01-asu-ms-faculty-endorsements.csv"
+      ]
+    },
+    {
+      "id": "f43",
+      "kind": "faculty",
+      "name": "Adil Ahmad",
+      "sourceUrl": "https://docs.google.com/spreadsheets/d/1SpL7-42ZH0EuwMNZf515_hpVd2Jy0_yLz6_PM67ZwLQ/edit?gid=0#gid=0",
+      "quote": "Ahmad,Adil,Adil.Ahmad@asu.edu,Computer Science,Chair",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/01-asu-ms-faculty-endorsements.csv"
+      ]
+    },
+    {
+      "id": "f44",
+      "kind": "faculty",
+      "name": "Gail-Joon Ahn",
+      "sourceUrl": "https://docs.google.com/spreadsheets/d/1SpL7-42ZH0EuwMNZf515_hpVd2Jy0_yLz6_PM67ZwLQ/edit?gid=0#gid=0",
+      "quote": "Ahn,Gail-Joon,gahn@asu.edu,Computer Science,Chair",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/01-asu-ms-faculty-endorsements.csv"
+      ]
+    },
+    {
+      "id": "f45",
+      "kind": "faculty",
+      "name": "Chitta Baral",
+      "sourceUrl": "https://docs.google.com/spreadsheets/d/1SpL7-42ZH0EuwMNZf515_hpVd2Jy0_yLz6_PM67ZwLQ/edit?gid=0#gid=0",
+      "quote": "Baral,Chitta,chitta.baral@asu.edu,Computer Science,Chair",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/01-asu-ms-faculty-endorsements.csv"
+      ]
+    },
+    {
+      "id": "f46",
+      "kind": "faculty",
+      "name": "Rida Bazzi",
+      "sourceUrl": "https://docs.google.com/spreadsheets/d/1SpL7-42ZH0EuwMNZf515_hpVd2Jy0_yLz6_PM67ZwLQ/edit?gid=0#gid=0",
+      "quote": "Bazzi,Rida,bazzi@asu.edu,Computer Science,Chair",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/01-asu-ms-faculty-endorsements.csv"
+      ]
+    },
+    {
+      "id": "f47",
+      "kind": "faculty",
+      "name": "Hani Ben Amor",
+      "sourceUrl": "https://docs.google.com/spreadsheets/d/1SpL7-42ZH0EuwMNZf515_hpVd2Jy0_yLz6_PM67ZwLQ/edit?gid=0#gid=0",
+      "quote": "Ben Amor,Hani,Hani.Benamor@asu.edu,Computer Science,Chair",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/01-asu-ms-faculty-endorsements.csv"
+      ]
+    },
+    {
+      "id": "f48",
+      "kind": "faculty",
+      "name": "Kasim Candan",
+      "sourceUrl": "https://docs.google.com/spreadsheets/d/1SpL7-42ZH0EuwMNZf515_hpVd2Jy0_yLz6_PM67ZwLQ/edit?gid=0#gid=0",
+      "quote": "Candan,Kasim,candan@asu.edu,Computer Science,Chair",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/01-asu-ms-faculty-endorsements.csv"
+      ]
+    },
+    {
+      "id": "f49",
+      "kind": "faculty",
+      "name": "Adam Doupé",
+      "sourceUrl": "https://docs.google.com/spreadsheets/d/1SpL7-42ZH0EuwMNZf515_hpVd2Jy0_yLz6_PM67ZwLQ/edit?gid=0#gid=0",
+      "quote": "Doupe,Adam,doupe@asu.edu,Computer Science,Chair",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/01-asu-ms-faculty-endorsements.csv"
+      ]
+    },
+    {
+      "id": "f50",
+      "kind": "faculty",
+      "name": "Stephanie Forrest",
+      "sourceUrl": "https://docs.google.com/spreadsheets/d/1SpL7-42ZH0EuwMNZf515_hpVd2Jy0_yLz6_PM67ZwLQ/edit?gid=0#gid=0",
+      "quote": "Forrest,Stephanie,steph@asu.edu,Computer Science,Chair",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/01-asu-ms-faculty-endorsements.csv"
+      ]
+    },
+    {
+      "id": "f51",
+      "kind": "faculty",
+      "name": "Charles Colbourn",
+      "sourceUrl": "https://docs.google.com/spreadsheets/d/1SpL7-42ZH0EuwMNZf515_hpVd2Jy0_yLz6_PM67ZwLQ/edit?gid=0#gid=0",
+      "quote": "Colbourn,Charles,Charles.Colbourn@asu.edu,Computer Science,Co-chair",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/01-asu-ms-faculty-endorsements.csv"
+      ]
+    },
+    {
+      "id": "f52",
+      "kind": "faculty",
+      "name": "Ajay Bansal",
+      "sourceUrl": "https://docs.google.com/spreadsheets/d/1SpL7-42ZH0EuwMNZf515_hpVd2Jy0_yLz6_PM67ZwLQ/edit?gid=0#gid=0",
+      "quote": "Bansal,Ajay,Ajay.Bansal@asu.edu,Computer Science,Chair",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/01-asu-ms-faculty-endorsements.csv"
+      ]
+    },
+    {
+      "id": "f53",
+      "kind": "faculty",
+      "name": "Srividya Bansal",
+      "sourceUrl": "https://docs.google.com/spreadsheets/d/1SpL7-42ZH0EuwMNZf515_hpVd2Jy0_yLz6_PM67ZwLQ/edit?gid=0#gid=0",
+      "quote": "Bansal,Srividya,Srividya.Bansal@asu.edu,Computer Science,Chair",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/01-asu-ms-faculty-endorsements.csv"
+      ]
+    },
+    {
+      "id": "f54",
+      "kind": "faculty",
+      "name": "Jedidiah Crandall",
+      "sourceUrl": "https://docs.google.com/spreadsheets/d/1SpL7-42ZH0EuwMNZf515_hpVd2Jy0_yLz6_PM67ZwLQ/edit?gid=0#gid=0",
+      "quote": "Crandall,Jedidiah,jedimaestro@asu.edu,Computer Science,Chair",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/01-asu-ms-faculty-endorsements.csv"
+      ]
+    },
+    {
+      "id": "f55",
+      "kind": "faculty",
+      "name": "Hasan Davulcu",
+      "sourceUrl": "https://docs.google.com/spreadsheets/d/1SpL7-42ZH0EuwMNZf515_hpVd2Jy0_yLz6_PM67ZwLQ/edit?gid=0#gid=0",
+      "quote": "Davulcu,Hasan,HDavulcu@asu.edu,Computer Science,Chair",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/01-asu-ms-faculty-endorsements.csv"
+      ]
+    },
+    {
+      "id": "f56",
+      "kind": "faculty",
+      "name": "Pooyan Fazli",
+      "sourceUrl": "https://docs.google.com/spreadsheets/d/1SpL7-42ZH0EuwMNZf515_hpVd2Jy0_yLz6_PM67ZwLQ/edit?gid=0#gid=0",
+      "quote": "Fazli,Pooyan,pooyan@asu.edu,Computer Science,Chair",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/01-asu-ms-faculty-endorsements.csv"
+      ]
+    }
+  ],
+  "droppedFacts": []
+}

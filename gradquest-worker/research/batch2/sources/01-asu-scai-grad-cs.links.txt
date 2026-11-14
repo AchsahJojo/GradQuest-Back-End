@@ -1,0 +1,81 @@
+https://scai.engineering.asu.edu/newly-admitted-student-information/	Newly Admitted Student Information
+https://scai.engineering.asu.edu/graduate-admissions/	Graduate Admissions Information
+https://sites.google.com/asu.edu/scaigraduateprogramresources/forms-procedures	Policies, Forms and Procedures
+https://scai.engineering.asu.edu/?page_id=21285	Course Permission Requests
+https://scai.engineering.asu.edu/teaching-research-assistantships-fellowships-awards/	Teaching/Research Assistantships, Fellowships and Awards
+https://scai.engineering.asu.edu/advising/	SCAI Advising Appointments
+https://docs.google.com/document/d/1jq8R_txpXOzoKEZvacW-A-RsflIK3l0PdiL77NEwPY4/edit?usp=sharing	MS Application Checklist
+https://docs.google.com/document/d/1HRc4lC6iALvYQaGYy6SI_ugw13rqRycXnNJOC_KJdOE/edit?usp=sharing	PhD Application Checklist
+#	MS Handbooks
+#	MCS Handbooks
+#	PhD Handbooks
+#	CS Course Lists & Check Sheets
+#	CS MS Faculty List
+#	Older Handbooks
+https://scai.engineering.asu.edu/wp-content/uploads/sites/31/2026/06/MS-CS-Handbook-2026-27.pdf	Computer Science MS Handbook
+https://scai.engineering.asu.edu/wp-content/uploads/sites/31/2025/08/MS-CS-Handbook-2025-26.docx.pdf	Computer Science MS Handbook
+https://scai.engineering.asu.edu/wp-content/uploads/sites/31/2024/08/MS-CS-Handbook-24-25-Final.pdf	Computer Science MS Handbook
+https://scai.engineering.asu.edu/wp-content/uploads/sites/31/2023/11/MS-CS-Handbook-2023-2024.pdf	Computer Science MS Handbook
+https://test-cidse2.pantheonsite.io/wp-content/uploads/2022/08/MS-CS-Handbook-2022-2023Publish.pdf	Computer Science MS Handbook
+https://scai.engineering.asu.edu/wp-content/uploads/sites/31/2026/06/MCS-CS-Handbook-2026-2027.pdf	Computer Science MCS Handbook
+https://scai.engineering.asu.edu/wp-content/uploads/sites/31/2025/08/MCS-CS-Handbook-2025-2026Editing.docx.pdf	Computer Science MCS Handbook
+https://scai.engineering.asu.edu/wp-content/uploads/sites/31/2024/07/MCS-2024-2025-Handbook-Final-1.pdf	Computer Science MCS Handbook
+https://scai.engineering.asu.edu/wp-content/uploads/sites/31/2023/11/MCS-CS-Handbook-2023-2024-addendum.pdf	Computer Science MCS Handbook
+https://scai.engineering.asu.edu/wp-content/uploads/sites/31/2022/08/MCS-CS-Handbook-2022-2023Publish.pdf	Computer Science MCS Handbook
+https://scai.engineering.asu.edu/wp-content/uploads/sites/31/2026/06/PHD-CS-Handbook-2026-2027.pdf	Computer Science PhD Handbook
+https://scai.engineering.asu.edu/wp-content/uploads/sites/31/2025/08/PHD-CS-Handbook-2025-2026.docx.pdf	Computer Science PhD Handbook
+https://scai.engineering.asu.edu/wp-content/uploads/sites/31/2024/08/PhD-CS-Handbook-24-25-Final.pdf	Computer Science PhD Handbook
+https://scai.engineering.asu.edu/wp-content/uploads/sites/31/2024/06/PHD-CS-Handbook-2023-2024AVAH-Nov-addendum.pdf	Computer Science PhD Handbook
+https://scai.engineering.asu.edu/wp-content/uploads/sites/31/2022/08/PHD-CS-Handbook-2022-2023Publish.pdf	Computer Science PhD Handbook
+https://docs.google.com/spreadsheets/d/1yuXmo27bfhs4BVjiTMrnhLxRnbHX9vsQ5QvH-OUa_sM/edit?gid=61566623#gid=61566623	CS Grad Approved Courses
+https://docs.google.com/spreadsheets/d/1QPno2VFNnNNeHP33DZdNrYTgBcgWMezu1kOErzbTFfY/edit?usp=sharing	CS MS Check Sheet
+https://docs.google.com/spreadsheets/d/1JxNx-3CGvfjAsCjUNuNC7vt-z4t2vvf7yi1eZuT7NDI/edit?usp=sharing	CS (Artificial Intelligence) MS Check Sheet
+https://docs.google.com/spreadsheets/d/1KWw3BO-OiJUXxqAmfsi0AJZenijO2w_xeUVKdGkP1xY/edit?usp=sharing	CS (Big Data Systems) MS Tempe Campus Check Sheet
+https://docs.google.com/spreadsheets/d/1swk73WiBwFPJhnZhw9eiNe0XDHTqeM3CCrpxluu1Gp8/edit?usp=sharing	CS (Cybersecurity) MS Check Sheet
+https://docs.google.com/spreadsheets/d/1a5SHBeNYVujjED0bXzLDNuljcmfbIcKnI1RIVyMgUco/edit?usp=sharing	CS (Media Arts & Sciences) MS Check Sheet
+https://docs.google.com/spreadsheets/d/1HTW7_tdX8xYFyb0XjO14md7Ol8S5u5hFmNBGpK5ddCk/edit?usp=sharing	CS (Biomedical Informatics) MS Check Sheet
+https://drive.google.com/file/d/1D90zb6L4FlLUTU2sUyIoO8Oe8-DX-iYt/view	CS, PhD Check Sheet
+https://docs.google.com/spreadsheets/d/1SpL7-42ZH0EuwMNZf515_hpVd2Jy0_yLz6_PM67ZwLQ/edit?gid=0#gid=0	Computer Science MS Faculty Endorsements
+https://scai.engineering.asu.edu/wp-content/uploads/sites/31/2022/08/PHD-CS-Handbook-2022-2023Publish.pdf	Computer Science PhD Handbook
+https://scai.engineering.asu.edu/wp-content/uploads/sites/31/2021/08/PHD-CS-Handbook-2021-2022.pdf	Computer Science PhD Handbook
+https://scai.engineering.asu.edu/wp-content/uploads/sites/31/2020/11/PHD-CS-Handbook-2020-2021-Final.pdf	Computer Science PhD Handbook
+https://scai.engineering.asu.edu/wp-content/uploads/sites/31/2021/11/PHD-CS-Handbook-2020-2021-Final-Addendum.pdf	Computer Science PhD Addendum
+https://scai.engineering.asu.edu/wp-content/uploads/sites/31/2020/05/PHD-CS-Handbook-2019-2020-Final.pdf	Computer Science PhD Handbook
+https://scai.engineering.asu.edu/wp-content/uploads/sites/31/2020/05/PHD-CS-Handbook-2018-2019.pdf	Computer Science PhD Handbook
+https://scai.engineering.asu.edu/wp-content/uploads/sites/31/2020/05/PHD-CS-Handbook-2017-2018-1.pdf	Computer Science PhD Handbook
+https://scai.engineering.asu.edu/wp-content/uploads/sites/31/2022/08/MCS-CS-Handbook-2022-2023Publish.pdf	Computer Science MCS Handbook
+https://scai.engineering.asu.edu/wp-content/uploads/sites/31/2021/08/MCS-CS-Handbook-2021-2022.pdf	Computer Science MCS Handbook
+https://scai.engineering.asu.edu/wp-content/uploads/sites/31/2020/11/MCS-CS-Handbook-2020-21-Final.pdf	Computer Science MCS Handbook
+https://scai.engineering.asu.edu/wp-content/uploads/sites/31/2021/11/MCS-CS-Handbook-2020-21-Final-Addendum.pdf	Computer Science MCS Addendum
+https://scai.engineering.asu.edu/wp-content/uploads/sites/31/2020/05/MCS-CS-Handbook-2019-2020-FinalRev.pdf	Computer Science MCS Handbook
+https://scai.engineering.asu.edu/wp-content/uploads/sites/31/2020/05/MCS-CS-Handbook-2018-2019-AC-FinalAmended3.pdf	Computer Science MCS Handbook
+https://scai.engineering.asu.edu/wp-content/uploads/sites/31/2020/05/MCS-CS-Handbook-2017-2018AH-1.pdf	Computer Science MCS Handbook
+https://scai.engineering.asu.edu/wp-content/uploads/sites/31/2022/08/MS-CS-Handbook-2022-2023Publish.pdf	Computer Science MS Handbook
+https://scai.engineering.asu.edu/wp-content/uploads/sites/31/2021/08/MS-CS-Handbook-2021-2022.pdf	Computer Science MS Handbook
+https://scai.engineering.asu.edu/wp-content/uploads/sites/31/2020/11/MS-CS-Handbook-2020-21-Final.pdf	Computer Science MS Handbook
+https://scai.engineering.asu.edu/wp-content/uploads/sites/31/2021/11/MS-CS-Handbook-2020-21_final-Addendum-2.pdf	Computer Science MS Addendum
+https://scai.engineering.asu.edu/wp-content/uploads/sites/31/2020/05/MS-CS-Handbook-2019-2020-Final.pdf	Computer Science MS Handbook
+https://scai.engineering.asu.edu/wp-content/uploads/sites/31/2020/05/MS-CS-Handbook-2018-2019.pdf	Computer Science MS Handbook
+https://scai.engineering.asu.edu/wp-content/uploads/sites/31/2020/05/MS-CS-Handbook-2017-2018AH-2.pdf	Computer Science MS Handbook
+https://webapp4.asu.edu/programs/t5/majorinfo/ASU00/ESCOMSCPHD/graduate/false	Learn more about the Computer Science PhD
+https://webapp4.asu.edu/programs/t5/majorinfo/ASU00/ESCOMSCMS/graduate/false	Learn more about the Computer Science MS
+https://webapp4.asu.edu/programs/t5/majorinfo/ASU00/ESCOMSCMCS/graduate/false	Computer Science MCS Catalog Program
+https://asuonline.asu.edu/online-degree-programs/graduate/computer-science-mcs/	Learn more about the Computer Science MCS Online
+https://scai.engineering.asu.edu/wp-content/uploads/sites/31/2020/05/400-level-CSE-prereqs.pdf	400-level CSE Prerequisites
+https://scai.engineering.asu.edu/wp-content/uploads/sites/31/2021/08/500-level-CSE-prereqs-2.pdf	500-level CSE Prerequisites
+https://scai.engineering.asu.edu/wp-content/uploads/sites/31/2025/03/CSE-230-Syllabus-SP25.pdf	CSE 230
+https://scai.engineering.asu.edu/wp-content/uploads/sites/31/2025/03/CSE-310-Syllabus-SP25.pdf	CSE 310
+https://scai.engineering.asu.edu/wp-content/uploads/sites/31/2025/03/CSE-330-Sylllabus-SP25.pdf	CSE 330
+https://scai.engineering.asu.edu/wp-content/uploads/sites/31/2025/03/CSE-340-Syllabus-SP25.pdf	CSE 340
+https://scai.engineering.asu.edu/wp-content/uploads/sites/31/2025/03/CSE-355-Syllabus-SP25.pdf	CSE 355
+https://asuonline.asu.edu/online-degree-programs/graduate/computer-science-mcs/	See ASU Online
+/cdn-cgi/l/email-protection#4d3e2e2c24632a3f2c29632c2920243e3e2422230d2c3e3863282938	[email protected]
+https://admission.asu.edu/contact	Graduate Admissions
+https://admission.asu.edu/graduate	Graduate Admissions
+https://admission.asu.edu/international/graduate/english-proficiency	ASU’s English Proficiency requirements
+https://docs.google.com/document/d/15prRTQOVGULQLVO07lzY1GduTGqvGQ0Z3aWQEZjBH5M/edit?usp=sharing	Course List
+https://scai.engineering.asu.edu/wp-content/uploads/sites/31/2021/08/CSE-Deficiencies-2019.pdf	Flowchart
+https://scai.engineering.asu.edu/	
+https://www.facebook.com/SCAIASU	
+https://twitter.com/SCAI_ASU	
+https://www.linkedin.com/showcase/school-of-computing-and-augmented-intelligence/?viewAsMember=true	

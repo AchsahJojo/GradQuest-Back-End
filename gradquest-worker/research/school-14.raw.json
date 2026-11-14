@@ -1,0 +1,397 @@
+{
+  "schoolId": 14,
+  "schoolName": "San Diego State University",
+  "programName": "Computer Science, M.S.",
+  "pages": [
+    {
+      "kind": "overview",
+      "url": "https://cs.sdsu.edu/computer-science-degree-programs/"
+    },
+    {
+      "kind": "overview",
+      "url": "https://cs.sdsu.edu/"
+    },
+    {
+      "kind": "admissions",
+      "url": "https://admissions.sdsu.edu/grad-programs/masters"
+    },
+    {
+      "kind": "faculty",
+      "url": "https://cs.sdsu.edu/faculty/"
+    },
+    {
+      "kind": "faculty",
+      "url": "https://cs.sdsu.edu/graduate-advising/"
+    },
+    {
+      "kind": "deadlines",
+      "url": "https://admissions.sdsu.edu/grad-programs/masters"
+    },
+    {
+      "kind": "faculty",
+      "url": "https://cs.sdsu.edu/people/hyunjong-choi"
+    },
+    {
+      "kind": "faculty",
+      "url": "https://cs.sdsu.edu/people/bryan-donyanavard"
+    },
+    {
+      "kind": "faculty",
+      "url": "https://cs.sdsu.edu/people/hajar-homayouni"
+    },
+    {
+      "kind": "faculty",
+      "url": "https://cs.sdsu.edu/people/xiaobai-liu"
+    },
+    {
+      "kind": "faculty",
+      "url": "https://cs.sdsu.edu/people/hoa-vu"
+    },
+    {
+      "kind": "faculty",
+      "url": "https://cs.sdsu.edu/people/xin-zhang"
+    },
+    {
+      "kind": "faculty",
+      "url": "https://cs.sdsu.edu/people/shangping-ren"
+    },
+    {
+      "kind": "faculty",
+      "url": "https://cs.sdsu.edu/people/roger-whitney"
+    },
+    {
+      "kind": "faculty",
+      "url": "https://cs.sdsu.edu/people/wei-wang"
+    },
+    {
+      "kind": "faculty",
+      "url": "https://cs.sdsu.edu/people/robert-beverly/"
+    },
+    {
+      "kind": "faculty",
+      "url": "https://cs.sdsu.edu/people/joann-chen/"
+    },
+    {
+      "kind": "faculty",
+      "url": "https://cs.sdsu.edu/people/salimeh-sekeh/"
+    },
+    {
+      "kind": "faculty",
+      "url": "https://cs.sdsu.edu/people/jianshu-liu/"
+    },
+    {
+      "kind": "faculty",
+      "url": "https://cs.sdsu.edu/people/yifan-zhang/"
+    },
+    {
+      "kind": "faculty",
+      "url": "https://cs.sdsu.edu/people/tao-xie"
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "kind": "overview",
+      "name": "M.S. study areas and culminating options",
+      "detail": "Department degree-programs page: the M.S. includes advanced study and research in areas such as AI, machine learning, and software engineering, with a thesis project or a comprehensive exam.",
+      "sourceUrl": "https://cs.sdsu.edu/computer-science-degree-programs/",
+      "quote": "Graduates of the Master of Science in Computer Science program at San Diego State University engage in advanced study and research in various computing domains, including artificial intelligence, machine learning, and software engineering."
+    },
+    {
+      "id": "f2",
+      "kind": "requirement",
+      "name": "Thesis or comprehensive exam",
+      "detail": "Students may complete a thesis project with faculty or a comprehensive exam.",
+      "sourceUrl": "https://cs.sdsu.edu/computer-science-degree-programs/",
+      "quote": "Students may choose to either complete a thesis project, collaborating closely with faculty on innovative research that addresses real-world problems, or opt for a comprehensive exam to fulfill their degree requirements."
+    },
+    {
+      "id": "f3",
+      "kind": "requirement",
+      "name": "No letters, SOP, or resumes",
+      "detail": "University master's-degrees page, Computer Science, M.S. section: the department does not require or consider letters of recommendation, statements of purpose, or resumes.",
+      "sourceUrl": "https://admissions.sdsu.edu/grad-programs/masters",
+      "quote": "The Computer Science Department does not require nor take into consideration letters of recommendation, statements of purpose, or resumes."
+    },
+    {
+      "id": "f4",
+      "kind": "deadline",
+      "name": "Fall 2027 Cal State Apply",
+      "detail": "Computer Science, M.S. section: Fall 2027 Cal State Apply deadline is February 1.",
+      "sourceUrl": "https://admissions.sdsu.edu/grad-programs/masters",
+      "quote": "resumes. Fall 2027 Deadlines Submit Cal State Apply Application: February 1"
+    },
+    {
+      "id": "f5",
+      "kind": "deadline",
+      "name": "Fall 2027 documents",
+      "detail": "Computer Science, M.S. section: documents to Graduate Admissions are due February 15.",
+      "sourceUrl": "https://admissions.sdsu.edu/grad-programs/masters",
+      "quote": "Submit Documents to Graduate Admissions: February 15 Spring 2027 Deadlines Not currently accepting applications for spring semester Contact Information Department of Computer Science"
+    },
+    {
+      "id": "f6",
+      "kind": "deadline",
+      "name": "Spring 2027 not accepting applications",
+      "detail": "Computer Science, M.S. section: the program is not currently accepting applications for spring semester.",
+      "sourceUrl": "https://admissions.sdsu.edu/grad-programs/masters",
+      "quote": "Not currently accepting applications for spring semester"
+    },
+    {
+      "id": "f7",
+      "kind": "faculty",
+      "name": "Roger Whitney",
+      "detail": "Graduate Advisor, Associate Professor of Computer Science (department listing).",
+      "sourceUrl": "https://cs.sdsu.edu/graduate-advising/",
+      "quote": "Roger Whitney, Ph.D. Graduate Advisor Associate Professor of Computer Science"
+    },
+    {
+      "id": "f8",
+      "kind": "faculty",
+      "name": "Wei Wang",
+      "detail": "Graduate Advisor, Professor of Computer Science (department listing).",
+      "sourceUrl": "https://cs.sdsu.edu/graduate-advising/",
+      "quote": "Wei Wang, Ph.D. Graduate Advisor Professor of Computer Science"
+    },
+    {
+      "id": "f9",
+      "kind": "faculty",
+      "name": "Hyunjong Choi, Ph.D.",
+      "detail": "Assistant Professor of Computer Science. Department-wide faculty listing (not M.S.-program-specific).",
+      "sourceUrl": "https://cs.sdsu.edu/faculty/",
+      "quote": "Real-Time Embedded and Cyber-Physical Systems"
+    },
+    {
+      "id": "f10",
+      "kind": "faculty",
+      "name": "Bryan Donyanavard, Ph.D.",
+      "detail": "Assistant Professor of Computer Science. Department-wide faculty listing (not M.S.-program-specific).",
+      "sourceUrl": "https://cs.sdsu.edu/faculty/",
+      "quote": "Self-Aware Computing Systems, Cyber-Physical Systems Management and Optimization"
+    },
+    {
+      "id": "f11",
+      "kind": "faculty",
+      "name": "Hajar Homayouni, Ph.D.",
+      "detail": "Assistant Professor of Computer Science. Department-wide faculty listing (not M.S.-program-specific).",
+      "sourceUrl": "https://cs.sdsu.edu/faculty/",
+      "quote": "Data Science, Database, Applied Machine Learning, Interpretability of Machine Learning, Big Data Quality Assurance"
+    },
+    {
+      "id": "f12",
+      "kind": "faculty",
+      "name": "Xiaobai Liu, Ph.D.",
+      "detail": "Associate Professor of Computer Science. Department-wide faculty listing (not M.S.-program-specific).",
+      "sourceUrl": "https://cs.sdsu.edu/faculty/",
+      "quote": "Computer Vision, Machine Learning, Computational Statistics and their Applications to Clinic Diagnosis, Sports, Transportation, Surveillance, Video Games"
+    },
+    {
+      "id": "f13",
+      "kind": "faculty",
+      "name": "Hoa Vu, Ph.D.",
+      "detail": "Assistant Professor of Computer Science. Department-wide faculty listing (not M.S.-program-specific).",
+      "sourceUrl": "https://cs.sdsu.edu/faculty/",
+      "quote": "Theoretical Computer Science, Graph and Approximation Algorithms, Parameterized Algorithms, Sketching Algorithms"
+    },
+    {
+      "id": "f14",
+      "kind": "faculty",
+      "name": "Xin Zhang, Ph.D.",
+      "detail": "Assistant Professor of Computer Science. Department-wide faculty listing (not M.S.-program-specific).",
+      "sourceUrl": "https://cs.sdsu.edu/faculty/",
+      "quote": "Spatial-Temporal Data Science, Deep Learning, Imitation Learning, Meta-learning"
+    },
+    {
+      "id": "f15",
+      "kind": "faculty",
+      "name": "Shangping Ren, Ph.D.",
+      "detail": "Department Chair, Professor of Computer Science. Department-wide faculty listing (not M.S.-program-specific).",
+      "sourceUrl": "https://cs.sdsu.edu/faculty/",
+      "quote": "Cyber-Physical Systems, Real-Time Scheduling, Cloud Computing"
+    },
+    {
+      "id": "f16",
+      "kind": "faculty",
+      "name": "Roger Whitney, Ph.D.",
+      "detail": "Graduate Advisor, Associate Professor. Department-wide faculty listing (not M.S.-program-specific).",
+      "sourceUrl": "https://cs.sdsu.edu/faculty/",
+      "quote": "Object-Oriented Programming, Functional Programming, Software Development, Mobile Computing"
+    },
+    {
+      "id": "f17",
+      "kind": "faculty",
+      "name": "Wei Wang, Ph.D.",
+      "detail": "Graduate Advisor, Professor. Department-wide faculty listing (not M.S.-program-specific).",
+      "sourceUrl": "https://cs.sdsu.edu/faculty/",
+      "quote": "Wireless Networks, Wireless Multimedia QoE/QoS, Machine Learning in Wireless Networks"
+    },
+    {
+      "id": "f18",
+      "kind": "faculty",
+      "name": "Robert Beverly, Ph.D.",
+      "detail": "Listed on the department faculty page (department-wide, not M.S.-program-specific).",
+      "sourceUrl": "https://cs.sdsu.edu/faculty/",
+      "quote": "Robert Beverly, Ph.D."
+    },
+    {
+      "id": "f19",
+      "kind": "faculty",
+      "name": "Joann Qiongna Chen, Ph.D.",
+      "detail": "Listed on the department faculty page (department-wide, not M.S.-program-specific).",
+      "sourceUrl": "https://cs.sdsu.edu/faculty/",
+      "quote": "Joann Qiongna Chen, Ph.D."
+    },
+    {
+      "id": "f20",
+      "kind": "faculty",
+      "name": "Salimeh Sekeh, Ph.D.",
+      "detail": "Listed on the department faculty page (department-wide, not M.S.-program-specific).",
+      "sourceUrl": "https://cs.sdsu.edu/faculty/",
+      "quote": "Salimeh Sekeh, Ph.D."
+    },
+    {
+      "id": "f21",
+      "kind": "faculty",
+      "name": "Jianshu Liu, Ph.D.",
+      "detail": "Listed on the department faculty page (department-wide, not M.S.-program-specific).",
+      "sourceUrl": "https://cs.sdsu.edu/faculty/",
+      "quote": "Jianshu Liu, Ph.D."
+    },
+    {
+      "id": "f22",
+      "kind": "faculty",
+      "name": "Yifan Zhang, Ph.D.",
+      "detail": "Listed on the department faculty page (department-wide, not M.S.-program-specific).",
+      "sourceUrl": "https://cs.sdsu.edu/faculty/",
+      "quote": "Yifan Zhang, Ph.D."
+    },
+    {
+      "id": "f23",
+      "kind": "faculty",
+      "name": "Tao Xie, Ph.D.",
+      "detail": "Listed on the department faculty page (department-wide, not M.S.-program-specific).",
+      "sourceUrl": "https://cs.sdsu.edu/faculty/",
+      "quote": "Tao Xie, Ph.D."
+    },
+    {
+      "id": "f24",
+      "kind": "faculty",
+      "name": "Hyunjong Choi",
+      "detail": "Profile is linked from the department faculty listing.",
+      "sourceUrl": "https://cs.sdsu.edu/people/hyunjong-choi",
+      "quote": "Hyunjong Choi, Ph.D."
+    },
+    {
+      "id": "f25",
+      "kind": "faculty",
+      "name": "Bryan Donyanavard",
+      "detail": "Profile is linked from the department faculty listing.",
+      "sourceUrl": "https://cs.sdsu.edu/people/bryan-donyanavard",
+      "quote": "Bryan Donyanavard, Ph.D."
+    },
+    {
+      "id": "f26",
+      "kind": "faculty",
+      "name": "Hajar Homayouni",
+      "detail": "Profile is linked from the department faculty listing.",
+      "sourceUrl": "https://cs.sdsu.edu/people/hajar-homayouni",
+      "quote": "Hajar Homayouni, Ph.D."
+    },
+    {
+      "id": "f27",
+      "kind": "faculty",
+      "name": "Xiaobai Liu",
+      "detail": "Profile is linked from the department faculty listing.",
+      "sourceUrl": "https://cs.sdsu.edu/people/xiaobai-liu",
+      "quote": "Xiaobai Liu, Ph.D."
+    },
+    {
+      "id": "f28",
+      "kind": "faculty",
+      "name": "Hoa Vu",
+      "detail": "Profile is linked from the department faculty listing.",
+      "sourceUrl": "https://cs.sdsu.edu/people/hoa-vu",
+      "quote": "Hoa Vu, Ph.D."
+    },
+    {
+      "id": "f29",
+      "kind": "faculty",
+      "name": "Xin Zhang",
+      "detail": "Profile is linked from the department faculty listing.",
+      "sourceUrl": "https://cs.sdsu.edu/people/xin-zhang",
+      "quote": "Xin Zhang, Ph.D."
+    },
+    {
+      "id": "f30",
+      "kind": "faculty",
+      "name": "Shangping Ren",
+      "detail": "Profile is linked from the department faculty listing.",
+      "sourceUrl": "https://cs.sdsu.edu/people/shangping-ren",
+      "quote": "Shangping Ren, Ph.D."
+    },
+    {
+      "id": "f31",
+      "kind": "faculty",
+      "name": "Roger Whitney",
+      "detail": "Profile is linked from the department faculty listing.",
+      "sourceUrl": "https://cs.sdsu.edu/people/roger-whitney",
+      "quote": "Roger Whitney, Ph.D."
+    },
+    {
+      "id": "f32",
+      "kind": "faculty",
+      "name": "Wei Wang",
+      "detail": "Profile is linked from the department faculty listing.",
+      "sourceUrl": "https://cs.sdsu.edu/people/wei-wang",
+      "quote": "Wei Wang, Ph.D."
+    },
+    {
+      "id": "f33",
+      "kind": "faculty",
+      "name": "Robert Beverly",
+      "detail": "Profile is linked from the department faculty listing.",
+      "sourceUrl": "https://cs.sdsu.edu/people/robert-beverly/",
+      "quote": "Robert Beverly, Ph.D."
+    },
+    {
+      "id": "f34",
+      "kind": "faculty",
+      "name": "Joann Qiongna Chen",
+      "detail": "Profile is linked from the department faculty listing.",
+      "sourceUrl": "https://cs.sdsu.edu/people/joann-chen/",
+      "quote": "Joann Q. Chen"
+    },
+    {
+      "id": "f35",
+      "kind": "faculty",
+      "name": "Salimeh Sekeh",
+      "detail": "Profile is linked from the department faculty listing.",
+      "sourceUrl": "https://cs.sdsu.edu/people/salimeh-sekeh/",
+      "quote": "Salimeh Sekeh, Ph.D."
+    },
+    {
+      "id": "f36",
+      "kind": "faculty",
+      "name": "Jianshu Liu",
+      "detail": "Profile is linked from the department faculty listing.",
+      "sourceUrl": "https://cs.sdsu.edu/people/jianshu-liu/",
+      "quote": "Jianshu Liu, Ph.D."
+    },
+    {
+      "id": "f37",
+      "kind": "faculty",
+      "name": "Yifan Zhang",
+      "detail": "Profile is linked from the department faculty listing.",
+      "sourceUrl": "https://cs.sdsu.edu/people/yifan-zhang/",
+      "quote": "Yifan Zhang, Ph.D."
+    },
+    {
+      "id": "f38",
+      "kind": "faculty",
+      "name": "Tao Xie",
+      "detail": "Profile is linked from the department faculty listing.",
+      "sourceUrl": "https://cs.sdsu.edu/people/tao-xie",
+      "quote": "Tao Xie, Ph.D."
+    }
+  ]
+}

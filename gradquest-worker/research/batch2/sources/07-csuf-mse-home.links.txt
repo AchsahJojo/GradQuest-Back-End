@@ -1,0 +1,38 @@
+#skipnavigation	Skip Navigation
+https://www.fullerton.edu	California State University, Fullerton
+https://www.fullerton.edu/ecs	College of Engineering and Computer Science
+https://www.fullerton.edu/ecs/mse	Software Engineering Program
+javascript:ShowMainNavMobile()	Main Navigation
+https://www.fullerton.edu/ecs/mse/about	About
+https://www.fullerton.edu/ecs/mse/programs/programcost.php	Program Cost
+https://www.fullerton.edu/ecs/mse/programs/courses.php	Courses
+https://www.fullerton.edu/ecs/mse/faq.php	FAQ
+https://www.fullerton.edu/ecs/mse/requirements/index.php	How to Apply
+https://www.fullerton.edu/ecs/mse/requirements/how-to-enroll.php	How to Enroll
+https://www.fullerton.edu/ecs/mse/faculty/index.php	Faculty
+https://www.fullerton.edu/ecs/mse/contact-support/index.php	Contact and Support
+https://www.fullerton.edu/ecs/mse/seminars	Orientation and Midpoint Seminars
+https://www.fullerton.edu/ecs/mse/seminars/WorkshopAndLectures.php	Workshop and Lectures
+https://www.fullerton.edu/ecs/mse/requirements/index.php	How to Apply
+http://records.fullerton.edu/registration/registrationguides.php	Registration Guide
+/cdn-cgi/l/email-protection#c5a7a6aaaba285a3b0a9a9a0b7b1aaabeba0a1b0	[email protected]
+https://www.usnews.com/education/online-education/california-state-university-fullerton-OENG0016/engineering	US News and World reports
+https://www.intelligent.com/best-online-masters-in-software-engineering-degree-programs/	Top 25 Online Master’s in Software Engineering
+http://www.bestcomputerscienceschools.net/best-online-masters-in-software-engineering-degrees/	Best Computer Science Schools
+https://www.collegechoice.net/rankings/best-online-masters-in-software-engineering-degrees/	Best Online Master’s in Software Engineering Degrees
+https://www.bestvalueschools.com/best-online-masters-degrees-in-software-engineering/	25 Best Online Master’s Degrees in Software Engineering
+https://www.bestcomputerscienceschools.net/most-affordable-online-masters-software-engineering-degrees/	Best Computer Science Schools
+https://www.affordablecolleges.com/rankings/affordable-online-masters-software-engineering-degrees/	Online Master’s Degrees in Software Engineering
+https://apps.fullerton.edu/AcademicCalendar/	Academic Calendar
+contact-support/index.php	Contact Us
+requirements/index.php	Requirements
+programs/courses.php	Courses
+#top	
+https://www.fullerton.edu	
+https://www.fullerton.edu/ecs	College of Engineering and Computer Science
+https://a.cms.omniupdate.com/11/?skin=csufullerton&account=ECS&site=MSE_v4&action=de&path=/index.pcf	Last Published 4/14/26
+/cdn-cgi/l/email-protection#1c797f6f6b797e717d6f68796e5c7a697070796e68737232797869	[email protected]
+https://get.adobe.com/reader/	Adobe Reader
+https://www.microsoft.com/en-us/download/office.aspx	Microsoft Viewers
+https://www.fullerton.edu/reportati/	Report An ATI Issue
+//www.fullerton.edu/ATI	Accessible @ CSUF

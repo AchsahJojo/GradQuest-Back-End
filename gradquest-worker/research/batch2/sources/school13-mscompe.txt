@@ -1,0 +1,64 @@
+TITLE: Master of Science in Computer Engineering | Electrical and Computer Engineering | SDSU
+URL_FILE: /workspace/gradquest-program-research-batch2/sources/school13-mscompe.html
+
+Master of Science in Computer Engineering
+Welcome to the Department of Electrical and Computer Engineering at San Diego State University! We are committed to shaping a great future for each one of our students. If you are interested in applying to our program, please visit
+Admission to MSEE & MSCompE Programs
+.
+MSCompE Program Overview
+The Department of Electrical and Computer Engineering offers a graduate program leading to a Master of Science degree in Computer Engineering (MSCompE). The areas of specialization include (but are not limited to) VLSI Systems, Computer Networks, Embedded Systems, Machine Learning and Scientific Computing. You will have the option of working with your thesis/project advisor to tailor your program to align with your interest and career goals.
+The MSCompE program comprises of several coursework and a culminating experience which can either be a thesis (Plan A) or a project (Plan B). Each student must complete 30 units either by selecting Plan A (Thesis) or Plan B (Project). This is referred to as the student’s Program of Study or POS. Each of our courses are worth three units – therefore you are looking at completing ten courses for a MSCompE degree. Eighteen of the thirty units should be 600 and 700-numbered courses. The remaining twelve units can be from 500, 600 or 700-level courses offered by the department. No more than two courses can be taken from other departments in the College of Engineering or from the College of Sciences to satisfy these requirements, with the prior approval of the Graduate Advisor. Students are required to pick an area of specialization and then choose relevant courses that help the student to gain mastery in that area (referred to as “Depth area courses”) and a few other courses that pertain to peripheral skills that can make the student well-rounded (referred to as “Breadth area courses”). The department allows the student to tailor their individual course selection (or POS) to align with their interest and their career goals, often in consultation with their Thesis/Project advisor and/or the Graduate Advisor. A minimum average GPA of 3.0 is required to successfully complete the degree.
+Important Note
+:
+International Students requiring an I-20 immigration document from SDSU must be enrolled in a minimum of 6 units of in-person course instruction on campus, per semester. International students may not take more than 3 units of fully online course instruction, per semester.
+Thesis and Project Plan
+There are two plans of studies: Plan-A (Thesis) and Plan-B (Project).
+Plan A: Thesis Option
+Students opting for Plan A must complete 21 units of course work (7 courses), 6 units of COMPE 797 "Research" (typically as two 3-unit COMPE 797 “Research”, taken in two different semesters) and 3 units of COMPE 799A "Thesis" under supervision of a full-time ECE faculty. The remaining twenty-one units can be taken from the
+course guidelines document (PDF)
+, all subject to the approval of the Thesis Advisor and Graduate Advisor.
+Credit for COMPE 799A will be given only after completing the thesis. Credit cannot be given for COMPE 798 for students in Plan A. An oral defense of the thesis is required in front of a committee of three faculty members one of whom will be your Thesis Advisor, another from your department and the third member from any department other than your own. In addition, a completed thesis report in a
+required format
+needs to be submitted to the university. Once your thesis has been published, credit will be given for COMPE 799A. Please visit
+Thesis/Project Procedures
+for instructions on how and when to file your thesis and graduation paperwork. Please note, that the University requires you to complete several formalities as you approach your graduation – please stay abreast with the procedures and monitor your progress on your Degree Evaluation (or Degree Audit Report). The report can be found in your my.SDSU account under the 'Degree Evaluation' tile.
+Plan B: Project Option
+Students opting for Plan B or the Project option are required to pick an area of specialization and complete a minimum of 18 units of “Depth Area Courses” and 3 units of COMPE 798 as the project. Courses can be chosen from the following
+course guidelines document (PDF)
+. Students are allowed to enroll in the project course (COMPE 798) after the completion of 21 units but must do so in the semester immediately after completing 27 units. COMPE 797 cannot be used for students in Plan B.
+An oral defense of the project is required in front of a committee of two faculty members one of whom will be your Project Advisor and another faculty member from your department. In addition, a project report in a
+required format
+needs to be submitted to the department. Once your project has been defended, credit will be given for COMPE 798. Please visit
+Thesis/Project Procedures
+for instructions on how and when to file your project and graduation paperwork. Please note, that the University requires you to complete several formalities as you approach your graduation – please stay abreast with the procedures and monitor your progress on your digital webportal.
+Program of Study (POS) Plan
+Each student should prepare a Program of Study (POS). The POS allows you to plan your graduate coursework ahead of time and gives you clarity on your road ahead. Therefore, it is in your best interest to prepare the POS as soon as possible but no later than the end of your second semester. You will also find the relevant POS forms in the
+Thesis/Project Procedures
+. Be sure to stay on top-of-your-game throughout your graduate program.
+Tracking Your Progress
+The College of Graduate Studies offers an electronic resource for you to track your progress towards graduation. This resource is called the Degree Evaluation (or Degree Audit Report). The report can be found in your my.SDSU account under the 'Degree Evaluation' tile. When you click on the Degree Evaluation, your coursework and other degree requirements will be converted into a customized report. The Degree Evaluation is your official guide for tracking your progress towards your graduation. We recommend keeping a close eye on your degree progress through this tool. Please reach out to the College of Graduate Studies at
+[email protected]
+if you see any discrepancies in your academic record.
+For help with my.SDSU, visit
+my.SDSU Student Guides and Resources
+.
+We Are Here to Help
+We are committed to making your graduate student experience with us as smooth, productive and enjoyable as possible. For academic advising please contact the Graduate Advisor – Dr. Santosh Nagaraj at
+[email protected]
+. We highly encourage you to refer to the
+Graduate Handbook (PDF)
+which should answer most of the commonly asked questions. The handbook also explains several rules and regulations that you should abide by, during your graduate studies.
+Degree Learning Outcomes
+The MSCompE degree has been designed to achieve the following outcomes in its graduates. Corresponding methods of assessing the outcomes have also been specified.
+Outcomes
+Description of Outcomes
+Analytical Skills
+Analyze an engineering problem, identify its critical aspects and propose plausible methods to solve the problem.
+Critical Thinking Skills
+Ability to read research literature, identify gaps in existing solutions, propose technical means of filling those gaps and moving the boundaries of knowledge forward.
+Communication Skills
+Ability to communicate technical ideas clearly and unambiguously through spoken and written words.
+Professional Integrity
+Demonstrate professional and ethical responsibility in the academic and professional workspace; respect for diverse perspectives.
+Workplace Ready
+Ability to gain employment in the corporate, academic, government or non-profit sector; or secure admission at a university to pursue higher education.

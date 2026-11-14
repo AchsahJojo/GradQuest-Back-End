@@ -1,0 +1,75 @@
+Department of Computer Science 
+
+MS Admission Prerequisites 
+
+Admission 
+
+To apply for admission to the Master of Science program in Computer Science, a student must submit the proper forms, fees and transcripts to the university’s Office of Admissions, which initially reviews each application.  Each applicant must also submit their scores on the General Test of the Graduate Record Examination (GRE) directly to the university.  After the Office of Admissions has completed their review, applications are forwarded to the Computer Science department which makes the decision whether to accept or reject the applicant.
+
+GRE general test scores are required.   Average scores vary from year to year, but potential students should score above the 20th percentile in the verbal section and above the 60th percentile in the quantitative section.
+
+A student wishing to enter the M.S. in Computer Science program must normally have an undergraduate degree in Computer Science or in a related field, must have a grade point average of 3.0 in all undergraduate work, and must have earned a “B” or better in the Computer Science and Mathematics courses listed below.
+
+Computer Science Admission Requirements 
+
+Four lower-division Computer Science courses equivalent to the following CSU East Bay courses: 
+
+-   CS 101 Computer Science I                               
+
+-   CS 201 Computer Science II                                         
+
+-   CS 211 Mathematical Foundations of Computer Science 
+
+-   CS 221 Computer Organization and Assembly Programming 
+
+Six upper division Computer Science courses equivalent to the following CSU East Bay courses: 
+
+-   CS 301 Data Structures and Algorithms                   
+
+-   CS 311 Programming Language Concepts                                 
+
+-   CS 321 Computer Architecture
+
+-   CS 411 Automata and Computation
+
+-   CS 413 Analysis of Algorithms                                    
+
+-   CS 421 Operating Systems 
+
+Mathematics Admission Requirements 
+
+- MATH 130 Calculus I                                                      
+
+- MATH 131 Calculus II                                  
+
+- MATH 225 Numerical Algorithms and Linear Algebra for Computer Science
+
+- STAT 316 Statistics and Probability for Science and Engineering I
+
+A student who has not completed all of the course admission requirements may be admitted to the program at the discretion of the department as a “Conditionally Classified Graduate” student, provided the student’s record clearly demonstrates the capability of completing all the course requirements after admission.  In any case, the student must have completed at least Data Structures and most lower-division prerequisites.  Students must complete any course deficiencies or remediation with grades of “B” or better.  Course deficiencies or remediation must be completed before enrolling in graduate Computer Science courses. Note that courses used to make up deficiencies for admission may not be applied toward the master’s degree
+
+In some cases, additional course information beyond the transcript will be required before credit may be given for a course.  If catalog course descriptions or course syllabi are required, they will be requested by the Graduate Coordinator.  
+
+Courses from junior colleges can be used to fulfill lower division admission prerequisites (100 and 200 level) but not upper division admission prerequisites (300 or 400 level.)   Courses from unaccredited technical programs or UC extension cannot be used to fulfill prerequisites.
+
+Another frequent question is how long it will take to complete prerequisites. There is no one answer to that question.  Students usually take 1-3 courses each semester, depending on their situation, where 3 courses a semester is considered full time.  One can guess as to the number of courses one can carry, count the number of prerequisites missing (of 14 total), and simply divide. For example, a student who is missing 6 prerequisite courses, who takes three per semester, will take approximately 2 semesters (one year) to complete the prerequisites. The student does not have to complete all of the prerequisites though for conditional acceptance to the M.S. program.
+
+Grade expectations: Currently, to be eligible for admission into the M.S. program, we prefer at least a B+ average in the important courses.  For international applicants, we look for students who have graduated first class or first class with distinction.
+
+M.S. Students: Satisfying Prerequisites 
+
+Many applicants for the M.S. program have not satisfied enough prerequisites to be admitted, even conditionally classified. Such students should register at CSU East Bay through the Opern University program in order to complete their prerequisites for admission.
+
+The Open University program allows students who have not been admitted to a degree program to take courses.   Please see the university website for more information on how to apply to the program.  Once accepted, the student may attend CS courses which have seats available.   At the beginning of the second week of classes, the student may submit an add slip to the course instructor for their signature.  The student brings this add slip to the Student Service Center and is enrolled in the class.   While Open University allows students to take courses before being accepted to the Master’s program, Open University students have the last registration priority and no student visa are sponsored by the Open University program.
+
+California State University, East Bay 
+
+- 
+
+- 
+
+- 
+
+- 
+
+-

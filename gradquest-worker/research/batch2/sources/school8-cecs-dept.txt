@@ -1,0 +1,27 @@
+TITLE: Computer Engineering & Computer Science | California State University Long Beach
+URL_FILE: /workspace/gradquest-program-research-batch2/sources/school8-cecs-dept.html
+
+Chair's Welcome
+Welcome to the Department of Computer Engineering and Computer Science at CSULB! We are a dynamic and diverse community of over 50 faculty members and more than 2,000 students committed to advancing the frontiers of computing and engineering. Our programs emphasize academic excellence, hands on learning, and meaningful engagement with industry and society.
+Our faculty are actively involved in advanced research across areas such as data science (with various applications including health), artificial intelligence, cybersecurity, software engineering, internet of things, embedded systems, and more.
+The CECS department offers both undergraduate and graduate programs that prepare students for a better future. Our newest undergraduate program launched in Fall 2025, the Bachelor of Science in Applied Data Science, expands opportunities for students interested in data driven fields with applications such as linguistics and health analytics.
+Our students gain real world experience through industry sponsored capstone projects, research with faculty, and participation in student led organizations. They also compete and succeed in regional, national, and international competitions.
+We are proud of our inclusive environment that empowers all members of our community to reach their full potential. I invite you to explore what CECS has to offer, and I hope you will join us in shaping the future of computing.
+Mission
+Image
+The mission of the Computer Engineering and Computer Science (CECS) department at CSULB is to provide a high-quality educational experience to become successful leaders in the computing discipline. We are committed to our value of social mobility through highly valued educational programs. Our programs prepare graduates to be leaders in the computing industry and/or pursue advanced degrees.
+Programs
+Image
+CSULB’s Computer Engineering and Computer Science programs deliver the solid theoretical foundation and practical basics to prepare you for a successful career in computing, whether you’re interested in computing careers in healthcare, entertainment, aerospace, automotive, supply management, engineering, data analytics, or many other fields and industries.
+Bachelor's of Science in
+Applied Data Science
+Bachelor's of Science in
+Computer Science
+Bachelor's of Science in
+Computer Engineering
+Master's of Science in
+Computer Science
+PhD in
+Engineering and Computational Mathematics
+Minor in
+Computer Science or Cyber Security Applications

@@ -1,0 +1,11 @@
+HTTP/1.1 200 OK
+Date: Sat, 14 Nov 2026 06:14:32 GMT
+Server: Apache
+Accept-Ranges: bytes
+Vary: Accept-Encoding,Origin
+Content-Encoding: gzip
+Content-Security-Policy: frame-ancestors 'self' https://*.csuchico.edu http://*.csuchico.edu http://wwwdev;
+Access-Control-Allow-Headers: X-Alpine-Request,X-Alpine-Target
+Content-Length: 48610
+Content-Type: text/html; charset=UTF-8
+

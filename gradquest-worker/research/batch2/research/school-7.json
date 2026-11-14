@@ -1,0 +1,445 @@
+{
+  "schoolId": 7,
+  "schoolName": "California State University, Fullerton",
+  "programName": "Software Engineering, M.S. (online)",
+  "pages": [
+    {
+      "kind": "overview",
+      "url": "https://www.fullerton.edu/ecs/mse/about/"
+    },
+    {
+      "kind": "admissions",
+      "url": "https://www.fullerton.edu/ecs/mse/requirements/"
+    },
+    {
+      "kind": "curriculum",
+      "url": "https://www.fullerton.edu/ecs/mse/programs/courses.php"
+    },
+    {
+      "kind": "faculty",
+      "url": "https://www.fullerton.edu/ecs/mse/faculty/index.php"
+    },
+    {
+      "kind": "deadlines",
+      "url": "https://www.fullerton.edu/ecs/mse/"
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "kind": "overview",
+      "name": "Online MSE purpose",
+      "detail": "The about page describes the online M.S. in Software Engineering as preparation for careers as software engineers and software project managers.",
+      "sourceUrl": "https://www.fullerton.edu/ecs/mse/about/",
+      "quote": "The Master of Science in Software Engineering (MSE) is an online program that prepares individuals for careers as software engineers and software project managers in industry and government agencies."
+    },
+    {
+      "id": "f2",
+      "kind": "overview",
+      "name": "Process-oriented curriculum",
+      "detail": "The curriculum is described as a process-oriented approach grounded in software engineering research, theory, principles, and practice, including CMMI, ISO, agile, Scrum, XP, and architecture/design patterns.",
+      "sourceUrl": "https://www.fullerton.edu/ecs/mse/about/",
+      "quote": "The program emphasizes a comprehensive and thorough process-oriented approach to software development, and its curriculum is fundamentally grounded in software engineering research, theory, principles, and practice"
+    },
+    {
+      "id": "f3",
+      "kind": "overview",
+      "name": "Designed for working professionals",
+      "detail": "The program is designed for professionals working in computer science who want graduate education in software engineering.",
+      "sourceUrl": "https://www.fullerton.edu/ecs/mse/about/",
+      "quote": "The program is designed for professionals working in the field of computer science who wish to further their skills and pursue graduate level education in Software Engineering."
+    },
+    {
+      "id": "f4",
+      "kind": "overview",
+      "name": "Culminating practicum project",
+      "detail": "The culminating activity is a practicum project on a large-scale software project, not a thesis.",
+      "sourceUrl": "https://www.fullerton.edu/ecs/mse/about/",
+      "quote": "The culminating activity of the M.S. will be a practicum project where each student applies his or her knowledge and skills to a large-scale software project."
+    },
+    {
+      "id": "f5",
+      "kind": "overview",
+      "name": "100% online asynchronous",
+      "detail": "The home page states that all courses are 100% online with asynchronous delivery.",
+      "sourceUrl": "https://www.fullerton.edu/ecs/mse/",
+      "quote": "All courses 100% online"
+    },
+    {
+      "id": "f6",
+      "kind": "overview",
+      "name": "No I-20 for this program",
+      "detail": "The FAQ says an I-20 cannot be issued because the program is offered entirely online.",
+      "sourceUrl": "https://www.fullerton.edu/ecs/mse/faq.php",
+      "quote": "An I-20 cannot be issued for the MSE program, since it is offered entirely online. U.S. immigration policy prohibits the student visa for entirely online programs."
+    },
+    {
+      "id": "f7",
+      "kind": "overview",
+      "name": "Distinct from on-campus AMSE",
+      "detail": "CSUF also offers an on-campus Accelerated M.S. in Software Engineering (AMSE), operated by Extension and International Programs; the online MSE is operated by the Computer Science department.",
+      "sourceUrl": "https://www.fullerton.edu/ecs/mse/faq.php",
+      "quote": "CSUF offers two software engineering programs: the online MSE program and the on-campus Accelerated Master of Science in Software Engineering (AMSE) program."
+    },
+    {
+      "id": "f8",
+      "kind": "overview",
+      "name": "Degree title has no 'Online'",
+      "detail": "The FAQ says the word Online will not appear on the diploma; the degree is Master of Science in Software Engineering.",
+      "sourceUrl": "https://www.fullerton.edu/ecs/mse/faq.php",
+      "quote": "No. Although this is a fully online program, the degree itself is a \"Master of Science in Software Engineering.\" The word \"Online\" will not appear on your degree."
+    },
+    {
+      "id": "f9",
+      "kind": "overview",
+      "name": "Program length",
+      "detail": "The FAQ says the online MSE regularly takes 22 months; AMSE takes 17 months.",
+      "sourceUrl": "https://www.fullerton.edu/ecs/mse/faq.php",
+      "quote": "Regularly MSE takes 22 months, while AMSE takes 17 months to complete."
+    },
+    {
+      "id": "f10",
+      "kind": "requirement",
+      "name": "University GPA",
+      "detail": "Applicants need an acceptable baccalaureate degree with a minimum cumulative GPA of 2.5 for Computer Science undergraduates or 3.0 for other degree holders.",
+      "sourceUrl": "https://www.fullerton.edu/ecs/mse/requirements/",
+      "quote": "The applicant must have completed four-year college course of study and hold an acceptable baccalaureate degree with a minimum/cumulative grade point average of 2.5 for applicants having an undergraduate degree in Computer Science or 3.0 for other degree holders."
+    },
+    {
+      "id": "f11",
+      "kind": "requirement",
+      "name": "Transcripts",
+      "detail": "An official transcript is required from each university or college attended.",
+      "sourceUrl": "https://www.fullerton.edu/ecs/mse/requirements/",
+      "quote": "An official transcript is required from each university or college you have attended."
+    },
+    {
+      "id": "f12",
+      "kind": "requirement",
+      "name": "International English scores",
+      "detail": "International students must meet a minimum of 550 paper or 80 TOEFL, 6.5 Academic IELTS, or 58 PTE.",
+      "sourceUrl": "https://www.fullerton.edu/ecs/mse/requirements/",
+      "quote": "For international students: a minimum score of 550 (paper) or 80 in TOEFL or 6.5 Academic in IELTS or 58 in PTE."
+    },
+    {
+      "id": "f13",
+      "kind": "requirement",
+      "name": "Software engineering background",
+      "detail": "Applicants should have taken an introductory software engineering course equivalent to CPSC 362 or have work experience in software development.",
+      "sourceUrl": "https://www.fullerton.edu/ecs/mse/requirements/",
+      "quote": "The applicant should have taken an Introductory Software Engineering course (equivalent with CPSC 362 at CSUF) or should have work experience in software development."
+    },
+    {
+      "id": "f14",
+      "kind": "requirement",
+      "name": "Work-experience alternative",
+      "detail": "The FAQ says at least one year of software development experience is expected if the applicant has not completed CPSC 362 or an equivalent course, and a resume should be emailed to the program.",
+      "sourceUrl": "https://www.fullerton.edu/ecs/mse/faq.php",
+      "quote": "To apply, at least one year of experience in software development is expected."
+    },
+    {
+      "id": "f15",
+      "kind": "requirement",
+      "name": "GRE not required",
+      "detail": "The FAQ says the GRE is not required.",
+      "sourceUrl": "https://www.fullerton.edu/ecs/mse/faq.php",
+      "quote": "No, we do not require the GRE."
+    },
+    {
+      "id": "f16",
+      "kind": "requirement",
+      "name": "TOEFL/IELTS when needed",
+      "detail": "TOEFL/IELTS is needed if the applicant has not earned at least 72 college-level units in the U.S. or another majority English-speaking country.",
+      "sourceUrl": "https://www.fullerton.edu/ecs/mse/faq.php",
+      "quote": "Yes, if you have not earned at least 72 college-level units in the U.S. or another majority English-speaking country. Residency/citizenship is irrelevant to this requirement."
+    },
+    {
+      "id": "f17",
+      "kind": "requirement",
+      "name": "No exit exam or thesis",
+      "detail": "There is no exit exam; students complete a terminal project in CPSC 597, and there is no thesis option.",
+      "sourceUrl": "https://www.fullerton.edu/ecs/mse/faq.php",
+      "quote": "No, there is no exit exam. Students are required to complete a significant terminal project as part of the curriculum (CPSC 597). There is no thesis option."
+    },
+    {
+      "id": "f18",
+      "kind": "requirement",
+      "name": "One course per semester costs the same",
+      "detail": "Students may take only one course per semester, but it costs the same as taking two, and each course is offered once per year.",
+      "sourceUrl": "https://www.fullerton.edu/ecs/mse/faq.php",
+      "quote": "Yes, but this will cost the same as taking two courses per semester. Also, since MSE offers each course once per year, you will need to wait a year if you miss taking a certain course."
+    },
+    {
+      "id": "f19",
+      "kind": "requirement",
+      "name": "No program-level scholarship",
+      "detail": "The FAQ says there is no scholarship at the program level and points to university financial aid.",
+      "sourceUrl": "https://www.fullerton.edu/ecs/mse/faq.php",
+      "quote": "There is no scholarship at the program level. However, you may check the university Financial Aid website for available funding opportunities."
+    },
+    {
+      "id": "f20",
+      "kind": "course",
+      "name": "CPSC 541",
+      "detail": "CPSC 541 Systems and Software Standards and Requirements (3 units), prerequisite CPSC 362 or equivalent work experience.",
+      "sourceUrl": "https://www.fullerton.edu/ecs/mse/programs/courses.php",
+      "quote": "CPSC 541 - Systems and Software Standards and Requirements (3 units)"
+    },
+    {
+      "id": "f21",
+      "kind": "course",
+      "name": "CPSC 542",
+      "detail": "CPSC 542 Software Verification and Validation (3 units).",
+      "sourceUrl": "https://www.fullerton.edu/ecs/mse/programs/courses.php",
+      "quote": "CPSC 542 - Software Verification and Validation (3 units)"
+    },
+    {
+      "id": "f22",
+      "kind": "course",
+      "name": "CPSC 543",
+      "detail": "CPSC 543 Software Maintenance (3 units).",
+      "sourceUrl": "https://www.fullerton.edu/ecs/mse/programs/courses.php",
+      "quote": "CPSC 543 - Software Maintenance (3 units)"
+    },
+    {
+      "id": "f23",
+      "kind": "course",
+      "name": "CPSC 544",
+      "detail": "CPSC 544 Advanced Software Process (3 units).",
+      "sourceUrl": "https://www.fullerton.edu/ecs/mse/programs/courses.php",
+      "quote": "CPSC 544 - Advanced Software Process (3 units)"
+    },
+    {
+      "id": "f24",
+      "kind": "course",
+      "name": "CPSC 545",
+      "detail": "CPSC 545 Software Design and Architecture (3 units).",
+      "sourceUrl": "https://www.fullerton.edu/ecs/mse/programs/courses.php",
+      "quote": "CPSC 545 - Software Design and Architecture (3 units)"
+    },
+    {
+      "id": "f25",
+      "kind": "course",
+      "name": "CPSC 546",
+      "detail": "CPSC 546 Modern Software Management (3 units).",
+      "sourceUrl": "https://www.fullerton.edu/ecs/mse/programs/courses.php",
+      "quote": "CPSC 546 - Modern Software Management (3 units)"
+    },
+    {
+      "id": "f26",
+      "kind": "course",
+      "name": "CPSC 547",
+      "detail": "CPSC 547 Software Measurement (3 units).",
+      "sourceUrl": "https://www.fullerton.edu/ecs/mse/programs/courses.php",
+      "quote": "CPSC 547 - Software Measurement (3 units)"
+    },
+    {
+      "id": "f27",
+      "kind": "course",
+      "name": "CPSC 548",
+      "detail": "CPSC 548 Professional, Ethical and Legal Issues for Software Engineers (3 units).",
+      "sourceUrl": "https://www.fullerton.edu/ecs/mse/programs/courses.php",
+      "quote": "CPSC 548 - Professional, Ethical and Legal Issues for Software Engineers (3 units)"
+    },
+    {
+      "id": "f28",
+      "kind": "course",
+      "name": "CPSC 589",
+      "detail": "CPSC 589 Seminar in Computer Science is the online version offered to MSE students only, used to survey related work and build a project proposal.",
+      "sourceUrl": "https://www.fullerton.edu/ecs/mse/programs/courses.php",
+      "quote": "The online version of CPSC 589, offered to MSE students only. Prepare for the graduate project - survey related work and build a project proposal."
+    },
+    {
+      "id": "f29",
+      "kind": "course",
+      "name": "CPSC 597",
+      "detail": "CPSC 597 Project is the online version offered to MSE students only, used to perform the graduate project proposed in CPSC 589.",
+      "sourceUrl": "https://www.fullerton.edu/ecs/mse/programs/courses.php",
+      "quote": "The on-line version of CPSC 597, offered to MSE students only. Perform a graduate project as you proposed in CPSC 589 and write a project report."
+    },
+    {
+      "id": "f30",
+      "kind": "course",
+      "name": "First-year fall schedule",
+      "detail": "First year Fall courses are CPSC 541 and CPSC 544, totaling 6 units.",
+      "sourceUrl": "https://www.fullerton.edu/ecs/mse/programs/courses.php",
+      "quote": "CPSC 541"
+    },
+    {
+      "id": "f31",
+      "kind": "course",
+      "name": "Schedule by semester",
+      "detail": "The courses page includes a term-by-term schedule with 6 units each term through second-year Spring.",
+      "sourceUrl": "https://www.fullerton.edu/ecs/mse/programs/courses.php",
+      "quote": "Schedule by Semester"
+    },
+    {
+      "id": "f32",
+      "kind": "course",
+      "name": "Second-year spring",
+      "detail": "Second year Spring courses are CPSC 543 and CPSC 597, totaling 6 units.",
+      "sourceUrl": "https://www.fullerton.edu/ecs/mse/programs/courses.php",
+      "quote": "Second Year: Spring"
+    },
+    {
+      "id": "f33",
+      "kind": "deadline",
+      "name": "Fall 2026 application window",
+      "detail": "The home page says applications for Fall 2026 admission opened on October 1, 2025, with a Cal State Apply deadline of May 1, 2026.",
+      "sourceUrl": "https://www.fullerton.edu/ecs/mse/",
+      "quote": "Applications for Fall 2026 admission are open on October 1, 2025!"
+    },
+    {
+      "id": "f34",
+      "kind": "deadline",
+      "name": "Cal State Apply deadline",
+      "detail": "The application deadline is May 1, 2026.",
+      "sourceUrl": "https://www.fullerton.edu/ecs/mse/",
+      "quote": "Application (Cal State Apply) Deadline:"
+    },
+    {
+      "id": "f35",
+      "kind": "deadline",
+      "name": "May 1, 2026",
+      "detail": "The home page lists May 1, 2026 as the Cal State Apply deadline.",
+      "sourceUrl": "https://www.fullerton.edu/ecs/mse/",
+      "quote": "May 1, 2026"
+    },
+    {
+      "id": "f36",
+      "kind": "deadline",
+      "name": "Documents deadline",
+      "detail": "Required documents are due May 15, 2026.",
+      "sourceUrl": "https://www.fullerton.edu/ecs/mse/",
+      "quote": "Required Documents Deadline:"
+    },
+    {
+      "id": "f37",
+      "kind": "deadline",
+      "name": "May 15, 2026",
+      "detail": "The required documents deadline is May 15, 2026.",
+      "sourceUrl": "https://www.fullerton.edu/ecs/mse/",
+      "quote": "May 15, 2026"
+    },
+    {
+      "id": "f38",
+      "kind": "deadline",
+      "name": "Application window on requirements page",
+      "detail": "The requirements page says the online application is open from October 1, 2025 to May 1, 2026, with a $70 application fee.",
+      "sourceUrl": "https://www.fullerton.edu/ecs/mse/requirements/",
+      "quote": "The online application will be open from October 1, 2025 to May 1, 2026. A $70 application fee will apply and must be paid online."
+    },
+    {
+      "id": "f39",
+      "kind": "deadline",
+      "name": "First come, first served",
+      "detail": "The requirements page says results can take weeks or months and advises applying as early as possible because admission is first come, first served.",
+      "sourceUrl": "https://www.fullerton.edu/ecs/mse/requirements/",
+      "quote": "Usually it takes a few weeks or months to get the result. First come, first served. Therefore, apply as early as possible."
+    },
+    {
+      "id": "f40",
+      "kind": "deadline",
+      "name": "Enrollment deposit",
+      "detail": "The deadline to accept the offer and pay a non-refundable $250 enrollment deposit is listed as TBD.",
+      "sourceUrl": "https://www.fullerton.edu/ecs/mse/requirements/",
+      "quote": "The deadline to accept the offer of admission and pay a non-refundable $250 enrollment deposit is TBD."
+    },
+    {
+      "id": "f41",
+      "kind": "deadline",
+      "name": "FAQ cost estimate",
+      "detail": "The FAQ estimates roughly $14,000 for a California resident and $26,000 for a non-resident, including international students.",
+      "sourceUrl": "https://www.fullerton.edu/ecs/mse/faq.php",
+      "quote": "The online MSE program costs roughly $14,000 for a California resident, and $26,000 for a non-resident (including international students)."
+    },
+    {
+      "id": "f42",
+      "kind": "deadline",
+      "name": "Cost page dated Fall 2023",
+      "detail": "The program cost page calculates totals from Fall 2023 rates: $14,076.81 for California residents and $25,956.81 for non-residents.",
+      "sourceUrl": "https://www.fullerton.edu/ecs/mse/programs/programcost.php",
+      "quote": "based on the rate as of Fall 2023"
+    },
+    {
+      "id": "f43",
+      "kind": "faculty",
+      "name": "Bin Cong",
+      "detail": "Program Coordinator and Professor of Computer Science; expertise listed includes CMMI and software architecture and engineering. This is a program faculty listing for the online MSE.",
+      "sourceUrl": "https://www.fullerton.edu/ecs/mse/faculty/index.php",
+      "quote": "Bin Cong, Ph.D."
+    },
+    {
+      "id": "f44",
+      "kind": "faculty",
+      "name": "Bin Cong expertise",
+      "detail": "His listed expertise includes SEI CMM/CMMI roles, internet and enterprise computing, and software architecture and engineering.",
+      "sourceUrl": "https://www.fullerton.edu/ecs/mse/faculty/index.php",
+      "quote": "SEI Authorized CMM Lead Assessor"
+    },
+    {
+      "id": "f45",
+      "kind": "faculty",
+      "name": "Ning Chen",
+      "detail": "Professor of Computer Science; expertise includes embedded systems, software testing, and enterprise software architecture.",
+      "sourceUrl": "https://www.fullerton.edu/ecs/mse/faculty/index.php",
+      "quote": "Ning Chen, Ph.D."
+    },
+    {
+      "id": "f46",
+      "kind": "faculty",
+      "name": "Ning Chen expertise",
+      "detail": "His listed expertise includes embedded systems and wireless sensor networks, software testing and QA, and enterprise software architecture.",
+      "sourceUrl": "https://www.fullerton.edu/ecs/mse/faculty/index.php",
+      "quote": "Embedded Systems and Wireless Sensor Network (Linux Kernel, Contiki, TinyOS)"
+    },
+    {
+      "id": "f47",
+      "kind": "faculty",
+      "name": "James Choi",
+      "detail": "Professor of Computer Science; expertise includes software development methodology, reverse engineering, and configuration management.",
+      "sourceUrl": "https://www.fullerton.edu/ecs/mse/faculty/index.php",
+      "quote": "James Choi, Ph.D."
+    },
+    {
+      "id": "f48",
+      "kind": "faculty",
+      "name": "James Choi expertise",
+      "detail": "His listed expertise includes software development methodology, reverse engineering, and configuration management.",
+      "sourceUrl": "https://www.fullerton.edu/ecs/mse/faculty/index.php",
+      "quote": "Software Development Methodology"
+    },
+    {
+      "id": "f49",
+      "kind": "faculty",
+      "name": "Christopher Ryu",
+      "detail": "Professor of Computer Science; expertise includes software design and architecture plus machine learning and AI.",
+      "sourceUrl": "https://www.fullerton.edu/ecs/mse/faculty/index.php",
+      "quote": "Christopher Ryu, Ph.D."
+    },
+    {
+      "id": "f50",
+      "kind": "faculty",
+      "name": "Christopher Ryu expertise",
+      "detail": "His listed expertise includes software design and architecture, machine learning, artificial intelligence, and computational finance.",
+      "sourceUrl": "https://www.fullerton.edu/ecs/mse/faculty/index.php",
+      "quote": "Software Design and Architecture"
+    },
+    {
+      "id": "f51",
+      "kind": "faculty",
+      "name": "Chang-Hyun Jo",
+      "detail": "Professor of Computer Science; expertise includes agile software process and CMMI/ISO and object-oriented and agent-oriented software engineering.",
+      "sourceUrl": "https://www.fullerton.edu/ecs/mse/faculty/index.php",
+      "quote": "Chang-Hyun Jo, Ph.D."
+    },
+    {
+      "id": "f52",
+      "kind": "faculty",
+      "name": "Chang-Hyun Jo expertise",
+      "detail": "His listed expertise includes agile software process and CMMI/ISO, process assessment, and object-oriented and agent-oriented software engineering.",
+      "sourceUrl": "https://www.fullerton.edu/ecs/mse/faculty/index.php",
+      "quote": "Agile Software Process & CMMI/ISO"
+    }
+  ]
+}

@@ -1,0 +1,188 @@
+       Guidelines for Course Selection for M.S. Students in the Computer Engineering (CompE) Degree Program
+
+
+                                                                                                            Preferred Undergrad
+Area of Specialization           Core Course(s)                     Suggested Depth Area Courses
+                                                                                                            Preparatory Course(s)
+
+                                                            COMPE 561: Database and Web Programming
+                         COMPE 560: Computer Networks
+                                                            COMPE 565: Multimedia Comm
+                                     or
+                                                            COMPE 510: Machine Learning for Engineering
+ Computer Networks       EE 602: Stochastic Systems                                                       EE 410: Signals and Systems
+                                                            COMPE 660: High Speed Nets
+                                     or
+                                                            COMPE 662: Wireless Sensor Nets
+                         EE 603: Engineering Optimization
+                                                            COMPE 665: Multimedia Networks
+
+                                                            COMPE 561: Database & Web Programming
+                                                            COMPE 570: VLSI System Design
+                                                            COMPE 510: Machine Learning for Engineering
+                                                                                                          COMPE 475: Microprocessor
+                         COMPE 571: Embedded Operating      COMPE 525: Cyber Physical Systems
+ Embedded Systems                                                                                         EE 410: Signals and Systems
+                         Systems                            EE 503: Biomedical Instrumentation
+                                                            EE 522: Digital Control Systems
+                                                            EE 533: Neuromorphic Computing
+                                                            COMPE 662: Wireless Sensor Nets
+                                                            COMPE 560: Computer Networks
+                                                            COMPE 596: Accelerated Computing
+                                                            COMPE 525: Cyber-physical Systems
+Machine Learning and     COMPE 510: Machine Learning for                                                  COMPE 260: Data Structures
+                                                            EE 533: Neuromorphic Computing
+Scientific Computing     Engineering                                                                      Math 254: Discrete Math
+                                                            EE 602: Stochastic Systems
+                                                            COMPE 696: AI for Unmanned Systems
+                                                            COMPE 696: ML for Signal Processing
+
+                                                            COMPE 570: VLSI System Design
+                                                            EE 503: Biomedical Instrumentation
+                                                            EE 530: Analog Integrated Circuit Design
+   VLSI Systems          COMPE 572: VLSI Circuit Design     EE 533: Neuromorphic Computing                COMPE 470: Digital Circuits
+                                                            EE 634: RF Circuit Design
+                                                            COMPE 671: VLSI Testing
+                                                            EE 674: Signal and Power Integrity
+          Guidelines for Course Selection for M.S. Students in the Electrical Engineering (EE) Degree Program
+
+
+                                                                                                             Preferred Undergrad
+   Area of Specialization            Core Course(s)                Suggested Depth Area Courses
+                                                                                                             Preparatory Course(s)
+
+                                                                EE 558: Digital Communication
+                                                                EE 641: RF Wireless Systems
+                                                                EE 650: Modern Comm Theory
+     Communications          EE 602: Stochastic Systems                                                   EE 458: Analog Communication
+                                                                EE 652: Prin & Apps of Info Theory
+                                                                EE 653: Coding Theory
+                                                                EE 655: Modem Design
+
+
+                                                                EE 540: Microwave Design
+                                                                EE 631: RF Electronic Circuits
+                             EE 602: Stochastic Systems
+                                                                EE 634: RF Circuit Design
+ Electromagnetic Systems                or                                                                EE 440: Electromagnetic Waves
+                                                                EE 641: RF Wireless Systems
+                             EE 603: Engineering Optimization
+                                                                EE 645: Antennas & Propagation
+                                                                EE 674: Sig. and Power Integrity
+
+                                                                EE 522: Digital Control Systems
+                                                                EE 581: Power Systems Dynamics
+                             EE 584: Power Electronics          EE 584: Power Electronics
+                                       or                       EE 586: Distr. Energy Resources & Smart   EE 480: Power Systems
+Energy Systems and Control   EE 601: Linear System Theory       Grid Technologies                         EE 420: Feedback Control
+                                      or                        EE 603: Engineering Optimization          Systems
+                             EE 603: Engineering Optimization   EE 684: Advanced Power Electronics
+                                                                EE 596: Electrified Transportation Sys.
+                                                                EE 596: Energy Management Systems
+
+                                                                COMPE 565: Multimedia Comm
+                                                                EE 601: Linear System Theory
+                                                                EE 603: Engineering Optimization
+     Signal Processing       EE 602: Stochastic Systems                                                   EE 410: Signals and Systems
+                                                                EE 654: Adaptive Algorithms
+                                                                EE 658: Advanced DSP
+                                                                COMPE 696: ML for Signal Processing
+                                                         Instructions
+These guidelines provide a roadmap for students in either Plan A or Plan B. Before meeting with the Graduate Advisor, a student
+should prepare a Program of Study (POS) using the guidelines given below in selecting the courses to be declared for the degree
+program:
+
+General Comments
+
+  ● You are encouraged to take the core course in the first semester of the program.
+  ● Four 500-level courses are accepted for the MSEE graduate program and five are allowed for the MSCOMPE program. Talk to
+    the Graduate Advisor if you are having issues finding relevant 600-level courses.
+  ● Plan A students will mutually select a faculty member to serve as the Thesis Advisor. Students must take 6 units of 799 and 3
+    units of 799A under the supervision of their Thesis Advisor. Rules, guidelines and required paperwork are described on our
+    website (https://electrical.sdsu.edu/graduate/thesis-project-proc). Please read it thoroughly. Also, check with the College of
+    Graduate Studies (https://grad.sdsu.edu/) for deadlines to submit your master’s thesis. Please make sure that your POS is on
+    file.
+  ● Plan B students must take 798 (Project) under the supervision of a faculty member who will serve as the Project Advisor.
+    Rules, guidelines and required paperwork are described on our website (https://electrical.sdsu.edu/graduate/thesis-project-proc).
+    Please read it thoroughly. Also, check with the College of Graduate Studies (https://grad.sdsu.edu/) for deadlines to submit your
+    Project report. Please make sure that your POS is on file.
+  ● Students are allowed to take two courses from outside the ECE Department, with the approval of their Thesis or Project
+    Advisor, and the Graduate Advisor. If students change their Thesis or Project Advisor, these non-ECE courses may not be used
+    as part of their Program of Study (POS).
+  ● Plan A students are encouraged to enroll in the thesis (797) after completing 9 units (as early as the second semester). Please
+    engage with professors during your first semester to identify your Thesis Advisor.
+  ● Plan B students are encouraged to enroll in the project (798) after completing 21 units (as early as the third semester) but no
+    later than after completing 27 units.
+  ● If a student switches from Plan A to Plan B, he/she needs to remove 797 and 799A & B from their POS and take 6 units of
+    regular courses and 3 units of 798, with the approval of the Project Advisor and the Graduate Advisor.
+  ● Please refer to our website (https://electrical.sdsu.edu/graduate/thesis- project-proc) for detailed instructions on graduation
+    requirements for both Plan A and Plan B. Pay special attention to the section that describes how to enroll in and obtain the class
+    number for 799A.
+  ● International students may exercise their CPT after completing 18 units. Students need to maintain a GPA of 3.0 or better to
+    qualify for the CPT. They cannot work for more than 20 hours per week in a semester in which they have classes. For more
+    details on CPT, go to our website https://electrical.sdsu.edu/graduate/cpt.
+ Plan A Students: Total of 30 units
+
+   ● Declare a depth area.
+   ● Take four (4) courses in the depth area including the core course. (12 units).
+   ● Take two breadth courses. (6 units).
+   ● Take one course either from the depth area or as a breadth course. (3 units).
+   ● Register for 6 units of 797 (research) and 3 units of 799A (thesis). (9 units).
+   ● Credit is not given for 798 for Plan A students.
+   ● The student must be Advanced to Candidacy before submitting the POS to the department, signed by the Thesis Advisor, and
+     before you defend your thesis.
+   ● The department allows flexibility in choosing your breadth/depth courses – please talk to your Thesis Advisor and/or
+     Graduate Advisor if in doubt.
+
+ Plan B Students: Total of 30 units
+
+   ● Declare a depth area.
+   ● Take six (6) courses in the depth area including the core course. (18 units).
+   ● Take three breadth courses. (9 units).
+   ● Take 798 (Project) advised by the Project Advisor. (3 units).
+   ● The student must be Advanced to Candidacy before submitting the POS to the department, signed by the Project Advisor, and
+     before you defend your project.
+   ● The department allows flexibility in choosing your breadth/depth courses – please talk to your Project Advisor and/or
+     Graduate Advisor if in doubt.
+ All courses and depth areas listed are subject to the State of California and university funding and therefore may not always be
+ available. Please check the Class Schedule for courses offered per semester. For the Class Schedule go to the link below.
+ (https://cmsweb.cms.sdsu.edu/psc/CSDPRD/EMPLOYEE/SA/c/SSR_STUDENT_FL.SSR_CLSRCH_MAIN_FL.GBL?&)
+
+
+                              List of the Professors in Each Area of Specialization
+Communication Systems: Dr. Santosh Nagaraj, Dr. Duy Nguyen, Dr. Tharm Ratnarajah
+Computer Networks: Dr. Sunil Kumar, Dr. Yusuf Ozturk, Dr. Christopher Paolini, Dr. Mahasweta Sarkar, Dr. Junfei Xie
+Electromagnetic Systems: Dr. Ege Engin, Dr. Satish Sharma
+Embedded Systems: Dr. Baris Aksanli, Dr. Yusuf Ozturk, Dr. Hakan Toreyin, Dr. Junfei Xie, Dr. Flavio Ponzina
+Energy Systems and Control: Dr. Tong Huang, Dr. Saeed Manshadi, Dr. Chris Mi, Dr. Reza Sabzehgar, Dr. Sridhar Seshagiri
+Machine Learning and Scientific Computing: Dr. Baris Aksanli, Dr. Christopher Paolini, Dr. Junfei Xie
+Signal Processing: Dr. Ashkan Ashrafi, Dr. Sunil Kumar
+VLSI Systems: Dr. Amir Alimohammad, Dr. Ege Engin, Dr. Ke Huang
+                         Graduate Courses Tentatively Offered in Fall and Spring Semesters
+IMPORTANT NOTE: This is just a tentative schedule and is intended to help students plan their Program of Study ahead of time. The
+courses and the semesters are subject to change without prior notice.
+
+
+                      Fall Semesters                                                Spring Semesters
+   COMPE560       Computer and Data Networks                    COMPE565        Multimedia Communication Systems
+   COMPE561       Database and Web Programming                  COMPE572        VLSI Circuit Design
+   COMPE565       Multimedia Communication Systems              COMPE525        Cyber Physical Systems
+   COMPE570       VLSI System Design                            EE502           Electronic Devices for Rehabilitation
+   COMPE571       Embedded Operating System                     EE522           Digital Control Systems
+   COMPE572       VLSI Circuit Design                           EE530           Analog Integrated Circuit Design
+   COMPE510       Machine Learning for Engineering              EE540           Microwave Devices and Systems
+   EE503          Biomedical Instrumentation                    EE558           Digital Communications
+   EE540          Microwave Devices and Systems                 EE581           Power System Dynamics
+   EE558          Digital Communications                        EE586           Distr. Energy Resources & Smart Grid Tech
+   EE584          Power Electronics                             EE533           Neuromorphic Computing
+   EE586          Distr. Energy Resources & Smart Grid Tech     EE603           Engineering Optimization
+   EE601          Linear Sys Theory & Design                    EE634           RF Circuit Design
+   EE602          Stochastic Signals & Systems
+   EE645          Antennas and Propagation                      EE652           Principles & App of Information Theory
+   EE650          Modern Communication Theory                   EE653           Coding Theory
+   EE654          Adaptive Filter Design                        EE658           Advanced Digital Signal Processing
+   EE655          Modem Design                                  COMPE660        High Speed Networks: Des. Princ & Rec Advances
+   COMPE662       Wireless Sensor Networks                      COMPE665        Multimedia Wireless Networks
+   COMPE671       VLSI Testing
+   EE674          Signal and Power Integrity                    EE740           Advanced topics in physical electronics
+

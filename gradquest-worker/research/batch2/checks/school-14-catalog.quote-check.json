@@ -1,0 +1,901 @@
+{
+  "schoolId": 14,
+  "schoolName": "San Diego State University",
+  "programName": "Computer Science, M.S.",
+  "sourceNote": "Saved from user's browser 2026-11-13 (live catalog WAF-blocks scripted fetch)",
+  "factsSubmitted": 74,
+  "factsPassed": 74,
+  "factsFailed": 0,
+  "checks": [
+    {
+      "id": "f39",
+      "kind": "overview",
+      "name": "Catalog heading",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12288",
+      "quote": "Computer Science, M.S. (Major Code: 07011) (Academic Plan Code: 773801MSS)",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-14-sdsu-cs-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f40",
+      "kind": "requirement",
+      "name": "Classified graduate standing required",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12288",
+      "quote": "In addition to meeting the requirements for classified graduate standing and the basic requirements for the master's degree as described in Requirements for Master's Degrees , the student must meet the following departmental requirements:",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-14-sdsu-cs-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f41",
+      "kind": "requirement",
+      "name": "Minimum 31 units",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12288",
+      "quote": "Complete a minimum of 31 units of 500-, 600-, and 700-level courses selected with the approval of the advisor.",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-14-sdsu-cs-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f42",
+      "kind": "requirement",
+      "name": "CS 798 internship units may be added to the 31",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12288",
+      "quote": "One to three units of Computer Science 798 may be added to the 31 minimum units required, when used for an internship or practical training.",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-14-sdsu-cs-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f43",
+      "kind": "requirement",
+      "name": "At least 24 units from computer science and mathematics",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12288",
+      "quote": "All programs must include at least 24 units chosen from computer science and mathematics.",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-14-sdsu-cs-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f44",
+      "kind": "requirement",
+      "name": "Plan A thesis GPA of 3 (first statement)",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12288",
+      "quote": "Selecting Plan A is contingent upon having a minimum 3 GPA in courses applicable to the master's degree, and upon finding a full time computer science faculty member to supervise the thesis.",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-14-sdsu-cs-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f45",
+      "kind": "requirement",
+      "name": "Plan A thesis GPA of 3.3 (second statement)",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12288",
+      "quote": "Selecting Plan A is contingent upon having a minimum 3.3 GPA in courses applicable to the master's degree and finding a full-time computer science faculty member to supervise the thesis.",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-14-sdsu-cs-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f46",
+      "kind": "requirement",
+      "name": "Advancement to candidacy",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12288",
+      "quote": "All students must satisfy the general requirements for advancement to candidacy as described in Requirements for Master's Degrees .",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-14-sdsu-cs-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f47",
+      "kind": "requirement",
+      "name": "Required courses 16 units",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12288",
+      "quote": "Required Courses (16 units) The following courses are required for both Plan A and Plan B.",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-14-sdsu-cs-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f48",
+      "kind": "course",
+      "name": "CS 514",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12288",
+      "quote": "CS 514 - Database Theory and Implementation Units: 3",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-14-sdsu-cs-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f49",
+      "kind": "course",
+      "name": "CS 549",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12288",
+      "quote": "CS 549 - Machine Learning Units: 3",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-14-sdsu-cs-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f50",
+      "kind": "course",
+      "name": "CS 576",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12288",
+      "quote": "CS 576 - Computer Networks and Distributed Systems Units: 3",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-14-sdsu-cs-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f51",
+      "kind": "course",
+      "name": "CS 577",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12288",
+      "quote": "CS 577 - Principles and Techniques of Data Science Units: 3",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-14-sdsu-cs-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f52",
+      "kind": "course",
+      "name": "CS 601",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12288",
+      "quote": "CS 601 - Graduate Seminar Units: 1",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-14-sdsu-cs-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f53",
+      "kind": "course",
+      "name": "CS 660",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12288",
+      "quote": "CS 660 - Algorithm Analysis and Design Units: 3",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-14-sdsu-cs-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f54",
+      "kind": "requirement",
+      "name": "Plan A elective units",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12288",
+      "quote": "9 units of computer science elective courses from the groups CSY, ISY, and DSC listed below of which at least 6 units must be computer science 600-level or 700-level courses, excluding CS 790 through CS 799.",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-14-sdsu-cs-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f55",
+      "kind": "requirement",
+      "name": "Plan A MST substitution and special-topics cap",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12288",
+      "quote": "Three units of 600-level mathematics and statistical courses from the group MST listed below may replace one 600-level computer science course. No more than 3 units of CS 696 and CS 798 can be counted towards the 9 units of elective courses.",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-14-sdsu-cs-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f56",
+      "kind": "requirement",
+      "name": "Plan A thesis and research units",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12288",
+      "quote": "Plan A students must take 3 units of CS797-Research and 3 units of CS799A-Thesis. The thesis requires report writing and defense.",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-14-sdsu-cs-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f57",
+      "kind": "requirement",
+      "name": "Plan B elective units",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12288",
+      "quote": "15 units from groups CSY, ISY, DSC listed below with at least 12 units of which must be computer science 600 or 700-level courses, excluding CS 790 through CS 799.",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-14-sdsu-cs-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f58",
+      "kind": "requirement",
+      "name": "Plan B comprehensive exam",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12288",
+      "quote": "Plan B students must pass the comprehensive exam covering the required courses. Students must complete the required courses before taking the exam.",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-14-sdsu-cs-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f59",
+      "kind": "requirement",
+      "name": "International Plan B progress rule",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12288",
+      "quote": "Full-time international students on Plan B who have completed all their required coursework must show progress in at least two areas of study each semester (until they have completed all but one).",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-14-sdsu-cs-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f60",
+      "kind": "requirement",
+      "name": "Elective area 600-level unit reminders",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12288",
+      "quote": "Six units must be Computer Sciences 600-level courses (for Plan A students). 12 Twelve units must be Computer Science 600-level courses (for Plan B students).",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-14-sdsu-cs-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f61",
+      "kind": "course",
+      "name": "CS 797",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12288",
+      "quote": "CS 797 - Research Units: 1-3",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-14-sdsu-cs-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f62",
+      "kind": "course",
+      "name": "CS 799A",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12288",
+      "quote": "CS 799A - Thesis or Project Units: 3",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-14-sdsu-cs-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f63",
+      "kind": "course",
+      "name": "CS 799B",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12288",
+      "quote": "CS 799B - Thesis or Project Extension Units: 0 (if needed)",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-14-sdsu-cs-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f64",
+      "kind": "course",
+      "name": "CS 562",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12288",
+      "quote": "CS 562 - Automata Theory Units: 3",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-14-sdsu-cs-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f65",
+      "kind": "course",
+      "name": "CS 572",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12288",
+      "quote": "CS 572 - Microprocessor Architecture Units: 3",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-14-sdsu-cs-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f66",
+      "kind": "course",
+      "name": "CS 574",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12288",
+      "quote": "CS 574 - Computer Security Units: 3",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-14-sdsu-cs-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f67",
+      "kind": "course",
+      "name": "CS 578",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12288",
+      "quote": "CS 578 - Wireless Networks Units: 3",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-14-sdsu-cs-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f68",
+      "kind": "course",
+      "name": "CS 620",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12288",
+      "quote": "CS 620 - Formal Languages and Syntactic Analysis I Units: 3",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-14-sdsu-cs-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f69",
+      "kind": "course",
+      "name": "CS 635",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12288",
+      "quote": "CS 635 - Advanced Object-Oriented Design and Programming Units: 3",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-14-sdsu-cs-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f70",
+      "kind": "course",
+      "name": "CS 636",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12288",
+      "quote": "CS 636 - Management of Software Development Units: 3",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-14-sdsu-cs-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f71",
+      "kind": "course",
+      "name": "CS 679",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12288",
+      "quote": "CS 679 - Advanced Multimedia Networks Units: 3",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-14-sdsu-cs-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f72",
+      "kind": "course",
+      "name": "CS 521",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12288",
+      "quote": "CS 521 - Internet of Things - Software and Systems Units: 3",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-14-sdsu-cs-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f73",
+      "kind": "course",
+      "name": "CS 651",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12288",
+      "quote": "CS 651 - Machine Learning Operations Units: 3",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-14-sdsu-cs-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f74",
+      "kind": "course",
+      "name": "CY 531",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12288",
+      "quote": "CY 531 - Software Security Units: 3",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-14-sdsu-cs-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f75",
+      "kind": "course",
+      "name": "CY 533",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12288",
+      "quote": "CY 533 - Wireless Security Units: 3",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-14-sdsu-cs-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f76",
+      "kind": "course",
+      "name": "CY 534",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12288",
+      "quote": "CY 534 - Blockchain and Decentralized Cybersecurity Units: 3",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-14-sdsu-cs-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f77",
+      "kind": "course",
+      "name": "CY 542",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12288",
+      "quote": "CY 542 - Data Privacy Units: 3",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-14-sdsu-cs-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f78",
+      "kind": "course",
+      "name": "CY 569",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12288",
+      "quote": "CY 569 - Applied Cybersecurity Management Units: 3",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-14-sdsu-cs-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f79",
+      "kind": "course",
+      "name": "CY 575",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12288",
+      "quote": "CY 575 - Advanced Data Network Security and Privacy Units: 3",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-14-sdsu-cs-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f80",
+      "kind": "course",
+      "name": "CS 553",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12288",
+      "quote": "CS 553 - Neural Networks Units: 3",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-14-sdsu-cs-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f81",
+      "kind": "course",
+      "name": "CS 556",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12288",
+      "quote": "CS 556 - Robotics Units: 3",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-14-sdsu-cs-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f82",
+      "kind": "course",
+      "name": "CS 559",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12288",
+      "quote": "CS 559 - Computer Vision Units: 3",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-14-sdsu-cs-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f83",
+      "kind": "course",
+      "name": "CS 561",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12288",
+      "quote": "CS 561 - Deep Learning for Natural Language Processing Units: 3",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-14-sdsu-cs-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f84",
+      "kind": "course",
+      "name": "CS 583",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12288",
+      "quote": "CS 583 - 3D Game Programming Units: 3",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-14-sdsu-cs-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f85",
+      "kind": "course",
+      "name": "CS 653",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12288",
+      "quote": "CS 653 - Data Mining Units: 3",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-14-sdsu-cs-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f86",
+      "kind": "course",
+      "name": "CS 656",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12288",
+      "quote": "CS 656 - Advanced Robotics Units: 3",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-14-sdsu-cs-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f87",
+      "kind": "course",
+      "name": "CS 657",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12288",
+      "quote": "CS 657 - Intelligent Systems Units: 3",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-14-sdsu-cs-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f88",
+      "kind": "course",
+      "name": "CS 659",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12288",
+      "quote": "CS 659 - Visual Perception and Learning Units: 3",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-14-sdsu-cs-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f89",
+      "kind": "course",
+      "name": "CS 652",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12288",
+      "quote": "CS 652 - Foundations of Deep Learning Units: 3",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-14-sdsu-cs-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f90",
+      "kind": "course",
+      "name": "CS 654",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12288",
+      "quote": "CS 654 - Reinforcement Learning Units: 3",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-14-sdsu-cs-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f91",
+      "kind": "course",
+      "name": "CS 668",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12288",
+      "quote": "CS 668 - Applied Large Language Models Units: 3",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-14-sdsu-cs-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f92",
+      "kind": "course",
+      "name": "CS 759",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12288",
+      "quote": "CS 759 - Advanced Computer Vision Units: 3",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-14-sdsu-cs-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f93",
+      "kind": "course",
+      "name": "CY 541",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12288",
+      "quote": "CY 541 - AI in Cybersecurity Units: 3",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-14-sdsu-cs-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f94",
+      "kind": "course",
+      "name": "CY 632",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12288",
+      "quote": "CY 632 - Privacy and Security in Modern Computing Units: 3",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-14-sdsu-cs-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f95",
+      "kind": "course",
+      "name": "CS 558",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12288",
+      "quote": "CS 558 - Computer Simulation Units: 3",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-14-sdsu-cs-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f96",
+      "kind": "course",
+      "name": "CS 581",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12288",
+      "quote": "CS 581 - Computational Linguistics Units: 3",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-14-sdsu-cs-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f97",
+      "kind": "course",
+      "name": "CS 582",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12288",
+      "quote": "CS 582 - Introduction to Speech Processing Units: 3",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-14-sdsu-cs-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f98",
+      "kind": "course",
+      "name": "CS 605",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12288",
+      "quote": "CS 605 - Scientific Computing Units: 3",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-14-sdsu-cs-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f99",
+      "kind": "course",
+      "name": "CS 615",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12288",
+      "quote": "CS 615 - Spatial Database Units: 3",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-14-sdsu-cs-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f100",
+      "kind": "course",
+      "name": "CS 662",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12288",
+      "quote": "CS 662 - Theory of Parallel Algorithms Units: 3",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-14-sdsu-cs-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f101",
+      "kind": "course",
+      "name": "CS 682",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12288",
+      "quote": "CS 682 - Speech Processing Units: 3",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-14-sdsu-cs-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f102",
+      "kind": "course",
+      "name": "CS 663",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12288",
+      "quote": "CS 663 - Algorithms for Big Data Units: 3",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-14-sdsu-cs-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f103",
+      "kind": "course",
+      "name": "CS 677",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12288",
+      "quote": "CS 677 - Data Quality Assurance Units: 3",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-14-sdsu-cs-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f104",
+      "kind": "course",
+      "name": "CS 649",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12288",
+      "quote": "CS 649 - Big Data Tools and Methods Units: 3",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-14-sdsu-cs-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f105",
+      "kind": "course",
+      "name": "CS 696",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12288",
+      "quote": "CS 696 - Selected Topics in Computer Science Units: 3",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-14-sdsu-cs-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f106",
+      "kind": "course",
+      "name": "CS 798",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12288",
+      "quote": "CS 798 - Special Study Units: 1-3",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-14-sdsu-cs-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f107",
+      "kind": "course",
+      "name": "MATH 625",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12288",
+      "quote": "MATH 625 - Algebraic Coding Theory Units: 3",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-14-sdsu-cs-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f108",
+      "kind": "course",
+      "name": "MATH 626",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12288",
+      "quote": "MATH 626 - Cryptography Units: 3",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-14-sdsu-cs-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f109",
+      "kind": "course",
+      "name": "MATH 668",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12288",
+      "quote": "MATH 668 - Applied Fourier Analysis Units: 3",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-14-sdsu-cs-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f110",
+      "kind": "course",
+      "name": "MATH 693A",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12288",
+      "quote": "MATH 693A - Advanced Numerical Methods: Computational Optimization Units: 3",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-14-sdsu-cs-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f111",
+      "kind": "course",
+      "name": "STAT 610",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12288",
+      "quote": "STAT 610 - Linear Regression Models Units: 3",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-14-sdsu-cs-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f112",
+      "kind": "course",
+      "name": "STAT 676",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12288",
+      "quote": "STAT 676 - Bayesian Statistics Units: 3",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-14-sdsu-cs-ms-catalog-2026-27.html"
+      ]
+    }
+  ],
+  "droppedFacts": [],
+  "mergedSkippedDuplicateQuotes": []
+}

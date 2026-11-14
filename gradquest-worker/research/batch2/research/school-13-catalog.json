@@ -1,0 +1,478 @@
+{
+  "schoolId": 13,
+  "schoolName": "San Diego State University",
+  "programName": "Computer Engineering, M.S.",
+  "sourceNote": "Saved from user's browser 2026-11-13 (live catalog WAF-blocks scripted fetch)",
+  "pages": [
+    {
+      "kind": "curriculum",
+      "url": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12546"
+    }
+  ],
+  "facts": [
+    {
+      "id": "f66",
+      "kind": "overview",
+      "name": "Catalog heading and plan codes",
+      "detail": "The 2026-2027 University Catalog program heading is Computer Engineering, M.S. The page also lists Academic Plan Codes for SDSU Global Campus and SDSU Global Campus-Flex.",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12546",
+      "quote": "Computer Engineering, M.S. (Major Code: 09094) (Academic Plan Code: 445003MSS) (Academic Plan Code: 445004MSE - SDSU Global Campus) (Academic Plan Code: 445004MSF - SDSU Global Campus-Flex)"
+    },
+    {
+      "id": "f67",
+      "kind": "overview",
+      "name": "Four focus areas",
+      "detail": "The department offers the M.S. in computer engineering with graduate courses in Computer Networks, Embedded Systems, VLSI systems, and Machine Learning/Scientific Computing.",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12546",
+      "quote": "The program seeks to provide students with core knowledge through graduate courses offered in the four focus areas of Computer Networks, Embedded Systems, Very Large-Scale Integration (VLSI) systems and Machine Learning/ Scientific Computing."
+    },
+    {
+      "id": "f68",
+      "kind": "requirement",
+      "name": "Admission GPA by student type",
+      "detail": "The catalog asks for a bachelor's in computer engineering, computer science, electrical engineering, or a closely related area, with a GPA of 3.0 or better for international students and 2.85 for domestic students, on a 4.0 scale. An earlier department-page fact described the 2.85 figure as applying to the last 60 semester units of technical coursework; this catalog sentence does not add that restriction. Both quotes are kept and no winner is chosen.",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12546",
+      "quote": "Bachelor's degree in computer engineering, computer science, electrical engineering, or closely related areas with a grade point average of 3.0 or better for international students and a minimum grade point average of 2.85 for domestic students, based on 4.0 scale;"
+    },
+    {
+      "id": "f69",
+      "kind": "requirement",
+      "name": "International English scores",
+      "detail": "International students must have a minimum TOEFL score of 85 or a minimum IELTS score of 6.5.",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12546",
+      "quote": "A minimum TOEFL score of 85 or a minimum IELTS score of 6.5 for international students;"
+    },
+    {
+      "id": "f70",
+      "kind": "requirement",
+      "name": "GRE scores required on this catalog page",
+      "detail": "This 2026-2027 catalog admissions list includes official GRE scores. The department admissions page fact f23 quotes 'GRE scores are not required.' Both quotes are kept and no winner is chosen.",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12546",
+      "quote": "Submission of the official Graduate Record Examination (GRE) scores;"
+    },
+    {
+      "id": "f71",
+      "kind": "requirement",
+      "name": "One letter of recommendation",
+      "detail": "The catalog admissions list requires one letter of recommendation.",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12546",
+      "quote": "One letter of recommendation."
+    },
+    {
+      "id": "f72",
+      "kind": "requirement",
+      "name": "30 units with at least 15 at the 600 or 700 level",
+      "detail": "The degree requires 30 units of 500-, 600-, or 700-level courses, including at least 15 units of 600- or 700-level coursework. An earlier department-page fact said 18 of the 30 units should be 600- and 700-numbered courses. Both quotes are kept and no winner is chosen.",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12546",
+      "quote": "Completion of 30 units of 500-, 600-, or 700-level courses to include at least 15 units of 600 or 700 level coursework."
+    },
+    {
+      "id": "f73",
+      "kind": "requirement",
+      "name": "Plan A thesis or Plan B project",
+      "detail": "Students must have a graduate-advisor-approved program of study that meets core, depth, and breadth requirements, and must choose Plan A (Thesis) or Plan B (Project).",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12546",
+      "quote": "Students must also choose one of two pathways: Plan A (Thesis) or Plan B (Project), for degree completion."
+    },
+    {
+      "id": "f74",
+      "kind": "requirement",
+      "name": "Depth and breadth areas",
+      "detail": "Students select a depth area and complete approved courses from that area, plus a set of approved courses from other areas in consultation with the graduate advisor. In this paragraph the page names the areas Computer Networks, Embedded operating systems, Machine Learning and Scientific Computing, and VLSI Circuit Design.",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12546",
+      "quote": "The offered areas are Computer Networks, Embedded operating systems, Machine Learning and Scientific Computing and VLSI Circuit Design."
+    },
+    {
+      "id": "f75",
+      "kind": "requirement",
+      "name": "Computer Networks core choice",
+      "detail": "For the Computer Networks area, students take one of COMPE 560, E E 602, or E E 603 as core, and at least 3 courses from the Computer Networks depth list.",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12546",
+      "quote": "Students are required to take one of these courses as core: COMPE 560 - Computer and Data Networks Units: 3 or E E 602 - Stochastic Signals and Systems Units: 3 or E E 603 - Engineering Optimization Units: 3"
+    },
+    {
+      "id": "f76",
+      "kind": "requirement",
+      "name": "Embedded Systems core",
+      "detail": "For Embedded Systems, students take the core course COMPE 571 and at least 3 courses from that area's depth list.",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12546",
+      "quote": "Embedded Systems Students are required to take the core course: COMPE 571 - Embedded Operating Systems Units: 3"
+    },
+    {
+      "id": "f77",
+      "kind": "requirement",
+      "name": "Machine Learning and Scientific Computing core",
+      "detail": "For Machine Learning and Scientific Computing, students take the core course COMPE 510 and at least 3 courses from that area's depth list. The catalog text repeats the word 'the' in this sentence; the quote is kept as written.",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12546",
+      "quote": "Machine Learning and Scientific Computing Students are required to take the the core course: COMPE 510 - Machine Learning for Engineers Units: 3"
+    },
+    {
+      "id": "f78",
+      "kind": "requirement",
+      "name": "VLSI Systems core",
+      "detail": "For VLSI Systems, students take the core course COMPE 572 and at least 3 courses from that area's depth list.",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12546",
+      "quote": "VLSI Systems Students are required to take the core course: COMPE 572 - VLSI Circuit Design Units: 3"
+    },
+    {
+      "id": "f79",
+      "kind": "requirement",
+      "name": "Depth-course minimum of three",
+      "detail": "In each depth area, the page says students must take at least 3 of the listed depth courses.",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12546",
+      "quote": "Students must take at least 3 of these courses:"
+    },
+    {
+      "id": "f80",
+      "kind": "requirement",
+      "name": "Plan A thesis units",
+      "detail": "Plan A students take COMPE 797 Research for 6 units and COMPE 799A Thesis for 3 units. Credit for COMPE 797 is given only after COMPE 799A is successfully completed.",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12546",
+      "quote": "Requirements for Plan A (Thesis) Students are required to take COMPE 797 - Research Units: 3-6 (6 units) Cr/NC/RP COMPE 799A - Thesis Units: 3 (3 units)"
+    },
+    {
+      "id": "f81",
+      "kind": "requirement",
+      "name": "COMPE 797 credit after thesis",
+      "detail": "Credit for COMPE 797 is given only after the student successfully completes COMPE 799A.",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12546",
+      "quote": "Credit for COMPE 797 will be given only after successfully completing COMPE 799A."
+    },
+    {
+      "id": "f82",
+      "kind": "requirement",
+      "name": "Plan B project timing and course",
+      "detail": "Plan B students may enroll in COMPE 798 after 18 units, but must do so in the semester immediately after completing 27 units. The project is 3 units of COMPE 798 Special Study, graded Cr/NC/RP. The department determines the evaluation process, enforced by the graduate advisor.",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12546",
+      "quote": "Students may enroll in the project course, COMPE 798 after completion of 18 units, but must do so in the semester immediately following completion of 27 units."
+    },
+    {
+      "id": "f83",
+      "kind": "requirement",
+      "name": "Remaining units from depth or breadth",
+      "detail": "Remaining units may come from the selected depth area or from breadth areas; the page then lists approved courses.",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12546",
+      "quote": "The remaining units can be taken from the selected depth area or from breadth areas. The following courses have been approved:"
+    },
+    {
+      "id": "f84",
+      "kind": "course",
+      "name": "COMPE 560",
+      "detail": "Computer Networks core option (one of three) and a depth/remaining-units course: Computer and Data Networks, 3 units. An earlier guidelines-PDF fact quoted the title as 'Computer Networks'; this catalog page uses 'Computer and Data Networks.' Both quotes are kept and no winner is chosen.",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12546",
+      "quote": "COMPE 560 - Computer and Data Networks Units: 3"
+    },
+    {
+      "id": "f85",
+      "kind": "course",
+      "name": "E E 602",
+      "detail": "Computer Networks core option (one of three): Stochastic Signals and Systems, 3 units.",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12546",
+      "quote": "E E 602 - Stochastic Signals and Systems Units: 3"
+    },
+    {
+      "id": "f86",
+      "kind": "course",
+      "name": "E E 603",
+      "detail": "Computer Networks core option (one of three): Engineering Optimization, 3 units.",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12546",
+      "quote": "E E 603 - Engineering Optimization Units: 3"
+    },
+    {
+      "id": "f87",
+      "kind": "course",
+      "name": "COMPE 571",
+      "detail": "Required core course for the Embedded Systems area: Embedded Operating Systems, 3 units.",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12546",
+      "quote": "COMPE 571 - Embedded Operating Systems Units: 3"
+    },
+    {
+      "id": "f88",
+      "kind": "course",
+      "name": "COMPE 510",
+      "detail": "Required core course for Machine Learning and Scientific Computing: Machine Learning for Engineers, 3 units.",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12546",
+      "quote": "COMPE 510 - Machine Learning for Engineers Units: 3"
+    },
+    {
+      "id": "f89",
+      "kind": "course",
+      "name": "COMPE 572",
+      "detail": "Required core course for VLSI Systems: VLSI Circuit Design, 3 units.",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12546",
+      "quote": "COMPE 572 - VLSI Circuit Design Units: 3"
+    },
+    {
+      "id": "f90",
+      "kind": "course",
+      "name": "COMPE 797",
+      "detail": "Plan A Research, 3-6 units, taken for 6 units, graded Cr/NC/RP.",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12546",
+      "quote": "COMPE 797 - Research Units: 3-6 (6 units) Cr/NC/RP"
+    },
+    {
+      "id": "f91",
+      "kind": "course",
+      "name": "COMPE 799A",
+      "detail": "Plan A Thesis, 3 units.",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12546",
+      "quote": "COMPE 799A - Thesis Units: 3 (3 units)"
+    },
+    {
+      "id": "f92",
+      "kind": "course",
+      "name": "COMPE 798",
+      "detail": "Plan B project course, Special Study, 3 units, graded Cr/NC/RP.",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12546",
+      "quote": "COMPE 798 - Special Study Units: 3 (3 units) Cr/NC/RP"
+    },
+    {
+      "id": "f93",
+      "kind": "course",
+      "name": "COMPE 561",
+      "detail": "Listed as a depth-area and/or remaining-units approved course on the 2026-2027 catalog program page.",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12546",
+      "quote": "COMPE 561 - Windows Database and Web Programming Units: 3"
+    },
+    {
+      "id": "f94",
+      "kind": "course",
+      "name": "COMPE 565",
+      "detail": "Listed as a depth-area and/or remaining-units approved course on the 2026-2027 catalog program page.",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12546",
+      "quote": "COMPE 565 - Multimedia Communication Systems Units: 3"
+    },
+    {
+      "id": "f95",
+      "kind": "course",
+      "name": "COMPE 660",
+      "detail": "Listed as a depth-area and/or remaining-units approved course on the 2026-2027 catalog program page.",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12546",
+      "quote": "COMPE 660 - High Speed Networks: Design Principles and Recent Advances Units: 3"
+    },
+    {
+      "id": "f96",
+      "kind": "course",
+      "name": "COMPE 662",
+      "detail": "Listed as a depth-area and/or remaining-units approved course on the 2026-2027 catalog program page.",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12546",
+      "quote": "COMPE 662 - Wireless Sensor Networks Units: 3"
+    },
+    {
+      "id": "f97",
+      "kind": "course",
+      "name": "COMPE 665",
+      "detail": "Listed as a depth-area and/or remaining-units approved course on the 2026-2027 catalog program page.",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12546",
+      "quote": "COMPE 665 - Multimedia Wireless Networks Units: 3"
+    },
+    {
+      "id": "f98",
+      "kind": "course",
+      "name": "COMPE 525",
+      "detail": "Listed as a depth-area and/or remaining-units approved course on the 2026-2027 catalog program page.",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12546",
+      "quote": "COMPE 525 - Cyber-Physical Systems Units: 3"
+    },
+    {
+      "id": "f99",
+      "kind": "course",
+      "name": "COMPE 570",
+      "detail": "Listed as a depth-area and/or remaining-units approved course on the 2026-2027 catalog program page.",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12546",
+      "quote": "COMPE 570 - VLSI System Design Units: 3"
+    },
+    {
+      "id": "f100",
+      "kind": "course",
+      "name": "E E 503",
+      "detail": "Listed as a depth-area and/or remaining-units approved course on the 2026-2027 catalog program page.",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12546",
+      "quote": "E E 503 - Biomedical Instrumentation Units: 3"
+    },
+    {
+      "id": "f101",
+      "kind": "course",
+      "name": "E E 522",
+      "detail": "Listed as a depth-area and/or remaining-units approved course on the 2026-2027 catalog program page.",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12546",
+      "quote": "E E 522 - Digital Control Systems Units: 3"
+    },
+    {
+      "id": "f102",
+      "kind": "course",
+      "name": "E E 533",
+      "detail": "Listed as a depth-area and/or remaining-units approved course on the 2026-2027 catalog program page.",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12546",
+      "quote": "E E 533 - Neuromorphic Computing Units: 3"
+    },
+    {
+      "id": "f103",
+      "kind": "course",
+      "name": "COMPE 671",
+      "detail": "Listed as a depth-area and/or remaining-units approved course on the 2026-2027 catalog program page.",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12546",
+      "quote": "COMPE 671 - VLSI Testing Units: 3"
+    },
+    {
+      "id": "f104",
+      "kind": "course",
+      "name": "E E 530",
+      "detail": "Listed as a depth-area and/or remaining-units approved course on the 2026-2027 catalog program page.",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12546",
+      "quote": "E E 530 - Analog Integrated Circuit Design Units: 3"
+    },
+    {
+      "id": "f105",
+      "kind": "course",
+      "name": "E E 634",
+      "detail": "Listed as a depth-area and/or remaining-units approved course on the 2026-2027 catalog program page.",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12546",
+      "quote": "E E 634 - RF Circuit Design Units: 3"
+    },
+    {
+      "id": "f106",
+      "kind": "course",
+      "name": "E E 674",
+      "detail": "Listed as a depth-area and/or remaining-units approved course on the 2026-2027 catalog program page.",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12546",
+      "quote": "E E 674 - Signal and Power Integrity Units: 3"
+    },
+    {
+      "id": "f107",
+      "kind": "course",
+      "name": "COMPE 798",
+      "detail": "Listed as a depth-area and/or remaining-units approved course on the 2026-2027 catalog program page.",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12546",
+      "quote": "COMPE 798 - Special Study Units: 3"
+    },
+    {
+      "id": "f108",
+      "kind": "course",
+      "name": "E E 502",
+      "detail": "Listed as a depth-area and/or remaining-units approved course on the 2026-2027 catalog program page.",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12546",
+      "quote": "E E 502 - Electronic Devices for Rehabilitation Units: 3"
+    },
+    {
+      "id": "f109",
+      "kind": "course",
+      "name": "E E 540",
+      "detail": "Listed as a depth-area and/or remaining-units approved course on the 2026-2027 catalog program page.",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12546",
+      "quote": "E E 540 - Microwave Devices and Systems Units: 3"
+    },
+    {
+      "id": "f110",
+      "kind": "course",
+      "name": "E E 558",
+      "detail": "Listed as a depth-area and/or remaining-units approved course on the 2026-2027 catalog program page.",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12546",
+      "quote": "E E 558 - Digital Communications Units: 3"
+    },
+    {
+      "id": "f111",
+      "kind": "course",
+      "name": "E E 581",
+      "detail": "Listed as a depth-area and/or remaining-units approved course on the 2026-2027 catalog program page.",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12546",
+      "quote": "E E 581 - Power System Dynamics Units: 3"
+    },
+    {
+      "id": "f112",
+      "kind": "course",
+      "name": "E E 584",
+      "detail": "Listed as a depth-area and/or remaining-units approved course on the 2026-2027 catalog program page.",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12546",
+      "quote": "E E 584 - Power Electronics Units: 3"
+    },
+    {
+      "id": "f113",
+      "kind": "course",
+      "name": "E E 586",
+      "detail": "Listed as a depth-area and/or remaining-units approved course on the 2026-2027 catalog program page.",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12546",
+      "quote": "E E 586 - Distributed Energy Resources and Smart Grid Technologies Units: 3"
+    },
+    {
+      "id": "f114",
+      "kind": "course",
+      "name": "E E 601",
+      "detail": "Listed as a depth-area and/or remaining-units approved course on the 2026-2027 catalog program page.",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12546",
+      "quote": "E E 601 - Linear System Theory and Design Units: 3"
+    },
+    {
+      "id": "f115",
+      "kind": "course",
+      "name": "E E 641",
+      "detail": "Listed as a depth-area and/or remaining-units approved course on the 2026-2027 catalog program page.",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12546",
+      "quote": "E E 641 - RF Wireless Systems Units: 3"
+    },
+    {
+      "id": "f116",
+      "kind": "course",
+      "name": "E E 645",
+      "detail": "Listed as a depth-area and/or remaining-units approved course on the 2026-2027 catalog program page.",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12546",
+      "quote": "E E 645 - Antennas and Propagation Units: 3"
+    },
+    {
+      "id": "f117",
+      "kind": "course",
+      "name": "E E 650",
+      "detail": "Listed as a depth-area and/or remaining-units approved course on the 2026-2027 catalog program page.",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12546",
+      "quote": "E E 650 - Modern Communication Theory Units: 3"
+    },
+    {
+      "id": "f118",
+      "kind": "course",
+      "name": "E E 652",
+      "detail": "Listed as a depth-area and/or remaining-units approved course on the 2026-2027 catalog program page.",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12546",
+      "quote": "E E 652 - Principles and Applications of Information Theory Units: 3"
+    },
+    {
+      "id": "f119",
+      "kind": "course",
+      "name": "E E 653",
+      "detail": "Listed as a depth-area and/or remaining-units approved course on the 2026-2027 catalog program page.",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12546",
+      "quote": "E E 653 - Coding Theory Units: 3"
+    },
+    {
+      "id": "f120",
+      "kind": "course",
+      "name": "E E 654",
+      "detail": "Listed as a depth-area and/or remaining-units approved course on the 2026-2027 catalog program page.",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12546",
+      "quote": "E E 654 - Adaptive Filter Design Units: 3"
+    },
+    {
+      "id": "f121",
+      "kind": "course",
+      "name": "E E 655",
+      "detail": "Listed as a depth-area and/or remaining-units approved course on the 2026-2027 catalog program page.",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12546",
+      "quote": "E E 655 - Modem Design Units: 3"
+    },
+    {
+      "id": "f122",
+      "kind": "course",
+      "name": "E E 658",
+      "detail": "Listed as a depth-area and/or remaining-units approved course on the 2026-2027 catalog program page.",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12546",
+      "quote": "E E 658 - Advanced Digital Signal Processing Units: 3"
+    },
+    {
+      "id": "f123",
+      "kind": "course",
+      "name": "E E 684",
+      "detail": "Listed as a depth-area and/or remaining-units approved course on the 2026-2027 catalog program page.",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12546",
+      "quote": "E E 684 - Advanced Power Electronics Units: 3"
+    }
+  ]
+}

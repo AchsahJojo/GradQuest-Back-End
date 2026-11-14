@@ -1,0 +1,39 @@
+TITLE: Admissions | Department of Computer Science | UNLV
+SOURCE: /workspace/gradquest-program-research-batch2/sources/school23-cs-admissions.html
+
+Undergraduate Admission Requirements
+To become a student in the department, you must follow the application process and be admitted to the College of Engineering.
+Undergraduate Admission Requirements
+DEGREES
+Bachelor of Arts in Computer Science
+Bachelor of Science in Computer Science
+Minor in Computer Science
+Graduate Admission Requirements
+Master of Science in Computer Science
+Please submit the following materials to the department:
+Two letters of recommendation concerning your potential for success in the graduate program.
+A minimal grade point average (GPA) of 2.75 overall or 3.0 on the last two years of undergraduate work.
+Evidence that courses equivalent to our basic undergraduate courses have been completed with an average grade of B or better. We may elect to conditionally admit you if you have satisfied all but one or two of the background requirements, with the understanding that you will complete them immediately after you begin the graduate program. These courses will not count toward the master's degree requirements.
+Evidence that a bachelor's degree in some field has been earned from an accredited four-year college or university, with an official transcript. If a degree is in progress, admission may be granted contingent upon the Graduate College and the school receiving copies of the final transcript immediately after graduation.
+Results of the Graduate Record Examination. Application forms are available from the Graduate College. The deadline for receiving all materials is August 1 (for Fall) and December 1 (for Spring) admission. However, applications for
+Graduate Assistantships
+require that all materials be in earlier, as decisions about them may be made as early as April and students' admissions must be decided before making any decisions about offering them graduate assistantships.
+Additional requirements for the Graduate College may be found on the
+Graduate College website
+.
+DEGREE
+Master of Science — Computer Science
+Doctor of Philosophy in Computer Science
+In addition to the requirements of the
+Graduate College
+, you will need to fulfill the following requirements:
+A GPA of 3.70 (on a 4.00 scale) or higher in post-baccalaureate course work is required for admission. Students entering with a bachelor’s degree must have a GPA of 3.5 or higher for the courses at the 200-level or above.
+Students are expected to have a master’s degree in computer science before applying to the Ph.D. program. On rare occasions, an unusually capable student may be admitted to work directly for the Ph.D. degree without having a master’s degree.
+At least three letters of recommendation (preferably from academic sources) attesting to the applicant’s professional competence and academic potential are required.
+A personal statement of purpose, which should be as specific as possible and should include the applicant’s objectives and area(s) of interest, is required.
+A minimum score of 315 on the general test of the Graduate Record Examination (GRE) is required. Official score reports from the last five years are acceptable.
+All domestic and international applicants must review and follow the
+Graduate College Admission and Registration Requirements
+.
+DEGREE
+Doctor of Philosophy – Computer Science

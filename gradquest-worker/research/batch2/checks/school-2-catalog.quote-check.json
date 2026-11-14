@@ -1,0 +1,601 @@
+{
+  "schoolId": 2,
+  "schoolName": "Cal Poly Pomona",
+  "programName": "Computer Science, M.S. (on-campus)",
+  "sourceNote": "Saved from user's browser 2026-11-13 (live catalog WAF-blocks scripted fetch)",
+  "factsSubmitted": 49,
+  "factsPassed": 49,
+  "factsFailed": 0,
+  "checks": [
+    {
+      "id": "f51",
+      "kind": "overview",
+      "name": "Catalog heading and unit total",
+      "sourceUrl": "https://catalog.cpp.edu/preview_program.php?catoid=78&poid=24271",
+      "quote": "Computer Science, M.S.: 30 units",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-2-cpp-cs-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f52",
+      "kind": "requirement",
+      "name": "Major required units",
+      "sourceUrl": "https://catalog.cpp.edu/preview_program.php?catoid=78&poid=24271",
+      "quote": "Major Required: 13 units",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-2-cpp-cs-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f53",
+      "kind": "course",
+      "name": "CS 5215",
+      "sourceUrl": "https://catalog.cpp.edu/preview_program.php?catoid=78&poid=24271",
+      "quote": "CS 5215 - Advanced Machine Learning and AI (3)",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-2-cpp-cs-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f54",
+      "kind": "course",
+      "name": "CS 5250",
+      "sourceUrl": "https://catalog.cpp.edu/preview_program.php?catoid=78&poid=24271",
+      "quote": "CS 5250 - Advanced Computer Architecture (3)",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-2-cpp-cs-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f55",
+      "kind": "course",
+      "name": "CS 5300",
+      "sourceUrl": "https://catalog.cpp.edu/preview_program.php?catoid=78&poid=24271",
+      "quote": "CS 5300 - Advanced Algorithm Design and Analysis (3)",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-2-cpp-cs-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f56",
+      "kind": "course",
+      "name": "CS 5800",
+      "sourceUrl": "https://catalog.cpp.edu/preview_program.php?catoid=78&poid=24271",
+      "quote": "CS 5800 - Advanced Software Engineering (3)",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-2-cpp-cs-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f57",
+      "kind": "course",
+      "name": "CS 6640",
+      "sourceUrl": "https://catalog.cpp.edu/preview_program.php?catoid=78&poid=24271",
+      "quote": "CS 6640 - Graduate Seminar (1)",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-2-cpp-cs-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f58",
+      "kind": "requirement",
+      "name": "Major elective unit range",
+      "sourceUrl": "https://catalog.cpp.edu/preview_program.php?catoid=78&poid=24271",
+      "quote": "Major Electives: 12-15 units",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-2-cpp-cs-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f59",
+      "kind": "requirement",
+      "name": "Elective units with project vs thesis",
+      "sourceUrl": "https://catalog.cpp.edu/preview_program.php?catoid=78&poid=24271",
+      "quote": "Select 15 semester units (with Master's Degree Project) or 12 semester units (with Master's Degree Thesis)",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-2-cpp-cs-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f60",
+      "kind": "requirement",
+      "name": "Culminating experience unit range and options",
+      "sourceUrl": "https://catalog.cpp.edu/preview_program.php?catoid=78&poid=24271",
+      "quote": "Culminating Experience: 2-5 units Choose Option 1 (2 units) or Option 2 (5 units).",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-2-cpp-cs-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f61",
+      "kind": "requirement",
+      "name": "Project vs thesis recommendation",
+      "sourceUrl": "https://catalog.cpp.edu/preview_program.php?catoid=78&poid=24271",
+      "quote": "In general, MS Project is recommended for students seeking industry placement right after graduation. MS Thesis option is recommended for students seeking placement at research labs and/or advanced education such as PhD.",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-2-cpp-cs-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f62",
+      "kind": "requirement",
+      "name": "Option 1 project units",
+      "sourceUrl": "https://catalog.cpp.edu/preview_program.php?catoid=78&poid=24271",
+      "quote": "Option 1: 2 units CS 6910 - Directed Research (1-3) (1 unit required) CS 6950 - Master's Degree Project (1) (1 unit required)",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-2-cpp-cs-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f63",
+      "kind": "requirement",
+      "name": "Option 2 thesis units",
+      "sourceUrl": "https://catalog.cpp.edu/preview_program.php?catoid=78&poid=24271",
+      "quote": "Option 2: 5 units CS 6910 - Directed Research (1-3) (2 units required) CS 6960 - Master's Degree Thesis (1-3) (3 units required)",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-2-cpp-cs-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f64",
+      "kind": "requirement",
+      "name": "4000-level elective cap and excluded courses",
+      "sourceUrl": "https://catalog.cpp.edu/preview_program.php?catoid=78&poid=24271",
+      "quote": "Computer Science MS students can take up to 6 semester units of CS 4000+ level elective classes to satisfy their elective courses requirement, excluding the following courses: CS 4000 , CS 4310 , CS 4610 , CS 4620 , CS 4630 , and CS 4800 .",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-2-cpp-cs-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f65",
+      "kind": "requirement",
+      "name": "No repeat of undergraduate 4000-level classes",
+      "sourceUrl": "https://catalog.cpp.edu/preview_program.php?catoid=78&poid=24271",
+      "quote": "However, these 4000+ level classes cannot be classes that a CS MS student already took in their undergraduate curriculum.",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-2-cpp-cs-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f66",
+      "kind": "requirement",
+      "name": "CS 4990 and CS 5990 unit caps",
+      "sourceUrl": "https://catalog.cpp.edu/preview_program.php?catoid=78&poid=24271",
+      "quote": "Therefore, in a master's contract, a CS MS student can have a maximum of 6 semester units of CS 4990 and 6 semester units of CS 5990 course credits.",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-2-cpp-cs-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f67",
+      "kind": "course",
+      "name": "CS 6910",
+      "sourceUrl": "https://catalog.cpp.edu/preview_program.php?catoid=78&poid=24271",
+      "quote": "CS 6910 - Directed Research (1-3)",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-2-cpp-cs-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f68",
+      "kind": "course",
+      "name": "CS 6950",
+      "sourceUrl": "https://catalog.cpp.edu/preview_program.php?catoid=78&poid=24271",
+      "quote": "CS 6950 - Master's Degree Project (1)",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-2-cpp-cs-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f69",
+      "kind": "course",
+      "name": "CS 6960",
+      "sourceUrl": "https://catalog.cpp.edu/preview_program.php?catoid=78&poid=24271",
+      "quote": "CS 6960 - Master's Degree Thesis (1-3)",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-2-cpp-cs-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f70",
+      "kind": "course",
+      "name": "CPU 5003",
+      "sourceUrl": "https://catalog.cpp.edu/preview_program.php?catoid=78&poid=24271",
+      "quote": "CPU 5003 - Cal Poly Pomona Graduate Sponsored Summer Experience (0)",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-2-cpp-cs-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f71",
+      "kind": "course",
+      "name": "CS 5170",
+      "sourceUrl": "https://catalog.cpp.edu/preview_program.php?catoid=78&poid=24271",
+      "quote": "CS 5170 - Advanced Natural Language Processing (3)",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-2-cpp-cs-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f72",
+      "kind": "course",
+      "name": "CS 5180",
+      "sourceUrl": "https://catalog.cpp.edu/preview_program.php?catoid=78&poid=24271",
+      "quote": "CS 5180 - Information Retrieval (3)",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-2-cpp-cs-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f73",
+      "kind": "course",
+      "name": "CS 5190",
+      "sourceUrl": "https://catalog.cpp.edu/preview_program.php?catoid=78&poid=24271",
+      "quote": "CS 5190 - Computer Vision (3)",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-2-cpp-cs-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f74",
+      "kind": "course",
+      "name": "CS 5240",
+      "sourceUrl": "https://catalog.cpp.edu/preview_program.php?catoid=78&poid=24271",
+      "quote": "CS 5240 - Software for Intelligent Robotics (3)",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-2-cpp-cs-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f75",
+      "kind": "course",
+      "name": "CS 5220",
+      "sourceUrl": "https://catalog.cpp.edu/preview_program.php?catoid=78&poid=24271",
+      "quote": "CS 5220 - Distributed Intelligence in Robotics (3)",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-2-cpp-cs-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f76",
+      "kind": "course",
+      "name": "CS 5230",
+      "sourceUrl": "https://catalog.cpp.edu/preview_program.php?catoid=78&poid=24271",
+      "quote": "CS 5230 - Connected and Autonomous Vehicles (3)",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-2-cpp-cs-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f77",
+      "kind": "course",
+      "name": "CS 5310",
+      "sourceUrl": "https://catalog.cpp.edu/preview_program.php?catoid=78&poid=24271",
+      "quote": "CS 5310 - Computability and Complexity Theory (3)",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-2-cpp-cs-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f78",
+      "kind": "course",
+      "name": "CS 5350",
+      "sourceUrl": "https://catalog.cpp.edu/preview_program.php?catoid=78&poid=24271",
+      "quote": "CS 5350 - Parallel and Distributed Algorithms (3)",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-2-cpp-cs-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f79",
+      "kind": "course",
+      "name": "CS 5370",
+      "sourceUrl": "https://catalog.cpp.edu/preview_program.php?catoid=78&poid=24271",
+      "quote": "CS 5370 - Scheduling Algorithms (3)",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-2-cpp-cs-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f80",
+      "kind": "course",
+      "name": "CS 5400",
+      "sourceUrl": "https://catalog.cpp.edu/preview_program.php?catoid=78&poid=24271",
+      "quote": "CS 5400 - Topics in Compiler Design (3)",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-2-cpp-cs-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f81",
+      "kind": "course",
+      "name": "CS 5500",
+      "sourceUrl": "https://catalog.cpp.edu/preview_program.php?catoid=78&poid=24271",
+      "quote": "CS 5500 - Advanced Information Security (3)",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-2-cpp-cs-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f82",
+      "kind": "course",
+      "name": "CS 5550",
+      "sourceUrl": "https://catalog.cpp.edu/preview_program.php?catoid=78&poid=24271",
+      "quote": "CS 5550 - Digital Image Processing (3)",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-2-cpp-cs-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f83",
+      "kind": "course",
+      "name": "CS 5510",
+      "sourceUrl": "https://catalog.cpp.edu/preview_program.php?catoid=78&poid=24271",
+      "quote": "CS 5510 - Data Privacy and Security (3)",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-2-cpp-cs-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f84",
+      "kind": "course",
+      "name": "CS 5520",
+      "sourceUrl": "https://catalog.cpp.edu/preview_program.php?catoid=78&poid=24271",
+      "quote": "CS 5520 - Machine Learning for Cyber Security (3)",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-2-cpp-cs-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f85",
+      "kind": "course",
+      "name": "CS 5560",
+      "sourceUrl": "https://catalog.cpp.edu/preview_program.php?catoid=78&poid=24271",
+      "quote": "CS 5560 - Game Theory and its Applications in Communication Networks (3)",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-2-cpp-cs-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f86",
+      "kind": "course",
+      "name": "CS 5650",
+      "sourceUrl": "https://catalog.cpp.edu/preview_program.php?catoid=78&poid=24271",
+      "quote": "CS 5650 - Advanced Computer Networks (3)",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-2-cpp-cs-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f87",
+      "kind": "course",
+      "name": "CS 5660",
+      "sourceUrl": "https://catalog.cpp.edu/preview_program.php?catoid=78&poid=24271",
+      "quote": "CS 5660 - Distributed Computing Systems (3)",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-2-cpp-cs-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f88",
+      "kind": "course",
+      "name": "CS 5670",
+      "sourceUrl": "https://catalog.cpp.edu/preview_program.php?catoid=78&poid=24271",
+      "quote": "CS 5670 - Computational Social Systems (3)",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-2-cpp-cs-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f89",
+      "kind": "course",
+      "name": "CS 5700",
+      "sourceUrl": "https://catalog.cpp.edu/preview_program.php?catoid=78&poid=24271",
+      "quote": "CS 5700 - Human Computer Interaction (3)",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-2-cpp-cs-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f90",
+      "kind": "course",
+      "name": "CS 5750",
+      "sourceUrl": "https://catalog.cpp.edu/preview_program.php?catoid=78&poid=24271",
+      "quote": "CS 5750 - Topics in Database Systems (3)",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-2-cpp-cs-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f91",
+      "kind": "course",
+      "name": "CS 5850",
+      "sourceUrl": "https://catalog.cpp.edu/preview_program.php?catoid=78&poid=24271",
+      "quote": "CS 5850 - Software Verification and Validation (3)",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-2-cpp-cs-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f92",
+      "kind": "course",
+      "name": "CS 5860",
+      "sourceUrl": "https://catalog.cpp.edu/preview_program.php?catoid=78&poid=24271",
+      "quote": "CS 5860 - Software Metrics and Models (3)",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-2-cpp-cs-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f93",
+      "kind": "course",
+      "name": "CS 5990",
+      "sourceUrl": "https://catalog.cpp.edu/preview_program.php?catoid=78&poid=24271",
+      "quote": "CS 5990 - Special Topics for Graduate Students (1-3) *",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-2-cpp-cs-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f94",
+      "kind": "course",
+      "name": "CS 6990",
+      "sourceUrl": "https://catalog.cpp.edu/preview_program.php?catoid=78&poid=24271",
+      "quote": "CS 6990 - Master's Degree Continuation (0)",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-2-cpp-cs-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f95",
+      "kind": "course",
+      "name": "CS 5440",
+      "sourceUrl": "https://catalog.cpp.edu/preview_program.php?catoid=78&poid=24271",
+      "quote": "CS 5440 - Advanced Data Mining (3)",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-2-cpp-cs-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f96",
+      "kind": "course",
+      "name": "CS 6910",
+      "sourceUrl": "https://catalog.cpp.edu/preview_program.php?catoid=78&poid=24271",
+      "quote": "CS 6910 - Directed Research (1-3) (1 unit required)",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-2-cpp-cs-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f97",
+      "kind": "course",
+      "name": "CS 6950",
+      "sourceUrl": "https://catalog.cpp.edu/preview_program.php?catoid=78&poid=24271",
+      "quote": "CS 6950 - Master's Degree Project (1) (1 unit required)",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-2-cpp-cs-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f98",
+      "kind": "course",
+      "name": "CS 6910",
+      "sourceUrl": "https://catalog.cpp.edu/preview_program.php?catoid=78&poid=24271",
+      "quote": "CS 6910 - Directed Research (1-3) (2 units required)",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-2-cpp-cs-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f99",
+      "kind": "course",
+      "name": "CS 6960",
+      "sourceUrl": "https://catalog.cpp.edu/preview_program.php?catoid=78&poid=24271",
+      "quote": "CS 6960 - Master's Degree Thesis (1-3) (3 units required)",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-2-cpp-cs-ms-catalog-2026-27.html"
+      ]
+    }
+  ],
+  "droppedFacts": [],
+  "mergedSkippedDuplicateQuotes": []
+}

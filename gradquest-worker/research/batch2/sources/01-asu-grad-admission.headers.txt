@@ -1,0 +1,27 @@
+HTTP/2 200 
+date: Sat, 14 Nov 2026 06:14:29 GMT
+content-type: text/html; charset=UTF-8
+cf-ray: a5a3e0524876dddf-IAD
+cf-cache-status: REVALIDATED
+cache-control: max-age=86400, public
+content-language: en
+expires: Sun, 19 Nov 1978 05:00:00 GMT
+last-modified: Fri, 13 Nov 2026 19:21:36 GMT
+server: cloudflare
+strict-transport-security: max-age=31536000
+vary: Cookie,Accept-Encoding
+via: varnish
+expect-ct: max-age=86400
+x-ah-environment: 01live
+x-cache: HIT
+x-cache-hits: 3
+x-content-type-options: nosniff
+x-drupal-dynamic-cache: HIT
+x-frame-options: SAMEORIGIN
+x-generator: Drupal 10 (https://www.drupal.org)
+x-request-id: v-71766570-df97-11f1-b3ec-5b3aca5cad91
+x-xss-protection: 1; mode=block
+server-timing: cfCacheStatus;desc="REVALIDATED"
+server-timing: cfEdge;dur=15,cfOrigin;dur=0,cfWorker;dur=265
+content-encoding: gzip
+

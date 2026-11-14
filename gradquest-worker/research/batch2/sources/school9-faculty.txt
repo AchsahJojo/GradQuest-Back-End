@@ -1,0 +1,257 @@
+TITLE: Faculty | Cal State LA
+URL_FILE: /workspace/gradquest-program-research-batch2/sources/school9-faculty.html
+
+Department of Computer Science
+Department of Computer Science
+Objectives & Outcomes
+Undergraduate
+Admission
+Curriculum & Requirements
+Roadmaps
+CS Courses
+GE Courses
+Schedule of Courses
+Capstone Senior Design
+Graduate
+Admission & Prerequisites
+Curriculum & Requirements
+Roadmaps
+Thesis/Projects
+Courses
+Schedule of Courses
+Integrated BS MS
+Minor in CS
+CS Supplementary Authorization
+Advising & Resources
+Faculty Advisors
+Forms
+Resources
+Faculty
+Staff
+Research
+Employment
+Contact
+Faculty
+Faculty Photo
+Faculty Information
+Chengyu Sun, Ph.D.
+Professor and Chair
+Office:
+E&T
+A-325
+Phone:
+(323) 343-6697
+Email:
+[email protected]
+Specialization:
+Database performance optimization, communication, and network applications
+Homepage
+Navid Amini, Ph.D.,
+Associate Professor
+Office:
+E&T
+A-407
+Phone:
+(323) 343-6687
+Email:
+[email protected]
+Specialization:
+Machine Learning and Mobile Computing
+Homepage
+Mark Baldwin, Ph.D.
+Assistant Professor
+Office:
+ET A326
+Phone:
+(323) 343-6671
+Email:
+[email protected]
+Specialization:
+Human-Computer Interaction, Assistive Technology, Pervasive Computing
+Homepage
+Armando Beltran Verdugo, Ph.D.
+Assistant Professor
+Office:
+ET A327
+Phone:
+(323) 343-6675
+Email:
+[email protected]
+Specialization:
+Artificial Intelligence (AI), Optimization, Computational Biology, Human-Center AI
+Homepage
+Negin Forouzesh, Ph.D.
+Associate Professor
+Office:
+E&T
+A-327
+Phone:
+(323) 343-6693
+Email:
+[email protected]
+Specialization:
+Computational Biology, Optimization, Computational Geometry
+Homepage
+Huiping Guo, Ph.D.
+Professor
+Office:
+E&T
+A-318
+Phone:
+(323) 343-6673
+Email:
+[email protected]
+Specialization:
+Computer Networks and Data Security
+Homepage
+Jiang Guo, Ph.D.
+Professor
+Office:
+E&T
+A-315
+Phone:
+(323) 343-6674
+Email:
+[email protected]
+Specialization:
+Software Engineering, Networks, and Operating Systems
+Homepage
+Eun-Young (Elaine) Kang, Ph.D.
+Professor
+Office:
+E&T
+A-324
+Phone:
+(323) 343-6690
+Email:
+[email protected]
+Specialization:
+Computer Vision, Computer Graphics, and Image Processing
+Homepage
+Manveen Kaur, Ph.D.
+Assistant Professor
+Office:
+E&T
+A-328
+Phone:
+(323) 343-6677
+Email:
+[email protected]
+Specialization:
+System Design, Communication, and Security in Internet of Things (IoT) Networks, e.g., Drone Swarms, Smart Vehicles
+Homepage
+David Krum, Ph.D.
+Associate Professor
+Office:
+E&T
+A-326
+Phone:
+(323) 343-6694
+Email:
+[email protected]
+Specialization:
+Human-computer interaction, 3D interaction, virtual and augmented reality
+Homepage
+Jungsoo Lim, Ph.D.
+Associate Professor
+Office:
+E&T
+A-328
+Phone:
+(323) 343-6695
+Email:
+[email protected]
+Specialization:
+Internet Of Things, Cyber-Physical Systems, Wireless Networking, Wireless Sensor Networks
+Homepage
+Mohammad Pourhomayoun, Ph.D.
+Professor
+Office:
+E&T
+A-408
+Phone:
+(323) 343-6688
+Email:
+[email protected]
+Specialization:
+Data Science, Machine Learning, Artificial Intelligence
+Homepage
+Zilong Ye, Ph.D.
+Professor and Undergraduate Advisor
+Office:
+E&T
+A-316
+Phone:
+(323) 343-6689
+Email:
+[email protected]
+Specialization:
+Networking
+Homepage
+YuQing Zhu, Ph.D.
+Professor
+Office:
+E&T
+A-317
+Phone:
+(323) 343-4572
+Email:
+[email protected]
+Specialization:
+Distributed Computing, Complex Data Mining
+Homepage
+FERP Faculty
+Faculty Photo
+Faculty Information
+Behzad Parviz, Ph.D.
+Email:
+[email protected]
+Specialization:
+General Systems Methodology, Information Theory, and Software Engineering
+Homepage
+Lecturers and Adjunct Faculty
+Faculty Name
+Email
+Richard Cross
+[email protected]
+Weronika Cwir
+[email protected]
+Dr. Daniel Firpo
+[email protected]
+Randal Moss
+[email protected]
+Dr. Jithika Thomas
+[email protected]
+Cydney Auman
+[email protected]
+Anson Fong
+[email protected]
+Micah A. Shaw
+[email protected]
+Francisco Guzman
+[email protected]
+Dr. Sen Wang
+[email protected]
+Dr. Su Seon Yang
+[email protected]
+Robert Lai
+[email protected]
+Ricky Vargas
+[email protected]
+Jerome Pineda
+[email protected]
+Jesse Gonzalez
+[email protected]
+Edmundo Guzman Meza
+[email protected]
+Emeriti
+Faculty Photo
+Faculty Name
+Vladimir N. Akis, Ph.D.
+Raj S. Pamula, Ph.D.
+Russ Abbott, Ph.D.
+Donald I. Kiel
+Valentina Ovasapyan, CS Department Coordinator
+5151 State University Drive, Los Angeles, CA | E&T A-322
+TEL: (323) 343-6690 | FAX: (323) 343-6672 |
+[email protected]

@@ -1,0 +1,52 @@
+TITLE: Dr. Amin Rezaei | California State University Long Beach
+SOURCE: /workspace/gradquest-program-research-batch2/sources/profiles/s8-rezaei.html
+
+Dr. Amin Rezaei | California State University Long Beach
+Skip to main content
+Open
+Menu
+Dr. Amin Rezaei
+Dr. Amin Rezaei joined the Department of Computer Engineering & Computer Science at California State University, Long Beach (CSULB) as an Assistant Professor in Fall 2020. He earned his Ph.D. in Computer Engineering from Northwestern University.
+Rezaei is a senior member of IEEE and a lifetime member of ACM and AAAI. With over a dozen years of experience in hardware security, computer architecture, and machine learning, he has published more than 50 peer-reviewed scientific articles in flagship venues such as DAC, ICCAD, DATE, and ASP-DAC. He has also served on the technical program committees and as a session chair for numerous major conferences in his field, including IPDPS, DAC, ICCAD, DATE, ASP-DAC, ICCD, and GLSVLSI. Additionally, Rezaei has secured funding for two grant proposals from the NSF, totaling half a million dollars for the CISE-MSI and CRII programs. He is the recipient of an Academic Excellence Award from the University of Louisiana at Lafayette, as well as the Walter P. Murphy and Royal E. Cabell Fellowship awards from Northwestern University.
+Research Interests
+Hardware Security
+Machine Learning
+Computer Architecture
+Selected Publications
+K. Lopez and A. Rezaei, “Cute-Lock: Behavioral and Structural Multi-Key Logic Locking Using Time Base Keys,” In Proceedings of 28th Design, Automation & Test in Europe Conference & Exhibition (DATE), pp. 1-7, 2025, France. (DOI: 10.23919/DATE64628.2025.10993182) (25% acceptance rate)
+K. Lopez and A. Rezaei, “K-Gate Lock: Multi-Key Logic Locking Using Input Encoding Against Oracle-Guided Attacks,” In Proceedings of 30th Asia and South Pacific Design Automation Conference (ASP-DAC), pp. 794-800, 2025, Japan. (DOI: 10.1145/3658617.3697764) (29% acceptance rate)
+M. Dominguez and A. Rezaei, “CycPUF: Cyclic Physical Unclonable Function,” In Proceedings of 27th Design, Automation & Test in Europe Conference & Exhibition (DATE), pp. 1-6, 2024, Spain. (DOI: 10.23919/DATE58400.2024.10546861) (25% acceptance rate)
+R. Vishwakarma and A. Rezaei, “Uncertainty-Aware Hardware Trojan Detection Using Multimodal Deep Learning,” In Proceedings of 27th Design, Automation & Test in Europe Conference & Exhibition (DATE), pp. 1-6, 2024, Spain. (DOI: 10.23919/DATE58400.2024.10546558) (25% acceptance rate)
+Y. Aghamohammadi and A. Rezaei, “LIPSTICK: Corruptibility-Aware and Explainable Graph Neural Network-based Oracle-Less Attack on Logic Locking,” In Proceedings of 29th Asia and South Pacific Design Automation Conference (ASP-DAC), pp. 606-611, 2024, South Korea. (DOI: 10.1109/ASP-DAC58780.2024.10473982) (29% acceptance rate)
+R. Vishwakarma and A. Rezaei, “Risk-Aware and Explainable Framework for Ensuring Guaranteed Coverage in Evolving Hardware Trojan Detection,” In Proceedings of 42nd International Conference on Computer Aided Design (ICCAD), pp. 1-9, 2023, USA. (DOI: 10.1109/ICCAD57390.2023.10323655) (23% acceptance rate)
+J. Maynard and A. Rezaei, “DK Lock: Dual Key Logic Locking Against Oracle-Guided Attacks,” In Proceedings of 24th International Symposium on Quality Electronic Design (ISQED), pp. 1-7, 2023, USA. (DOI: 10.1109/ISQED57927.2023.10129368)
+Image
+Dr. Amin
+            
+          
+     
+                
+        Rezaei
+Associate Chair
+Computer Engineering Undergraduate Advisor
+Associate Professor
+Computer Engineering & Computer Science
+Office
+ECS-528
+Office Hours
+https://calendly.com/aminrezaei/
+Email
+amin.rezaei@csulb.edu
+Phone
+562.985.1505
+Advising Hours:
+TH 8 AM-12 PM (via Zoom)
+(Make an appointment at Calendly:
+https://calendly.com/
+amin
+rezaei/
+)
+Personal Website:
+http://aminrezaei.com
+LinkedIn:
+linkedin.com/in/amin-rezaei/

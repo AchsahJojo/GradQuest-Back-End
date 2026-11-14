@@ -1,0 +1,892 @@
+{
+  "schoolId": 9,
+  "schoolName": "California State University, Los Angeles",
+  "programName": "Computer Science, M.S.",
+  "pages": [
+    {
+      "kind": "overview",
+      "url": "https://www.calstatela.edu/ecst/cs/graduate"
+    },
+    {
+      "kind": "admissions",
+      "url": "https://www.calstatela.edu/ecst/cs/admission-prerequisites"
+    },
+    {
+      "kind": "curriculum",
+      "url": "https://www.calstatela.edu/ecst/cs/graduate-curriculum-requirements"
+    },
+    {
+      "kind": "curriculum",
+      "url": "https://www.calstatela.edu/ecst/cs/planner"
+    },
+    {
+      "kind": "faculty",
+      "url": "https://www.calstatela.edu/ecst/cs/faculty"
+    },
+    {
+      "kind": "deadlines",
+      "url": "https://www.calstatela.edu/ecst/cs/graduate"
+    },
+    {
+      "kind": "deadlines",
+      "url": "https://www.calstatela.edu/ecst/cs/admission-prerequisites"
+    },
+    {
+      "kind": "faculty",
+      "url": "https://www.calstatela.edu/faculty/chengyu-sun"
+    },
+    {
+      "kind": "faculty",
+      "url": "https://www.calstatela.edu/faculty/navid-amini"
+    },
+    {
+      "kind": "faculty",
+      "url": "https://www.calstatela.edu/faculty/huiping-guo"
+    },
+    {
+      "kind": "faculty",
+      "url": "https://www.calstatela.edu/faculty/jiang-guo"
+    },
+    {
+      "kind": "faculty",
+      "url": "https://www.calstatela.edu/faculty/elaine-kang"
+    },
+    {
+      "kind": "faculty",
+      "url": "https://www.calstatela.edu/faculty/manveen-kaur"
+    },
+    {
+      "kind": "faculty",
+      "url": "https://www.calstatela.edu/faculty/david-krum"
+    },
+    {
+      "kind": "faculty",
+      "url": "https://www.calstatela.edu/faculty/jung-lim"
+    },
+    {
+      "kind": "faculty",
+      "url": "https://www.calstatela.edu/faculty/mohammad-pourhomayoun"
+    },
+    {
+      "kind": "faculty",
+      "url": "https://www.calstatela.edu/faculty/zilong-ye"
+    },
+    {
+      "kind": "faculty",
+      "url": "https://sites.google.com/view/armandobeltran/"
+    },
+    {
+      "kind": "faculty",
+      "url": "https://www.calstatela.edu/faculty/negin-forouzesh"
+    },
+    {
+      "kind": "curriculum",
+      "url": "https://ecatalog.calstatela.edu/preview_program.php?catoid=77&poid=35252"
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "kind": "overview",
+      "name": "Program description",
+      "detail": "Department graduate page: the master's program offers a comprehensive education in Computer Science and prepares students to enter the technology industry.",
+      "sourceUrl": "https://www.calstatela.edu/ecst/cs/graduate",
+      "quote": "Our Master's Program at Cal State LA offers a comprehensive education in the rapidly changing and emerging field of Computer Science and prepares students to enter the competitive technology industry."
+    },
+    {
+      "id": "f2",
+      "kind": "overview",
+      "name": "Research path units",
+      "detail": "Graduate page: with advisor approval, the research path is 18 units of 4000/5000-level courses plus thesis and project courses.",
+      "sourceUrl": "https://www.calstatela.edu/ecst/cs/graduate",
+      "quote": "With the approval of the CS advisor, choose 18 units of 4000/5000 level courses as well as the Thesis and Project courses.",
+      "verified": false,
+      "verifiedBy": "user 2026-11-13",
+      "rejectedReason": "Rejected by the user: the 2026-2027 catalog curriculum wins over this department graduate-page research-path unit split."
+    },
+    {
+      "id": "f3",
+      "kind": "overview",
+      "name": "Comprehensive path units",
+      "detail": "Graduate page: the comprehensive path is 24 units of 4000/5000-level courses plus a comprehensive examination.",
+      "sourceUrl": "https://www.calstatela.edu/ecst/cs/graduate",
+      "quote": "Complete 24 units of 4000/5000 level courses and undertake a comprehensive examination to demonstrate your knowledge.",
+      "verified": false,
+      "verifiedBy": "user 2026-11-13",
+      "rejectedReason": "Rejected by the user: the 2026-2027 catalog curriculum wins over this department graduate-page comprehensive-path unit split."
+    },
+    {
+      "id": "f4",
+      "kind": "requirement",
+      "name": "Bachelor's degree and 3.0 GPA for applicants",
+      "detail": "Graduate page: anyone with a bachelor's in CS or a closely related field and an overall 3.0 GPA may apply; prerequisites may be required for non-CS or non-ABET CS backgrounds.",
+      "sourceUrl": "https://www.calstatela.edu/ecst/cs/graduate",
+      "quote": "Anyone with a Bachelor's Degree in Computer Science or a closely related field with an overall GPA of 3.0 may apply. Prerequisite courses may be required for non-CS students or for students from non-ABET accredited CS programs."
+    },
+    {
+      "id": "f5",
+      "kind": "requirement",
+      "name": "GRE and letters not required",
+      "detail": "Graduate page: GRE and recommendation letters are not required.",
+      "sourceUrl": "https://www.calstatela.edu/ecst/cs/graduate",
+      "quote": "GRE and Recommendation letters are NOT required"
+    },
+    {
+      "id": "f6",
+      "kind": "requirement",
+      "name": "Conditional admission GPA range",
+      "detail": "Graduate page: promising applicants with a GPA between 2.5 and 2.99 may be conditionally admitted.",
+      "sourceUrl": "https://www.calstatela.edu/ecst/cs/graduate",
+      "quote": "Promising applicants with a GPA between 2.5 and 2.99 may be conditionally admitted and are encouraged to apply"
+    },
+    {
+      "id": "f7",
+      "kind": "requirement",
+      "name": "Classified standing GPA",
+      "detail": "Admission page: a bachelor's in CS or a closely related field with an overall GPA of 3.0 or better is needed for classified graduate standing (full admission).",
+      "sourceUrl": "https://www.calstatela.edu/ecst/cs/admission-prerequisites",
+      "quote": "Applicants must possess a Bachelor's Degree in Computer Science or a closely related field with an overall GPA of 3.0 or better to be considered for full admission",
+      "verified": false,
+      "verifiedBy": "user 2026-11-13",
+      "rejectedReason": "Rejected by the user: the 2026-2027 catalog wins. A 3.0 GPA is 'conditional admission,' not 'full admission' as on this department admissions page."
+    },
+    {
+      "id": "f8",
+      "kind": "requirement",
+      "name": "Special action / conditional GPA 2.5-2.99",
+      "detail": "Admission page: a promising applicant with GPA 2.5-2.99 may be conditionally admitted as a special action student and must earn a 3.0 in four department-approved qualifying courses.",
+      "sourceUrl": "https://www.calstatela.edu/ecst/cs/admission-prerequisites",
+      "quote": "A promising applicant with a GPA between 2.5 and 2.99 may be conditionally admitted as a special action student."
+    },
+    {
+      "id": "f9",
+      "kind": "requirement",
+      "name": "Prerequisite cap for non-CS or non-ABET applicants",
+      "detail": "Admission page: promising non-CS or non-ABET CS applicants may be given up to three prerequisites.",
+      "sourceUrl": "https://www.calstatela.edu/ecst/cs/admission-prerequisites",
+      "quote": "These students are given up to three prerequisites (based on the evaluation of their transcripts)."
+    },
+    {
+      "id": "f10",
+      "kind": "requirement",
+      "name": "Application is two steps",
+      "detail": "Admission page: the application process is centralized and requires two steps.",
+      "sourceUrl": "https://www.calstatela.edu/ecst/cs/admission-prerequisites",
+      "quote": "The application process is centralized at the university and requires TWO steps as described below:"
+    },
+    {
+      "id": "f11",
+      "kind": "requirement",
+      "name": "Degree unit total (department curriculum page headed 2023-2024)",
+      "detail": "The department curriculum page is titled 2023-2024 Requirements. It states the M.S. requires 30 units. The current e-catalog program page could not be fetched (AWS WAF).",
+      "sourceUrl": "https://www.calstatela.edu/ecst/cs/graduate-curriculum-requirements",
+      "quote": "The MS CS degree requires the completion of 30 units."
+    },
+    {
+      "id": "f12",
+      "kind": "requirement",
+      "name": "Advance to candidacy",
+      "detail": "Planner: students ready for a thesis or the comprehensive exam should advance after at least 12 units and a 3.0 GPA.",
+      "sourceUrl": "https://www.calstatela.edu/ecst/cs/planner",
+      "quote": "The minimum requirement for candidacy advancement are the completion of 12 units and a minimum GPA of 3.0."
+    },
+    {
+      "id": "f13",
+      "kind": "requirement",
+      "name": "Thesis course CS 5990",
+      "detail": "Planner: CS 5990 should be taken exactly twice.",
+      "sourceUrl": "https://www.calstatela.edu/ecst/cs/planner",
+      "quote": "CS 5990 should be taken exactly twice."
+    },
+    {
+      "id": "f14",
+      "kind": "requirement",
+      "name": "Graduate writing requirement",
+      "detail": "Planner: GWAR is no longer required for graduate students, effective for catalog years beginning Fall 2023.",
+      "sourceUrl": "https://www.calstatela.edu/ecst/cs/planner",
+      "quote": "The Graduate Writing Assessment Requirement (GWAR) is no longer required for graduate students, effective for catalog years beginning Fall 2023."
+    },
+    {
+      "id": "f15",
+      "kind": "deadline",
+      "name": "Spring 2027 class start",
+      "detail": "Program graduate page: Spring 2027 classes begin January 25, 2027.",
+      "sourceUrl": "https://www.calstatela.edu/ecst/cs/graduate",
+      "quote": "Spring 2027 classes begin January 25, 2027."
+    },
+    {
+      "id": "f16",
+      "kind": "deadline",
+      "name": "Fall 2027 class start",
+      "detail": "Program graduate page: Fall 2027 classes begin August 23, 2027.",
+      "sourceUrl": "https://www.calstatela.edu/ecst/cs/graduate",
+      "quote": "Fall 2027 classes begin August 23, 2027."
+    },
+    {
+      "id": "f17",
+      "kind": "deadline",
+      "name": "Spring 2027 international window",
+      "detail": "Program page lists July 1, 2026 - August 31, 2026 for Spring 2027 international applicants.",
+      "sourceUrl": "https://www.calstatela.edu/ecst/cs/graduate",
+      "quote": "July 1, 2026 – August 31, 2026"
+    },
+    {
+      "id": "f18",
+      "kind": "deadline",
+      "name": "Spring 2027 domestic window",
+      "detail": "Program page lists July 1, 2026 - October 31, 2026 for Spring 2027 domestic applicants.",
+      "sourceUrl": "https://www.calstatela.edu/ecst/cs/graduate",
+      "quote": "July 1, 2026 – October 31, 2026"
+    },
+    {
+      "id": "f19",
+      "kind": "deadline",
+      "name": "Fall 2027 international window",
+      "detail": "Program page lists August 1, 2026 - February 15, 2027 for Fall 2027 international applicants.",
+      "sourceUrl": "https://www.calstatela.edu/ecst/cs/graduate",
+      "quote": "August 1, 2026 – February 15, 2027"
+    },
+    {
+      "id": "f20",
+      "kind": "deadline",
+      "name": "Fall 2027 domestic window",
+      "detail": "Program page lists August 1, 2026 - May 31, 2027 for Fall 2027 domestic applicants.",
+      "sourceUrl": "https://www.calstatela.edu/ecst/cs/graduate",
+      "quote": "August 1, 2026 – May 31, 2027"
+    },
+    {
+      "id": "f21",
+      "kind": "faculty",
+      "name": "Chengyu Sun, Ph.D.",
+      "detail": "Department of Computer Science faculty listing (department-wide, not MSCS-only).",
+      "sourceUrl": "https://www.calstatela.edu/ecst/cs/faculty",
+      "quote": "Database performance optimization, communication, and network applications"
+    },
+    {
+      "id": "f22",
+      "kind": "faculty",
+      "name": "Navid Amini, Ph.D.",
+      "detail": "Department of Computer Science faculty listing (department-wide, not MSCS-only).",
+      "sourceUrl": "https://www.calstatela.edu/ecst/cs/faculty",
+      "quote": "Machine Learning and Mobile Computing"
+    },
+    {
+      "id": "f23",
+      "kind": "faculty",
+      "name": "Mark Baldwin, Ph.D.",
+      "detail": "Department of Computer Science faculty listing (department-wide, not MSCS-only).",
+      "sourceUrl": "https://www.calstatela.edu/ecst/cs/faculty",
+      "quote": "Human-Computer Interaction, Assistive Technology, Pervasive Computing"
+    },
+    {
+      "id": "f24",
+      "kind": "faculty",
+      "name": "Armando Beltran Verdugo, Ph.D.",
+      "detail": "Department of Computer Science faculty listing (department-wide, not MSCS-only).",
+      "sourceUrl": "https://www.calstatela.edu/ecst/cs/faculty",
+      "quote": "Artificial Intelligence (AI), Optimization, Computational Biology, Human-Center AI"
+    },
+    {
+      "id": "f25",
+      "kind": "faculty",
+      "name": "Negin Forouzesh, Ph.D.",
+      "detail": "Department of Computer Science faculty listing (department-wide, not MSCS-only).",
+      "sourceUrl": "https://www.calstatela.edu/ecst/cs/faculty",
+      "quote": "Computational Biology, Optimization, Computational Geometry"
+    },
+    {
+      "id": "f26",
+      "kind": "faculty",
+      "name": "Huiping Guo, Ph.D.",
+      "detail": "Department of Computer Science faculty listing (department-wide, not MSCS-only).",
+      "sourceUrl": "https://www.calstatela.edu/ecst/cs/faculty",
+      "quote": "Computer Networks and Data Security"
+    },
+    {
+      "id": "f27",
+      "kind": "faculty",
+      "name": "Jiang Guo, Ph.D.",
+      "detail": "Department of Computer Science faculty listing (department-wide, not MSCS-only).",
+      "sourceUrl": "https://www.calstatela.edu/ecst/cs/faculty",
+      "quote": "Software Engineering, Networks, and Operating Systems"
+    },
+    {
+      "id": "f28",
+      "kind": "faculty",
+      "name": "Eun-Young (Elaine) Kang, Ph.D.",
+      "detail": "Department of Computer Science faculty listing (department-wide, not MSCS-only).",
+      "sourceUrl": "https://www.calstatela.edu/ecst/cs/faculty",
+      "quote": "Computer Vision, Computer Graphics, and Image Processing"
+    },
+    {
+      "id": "f29",
+      "kind": "faculty",
+      "name": "Manveen Kaur, Ph.D.",
+      "detail": "Department of Computer Science faculty listing (department-wide, not MSCS-only).",
+      "sourceUrl": "https://www.calstatela.edu/ecst/cs/faculty",
+      "quote": "System Design, Communication, and Security in Internet of Things (IoT) Networks, e.g., Drone Swarms, Smart Vehicles"
+    },
+    {
+      "id": "f30",
+      "kind": "faculty",
+      "name": "David Krum, Ph.D.",
+      "detail": "Department of Computer Science faculty listing (department-wide, not MSCS-only).",
+      "sourceUrl": "https://www.calstatela.edu/ecst/cs/faculty",
+      "quote": "Human-computer interaction, 3D interaction, virtual and augmented reality"
+    },
+    {
+      "id": "f31",
+      "kind": "faculty",
+      "name": "Jungsoo Lim, Ph.D.",
+      "detail": "Department of Computer Science faculty listing (department-wide, not MSCS-only).",
+      "sourceUrl": "https://www.calstatela.edu/ecst/cs/faculty",
+      "quote": "Internet Of Things, Cyber-Physical Systems, Wireless Networking, Wireless Sensor Networks"
+    },
+    {
+      "id": "f32",
+      "kind": "faculty",
+      "name": "Mohammad Pourhomayoun, Ph.D.",
+      "detail": "Department of Computer Science faculty listing (department-wide, not MSCS-only).",
+      "sourceUrl": "https://www.calstatela.edu/ecst/cs/faculty",
+      "quote": "Data Science, Machine Learning, Artificial Intelligence"
+    },
+    {
+      "id": "f33",
+      "kind": "faculty",
+      "name": "Zilong Ye, Ph.D.",
+      "detail": "Department of Computer Science faculty listing (department-wide, not MSCS-only).",
+      "sourceUrl": "https://www.calstatela.edu/ecst/cs/faculty",
+      "quote": "Specialization: Networking"
+    },
+    {
+      "id": "f34",
+      "kind": "faculty",
+      "name": "YuQing Zhu, Ph.D.",
+      "detail": "Department of Computer Science faculty listing (department-wide, not MSCS-only).",
+      "sourceUrl": "https://www.calstatela.edu/ecst/cs/faculty",
+      "quote": "Distributed Computing, Complex Data Mining"
+    },
+    {
+      "id": "f35",
+      "kind": "faculty",
+      "name": "Behzad Parviz, Ph.D.",
+      "detail": "Department of Computer Science faculty listing (department-wide, not MSCS-only).",
+      "sourceUrl": "https://www.calstatela.edu/ecst/cs/faculty",
+      "quote": "General Systems Methodology, Information Theory, and Software Engineering"
+    },
+    {
+      "id": "f36",
+      "kind": "faculty",
+      "name": "Chengyu Sun",
+      "detail": "Profile research interests: database systems, data mining, web and mobile development.",
+      "sourceUrl": "https://www.calstatela.edu/faculty/chengyu-sun",
+      "quote": "Research interests: database systems, data mining, web and mobile development"
+    },
+    {
+      "id": "f37",
+      "kind": "faculty",
+      "name": "Navid Amini",
+      "detail": "Profile research interests include glaucoma-related work and mHealth app development.",
+      "sourceUrl": "https://www.calstatela.edu/faculty/navid-amini",
+      "quote": "Research Interests: Glaucoma and Quality of Life, Structure-Function Relationships in Glaucoma, mHealth App Development"
+    },
+    {
+      "id": "f38",
+      "kind": "faculty",
+      "name": "Huiping Guo",
+      "detail": "Profile research interests: database and network security, privacy and digital rights protection, blockchains and IoT security.",
+      "sourceUrl": "https://www.calstatela.edu/faculty/huiping-guo",
+      "quote": "Research Interests: Database security and network security Privacy and digital rights protection Blockchains and IoT security"
+    },
+    {
+      "id": "f39",
+      "kind": "faculty",
+      "name": "Jiang Guo",
+      "detail": "Profile research areas: machine learning, AI, data science, software engineering.",
+      "sourceUrl": "https://www.calstatela.edu/faculty/jiang-guo",
+      "quote": "RESEARCH AREAS Machine Learning Artificial Intelligence Data Science Software Engineering"
+    },
+    {
+      "id": "f40",
+      "kind": "faculty",
+      "name": "Eun-Young (Elaine) Kang",
+      "detail": "Profile: research interests in computer vision, computer graphics, AR/MR, and game programming.",
+      "sourceUrl": "https://www.calstatela.edu/faculty/elaine-kang",
+      "quote": "research interests are in Computer Vision, Computer Graphics, Augmented/Mixed Reality, and Game Programming."
+    },
+    {
+      "id": "f41",
+      "kind": "faculty",
+      "name": "Manveen Kaur",
+      "detail": "Profile lists research areas including CPS, IoT, and named data networking.",
+      "sourceUrl": "https://www.calstatela.edu/faculty/manveen-kaur",
+      "quote": "Research areas of interest: Cyber-physical systems (CPS), Internet-of-Things (IoT), Named Data Networking (NDN)"
+    },
+    {
+      "id": "f42",
+      "kind": "faculty",
+      "name": "David Krum",
+      "detail": "Profile: research interests include HCI, 3D interaction, and virtual/augmented reality.",
+      "sourceUrl": "https://www.calstatela.edu/faculty/david-krum",
+      "quote": "research interests include human-computer interaction, 3D interaction, and virtual/augmented reality."
+    },
+    {
+      "id": "f43",
+      "kind": "faculty",
+      "name": "Jungsoo Lim",
+      "detail": "Profile: research interests in IoT, cyber-physical systems, wireless networking, wireless sensor networking, and software engineering.",
+      "sourceUrl": "https://www.calstatela.edu/faculty/jung-lim",
+      "quote": "research interests are the Internet of Things, Cyber-Physical systems, wireless networking, wireless sensor networking, and software engineering."
+    },
+    {
+      "id": "f44",
+      "kind": "faculty",
+      "name": "Mohammad Pourhomayoun",
+      "detail": "Profile: research focuses on AI, machine learning, and data science for sustainability, environment, healthcare, traffic, and other social-good applications.",
+      "sourceUrl": "https://www.calstatela.edu/faculty/mohammad-pourhomayoun",
+      "quote": "My research focuses on Artificial Intelligence, Machine Learning, and Data Science for various applications including sustainability, environment (wildfire, air quality), healthcare, traffic management, and other social good applications."
+    },
+    {
+      "id": "f45",
+      "kind": "faculty",
+      "name": "Zilong Ye",
+      "detail": "Profile: research interests in algorithm and system design for computer networking.",
+      "sourceUrl": "https://www.calstatela.edu/faculty/zilong-ye",
+      "quote": "research interests focus on algorithm and system design in the computer networking areas, including optical networking and sensing, satellite networking, fog computing, IoT, SDN/NFV, and information-centric networking."
+    },
+    {
+      "id": "f46",
+      "kind": "faculty",
+      "name": "Armando Beltran Verdugo",
+      "detail": "Homepage linked from the department listing: research explores AI for computational biology, health informatics, and HCI.",
+      "sourceUrl": "https://sites.google.com/view/armandobeltran/",
+      "quote": "My research explores AI for computational biology, health informatics, and human-computer interaction, with a focus on augmenting human capabilities and decision-making."
+    },
+    {
+      "id": "f47",
+      "kind": "faculty",
+      "name": "Negin Forouzesh",
+      "detail": "Profile describes doctoral work on computational models of protein-ligand binding.",
+      "sourceUrl": "https://www.calstatela.edu/faculty/negin-forouzesh",
+      "quote": "I received my Ph.D. in computer science from Virginia Tech in 2020 where I developed computational models to better understand protein-ligand binding."
+    },
+    {
+      "id": "f48",
+      "kind": "overview",
+      "name": "Catalog heading and campus",
+      "detail": "The selected catalog is University Catalog 2026-2027. The program heading is Computer Science, M.S., and the page lists Location(s): Main Campus.",
+      "sourceUrl": "https://ecatalog.calstatela.edu/preview_program.php?catoid=77&poid=35252",
+      "quote": "University Catalog 2026-2027 Computer Science, M.S. Location(s): Main Campus"
+    },
+    {
+      "id": "f49",
+      "kind": "overview",
+      "name": "Program purpose",
+      "detail": "The catalog says the M.S. is structured to prepare students for advancement in employment as a computer scientist and for later doctoral study.",
+      "sourceUrl": "https://ecatalog.calstatela.edu/preview_program.php?catoid=77&poid=35252",
+      "quote": "The program is structured to prepare students for advancement in employment as a computer scientist as well as for further study at the doctoral level."
+    },
+    {
+      "id": "f50",
+      "kind": "requirement",
+      "name": "3.0 GPA for conditional admission",
+      "detail": "Applicants with a bachelor's in Computer Science or a closely related field and an overall GPA of 3.0 or better are considered for conditional admission. An earlier department-page fact quoted similar wording but said 'full admission' instead of 'conditional admission.' Both quotes are kept and no winner is chosen.",
+      "sourceUrl": "https://ecatalog.calstatela.edu/preview_program.php?catoid=77&poid=35252",
+      "quote": "Applicants must possess a Bachelor's Degree in Computer Science or a closely related field with overall GPA of 3.0 or better to be considered for conditional admission.",
+      "verified": true,
+      "verifiedBy": "user 2026-11-13"
+    },
+    {
+      "id": "f51",
+      "kind": "requirement",
+      "name": "Special action admission at 2.5-2.99 GPA",
+      "detail": "A promising applicant with a GPA between 2.5 and 2.99 may be admitted as a special action student and must then earn a 3.0 GPA in four qualifying courses approved in advance by the department.",
+      "sourceUrl": "https://ecatalog.calstatela.edu/preview_program.php?catoid=77&poid=35252",
+      "quote": "A promising applicant with a GPA between 2.5 and 2.99 may be admitted as a special action student. Special action students must achieve an overall GPA of 3.0 for four qualifying courses as approved in advance by the department."
+    },
+    {
+      "id": "f52",
+      "kind": "requirement",
+      "name": "Prerequisites for non-CS or non-ABET backgrounds",
+      "detail": "Prerequisite courses may be required for non-CS students or for students from non-ABET-accredited CS programs.",
+      "sourceUrl": "https://ecatalog.calstatela.edu/preview_program.php?catoid=77&poid=35252",
+      "quote": "Prerequisite courses may be required for non-CS students or for students from non-ABET-accredited CS programs."
+    },
+    {
+      "id": "f53",
+      "kind": "requirement",
+      "name": "Classified students and 4000-level prerequisites",
+      "detail": "Classified Master of Science students are not required to take prerequisites below the 4000-level when they use 4000-level courses to satisfy the degree requirement.",
+      "sourceUrl": "https://ecatalog.calstatela.edu/preview_program.php?catoid=77&poid=35252",
+      "quote": "Classified Master of Science students are not required to take any prerequisites below the 4000-level when they take 4000-level courses to satisfy the degree requirement."
+    },
+    {
+      "id": "f54",
+      "kind": "requirement",
+      "name": "30 units with 18-unit 5000-level core",
+      "detail": "The degree requires 30 units, including 18 units in 5000-level core courses. This 2026-2027 catalog page is a later official curriculum source than the department curriculum page earlier tagged as 2023-2024; both sources are kept and no winner is chosen.",
+      "sourceUrl": "https://ecatalog.calstatela.edu/preview_program.php?catoid=77&poid=35252",
+      "quote": "The Master of Science degree in Computer Science degree requires completion of 30 units, with 18 units in 5000-level core courses.",
+      "verified": true,
+      "verifiedBy": "user 2026-11-13"
+    },
+    {
+      "id": "f55",
+      "kind": "requirement",
+      "name": "Pre-classified coursework cap",
+      "detail": "Up to 6 units of acceptable post-baccalaureate coursework completed before classified standing may be included in the master's program.",
+      "sourceUrl": "https://ecatalog.calstatela.edu/preview_program.php?catoid=77&poid=35252",
+      "quote": "Up to 6 units of acceptable post-baccalaureate coursework completed before entrance into classified standing may be included in the master's degree program."
+    },
+    {
+      "id": "f56",
+      "kind": "requirement",
+      "name": "Thesis or comprehensive examination required",
+      "detail": "A thesis or a comprehensive examination satisfies the Culminating Experiences requirement.",
+      "sourceUrl": "https://ecatalog.calstatela.edu/preview_program.php?catoid=77&poid=35252",
+      "quote": "A thesis or comprehensive examination is required to satisfy the Culminating Experiences requirement."
+    },
+    {
+      "id": "f57",
+      "kind": "requirement",
+      "name": "Core course structure",
+      "detail": "The 18 core units are met by selecting two courses from each of three areas of study (6 units each).",
+      "sourceUrl": "https://ecatalog.calstatela.edu/preview_program.php?catoid=77&poid=35252",
+      "quote": "Requirement for Core Courses (18 units) Select two courses from each of the three areas of study:",
+      "verified": true,
+      "verifiedBy": "user 2026-11-13"
+    },
+    {
+      "id": "f58",
+      "kind": "requirement",
+      "name": "Software Design and Implementation core area",
+      "detail": "Area I is Software Design and Implementation (6 units); students select two courses from that list.",
+      "sourceUrl": "https://ecatalog.calstatela.edu/preview_program.php?catoid=77&poid=35252",
+      "quote": "I. Software Design and Implementation (6 units) Select two courses."
+    },
+    {
+      "id": "f59",
+      "kind": "requirement",
+      "name": "System Infrastructure core area",
+      "detail": "Area II is System Infrastructure (6 units); students select two courses from that list.",
+      "sourceUrl": "https://ecatalog.calstatela.edu/preview_program.php?catoid=77&poid=35252",
+      "quote": "II. System Infrastructure (6 units) Select two courses."
+    },
+    {
+      "id": "f60",
+      "kind": "requirement",
+      "name": "Computing in the World core area",
+      "detail": "Area III is Computing in the World (6 units); students select two courses from that list.",
+      "sourceUrl": "https://ecatalog.calstatela.edu/preview_program.php?catoid=77&poid=35252",
+      "quote": "III. Computing in the World (6 units) Select two courses."
+    },
+    {
+      "id": "f61",
+      "kind": "requirement",
+      "name": "Directed electives 6 or 12 units",
+      "detail": "Directed electives are 6 or 12 units: CS 5960 (comprehensive exam) students must select 12 units; CS 5990 (thesis) students select 6 units.",
+      "sourceUrl": "https://ecatalog.calstatela.edu/preview_program.php?catoid=77&poid=35252",
+      "quote": "Requirements for Directed Electives (6 or 12 units) CS 5960 students must select 12 units to satisfy the degree requirement. CS 5990 students select 6 units.",
+      "verified": true,
+      "verifiedBy": "user 2026-11-13"
+    },
+    {
+      "id": "f62",
+      "kind": "requirement",
+      "name": "Culminating experience courses",
+      "detail": "Students select one culminating path: CS 5960 Comprehensive Examination (0 units) or CS 5990 Thesis at 3 units, completed for 6 units. Students who take CS 5960 must complete 12 units of electives.",
+      "sourceUrl": "https://ecatalog.calstatela.edu/preview_program.php?catoid=77&poid=35252",
+      "quote": "Culminating Experiences (0 or 6 units) Select one course. CS 5960 - Comprehensive Examination [0] * CS 5990 - Thesis [3] (complete 6 units) * Students who take CS 5960 must complete a total of 12 units of electives.",
+      "verified": true,
+      "verifiedBy": "user 2026-11-13"
+    },
+    {
+      "id": "f63",
+      "kind": "course",
+      "name": "CS 5035",
+      "detail": "A 3-unit choice in the Software Design and Implementation core area; also listed among directed electives.",
+      "sourceUrl": "https://ecatalog.calstatela.edu/preview_program.php?catoid=77&poid=35252",
+      "quote": "CS 5035 - Topics in Functional Programming [3]"
+    },
+    {
+      "id": "f64",
+      "kind": "course",
+      "name": "CS 5112",
+      "detail": "A 3-unit choice in the Software Design and Implementation core area; also listed among directed electives.",
+      "sourceUrl": "https://ecatalog.calstatela.edu/preview_program.php?catoid=77&poid=35252",
+      "quote": "CS 5112 - Design and Analysis of Algorithms [3]"
+    },
+    {
+      "id": "f65",
+      "kind": "course",
+      "name": "CS 5220",
+      "detail": "A 3-unit choice in the Software Design and Implementation core area; also listed among directed electives.",
+      "sourceUrl": "https://ecatalog.calstatela.edu/preview_program.php?catoid=77&poid=35252",
+      "quote": "CS 5220 - Advanced Topics in Web Programming [3]"
+    },
+    {
+      "id": "f66",
+      "kind": "course",
+      "name": "CS 5337",
+      "detail": "A 3-unit choice in the Software Design and Implementation core area; also listed among directed electives.",
+      "sourceUrl": "https://ecatalog.calstatela.edu/preview_program.php?catoid=77&poid=35252",
+      "quote": "CS 5337 - Advanced Software Engineering [3]"
+    },
+    {
+      "id": "f67",
+      "kind": "course",
+      "name": "CS 5440",
+      "detail": "A 3-unit choice in the System Infrastructure core area; also listed among directed electives.",
+      "sourceUrl": "https://ecatalog.calstatela.edu/preview_program.php?catoid=77&poid=35252",
+      "quote": "CS 5440 - Advanced Topics in Operating Systems [3]"
+    },
+    {
+      "id": "f68",
+      "kind": "course",
+      "name": "CS 5470",
+      "detail": "A 3-unit choice in the System Infrastructure core area; also listed among directed electives.",
+      "sourceUrl": "https://ecatalog.calstatela.edu/preview_program.php?catoid=77&poid=35252",
+      "quote": "CS 5470 - Advanced Computer Networks [3]"
+    },
+    {
+      "id": "f69",
+      "kind": "course",
+      "name": "CS 5780",
+      "detail": "A 3-unit choice in the System Infrastructure core area; also listed among directed electives.",
+      "sourceUrl": "https://ecatalog.calstatela.edu/preview_program.php?catoid=77&poid=35252",
+      "quote": "CS 5780 - Advanced Information Security [3]"
+    },
+    {
+      "id": "f70",
+      "kind": "course",
+      "name": "CS 5781",
+      "detail": "A 3-unit choice in the System Infrastructure core area; also listed among directed electives.",
+      "sourceUrl": "https://ecatalog.calstatela.edu/preview_program.php?catoid=77&poid=35252",
+      "quote": "CS 5781 - Computer and Network Security [3]"
+    },
+    {
+      "id": "f71",
+      "kind": "course",
+      "name": "CS 5550",
+      "detail": "A 3-unit choice in the Computing in the World core area; also listed among directed electives.",
+      "sourceUrl": "https://ecatalog.calstatela.edu/preview_program.php?catoid=77&poid=35252",
+      "quote": "CS 5550 - Advanced Computer Graphics [3]"
+    },
+    {
+      "id": "f72",
+      "kind": "course",
+      "name": "CS 5660",
+      "detail": "A 3-unit choice in the Computing in the World core area; also listed among directed electives.",
+      "sourceUrl": "https://ecatalog.calstatela.edu/preview_program.php?catoid=77&poid=35252",
+      "quote": "CS 5660 - Advanced Topics in Artificial Intelligence [3]"
+    },
+    {
+      "id": "f73",
+      "kind": "course",
+      "name": "CS 5661",
+      "detail": "A 3-unit choice in the Computing in the World core area; also listed among directed electives.",
+      "sourceUrl": "https://ecatalog.calstatela.edu/preview_program.php?catoid=77&poid=35252",
+      "quote": "CS 5661 - Topics in Data Science [3]"
+    },
+    {
+      "id": "f74",
+      "kind": "course",
+      "name": "CS 5960",
+      "detail": "Comprehensive Examination, 0 units. Students who take this course must complete 12 units of electives.",
+      "sourceUrl": "https://ecatalog.calstatela.edu/preview_program.php?catoid=77&poid=35252",
+      "quote": "CS 5960 - Comprehensive Examination [0]"
+    },
+    {
+      "id": "f75",
+      "kind": "course",
+      "name": "CS 5990",
+      "detail": "Thesis, listed as [3] with the instruction to complete 6 units. Thesis students select 6 units of directed electives.",
+      "sourceUrl": "https://ecatalog.calstatela.edu/preview_program.php?catoid=77&poid=35252",
+      "quote": "CS 5990 - Thesis [3] (complete 6 units)"
+    },
+    {
+      "id": "f76",
+      "kind": "course",
+      "name": "CS 4075",
+      "detail": "Listed among directed electives on the 2026-2027 catalog program page.",
+      "sourceUrl": "https://ecatalog.calstatela.edu/preview_program.php?catoid=77&poid=35252",
+      "quote": "CS 4075 - Concurrent and Distributed Programming [3]"
+    },
+    {
+      "id": "f77",
+      "kind": "course",
+      "name": "CS 4188",
+      "detail": "Listed among directed electives on the 2026-2027 catalog program page.",
+      "sourceUrl": "https://ecatalog.calstatela.edu/preview_program.php?catoid=77&poid=35252",
+      "quote": "CS 4188 - Compilers [3]"
+    },
+    {
+      "id": "f78",
+      "kind": "course",
+      "name": "CS 4220",
+      "detail": "Listed among directed electives on the 2026-2027 catalog program page.",
+      "sourceUrl": "https://ecatalog.calstatela.edu/preview_program.php?catoid=77&poid=35252",
+      "quote": "CS 4220 - Current Trends in Web Design and Development [3]"
+    },
+    {
+      "id": "f79",
+      "kind": "course",
+      "name": "CS 4222",
+      "detail": "Listed among directed electives on the 2026-2027 catalog program page.",
+      "sourceUrl": "https://ecatalog.calstatela.edu/preview_program.php?catoid=77&poid=35252",
+      "quote": "CS 4222 - Principles of Data Base Systems [3]"
+    },
+    {
+      "id": "f80",
+      "kind": "course",
+      "name": "CS 4470",
+      "detail": "Listed among directed electives on the 2026-2027 catalog program page.",
+      "sourceUrl": "https://ecatalog.calstatela.edu/preview_program.php?catoid=77&poid=35252",
+      "quote": "CS 4470 - Computer Networking Protocols [3]"
+    },
+    {
+      "id": "f81",
+      "kind": "course",
+      "name": "CS 4471",
+      "detail": "Listed among directed electives on the 2026-2027 catalog program page.",
+      "sourceUrl": "https://ecatalog.calstatela.edu/preview_program.php?catoid=77&poid=35252",
+      "quote": "CS 4471 - Computer Networks Configuration and Management [3]"
+    },
+    {
+      "id": "f82",
+      "kind": "course",
+      "name": "CS 4472",
+      "detail": "Listed among directed electives on the 2026-2027 catalog program page.",
+      "sourceUrl": "https://ecatalog.calstatela.edu/preview_program.php?catoid=77&poid=35252",
+      "quote": "CS 4472 - Computer and Cyber Security [3]"
+    },
+    {
+      "id": "f83",
+      "kind": "course",
+      "name": "CS 4540",
+      "detail": "Listed among directed electives on the 2026-2027 catalog program page.",
+      "sourceUrl": "https://ecatalog.calstatela.edu/preview_program.php?catoid=77&poid=35252",
+      "quote": "CS 4540 - Topics in Advanced Computer Science [1-3]"
+    },
+    {
+      "id": "f84",
+      "kind": "course",
+      "name": "CS 4550",
+      "detail": "Listed among directed electives on the 2026-2027 catalog program page.",
+      "sourceUrl": "https://ecatalog.calstatela.edu/preview_program.php?catoid=77&poid=35252",
+      "quote": "CS 4550 - Computer Graphics [3]"
+    },
+    {
+      "id": "f85",
+      "kind": "course",
+      "name": "CS 4551",
+      "detail": "Listed among directed electives on the 2026-2027 catalog program page.",
+      "sourceUrl": "https://ecatalog.calstatela.edu/preview_program.php?catoid=77&poid=35252",
+      "quote": "CS 4551 - Multimedia Software Systems [3]"
+    },
+    {
+      "id": "f86",
+      "kind": "course",
+      "name": "CS 4555",
+      "detail": "Listed among directed electives on the 2026-2027 catalog program page.",
+      "sourceUrl": "https://ecatalog.calstatela.edu/preview_program.php?catoid=77&poid=35252",
+      "quote": "CS 4555 - Introduction to 3D Computer Game Programming [3]"
+    },
+    {
+      "id": "f87",
+      "kind": "course",
+      "name": "CS 4556",
+      "detail": "Listed among directed electives on the 2026-2027 catalog program page.",
+      "sourceUrl": "https://ecatalog.calstatela.edu/preview_program.php?catoid=77&poid=35252",
+      "quote": "CS 4556 - Multiplayer Online Game Design and Development [3]"
+    },
+    {
+      "id": "f88",
+      "kind": "course",
+      "name": "CS 4635",
+      "detail": "Listed among directed electives on the 2026-2027 catalog program page.",
+      "sourceUrl": "https://ecatalog.calstatela.edu/preview_program.php?catoid=77&poid=35252",
+      "quote": "CS 4635 - Modeling and Simulation [3]"
+    },
+    {
+      "id": "f89",
+      "kind": "course",
+      "name": "CS 4660",
+      "detail": "Listed among directed electives on the 2026-2027 catalog program page.",
+      "sourceUrl": "https://ecatalog.calstatela.edu/preview_program.php?catoid=77&poid=35252",
+      "quote": "CS 4660 - Artificial Intelligence [3]"
+    },
+    {
+      "id": "f90",
+      "kind": "course",
+      "name": "CS 4661",
+      "detail": "Listed among directed electives on the 2026-2027 catalog program page.",
+      "sourceUrl": "https://ecatalog.calstatela.edu/preview_program.php?catoid=77&poid=35252",
+      "quote": "CS 4661 - Introduction to Data Science [3]"
+    },
+    {
+      "id": "f91",
+      "kind": "course",
+      "name": "CS 4662",
+      "detail": "Listed among directed electives on the 2026-2027 catalog program page.",
+      "sourceUrl": "https://ecatalog.calstatela.edu/preview_program.php?catoid=77&poid=35252",
+      "quote": "CS 4662 - Advanced Machine Learning and Deep Learning [3]"
+    },
+    {
+      "id": "f92",
+      "kind": "course",
+      "name": "CS 4665",
+      "detail": "Listed among directed electives on the 2026-2027 catalog program page.",
+      "sourceUrl": "https://ecatalog.calstatela.edu/preview_program.php?catoid=77&poid=35252",
+      "quote": "CS 4665 - Introduction to Data Visualization [3]"
+    },
+    {
+      "id": "f93",
+      "kind": "course",
+      "name": "CS 4780",
+      "detail": "Listed among directed electives on the 2026-2027 catalog program page.",
+      "sourceUrl": "https://ecatalog.calstatela.edu/preview_program.php?catoid=77&poid=35252",
+      "quote": "CS 4780 - Cryptography and Information Security [3]"
+    },
+    {
+      "id": "f94",
+      "kind": "course",
+      "name": "CS 4875",
+      "detail": "Listed among directed electives on the 2026-2027 catalog program page.",
+      "sourceUrl": "https://ecatalog.calstatela.edu/preview_program.php?catoid=77&poid=35252",
+      "quote": "CS 4875 - Human Centered Computing [3]"
+    },
+    {
+      "id": "f95",
+      "kind": "course",
+      "name": "CS 5188",
+      "detail": "Listed among directed electives on the 2026-2027 catalog program page.",
+      "sourceUrl": "https://ecatalog.calstatela.edu/preview_program.php?catoid=77&poid=35252",
+      "quote": "CS 5188 - Languages and Translators [3]"
+    },
+    {
+      "id": "f96",
+      "kind": "course",
+      "name": "CS 5390",
+      "detail": "Listed among directed electives on the 2026-2027 catalog program page.",
+      "sourceUrl": "https://ecatalog.calstatela.edu/preview_program.php?catoid=77&poid=35252",
+      "quote": "CS 5390 - Advanced Software Architecture [3]"
+    },
+    {
+      "id": "f97",
+      "kind": "course",
+      "name": "CS 5540",
+      "detail": "Listed among directed electives on the 2026-2027 catalog program page.",
+      "sourceUrl": "https://ecatalog.calstatela.edu/preview_program.php?catoid=77&poid=35252",
+      "quote": "CS 5540 - Graduate Topics in Computer Science [3]"
+    },
+    {
+      "id": "f98",
+      "kind": "course",
+      "name": "CS 5960",
+      "detail": "Listed among directed electives on the 2026-2027 catalog program page.",
+      "sourceUrl": "https://ecatalog.calstatela.edu/preview_program.php?catoid=77&poid=35252",
+      "quote": "CS 5960 - Comprehensive Examination [0] *"
+    }
+  ]
+}

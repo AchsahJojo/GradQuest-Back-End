@@ -1,0 +1,10 @@
+HTTP/2 403 
+date: Sat, 14 Nov 2026 06:15:02 GMT
+content-length: 0
+server: cloudflare
+access-control-allow-origin: *
+cf-cache-status: DYNAMIC
+set-cookie: __cf_bm=K43z05HKUxp5.0jabOrR.4BjegvaoyiX.0FMJPasMew-1794636902.044708-1.0.1.1-cN.fE6WzHLDQEjFcoK3Xo4EMuwK8_5eXCyjk8lPPAq.M9BaShw3keInF._OR7cyL4M49i3rB88lX52S8S6GV85GHY6c7eBH65d5ojwjwJyRGNyFzSy5NY9cUbaa3LNvP; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=fullerton.edu; Expires=Sat, 14 Nov 2026 06:45:02 GMT
+set-cookie: __cflb=0H28vqVZqbd52CKJypE7Fp4GjLMJK6EgBxgyj8CTAEy; HttpOnly; SameSite=None; Secure; Path=/; Expires=Sat, 14 Nov 2026 06:45:02 GMT
+cf-ray: a5a3e11dc85a6825-IAD
+

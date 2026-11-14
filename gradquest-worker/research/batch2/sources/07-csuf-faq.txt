@@ -1,0 +1,265 @@
+TITLE: FAQ - Software Engineering Program | CSUF
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+- 
+- 
+
+Skip Navigation 
+
+California State University, Fullerton 
+
+Site Menu 
+
+College of Engineering and Computer Science 
+Software Engineering Program 
+
+- Main Navigation 
+
+- 
+About
+
+- 
+Program Cost
+
+- 
+Courses
+
+- 
+FAQ
+
+- 
+How to Apply
+
+- 
+How to Enroll
+
+- 
+Faculty
+
+- 
+Contact and Support
+
+- 
+Program Brochure
+
+- 
+Program Handbook
+
+- 
+Orientation and Midpoint Seminars
+
+- 
+Workshop and Lectures
+
+H1: Frequently Asked Questions
+
+H2: Applications/Admissions
+
+How do I apply for the online MSE program? 
+
+Please visit the How to Apply page on the MSE website.
+Also visit the college Graduate Admission page .
+
+I have applied. Who should I contact about my application status? 
+
+If you received notice that your application is in the department review phase, contact the MSE office at [email protected] . If your application is in the initial stage and/or if you need to verify that your documents have been received, contact the ECS Graduate Admissions office at [email protected] .
+
+I don't have a bachelor's degree in computer science but I do have work experience in the software industry. May I apply? What amount of work experience is equivalent to the CPSC 362 (Foundations of Software Engineering) prerequisite? 
+
+To apply, at least one year of experience in software development is expected. If you have not completed an introductory software engineering course (CPSC 362 or equivalent), a resume is required when you apply in order to determine if you have sufficient work experience demonstrating competency in software engineering concepts and practice. Once you have submitted your online application please email your resume to the MSE program at [email protected] .
+
+Before you apply, the best way to know whether or not you are qualified is to email your resume (and unofficial transcripts if possible) to the MSE Coordinator, Dr. Bin Cong .
+
+I have already applied to the graduate program in Computer Science and now I cannot apply to the graduate program in Software Engineering. What can I do? 
+
+If you are a current student already enrolled in the Computer Science program, you will need to file a " Change of Objective Form 
+". If you recently applied and have not yet started taking classes, contact the Admissions Coordinator at: [email protected] 
+
+Be sure to include your full name and CWID in all communication.
+
+Is GRE needed to apply for the MSE program? 
+
+No, we do not require the GRE.
+
+Is TOEFL/IELTS needed to apply for the MSE program? 
+
+Yes, if you have not earned at least 72 college-level units in the U.S. or another majority English-speaking country. Residency/citizenship is irrelevant to this requirement. Please visit the Graduate Admission page for more details. 
+
+Can I receive a student visa (I-20) once I am admitted to the MSE program? 
+
+Unfortunately, no. An I-20 cannot be issued for the MSE program, since it is offered entirely online. U.S. immigration policy prohibits the student visa for entirely online programs. If you are already in the U.S. and need to transfer your I-20 to CSUF, you cannot do so for the MSE program. If you would like to stay in the U.S., you must have another type of visa that allows you to legally stay. You can be a student in the Software Engineering program from your home country.
+
+H2: Program Overview
+
+Do you also offer an on-campus version of the online Master of Science in Software Engineering (MSE) program? 
+
+CSUF offers two software engineering programs: the online MSE program and the on-campus Accelerated Master of Science in Software Engineering (AMSE) program.
+For more details, visit MSE website and AMSE website . 
+
+The online MSE is operated by the Computer Science department, while the on-campus AMSE is operated by the Extension and International Programs (EIP) office. Both degrees are conferred by the Computer Science department.
+
+The online MSE program cannot issue I-20 for international students, while the on-campus AMSE program can.
+
+Regularly MSE takes 22 months, while AMSE takes 17 months to complete.
+
+How much does the program cost? 
+
+Please visit our Program Cost page . 
+The online MSE program costs roughly $14,000 for a California resident, and $26,000 for a non-resident (including international students).
+The on-campus AMSE program costs roughly $26,000 for all students.
+
+Are there any scholarships for the MSE program? 
+
+There is no scholarship at the program level. However, you may check the university Financial Aid website for available funding opportunities.
+
+H2: Degree/Graduation
+
+How to apply for graduation? (Grad Check) 
+
+Please check the Graduation (Grad Check) page .
+
+Will the word "Online" appear on my degree? 
+
+No. Although this is a fully online program, the degree itself is a "Master of Science in Software Engineering." The word "Online" will not appear on your degree.
+
+Can I attend Commencement? 
+
+Yes, MSE and AMSE students may participate in the yearly Commencement Exercises. Emails will be sent by the university and MSE office with information on dates/times, regalia, tickets, and other pertinent information.
+
+How/when will I receive my diploma? 
+
+Diplomas are mailed out to the address listed on your student portal. Due to the processing times of grad check finalization, transcript updates, and diploma printing, it may take up to 3 months to receive diplomas in the mail. The university has an online diploma service that can be used to check the status at: http://records.fullerton.edu/services/diplomas.php 
+
+H2: Curriculum/Courses
+
+Can I take only one course per semester? 
+
+Yes, but this will cost the same as taking two courses per semester. Also, since MSE offers each course once per year, you will need to wait a year if you miss taking a certain course.
+
+When are classes held? 
+
+All courses are asynchronous, meaning that there is no associated meeting day/time. Course materials can be accessed at the students' convenience.
+
+How is coursework given? 
+
+For each class, course materials will be posted and submitted online via Canvas, which is the learning management system used by the university.
+
+How are assignments given? How will students turn in assignments? 
+
+It depends on the course and instructor. All things are done via online modality.
+
+How are tests administered? 
+
+It will be determined by the instructor. All things are operated via online modality.
+
+Will there be an exit exam? 
+
+No, there is no exit exam. Students are required to complete a significant terminal project as part of the curriculum (CPSC 597). There is no thesis option.
+
+Where can I find information about course textbooks? 
+
+In general, textbook information is shown at Courses page . 
+
+Specifically, see the instructor's course syllabus, which contains both the title and ISBN number for every book used in a course. Textbook information will be accessible through the student portal after enrolling in classes. You may also look up textbook information on the school bookstore website .
+
+H2: Policies/Procedures
+
+What happens if you are unable to attend a semester? 
+
+Students that qualify should apply for a leave of absence via the Office of Graduate Studies (OGS). First-semester students are not eligible for leave. Students that are only working on project requirements and do not have additional coursework to take may be eligible to enroll in GRAD 700, a placeholder class handled by OGS. Students can contact the MSE Graduate Coordinator for guidance on which option is most appropriate.
+
+What if I cannot attend a semester and do not enroll or apply for leave? 
+
+Students that do not comply with the university’s continuous enrollment requirement will be discontinued from the program by the census date (mid-February for Spring, late September for Fall) and will have to re-apply to the university to continue their studies.
+
+How do I get a study plan? 
+
+The program office will prepare this for you, typically after your first semester or after completing 6 units. After the program initiates the paperwork, it goes to the Office of Graduate Studies for final review and approval.
+
+If you need a copy of your study plan sooner (e.g. for VA benefits), then email [email protected] to request an early study plan.
+
+This site is maintained by 
+College of Engineering and Computer Science .
+
+Last Published 8/13/26 
+
+To report problems or comments with this site, please contact 
+[email protected] . 
+
+© California State University, Fullerton. All Rights Reserved.
+
+H2: Web Accessibility
+
+CSUF is committed to ensuring equal accessibility to our users. Let us know about any accessibility problems you encounter using this website.
+
+We'll do our best to improve things and get you the information you need.
+
+- Resources:
+
+- Download Adobe Acrobat Reader
+
+- 
+Adobe Reader 
+
+- Download Word viewer, or download Excel viewer, or download PowerPoint viewer
+
+- 
+Microsoft Viewers 
+
+- 
+Report An ATI Issue 
+
+- 
+Accessible @ CSUF 
+
+Version_4.8.10

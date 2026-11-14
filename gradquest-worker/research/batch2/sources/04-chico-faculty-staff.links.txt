@@ -1,0 +1,141 @@
+#content	Skip to Main Content
+/	California State University, Chico
+https://www.csuchico.edu/academics/index.shtml	Academics
+https://www.csuchico.edu/academics/majors-programs/index.shtml	Majors and Programs
+https://www.csuchico.edu/academics/graduate-studies.shtml	Graduate Studies
+https://www.csuchico.edu/academics/college/index.shtml	Colleges
+https://www.csuchico.edu/academics/online.shtml	Online Learning
+https://www.csuchico.edu/academics/advising/index.shtml	Academic Advising
+https://www.csuchico.edu/academics/enrichment/index.shtml	Academic Enrichment
+https://catalog.csuchico.edu/	Catalog
+https://www.csuchico.edu/schedule/index.shtml	Class Schedule
+https://www.csuchico.edu/admissions/index.shtml	Admissions
+https://www.csuchico.edu/admissions/first-time/index.shtml	First-Time in College
+https://www.csuchico.edu/admissions/transfer/index.shtml	Transfer Students
+https://www.csuchico.edu/admissions/graduate/index.shtml	Graduate Students
+https://www.csuchico.edu/admissions/international/index.shtml	International Students
+https://www.csuchico.edu/admissions/returning.shtml	Returning Students
+https://www.csuchico.edu/admissions/online.shtml	Online Students
+https://www.csuchico.edu/admissions/second-bachelors.shtml	Second Bachelor's Degree
+https://www.csuchico.edu/cost-aid/index.shtml	Cost and Aid
+https://www.csuchico.edu/cost-aid/financial-aid-scholarships.shtml	Financial Aid and Scholarships
+https://www.csuchico.edu/cost-aid/calculator.shtml	Calculate Your Cost
+https://www.csuchico.edu/cost-aid/cost-of-attendance.shtml	Cost of Attendance
+https://www.csuchico.edu/cost-aid/aid-steps.shtml	Steps to Financial Aid
+https://www.csuchico.edu/student-life/index.shtml	Student Life
+https://www.csuchico.edu/student-life/housing-dining/index.shtml	Housing and Dining
+https://csuchico.campuslabs.com/engage/	Clubs and Organizations
+https://www.csuchico.edu/student-life/health-wellness.shtml	Health and Wellness
+https://www.csuchico.edu/resources/index.shtml	Student Services
+https://www.csuchico.edu/studyabroad/index.shtml	Study Abroad and Exchange
+https://chicowildcats.com/	Athletics
+https://outlook.com/csuchico.edu	Email
+https://portal.csuchico.edu	Portal
+https://www.csuchico.edu/resources/index.shtml	Student Services
+https://library.csuchico.edu/	Library
+https://www.csuchico.edu/alumni/index.shtml	Alumni
+https://www.csuchico.edu/about/index.shtml	About Chico
+https://www.csuchico.edu/espanol/index.shtml	Español
+https://www.csuchico.edu/give/index.shtml	Give
+https://www.csuchico.edu/apply/request-information.shtml	Request Info
+https://www.csuchico.edu/visit/index.shtml	Visit
+https://www.csuchico.edu/apply/index.shtml	Apply
+https://www.csuchico.edu/about/index.shtml	About Chico
+https://www.csuchico.edu/espanol/index.shtml	Español
+https://www.csuchico.edu/give/index.shtml	Give
+https://outlook.com/csuchico.edu	Email
+https://portal.csuchico.edu	Portal
+https://www.csuchico.edu/resources/index.shtml	Student Services
+https://library.csuchico.edu/	Library
+https://www.csuchico.edu/alumni/index.shtml	Alumni
+https://www.csuchico.edu/apply/request-information.shtml	Request Info
+https://www.csuchico.edu/visit/index.shtml	Visit
+https://www.csuchico.edu/apply/index.shtml	Apply
+/	California State University, Chico
+https://www.csuchico.edu/academics/index.shtml	Academics
+https://www.csuchico.edu/academics/majors-programs/index.shtml	Majors and Programs
+https://www.csuchico.edu/academics/graduate-studies.shtml	Graduate Studies
+https://www.csuchico.edu/academics/college/index.shtml	Colleges
+https://www.csuchico.edu/academics/online.shtml	Online Learning
+https://www.csuchico.edu/academics/advising/index.shtml	Academic Advising
+https://www.csuchico.edu/academics/enrichment/index.shtml	Academic Enrichment
+https://catalog.csuchico.edu/	Catalog
+https://www.csuchico.edu/schedule/index.shtml	Class Schedule
+https://www.csuchico.edu/admissions/index.shtml	Admissions
+https://www.csuchico.edu/admissions/first-time/index.shtml	First-Time in College
+https://www.csuchico.edu/admissions/transfer/index.shtml	Transfer Students
+https://www.csuchico.edu/admissions/graduate/index.shtml	Graduate Students
+https://www.csuchico.edu/admissions/international/index.shtml	International Students
+https://www.csuchico.edu/admissions/returning.shtml	Returning Students
+https://www.csuchico.edu/admissions/online.shtml	Online Students
+https://www.csuchico.edu/admissions/second-bachelors.shtml	Second Bachelor's Degree
+https://www.csuchico.edu/cost-aid/index.shtml	Cost and Aid
+https://www.csuchico.edu/cost-aid/financial-aid-scholarships.shtml	Financial Aid and Scholarships
+https://www.csuchico.edu/cost-aid/calculator.shtml	Calculate Your Cost
+https://www.csuchico.edu/cost-aid/cost-of-attendance.shtml	Cost of Attendance
+https://www.csuchico.edu/cost-aid/aid-steps.shtml	Steps to Financial Aid
+https://www.csuchico.edu/student-life/index.shtml	Student Life
+https://www.csuchico.edu/student-life/housing-dining/index.shtml	Housing and Dining
+https://csuchico.campuslabs.com/engage/	Clubs and Organizations
+https://www.csuchico.edu/student-life/health-wellness.shtml	Health and Wellness
+https://www.csuchico.edu/resources/index.shtml	Student Services
+https://www.csuchico.edu/studyabroad/index.shtml	Study Abroad and Exchange
+https://chicowildcats.com/	Athletics
+/	Home
+https://www.csuchico.edu/academics/index.shtml	Academics
+https://www.csuchico.edu/academics/college/index.shtml	Academic Colleges
+https://www.csuchico.edu/academics/college/engineering/index.shtml	College of Engineering, Computer Science, and Construction Management
+https://www.csuchico.edu/academics/college/engineering/departments/index.shtml	Academic Departments
+https://www.csuchico.edu/academics/college/engineering/departments/computer-science/index.shtml	Computer Science Department
+https://www.csuchico.edu/academics/college/engineering/departments/computer-science/index.shtml	Computer Science Department
+https://www.csuchico.edu/academics/college/engineering/departments/computer-science/facilities.shtml	Computer Science Student Resources
+https://www.csuchico.edu/academics/college/engineering/departments/computer-science/cyber-center.shtml	Cyber Center
+https://www.csuchico.edu/academics/college/engineering/departments/computer-science/index.shtml	Computer Science Department
+https://www.csuchico.edu/academics/college/engineering/departments/computer-science/facilities.shtml	Computer Science Student Resources
+https://www.csuchico.edu/academics/college/engineering/departments/computer-science/cyber-center.shtml	Cyber Center
+https://www.csuchico.edu/academics/college/engineering/departments/computer-science/index.shtml	Computer Science Department
+https://www.csuchico.edu/academics/college/engineering/departments/computer-science/facilities.shtml	Computer Science Student Resources
+https://www.csuchico.edu/academics/college/engineering/departments/computer-science/cyber-center.shtml	Cyber Center
+tel:530-898-6442	530-898-6442
+mailto:csci@csuchico.edu	csci@csuchico.edu
+https://apps.csuchico.edu/directory/Department/CSCI	Faculty and Staff Directory
+https://apps.csuchico.edu/directory/Employee/tagibson	Todd Gibson
+https://apps.csuchico.edu/directory/Employee/kstumbo	Kathleen Stumbo
+https://apps.csuchico.edu/directory/Employee/aattarwala	Abbas Attarwala
+https://apps.csuchico.edu/directory/Employee/kbuffardi	Kevin Buffardi
+https://apps.csuchico.edu/directory/Employee/bcdixon	Bryan Dixon
+https://apps.csuchico.edu/directory/Employee/bherring	Brian Herring
+https://apps.csuchico.edu/directory/Employee/mhill18	Matthew D Hill
+https://apps.csuchico.edu/directory/Employee/bjuliano	Ben Juliano
+https://apps.csuchico.edu/directory/Employee/mlarson1	Michael Larson
+https://apps.csuchico.edu/directory/Employee/jraigoza	Jaime Raigoza
+https://apps.csuchico.edu/directory/Employee/bshen2	Bo Shen
+https://apps.csuchico.edu/directory/Employee/sbsiewert	Samuel B Siewert
+https://apps.csuchico.edu/directory/Employee/ktian	Kun Tian
+https://apps.csuchico.edu/directory/Employee/rctillquist	Richard C Tillquist
+https://apps.csuchico.edu/directory/Employee/swong26	Shelley M Wong
+https://apps.csuchico.edu/directory/Employee/dzeichick	David Zeichick
+https://apps.csuchico.edu/directory/Employee/oal-saadi	Oleksiy Al-Saadi
+https://apps.csuchico.edu/directory/Employee/ktisenegger	Kathleen Isenegger
+tel:530-898-6442	530-898-6442
+mailto:csci@csuchico.edu	csci@csuchico.edu
+https://apps.csuchico.edu/directory/Department/CSCI	Faculty and Staff Directory
+#top	Scroll To Top
+https://www.csuchico.edu/maps/campus/	Campus Map
+https://www.csuchico.edu/contact.shtml	Contact Us
+https://www.csuchico.edu/give/index.shtml	Give
+https://www.facebook.com/CaliforniaStateUniversityChico/	Facebook Facebook
+https://www.instagram.com/chicostate/	Instagram Instagram
+https://www.tiktok.com/@chicostate	TikTok TikTok
+https://www.csuchico.edu/apply/index.shtml	Apply
+https://www.csuchico.edu/about/job-opportunities.shtml	Career Opportunities
+https://www.csuchico.edu/about/faculty-staff-resources.shtml	Faculty and Staff Resources
+https://www.csuchico.edu/alerts/index.shtml	Emergency Alerts and Updates
+https://www.csuchico.edu/about/safety/index.shtml	Safety
+https://apps.csuchico.edu/directory/	Campus Directory
+https://www.csuchico.edu/ati/procedures/web-acccessibility.shtml	Report an Accessibility Issue
+https://support.csuchico.edu/TDClient/1984/Portal/Requests/ServiceDet?ID=45100	Report a Broken Link
+https://www.csuchico.edu/about/office/information-technology/policies/privacy-policy.shtml	Privacy Policy
+https://www.csuchico.edu/clery/_assets/documents/annual-security-report.pdf	Annual Security Report
+https://www.csuchico.edu/_assets/documents/office/safety/notice-of-non-descrimination-attachment-a.pdf	Notice of Nondiscrimination
+https://www.csuchico.edu/about/safety/civil-rights-title-ix/index.shtml	Title IX

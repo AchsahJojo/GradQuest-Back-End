@@ -1,0 +1,243 @@
+#skipToContent	Skip to main content
+//www.csueastbay.edu/index.html	California State University, East Bay Home
+https://www.csueastbay.edu/apply/index.html	Apply
+https://www.csueastbay.edu/futurestudents/request-info.html	Request Info
+https://www.csueastbay.edu/giving/index.html	Give
+#	Afrikaans
+#	Albanian
+#	Amharic
+#	Arabic
+#	Armenian
+#	Azerbaijani
+#	Basque
+#	Belarusian
+#	Bengali
+#	Bosnian
+#	Bulgarian
+#	Catalan
+#	Cebuano
+#	Chichewa
+#	Chinese (Simplified)
+#	Chinese (Traditional)
+#	Corsican
+#	Croatian
+#	Czech
+#	Danish
+#	Dutch
+#	English
+#	Esperanto
+#	Estonian
+#	Filipino
+#	Finnish
+#	French
+#	Frisian
+#	Galician
+#	Georgian
+#	German
+#	Greek
+#	Gujarati
+#	Haitian Creole
+#	Hausa
+#	Hawaiian
+#	Hebrew
+#	Hindi
+#	Hmong
+#	Hungarian
+#	Icelandic
+#	Igbo
+#	Indonesian
+#	Irish
+#	Italian
+#	Japanese
+#	Javanese
+#	Kannada
+#	Kazakh
+#	Khmer
+#	Kinyarwanda
+#	Korean
+#	Kurdish (Kurmanji)
+#	Kyrgyz
+#	Lao
+#	Latin
+#	Latvian
+#	Lithuanian
+#	Luxembourgish
+#	Macedonian
+#	Malagasy
+#	Malay
+#	Malayalam
+#	Maltese
+#	Maori
+#	Marathi
+#	Mongolian
+#	Myanmar (Burmese)
+#	Nepali
+#	Norwegian
+#	Odia (Oriya)
+#	Pashto
+#	Persian
+#	Polish
+#	Portuguese
+#	Punjabi
+#	Romanian
+#	Russian
+#	Samoan
+#	Scots Gaelic
+#	Serbian
+#	Sesotho
+#	Shona
+#	Sindhi
+#	Sinhala
+#	Slovak
+#	Slovenian
+#	Somali
+#	Spanish
+#	Sundanese
+#	Swahili
+#	Swedish
+#	Tajik
+#	Tamil
+#	Tatar
+#	Telugu
+#	Thai
+#	Turkish
+#	Turkmen
+#	Ukrainian
+#	Urdu
+#	Uyghur
+#	Uzbek
+#	Vietnamese
+#	Welsh
+#	Xhosa
+#	Yiddish
+#	Yoruba
+#	Zulu
+https://www.csueastbay.edu/students/index.html	Current Students
+https://www.csueastbay.edu/futurestudents/index.html	Future Students
+https://www.csueastbay.edu/alumni/index.html	Alumni
+https://www.csueastbay.edu/faculty/index.html	Faculty
+https://www.csueastbay.edu/staff/index.html	Staff
+https://www.csueastbay.edu/apply/index.html	APPLY
+https://www.csueastbay.edu/futurestudents/request-info.html	REQUEST INFO
+https://www.csueastbay.edu/giving/index.html	MAKE A GIFT
+https://www.csueastbay.edu/students/index.html	Current Students
+https://www.csueastbay.edu/futurestudents/index.html	Future Students
+https://www.csueastbay.edu/alumni/index.html	Alumni
+https://www.csueastbay.edu/faculty/index.html	Faculty
+https://www.csueastbay.edu/staff/index.html	Staff
+https://www.csueastbay.edu/about/index.html	About
+https://www.csueastbay.edu/accessibility	Accessibility
+https://www.csueastbay.edu/alumni/index.html	Alumni
+https://eastbaypioneers.com/	Athletics
+https://www.bkstr.com/csueastbayhaywardstore/home	Bookstore
+https://www.csueastbay.edu/about/visitor-information/index.html	Campus Maps
+https://www.csueastbay.edu/concord/index.html	Concord Center
+https://www.csueastbay.edu/news-center/index.html	News Center
+https://www.csueastbay.edu/administration/index.html	Office of the President
+https://www.csueastbay.edu/us/index.html	Rentals & Scheduling
+https://www.csueastbay.edu/academics/college.html	Colleges and Departments
+https://www.csueastbay.edu/cbe/index.html	College of Business and Economics
+https://www.csueastbay.edu/coh/index.html	College of Health
+https://www.csueastbay.edu/class/index.html	College of Letters, Arts, and Social Sciences
+https://www.csueastbay.edu/csci/index.html	College of Science
+https://ce.csueastbay.edu/	Continuing Education
+https://www.csueastbay.edu/online/index.html	Online Programs
+https://www.csueastbay.edu/futurestudents/index.html	Future Students
+https://www.csueastbay.edu/admissions/index.html	Admissions
+https://www.csueastbay.edu/admissions/documents-deadlines-and-important-information/application-and-doc-deadlines/index.html	Application Deadlines
+https://www.csueastbay.edu/financialaid/prospective-students1/cost-of-attendance.html	Cost and Financial Aid
+https://www.csueastbay.edu/graduate-studies/index.html	Graduate Studies
+https://www.csueastbay.edu/futurestudents/majors/index.html	Undergraduate Majors
+https://www.csueastbay.edu/perrysnest/tours-pre-admission-support.html	Visit Campus
+https://www.csueastbay.edu/students/index.html	Current Students
+https://www.csueastbay.edu/academics/index.html	Academics
+https://www.csueastbay.edu/academics/support-programs.html	Academic Support Programs
+https://www.csueastbay.edu/eastbaylife/calendars.html	Calendar
+https://www.csueastbay.edu/eastbaylife/index.html	Campus Life
+https://www.csueastbay.edu/student-financial-services/index.html	Cashier's Office
+https://www.csueastbay.edu/financialaid/index.html	Financial Aid
+https://www.csueastbay.edu/ip/index.html	International Programs
+https://www.csueastbay.edu/oscar/index.html	Student Research Opportunities
+https://dineoncampus.com/csueb	Pioneer Dining
+https://www.csueastbay.edu/registrar/index.html	Student Records
+https://www.csueastbay.edu/housing/index.html	University Housing & Residence Life
+https://catalog.csueastbay.edu/	University Catalog
+https://www.csueastbay.edu/faculty/	Faculty
+https://www.csueastbay.edu/staff/	Staff
+https://email.csueastbay.edu/	Faculty and Staff Email (Google)
+https://outlook.office.com/mail	Faculty and Staff Email (Outlook/MS365)
+https://www.csueastbay.edu/hr/	Human Resources
+https://www.csueastbay.edu/about/career-opportunities.html	Career Opportunities
+https://www.csueastbay.edu/mycsueb/	MyCSUEB
+https://canvas.csueastbay.edu/	Canvas
+https://library.csueastbay.edu/	Library
+https://outlook.office.com/mail/	Email
+https://mycompass.csueastbay.edu	MyCompass
+https://cmsweb.cs.csueastbay.edu/psc/CEBPRDF/EMPLOYEE/SA/c/EB_FACULTY_DIRCT_FL.EB_FCLTY_DIR_FL.GBL	Directory
+http://www.csueastbay.edu/	
+../index.html	Computer Science
+index.html	Degrees & Programs
+../index.html	Department of Computer Science
+../mission.html	Vision, Mission, & Values
+index.html	Degrees & Programs
+../courses/index.html	Courses
+../current-students/index.html	Current Students
+../current-students/forms/index.html	Forms
+../current-students/internship-course/index.html	Internship Course
+../current-students/advising/index.html	Advising
+../prospective-students/index.html	Prospective Students
+../first-year-transfer-students/index.html	First Year Transfer Students
+../first-year-transfer-students/first-semester-schedule-planner/index.html	First Semester Schedule Planner
+../first-year-masters-students/index.html	First Year Master's Students
+../first-year-masters-students/first-semester-masters-student-planner.html	First Semester Masters Student Planner
+../faculty-staff/index.html	Faculty & Staff
+../faculty-staff/office-hours.html	Office Hours
+../professors-emeritus/index.html	Professors Emeritus
+../industrial-advisory-board/index.html	Industrial Advisory Board
+../financial-assistance/index.html	Financial Assistance
+../employment/index.html	Employment Opportunities
+../donate/index.html	Donate
+../graduate-capstone/index.html	Graduate Capstone
+../graduate-capstone/cs-699-thesis.html	CS 699 Thesis
+../graduate-capstone/faq-cs-692-capstone-exam.html	FAQ CS 692 – Capstone Exam
+../graduate-capstone/cs-693-faq.html	CS 693 Capstone Project
+../careers.html	Careers for Majors
+../resources.html	Resources
+../contact-us/index.html	Contact Us
+../help.html	Help for Students
+//www.csueastbay.edu/index.html	California State University, East Bay
+https://www.instagram.com/csueb/	
+https://twitter.com/CalStateEastBay?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor	
+https://www.youtube.com/channel/UCObJlgPQsJITHxy7RftZY6g	
+https://www.facebook.com/CalStateEastBay/	
+https://www.linkedin.com/edu/california-state-university-east-bay-17825	
+https://maps.google.com/?q=California State University, East Bay	25800 Carlos Bee Boulevard Hayward, CA 94542
+tel:5108853000	(510) 885-3000
+https://www.csueastbay.edu/administration/title-ix/index.html	Sexual Assault / Title IX
+https://www.csueastbay.edu/futurestudents/request-info.html	Request Information
+https://www.csueastbay.edu/students	Current Students
+https://www.csueastbay.edu/faculty/	Faculty
+https://www.csueastbay.edu/staff/	Staff
+https://www.csueastbay.edu/alumni/	Alumni & Friends
+https://www.csueastbay.edu/ati/accessibility-statement.html	Accessibility
+https://www.csueastbay.edu/futuredirections/index.html	Mission Statement
+https://library.csueastbay.edu/	Library
+https://www.csueastbay.edu/bookstore	Bookstore
+https://www.csueastbay.edu/aps/index.html	Academic Programs
+https://www.csueastbay.edu/futurestudents/files/docs/cal-state-east-bay-viewbook.pdf	Viewbook of Colleges
+https://www.csueastbay.edu/directory/	Contact Us
+https://www.csueastbay.edu/directorysearch	Directory
+https://www.csueastbay.edu/about/visitor-information/index.html	Maps & Directions
+https://www.csueastbay.edu/about/career-opportunities.html	Career Opportunities
+https://www.instagram.com/csueb/	
+https://twitter.com/CalStateEastBay?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor	
+https://www.youtube.com/channel/UCObJlgPQsJITHxy7RftZY6g	
+https://www.facebook.com/CalStateEastBay/	
+https://www.linkedin.com/edu/california-state-university-east-bay-17825	
+/privacy/index.html	Privacy Statement
+https://www.csueastbay.edu/riskmanagement/emergency-management/index.html	Emergency Info
+https://www.csueastbay.edu/upd/files/docs/2026-annual-security-report.pdf	Annual Security Report
+https://www.csueastbay.edu/upd/files/docs/csueb-campus-safety-plan.pdf	Campus Safety Plan
+https://www.csueastbay.edu/riskmanagement/complaint.html	Register a Complaint
+https://www.csueastbay.edu/administration/files/docs/title-ix-docs/non-discrimination-notice.pdf	Notice of Non-Discrimination and Retaliation Prohibition
+#	Cookie Settings

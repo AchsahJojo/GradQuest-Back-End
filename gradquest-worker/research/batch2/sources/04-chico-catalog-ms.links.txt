@@ -1,0 +1,473 @@
+#contentarea	Skip to Content
+/azindex/	AZ Index
+/	Catalog Home
+https://www.csuchico.edu	
+https://portal.csuchico.edu/	Portal
+https://outlook.com/csuchico.edu	MS Exchange Mail
+https://www.csuchico.edu/google/	Wildcat Mail
+https://outlook.com/csuchico.edu	MS Exchange
+https://www.csuchico.edu/google/	Wildcat Mail
+https://www.csuchico.edu/resources/index.shtml	Student Resources
+/	Catalog
+https://www.csuchico.edu/schedule/	Class Schedule
+https://www.csuchico.edu/maps/index.shtml	Campus Maps
+https://apps.csuchico.edu/directory/	Directory
+https://www.csuchico.edu/library/	Library
+https://www.csuchico.edu/apply/	Apply
+/	2026-2027 University Catalog
+/academic-programs-resources/academic-programs/	Programs
+/academic-programs-resources/academic-programs/#bachelorstext	Bachelor's
+/academic-programs-resources/academic-programs/#minorstext	Minors
+/academic-programs-resources/academic-programs/#certificatestext	Certificates
+/academic-programs-resources/academic-programs/#credentialstext	Credentials
+/academic-programs-resources/academic-programs/#masterstext	Master's
+/courses/	Courses
+/colleges-departments/undergraduate-education-academic-success/general-education/	General Education
+/academic-standards-policies/	Policies
+/archive/	Catalog Library
+https://www.csuchico.edu/apply/	Apply
+/	Home
+/colleges-departments/	Colleges and Departments
+/colleges-departments/college-engineering-computer-science-construction-management/	College of Engineering, Computer Science & Construction Management
+/colleges-departments/college-engineering-computer-science-construction-management/computer-science/	Computer Science
+/academic-programs-resources/academic-programs/	Programs
+/academic-programs-resources/academic-programs/#bachelorstext	Bachelor's
+/academic-programs-resources/academic-programs/#minorstext	Minors
+/academic-programs-resources/academic-programs/#certificatestext	Certificates
+/academic-programs-resources/academic-programs/#credentialstext	Credentials
+/academic-programs-resources/academic-programs/#masterstext	Master's
+/courses/	Courses
+/colleges-departments/undergraduate-education-academic-success/general-education/	General Education
+/academic-standards-policies/	Policies
+/archive/	Catalog Library
+#	Apply
+/presidents-welcome/	President's Welcome
+/academic-programs-resources/	Academic Programs and Resources
+/academic-programs-resources/academic-programs/	Academic Programs
+/academic-programs-resources/accreditations/	Accreditations
+/colleges-departments/	Colleges and Departments
+/colleges-departments/college-agriculture/	College of Agriculture
+/colleges-departments/college-agriculture/agriculture/	Agriculture
+/colleges-departments/college-agriculture/agriculture/agricultural-business-bs/	Agricultural Business BS
+/colleges-departments/college-agriculture/agriculture/agricultural-business-minor/	Agricultural Business Minor
+/colleges-departments/college-agriculture/agriculture/agricultural-education-ms/	Agricultural Education MS
+/colleges-departments/college-agriculture/agriculture/agricultural-science-bs/	Agricultural Science BS
+/colleges-departments/college-agriculture/agriculture/agriculture-minor/	Agriculture Minor
+/colleges-departments/college-agriculture/agriculture/animal-science-bs/	Animal Science BS
+/colleges-departments/college-agriculture/agriculture/animal-science-minor/	Animal Science Minor
+/colleges-departments/college-agriculture/agriculture/plant-soil-science-bs/	Plant and Soil Science BS
+/colleges-departments/college-agriculture/agriculture/plant-protection-certificate/	Plant Protection Certificate
+/colleges-departments/college-agriculture/agriculture/pre-veterinary-program-animal-science/	Pre-​Veterinary Program in Animal Science
+/colleges-departments/college-agriculture/agriculture/team-organizational-leadership-agriculture-certificate/	Team and Organizational Leadership in Agriculture Certificate
+/colleges-departments/college-behavioral-social-sciences/	College of Behavioral &​ Social Sciences
+/colleges-departments/college-behavioral-social-sciences/anthropology/	Anthropology
+/colleges-departments/college-behavioral-social-sciences/anthropology/anthropology-ba/	Anthropology BA
+/colleges-departments/college-behavioral-social-sciences/anthropology/anthropology-ma/	Anthropology MA
+/colleges-departments/college-behavioral-social-sciences/anthropology/anthropology-minor/	Anthropology Minor
+/colleges-departments/college-behavioral-social-sciences/anthropology/applied-cultural-anthropology-certificate/	Applied Cultural Anthropology Certificate
+/colleges-departments/college-behavioral-social-sciences/anthropology/cultural-resource-management-certificate/	Cultural Resource Management Certificate
+/colleges-departments/college-behavioral-social-sciences/anthropology/forensic-science-minor/	Forensic Science Minor
+/colleges-departments/college-behavioral-social-sciences/anthropology/museum-studies-certificate/	Museum Studies Certificate
+/colleges-departments/college-behavioral-social-sciences/child-development/	Child Development
+/colleges-departments/college-behavioral-social-sciences/child-development/child-development-ba/	Child Development BA
+/colleges-departments/college-behavioral-social-sciences/child-development/child-development-minor/	Child Development Minor
+/colleges-departments/college-behavioral-social-sciences/economics/	Economics
+/colleges-departments/college-behavioral-social-sciences/economics/economics-ba/	Economics BA
+/colleges-departments/college-behavioral-social-sciences/economics/economics-minor/	Economics Minor
+/colleges-departments/college-behavioral-social-sciences/ethnic-gender-queer-studies/	Ethnic, Gender, and Queer Studies
+/colleges-departments/college-behavioral-social-sciences/ethnic-gender-queer-studies/african-american-studies-minor/	African American Studies Minor
+/colleges-departments/college-behavioral-social-sciences/ethnic-gender-queer-studies/american-indian-studies-minor/	American Indian Studies Minor
+/colleges-departments/college-behavioral-social-sciences/ethnic-gender-queer-studies/asian-american-studies-minor/	Asian American Studies Minor
+/colleges-departments/college-behavioral-social-sciences/ethnic-gender-queer-studies/intersectional-chicanx-latinx-studies-ba/	Intersectional Chicanx/​Latinx Studies BA
+/colleges-departments/college-behavioral-social-sciences/ethnic-gender-queer-studies/intersectional-chicanx-latinx-studies-minor/	Intersectional Chicanx/​Latinx Studies Minor
+/colleges-departments/college-behavioral-social-sciences/ethnic-gender-queer-studies/managing-diversity-organizations-minor/	Managing Diversity in Organizations Minor
+/colleges-departments/college-behavioral-social-sciences/ethnic-gender-queer-studies/multicultural-gender-studies-ba/	Multicultural and Gender Studies BA
+/colleges-departments/college-behavioral-social-sciences/ethnic-gender-queer-studies/multicultural-gender-studies-online-ba/	Multicultural and Gender Studies BA Online
+/colleges-departments/college-behavioral-social-sciences/ethnic-gender-queer-studies/multicultural-studies-minor/	Multicultural Studies Minor
+/colleges-departments/college-behavioral-social-sciences/ethnic-gender-queer-studies/queer-trans-studies-minor/	Queer and Trans Studies Minor
+/colleges-departments/college-behavioral-social-sciences/ethnic-gender-queer-studies/womens-studies-minor/	Women's Studies Minor
+/colleges-departments/college-behavioral-social-sciences/geography-environmental-studies/	Geography and Environmental Studies
+/colleges-departments/college-behavioral-social-sciences/geography-environmental-studies/environmental-studies-minor/	Environmental Studies Minor
+/colleges-departments/college-behavioral-social-sciences/geography-environmental-studies/geography-ba/	Geography BA
+/colleges-departments/college-behavioral-social-sciences/geography-environmental-studies/geography-minor/	Geography Minor
+/colleges-departments/college-behavioral-social-sciences/geography-environmental-studies/geospatial-literacy-minor/	Geospatial Literacy Minor
+/colleges-departments/college-behavioral-social-sciences/geography-environmental-studies/geospatial-technology-certificate/	Geospatial Technology Certificate
+/colleges-departments/college-behavioral-social-sciences/geography-environmental-studies/land-use-environmental-planning-certificate/	Land Use and Environmental Planning Certificate
+/colleges-departments/college-behavioral-social-sciences/geography-environmental-studies/planning-development-minor/	Planning and Development Minor
+/colleges-departments/college-behavioral-social-sciences/political-science-criminal-justice/	Political Science and Criminal Justice
+/colleges-departments/college-behavioral-social-sciences/political-science-criminal-justice/criminal-justice-ba/	Criminal Justice BA
+/colleges-departments/college-behavioral-social-sciences/political-science-criminal-justice/criminal-justice-minor/	Criminal Justice Minor
+/colleges-departments/college-behavioral-social-sciences/political-science-criminal-justice/international-relations-minor/	International Relations Minor
+/colleges-departments/college-behavioral-social-sciences/political-science-criminal-justice/paralegal-certificate/	Paralegal Certificate
+/colleges-departments/college-behavioral-social-sciences/political-science-criminal-justice/political-science-ba/	Political Science BA
+/colleges-departments/college-behavioral-social-sciences/political-science-criminal-justice/political-science-ma/	Political Science MA
+/colleges-departments/college-behavioral-social-sciences/political-science-criminal-justice/political-science-minor/	Political Science Minor
+/colleges-departments/college-behavioral-social-sciences/political-science-criminal-justice/public-administration-ba/	Public Administration BA
+/colleges-departments/college-behavioral-social-sciences/political-science-criminal-justice/public-administration-minor/	Public Administration Minor
+/colleges-departments/college-behavioral-social-sciences/political-science-criminal-justice/mpa/	Public Administration MPA
+/colleges-departments/college-behavioral-social-sciences/psychology/	Psychology
+/colleges-departments/college-behavioral-social-sciences/psychology/psychology-ba/	Psychology BA
+/colleges-departments/college-behavioral-social-sciences/psychology/psychology-ma/	Psychology MA
+/colleges-departments/college-behavioral-social-sciences/psychology/psychology-minor/	Psychology Minor
+/colleges-departments/college-behavioral-social-sciences/psychology/psychology-ms/	Psychology MS
+/colleges-departments/college-behavioral-social-sciences/public-health-health-services-administration/	Public Health and Health Services Administration
+/colleges-departments/college-behavioral-social-sciences/public-health-health-services-administration/health-services-administration-bs/	Health Services Administration BS
+/colleges-departments/college-behavioral-social-sciences/public-health-health-services-administration/health-services-administration-certificate/	Health Services Administration Certificate
+/colleges-departments/college-behavioral-social-sciences/public-health-health-services-administration/health-services-administration-minor/	Health Services Administration Minor
+/colleges-departments/college-behavioral-social-sciences/public-health-health-services-administration/public-health-bs/	Public Health BS
+/colleges-departments/college-behavioral-social-sciences/public-health-health-services-administration/public-health-minor/	Public Health Minor
+/colleges-departments/college-behavioral-social-sciences/social-science/	Social Science
+/colleges-departments/college-behavioral-social-sciences/social-science/california-people-places-cultures-minor/	California: People, Places, and Cultures Minor
+/colleges-departments/college-behavioral-social-sciences/social-science/career-life-planning-minor/	Career and Life Planning Minor
+/colleges-departments/college-behavioral-social-sciences/social-science/family-relations-minor/	Family Relations Minor
+/colleges-departments/college-behavioral-social-sciences/social-science/gerontology-certificate/	Gerontology Certificate
+/colleges-departments/college-behavioral-social-sciences/social-science/gerontology-minor/	Gerontology Minor
+/colleges-departments/college-behavioral-social-sciences/social-science/social-science-ba/	Social Science BA
+/colleges-departments/college-behavioral-social-sciences/social-science/social-science-online-ba/	Social Science BA Online
+/colleges-departments/college-behavioral-social-sciences/social-science/social-science-ma/	Social Science MA
+/colleges-departments/college-behavioral-social-sciences/social-work/	Social Work
+/colleges-departments/college-behavioral-social-sciences/social-work/social-work-bsw/	Social Work BSW
+/colleges-departments/college-behavioral-social-sciences/social-work/social-work-minor/	Social Work Minor
+/colleges-departments/college-behavioral-social-sciences/social-work/msw/	Social Work MSW
+/colleges-departments/college-behavioral-social-sciences/sociology/	Sociology
+/colleges-departments/college-behavioral-social-sciences/sociology/sociology-ba/	Sociology BA
+/colleges-departments/college-behavioral-social-sciences/sociology/sociology-online-ba/	Sociology BA Online
+/colleges-departments/college-behavioral-social-sciences/sociology/sociology-minor/	Sociology Minor
+/colleges-departments/college-business/	College of Business
+/colleges-departments/college-business/business/	Business
+/colleges-departments/college-business/business/accounting-minor/	Accounting Minor
+/colleges-departments/college-business/business/business-administration-bs/	Business Administration BS
+/colleges-departments/college-business/business/business-administration-online-bs/	Business Administration BS Online
+/colleges-departments/college-business/business/mba/	Business Administration MBA
+/colleges-departments/college-business/business/mba-online/	Business Administration MBA Online
+/colleges-departments/college-business/business/business-administration-minor/	Business Administration Minor
+/colleges-departments/college-business/business/business-analytics-ms/	Business Analytics MS
+/colleges-departments/college-business/business/business-information-systems-bs/	Business Information Systems BS
+/colleges-departments/college-business/business/enterprise-information-systems-certificate/	Enterprise Information Systems Certificate
+/colleges-departments/college-business/business/entrepreneurship-small-business-management-minor/	Entrepreneurship and Small Business Management Minor
+/colleges-departments/college-business/business/entrepreneurship-certificate/	Entrepreneurship Certificate
+/colleges-departments/college-business/business/finance-minor/	Finance Minor
+/colleges-departments/college-business/business/financial-planning-certificate/	Financial Planning Certificate
+/colleges-departments/college-business/business/human-resource-management-minor/	Human Resource Management Minor
+/colleges-departments/college-business/business/information-technology-certificate/	Information Technology Certificate
+/colleges-departments/college-business/business/international-business-certificate/	International Business Certificate
+/colleges-departments/college-business/business/international-business-minor/	International Business Minor
+/colleges-departments/college-business/business/management-information-systems-minor/	Management Information Systems Minor
+/colleges-departments/college-business/business/management-minor/	Management Minor
+/colleges-departments/college-business/business/managing-diversity-organizations-minor/	Managing Diversity in Organizations Minor
+/colleges-departments/college-business/business/managing-sustainability-minor/	Managing for Sustainability Minor
+/colleges-departments/college-business/business/marketing-minor/	Marketing Minor
+/colleges-departments/college-business/business/operations-supply-chain-management-minor/	Operations and Supply Chain Management Minor
+/colleges-departments/college-business/business/professional-management-consulting-certificate/	Professional Management Consulting Certificate
+/colleges-departments/college-business/business/professional-sales-certificate/	Professional Sales Certificate
+/colleges-departments/college-business/business/project-management-minor/	Project Management Minor
+/colleges-departments/college-communication-education/	College of Communication &​ Education
+/colleges-departments/college-communication-education/communication-sciences-disorders/	Communication Sciences and Disorders
+/colleges-departments/college-communication-education/communication-sciences-disorders/communication-sciences-disorders-bs/	Communication Sciences and Disorders BS
+/colleges-departments/college-communication-education/communication-sciences-disorders/communication-sciences-disorders-ms/	Communication Sciences and Disorders MS
+/colleges-departments/college-communication-education/communication-studies/	Communication Studies
+/colleges-departments/college-communication-education/communication-studies/communication-ba/	Communication BA
+/colleges-departments/college-communication-education/communication-studies/communication-skills-minor/	Communication Skills Minor
+/colleges-departments/college-communication-education/communication-studies/communication-studies-ma/	Communication Studies MA
+/colleges-departments/college-communication-education/computer-animation-game-development/	Computer Animation and Game Development
+/colleges-departments/college-communication-education/computer-animation-game-development/3d-digital-modeling-environments/	3D Digital Modeling and Environments Minor
+/colleges-departments/college-communication-education/computer-animation-game-development/computer-animation-game-development-bs/	Computer Animation and Game Development BS
+/colleges-departments/college-communication-education/computer-animation-game-development/computer-animation-minor/	Computer Animation Minor
+/colleges-departments/college-communication-education/computer-animation-game-development/video-game-design-minor/	Video Game Design Minor
+/colleges-departments/college-communication-education/education/	Education
+/colleges-departments/college-communication-education/education/basic-teaching-credentials/	Basic Teaching Credentials
+/colleges-departments/college-communication-education/education/bilingual-credential-program/	Bilingual Credential Program
+/colleges-departments/college-communication-education/education/dual-credential-program/	Dual Credential Program
+/colleges-departments/college-communication-education/education/education-ma/	Education MA
+/colleges-departments/college-communication-education/education/education-specialist-credential-program/	Education Specialist Credential Program
+/colleges-departments/college-communication-education/education/educational-technology-distance-learning/	Educational Technology and Distance Learning Certificate
+/colleges-departments/college-communication-education/education/multiple-subject-credential-program/	Multiple Subject Credential Program
+/colleges-departments/college-communication-education/education/school-personnel-credentials/	Other School Personnel Credentials
+/colleges-departments/college-communication-education/education/single-subject-credential-program/	Single Subject Credential Program
+/colleges-departments/college-communication-education/education/single-subject-prep/	Single Subject Matter Preparation Programs
+/colleges-departments/college-communication-education/education/special-education-minor/	Special Education Minor
+/colleges-departments/college-communication-education/education/teaching-ma/	Teaching MA
+/colleges-departments/college-communication-education/journalism-public-relations/	Journalism and Public Relations
+/colleges-departments/college-communication-education/journalism-public-relations/journalism-ba/	Journalism BA
+/colleges-departments/college-communication-education/journalism-public-relations/journalism-minor/	Journalism Minor
+/colleges-departments/college-communication-education/journalism-public-relations/sports-media-minor/	Sports Media Minor
+/colleges-departments/college-communication-education/kinesiology-exercise-physiology/	Kinesiology
+/colleges-departments/college-communication-education/kinesiology-exercise-physiology/adapted-physical-activity-minor/	Adapted Physical Activity Minor
+/colleges-departments/college-communication-education/kinesiology-exercise-physiology/coaching-minor/	Coaching Minor
+/colleges-departments/college-communication-education/kinesiology-exercise-physiology/exercise-physiology-bs/	Exercise Physiology BS
+/colleges-departments/college-communication-education/kinesiology-exercise-physiology/kinesiology-bs/	Kinesiology BS
+/colleges-departments/college-communication-education/kinesiology-exercise-physiology/kinesiology-ms/	Kinesiology MS
+/colleges-departments/college-communication-education/kinesiology-exercise-physiology/outdoor-education-certificate/	Outdoor Education Certificate
+/colleges-departments/college-communication-education/kinesiology-exercise-physiology/physical-education-minor/	Physical Education Minor
+/colleges-departments/college-communication-education/kinesiology-exercise-physiology/sport-performance-minor/	Sport Performance Minor
+/colleges-departments/college-communication-education/liberal-studies/	Liberal Studies
+/colleges-departments/college-communication-education/liberal-studies/liberal-arts-ba/	Liberal Arts BA
+/colleges-departments/college-communication-education/liberal-studies/liberal-studies-ba/	Liberal Studies BA
+/colleges-departments/college-communication-education/media-arts-design-technology/	Media Arts, Design, and Technology
+/colleges-departments/college-communication-education/media-arts-design-technology/broadcasting-minor/	Broadcasting Minor
+/colleges-departments/college-communication-education/media-arts-design-technology/communication-design-bfa/	Communication Design BFA
+/colleges-departments/college-communication-education/media-arts-design-technology/graphic-design-minor/	Graphic Design Minor
+/colleges-departments/college-communication-education/media-arts-design-technology/human-computer-interaction-design-minor/	Human-​Computer Interaction Design Minor
+/colleges-departments/college-communication-education/media-arts-design-technology/media-arts-ba/	Media Arts BA
+/colleges-departments/college-communication-education/media-arts-design-technology/social-media-production-analysis-minor/	Social Media Production and Analysis Minor
+/colleges-departments/college-communication-education/media-arts-design-technology/web-design-publishing-certificate/	Web Design and Publishing Certificate
+/colleges-departments/college-communication-education/recreation-hospitality-parks-management/	Recreation, Hospitality, and Parks Management
+/colleges-departments/college-communication-education/recreation-hospitality-parks-management/outdoor-education-certificate/	Outdoor Education Certificate
+/colleges-departments/college-communication-education/recreation-hospitality-parks-management/recreation-administration-ma/	Recreation Administration MA
+/colleges-departments/college-communication-education/recreation-hospitality-parks-management/recreation-hospitality-parks-management-bs/	Recreation, Hospitality, and Parks Management BS
+/colleges-departments/college-communication-education/recreation-hospitality-parks-management/recreation-hospitality-parks-management-minor/	Recreation, Hospitality, and Parks Management Minor
+/colleges-departments/college-communication-education/recreation-hospitality-parks-management/tourism-minor/	Tourism Minor
+/colleges-departments/college-engineering-computer-science-construction-management/	College of Engineering, Computer Science &​ Construction Management
+/colleges-departments/college-engineering-computer-science-construction-management/civil-engineering/	Civil Engineering
+/colleges-departments/college-engineering-computer-science-construction-management/civil-engineering/civil-engineering-bs/	Civil Engineering BS
+/colleges-departments/college-engineering-computer-science-construction-management/computer-science/	Computer Science
+/colleges-departments/college-engineering-computer-science-construction-management/computer-science/artificial-intelligence-science-ms/	Artificial Intelligence Science MS
+/colleges-departments/college-engineering-computer-science-construction-management/computer-science/computer-information-systems-bs/	Computer Information Systems BS
+/colleges-departments/college-engineering-computer-science-construction-management/computer-science/computer-science-bs/	Computer Science BS
+/colleges-departments/college-engineering-computer-science-construction-management/computer-science/computer-science-minor/	Computer Science Minor
+/colleges-departments/college-engineering-computer-science-construction-management/computer-science/computer-science-ms/	Computer Science MS
+/colleges-departments/college-engineering-computer-science-construction-management/computer-science/computer-science-online-ms/	Computer Science MS Online
+/colleges-departments/college-engineering-computer-science-construction-management/computer-science/cybersecurity-bs/	Cybersecurity BS
+/colleges-departments/college-engineering-computer-science-construction-management/computer-science/cybersecurity-minor/	Cybersecurity Minor
+/colleges-departments/college-engineering-computer-science-construction-management/computer-science/data-science-certificate/	Data Science Certificate
+/colleges-departments/college-engineering-computer-science-construction-management/concrete-industry-management/	Concrete Industry Management
+/colleges-departments/college-engineering-computer-science-construction-management/concrete-industry-management/concrete-industry-management-bs/	Concrete Industry Management BS
+/colleges-departments/college-engineering-computer-science-construction-management/construction-management/	Construction Management
+/colleges-departments/college-engineering-computer-science-construction-management/construction-management/construction-management-bs/	Construction Management BS
+/colleges-departments/college-engineering-computer-science-construction-management/construction-management/electrical-construction-minor/	Electrical Construction Minor
+/colleges-departments/college-engineering-computer-science-construction-management/construction-management/heavy-construction-minor/	Heavy Construction Minor
+/colleges-departments/college-engineering-computer-science-construction-management/electrical-computer-engineering/	Electrical and Computer Engineering
+/colleges-departments/college-engineering-computer-science-construction-management/electrical-computer-engineering/artificial-intelligence-engineering-ms/	Artificial Intelligence Engineering MS
+/colleges-departments/college-engineering-computer-science-construction-management/electrical-computer-engineering/biomedical-engineering-minor/	Biomedical Engineering Minor
+/colleges-departments/college-engineering-computer-science-construction-management/electrical-computer-engineering/computer-engineering-bs/	Computer Engineering BS
+/colleges-departments/college-engineering-computer-science-construction-management/electrical-computer-engineering/computer-engineering-minor/	Computer Engineering Minor
+/colleges-departments/college-engineering-computer-science-construction-management/electrical-computer-engineering/electrical-computer-engineering-ms/	Electrical and Computer Engineering MS
+/colleges-departments/college-engineering-computer-science-construction-management/electrical-computer-engineering/electrical-electronic-engineering-bs/	Electrical/​Electronic Engineering BS
+/colleges-departments/college-engineering-computer-science-construction-management/mechanical-mechatronic-engineering-advanced-manufacturing/	Mechanical and Mechatronic Engineering and Advanced Manufacturing
+/colleges-departments/college-engineering-computer-science-construction-management/mechanical-mechatronic-engineering-advanced-manufacturing/advanced-manufacturing-applied-robotics-bs/	Advanced Manufacturing and Applied Robotics BS
+/colleges-departments/college-engineering-computer-science-construction-management/mechanical-mechatronic-engineering-advanced-manufacturing/advanced-manufacturing-minor/	Advanced Manufacturing Minor
+/colleges-departments/college-engineering-computer-science-construction-management/mechanical-mechatronic-engineering-advanced-manufacturing/mechanical-engineering-bs/	Mechanical Engineering BS
+/colleges-departments/college-engineering-computer-science-construction-management/mechanical-mechatronic-engineering-advanced-manufacturing/mechatronic-engineering-bs/	Mechatronic Engineering BS
+/colleges-departments/college-humanities-fine-arts/	College of Humanities &​ Fine Arts
+/colleges-departments/college-humanities-fine-arts/art-art-history/	Art and Art History
+/colleges-departments/college-humanities-fine-arts/art-art-history/art-ba/	Art BA
+/colleges-departments/college-humanities-fine-arts/art-art-history/art-bfa/	Art BFA
+/colleges-departments/college-humanities-fine-arts/art-art-history/art-history-minor/	Art History Minor
+/colleges-departments/college-humanities-fine-arts/art-art-history/art-ma/	Art MA
+/colleges-departments/college-humanities-fine-arts/art-art-history/art-studio-minor/	Art Studio Minor
+/colleges-departments/college-humanities-fine-arts/art-art-history/interior-design-minor/	Interior Design Minor
+/colleges-departments/college-humanities-fine-arts/art-art-history/photographic-studies-minor/	Photographic Studies Minor
+/colleges-departments/college-humanities-fine-arts/comparative-religion-humanities/	Comparative Religion and Humanities
+/colleges-departments/college-humanities-fine-arts/comparative-religion-humanities/cinema-studies-minor/	Cinema Studies Minor
+/colleges-departments/college-humanities-fine-arts/comparative-religion-humanities/classical-civilization-minor/	Classical Civilization Minor
+/colleges-departments/college-humanities-fine-arts/comparative-religion-humanities/comparative-religion-minor/	Comparative Religion Minor
+/colleges-departments/college-humanities-fine-arts/comparative-religion-humanities/humanities-ba/	Humanities BA
+/colleges-departments/college-humanities-fine-arts/comparative-religion-humanities/humanities-online-ba/	Humanities BA Online
+/colleges-departments/college-humanities-fine-arts/comparative-religion-humanities/humanities-minor/	Humanities Minor
+/colleges-departments/college-humanities-fine-arts/comparative-religion-humanities/interreligious-intercultural-relations-certificate/	Interreligious and Intercultural Relations Certificate
+/colleges-departments/college-humanities-fine-arts/comparative-religion-humanities/medieval-renaissance-studies-minor/	Medieval and Renaissance Studies Minor
+/colleges-departments/college-humanities-fine-arts/comparative-religion-humanities/modern-jewish-israel-studies-minor/	Modern Jewish and Israel Studies Minor
+/colleges-departments/college-humanities-fine-arts/comparative-religion-humanities/religious-studies-ba/	Religious Studies BA
+/colleges-departments/college-humanities-fine-arts/comparative-religion-humanities/religious-studies-online-ba/	Religious Studies BA Online
+/colleges-departments/college-humanities-fine-arts/english/	English
+/colleges-departments/college-humanities-fine-arts/english/creative-writing-minor/	Creative Writing Minor
+/colleges-departments/college-humanities-fine-arts/english/english-ba/	English BA
+/colleges-departments/college-humanities-fine-arts/english/english-ma/	English MA
+/colleges-departments/college-humanities-fine-arts/english/english-minor/	English Minor
+/colleges-departments/college-humanities-fine-arts/english/linguistics-ba/	Linguistics BA
+/colleges-departments/college-humanities-fine-arts/english/linguistics-minor/	Linguistics Minor
+/colleges-departments/college-humanities-fine-arts/english/literary-editing-publishing-certificate/	Literary Editing and Publishing Certificate
+/colleges-departments/college-humanities-fine-arts/english/secondary-language-arts-minor/	Secondary Language Arts Minor
+/colleges-departments/college-humanities-fine-arts/english/teaching-college-level-writing-certificate/	Teaching College-​Level Writing Certificate
+/colleges-departments/college-humanities-fine-arts/english/tesol-certificate/	Teaching English to Speakers of Other Languages (TESOL) Certificate
+/colleges-departments/college-humanities-fine-arts/history/	History
+/colleges-departments/college-humanities-fine-arts/history/advanced-study-history-certificate/	Advanced Study in History Certificate
+/colleges-departments/college-humanities-fine-arts/history/history-ba/	History BA
+/colleges-departments/college-humanities-fine-arts/history/history-ma/	History MA
+/colleges-departments/college-humanities-fine-arts/history/history-minor/	History Minor
+/colleges-departments/college-humanities-fine-arts/history/public-history-certificate/	Public History Certificate
+/colleges-departments/college-humanities-fine-arts/languages-cultures/	Languages and Cultures
+/colleges-departments/college-humanities-fine-arts/languages-cultures/african-studies-minor/	African Studies Minor
+/colleges-departments/college-humanities-fine-arts/languages-cultures/asian-studies-ba/	Asian Studies BA
+/colleges-departments/college-humanities-fine-arts/languages-cultures/asian-studies-minor/	Asian Studies Minor
+/colleges-departments/college-humanities-fine-arts/languages-cultures/european-studies-minor/	European Studies Minor
+/colleges-departments/college-humanities-fine-arts/languages-cultures/french-minor/	French Minor
+/colleges-departments/college-humanities-fine-arts/languages-cultures/german-ba/	German BA
+/colleges-departments/college-humanities-fine-arts/languages-cultures/german-minor/	German Minor
+/colleges-departments/college-humanities-fine-arts/languages-cultures/italian-minor/	Italian Minor
+/colleges-departments/college-humanities-fine-arts/languages-cultures/japanese-minor/	Japanese Minor
+/colleges-departments/college-humanities-fine-arts/languages-cultures/language-teaching-ma/	Language Teaching MA
+/colleges-departments/college-humanities-fine-arts/languages-cultures/latin-american-studies-ba/	Latin American Studies BA
+/colleges-departments/college-humanities-fine-arts/languages-cultures/latin-american-studies-minor/	Latin American Studies Minor
+/colleges-departments/college-humanities-fine-arts/languages-cultures/middle-eastern-studies-minor/	Middle Eastern Studies Minor
+/colleges-departments/college-humanities-fine-arts/languages-cultures/spanish-ba/	Spanish BA
+/colleges-departments/college-humanities-fine-arts/languages-cultures/spanish-minor/	Spanish Minor
+/colleges-departments/college-humanities-fine-arts/languages-cultures/tesol-graduate-certificate/	Teaching English to Speakers of Other Languages (TESOL) Graduate Certificate
+/colleges-departments/college-humanities-fine-arts/music-theatre-dance/	Music, Theatre, and Dance
+/colleges-departments/college-humanities-fine-arts/music-theatre-dance/dance-minor/	Dance Minor
+/colleges-departments/college-humanities-fine-arts/music-theatre-dance/keyboard-pedagogy-certificate/	Keyboard Pedagogy Certificate
+/colleges-departments/college-humanities-fine-arts/music-theatre-dance/music-ba/	Music BA
+/colleges-departments/college-humanities-fine-arts/music-theatre-dance/music-industry-technology-ba/	Music Industry and Technology BA
+/colleges-departments/college-humanities-fine-arts/music-theatre-dance/music-minor/	Music Minor
+/colleges-departments/college-humanities-fine-arts/music-theatre-dance/musical-theatre-bfa/	Musical Theatre BFA
+/colleges-departments/college-humanities-fine-arts/music-theatre-dance/theatre-arts-ba/	Theatre Arts BA
+/colleges-departments/college-humanities-fine-arts/music-theatre-dance/theatre-arts-minor/	Theatre Arts Minor
+/colleges-departments/college-humanities-fine-arts/music-theatre-dance/vocal-performance-pedagogy-certificate/	Vocal Performance and Pedagogy Certificate
+/colleges-departments/college-humanities-fine-arts/philosophy/	Philosophy
+/colleges-departments/college-humanities-fine-arts/philosophy/ethics-minor/	Ethics Minor
+/colleges-departments/college-humanities-fine-arts/philosophy/philosophy-law-minor/	Philosophy and Law Minor
+/colleges-departments/college-humanities-fine-arts/philosophy/philosophy-ba/	Philosophy BA
+/colleges-departments/college-humanities-fine-arts/philosophy/philosophy-minor/	Philosophy Minor
+/colleges-departments/college-humanities-fine-arts/wildland-stewardship-bs/	Wildland Stewardship BS
+/colleges-departments/college-natural-sciences/	College of Natural Sciences
+/colleges-departments/college-natural-sciences/biological-sciences/	Biological Sciences
+/colleges-departments/college-natural-sciences/biological-sciences/biological-sciences-ba/	Biological Sciences BA
+/colleges-departments/college-natural-sciences/biological-sciences/biological-sciences-bs/	Biological Sciences BS
+/colleges-departments/college-natural-sciences/biological-sciences/biological-sciences-minor/	Biological Sciences Minor
+/colleges-departments/college-natural-sciences/biological-sciences/biological-sciences-ms/	Biological Sciences MS
+/colleges-departments/college-natural-sciences/biological-sciences/biology-pre-professional-programs/	Biology Pre-​Professional Programs
+/colleges-departments/college-natural-sciences/biological-sciences/botany-ms/	Botany MS
+/colleges-departments/college-natural-sciences/biological-sciences/microbiology-bs/	Microbiology BS
+/colleges-departments/college-natural-sciences/chemistry-biochemistry/	Chemistry and Biochemistry
+/colleges-departments/college-natural-sciences/chemistry-biochemistry/american-chemical-society-certificate-chemistry/	American Chemical Society Certificate in Chemistry
+/colleges-departments/college-natural-sciences/chemistry-biochemistry/biochemistry-bs/	Biochemistry BS
+/colleges-departments/college-natural-sciences/chemistry-biochemistry/biochemistry-minor/	Biochemistry Minor
+/colleges-departments/college-natural-sciences/chemistry-biochemistry/chemistry-ba/	Chemistry BA
+/colleges-departments/college-natural-sciences/chemistry-biochemistry/chemistry-bs/	Chemistry BS
+/colleges-departments/college-natural-sciences/chemistry-biochemistry/chemistry-minor/	Chemistry Minor
+/colleges-departments/college-natural-sciences/chemistry-biochemistry/chemistry-pre-professional-programs/	Chemistry Pre-​Professional Programs
+/colleges-departments/college-natural-sciences/earth-environmental-sciences/	Earth and Environmental Sciences
+/colleges-departments/college-natural-sciences/earth-environmental-sciences/earth-environmental-science-ms/	Earth and Environmental Science MS
+/colleges-departments/college-natural-sciences/earth-environmental-sciences/environmental-science-bs/	Environmental Science BS
+/colleges-departments/college-natural-sciences/earth-environmental-sciences/geology-bs/	Geology BS
+/colleges-departments/college-natural-sciences/earth-environmental-sciences/geology-minor/	Geology Minor
+/colleges-departments/college-natural-sciences/mathematics/	Mathematics and Statistics
+/colleges-departments/college-natural-sciences/mathematics/applied-statistics-minor/	Applied Statistics Minor
+/colleges-departments/college-natural-sciences/mathematics/data-science-analytics-ms/	Data Science and Analytics MS
+/colleges-departments/college-natural-sciences/mathematics/data-science-certificate/	Data Science Certificate
+/colleges-departments/college-natural-sciences/mathematics/mathematics-bs/	Mathematics BS
+/colleges-departments/college-natural-sciences/mathematics/mathematics-education-minor/	Mathematics Education Minor
+/colleges-departments/college-natural-sciences/mathematics/mathematics-minor/	Mathematics Minor
+/colleges-departments/college-natural-sciences/mathematics/mathematics-ms/	Mathematics MS
+/colleges-departments/college-natural-sciences/mathematics/statistics-minor/	Statistics Minor
+/colleges-departments/college-natural-sciences/nursing/	Nursing
+/colleges-departments/college-natural-sciences/nursing/nursing-bs/	Nursing BS
+/colleges-departments/college-natural-sciences/nursing/nursing-ms/	Nursing MS
+/colleges-departments/college-natural-sciences/nursing/public-health-nursing-certificate/	Public Health Nursing Certificate
+/colleges-departments/college-natural-sciences/nutrition-food-science/	Nutrition and Food Science
+/colleges-departments/college-natural-sciences/nutrition-food-science/eating-exercise-disorders-certificate/	Eating and Exercise Disorders Certificate
+/colleges-departments/college-natural-sciences/nutrition-food-science/food-beverage-management-certificate/	Food and Beverage Management Certificate
+/colleges-departments/college-natural-sciences/nutrition-food-science/food-science-minor/	Food Science Minor
+/colleges-departments/college-natural-sciences/nutrition-food-science/foodservice-administration-minor/	Foodservice Administration Minor
+/colleges-departments/college-natural-sciences/nutrition-food-science/nutrition-food-science-bs/	Nutrition and Food Sciences BS
+/colleges-departments/college-natural-sciences/nutrition-food-science/nutrition-human-performance-minor/	Nutrition for Human Performance Minor
+/colleges-departments/college-natural-sciences/nutrition-food-science/nutrition-minor/	Nutrition Minor
+/colleges-departments/college-natural-sciences/nutrition-food-science/nutritional-science-ms/	Nutritional Science MS
+/colleges-departments/college-natural-sciences/physics/	Physics
+/colleges-departments/college-natural-sciences/physics/astronomy-minor/	Astronomy Minor
+/colleges-departments/college-natural-sciences/physics/physics-bs/	Physics BS
+/colleges-departments/college-natural-sciences/physics/physics-minor/	Physics Minor
+/colleges-departments/college-natural-sciences/science-education/	Science Education
+/colleges-departments/college-natural-sciences/science-education/interdisciplinary-studies-science-teaching-ma/	Interdisciplinary Studies Science Teaching MA
+/colleges-departments/college-natural-sciences/science-education/natural-sciences-bs/	Natural Sciences BS
+/colleges-departments/college-natural-sciences/science-education/science-education-minor/	Science Education Minor
+/colleges-departments/undergraduate-education-academic-success/	Undergraduate Education and Academic Success
+/colleges-departments/undergraduate-education-academic-success/equity-leadership-higher-education-certificate/	Equity and Leadership in Higher Education Certificate
+/colleges-departments/undergraduate-education-academic-success/exploratory-studies/	Exploratory Studies (Undeclared)
+/colleges-departments/undergraduate-education-academic-success/first-year-experience-program/	First-​Year Experience
+/colleges-departments/undergraduate-education-academic-success/general-education/	General Education
+/colleges-departments/undergraduate-education-academic-success/general-education/agriculture-food-environment-ge-minor/	Agriculture, Food, and the Environment GE Minor
+/colleges-departments/undergraduate-education-academic-success/general-education/california-studies-ge-minor/	California Studies GE Minor
+/colleges-departments/undergraduate-education-academic-success/general-education/equity-ethics-policy-ge-minor/	Equity, Ethics, and Policy GE Minor
+/colleges-departments/undergraduate-education-academic-success/general-education/gender-sexuality-ge-minor/	Gender and Sexuality GE Minor
+/colleges-departments/undergraduate-education-academic-success/general-education/global-studies-ge-minor/	Global Studies GE Minor
+/colleges-departments/undergraduate-education-academic-success/general-education/health-wellness-ge-minor/	Health and Wellness GE Minor
+/colleges-departments/undergraduate-education-academic-success/general-education/innovation-design-arts-ge-minor/	Innovation, Design, and the Arts GE Minor
+/colleges-departments/undergraduate-education-academic-success/general-education/race-ethnicity-sovereignty-ge-minor/	Race, Ethnicity, and Sovereignty GE Minor
+/colleges-departments/undergraduate-education-academic-success/general-education/science-technology-society-ge-minor/	Science, Technology, and Society GE Minor
+/colleges-departments/undergraduate-education-academic-success/general-education/sustainability-resilience-ge-minor/	Sustainability and Resilience GE Minor
+/colleges-departments/undergraduate-education-academic-success/honors-program/	Honors Program
+/colleges-departments/undergraduate-education-academic-success/leadership-studies-minor/	Leadership Studies Minor
+/colleges-departments/undergraduate-education-academic-success/special-major-bachelors/	Special Major Bachelor's
+/colleges-departments/graduate-studies/	Graduate Studies
+/colleges-departments/graduate-studies/interdisciplinary-studies-master/	Interdisciplinary Studies Master's
+/colleges-departments/professional-continuing-education/	Professional &​ Continuing Education
+/undergraduate-requirements/	Undergraduate Requirements
+/undergraduate-requirements/admissions-undergraduate/	Admissions (Undergraduate)
+/undergraduate-requirements/undergraduate-education-planning/	Undergraduate Education Planning
+/undergraduate-requirements/bachelors-degree-requirements/	Bachelor's Degree Requirements
+/undergraduate-requirements/diversity-requirements/	Diversity Requirements
+/undergraduate-requirements/writing-math-requirements/	Writing and Math Requirements
+/undergraduate-requirements/academic-advising/	Academic Advising
+/graduate-requirements/	Graduate Requirements
+/graduate-requirements/graduate-postbaccalaureate-admission-requirements/	Graduate and Postbaccalaureate Admission Requirements
+/graduate-requirements/graduate-education-policies/	Graduate Education Policies
+/graduate-requirements/masters-degree-requirements/	Master's Degree Requirements
+/academic-standards-policies/	Academic Standards and Policies
+/academic-standards-policies/course-credit-policies/	Course Credit Policies
+/academic-standards-policies/fees-tuition-refunds-holds/	Fees, Tuition, Refunds, and Holds
+/academic-standards-policies/student-records-registration/	Student Records and Registration
+/academic-standards-policies/academic-policies/	Academic Policies
+/academic-standards-policies/course-description-symbols-terms/	Course Description Symbols and Terms
+/academic-standards-policies/csu-policies-regulations/	CSU Policies and Regulations
+/csu-system/	The CSU System
+/course-search/	Course Search
+/faculty-az/	Faculty A-​Z
+/about-the-catalog/	About the Catalog
+/archive/	Archived Catalogs
+#textcontainer	Overview
+#programrequirementstextcontainer	Program Requirements
+#graduationrequirementstextcontainer	Graduation Requirements
+#admissiontransfertextcontainer	Admission/Advancement
+#blendedtextcontainer	Blended Bachelor's + Master's
+#programlearningoutcomestextcontainer	Program Learning Outcomes
+/search/?P=CSCI%20608	CSCI 608
+/search/?P=CSCI%20611	CSCI 611
+/search/?P=CSCI%20612	CSCI 612
+/search/?P=CSCI%20630	CSCI 630
+/search/?P=CSCI%20650	CSCI 650
+/search/?P=CSCI%20411	CSCI 411
+/search/?P=CSCI%20417	CSCI 417
+/search/?P=CSCI%20446	CSCI 446
+/search/?P=CSCI%20448	CSCI 448
+/search/?P=EECE%20446	EECE 446
+/search/?P=EECE%20555	EECE 555
+/search/?P=CSCI%20605	CSCI 605
+#Culminating	culminating activity
+/search/?P=CSCI%20693	CSCI 693
+/search/?P=CSCI%20693	CSCI 693
+/search/?P=CSCI%20693	CSCI 693
+/search/?P=CSCI%20699P	CSCI 699P
+/search/?P=CSCI%20699T	CSCI 699T
+/search/?P=CSCI%20699T	CSCI 699T
+/graduate-requirements/graduate-education-policies/#academicstanding	Graduate Education Policies
+/graduate-requirements/masters-degree-requirements/	Master's Degree Requirements
+/search/?P=CSCI%20693	CSCI 693
+/search/?P=CSCI%20699P	CSCI 699P
+/search/?P=CSCI%20699T	CSCI 699T
+/graduate-requirements/graduate-postbaccalaureate-admission-requirements/	Graduate and Postbaccalaureate Admission Requirements
+/search/?P=CSCI%20111	CSCI 111
+/search/?P=CSCI%20211	CSCI 211
+/search/?P=CSCI%20217	CSCI/MATH 217
+/search/?P=CSCI%20311	CSCI 311
+/search/?P=CSCI%20370	CSCI 370
+/search/?P=CSCI%20430	CSCI 430
+/search/?P=CSCI%20440	CSCI 440
+/search/?P=CSCI%20211	CSCI 211
+/search/?P=CSCI%20311	CSCI 311
+/search/?P=CSCI%20311	CSCI 311
+https://csuchico.my.site.com/BlendedProgram/s/	application for admission to the blended program
+/colleges-departments/college-engineering-computer-science-construction-management/computer-science/computer-science-bs/#programrequirementstext	BS in Computer Science
+/colleges-departments/college-engineering-computer-science-construction-management/computer-science/computer-science-ms/#programrequirementstext	MS in Computer Science
+https://www.csuchico.edu/tribalrelations/land-acknowledgement.shtml	Mechoopda
+https://www.csuchico.edu/contact.shtml	phone Contact Us
+https://www.csuchico.edu/about/faculty-staff-resources.shtml	light bulb Need Help?
+https://www.facebook.com/CaliforniaStateUniversityChico	Facebook Facebook
+https://x.com/chicostate	Twitter Twitter
+https://instagram.com/chicostate	Instagram Instagram
+https://www.csuchico.edu/ati/procedures/web-acccessibility.shtml	Report an accessibility issue
+https://support.csuchico.edu/TDClient/1984/Portal/Requests/Service/45100/Website-Errors	Report a broken link on this page
+https://www.csuchico.edu/about/safety/civil-rights-title-ix/index.shtml	Title IX
+#header	Back to top
+#	Send Page to Printer
+/colleges-departments/college-engineering-computer-science-construction-management/computer-science/computer-science-ms/computer-science-ms.pdf	Download Page (PDF)

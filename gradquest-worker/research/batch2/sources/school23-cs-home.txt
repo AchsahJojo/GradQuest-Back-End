@@ -1,0 +1,83 @@
+TITLE: Home | Department of Computer Science | UNLV
+SOURCE: /workspace/gradquest-program-research-batch2/sources/school23-cs-home.html
+
+Educating Future Leaders
+Our programs are recognized for research in both theoretical and experimental computer science, including real-time algorithms, information retrieval, document analysis, graphics, computational geometry, networking, information customization, cybermedia, and Internet security.
+About
+The Department of Computer Science is one of the fastest growing departments at UNLV. Comprising just under half of the Howard R. Hughes College of Engineering total enrollment, the department’s focus is on providing a well-rounded education with a solid basis in the fundamentals of computer science theory and practice. Our students and alumni are well-represented in the field, with many taking on employment in Las Vegas and around the globe. Current projects/employment to which students and alumni contribute include:
+Department of Defense software contracts
+Alternative energy projects
+Public utility software
+Data science applications
+Unmanned aerial systems
+E-commerce and web development
+Aviation industry
+Geotechnical engineering
+Programming research and algorithm development
+Helpful Links
+Program Objectives/Outcomes
+College of Engineering
+M.S. in data analytics
+The M.S. in Data Analytics equips students with technical skills that are used by professional data scientists for data analysis, visualization, predictions, and discoveries. This master degree combines the strengths of six colleges to train students in discipline-specific topics such as hospitality, health, engineering, business, and social sciences.
+Due to the interdisciplinary nature of the program, individuals from all different undergraduate disciplines are encouraged to apply, not just those who have a computer science degree or already know programming.
+Learn More About the Degree
+Cybersecurity Center
+Cybersecurity Center
+Our Information Assurance (IA) program is nationally recognized as a Center of Academic Excellence in Cyber Defense. The IA program emphasizes research and education in the broad issues of developing trustworthy information systems and helps answer the cybersecurity workforce shortage.
+What's Happening
+Inside the Real Time Intelligent Systems Lab
+Oct. 26, 2026
+Inside the Real Time Intelligent Systems Lab
+A UNLV Engineering lab trains students to use machine learning and build autonomous systems to help us better navigate the world.
+Three Disciplines to One Career: Shipra De
+Oct. 1, 2026
+Three Disciplines to One Career: Shipra De
+The Engineering Alumna of the Year leads data and business intelligence analysts at the Nevada National Security Sites while helping connect UNLV students with industry opportunities.
+He Found His Calling in Code: Sean Kau
+Sep. 10, 2026
+He Found His Calling in Code: Sean Kau
+The Honors College Alumnus of the Year says UNLV gave him the confidence to tackle complex problems, a skill he now puts to work as a software engineer at Google.
+Two UNLV Computer Scientists Earn Prestigious Early Career Research Awards
+Aug. 25, 2026
+Two UNLV Computer Scientists Earn Prestigious Early Career Research Awards
+UNLV College of Engineering professors Chuck Tessler and John Businge each received highly coveted CAREER awards from the National Science Foundation to bolster their research programs.
+More News
+IN THE NEWS
+Southern Nevadans sound off as AI rapidly expands into everyday life
+Sep. 25, 2026
+| KTNV-TV: ABC 13
+Southern Nevadans sound off as AI rapidly expands into everyday life
+Was your license plate searched? Viral Flock database renews privacy debate
+Aug. 28, 2026
+| KSNV-TV: News 3
+Was your license plate searched? Viral Flock database renews privacy debate
+Vegas Stronger Champion volunteered throughout her college career to help people with disabilities thrive
+Jul. 8, 2026
+| KTNV-TV: ABC 13
+Vegas Stronger Champion volunteered throughout her college career to help people with disabilities thrive
+More In the News
+ACCOMPLISHMENTS
+Published: Hal Berghel
+Nov. 3, 2026
+Published: Hal Berghel
+Published: Hongbi Jeong, An Huang, Zuobin Xiong, and Junggab Son
+Sep. 23, 2026
+Published: Hongbi Jeong, An Huang, Zuobin Xiong, and Junggab Son
+Grant: Shaikh Arifuzzaman
+Sep. 18, 2026
+Grant: Shaikh Arifuzzaman
+More Accomplishments
+EXPERTS
+Mingon Kang
+Mingon Kang
+Associate Professor, Department of Computer Science
+Paul La Plante
+Paul La Plante
+Assistant Professor-in-Residence, Department of Computer Science
+Yoohwan Kim
+Yoohwan Kim
+Professor, Computer Science
+More Experts
+The Department of Computer Science is one of the departments in the Howard R. Hughes College of Engineering.
+Learn More
+College of Engineering

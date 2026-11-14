@@ -1,0 +1,13 @@
+HTTP/2 200 
+cache-control: private
+content-type: text/html; charset=utf-8
+content-encoding: gzip
+vary: Accept-Encoding
+server: Microsoft-IIS/10.0
+x-frame-options: SAMEORIGIN
+x-aspnetmvc-version: 4.0
+x-aspnet-version: 4.0.30319
+x-powered-by: ASP.NET
+date: Sat, 14 Nov 2026 06:17:46 GMT
+content-length: 7876
+

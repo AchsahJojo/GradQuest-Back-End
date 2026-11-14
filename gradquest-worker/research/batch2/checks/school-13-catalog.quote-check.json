@@ -1,0 +1,709 @@
+{
+  "schoolId": 13,
+  "schoolName": "San Diego State University",
+  "programName": "Computer Engineering, M.S.",
+  "sourceNote": "Saved from user's browser 2026-11-13 (live catalog WAF-blocks scripted fetch)",
+  "factsSubmitted": 58,
+  "factsPassed": 58,
+  "factsFailed": 0,
+  "checks": [
+    {
+      "id": "f66",
+      "kind": "overview",
+      "name": "Catalog heading and plan codes",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12546",
+      "quote": "Computer Engineering, M.S. (Major Code: 09094) (Academic Plan Code: 445003MSS) (Academic Plan Code: 445004MSE - SDSU Global Campus) (Academic Plan Code: 445004MSF - SDSU Global Campus-Flex)",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-13-sdsu-compe-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f67",
+      "kind": "overview",
+      "name": "Four focus areas",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12546",
+      "quote": "The program seeks to provide students with core knowledge through graduate courses offered in the four focus areas of Computer Networks, Embedded Systems, Very Large-Scale Integration (VLSI) systems and Machine Learning/ Scientific Computing.",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-13-sdsu-compe-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f68",
+      "kind": "requirement",
+      "name": "Admission GPA by student type",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12546",
+      "quote": "Bachelor's degree in computer engineering, computer science, electrical engineering, or closely related areas with a grade point average of 3.0 or better for international students and a minimum grade point average of 2.85 for domestic students, based on 4.0 scale;",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-13-sdsu-compe-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f69",
+      "kind": "requirement",
+      "name": "International English scores",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12546",
+      "quote": "A minimum TOEFL score of 85 or a minimum IELTS score of 6.5 for international students;",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-13-sdsu-compe-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f70",
+      "kind": "requirement",
+      "name": "GRE scores required on this catalog page",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12546",
+      "quote": "Submission of the official Graduate Record Examination (GRE) scores;",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-13-sdsu-compe-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f71",
+      "kind": "requirement",
+      "name": "One letter of recommendation",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12546",
+      "quote": "One letter of recommendation.",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-13-sdsu-compe-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f72",
+      "kind": "requirement",
+      "name": "30 units with at least 15 at the 600 or 700 level",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12546",
+      "quote": "Completion of 30 units of 500-, 600-, or 700-level courses to include at least 15 units of 600 or 700 level coursework.",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-13-sdsu-compe-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f73",
+      "kind": "requirement",
+      "name": "Plan A thesis or Plan B project",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12546",
+      "quote": "Students must also choose one of two pathways: Plan A (Thesis) or Plan B (Project), for degree completion.",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-13-sdsu-compe-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f74",
+      "kind": "requirement",
+      "name": "Depth and breadth areas",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12546",
+      "quote": "The offered areas are Computer Networks, Embedded operating systems, Machine Learning and Scientific Computing and VLSI Circuit Design.",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-13-sdsu-compe-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f75",
+      "kind": "requirement",
+      "name": "Computer Networks core choice",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12546",
+      "quote": "Students are required to take one of these courses as core: COMPE 560 - Computer and Data Networks Units: 3 or E E 602 - Stochastic Signals and Systems Units: 3 or E E 603 - Engineering Optimization Units: 3",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-13-sdsu-compe-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f76",
+      "kind": "requirement",
+      "name": "Embedded Systems core",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12546",
+      "quote": "Embedded Systems Students are required to take the core course: COMPE 571 - Embedded Operating Systems Units: 3",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-13-sdsu-compe-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f77",
+      "kind": "requirement",
+      "name": "Machine Learning and Scientific Computing core",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12546",
+      "quote": "Machine Learning and Scientific Computing Students are required to take the the core course: COMPE 510 - Machine Learning for Engineers Units: 3",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-13-sdsu-compe-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f78",
+      "kind": "requirement",
+      "name": "VLSI Systems core",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12546",
+      "quote": "VLSI Systems Students are required to take the core course: COMPE 572 - VLSI Circuit Design Units: 3",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-13-sdsu-compe-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f79",
+      "kind": "requirement",
+      "name": "Depth-course minimum of three",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12546",
+      "quote": "Students must take at least 3 of these courses:",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-13-sdsu-compe-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f80",
+      "kind": "requirement",
+      "name": "Plan A thesis units",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12546",
+      "quote": "Requirements for Plan A (Thesis) Students are required to take COMPE 797 - Research Units: 3-6 (6 units) Cr/NC/RP COMPE 799A - Thesis Units: 3 (3 units)",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-13-sdsu-compe-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f81",
+      "kind": "requirement",
+      "name": "COMPE 797 credit after thesis",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12546",
+      "quote": "Credit for COMPE 797 will be given only after successfully completing COMPE 799A.",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-13-sdsu-compe-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f82",
+      "kind": "requirement",
+      "name": "Plan B project timing and course",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12546",
+      "quote": "Students may enroll in the project course, COMPE 798 after completion of 18 units, but must do so in the semester immediately following completion of 27 units.",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-13-sdsu-compe-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f83",
+      "kind": "requirement",
+      "name": "Remaining units from depth or breadth",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12546",
+      "quote": "The remaining units can be taken from the selected depth area or from breadth areas. The following courses have been approved:",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-13-sdsu-compe-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f84",
+      "kind": "course",
+      "name": "COMPE 560",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12546",
+      "quote": "COMPE 560 - Computer and Data Networks Units: 3",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-13-sdsu-compe-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f85",
+      "kind": "course",
+      "name": "E E 602",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12546",
+      "quote": "E E 602 - Stochastic Signals and Systems Units: 3",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-13-sdsu-compe-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f86",
+      "kind": "course",
+      "name": "E E 603",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12546",
+      "quote": "E E 603 - Engineering Optimization Units: 3",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-13-sdsu-compe-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f87",
+      "kind": "course",
+      "name": "COMPE 571",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12546",
+      "quote": "COMPE 571 - Embedded Operating Systems Units: 3",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-13-sdsu-compe-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f88",
+      "kind": "course",
+      "name": "COMPE 510",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12546",
+      "quote": "COMPE 510 - Machine Learning for Engineers Units: 3",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-13-sdsu-compe-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f89",
+      "kind": "course",
+      "name": "COMPE 572",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12546",
+      "quote": "COMPE 572 - VLSI Circuit Design Units: 3",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-13-sdsu-compe-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f90",
+      "kind": "course",
+      "name": "COMPE 797",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12546",
+      "quote": "COMPE 797 - Research Units: 3-6 (6 units) Cr/NC/RP",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-13-sdsu-compe-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f91",
+      "kind": "course",
+      "name": "COMPE 799A",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12546",
+      "quote": "COMPE 799A - Thesis Units: 3 (3 units)",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-13-sdsu-compe-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f92",
+      "kind": "course",
+      "name": "COMPE 798",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12546",
+      "quote": "COMPE 798 - Special Study Units: 3 (3 units) Cr/NC/RP",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-13-sdsu-compe-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f93",
+      "kind": "course",
+      "name": "COMPE 561",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12546",
+      "quote": "COMPE 561 - Windows Database and Web Programming Units: 3",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-13-sdsu-compe-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f94",
+      "kind": "course",
+      "name": "COMPE 565",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12546",
+      "quote": "COMPE 565 - Multimedia Communication Systems Units: 3",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-13-sdsu-compe-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f95",
+      "kind": "course",
+      "name": "COMPE 660",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12546",
+      "quote": "COMPE 660 - High Speed Networks: Design Principles and Recent Advances Units: 3",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-13-sdsu-compe-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f96",
+      "kind": "course",
+      "name": "COMPE 662",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12546",
+      "quote": "COMPE 662 - Wireless Sensor Networks Units: 3",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-13-sdsu-compe-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f97",
+      "kind": "course",
+      "name": "COMPE 665",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12546",
+      "quote": "COMPE 665 - Multimedia Wireless Networks Units: 3",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-13-sdsu-compe-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f98",
+      "kind": "course",
+      "name": "COMPE 525",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12546",
+      "quote": "COMPE 525 - Cyber-Physical Systems Units: 3",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-13-sdsu-compe-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f99",
+      "kind": "course",
+      "name": "COMPE 570",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12546",
+      "quote": "COMPE 570 - VLSI System Design Units: 3",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-13-sdsu-compe-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f100",
+      "kind": "course",
+      "name": "E E 503",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12546",
+      "quote": "E E 503 - Biomedical Instrumentation Units: 3",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-13-sdsu-compe-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f101",
+      "kind": "course",
+      "name": "E E 522",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12546",
+      "quote": "E E 522 - Digital Control Systems Units: 3",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-13-sdsu-compe-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f102",
+      "kind": "course",
+      "name": "E E 533",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12546",
+      "quote": "E E 533 - Neuromorphic Computing Units: 3",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-13-sdsu-compe-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f103",
+      "kind": "course",
+      "name": "COMPE 671",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12546",
+      "quote": "COMPE 671 - VLSI Testing Units: 3",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-13-sdsu-compe-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f104",
+      "kind": "course",
+      "name": "E E 530",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12546",
+      "quote": "E E 530 - Analog Integrated Circuit Design Units: 3",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-13-sdsu-compe-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f105",
+      "kind": "course",
+      "name": "E E 634",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12546",
+      "quote": "E E 634 - RF Circuit Design Units: 3",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-13-sdsu-compe-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f106",
+      "kind": "course",
+      "name": "E E 674",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12546",
+      "quote": "E E 674 - Signal and Power Integrity Units: 3",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-13-sdsu-compe-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f107",
+      "kind": "course",
+      "name": "COMPE 798",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12546",
+      "quote": "COMPE 798 - Special Study Units: 3",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-13-sdsu-compe-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f108",
+      "kind": "course",
+      "name": "E E 502",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12546",
+      "quote": "E E 502 - Electronic Devices for Rehabilitation Units: 3",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-13-sdsu-compe-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f109",
+      "kind": "course",
+      "name": "E E 540",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12546",
+      "quote": "E E 540 - Microwave Devices and Systems Units: 3",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-13-sdsu-compe-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f110",
+      "kind": "course",
+      "name": "E E 558",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12546",
+      "quote": "E E 558 - Digital Communications Units: 3",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-13-sdsu-compe-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f111",
+      "kind": "course",
+      "name": "E E 581",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12546",
+      "quote": "E E 581 - Power System Dynamics Units: 3",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-13-sdsu-compe-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f112",
+      "kind": "course",
+      "name": "E E 584",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12546",
+      "quote": "E E 584 - Power Electronics Units: 3",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-13-sdsu-compe-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f113",
+      "kind": "course",
+      "name": "E E 586",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12546",
+      "quote": "E E 586 - Distributed Energy Resources and Smart Grid Technologies Units: 3",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-13-sdsu-compe-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f114",
+      "kind": "course",
+      "name": "E E 601",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12546",
+      "quote": "E E 601 - Linear System Theory and Design Units: 3",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-13-sdsu-compe-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f115",
+      "kind": "course",
+      "name": "E E 641",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12546",
+      "quote": "E E 641 - RF Wireless Systems Units: 3",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-13-sdsu-compe-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f116",
+      "kind": "course",
+      "name": "E E 645",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12546",
+      "quote": "E E 645 - Antennas and Propagation Units: 3",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-13-sdsu-compe-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f117",
+      "kind": "course",
+      "name": "E E 650",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12546",
+      "quote": "E E 650 - Modern Communication Theory Units: 3",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-13-sdsu-compe-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f118",
+      "kind": "course",
+      "name": "E E 652",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12546",
+      "quote": "E E 652 - Principles and Applications of Information Theory Units: 3",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-13-sdsu-compe-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f119",
+      "kind": "course",
+      "name": "E E 653",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12546",
+      "quote": "E E 653 - Coding Theory Units: 3",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-13-sdsu-compe-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f120",
+      "kind": "course",
+      "name": "E E 654",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12546",
+      "quote": "E E 654 - Adaptive Filter Design Units: 3",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-13-sdsu-compe-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f121",
+      "kind": "course",
+      "name": "E E 655",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12546",
+      "quote": "E E 655 - Modem Design Units: 3",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-13-sdsu-compe-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f122",
+      "kind": "course",
+      "name": "E E 658",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12546",
+      "quote": "E E 658 - Advanced Digital Signal Processing Units: 3",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-13-sdsu-compe-ms-catalog-2026-27.html"
+      ]
+    },
+    {
+      "id": "f123",
+      "kind": "course",
+      "name": "E E 684",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12546",
+      "quote": "E E 684 - Advanced Power Electronics Units: 3",
+      "pass": true,
+      "reason": "verbatim after normalize",
+      "evidenceFiles": [
+        "/workspace/gradquest-program-research-batch2/sources/catalog-user-saved/school-13-sdsu-compe-ms-catalog-2026-27.html"
+      ]
+    }
+  ],
+  "droppedFacts": [],
+  "mergedSkippedDuplicateQuotes": []
+}

@@ -1,0 +1,545 @@
+              SAN DIEGO STATE UNIVERSITY
+       Department of Electrical and Computer Engineering
+                Electrical Engineering Program
+     This document is subject to change. For the most recent revision, please see the ECE Department website
+
+
+                            Graduate Advisor: Professor Santosh Nagaraj
+                                      Engineering Building Room 403D
+                                            snagaraj@sdsu.edu
+                                              Phone: (619) 594-7154
+
+
+
+                        Administrative Support Coordinator: Mirei Kubota
+                                      Engineering Building Room 426D
+                                            mkubota@sdsu.edu
+                                           Phone: (619) 594-0967
+
+
+ 1. Overview of the Electrical and Computer Engineering (ECE) Department
+     Welcome to San Diego State University! The Department of Electrical and Computer
+     Engineering offers a variety of courses in different areas of specializations in the Electrical or
+     Computer Engineering Master’s Program. These areas include Communication Systems,
+     Computer Networks, Electromagnetic Systems, Embedded Systems, Energy Systems and
+     Control, Machine Learning and Scientific Computing, Signal Processing, and VLSI Systems.
+     The mission of the Electrical (MSEE) and Computer (MSCompE) Engineering Graduate
+     Programs is to provide a high-quality education with a focus on hands-on research and
+     scholarly activities to train competent engineers for the local industry to take the lead in design
+     and innovation in the San Diego area. Graduate students are prepared for the challenges of the
+     21st Century and will be ready to take important roles in the industry to be leaders and
+     entrepreneurs. The existence of Ph.D. programs at SDSU gives opportunities to our MSEE
+     and MSCompE graduates to pursue their education towards Ph.D. degrees and be ready to
+     assume more important roles in industry and academia.
+
+
+
+
+9/19/2025                                                                                                      1
+ 2. Faculty Members
+    The ECE Department consists of very active faculty members who are teaching and conducting
+    research in various areas. The list of faculty members is given below. To know more about
+    their area of research and teaching, please contact them individually. You can go to our faculty
+    website at https://electrical.sdsu.edu/people/faculty.
+
+
+
+
+                   Dr. Baris Aksanli                 Embedded Systems
+
+
+
+
+                                                     Computational Neuroscience
+                   Dr. Amir Alimohammad Digital VLSI
+
+
+
+
+                                                     Digital Signal Processing
+                   Dr. Ashkan Ashrafi                Brain Signal Processing
+                                                     Estimation Theory
+
+
+
+
+                   Dr. A. Ege Engin                  Electromagnetic Interference
+                   Department Chair                  Signal Integrity
+
+
+
+
+                                                     VLSI, Machine Learning
+                   Dr. Ke Huang                      Data Mining
+                                                     Computer Aided Design
+
+
+
+                                                      Cyber-Physical Security
+                                                      Modeling and Control
+                   Dr. Tong Huang                     Data Analytics for Electric Power Grids
+                                                      with Rich Renewables
+
+
+
+
+9/19/2025                                                                                        2
+                                      QoS-Aware Wireless Networks
+                                      Error Resilient Video Compression
+            Dr. Sunil Kumar           Multimedia Communication
+                                      Image Processing
+
+
+
+                                      Interdisciplinary Problems in Smart Grid,
+            Dr. Saeed Manshadi        Power Systems, Optimization, Machine
+                                      Learning
+
+
+
+
+                                      Power Electronics and Electric Drives
+            Dr. Chris Mi              Battery Management Systems Wireless
+                                      Power Transfer
+
+
+
+
+            Dr. Santosh Nagaraj       Communication Systems
+            Graduate Advisor
+
+
+
+
+            Dr. Duy Nguyen            Wireless Communication
+
+
+
+
+            Dr. Yusuf Ozturk          Mobile Computing
+
+
+ \
+
+
+
+
+                                      Machine Learning
+            Dr. Christopher Paolini   Embedded Systems
+                                      Internet of Things Device Development
+
+
+
+
+9/19/2025                                                                     3
+                                    Edge AI optimization
+            Dr. Flavio Ponzina      HW-SW co-design
+                                    Hardware acceleration
+
+
+
+
+                                    Digital Signal Processing
+            Dr. Tharm Ratnarajah    Digital Communications
+
+
+
+
+                                    Power Electronics
+                                    Smart Grid
+            Dr. Reza Sabzehgar      Renewable Energies
+                                    Electric and Hybrid Electric Vehicles
+
+
+
+                                    Wireless Data Networks
+            Dr. Mahasweta Sarkar    Wireless Health
+                                    Green Networks
+
+
+
+
+                                    Nonlinear Control
+            Dr. Sridhar Seshagiri   Applications to Energy Systems
+
+
+
+
+                                    Electromagnetics
+            Dr. Satish Sharma       Antennas
+                                    Microwave Engineering
+
+
+
+                                    Electrical & System Design for Biomed
+                                    Applications
+            Dr. Hakan Töreyin       Real-Time Signal Processing
+                                    Translational Research
+
+
+
+
+9/19/2025                                                                   4
+                                                     Large-Scale Dynamic System Design &
+                                                      Control
+                   Dr. Junfei Xie                    Unmanned Aerial Systems
+                                                     Airborne Networks
+
+
+
+
+3. Degree Evaluation (or Degree Audit Report)
+    The College of Graduate Studies is offering a new electronic resource for students and advisors
+    to track progress toward graduation. This resource is called the Degree Evaluation (or Degree
+    Audit Report). The report can be found in your my.SDSU account under the 'Degree Evaluation'
+    tile. When you click on the Degree Evaluation, your coursework and other degree requirements
+    will be converted into a customized report. The Degree Evaluation is your official guide for
+    tracking progress toward graduation.
+
+    IMPORTANT – As the Degree Audit Report defaults to Plan B (Project), students doing Plan
+    A will need to submit a Petition for Adjustment of Academic Requirements (PAAR)
+    form https://grad.sdsu.edu/current-students/forms stating they are doing the Plan A (Thesis)
+    option. If this is not done, the student's Degree Evaluation will not reflect the correct courses.
+
+    Please let the ECE Graduate Advisor, Dr. Santosh Nagaraj at snagaraj@sdsu.edu know if you have
+    any questions about your Degree Evaluation, or contact the College of Graduate Studies office
+    at gra@sdsu.edu.
+
+4. Rules and Policies
+    Every classified graduate student admitted into the Electrical or Computer Engineering program
+    at San Diego State University can obtain an MS degree by the following two options: Plan A
+    (thesis option) or Plan B (project option).
+
+    Plan A: Thesis Option
+    Students selecting Plan A must complete 21 units of coursework (7 courses), 6 units of 797
+    “Research” (typically as two 3-units of 797 Research, taken in two different semesters) under the
+    supervision of a full-time ECE professor and, 3 units of 799A “Thesis”.
+
+    Plan A students must complete the 797: Research Registration Request form, which they can
+    obtain from the ECE Department website https://electrical.sdsu.edu/graduate/thesis-project-proc,
+    in order to register for 797. This form needs to be approved by the Thesis Advisor and the
+    Graduate Advisor. Once the form is approved, the student will obtain the class number for 797
+    from their Thesis Advisor.
+
+    Before the student can register for 799A, he/she must be advanced to candidacy (see the
+    Advancement to Candidacy section). An oral defense of the thesis is required. A completed
+    thesis in the required format shall be submitted to the University.
+
+
+
+
+9/19/2025                                                                                        5
+    Plan A students cannot receive credit for taking 798.
+
+    Plan B: Project Option
+    Students selecting Plan B must complete 27 units of approved coursework (9 courses) and 3 units
+    of 798 “Project”. 798 should be taken after completing 18 units of coursework (as early as
+    the third semester) but must be taken after completing 27 units. An oral presentation of the
+    project is required.
+    Plan B students must take 798 (Project) under the supervision of a professor as the Project
+    Advisor. The project will be evaluated and approved by the Project Advisor and the second
+    member of the project committee in a 30-minute presentation session. Before presenting the
+    project, the student must be advanced to candidacy.
+
+    Plan B students must complete the 798: Project Registration Request form, which they obtain
+    from the ECE Department website https://electrical.sdsu.edu/graduate/thesis-project-proc, in
+    order to register for 798. This form needs to be approved by the Project Advisor and the Graduate
+    Advisor. Once approved, the student will obtain the class number for 798 from their Project
+    Advisor.
+
+    Plan B students cannot take and receive credit for 797, 799A or 799B.
+
+5. Official Program of Study (POS)
+    ● Before meeting with the department Graduate Advisor, each classified student should prepare
+      an Official Program of Study (POS). The Program of Study form and Course Selection
+      Guidelines         are     provided       on       the     ECE        Department      website
+      https://electrical.sdsu.edu/graduate/thesis-project-proc.The guidelines given below should be
+      followed when preparing the POS:
+
+    General
+    ● Core courses must be taken in the first year of the program.
+    ● No more than four (4) 500-level courses are accepted for the MSEE program and five (5) for
+      the MSCOMPE program.
+    ● Other courses may also be taken for credit under the depth area, subject to the approval of the
+      Graduate Advisor.
+    ● Students are allowed to take two courses from outside the ECE Department, with the approval
+      of their Thesis/Project Advisor and the Graduate Advisor. The Authorization to Take Non-ECE
+      Courses (ATNEC) form needs to be completed and approved by the Thesis/Project Advisor
+      and the Graduate Advisor prior to the course being taken or added to the POS. The ATNEC
+      form       can       be     obtained      from       the   ECE      Department       website
+      https://electrical.sdsu.edu/graduate/thesis-project-proc.
+       NOTE – If the student changes their Thesis/Project Advisor, these non-ECE courses may not
+       be used as part of their POS. The student will need to submit a new ATNEC form and obtain
+       the approval of their new Thesis/Project Advisor and the Graduate Advisor.
+    ● Students need to submit their POS before enrolling in 797 (Research) or 798 (Project).
+
+
+
+9/19/2025                                                                                        6
+    ● 797, 799A or 799B cannot be used in Plan B. If students switch from Plan A to Plan B, they
+      need to remove 797, 799A and 799B from their POS and take 6 units of regular courses and 3
+      units of 798, with the approval of the Graduate Advisor.
+       NOTE – The POS is required for advancement to candidacy, switching to Plan B, reduced course
+       load and Curricular Practical Training (CPT).
+
+    Plan A: Thesis Option
+    ● Declare a depth area.
+    ● Take four (4) courses in the depth area including the core course. (12 units).
+    ● Take two breadth courses: (6 units).
+    ● Take one course either from the depth area or as a breadth course. (3 units).
+    ● Register for six units of 797 (research) and three units of 799A (thesis): (9 units).
+    ● Credit is not given for 798 to Plan A students.
+    ● Submit the POS to the department signed by the Thesis Advisor.
+
+    Plan B: Project Option
+    ● Declare a depth area.
+    ● Take six (6) courses in the depth area including the core course(s). (18 units).
+    ● Take three breadth courses: (9 units).
+    ● Take 798 (Project) advised by the Project Advisor. (3 units).
+    ● Submit the POS to the department signed by the Project Advisor.
+
+6. Changes to the Program of Study
+    Students must submit a Petition for Adjustment of Academic Requirement (PAAR) form anytime
+    changes to their POS are made.                 This form is only accessible online at
+    https://grad.sdsu.edu/current_grad_students/forms. Click on Student E-Forms User Guide
+    (https://grad.sdsu.edu/current-students/eform_student_guide.pdf) for step-by-step instructions on
+    how to fill out the E-Forms.
+
+7. Transfer Courses
+    Up to three courses (9 units) may be transferred from another accredited institution or San Diego
+    State University Extended Studies program. All credits earned in other universities, including
+    foreign universities and San Diego State University extension courses, are subject to approval by
+    the Graduate Advisor and Graduate Dean. Credit earned by correspondence, by examination, or
+    by extension at other institutions is not accepted as satisfying advanced degree requirement.
+
+8. Grade Point Average/Grades
+    Grade Point Average of at least 3.0 (B) must be maintained in:
+
+     ● All courses listed on the official degree Program of Study
+
+
+
+9/19/2025                                                                                       7
+     ● All courses, 300-level and above, taken at San Diego State University concurrently with or
+       subsequently to the earliest course listed on the official degree program, including the courses
+       accepted for transfer credit.
+
+    Further, students should be aware of the university restrictions for the degree program. They are:
+
+     ● No transfer or extension credit may be used to improve the grade point average of the courses
+       completed at San Diego State University whether computed to determine the average or the
+       overall average.
+     ● No grades in which final grade below “C” (2.0) was earned may be used to satisfy the
+       requirements of the master’s degree.
+     ● 500-level courses graded Credit/No Credit are not acceptable to satisfy the master’s degree
+       program unless they are offered as Credit/No Credit courses only.
+     ● At least 70 percent of the units used to fulfill the minimum requirements on master’s degree
+       program must be letter graded.
+     ● A course completed prior to seven years of the date that the official master’s degree program
+       is approved cannot be listed on the program.
+
+9. Advancement to Candidacy
+    In addition to meeting the GPA requirements above, the following steps are required to advance
+    to candidacy:
+    1.      Complete at least 12 units of Program of Study Courses with a minimum 3.00 GPA.
+    2.      All program courses obtained a grade of C or better.
+    Once you feel you have completed these requirements, complete the Advancement to Candidacy
+    form in your Degree Evaluation under the Advancement to Candidacy section. The form will be
+    listed as:
+
+         ADVANCE FORM (https://grad.sdsu.edu/current-students/forms)
+
+    Once submitted, your advancement to candidacy request will be reviewed by your department
+    advisor, after which it will be subject to Graduate Studies approval.
+
+10. Procedure for Enrolling in 797 (Plan A)
+    1.      In consultation with a full-time ECE Department faculty member, define your thesis title.
+            Only graduate students who are in good academic standing may enroll in 797.
+    2.      Write an outline proposal of the thesis project or research to include goals, design activities,
+            level of effort, and timetable.
+    3.      Obtain the 797: Research Registration Request form from the ECE Department website
+            https://electrical.sdsu.edu/graduate/thesis-project-proc.Take this form and the proposal to
+            your Thesis Advisor for their review and signature of approval. The Thesis Advisor's
+            approval means that facilities and his/her time are available to support the thesis research.
+    4.      Submit this form along with the POS and the proposal to the Graduate Advisor for approving
+
+
+9/19/2025                                                                                             8
+            signature. Graduate Advisor’s approval states that all requirements have been met and
+            student’s recommendation for research has been approved.
+    5.      The student will get the class number for 797 from the Thesis Advisor to enroll in the course.
+    6.      At the end of the research, the student will receive a CR/NC grade for 797, which will be
+            given by the Thesis Advisor.
+
+11. Procedure for Enrolling in 798 (Plan B)
+    1.      After choosing Plan B, the student should choose a Project Advisor.
+    2.      Write a one-page proposal of the work that will be done during the project. The Project
+            Advisor must approve the proposal.
+    3.      Obtain the 798: Project Registration Request form from the ECE Department website
+            https://electrical.sdsu.edu/graduate/thesis-project-proc, fill it out and get the signature of the
+            Project Advisor.
+    4.      Submit this form along with the proposal to the Graduate Advisor for approving signature.
+            Graduate Advisor’s approval states that all requirements have been met and the student can
+            take the project.
+    5.      The student will get the class number for 798 from the Project Advisor to enroll in the course.
+    6.      Before the end of the semester in which the project is taken, the student must arrange for a
+            minimum 30-minute presentation before the Project Advisor and another ECE professor (a
+            two-member project committee). The student must be advanced to candidacy before
+            presenting the 798 project to their committee. At the end of the presentation, the student
+            should present the committee members with the 798 Project Completion form (obtained from
+            the ECE Department website https://electrical.sdsu.edu/graduate/thesis-project-proc) and the
+            committee members should sign it if they are satisfied by the presentation.
+            If the project committee is not satisfied with the project presentation, the student must
+            continue working on the project and the Project Advisor will give the student an “RP”
+            (Report Progress) grade until the project committee is satisfied with the outcome of student’s
+            project.
+    7.      The student will receive a CR/NC grade for 798, which will be given by the Project Advisor.
+
+12. Procedures to Enroll in 799A (Plan A)
+    All students presenting a thesis must follow the procedures discussed below. The procedures
+    listed below are presented in the order to be accomplished, although some of the procedures may
+    be handled concurrently.
+
+    1.      Establish the thesis committee and title in consultation with your Thesis Advisor.
+    2.      Obtain the Appointment of Thesis/Project Committee Packet form from the Graduate Studies
+            website https://grad.sdsu.edu/current-students/forms. Student must be advanced to
+            candidacy before filing the Appointment of Thesis Committee Packet form.
+    3.      Once Graduate Studies approves the Appointment of Thesis/Project Committee Packet form,
+            the student will get the class number to enroll in 799A. You will get the class number for
+            799A from the Graduate Studies and NOT your Thesis Advisor.
+
+
+9/19/2025                                                                                               9
+    4.      File an Application for Graduation (on the WebPortal).
+    5.      Read and follow the thesis formatting regulations.
+    6.      Write and edit the manuscript.
+    7.      Defend your thesis to your thesis committee.
+    8.      After defending your thesis, you will need to submit a copy of the signature page and the
+            Turnitin (plagiarism) report to the ECE Department.
+    9.      Submit the approved and formatted manuscript to Montezuma Publishing for review and
+            publishing.
+
+    For details, please refer to the website: http://grad.sdsu.edu/.
+
+12. Curricular Practical Training (CPT)
+    Additional CPT information and the CPT form may be found on the International Student Center
+    web site:
+    https://www.sdsu.edu/international-student-center/employment-in-the-us/f-1-employment.
+
+    Background
+    Curricular Practical Training is defined as any required or optional internship that is an integral
+    part of the established curriculum for a program of study. Only internships that are directly related
+    to the course curriculum qualify as curricular practical training and can be either an optional or
+    required part of the program. It should be noted that the CPT is a privilege and not a right for
+    international students.
+
+    General Requirement
+    Be in good standing by having an SDSU overall and program GPA of at least 3.0 and has made
+    progress towards the degree. Note that progress towards the degree implies that a student has
+    his/her Program of Study (POS) on file and is enrolled in 799A or 799B to complete the thesis
+    (Plan A) or has chosen their Project Advisor (Plan B). Student must enroll in EE795 (one unit).
+    Students must submit a Thesis (Plan A)/Project (Plan B) Advisor’s CPT Approval form to have
+    the consent of their Thesis or Project Advisors to go for CPT. Students can obtain this form from
+    the ECE Department website https://electrical.sdsu.edu/graduate/cpt.
+
+    Summer CPT
+    The student must have completed at least 18 units of coursework and enroll in EE795 (one unit)
+    in one of the summer sessions. Students may sign up for up to 40 hours per week during summer.
+    Summer CPT MUST be approved by students’ Thesis or Project Advisor. Out-of-state internship
+    locations are allowed during summer.
+
+    Academic Year CPT
+    In an academic year, students who meet the General Requirement mentioned above and the
+    criteria below can work up to 20 hours per week. Plan A students can work up to 40 hours per
+    week in a semester if they do not take courses in that semester. The following criteria are the
+    requirement for 20 hours per week CPT:
+
+
+9/19/2025                                                                                         10
+    •    Have received a satisfactory grade in at least 18 units of coursework in the POS.
+    •    A written approval by the Thesis or Project Advisor.
+    •    Students who enroll in 799B are qualified for the CPT.
+
+    Please note that for using the CPT in each semester (including summer), you need to obtain
+    separate offer letters stating the beginning and ending dates of the internships. Please look at
+    SDSU Academic Calendar to indicate the correct beginning and ending dates of each semester.
+    https://registrar.sdsu.edu/calendars/academic_calendars?_ga=2.18991793.868057901.16879637
+    17-1822213977.1687963717
+
+    Content of the Offer Letter
+    The offer letter must contain the beginning and ending dates of the internship, the job description,
+    and the pay rates (per hour). The letter must be original and written on company letterhead. For
+    each working period (Summer, Fall or Spring semester) a separate letter must be provided. The
+    beginning and ending dates should fall within the semester the CPT is being done.
+
+    How to Receive a “CR” Grade for the EE795 Internship
+    IMPORTANT!! Although the internship may not be over, one week prior to the grades being
+    due by the faculty (see the Academic Calendar for deadline dates), the student must submit to the
+    Graduate Advisor (for Spring and Fall semesters):
+    1.   A typed report (1-2 pages) on how the internship has helped in their degree.
+    2.   A letter from the supervisor of internship (on company letterhead), stating whether the student
+         has met the requirements of the internship.
+
+    Dependent upon the student’s report and supervisory letter, the Graduate Advisor will issue a “CR”
+    grade for EE795. If the student fails to complete these steps prior to grades being submitted,
+    the student will not get credit for the CPT internship.
+
+    For Summer CPTs, the report and letter need to be submitted to the ECE Department Chair, Dr.
+    Arif Engin at aengin@sdsu.edu. The grade for EE795 will be submitted by Dr. Engin.
+
+    Application and Processing Time Periods
+    There is no specific application period for the CPT. Students who satisfy the requirements
+    mentioned above, must allow enough time after obtaining the job offer for administrative processes
+    as follows:
+
+    1.      Give the offer letter and the completed CPT form to the ECE Graduate Advisor. The ECE
+            Graduate Advisor will review the letters and make a decision on whether the student satisfies
+            the requirements or not. If the student is eligible for the CPT, the ECE Graduate Advisor will
+            sign the CPT form.
+    2.      Once the CPT form has been signed, you can then enroll in EE795 (adding after the add/drop
+            deadline will require submitting a Late Schedule Adjustment petition to late add EE795 late
+            and could take an additional 7-10 business days).
+
+
+9/19/2025                                                                                          11
+    3.      Submit the signed CPT Application Form (https://drive.google.com/file/d/1_a1-
+            DsMuf_kTMPmt5_tWD3tIp-eroUEW/view) to the International Student Center, along with
+            the job offer letter using their Curricular Practical Training (CPT) Request Form
+            (https://sdsuisc.wufoo.com/forms/k1pdhiyq0rrxy4f/). Processing time is 7 business days.
+
+
+    IMPORTANT!! Plan ahead as there are no same day appointments and the process could take as
+    long as 5-7 business days! Employment may not begin until the training has been authorized.
+    Under no circumstances will the CPT be backdated to include illegal work done before it was
+    authorized. SDSU follows the United States Immigration Law on the CPT. For more information
+    about the law please see the Immigration and Custom Enforcement website.
+
+13. Responsible Conduct of Research (RCR) and Plagiarism
+    Training in RCR, plagiarism and required regulatory considerations should occur early in a
+    student’s progression through the program. Students involved in teaching may need to be prepared
+    to articulate and enforce policies related to RCR and plagiarism in their classrooms and syllabi.
+
+    There are multiple online resources available from the Division of Research Affairs that provide
+    training in RCR, as well as regulatory procedures, e.g., the protection of human subjects, that may
+    be required prior to the conduct of certain research. Please visit the following pages for more
+    information:
+
+    https://newscenter.sdsu.edu/researchaffairs/ethicstraining.aspx
+    https://curriculum.sdsu.edu/curriculum-services/graduate-bulletin/19_20_gb/019-University-
+    Policies.pdf
+
+    University Policies relating to cheating and plagiarism are described by the Center for Student
+    Rights and Responsibilities and in the Graduate Bulletin:
+
+    http://go.sdsu.edu/student_affairs/srr/cheating-plagiarism.aspx
+
+    All students must prepare a Turnitin report of their theses to the department. The Thesis Advisors
+    are responsible to evaluate the reports and make sure that the report does not have more than 15%
+    match with the existing documents. The Thesis Advisors will be responsible for submitting the
+    reports with the signed Theses Originality Attesting Form (TOAF) to the department.
+
+
+
+
+9/19/2025                                                                                       12
+

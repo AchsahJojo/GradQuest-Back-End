@@ -1,0 +1,41 @@
+#skipnavigation	Skip Navigation
+https://www.fullerton.edu	California State University, Fullerton
+https://www.fullerton.edu/ecs	College of Engineering and Computer Science
+https://www.fullerton.edu/ecs/mse	Software Engineering Program
+javascript:ShowMainNavMobile()	Main Navigation
+https://www.fullerton.edu/ecs/mse/about	About
+https://www.fullerton.edu/ecs/mse/programs/programcost.php	Program Cost
+https://www.fullerton.edu/ecs/mse/programs/courses.php	Courses
+https://www.fullerton.edu/ecs/mse/faq.php	FAQ
+https://www.fullerton.edu/ecs/mse/requirements/index.php	How to Apply
+https://www.fullerton.edu/ecs/mse/requirements/how-to-enroll.php	How to Enroll
+https://www.fullerton.edu/ecs/mse/faculty/index.php	Faculty
+https://www.fullerton.edu/ecs/mse/contact-support/index.php	Contact and Support
+https://www.fullerton.edu/ecs/mse/seminars	Orientation and Midpoint Seminars
+https://www.fullerton.edu/ecs/mse/seminars/WorkshopAndLectures.php	Workshop and Lectures
+https://www.fullerton.edu/ecs/mse/requirements/	How to Apply page
+https://www.fullerton.edu/ecs/future/graduate-admission.php	Graduate Admission page
+/cdn-cgi/l/email-protection#305d43557056455c5c5542445f5e1e555445	[email protected]
+/cdn-cgi/l/email-protection#ff9a9c8c988d9e9bbf998a93939a8d8b9091d19a9b8a	[email protected]
+/cdn-cgi/l/email-protection#78150b1d381e0d14141d0a0c1716561d1c0d	[email protected]
+/cdn-cgi/l/email-protection#6301000c0d042305160f0f0611170c0d4d060716	Bin Cong
+http://records.fullerton.edu/resources/forms/Graduate_Change_of_Objective_Form.pdf	Change of Objective Form
+/cdn-cgi/l/email-protection#bdd8decedacfdcd9fddbc8d1d1d8cfc9d2d393d8d9c8	[email protected]
+https://www.fullerton.edu/ecs/future/graduate-admission.php	Graduate Admission page
+https://www.fullerton.edu/ecs/mse/	MSE website
+https://amse.fullerton.edu/	AMSE website
+https://www.fullerton.edu/ecs/mse/programs/programcost.php	Program Cost page
+https://www.fullerton.edu/financialaid/general/scholarships.php	Financial Aid website
+http://records.fullerton.edu/academics/graduation.php	Graduation (Grad Check) page
+http://records.fullerton.edu/services/diplomas.php	http://records.fullerton.edu/services/diplomas.php
+https://www.fullerton.edu/ecs/mse/programs/courses.php	Courses page
+/cdn-cgi/l/email-protection#c6abb5a386a0b3aaaaa3b4b2a9a8e8a3a2b3	[email protected]
+#top	
+https://www.fullerton.edu	
+https://www.fullerton.edu/ecs	College of Engineering and Computer Science
+https://a.cms.omniupdate.com/11/?skin=csufullerton&account=ECS&site=MSE_v4&action=de&path=/faq.pcf	Last Published 8/13/26
+/cdn-cgi/l/email-protection#d2b7b1a1a5b7b0bfb3a1a6b7a092b4a7bebeb7a0a6bdbcfcb7b6a7	[email protected]
+https://get.adobe.com/reader/	Adobe Reader
+https://www.microsoft.com/en-us/download/office.aspx	Microsoft Viewers
+https://www.fullerton.edu/reportati/	Report An ATI Issue
+//www.fullerton.edu/ATI	Accessible @ CSUF

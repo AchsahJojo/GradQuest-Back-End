@@ -1,0 +1,696 @@
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+TITLE: Computer Science Degree, MS | ASU
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+Skip to main content 
+Report an accessibility problem 
+ASU home My ASU Colleges and Schools Sign In 
+
+Search ASU 
+
+- 
+
+H1: 
+
+Computer Science, MS
+
+Are you seeking to expand your knowledge in the computer science field and explore both computing theory and current technologies? Join faculty-led research and prepare for a career as an innovator, researcher and technical leader shaping the future of computing.
+
+Apply now 
+
+Request info 
+
+Press to add this program to your favorites 
+
+On this page:
+
+- Quick facts 
+
+- Overview 
+
+- Curriculum 
+
+- Admission requirements 
+
+- Cost 
+
+- Careers 
+
+Apply now 
+
+Request info 
+
+Press to add this program to your favorites 
+
+H2: Quick facts
+
+Plan code: ESCOMSCMS 
+Copy plan code 
+COPIED! 
+
+H3: Locations
+
+Tempe (opens in new window) 
+
+H3: College
+
+Ira A. Fulton Schools of Engineering (opens in new window) 
+
+H3: Credits
+
+30 credit hours
+
+View curriculum 
+
+H3: Additional facts
+
+H4: STEM-OPT extension eligible: Yes
+
+International students (F1) can extend U.S. work experience by 24 months.
+
+H4: 
+
+Accreditation
+
+Accredited by the Higher Learning Commission.
+
+H2: Computer Science, MS description
+The on-campus Master of Science program in computer science provides rigorous, research-focused training in theory, systems and applications, preparing you to advance the frontiers of computing --- including artificial intelligence, cybersecurity, quantum computing and other novel paradigms.
+Unlike the industry-oriented Master of Computer Science program, the MS program in computer science emphasizes fundamental and applied research. You are able to work closely with world-class faculty and contribute to discovery in computing and augmented intelligence.
+You may pursue either a thesis or nonthesis option as your culminating experience and can explore advanced topics such as:
+
+- AI, machine learning and statistical modeling
+
+- big data and data mining
+
+- computational biology
+
+- computer design, architecture and compilers
+
+- computer security, cybersecurity and cryptography
+
+- computer systems, including networking and operating systems
+
+- cyber-physical systems, Internet of Things and robotics
+
+- distributed computing and consensus protocols
+
+- novel computing paradigms, including biocomputing and quantum computation
+
+- theory, algorithms and optimization
+
+- visualization and graphics
+This program is ideal if you wish to deepen your expertise, pursue doctoral studies, or engage in high-level research and development in industry or academia.
+
+H3: 
+
+Show
+more 
+
+H2: 
+Curriculum 
+
+This graduate degree includes courses focused on a specialized topic, so you can advance your skills for further professional opportunities. Explore all courses below:
+
+30 credit hours - course-based master's, or 
+30 credit hours and a thesis, or 
+30 credit hours including the required applied project course (CSE 593)
+
+COURSE-BASED OPTION 
+Required Core Areas (9 credit hours) 
+applications (3)
+foundations (3)
+systems (3)
+Electives (21 credit hours) 
+OPTIONS WITH CULMINATING EXPERIENCE 
+Required Core Areas (9 credit hours) 
+applications (3)
+foundations (3)
+systems (3)
+Electives (15 or 18 credit hours) 
+Culminating Experience (3 or 6 credit hours) 
+CSE 593 Applied Project (3) or
+CSE 599 Thesis (6)
+Additional Curriculum Information 
+Students should see the academic unit for the list of courses approved for each core area in applications, foundations and systems. Courses selected as part of the core may not be used as other elective coursework on the same plan of study.
+Students in the course-based option take 21 credit hours of electives. Students may complete a thesis or applied project as an optional culminating experience. Students with a strong interest in research and a desire to contribute original knowledge to their field may be well-suited for the thesis option. Students in the thesis option take 15 credit hours of electives. Electives must be courses in a chosen research area and approved by the student's academic advisor. Up to six credit hours can be independent study in CSE 590 Reading and Conference. Students who enjoy solving real-world problems and applying practical skills in professional settings may be drawn to the applied project option. Applied project students take 18 credit hours of electives. Students should see the academic unit for additional information and requirements.
+Students complete a minimum of 30 credit hours for the program. At least 24 of these credit hours must be 500-level CSE courses at ASU. Up to six credit hours of 400-level courses may be applied to the plan of study.
+
+H2: Admission requirements
+
+H3: Here are the admission and application details
+
+H4: 
+
+General admission requirements
+
+All students are required to meet general
+university admission requirements.
+
+U.S.
+applicants (opens in new window) | International
+applicants (opens in new window) | English
+proficiency (opens in new window) 
+
+H4: 
+
+Additional degree-specific requirements
+
+Applicants must fulfill the requirements of both the Graduate College and the Ira A. Fulton Schools of Engineering.
+Applicants are eligible to apply to the program if they have earned a bachelor's or master's degree in computer science, computer engineering or a closely related area from a regionally accredited institution.
+Applicants must have a minimum cumulative GPA of 3.25 (scale is 4.00 = "A") in the last 60 hours of their first bachelor's degree program or a minimum cumulative GPA of 3.25 (scale is 4.00 = "A") in an applicable master's degree program.
+All applicants must submit:
+
+- graduate admission application and application fee
+
+- official transcripts
+
+- a statement of purpose
+
+- proof of English proficiency
+Additional Application Information 
+An applicant whose native language is not English must provide proof of English proficiency regardless of their current residency.
+Before applying to the program, students must have completed two semesters or six credit hours of calculus, equivalent to Calculus I and II. Completion of a discrete math course is also recommended before admission.
+Students assigned any additional coursework upon admission must complete those classes with a grade of "C" (scale is 4.00 = "A") or higher within two semesters of admission. These courses may include:
+CSE 230 Computer Organization and Assembly Language Programming
+CSE 310 Data Structures and Algorithms
+CSE 330 Operating Systems
+CSE 340 Principles of Programming Languages or CSE 355 Introduction to Theoretical Computer Science
+The applicant's undergraduate GPA and depth of preparation in computer science and engineering are the primary factors affecting admission.
+
+H4: 
+
+Application deadlines and start dates
+
+H4: 
+
+Application deadlines
+
+Fall
+
+Session
+
+Modality
+
+Deadline
+
+Type
+
+Session A/C
+
+In Person
+
+12/01
+
+Priority * 
+
+Spring
+
+Session
+
+Modality
+
+Deadline
+
+Type
+
+Session A/C
+
+In Person
+
+08/01
+
+Priority * 
+
+* A priority deadline means that applications submitted and completed before the priority deadline will receive priority consideration. Applications submitted after the priority deadlines will be reviewed in the order in which they were completed and on a space-available basis. An application is complete after all materials are received by Admission Services.
+
+H3: Explore expanded study opportunities
+
+H4: 
+
+Accelerated bachelor's and master's degree
+
+This program allows you to obtain both a bachelor's 
+and a master's degree in as little as five years. 
+As a high-achieving student, accelerated bachelor's 
+plus master's degree programs are designed for you 
+to share undergraduate coursework with graduate 
+coursework to accelerate completion of your master's 
+degree. These programs feature the same high-quality 
+curriculum taught by ASU's world-renowned faculty.
+
+This program is offered as an accelerated
+bachelor's plus master's degree with:
+
+Computer Science, BS
+
+Undergraduate advisor
+
+Elizabeth Wood
+
+480-965-3199
+
+scai.4+1@asu.edu
+
+Graduate advisor
+
+Wendy Biresch
+
+480-965-3199
+
+scai.4+1@asu.edu
+
+General contact
+
+480-965-3199
+
+scai.4+1@asu.edu
+
+Learn more about this program 
+
+Computer Science (Artificial Intelligence), BS
+
+Undergraduate advisor
+
+Elizabeth Wood
+
+480-965-3199
+
+scai.accelerated@asu.edu
+
+Graduate advisor
+
+Wendy Biresch
+
+480-965-3199
+
+Wendy.Biresch@asu.edu
+
+General contact
+
+480-965-3199
+
+scai.accelerated@asu.edu
+
+Learn more about this program 
+
+Computer Science (Cybersecurity), BS
+
+Undergraduate advisor
+
+Elizabeth Wood
+
+480-965-3199
+
+scai.4+1@asu.edu
+
+Graduate advisor
+
+Wendy Biresch
+
+480-965-3199
+
+scai.4+1@asu.edu
+
+General contact
+
+480-965-3199
+
+scai.4+1@asu.edu
+
+Learn more about this program 
+
+Computer Science (Software Engineering), BS
+
+Undergraduate advisor
+
+Elizabeth Wood
+
+480-965-3199
+
+scai.4+1@asu.edu
+
+Graduate advisor
+
+Wendy Biresch
+
+480-965-3199
+
+scai.4+1@asu.edu
+
+General contact
+
+480-965-3199
+
+scai.4+1@asu.edu
+
+Learn more about this program 
+
+Computer Systems Engineering, BSE
+
+Undergraduate advisor
+
+Elizabeth Wood
+
+480-965-3199
+
+scai.4+1@asu.edu
+
+Graduate advisor
+
+Wendy Biresch
+
+480-965-3199
+
+scai.4+1@asu.edu
+
+General contact
+
+480-965-3199
+
+scai.4+1@asu.edu
+
+Learn more about this program 
+
+Computer Systems Engineering (Cybersecurity), BSE
+
+Undergraduate advisor
+
+Elizabeth Wood
+
+480-965-3199
+
+scai.4+1@asu.edu
+
+Graduate advisor
+
+Wendy Biresch
+
+480-965-3199
+
+scai.4+1@asu.edu
+
+General contact
+
+480-965-3199
+
+scai.4+1@asu.edu
+
+Learn more about this program 
+
+Software Engineering, BS
+
+General contact
+
+480-965-3197
+
+scai.4+1@asu.edu
+
+Learn more about this program 
+
+Approval to pursue the accelerated master's is 
+typically granted during the junior year of your 
+bachelor's degree program. If you are interested, 
+you can learn more about eligibility requirements 
+and how to apply .
+
+H2: Paying for college
+
+Use our calculator to estimate your full-time or part-time tuition fees for this program prior to any financial aid. Keep in mind that most of our students receive financial aid , which can reduce out-of-pocket costs.
+
+Get an estimate 
+
+H2: Career opportunities
+
+H3: Careers this computer science master's degree prepares you for
+Graduates are able to analyze key theories, algorithms and software modules used in the field of computer science. They are prepared to pursue careers in research and education, including academia, government and industry.
+Career examples include:
+
+- computer network architect
+
+- computer system analyst
+
+- computer systems engineer
+
+- data scientist or engineer
+
+- machine learning, AI or computer vision engineer
+
+- software developer
+
+- software engineer
+
+H2: Contact information
+
+Use the contact information below to get in touch if you're a current student or have general questions.
+
+Prospective students should fill out the Request for Information form.
+
+Computer Science and Engineering Program 
+
+| 
+CTRPT 105 
+
+SCAI.Grad.Admission@asu.edu 
+
+480-965-3199 
+
+Back
+
+H2: Apply now
+
+Loading application information...
+
+Back
+
+H2: Request information
+
+Loading request information...
+
+Back
+
+H2: STEM-OPT Extension for F-1 International Students
+
+International students in F-1 status who earn a bachelor's, master's, or doctoral degree in an approved STEM field may be eligible for a 24-month extension of their standard 12-month Optional Practical Training period. This United States Citizenship and Immigration Services benefit can be used twice in a lifetime and provides additional opportunities to gain off-campus work experience in the U.S. related to the student's field of study.
+
+Those interested in applying should review the list of ASU degrees that qualify for the STEM-OPT extension (opens in new window) at ASU's International Students and Scholars Center website. The STEM-OPT extension is only available to students on an F-1 visa and is not available to students completing a degree through ASU Online.
+
+Back
+
+H2: Accreditation
+
+All ASU graduate and undergraduate academic programs are fully accredited by the Higher Learning Commission . Many programs also have additional accreditation through specialized accrediting agencies.
+
+Read more about faculty excellence 
+
+H3: About accreditation
+
+Accreditation signals that this program meets high academic standards and is committed to continuous improvement. For you, that means a degree that is recognized by employers and respected by graduate schools.
+
+Back
+
+Loading curriculum archive information...
+
+Back
+
+Loading what if information...
+
+Back
+
+Loading checksheet options...
+
+H2: Frequently asked questions about degree programs
+
+H3: What are accelerated programs?
+
+Accelerated programs allow students the opportunity to expedite
+the completion of their degree.
+
+3 year programs 
+
+These programs allow students to fast-track their studies after admission and earn a bachelor's degree in three years or fewer while participating in the same high-quality educational experience of a 4-year option. Students should talk to their academic advisor to get started.
+
+-->
+
+H4: Accelerated master's
+
+These programs allow students to accelerate their studies to earn
+a bachelor's plus a master's degree in as few as five years (for
+some programs).
+
+Each program has requirements students must meet to be eligible
+for consideration. Students typically receive approval to pursue
+the accelerated master's during the junior year of their
+bachelor's degree program. Interested students can learn about
+eligibility requirements and
+how to apply .
+
+H3: What are concurrent programs?
+
+Concurrent degrees allow students to pursue their own personal or
+professional interests, earn two distinct degrees and receive two
+diplomas. To add a concurrent degree to your existing degree, work
+with your academic advisor.
+
+H3: What are joint programs?
+
+Joint programs, or jointly conferred degrees, are offered by more
+than one college and provide opportunities for students to take
+advantage of the academic strengths of two academic units. Upon
+graduation, students are awarded one degree and one diploma
+conferred by two colleges.
+
+H3: What constitutes a new program?
+
+ASU adds new programs to Degree Search frequently. Come back often
+and look for the "New Programs" option.
+
+H3: What are online programs?
+
+ASU Online 
+offers programs in an entirely online format with multiple
+enrollment sessions throughout the year. See
+https://asuonline.asu.edu/ 
+for more information.
+
+H3: What is WRGP (Western Regional Graduate Program)?
+
+The Western Regional Graduate Program (WRGP) provides a reduced
+tuition rate to non-resident graduate students who qualify.
+Visit the WRGP/WICHE webpage for more information:
+https://graduate.asu.edu/wiche .
+
+Students from western states who select this major may be eligible for a
+reduced nonresident tuition rate of 150 percent of Arizona resident tuition
+plus all applicable fees. See more information and eligibility requirements on
+the Western Undergraduate Exchange (WUE) program
+Web site .
+
+check up to 3 programs to see a side-by-side comparison
+
+This program will be stored in your saved programs (upper right) only for this
+session. To save for later use, please sign in .
+
+This program will be stored in your saved programs (upper right).
+
+A minor is an approved, coherent focus of academic study in a single
+discipline, other than the student's major, involving substantially fewer
+hours of credit than a corresponding major. Certain major and minor
+combinations may be deemed inappropriate either by the college or department
+of the major or minor.
+
+This is only the first required math course. This program may contain
+additional math courses; See Curriculum for details.
+
+The level of intensity represents a measure of the number and academic rigor
+of math courses required.
+
+The level of intensity represents a measure of the number and academic rigor
+of math courses required. Courses included in the General level: MAT 142
+
+The level of intensity represents a measure of the number and academic rigor
+of math courses required. Courses included in the Moderate level: MAT 117, MAT
+119, MAT 170, MAT 210, SOS 101, CPI 200
+
+The level of intensity represents a measure of the number and academic rigor
+of math courses required. Courses included in the Substantial level: MAT 251,
+MAT 265. MAT 266, MAT 267, MAT 270, MAT 271, MAT 272, MAT 274, MAT 275
+
+Students pursuing concurrent degrees earn two distinct degrees and receive two
+diplomas. ASU offers students two ways to earn concurrent degrees: by choosing
+a predetermined combination or creating their own combination. Predetermined
+combinations have a single admissions application and one easy to follow major
+map. To add a concurrent degree to your existing degree, work with your
+academic advisor. Either way, concurrent degrees allow students to pursue
+their own personal or professional interests.
+
+Concurrent degree programs are specially designed academic programs which
+provide high-achieving undergraduate students the opportunity to complete two
+distinct but complementary bachelor degrees at the same time. Students must
+meet minimum admissions standards for both programs and be accepted
+individually by both colleges offering the concurrent program.
+
+Concurrent degree programs are specially designed academic programs which
+provide high-achieving graduate students the opportunity to complete two
+distinct but complementary graduate degrees at the same time. Students must
+meet minimum admissions standards for both programs and be accepted
+individually by both colleges offering the concurrent program.
+
+Accelerated bachelor's plus master's degree programs are designed for
+high-achieving undergraduate students who want the opportunity to share
+undergraduate coursework with graduate coursework to accelerate completion of
+their master's degree. These programs feature the same high-quality curriculum
+taught by ASU's world-renowned faculty.
+
+Accelerated bachelor's plus master's degree programs are designed for
+high-achieving undergraduate students who want the opportunity to share
+undergraduate coursework with graduate coursework to accelerate completion of
+their master's degree. These programs feature the same high-quality curriculum
+taught by ASU's world-renowned faculty.
+
+A rolling deadline means that applications will continue to be reviewed on a
+regular basis until the semester begins. International students should be
+mindful of visa deadlines to ensure there is time to produce necessary visa
+documents. Applicants are encouraged to complete and submit application
+materials as soon as possible for consideration.
+
+A final deadline means that all applications and application materials must be
+received by Graduate Admissions by the deadline date. Applications that are
+incomplete may not be considered after the final deadline. Applications that
+are submitted past the final deadline may not be considered.
+
+A priority deadline means that applications submitted and completed before the
+priority deadline will receive priority consideration. Applications submitted
+after the priority deadlines will be reviewed in the order in which they were
+completed and on a space available basis. An application is complete after all
+materials are received by Graduate Admissions.
+
+The 24-Month STEM OPT Extension is an additional benefit from United States
+Citizenship and Immigration Services that allows international students in F-1
+status who receive a bachelor’s, master’s, or doctoral degree in an approved
+STEM field to apply for a 24-month extension of their standard 12-month
+Post-OPT period, twice in a lifetime. This allows international students the
+opportunity to gain additional off-campus work experience in their field of
+study after completion of course studies and Post-OPT. The OPT extension does
+not apply to students completing a degree through ASU Online.
+
+- 
+Maps and Locations 
+
+- 
+Jobs 
+
+- 
+Directory 
+
+- 
+Contact ASU 
+
+- 
+My ASU 
+
+Copyright and Trademark 
+Accessibility 
+Privacy 
+Terms of Use 
+Emergency 
+
+-

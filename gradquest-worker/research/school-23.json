@@ -1,0 +1,614 @@
+{
+  "schoolId": 23,
+  "schoolName": "University of Nevada, Las Vegas",
+  "programName": "Computer Science, M.S.",
+  "pages": [
+    {
+      "kind": "overview",
+      "url": "https://www.unlv.edu/degree/ms-computer-science"
+    },
+    {
+      "kind": "overview",
+      "url": "https://www.unlv.edu/cs/academic-programs"
+    },
+    {
+      "kind": "admissions",
+      "url": "https://www.unlv.edu/cs/admissions"
+    },
+    {
+      "kind": "curriculum",
+      "url": "https://www.unlv.edu/cs/graduate/masters"
+    },
+    {
+      "kind": "curriculum",
+      "url": "https://www.unlv.edu/sites/default/files/media/document/2026-07/2026-27-MS-CS-Thesis.docx"
+    },
+    {
+      "kind": "curriculum",
+      "url": "https://www.unlv.edu/sites/default/files/media/document/2026-07/2026-27-MS-CS-Project.docx"
+    },
+    {
+      "kind": "curriculum",
+      "url": "https://www.unlv.edu/sites/default/files/media/document/2026-07/2026-27-MS-CS-Exam-Foundations-Theory.docx"
+    },
+    {
+      "kind": "faculty",
+      "url": "https://www.unlv.edu/cs/directory"
+    },
+    {
+      "kind": "faculty",
+      "url": "https://www.unlv.edu/cs/directory?page=1"
+    },
+    {
+      "kind": "faculty",
+      "url": "https://www.unlv.edu/cs/directory?page=2"
+    },
+    {
+      "kind": "deadlines",
+      "url": "https://www.unlv.edu/cs/admissions"
+    },
+    {
+      "kind": "faculty",
+      "url": "https://www.unlv.edu/people/fatma-nasoz"
+    },
+    {
+      "kind": "faculty",
+      "url": "https://www.unlv.edu/people/zuobin-xiong"
+    },
+    {
+      "kind": "faculty",
+      "url": "https://www.unlv.edu/people/shaikh-arifuzzaman"
+    },
+    {
+      "kind": "faculty",
+      "url": "https://www.unlv.edu/people/wolfgang-bein"
+    },
+    {
+      "kind": "faculty",
+      "url": "https://www.unlv.edu/people/hal-berghel"
+    },
+    {
+      "kind": "faculty",
+      "url": "https://www.unlv.edu/people/john-businge"
+    },
+    {
+      "kind": "faculty",
+      "url": "https://www.unlv.edu/people/jorge-fonseca-cacho"
+    },
+    {
+      "kind": "faculty",
+      "url": "https://www.unlv.edu/people/laxmi-gewali"
+    },
+    {
+      "kind": "faculty",
+      "url": "https://www.unlv.edu/people/ju-yeon-jo"
+    },
+    {
+      "kind": "faculty",
+      "url": "https://www.unlv.edu/people/mingon-kang"
+    },
+    {
+      "kind": "faculty",
+      "url": "https://www.unlv.edu/people/yoohwan-kim"
+    },
+    {
+      "kind": "faculty",
+      "url": "https://www.unlv.edu/people/lawrence-larmore"
+    },
+    {
+      "kind": "faculty",
+      "url": "https://www.unlv.edu/people/prashant-modekurthy"
+    },
+    {
+      "kind": "faculty",
+      "url": "https://www.unlv.edu/people/andreas-stefik"
+    },
+    {
+      "kind": "faculty",
+      "url": "https://www.unlv.edu/people/john-minor"
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "kind": "overview",
+      "name": "Program description",
+      "detail": "Official M.S. degree page: graduate programs let students study computing areas, conduct specialized research, and make original contributions.",
+      "sourceUrl": "https://www.unlv.edu/degree/ms-computer-science",
+      "quote": "Graduate degree programs in the Department of Computer Science provide students the opportunity to study different subject areas of computing science, conduct research in specialized areas, and make original contributions to the field."
+    },
+    {
+      "id": "f2",
+      "kind": "overview",
+      "name": "Available tracks",
+      "detail": "The degree page lists thesis, project, integrated BS-MS, and several exam tracks.",
+      "sourceUrl": "https://www.unlv.edu/degree/ms-computer-science",
+      "quote": "Available Options Thesis Track Project Track Integrated BS-MS Track"
+    },
+    {
+      "id": "f3",
+      "kind": "overview",
+      "name": "Exam-track options",
+      "detail": "Exam tracks named on the degree page include Foundations and Theory, Cyber Security, AI and Machine Learning, Software Engineering, Data Science and Big Data, Database and Information Retrieval, Graphics and Augmented Reality, and Programming Language and Systems.",
+      "sourceUrl": "https://www.unlv.edu/degree/ms-computer-science",
+      "quote": "Exam Track - Foundations and Theory Exam Track - Cyber Security Exam Track - AI and Machine Learning"
+    },
+    {
+      "id": "f4",
+      "kind": "overview",
+      "name": "Study areas",
+      "detail": "The degree page lists study areas including algorithms, operating and distributed systems, architecture and networking, computational geometry and robotics, graphics and image processing, programming languages, AI, databases, and software engineering.",
+      "sourceUrl": "https://www.unlv.edu/degree/ms-computer-science",
+      "quote": "Our master's program gives you the opportunity to study different areas, including: Design and analysis of algorithms."
+    },
+    {
+      "id": "f5",
+      "kind": "requirement",
+      "name": "30-credit minimum and grade floor",
+      "detail": "Department master's-requirements page: students must pass at least 30 credits of 600- and 700-level courses with a grade of C or better.",
+      "sourceUrl": "https://www.unlv.edu/cs/graduate/masters",
+      "quote": "you must pass at least 30 credits of 600- and 700-level courses with a grade of C or better"
+    },
+    {
+      "id": "f6",
+      "kind": "requirement",
+      "name": "At least 24 credits in computer science",
+      "detail": "Department requirements: at least 24 credits must be in computer science.",
+      "sourceUrl": "https://www.unlv.edu/cs/graduate/masters",
+      "quote": "At least 24 credits must be in computer science."
+    },
+    {
+      "id": "f7",
+      "kind": "requirement",
+      "name": "700-level computer science minimum (department page)",
+      "detail": "Department requirements: at least 18 credits of computer science courses must be at the 700 level. The 2026\u201327 plans of study also quote a Graduate College 50-percent 700-level rule; both are reported.",
+      "sourceUrl": "https://www.unlv.edu/cs/graduate/masters",
+      "quote": "At least 18 credits of computer science courses must be at the 700 level.",
+      "verified": true,
+      "verifiedBy": "user 2026-11-13"
+    },
+    {
+      "id": "f8",
+      "kind": "requirement",
+      "name": "Required CS 656, 660, and 677 if not already taken",
+      "detail": "If equivalent courses have not been taken previously, CS 656, 660, and 677 must be included.",
+      "sourceUrl": "https://www.unlv.edu/cs/graduate/masters",
+      "quote": "If equivalent courses have not been taken previously, CS 656, 660, and 677 must be included."
+    },
+    {
+      "id": "f9",
+      "kind": "requirement",
+      "name": "Thesis or project credit cap",
+      "detail": "At most six credits of CS 791 (thesis) or three credits of CS 790 (project) can be included.",
+      "sourceUrl": "https://www.unlv.edu/cs/graduate/masters",
+      "quote": "At most, six credits of CS 791 (Thesis Option) or three credits of CS 790 (Project Option) can be included."
+    },
+    {
+      "id": "f10",
+      "kind": "requirement",
+      "name": "3.0 GPA while in the program",
+      "detail": "A GPA of 3.0 or higher must be maintained; below that, probation, then possible drop if it stays below 3.0 the next regular semester.",
+      "sourceUrl": "https://www.unlv.edu/cs/graduate/masters",
+      "quote": "A GPA of 3.0 or higher must be maintained at all times while in the program."
+    },
+    {
+      "id": "f11",
+      "kind": "requirement",
+      "name": "2026-27 thesis subplan units",
+      "detail": "2026-27 thesis plan of study (header: UNLV Graduate College 2026-2027 Catalog): 24 credits of 600- or 700-level CS courses (up to 3 credits outside CS) plus 6 credits of CS 791; minimum 30 credits.",
+      "sourceUrl": "https://www.unlv.edu/sites/default/files/media/document/2026-07/2026-27-MS-CS-Thesis.docx",
+      "quote": "Complete 24 credits of 600- or 700- level Computer Science (CS) courses. Students may complete up to 3 credits outside of CS."
+    },
+    {
+      "id": "f12",
+      "kind": "course",
+      "name": "CS 791 thesis",
+      "detail": "2026-27 thesis plan lists CS 791 for the 6-credit thesis requirement.",
+      "sourceUrl": "https://www.unlv.edu/sites/default/files/media/document/2026-07/2026-27-MS-CS-Thesis.docx",
+      "quote": "Thesis \u2013 Credits: 6"
+    },
+    {
+      "id": "f13",
+      "kind": "requirement",
+      "name": "Thesis plan graduation minimum",
+      "detail": "Thesis plan: minimum credits required for graduation = 30.",
+      "sourceUrl": "https://www.unlv.edu/sites/default/files/media/document/2026-07/2026-27-MS-CS-Thesis.docx",
+      "quote": "Minimum credits required for graduation = 30"
+    },
+    {
+      "id": "f14",
+      "kind": "requirement",
+      "name": "2026-27 project subplan units",
+      "detail": "2026-27 project plan: 27 credits of 600- or 700-level CS courses (up to 3 outside CS) plus 3 credits of CS 790; minimum 30 credits.",
+      "sourceUrl": "https://www.unlv.edu/sites/default/files/media/document/2026-07/2026-27-MS-CS-Project.docx",
+      "quote": "Complete 27 credits of 600- or 700- level Computer Science (CS) courses. Students may complete up to 3 credits outside of CS."
+    },
+    {
+      "id": "f15",
+      "kind": "course",
+      "name": "CS 790 project",
+      "detail": "2026-27 project plan lists CS 790 for the 3-credit project requirement.",
+      "sourceUrl": "https://www.unlv.edu/sites/default/files/media/document/2026-07/2026-27-MS-CS-Project.docx",
+      "quote": "Project \u2013 Credits: 3"
+    },
+    {
+      "id": "f16",
+      "kind": "requirement",
+      "name": "Graduate College 700-level share (plans of study)",
+      "detail": "The 2026-27 plans of study state that a minimum of 50 percent of the degree program must be 700-level courses, excluding thesis, dissertation, or professional/scholarly paper. This sits beside the department page's 'at least 18 credits of computer science courses must be at the 700 level.'",
+      "sourceUrl": "https://www.unlv.edu/sites/default/files/media/document/2026-07/2026-27-MS-CS-Thesis.docx",
+      "quote": "A minimum of 50 percent of the degree program must be 700-level courses excluding thesis, dissertation, or professional/scholarly paper.",
+      "verified": false,
+      "rejectedReason": "Rejected by the user 2026-11-13: keep department rule (at least 18 CS credits at 700-level). Graduate College 50% 700-level plan-of-study fact was not kept.",
+      "verifiedBy": "user 2026-11-13"
+    },
+    {
+      "id": "f17",
+      "kind": "course",
+      "name": "Exam track Foundations and Theory required list",
+      "detail": "2026-27 Foundations and Theory exam plan: complete 9 credits from CS 656, CS 677, CS 715, CS 758, and CS 789, plus 21 credits of other 600- or 700-level CS courses.",
+      "sourceUrl": "https://www.unlv.edu/sites/default/files/media/document/2026-07/2026-27-MS-CS-Exam-Foundations-Theory.docx",
+      "quote": "Required Courses - Credits: 9"
+    },
+    {
+      "id": "f18",
+      "kind": "course",
+      "name": "CS 656 on the Foundations exam list",
+      "detail": "The Foundations and Theory plan lists CS 656 among the required-course options.",
+      "sourceUrl": "https://www.unlv.edu/sites/default/files/media/document/2026-07/2026-27-MS-CS-Exam-Foundations-Theory.docx",
+      "quote": "CS 656"
+    },
+    {
+      "id": "f19",
+      "kind": "course",
+      "name": "CS 677 on the Foundations exam list",
+      "detail": "The Foundations and Theory plan lists CS 677 among the required-course options.",
+      "sourceUrl": "https://www.unlv.edu/sites/default/files/media/document/2026-07/2026-27-MS-CS-Exam-Foundations-Theory.docx",
+      "quote": "CS 677"
+    },
+    {
+      "id": "f20",
+      "kind": "course",
+      "name": "CS 715 on the Foundations exam list",
+      "detail": "The Foundations and Theory plan lists CS 715 among the required-course options.",
+      "sourceUrl": "https://www.unlv.edu/sites/default/files/media/document/2026-07/2026-27-MS-CS-Exam-Foundations-Theory.docx",
+      "quote": "CS 715"
+    },
+    {
+      "id": "f21",
+      "kind": "requirement",
+      "name": "Letters of recommendation (M.S.)",
+      "detail": "Department admissions page, Master of Science in Computer Science section: submit two letters of recommendation.",
+      "sourceUrl": "https://www.unlv.edu/cs/admissions",
+      "quote": "Two letters of recommendation concerning your potential for success in the graduate program."
+    },
+    {
+      "id": "f22",
+      "kind": "requirement",
+      "name": "M.S. GPA minimum",
+      "detail": "M.S. admissions: a minimal GPA of 2.75 overall or 3.0 on the last two years of undergraduate work.",
+      "sourceUrl": "https://www.unlv.edu/cs/admissions",
+      "quote": "A minimal grade point average (GPA) of 2.75 overall or 3.0 on the last two years of undergraduate work."
+    },
+    {
+      "id": "f23",
+      "kind": "requirement",
+      "name": "Background courses at grade B",
+      "detail": "Evidence that courses equivalent to the department's basic undergraduate courses have been completed with an average grade of B or better.",
+      "sourceUrl": "https://www.unlv.edu/cs/admissions",
+      "quote": "Evidence that courses equivalent to our basic undergraduate courses have been completed with an average grade of B or better."
+    },
+    {
+      "id": "f24",
+      "kind": "requirement",
+      "name": "Bachelor's degree and transcript",
+      "detail": "Evidence of a bachelor's degree from an accredited four-year college or university, with an official transcript.",
+      "sourceUrl": "https://www.unlv.edu/cs/admissions",
+      "quote": "Evidence that a bachelor's degree in some field has been earned from an accredited four-year college or university, with an official transcript."
+    },
+    {
+      "id": "f25",
+      "kind": "requirement",
+      "name": "GRE results required (department admissions page)",
+      "detail": "The M.S. section requires results of the Graduate Record Examination. The 2026\u20132027 catalog program page could not be fetched (AWS WAF), so catalog wording could not be compared.",
+      "sourceUrl": "https://www.unlv.edu/cs/admissions",
+      "quote": "Results of the Graduate Record Examination."
+    },
+    {
+      "id": "f26",
+      "kind": "deadline",
+      "name": "Fall and Spring material deadlines",
+      "detail": "Department admissions page: the deadline for receiving all materials is August 1 (Fall) and December 1 (Spring). Graduate assistantship materials may need to arrive earlier.",
+      "sourceUrl": "https://www.unlv.edu/cs/admissions",
+      "quote": "The deadline for receiving all materials is August 1 (for Fall) and December 1 (for Spring) admission."
+    },
+    {
+      "id": "f27",
+      "kind": "overview",
+      "name": "Expected master's timeline (handbook)",
+      "detail": "The August 2026-posted handbook says a master's is expected to take two years. The handbook's revision table still lists a March 2020 last revision.",
+      "sourceUrl": "https://www.unlv.edu/sites/default/files/media/document/2026-08/MS-PhD-ComputerScience-Handbook.pdf",
+      "quote": "In Computer Science, it is expected to take two years for the Master degree and four to six years for the Ph.D. degree."
+    },
+    {
+      "id": "f28",
+      "kind": "faculty",
+      "name": "Shaikh Arifuzzaman, Ph.D.",
+      "detail": "Assistant Professor. Department faculty/staff directory (not M.S.-program-specific).",
+      "sourceUrl": "https://www.unlv.edu/cs/directory",
+      "quote": "Shaikh Arifuzzaman, Ph.D."
+    },
+    {
+      "id": "f29",
+      "kind": "faculty",
+      "name": "Wolfgang Bein, Ph.D.",
+      "detail": "Professor. Department faculty/staff directory (not M.S.-program-specific).",
+      "sourceUrl": "https://www.unlv.edu/cs/directory",
+      "quote": "Wolfgang Bein, Ph.D."
+    },
+    {
+      "id": "f30",
+      "kind": "faculty",
+      "name": "Hal Berghel, Ph.D.",
+      "detail": "Professor. Department faculty/staff directory (not M.S.-program-specific).",
+      "sourceUrl": "https://www.unlv.edu/cs/directory",
+      "quote": "Hal Berghel, Ph.D."
+    },
+    {
+      "id": "f31",
+      "kind": "faculty",
+      "name": "John Businge, Ph.D.",
+      "detail": "Assistant Professor. Department faculty/staff directory (not M.S.-program-specific).",
+      "sourceUrl": "https://www.unlv.edu/cs/directory",
+      "quote": "John Businge, Ph.D."
+    },
+    {
+      "id": "f32",
+      "kind": "faculty",
+      "name": "Jorge Fonseca Cacho, Ph.D.",
+      "detail": "Assistant Professor. Department faculty/staff directory (not M.S.-program-specific).",
+      "sourceUrl": "https://www.unlv.edu/cs/directory?page=1",
+      "quote": "Jorge Fonseca Cacho, Ph.D."
+    },
+    {
+      "id": "f33",
+      "kind": "faculty",
+      "name": "Laxmi Gewali, Ph.D.",
+      "detail": "Chair, Professor. Department faculty/staff directory (not M.S.-program-specific).",
+      "sourceUrl": "https://www.unlv.edu/cs/directory?page=1",
+      "quote": "Laxmi Gewali, Ph.D."
+    },
+    {
+      "id": "f34",
+      "kind": "faculty",
+      "name": "Ju-Yeon Jo, Ph.D.",
+      "detail": "Professor. Department faculty/staff directory (not M.S.-program-specific).",
+      "sourceUrl": "https://www.unlv.edu/cs/directory?page=1",
+      "quote": "Ju-Yeon Jo, Ph.D."
+    },
+    {
+      "id": "f35",
+      "kind": "faculty",
+      "name": "Mingon Kang, Ph.D.",
+      "detail": "Associate Professor. Department faculty/staff directory (not M.S.-program-specific).",
+      "sourceUrl": "https://www.unlv.edu/cs/directory?page=1",
+      "quote": "Mingon Kang, Ph.D."
+    },
+    {
+      "id": "f36",
+      "kind": "faculty",
+      "name": "Yoohwan Kim, Ph.D.",
+      "detail": "Professor. Department faculty/staff directory (not M.S.-program-specific).",
+      "sourceUrl": "https://www.unlv.edu/cs/directory?page=1",
+      "quote": "Yoohwan Kim, Ph.D."
+    },
+    {
+      "id": "f37",
+      "kind": "faculty",
+      "name": "Lawrence Larmore, Ph.D.",
+      "detail": "Professor. Department faculty/staff directory (not M.S.-program-specific).",
+      "sourceUrl": "https://www.unlv.edu/cs/directory?page=1",
+      "quote": "Lawrence Larmore, Ph.D."
+    },
+    {
+      "id": "f38",
+      "kind": "faculty",
+      "name": "John Minor",
+      "detail": "Associate Professor. Department faculty/staff directory (not M.S.-program-specific).",
+      "sourceUrl": "https://www.unlv.edu/cs/directory?page=1",
+      "quote": "John Minor"
+    },
+    {
+      "id": "f39",
+      "kind": "faculty",
+      "name": "Prashant Modekurthy, Ph.D.",
+      "detail": "Assistant Professor. Department faculty/staff directory (not M.S.-program-specific).",
+      "sourceUrl": "https://www.unlv.edu/cs/directory?page=1",
+      "quote": "Prashant Modekurthy, Ph.D."
+    },
+    {
+      "id": "f40",
+      "kind": "faculty",
+      "name": "Fatma Nasoz, Ph.D.",
+      "detail": "Associate Professor and graduate coordinator. Department faculty/staff directory (not M.S.-program-specific).",
+      "sourceUrl": "https://www.unlv.edu/cs/directory?page=1",
+      "quote": "Fatma Nasoz, Ph.D."
+    },
+    {
+      "id": "f41",
+      "kind": "faculty",
+      "name": "Jan \"Matt\" Pedersen",
+      "detail": "Associate Professor. Department faculty/staff directory (not M.S.-program-specific).",
+      "sourceUrl": "https://www.unlv.edu/cs/directory?page=2",
+      "quote": "Jan \"Matt\" Pedersen"
+    },
+    {
+      "id": "f42",
+      "kind": "faculty",
+      "name": "Bryar Shareef, Ph.D.",
+      "detail": "Assistant Professor. Department faculty/staff directory (not M.S.-program-specific).",
+      "sourceUrl": "https://www.unlv.edu/cs/directory?page=2",
+      "quote": "Bryar Shareef, Ph.D."
+    },
+    {
+      "id": "f43",
+      "kind": "faculty",
+      "name": "Junggab Son, Ph.D.",
+      "detail": "Assistant Professor. Department faculty/staff directory (not M.S.-program-specific).",
+      "sourceUrl": "https://www.unlv.edu/cs/directory?page=2",
+      "quote": "Junggab Son, Ph.D."
+    },
+    {
+      "id": "f44",
+      "kind": "faculty",
+      "name": "Andreas Stefik, Ph.D.",
+      "detail": "Professor. Department faculty/staff directory (not M.S.-program-specific).",
+      "sourceUrl": "https://www.unlv.edu/cs/directory?page=2",
+      "quote": "Andreas Stefik, Ph.D."
+    },
+    {
+      "id": "f45",
+      "kind": "faculty",
+      "name": "Kazem Taghva",
+      "detail": "Data Analytics Chair, Professor. Department faculty/staff directory (not M.S.-program-specific).",
+      "sourceUrl": "https://www.unlv.edu/cs/directory?page=2",
+      "quote": "Kazem Taghva"
+    },
+    {
+      "id": "f46",
+      "kind": "faculty",
+      "name": "Chuck Tessler, Ph.D.",
+      "detail": "Assistant Professor. Department faculty/staff directory (not M.S.-program-specific).",
+      "sourceUrl": "https://www.unlv.edu/cs/directory?page=2",
+      "quote": "Chuck Tessler, Ph.D."
+    },
+    {
+      "id": "f47",
+      "kind": "faculty",
+      "name": "Zuobin Xiong, Ph.D.",
+      "detail": "Assistant Professor. Department faculty/staff directory (not M.S.-program-specific).",
+      "sourceUrl": "https://www.unlv.edu/cs/directory?page=2",
+      "quote": "Zuobin Xiong, Ph.D."
+    },
+    {
+      "id": "f48",
+      "kind": "faculty",
+      "name": "Fatma Nasoz",
+      "detail": "Profile: research interests include machine learning and deep learning, with work on health, education, finance, and genomics data.",
+      "sourceUrl": "https://www.unlv.edu/people/fatma-nasoz",
+      "quote": "research interests include machine learning and deep learning, with a focus on analyzing primary and secondary data across health, education, finance, and genomics."
+    },
+    {
+      "id": "f49",
+      "kind": "faculty",
+      "name": "Zuobin Xiong",
+      "detail": "Profile: research interests in cybersecurity and privacy, including privacy-preserving machine learning and data mining, IoT, and data security.",
+      "sourceUrl": "https://www.unlv.edu/people/zuobin-xiong",
+      "quote": "research interests lie in a broad area of cybersecurity and privacy, including privacy-preserving machine learning, privacy-preserving data mining, the Internet of Things (IoT), and data security related topics."
+    },
+    {
+      "id": "f50",
+      "kind": "faculty",
+      "name": "Shaikh Arifuzzaman",
+      "detail": "Profile is linked from the department directory.",
+      "sourceUrl": "https://www.unlv.edu/people/shaikh-arifuzzaman",
+      "quote": "Shaikh Arifuzzaman, Ph.D."
+    },
+    {
+      "id": "f51",
+      "kind": "faculty",
+      "name": "Wolfgang Bein",
+      "detail": "Profile is linked from the department directory.",
+      "sourceUrl": "https://www.unlv.edu/people/wolfgang-bein",
+      "quote": "Wolfgang Bein, Ph.D."
+    },
+    {
+      "id": "f52",
+      "kind": "faculty",
+      "name": "Hal Berghel",
+      "detail": "Profile is linked from the department directory.",
+      "sourceUrl": "https://www.unlv.edu/people/hal-berghel",
+      "quote": "Hal Berghel, Ph.D."
+    },
+    {
+      "id": "f53",
+      "kind": "faculty",
+      "name": "John Businge",
+      "detail": "Profile is linked from the department directory.",
+      "sourceUrl": "https://www.unlv.edu/people/john-businge",
+      "quote": "John Businge, Ph.D."
+    },
+    {
+      "id": "f54",
+      "kind": "faculty",
+      "name": "Jorge Fonseca Cacho",
+      "detail": "Profile is linked from the department directory.",
+      "sourceUrl": "https://www.unlv.edu/people/jorge-fonseca-cacho",
+      "quote": "Jorge Fonseca Cacho, Ph.D."
+    },
+    {
+      "id": "f55",
+      "kind": "faculty",
+      "name": "Laxmi Gewali",
+      "detail": "Profile is linked from the department directory.",
+      "sourceUrl": "https://www.unlv.edu/people/laxmi-gewali",
+      "quote": "Laxmi Gewali, Ph.D."
+    },
+    {
+      "id": "f56",
+      "kind": "faculty",
+      "name": "Ju-Yeon Jo",
+      "detail": "Profile is linked from the department directory.",
+      "sourceUrl": "https://www.unlv.edu/people/ju-yeon-jo",
+      "quote": "Ju-Yeon Jo, Ph.D."
+    },
+    {
+      "id": "f57",
+      "kind": "faculty",
+      "name": "Mingon Kang",
+      "detail": "Profile is linked from the department directory.",
+      "sourceUrl": "https://www.unlv.edu/people/mingon-kang",
+      "quote": "Mingon Kang, Ph.D."
+    },
+    {
+      "id": "f58",
+      "kind": "faculty",
+      "name": "Yoohwan Kim",
+      "detail": "Profile is linked from the department directory.",
+      "sourceUrl": "https://www.unlv.edu/people/yoohwan-kim",
+      "quote": "Yoohwan Kim, Ph.D."
+    },
+    {
+      "id": "f59",
+      "kind": "faculty",
+      "name": "Lawrence Larmore",
+      "detail": "Profile is linked from the department directory.",
+      "sourceUrl": "https://www.unlv.edu/people/lawrence-larmore",
+      "quote": "Lawrence Larmore, Ph.D."
+    },
+    {
+      "id": "f60",
+      "kind": "faculty",
+      "name": "Prashant Modekurthy",
+      "detail": "Profile is linked from the department directory.",
+      "sourceUrl": "https://www.unlv.edu/people/prashant-modekurthy",
+      "quote": "Prashant Modekurthy, Ph.D."
+    },
+    {
+      "id": "f61",
+      "kind": "faculty",
+      "name": "Andreas Stefik",
+      "detail": "Profile is linked from the department directory.",
+      "sourceUrl": "https://www.unlv.edu/people/andreas-stefik",
+      "quote": "Andreas Stefik, Ph.D."
+    },
+    {
+      "id": "f62",
+      "kind": "faculty",
+      "name": "John Minor",
+      "detail": "Profile is linked from the department directory.",
+      "sourceUrl": "https://www.unlv.edu/people/john-minor",
+      "quote": "John Minor"
+    }
+  ]
+}

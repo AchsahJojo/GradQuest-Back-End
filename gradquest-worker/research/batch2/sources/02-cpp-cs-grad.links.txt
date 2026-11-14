@@ -1,0 +1,52 @@
+#main	Skip to content
+/	
+/	
+/apply/	apply
+/outreach/tours.shtml	visit
+https://engage.cpp.edu/register/ask_us_a_question	info
+/giving/	give
+https://my.cpp.edu	mycpp
+/	
+/apply/	apply
+/outreach/tours.shtml	visit
+https://engage.cpp.edu/register/ask_us_a_question	info
+/giving/	give
+https://my.cpp.edu	mycpp
+/commencement/	Commencement
+/apply/	apply
+/outreach/tours.shtml	visit
+https://engage.cpp.edu/register/ask_us_a_question	info
+/giving/	give
+https://my.cpp.edu	mycpp
+/	Home
+https://broncoathletics.com/	athletics
+/alumni/	alumni
+/news/	news & events
+/prospective-student-gateway/	future students
+/student-gateway/	current students
+/family/	families
+/faculty-staff-gateway/	faculty & staff
+https://www.instagram.com/calpolypomona/	
+https://www.linkedin.com/school/cal-poly-pomona/	
+https://www.youtube.com/user/calpolypomona	
+https://www.facebook.com/calpolypomona	
+https://twitter.com/calpolypomona	
+https://cpp.service-now.com/ehelp?id=sc_cat_item_public&sys_id=1f9a1b752b7ccb10d0ebf5dfc391bfa5&url=	Report broken link
+http://www.cpp.edu/%7Ewebteam/	http://www.cpp.edu/~webteam
+http://www.cpp.edu/maps/	http://www.cpp.edu/maps
+http://www.cpp.edu/	main page
+https://www.cpp.edu/	
+https://www.cpp.edu/apply/	Apply
+https://maps.cpp.edu/	Maps
+https://www.cpp.edu/outreach/tours.shtml	Visit
+https://www.cpp.edu/contact.shtml	Contact Us
+https://www.instagram.com/calpolypomona/	
+https://www.linkedin.com/school/cal-poly-pomona/	
+https://www.youtube.com/user/calpolypomona	
+https://www.facebook.com/calpolypomona	
+https://twitter.com/calpolypomona	
+https://www.calstate.edu/	The California State University
+https://www.cpp.edu/website-feedback.shtml	Feedback
+https://calstate.policystat.com/policy/18808065/latest/#autoid-z2p98	Privacy
+https://www.cpp.edu/accessibility.shtml	Accessibility
+https://www.cpp.edu/file-viewers.shtml	Document Readers

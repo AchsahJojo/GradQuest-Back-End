@@ -1,0 +1,51 @@
+TITLE: Graduate Advising – Department of Computer Science
+SOURCE: /workspace/gradquest-program-research-batch2/sources/school14-graduate-advising.html
+
+Image URL
+First Name
+Last Name
+Suffix
+Display Name
+Title
+Email
+Phone
+Office
+Profile URL
+Alt Text
+Page Slug
+Wei Wang, Ph.D.
+Graduate Advisor
+Professor of Computer Science
+wwang@sdsu.edu
+619-594-4302
+GMCS 543
+https://cs.sdsu.edu/wp-content/uploads/profiles/wei-wang-300.jpg
+Wei
+Wang
+Ph.D.
+Wei Wang, Ph.D.
+Graduate Advisor
+Professor of Computer Science
+wwang@sdsu.edu
+619-594-4302
+GMCS 543
+https://cs.sdsu.edu/people/wei-wang
+Closeup of Wei Wang
+Roger Whitney, Ph.D.
+Graduate Advisor
+Associate Professor of Computer Science
+whitney@sdsu.edu
+619-594-3535
+GMCS  561
+https://cs.sdsu.edu/wp-content/uploads/profiles/roger-whitney-300.jpg
+Roger
+Whitney
+Ph.D.
+Roger Whitney, Ph.D.
+Graduate Advisor
+Associate Professor of Computer Science
+whitney@sdsu.edu
+619-594-3535
+GMCS  561
+https://cs.sdsu.edu/people/roger-whitney
+Closeup of Roger Whitney

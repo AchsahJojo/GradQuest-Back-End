@@ -1,0 +1,406 @@
+{
+  "schoolId": 2,
+  "schoolName": "Cal Poly Pomona",
+  "programName": "Computer Science, M.S. (on-campus)",
+  "sourceNote": "Saved from user's browser 2026-11-13 (live catalog WAF-blocks scripted fetch)",
+  "pages": [
+    {
+      "kind": "curriculum",
+      "url": "https://catalog.cpp.edu/preview_program.php?catoid=78&poid=24271"
+    }
+  ],
+  "facts": [
+    {
+      "id": "f51",
+      "kind": "overview",
+      "name": "Catalog heading and unit total",
+      "detail": "The 2026-2027 University Catalog program heading is Computer Science, M.S.: 30 units.",
+      "sourceUrl": "https://catalog.cpp.edu/preview_program.php?catoid=78&poid=24271",
+      "quote": "Computer Science, M.S.: 30 units"
+    },
+    {
+      "id": "f52",
+      "kind": "requirement",
+      "name": "Major required units",
+      "detail": "The catalog lists 13 units of major required courses. Earlier department-page facts used a required list without CS 5215 and a different elective-unit split; both sources are kept and no winner is chosen.",
+      "sourceUrl": "https://catalog.cpp.edu/preview_program.php?catoid=78&poid=24271",
+      "quote": "Major Required: 13 units"
+    },
+    {
+      "id": "f53",
+      "kind": "course",
+      "name": "CS 5215",
+      "detail": "Required 3-unit course on the 2026-2027 catalog page. This course was not in the earlier department-page required list; both sources are kept and no winner is chosen.",
+      "sourceUrl": "https://catalog.cpp.edu/preview_program.php?catoid=78&poid=24271",
+      "quote": "CS 5215 - Advanced Machine Learning and AI (3)"
+    },
+    {
+      "id": "f54",
+      "kind": "course",
+      "name": "CS 5250",
+      "detail": "Required 3-unit course on the 2026-2027 catalog page.",
+      "sourceUrl": "https://catalog.cpp.edu/preview_program.php?catoid=78&poid=24271",
+      "quote": "CS 5250 - Advanced Computer Architecture (3)"
+    },
+    {
+      "id": "f55",
+      "kind": "course",
+      "name": "CS 5300",
+      "detail": "Required 3-unit course on the 2026-2027 catalog page.",
+      "sourceUrl": "https://catalog.cpp.edu/preview_program.php?catoid=78&poid=24271",
+      "quote": "CS 5300 - Advanced Algorithm Design and Analysis (3)"
+    },
+    {
+      "id": "f56",
+      "kind": "course",
+      "name": "CS 5800",
+      "detail": "Required 3-unit course on the 2026-2027 catalog page.",
+      "sourceUrl": "https://catalog.cpp.edu/preview_program.php?catoid=78&poid=24271",
+      "quote": "CS 5800 - Advanced Software Engineering (3)"
+    },
+    {
+      "id": "f57",
+      "kind": "course",
+      "name": "CS 6640",
+      "detail": "Required 1-unit course on the 2026-2027 catalog page.",
+      "sourceUrl": "https://catalog.cpp.edu/preview_program.php?catoid=78&poid=24271",
+      "quote": "CS 6640 - Graduate Seminar (1)"
+    },
+    {
+      "id": "f58",
+      "kind": "requirement",
+      "name": "Major elective unit range",
+      "detail": "The catalog sets major electives at 12-15 units.",
+      "sourceUrl": "https://catalog.cpp.edu/preview_program.php?catoid=78&poid=24271",
+      "quote": "Major Electives: 12-15 units"
+    },
+    {
+      "id": "f59",
+      "kind": "requirement",
+      "name": "Elective units with project vs thesis",
+      "detail": "Students select 15 semester units of electives with the Master's Degree Project or 12 semester units with the Master's Degree Thesis. Earlier department-page fact f26 quoted 18 units with the project or 15 with the thesis; both quotes are kept and no winner is chosen.",
+      "sourceUrl": "https://catalog.cpp.edu/preview_program.php?catoid=78&poid=24271",
+      "quote": "Select 15 semester units (with Master's Degree Project) or 12 semester units (with Master's Degree Thesis)"
+    },
+    {
+      "id": "f60",
+      "kind": "requirement",
+      "name": "Culminating experience unit range and options",
+      "detail": "Students choose Option 1 (2 units) or Option 2 (5 units) for the culminating experience.",
+      "sourceUrl": "https://catalog.cpp.edu/preview_program.php?catoid=78&poid=24271",
+      "quote": "Culminating Experience: 2-5 units Choose Option 1 (2 units) or Option 2 (5 units)."
+    },
+    {
+      "id": "f61",
+      "kind": "requirement",
+      "name": "Project vs thesis recommendation",
+      "detail": "The page recommends the MS Project for students seeking industry placement right after graduation, and the MS Thesis for research labs or advanced education such as a Ph.D.",
+      "sourceUrl": "https://catalog.cpp.edu/preview_program.php?catoid=78&poid=24271",
+      "quote": "In general, MS Project is recommended for students seeking industry placement right after graduation. MS Thesis option is recommended for students seeking placement at research labs and/or advanced education such as PhD."
+    },
+    {
+      "id": "f62",
+      "kind": "requirement",
+      "name": "Option 1 project units",
+      "detail": "Option 1 requires 1 unit of CS 6910 Directed Research and 1 unit of CS 6950 Master's Degree Project. The catalog titles CS 6910 Directed Research; an earlier department-page fact called it Directed Study. Both quotes are kept and no winner is chosen.",
+      "sourceUrl": "https://catalog.cpp.edu/preview_program.php?catoid=78&poid=24271",
+      "quote": "Option 1: 2 units CS 6910 - Directed Research (1-3) (1 unit required) CS 6950 - Master's Degree Project (1) (1 unit required)"
+    },
+    {
+      "id": "f63",
+      "kind": "requirement",
+      "name": "Option 2 thesis units",
+      "detail": "Option 2 requires 2 units of CS 6910 Directed Research and 3 units of CS 6960 Master's Degree Thesis.",
+      "sourceUrl": "https://catalog.cpp.edu/preview_program.php?catoid=78&poid=24271",
+      "quote": "Option 2: 5 units CS 6910 - Directed Research (1-3) (2 units required) CS 6960 - Master's Degree Thesis (1-3) (3 units required)"
+    },
+    {
+      "id": "f64",
+      "kind": "requirement",
+      "name": "4000-level elective cap and excluded courses",
+      "detail": "Up to 6 semester units of CS 4000+ electives may count, excluding CS 4000, 4310, 4610, 4620, 4630, and 4800.",
+      "sourceUrl": "https://catalog.cpp.edu/preview_program.php?catoid=78&poid=24271",
+      "quote": "Computer Science MS students can take up to 6 semester units of CS 4000+ level elective classes to satisfy their elective courses requirement, excluding the following courses: CS 4000 , CS 4310 , CS 4610 , CS 4620 , CS 4630 , and CS 4800 ."
+    },
+    {
+      "id": "f65",
+      "kind": "requirement",
+      "name": "No repeat of undergraduate 4000-level classes",
+      "detail": "Those 4000+ classes cannot be ones the student already took as an undergraduate.",
+      "sourceUrl": "https://catalog.cpp.edu/preview_program.php?catoid=78&poid=24271",
+      "quote": "However, these 4000+ level classes cannot be classes that a CS MS student already took in their undergraduate curriculum."
+    },
+    {
+      "id": "f66",
+      "kind": "requirement",
+      "name": "CS 4990 and CS 5990 unit caps",
+      "detail": "A master's contract may include at most 6 semester units of CS 4990 and 6 semester units of CS 5990.",
+      "sourceUrl": "https://catalog.cpp.edu/preview_program.php?catoid=78&poid=24271",
+      "quote": "Therefore, in a master's contract, a CS MS student can have a maximum of 6 semester units of CS 4990 and 6 semester units of CS 5990 course credits."
+    },
+    {
+      "id": "f67",
+      "kind": "course",
+      "name": "CS 6910",
+      "detail": "Directed Research, 1-3 units, used in both culminating options.",
+      "sourceUrl": "https://catalog.cpp.edu/preview_program.php?catoid=78&poid=24271",
+      "quote": "CS 6910 - Directed Research (1-3)"
+    },
+    {
+      "id": "f68",
+      "kind": "course",
+      "name": "CS 6950",
+      "detail": "Master's Degree Project, 1 unit, used in Option 1.",
+      "sourceUrl": "https://catalog.cpp.edu/preview_program.php?catoid=78&poid=24271",
+      "quote": "CS 6950 - Master's Degree Project (1)"
+    },
+    {
+      "id": "f69",
+      "kind": "course",
+      "name": "CS 6960",
+      "detail": "Master's Degree Thesis, 1-3 units, used in Option 2 (3 units required).",
+      "sourceUrl": "https://catalog.cpp.edu/preview_program.php?catoid=78&poid=24271",
+      "quote": "CS 6960 - Master's Degree Thesis (1-3)"
+    },
+    {
+      "id": "f70",
+      "kind": "course",
+      "name": "CPU 5003",
+      "detail": "Listed under Summer Sponsored Experience at 0 units.",
+      "sourceUrl": "https://catalog.cpp.edu/preview_program.php?catoid=78&poid=24271",
+      "quote": "CPU 5003 - Cal Poly Pomona Graduate Sponsored Summer Experience (0)"
+    },
+    {
+      "id": "f71",
+      "kind": "course",
+      "name": "CS 5170",
+      "detail": "Listed as a major elective on the 2026-2027 catalog program page.",
+      "sourceUrl": "https://catalog.cpp.edu/preview_program.php?catoid=78&poid=24271",
+      "quote": "CS 5170 - Advanced Natural Language Processing (3)"
+    },
+    {
+      "id": "f72",
+      "kind": "course",
+      "name": "CS 5180",
+      "detail": "Listed as a major elective on the 2026-2027 catalog program page.",
+      "sourceUrl": "https://catalog.cpp.edu/preview_program.php?catoid=78&poid=24271",
+      "quote": "CS 5180 - Information Retrieval (3)"
+    },
+    {
+      "id": "f73",
+      "kind": "course",
+      "name": "CS 5190",
+      "detail": "Listed as a major elective on the 2026-2027 catalog program page.",
+      "sourceUrl": "https://catalog.cpp.edu/preview_program.php?catoid=78&poid=24271",
+      "quote": "CS 5190 - Computer Vision (3)"
+    },
+    {
+      "id": "f74",
+      "kind": "course",
+      "name": "CS 5240",
+      "detail": "Listed as a major elective on the 2026-2027 catalog program page.",
+      "sourceUrl": "https://catalog.cpp.edu/preview_program.php?catoid=78&poid=24271",
+      "quote": "CS 5240 - Software for Intelligent Robotics (3)"
+    },
+    {
+      "id": "f75",
+      "kind": "course",
+      "name": "CS 5220",
+      "detail": "Listed as a major elective on the 2026-2027 catalog program page.",
+      "sourceUrl": "https://catalog.cpp.edu/preview_program.php?catoid=78&poid=24271",
+      "quote": "CS 5220 - Distributed Intelligence in Robotics (3)"
+    },
+    {
+      "id": "f76",
+      "kind": "course",
+      "name": "CS 5230",
+      "detail": "Listed as a major elective on the 2026-2027 catalog program page.",
+      "sourceUrl": "https://catalog.cpp.edu/preview_program.php?catoid=78&poid=24271",
+      "quote": "CS 5230 - Connected and Autonomous Vehicles (3)"
+    },
+    {
+      "id": "f77",
+      "kind": "course",
+      "name": "CS 5310",
+      "detail": "Listed as a major elective on the 2026-2027 catalog program page.",
+      "sourceUrl": "https://catalog.cpp.edu/preview_program.php?catoid=78&poid=24271",
+      "quote": "CS 5310 - Computability and Complexity Theory (3)"
+    },
+    {
+      "id": "f78",
+      "kind": "course",
+      "name": "CS 5350",
+      "detail": "Listed as a major elective on the 2026-2027 catalog program page.",
+      "sourceUrl": "https://catalog.cpp.edu/preview_program.php?catoid=78&poid=24271",
+      "quote": "CS 5350 - Parallel and Distributed Algorithms (3)"
+    },
+    {
+      "id": "f79",
+      "kind": "course",
+      "name": "CS 5370",
+      "detail": "Listed as a major elective on the 2026-2027 catalog program page.",
+      "sourceUrl": "https://catalog.cpp.edu/preview_program.php?catoid=78&poid=24271",
+      "quote": "CS 5370 - Scheduling Algorithms (3)"
+    },
+    {
+      "id": "f80",
+      "kind": "course",
+      "name": "CS 5400",
+      "detail": "Listed as a major elective on the 2026-2027 catalog program page.",
+      "sourceUrl": "https://catalog.cpp.edu/preview_program.php?catoid=78&poid=24271",
+      "quote": "CS 5400 - Topics in Compiler Design (3)"
+    },
+    {
+      "id": "f81",
+      "kind": "course",
+      "name": "CS 5500",
+      "detail": "Listed as a major elective on the 2026-2027 catalog program page.",
+      "sourceUrl": "https://catalog.cpp.edu/preview_program.php?catoid=78&poid=24271",
+      "quote": "CS 5500 - Advanced Information Security (3)"
+    },
+    {
+      "id": "f82",
+      "kind": "course",
+      "name": "CS 5550",
+      "detail": "Listed as a major elective on the 2026-2027 catalog program page.",
+      "sourceUrl": "https://catalog.cpp.edu/preview_program.php?catoid=78&poid=24271",
+      "quote": "CS 5550 - Digital Image Processing (3)"
+    },
+    {
+      "id": "f83",
+      "kind": "course",
+      "name": "CS 5510",
+      "detail": "Listed as a major elective on the 2026-2027 catalog program page.",
+      "sourceUrl": "https://catalog.cpp.edu/preview_program.php?catoid=78&poid=24271",
+      "quote": "CS 5510 - Data Privacy and Security (3)"
+    },
+    {
+      "id": "f84",
+      "kind": "course",
+      "name": "CS 5520",
+      "detail": "Listed as a major elective on the 2026-2027 catalog program page.",
+      "sourceUrl": "https://catalog.cpp.edu/preview_program.php?catoid=78&poid=24271",
+      "quote": "CS 5520 - Machine Learning for Cyber Security (3)"
+    },
+    {
+      "id": "f85",
+      "kind": "course",
+      "name": "CS 5560",
+      "detail": "Listed as a major elective on the 2026-2027 catalog program page.",
+      "sourceUrl": "https://catalog.cpp.edu/preview_program.php?catoid=78&poid=24271",
+      "quote": "CS 5560 - Game Theory and its Applications in Communication Networks (3)"
+    },
+    {
+      "id": "f86",
+      "kind": "course",
+      "name": "CS 5650",
+      "detail": "Listed as a major elective on the 2026-2027 catalog program page.",
+      "sourceUrl": "https://catalog.cpp.edu/preview_program.php?catoid=78&poid=24271",
+      "quote": "CS 5650 - Advanced Computer Networks (3)"
+    },
+    {
+      "id": "f87",
+      "kind": "course",
+      "name": "CS 5660",
+      "detail": "Listed as a major elective on the 2026-2027 catalog program page.",
+      "sourceUrl": "https://catalog.cpp.edu/preview_program.php?catoid=78&poid=24271",
+      "quote": "CS 5660 - Distributed Computing Systems (3)"
+    },
+    {
+      "id": "f88",
+      "kind": "course",
+      "name": "CS 5670",
+      "detail": "Listed as a major elective on the 2026-2027 catalog program page.",
+      "sourceUrl": "https://catalog.cpp.edu/preview_program.php?catoid=78&poid=24271",
+      "quote": "CS 5670 - Computational Social Systems (3)"
+    },
+    {
+      "id": "f89",
+      "kind": "course",
+      "name": "CS 5700",
+      "detail": "Listed as a major elective on the 2026-2027 catalog program page.",
+      "sourceUrl": "https://catalog.cpp.edu/preview_program.php?catoid=78&poid=24271",
+      "quote": "CS 5700 - Human Computer Interaction (3)"
+    },
+    {
+      "id": "f90",
+      "kind": "course",
+      "name": "CS 5750",
+      "detail": "Listed as a major elective on the 2026-2027 catalog program page.",
+      "sourceUrl": "https://catalog.cpp.edu/preview_program.php?catoid=78&poid=24271",
+      "quote": "CS 5750 - Topics in Database Systems (3)"
+    },
+    {
+      "id": "f91",
+      "kind": "course",
+      "name": "CS 5850",
+      "detail": "Listed as a major elective on the 2026-2027 catalog program page.",
+      "sourceUrl": "https://catalog.cpp.edu/preview_program.php?catoid=78&poid=24271",
+      "quote": "CS 5850 - Software Verification and Validation (3)"
+    },
+    {
+      "id": "f92",
+      "kind": "course",
+      "name": "CS 5860",
+      "detail": "Listed as a major elective on the 2026-2027 catalog program page.",
+      "sourceUrl": "https://catalog.cpp.edu/preview_program.php?catoid=78&poid=24271",
+      "quote": "CS 5860 - Software Metrics and Models (3)"
+    },
+    {
+      "id": "f93",
+      "kind": "course",
+      "name": "CS 5990",
+      "detail": "Listed as a major elective on the 2026-2027 catalog program page.",
+      "sourceUrl": "https://catalog.cpp.edu/preview_program.php?catoid=78&poid=24271",
+      "quote": "CS 5990 - Special Topics for Graduate Students (1-3) *"
+    },
+    {
+      "id": "f94",
+      "kind": "course",
+      "name": "CS 6990",
+      "detail": "Listed as a major elective on the 2026-2027 catalog program page.",
+      "sourceUrl": "https://catalog.cpp.edu/preview_program.php?catoid=78&poid=24271",
+      "quote": "CS 6990 - Master's Degree Continuation (0)"
+    },
+    {
+      "id": "f95",
+      "kind": "course",
+      "name": "CS 5440",
+      "detail": "Listed as a major elective on the 2026-2027 catalog program page.",
+      "sourceUrl": "https://catalog.cpp.edu/preview_program.php?catoid=78&poid=24271",
+      "quote": "CS 5440 - Advanced Data Mining (3)"
+    },
+    {
+      "id": "f96",
+      "kind": "course",
+      "name": "CS 6910",
+      "detail": "Listed as a major elective on the 2026-2027 catalog program page.",
+      "sourceUrl": "https://catalog.cpp.edu/preview_program.php?catoid=78&poid=24271",
+      "quote": "CS 6910 - Directed Research (1-3) (1 unit required)"
+    },
+    {
+      "id": "f97",
+      "kind": "course",
+      "name": "CS 6950",
+      "detail": "Listed as a major elective on the 2026-2027 catalog program page.",
+      "sourceUrl": "https://catalog.cpp.edu/preview_program.php?catoid=78&poid=24271",
+      "quote": "CS 6950 - Master's Degree Project (1) (1 unit required)"
+    },
+    {
+      "id": "f98",
+      "kind": "course",
+      "name": "CS 6910",
+      "detail": "Listed as a major elective on the 2026-2027 catalog program page.",
+      "sourceUrl": "https://catalog.cpp.edu/preview_program.php?catoid=78&poid=24271",
+      "quote": "CS 6910 - Directed Research (1-3) (2 units required)"
+    },
+    {
+      "id": "f99",
+      "kind": "course",
+      "name": "CS 6960",
+      "detail": "Listed as a major elective on the 2026-2027 catalog program page.",
+      "sourceUrl": "https://catalog.cpp.edu/preview_program.php?catoid=78&poid=24271",
+      "quote": "CS 6960 - Master's Degree Thesis (1-3) (3 units required)"
+    }
+  ]
+}

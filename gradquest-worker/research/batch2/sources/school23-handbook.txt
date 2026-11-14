@@ -1,0 +1,269 @@
+MS and PhD in Computer Science Program
+Handbook
+
+Welcome
+Message from Chair
+The Department of Computer Science at Howard R. Hughes College of Engineering, UNLV invites you to explore
+our graduate curriculum, which offers Master, and PhD degrees in Computer Science. Our courses are periodically
+updated to reflect the changing nature of computer science and information technology. Such courses are selectively
+embedded to develop specialized programs and concentration areas.
+Our graduate programs, leading to MS and PhD degrees, are designed to pursue research at the frontier of the com
+puter science and application areas. The graduate program is supported by faculty who are actively participating in
+research and development in specialized areas such as algorithm analysis, database systems, machine learning, cy
+bersecurity, and image processing. Several in-house computer laboratories support teaching and research activities.
+We take the suggestions given by our stakeholders very seriously and incorporate their recommendations to en
+hance our programs and curriculum.
+
+ Mission Statement(s)
+Enable students to achieve excellence in computer science at the undergraduate, graduate, and pro
+fessional levels. Promote discovery, integration, dissemination and deployment of new knowledge
+in computer science in service to society.
+
+ Purpose
+The purpose of this handbook is to provide program specific information that is not found in the
+UNLV Graduate Catalog. Students are responsible for understanding and following the policies
+and procedures delineated in this document and the UNLV Graduate Catalog, as well as the NSHE
+Code, UNLV Bylaws, and the UNLV Student Conduct Code. Questions about policies should be
+directed to the Graduate College: valarie.burke@unlv.edu or GradAssociateDean@unlv.edu.
+
+Department Graduate Faculty
+A current listing of the graduate faculty can be found in the UNLV Graduate Catalog. Faculty
+must hold either associate or full graduate faculty status to be involved in graduate education at
+UNLV. For up to date information regarding graduate faculty status in your department, visit
+the Graduate Faculty status web page.
+
+Program Information
+Program information is found in the UNLV Graduate Catalog:
+Master of Science in Computer Science
+Doctor of Philosophy - Computer Science
+
+Contact Information
+Department Website: Computer Science
+Department Chair
+Laxmi P Gewali, TBE A-220, laxmi.gewali@unlv.edu
+
+
+Graduate Coordinator
+Fatma Nasoz, AEB 356, fatma.nasoz@unlv.edu
+
+Department Main Office
+TBE A-220, mario.martin@unlv.edu, leslie.crysler@unlv.edu Phone: 702 895-3681, Fax: 702 895-2639
+Program Requirements
+ Advisory Committee Guidelines
+The Computer Science follows the guideline of the Graduate College. The role of the
+advisory committee is described in the Graduate Student Handbook
+
+Degree Program Benchmarks
+This is described in the Graduate Catalog for the Master of Science in Computer Science and
+Doctor of Philosophy - Computer Science. Please note that students may not enroll in the
+sis/dissertation credits until they have completed all program courses (except for thesis/dis
+sertation credits) and have approved program forms for the program. If students fail any of
+their milestone requirements in their first attempt, they will be placed on probation via the
+Graduate College process. If the student fails a second attempt, they may be separated from
+the program.
+
+Program Timeline
+The general guideline is listed in the graduate catalog under the Graduate Study Timeline section.
+In Computer Science, it is expected to take two years for the Master degree and four to six years
+for the Ph.D. degree.
+
+Professional Code of Ethics/Discipline Guidelines
+UNLV Graduate College policy regarding academic integrity can be found in the graduate catalog.
+
+Annual Mandatory Individual Development Plan
+Each winter break and early spring term, graduate students are required to complete the Graduate Student Individ
+ual Development Plan (IDP) form [Formerly known as the Student Annual Review]. The review covers the prior
+calendar year and assesses student progress, and it establishes reasonable goals for the year ahead.
+Faculty Advisors/Graduate Coordinators have the option to provide feedback to each students’ submitted IDP and
+provide acknowledgement that they have reviewed the IDP.
+Reported student data is shared with students’ graduate coordinators and advisors to foster opportunities for discus
+sion about students’ strengths and weaknesses, accomplishments and next requirements, and mentoring plans so
+that students know what they need to do in order to progress successfully through their programs in a timely man
+ner.
+Students who are graduating are also required to complete the form in order to record their achievements since
+the data is also used to track UNLV metrics related to the annual productivity of all students.
+
+Probation
+If a student fails to successfully progress in their degree program, their department/school will recommend
+that the student be placed on probation by the Graduate College. Students on probation may be
+dismissed/separated from their program for failing to successfully meet the conditions of their probation by the
+deadline provided. Please see the Probation and Separation section of the Graduate Catalog for more
+information.
+
+Additional Program Information
+The Computer Science department offers research opportunities in the following
+ areas: 1. Design and analysis of algorithms
+ 2. Operating and distributedsystems
+ 3. Computer architecture and networking
+ 4. Computational geometry and robotics
+ 5. Computer graphics and image processing
+ 6. Programming languages and compiler construction
+ 7. Artificial intelligence and expert systems
+ 8. Database design, document analysis and retrieval
+ 9. Software engineering
+ 10.Information security
+ 11.Data sciences
+
+Ph.D. students are expected to make a significant contribution to the Computer Science research
+community through research publications. Those students who are aiming for an academic
+ career
+ are required to build a stronger research record.
+
+ Discipline Resources
+ Computer Science professional organizations include Association for Computing Machinery (ACM) and In
+ stitute of Electrical and Electronics Engineers (IEEE) Computer Society. Student memberships are available
+ for graduate students at a low cost. Both organizations offer a large collection of research articles through
+ their digital library (IEEExplore and ACM Digital Library) that is accessible from any computer on campus or
+ from off campus through UNLV library services. For publication writing style, both ACM and IEEE provide
+ a paper template on their web site. UNLV Computer Science department is an institutional member of Com
+ puting Research Association (CRA). Its web site (CRA) offers valuable resources for Computer Science re
+ searchers including the current research issues, enrollment information in Computer Science, employment
+ data and salary information for Computer Science graduates. There are hundreds of conferences and journals
+ in Computer Science. Their ranking information is available in a few dozen web sites and can be easily found
+ through web search. For conference attendance, partial travel support is available from UNLV Graduate and
+ Professional Student Association (GPSA)
+
+University Resources
+The Graduate Academy: Innovative Leadership, Professional, and Career Development
+The goal of the Graduate Academy is to serve as a virtual resource providing support and many professional
+opportunities to UNLV graduate students. The Academy offers information about events and services such as
+graduate certificate programs, workshops, training sessions and career services. You can follow Academy
+activities via social media or look for regular updates on the website.
+
+Alumni Engagement
+With an alumni base 150,000+ strong, the UNLV Alumni Engagement offers a variety of services and
+opportunities in support of alumni and their families. UNLV alumni are encouraged to support the values of
+higher learning through advocacy, involvement, and giving.
+
+Commencement Office
+Located in the UNLV Office of the Registrar, the commencement office is the last step in the graduation
+process. Please check with the commencement office for information on the commencement ceremony and
+your diploma; for all other information about graduate student degree completion and graduation, including
+thesis/dissertation requirements and doctoral hooding, please contact the Graduate College. It is the students'
+responsibility to ensure they apply for graduation on time and submit all required forms to the Graduate
+College. Questions regarding thesis/dissertation should be directed to the Graduate College Student Services
+Team and questions regarding required forms should be directed to the Graduate College RPC Team.
+
+Institutional Engagement and Experience
+The vision of the Institutional Engagement and Experience is to advocate, promote, and support the
+advancement of equity, inclusiveness, and empowerment of a continuously changing collegiate and global
+community. The mission is to provide leadership and support for UNLV’s engagement mission: to nurture
+equity, diversity, and inclusiveness that promotes respect, support, and empowerment. This Office is housed under the
+Division of Human Resources and also handles UNLV Title IX questions, inquiries, and reporting.
+
+Disability Resource Center (DRC)
+The DRC is committed to supporting students with disabilities at UNLV through the appropriate use of
+advocacy, accommodations, and supportive services to ensure access to campus courses, services, and
+activities. The DRC is the university-designated office that determines and facilitates reasonable
+accommodations in compliance with the Americans with Disabilities Act (ADA) and Section 504 of the
+Rehabilitation Act of 1973. Graduate students with disabilities must disclose to the DRC in order to receive
+appropriate accommodations.
+Graduate Appeals and Issue Resolution
+The Office of Graduate Student Services at the Graduate College assists graduate and professional students
+with addressing concerns and overcoming personal, academic, or financial challenges that might hinder their
+ability to be successful in their program. The office also provides information and student-centered issue-
+resolution services and offers guidance, information, and assistance when regular channels have failed to
+provide graduate students with the information they need to solve problems. Please see website for more
+information: https://www.unlv.edu/graduatecollege/appeals-issue-resolution
+
+UNLV Global and the Office of International Student and Scholar Compliance
+International Student and Scholar Compliance (ISSC) ensures compliance with both SEVIS (Student and
+Exchange Visitor Information System) and federal law, so that the university can continue to be authorized by
+the U.S. federal government to enroll international students; host and hire international scholars; assist and
+advise employment eligibility and authorization relating to international students and scholars, and visa, travel,
+and immigration issues; provide critical and specialized services to the international students and scholars of
+the UNLV community; and facilitate their transition to the campus and the U.S.
+
+The Care Center
+The Care Center is committed to creating a supportive and inclusive environment for all genders through
+programming, services, and advocacy for the UNLV community. The Women's Center has informational
+resources, brochures, and flyers for a variety of on and off campus organizations to help empower and protect
+yourself, and learn about your options. They also provide free tampons, pads, and condoms.
+
+The Intersection
+The Intersection is a one-stop resource for UNLV’s highly diverse student body — a comprehensive
+multicultural center grounded in the academic life of our students. As an intersecting campus resource, the
+Intersection helps ensure students, particularly first-generation and students of color, successfully navigate
+their academic careers. Here, all members of campus can discuss their differences, discover their similarities,
+and build a shared sense of belonging.
+
+UNLV Libraries
+UNLV Libraries has always been more than books; they are about encouraging students and creating quality
+programs that elevate growth and learning. Please visit their website for important information about the
+services they offer to graduate students.
+
+Graduate & Professional Student Association (GPSA)
+The Graduate & Professional Student Association serves all currently enrolled University of Nevada, Las
+Vegas graduate and professional students. The GPSA maintains the Graduate Student Commons located in
+the Lied Library room 2141 and Gateway Building PDAC Room. The facility is a working office equipped
+with a copier, fax, flatbed scanners, color laser printer, office supplies, and computers with printers and a small
+kitchen area. The GPSA is the graduate student governance body at UNLV; the GPSA Council consists of
+one graduate student representative from each graduate department, and they meet monthly. The GPSA also
+provides volunteer opportunities, sponsors social events, and supports graduate student research through the
+graduate research and travel grants program.
+
+Office of Student Rights and Responsibilities
+The Office of Student Rights & Responsibilities is a student-centered, service-oriented office located within
+the Division of Student Affairs. The Office of Student Rights & Responsibilities collaborates with the UNLV
+community to provide an inclusive system through enforcement of the UNLV Student Code of Conduct by:
+
+    •   Promoting awareness of student rights and responsibilities;
+    •   Establishing accountability for student choices;
+    •   Creating opportunities for involvement in the process; and
+    •   Striving to uphold the values and ethics that advance the common good.
+Military and Veteran Services Center
+The Military and Veteran Service Center is staffed with veterans and veteran education benefits-experienced
+staff to assist more than 1,800 veterans, dependents, active-duty service members, National Guard members,
+and reservists attending UNLV. Their mission is to develop a welcoming, veteran-friendly campus
+environment that fosters academic and personal success.
+
+The Financial Aid & Scholarships Office
+The Financial Aid & Scholarships Office supports higher-education access and persistence by providing
+financial aid to eligible students. The office partners with student organizations, the UNLV Foundation, the
+Graduate College, and other external constituents to provide financial aid learning opportunities and
+scholarship support for graduate students.
+
+Writing Center
+This is a free service to UNLV students to help you with any writing project, from papers to creative writing,
+to resumes, and we can work with you at any stage of the writing process. The center can help you brainstorm,
+make an outline, work on your drafts, or just be a soundboard for your ideas. The center staff can assist you in
+person, or via the Online Writing Lab (OWL) page.
+
+
+University Policies and Procedures
+ Graduate students are responsible for knowing and acting in accordance with UNLV Policies and Procedures.
+ To view the most commonly referenced campus policies and procedures, you can refer to the following
+ websites:
+  • Academic Integrity
+  • Activation for Military Service
+  • Change of Address
+  • FERPA/Privacy Rights
+  • Health Insurance - Mandatory
+  • Jean Clery Campus Safety and Security Report
+  • Proof of Immunization
+  • Policies and Procedures on the Protection of Research Subjects
+  • Rebelmail Policy
+  • Student Conduct Code
+  • Student Computer Use Policy
+  • Title IX
+ UNLV does not discriminate in its employment practices or in its educational programs or activities, including ad
+ missions, on the basis of sex/gender pursuant to Title IX, or on the basis of any other legally protected category as
+ is set forth in NSHE Handbook Title 4, Chapter 8, Section 13. Reports of discriminatory misconduct, questions re
+ garding Title IX, and/or concerns about noncompliance with Title IX or any other anti-discrimination laws or poli
+ cies should be directed to UNLV’s Title IX Coordinator Michelle Sposito.
+ The Title IX Coordinator can be reached through the online reporting form, or by email at titleixcoordina
+ tor@unlv.edu, by phone at (702) 895-4055, by mail at 4505 S. Maryland Parkway, Box 451062, Las Vegas, NV,
+ 89154-1062, or in person at Frank and Estella Beam Hall (BEH), Room 555.
+ To ensure compliance with Graduate College policies and procedures, please review the relevant sections of
+ the Graduate Catalog:
+             • Academic Calendar
+             • Academic Policies
+             • Admission and Registration Information
+             • Degree Progression Policies & Procedures
+ In addition, the Graduate College website contains additional information regarding policies and
+ procedures. Nothing in this handbook supersedes any NSHE, UNLV, or Graduate College policy.
+Handbook Information
+ Last revised    Revised by     Changes summary
+
+ March 2020      Laxmi Gawali   Updated contact information and policies (votes 3/31; 11-0-3)
+

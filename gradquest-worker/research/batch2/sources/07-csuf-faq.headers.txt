@@ -1,0 +1,15 @@
+HTTP/2 200 
+date: Sat, 14 Nov 2026 06:14:38 GMT
+content-type: text/html; charset=UTF-8
+server-timing: cfCacheStatus;desc="DYNAMIC"
+server-timing: cfEdge;dur=13,cfOrigin;dur=99
+vary: Accept-Encoding
+server: cloudflare
+x-powered-by: PHP/8.5.12
+access-control-allow-origin: *
+cf-cache-status: DYNAMIC
+set-cookie: __cf_bm=IDqQx1ZfA37jHlQlNs2X_rs03U8_l52aiW0dt02sOlo-1794636878.0718455-1.0.1.1-ykdzF29_NXs0yHMuCpprm4yvkAsvJVnJyZBS6ysbm4U9E8SlnLA7ryvTEuQrXjwbrhngrJHTg5L2NeFbUPXwIKNkW8vuTSxF81CAPyNHXgNwAjox9U4Zq7aZlf1xRXPw; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=fullerton.edu; Expires=Sat, 14 Nov 2026 06:44:38 GMT
+set-cookie: __cflb=0H28vqVZqbd52CKJyogLYTdZ3mzRKMPa2dEhZtHkhg1; HttpOnly; SameSite=None; Secure; Path=/; Expires=Sat, 14 Nov 2026 06:44:38 GMT
+content-encoding: gzip
+cf-ray: a5a3e087ed4b1316-IAD
+

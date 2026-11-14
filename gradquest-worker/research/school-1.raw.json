@@ -1,0 +1,477 @@
+{
+  "schoolId": 1,
+  "schoolName": "Arizona State University",
+  "programName": "Computer Science, M.S.",
+  "pages": [
+    {
+      "kind": "overview",
+      "url": "https://degrees.asu.edu/masters-phd/major/ASU00/ESCOMSCMS/computer-science-ms"
+    },
+    {
+      "kind": "admissions",
+      "url": "https://degrees.asu.edu/masters-phd/major/ASU00/ESCOMSCMS/computer-science-ms"
+    },
+    {
+      "kind": "curriculum",
+      "url": "https://degrees.asu.edu/masters-phd/major/ASU00/ESCOMSCMS/computer-science-ms"
+    },
+    {
+      "kind": "faculty",
+      "url": "https://docs.google.com/spreadsheets/d/1SpL7-42ZH0EuwMNZf515_hpVd2Jy0_yLz6_PM67ZwLQ/edit?gid=0#gid=0"
+    },
+    {
+      "kind": "deadlines",
+      "url": "https://degrees.asu.edu/masters-phd/major/ASU00/ESCOMSCMS/computer-science-ms"
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "kind": "overview",
+      "name": "On-campus research MS",
+      "detail": "The on-campus Computer Science M.S. is described as research-focused training in theory, systems, and applications.",
+      "sourceUrl": "https://degrees.asu.edu/masters-phd/major/ASU00/ESCOMSCMS/computer-science-ms",
+      "quote": "The on-campus Master of Science program in computer science provides rigorous, research-focused training in theory, systems and applications, preparing you to advance the frontiers of computing"
+    },
+    {
+      "id": "f2",
+      "kind": "overview",
+      "name": "Distinct from the MCS",
+      "detail": "The page distinguishes this research M.S. from the industry-oriented Master of Computer Science.",
+      "sourceUrl": "https://degrees.asu.edu/masters-phd/major/ASU00/ESCOMSCMS/computer-science-ms",
+      "quote": "Unlike the industry-oriented Master of Computer Science program, the MS program in computer science emphasizes fundamental and applied research."
+    },
+    {
+      "id": "f3",
+      "kind": "overview",
+      "name": "Location and college",
+      "detail": "The degree is listed at the Tempe campus in the Ira A. Fulton Schools of Engineering.",
+      "sourceUrl": "https://degrees.asu.edu/masters-phd/major/ASU00/ESCOMSCMS/computer-science-ms",
+      "quote": "Ira A. Fulton Schools of Engineering"
+    },
+    {
+      "id": "f4",
+      "kind": "overview",
+      "name": "30 credit hours",
+      "detail": "The program is listed as 30 credit hours.",
+      "sourceUrl": "https://degrees.asu.edu/masters-phd/major/ASU00/ESCOMSCMS/computer-science-ms",
+      "quote": "30 credit hours"
+    },
+    {
+      "id": "f5",
+      "kind": "overview",
+      "name": "Thesis or nonthesis option",
+      "detail": "Students may choose a thesis or nonthesis culminating experience.",
+      "sourceUrl": "https://degrees.asu.edu/masters-phd/major/ASU00/ESCOMSCMS/computer-science-ms",
+      "quote": "You may pursue either a thesis or nonthesis option as your culminating experience and can explore advanced topics such as:"
+    },
+    {
+      "id": "f6",
+      "kind": "overview",
+      "name": "Advanced topic areas",
+      "detail": "Listed topic areas include AI, cybersecurity, quantum computing, and related areas.",
+      "sourceUrl": "https://degrees.asu.edu/masters-phd/major/ASU00/ESCOMSCMS/computer-science-ms",
+      "quote": "including artificial intelligence, cybersecurity, quantum computing and other novel paradigms."
+    },
+    {
+      "id": "f7",
+      "kind": "overview",
+      "name": "STEM-OPT eligible",
+      "detail": "The program page marks the degree as STEM-OPT extension eligible.",
+      "sourceUrl": "https://degrees.asu.edu/masters-phd/major/ASU00/ESCOMSCMS/computer-science-ms",
+      "quote": "STEM-OPT extension eligible: Yes"
+    },
+    {
+      "id": "f8",
+      "kind": "overview",
+      "name": "STEM-OPT length",
+      "detail": "The page says F-1 students can extend U.S. work experience by 24 months.",
+      "sourceUrl": "https://degrees.asu.edu/masters-phd/major/ASU00/ESCOMSCMS/computer-science-ms",
+      "quote": "International students (F1) can extend U.S. work experience by 24 months."
+    },
+    {
+      "id": "f9",
+      "kind": "overview",
+      "name": "Handbook program summary",
+      "detail": "The 2026-2027 M.S. handbook describes a 30-credit program with a computing and AI foundation.",
+      "sourceUrl": "https://scai.engineering.asu.edu/wp-content/uploads/sites/31/2026/06/MS-CS-Handbook-2026-27.pdf",
+      "quote": "The Master of Science in Computer Science is a 30-credit hour program that provides students with a comprehensive foundation in computer science and AI"
+    },
+    {
+      "id": "f10",
+      "kind": "overview",
+      "name": "Six concentrations",
+      "detail": "The handbook lists a generic program plus five named concentrations.",
+      "sourceUrl": "https://scai.engineering.asu.edu/wp-content/uploads/sites/31/2026/06/MS-CS-Handbook-2026-27.pdf",
+      "quote": "The MS in CS program offers six concentrations:"
+    },
+    {
+      "id": "f11",
+      "kind": "requirement",
+      "name": "Graduate College and Fulton requirements",
+      "detail": "Applicants must meet Graduate College and Ira A. Fulton Schools of Engineering requirements.",
+      "sourceUrl": "https://degrees.asu.edu/masters-phd/major/ASU00/ESCOMSCMS/computer-science-ms",
+      "quote": "Applicants must fulfill the requirements of both the Graduate College and the Ira A. Fulton Schools of Engineering."
+    },
+    {
+      "id": "f12",
+      "kind": "requirement",
+      "name": "Prior degree field",
+      "detail": "Applicants need a bachelor's or master's in computer science, computer engineering, or a closely related area.",
+      "sourceUrl": "https://degrees.asu.edu/masters-phd/major/ASU00/ESCOMSCMS/computer-science-ms",
+      "quote": "Applicants are eligible to apply to the program if they have earned a bachelor's or master's degree in computer science, computer engineering or a closely related area from a regionally accredited institution."
+    },
+    {
+      "id": "f13",
+      "kind": "requirement",
+      "name": "GPA 3.25",
+      "detail": "The degree page requires a minimum 3.25 GPA in the last 60 hours of the first bachelor's degree or in an applicable master's program.",
+      "sourceUrl": "https://degrees.asu.edu/masters-phd/major/ASU00/ESCOMSCMS/computer-science-ms",
+      "quote": "Applicants must have a minimum cumulative GPA of 3.25 (scale is 4.00 = \"A\") in the last 60 hours of their first bachelor's degree program or a minimum cumulative GPA of 3.25 (scale is 4.00 = \"A\") in an applicable master's degree program."
+    },
+    {
+      "id": "f14",
+      "kind": "requirement",
+      "name": "Application materials",
+      "detail": "Required materials include the graduate application and fee, official transcripts, a statement of purpose, and proof of English proficiency.",
+      "sourceUrl": "https://degrees.asu.edu/masters-phd/major/ASU00/ESCOMSCMS/computer-science-ms",
+      "quote": "All applicants must submit:"
+    },
+    {
+      "id": "f15",
+      "kind": "requirement",
+      "name": "Calculus prerequisite",
+      "detail": "Students must have completed two semesters or six credit hours of calculus, equivalent to Calculus I and II, before applying.",
+      "sourceUrl": "https://degrees.asu.edu/masters-phd/major/ASU00/ESCOMSCMS/computer-science-ms",
+      "quote": "Before applying to the program, students must have completed two semesters or six credit hours of calculus, equivalent to Calculus I and II."
+    },
+    {
+      "id": "f16",
+      "kind": "requirement",
+      "name": "Discrete math recommended on degree page",
+      "detail": "The degree page recommends a discrete math course before admission.",
+      "sourceUrl": "https://degrees.asu.edu/masters-phd/major/ASU00/ESCOMSCMS/computer-science-ms",
+      "quote": "Completion of a discrete math course is also recommended before admission."
+    },
+    {
+      "id": "f17",
+      "kind": "requirement",
+      "name": "Discrete math required in handbook",
+      "detail": "The 2026-2027 handbook states a background in discrete math is required for admission.",
+      "sourceUrl": "https://scai.engineering.asu.edu/wp-content/uploads/sites/31/2026/06/MS-CS-Handbook-2026-27.pdf",
+      "quote": "A background in discrete math is required for admission"
+    },
+    {
+      "id": "f18",
+      "kind": "requirement",
+      "name": "Deficiency courses",
+      "detail": "Assigned additional undergraduate courses may include CSE 230, CSE 310, CSE 330, and CSE 340 or CSE 355.",
+      "sourceUrl": "https://degrees.asu.edu/masters-phd/major/ASU00/ESCOMSCMS/computer-science-ms",
+      "quote": "CSE 230 Computer Organization and Assembly Language Programming"
+    },
+    {
+      "id": "f19",
+      "kind": "requirement",
+      "name": "Deficiency grade and timing",
+      "detail": "Assigned additional coursework must be completed with a C or higher within two semesters of admission, according to the degree page.",
+      "sourceUrl": "https://degrees.asu.edu/masters-phd/major/ASU00/ESCOMSCMS/computer-science-ms",
+      "quote": "Students assigned any additional coursework upon admission must complete those classes with a grade of \"C\" (scale is 4.00 = \"A\") or higher within two semesters of admission."
+    },
+    {
+      "id": "f20",
+      "kind": "requirement",
+      "name": "Letters of recommendation not required",
+      "detail": "The SCAI graduate CS page says letters of recommendation are not required for the Computer Science MCS/MS program.",
+      "sourceUrl": "https://scai.engineering.asu.edu/graduate-computer-science/",
+      "quote": "Letters of Recommendation are not required for students applying to the Computer Science MCS/MS program."
+    },
+    {
+      "id": "f21",
+      "kind": "requirement",
+      "name": "GRE not required",
+      "detail": "The 2026-2027 handbook states GRE scores are not required.",
+      "sourceUrl": "https://scai.engineering.asu.edu/wp-content/uploads/sites/31/2026/06/MS-CS-Handbook-2026-27.pdf",
+      "quote": "GRE scores are not required."
+    },
+    {
+      "id": "f22",
+      "kind": "requirement",
+      "name": "Handbook GPA",
+      "detail": "The handbook requires a minimum 3.25 GPA in the last 60 undergraduate credit hours.",
+      "sourceUrl": "https://scai.engineering.asu.edu/wp-content/uploads/sites/31/2026/06/MS-CS-Handbook-2026-27.pdf",
+      "quote": "To be considered for the MS program, we require a minimum cumulative GPA of 3.25 in the last 60 credit hours of the undergraduate degree."
+    },
+    {
+      "id": "f23",
+      "kind": "requirement",
+      "name": "English proficiency",
+      "detail": "The handbook lists English proficiency minimums, including IELTS 6.5.",
+      "sourceUrl": "https://scai.engineering.asu.edu/wp-content/uploads/sites/31/2026/06/MS-CS-Handbook-2026-27.pdf",
+      "quote": "Applicants demonstrate proficiency by scoring at least 80 (if taken before January 21, 2026) or 4 (if taken on or after January 21, 2026) on the TOEFL iBT, 6.5 on the IELTS, or 105 on the Duolingo English test."
+    },
+    {
+      "id": "f24",
+      "kind": "course",
+      "name": "Program options",
+      "detail": "The degree can be completed as a course-based master's, with a thesis, or with the applied project course CSE 593.",
+      "sourceUrl": "https://degrees.asu.edu/masters-phd/major/ASU00/ESCOMSCMS/computer-science-ms",
+      "quote": "30 credit hours - course-based master's, or 30 credit hours and a thesis, or 30 credit hours including the required applied project course (CSE 593)"
+    },
+    {
+      "id": "f25",
+      "kind": "course",
+      "name": "Required core areas",
+      "detail": "All options require 9 credit hours in the core areas of applications, foundations, and systems.",
+      "sourceUrl": "https://degrees.asu.edu/masters-phd/major/ASU00/ESCOMSCMS/computer-science-ms",
+      "quote": "Required Core Areas (9 credit hours)"
+    },
+    {
+      "id": "f26",
+      "kind": "course",
+      "name": "Course-based electives",
+      "detail": "The course-based option includes 21 credit hours of electives.",
+      "sourceUrl": "https://degrees.asu.edu/masters-phd/major/ASU00/ESCOMSCMS/computer-science-ms",
+      "quote": "Students in the course-based option take 21 credit hours of electives."
+    },
+    {
+      "id": "f27",
+      "kind": "course",
+      "name": "Thesis electives",
+      "detail": "Thesis students take 15 credit hours of electives.",
+      "sourceUrl": "https://degrees.asu.edu/masters-phd/major/ASU00/ESCOMSCMS/computer-science-ms",
+      "quote": "Students in the thesis option take 15 credit hours of electives."
+    },
+    {
+      "id": "f28",
+      "kind": "course",
+      "name": "Applied project electives",
+      "detail": "Applied project students take 18 credit hours of electives.",
+      "sourceUrl": "https://degrees.asu.edu/masters-phd/major/ASU00/ESCOMSCMS/computer-science-ms",
+      "quote": "Applied project students take 18 credit hours of electives."
+    },
+    {
+      "id": "f29",
+      "kind": "course",
+      "name": "CSE 593 Applied Project",
+      "detail": "The applied project culminating course is CSE 593 (3 credit hours).",
+      "sourceUrl": "https://degrees.asu.edu/masters-phd/major/ASU00/ESCOMSCMS/computer-science-ms",
+      "quote": "CSE 593 Applied Project (3)"
+    },
+    {
+      "id": "f30",
+      "kind": "course",
+      "name": "CSE 599 Thesis",
+      "detail": "The thesis culminating course is CSE 599 (6 credit hours).",
+      "sourceUrl": "https://degrees.asu.edu/masters-phd/major/ASU00/ESCOMSCMS/computer-science-ms",
+      "quote": "CSE 599 Thesis (6)"
+    },
+    {
+      "id": "f31",
+      "kind": "course",
+      "name": "500-level CSE minimum",
+      "detail": "At least 24 of the 30 credit hours must be 500-level CSE courses at ASU.",
+      "sourceUrl": "https://degrees.asu.edu/masters-phd/major/ASU00/ESCOMSCMS/computer-science-ms",
+      "quote": "At least 24 of these credit hours must be 500-level CSE courses at ASU."
+    },
+    {
+      "id": "f32",
+      "kind": "course",
+      "name": "400-level limit",
+      "detail": "Up to six credit hours of 400-level courses may be applied to the plan of study.",
+      "sourceUrl": "https://degrees.asu.edu/masters-phd/major/ASU00/ESCOMSCMS/computer-science-ms",
+      "quote": "Up to six credit hours of 400-level courses may be applied to the plan of study."
+    },
+    {
+      "id": "f33",
+      "kind": "course",
+      "name": "AI concentration courses",
+      "detail": "The handbook lists CSE 571, CSE 575, CSE 576, and CSE 574 as required AI concentration courses.",
+      "sourceUrl": "https://scai.engineering.asu.edu/wp-content/uploads/sites/31/2026/06/MS-CS-Handbook-2026-27.pdf",
+      "quote": "CSE 571 Artificial Intelligence (3)"
+    },
+    {
+      "id": "f34",
+      "kind": "course",
+      "name": "Cybersecurity concentration course",
+      "detail": "The handbook requires CSE 543 Information Assurance and Security in the cybersecurity concentration.",
+      "sourceUrl": "https://scai.engineering.asu.edu/wp-content/uploads/sites/31/2026/06/MS-CS-Handbook-2026-27.pdf",
+      "quote": "CSE 543: Information Assurance and Security (3)"
+    },
+    {
+      "id": "f35",
+      "kind": "deadline",
+      "name": "Fall priority deadline",
+      "detail": "The degree page lists a Fall in-person priority deadline of 12/01.",
+      "sourceUrl": "https://degrees.asu.edu/masters-phd/major/ASU00/ESCOMSCMS/computer-science-ms",
+      "quote": "12/01"
+    },
+    {
+      "id": "f36",
+      "kind": "deadline",
+      "name": "Spring priority deadline",
+      "detail": "The degree page lists a Spring in-person priority deadline of 08/01.",
+      "sourceUrl": "https://degrees.asu.edu/masters-phd/major/ASU00/ESCOMSCMS/computer-science-ms",
+      "quote": "08/01"
+    },
+    {
+      "id": "f37",
+      "kind": "deadline",
+      "name": "Priority deadline meaning",
+      "detail": "Applications completed before the priority deadline receive priority consideration; later applications are reviewed in order and on a space-available basis.",
+      "sourceUrl": "https://degrees.asu.edu/masters-phd/major/ASU00/ESCOMSCMS/computer-science-ms",
+      "quote": "A priority deadline means that applications submitted and completed before the priority deadline will receive priority consideration."
+    },
+    {
+      "id": "f38",
+      "kind": "deadline",
+      "name": "Handbook deadlines",
+      "detail": "The 2026-2027 handbook lists December 1 for a Fall start and August 1 for a Spring start.",
+      "sourceUrl": "https://scai.engineering.asu.edu/wp-content/uploads/sites/31/2026/06/MS-CS-Handbook-2026-27.pdf",
+      "quote": "December 1 for Fall start"
+    },
+    {
+      "id": "f39",
+      "kind": "deadline",
+      "name": "SCAI deadline table",
+      "detail": "The SCAI graduate CS page lists December 1 for the M.S. or M.C.S. Fall deadline.",
+      "sourceUrl": "https://scai.engineering.asu.edu/graduate-computer-science/",
+      "quote": "December 1 (MS or MCS) or"
+    },
+    {
+      "id": "f40",
+      "kind": "deadline",
+      "name": "TA application for master's students",
+      "detail": "The assistantships page says master's students may apply for Spring 2027 TA, IA, or Grader positions, with a November 7 priority deadline.",
+      "sourceUrl": "https://scai.engineering.asu.edu/teaching-research-assistantships-fellowships-awards/",
+      "quote": "The application for spring 2027 TA, IA or Grader positions available for graduate students are now open. Priority deadline is November 7."
+    },
+    {
+      "id": "f41",
+      "kind": "deadline",
+      "name": "TA awards emphasis",
+      "detail": "The same page states that TA positions are awarded to highly qualified PhD students.",
+      "sourceUrl": "https://scai.engineering.asu.edu/teaching-research-assistantships-fellowships-awards/",
+      "quote": "TA positions are awarded to highly qualified PhD students."
+    },
+    {
+      "id": "f42",
+      "kind": "faculty",
+      "name": "MS thesis chair list",
+      "detail": "A September 2026 list names faculty currently approved to chair a Computer Science M.S. thesis. The FSE faculty directory page did not return a usable name list without JavaScript.",
+      "sourceUrl": "https://docs.google.com/spreadsheets/d/1SpL7-42ZH0EuwMNZf515_hpVd2Jy0_yLz6_PM67ZwLQ/edit?gid=0#gid=0",
+      "quote": "This list below are the faculty who are currently approved to chair a MS thesis for the Computer Science MS programs."
+    },
+    {
+      "id": "f43",
+      "kind": "faculty",
+      "name": "Adil Ahmad",
+      "detail": "Named on the Computer Science M.S. thesis-chair list; the list has no research blurb.",
+      "sourceUrl": "https://docs.google.com/spreadsheets/d/1SpL7-42ZH0EuwMNZf515_hpVd2Jy0_yLz6_PM67ZwLQ/edit?gid=0#gid=0",
+      "quote": "Ahmad,Adil,Adil.Ahmad@asu.edu,Computer Science,Chair"
+    },
+    {
+      "id": "f44",
+      "kind": "faculty",
+      "name": "Gail-Joon Ahn",
+      "detail": "Named on the Computer Science M.S. thesis-chair list; the list has no research blurb.",
+      "sourceUrl": "https://docs.google.com/spreadsheets/d/1SpL7-42ZH0EuwMNZf515_hpVd2Jy0_yLz6_PM67ZwLQ/edit?gid=0#gid=0",
+      "quote": "Ahn,Gail-Joon,gahn@asu.edu,Computer Science,Chair"
+    },
+    {
+      "id": "f45",
+      "kind": "faculty",
+      "name": "Chitta Baral",
+      "detail": "Named on the Computer Science M.S. thesis-chair list; the list has no research blurb.",
+      "sourceUrl": "https://docs.google.com/spreadsheets/d/1SpL7-42ZH0EuwMNZf515_hpVd2Jy0_yLz6_PM67ZwLQ/edit?gid=0#gid=0",
+      "quote": "Baral,Chitta,chitta.baral@asu.edu,Computer Science,Chair"
+    },
+    {
+      "id": "f46",
+      "kind": "faculty",
+      "name": "Rida Bazzi",
+      "detail": "Named on the Computer Science M.S. thesis-chair list; the list has no research blurb.",
+      "sourceUrl": "https://docs.google.com/spreadsheets/d/1SpL7-42ZH0EuwMNZf515_hpVd2Jy0_yLz6_PM67ZwLQ/edit?gid=0#gid=0",
+      "quote": "Bazzi,Rida,bazzi@asu.edu,Computer Science,Chair"
+    },
+    {
+      "id": "f47",
+      "kind": "faculty",
+      "name": "Hani Ben Amor",
+      "detail": "Named on the Computer Science M.S. thesis-chair list; the list has no research blurb.",
+      "sourceUrl": "https://docs.google.com/spreadsheets/d/1SpL7-42ZH0EuwMNZf515_hpVd2Jy0_yLz6_PM67ZwLQ/edit?gid=0#gid=0",
+      "quote": "Ben Amor,Hani,Hani.Benamor@asu.edu,Computer Science,Chair"
+    },
+    {
+      "id": "f48",
+      "kind": "faculty",
+      "name": "Kasim Candan",
+      "detail": "Named on the Computer Science M.S. thesis-chair list; the list has no research blurb.",
+      "sourceUrl": "https://docs.google.com/spreadsheets/d/1SpL7-42ZH0EuwMNZf515_hpVd2Jy0_yLz6_PM67ZwLQ/edit?gid=0#gid=0",
+      "quote": "Candan,Kasim,candan@asu.edu,Computer Science,Chair"
+    },
+    {
+      "id": "f49",
+      "kind": "faculty",
+      "name": "Adam Doupé",
+      "detail": "Named on the Computer Science M.S. thesis-chair list; the list has no research blurb.",
+      "sourceUrl": "https://docs.google.com/spreadsheets/d/1SpL7-42ZH0EuwMNZf515_hpVd2Jy0_yLz6_PM67ZwLQ/edit?gid=0#gid=0",
+      "quote": "Doupe,Adam,doupe@asu.edu,Computer Science,Chair"
+    },
+    {
+      "id": "f50",
+      "kind": "faculty",
+      "name": "Stephanie Forrest",
+      "detail": "Named on the Computer Science M.S. thesis-chair list; the list has no research blurb.",
+      "sourceUrl": "https://docs.google.com/spreadsheets/d/1SpL7-42ZH0EuwMNZf515_hpVd2Jy0_yLz6_PM67ZwLQ/edit?gid=0#gid=0",
+      "quote": "Forrest,Stephanie,steph@asu.edu,Computer Science,Chair"
+    },
+    {
+      "id": "f51",
+      "kind": "faculty",
+      "name": "Charles Colbourn",
+      "detail": "Named on the Computer Science M.S. thesis-chair list as co-chair; the list has no research blurb.",
+      "sourceUrl": "https://docs.google.com/spreadsheets/d/1SpL7-42ZH0EuwMNZf515_hpVd2Jy0_yLz6_PM67ZwLQ/edit?gid=0#gid=0",
+      "quote": "Colbourn,Charles,Charles.Colbourn@asu.edu,Computer Science,Co-chair"
+    },
+    {
+      "id": "f52",
+      "kind": "faculty",
+      "name": "Ajay Bansal",
+      "detail": "Named on the Computer Science M.S. thesis-chair list; the list has no research blurb.",
+      "sourceUrl": "https://docs.google.com/spreadsheets/d/1SpL7-42ZH0EuwMNZf515_hpVd2Jy0_yLz6_PM67ZwLQ/edit?gid=0#gid=0",
+      "quote": "Bansal,Ajay,Ajay.Bansal@asu.edu,Computer Science,Chair"
+    },
+    {
+      "id": "f53",
+      "kind": "faculty",
+      "name": "Srividya Bansal",
+      "detail": "Named on the Computer Science M.S. thesis-chair list; the list has no research blurb.",
+      "sourceUrl": "https://docs.google.com/spreadsheets/d/1SpL7-42ZH0EuwMNZf515_hpVd2Jy0_yLz6_PM67ZwLQ/edit?gid=0#gid=0",
+      "quote": "Bansal,Srividya,Srividya.Bansal@asu.edu,Computer Science,Chair"
+    },
+    {
+      "id": "f54",
+      "kind": "faculty",
+      "name": "Jedidiah Crandall",
+      "detail": "Named on the Computer Science M.S. thesis-chair list; the list has no research blurb.",
+      "sourceUrl": "https://docs.google.com/spreadsheets/d/1SpL7-42ZH0EuwMNZf515_hpVd2Jy0_yLz6_PM67ZwLQ/edit?gid=0#gid=0",
+      "quote": "Crandall,Jedidiah,jedimaestro@asu.edu,Computer Science,Chair"
+    },
+    {
+      "id": "f55",
+      "kind": "faculty",
+      "name": "Hasan Davulcu",
+      "detail": "Named on the Computer Science M.S. thesis-chair list; the list has no research blurb.",
+      "sourceUrl": "https://docs.google.com/spreadsheets/d/1SpL7-42ZH0EuwMNZf515_hpVd2Jy0_yLz6_PM67ZwLQ/edit?gid=0#gid=0",
+      "quote": "Davulcu,Hasan,HDavulcu@asu.edu,Computer Science,Chair"
+    },
+    {
+      "id": "f56",
+      "kind": "faculty",
+      "name": "Pooyan Fazli",
+      "detail": "Named on the Computer Science M.S. thesis-chair list; the list has no research blurb.",
+      "sourceUrl": "https://docs.google.com/spreadsheets/d/1SpL7-42ZH0EuwMNZf515_hpVd2Jy0_yLz6_PM67ZwLQ/edit?gid=0#gid=0",
+      "quote": "Fazli,Pooyan,pooyan@asu.edu,Computer Science,Chair"
+    }
+  ]
+}

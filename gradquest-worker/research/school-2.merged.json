@@ -1,0 +1,848 @@
+{
+  "schoolId": 2,
+  "schoolName": "Cal Poly Pomona",
+  "programName": "Computer Science, M.S. (on-campus)",
+  "pages": [
+    {
+      "kind": "overview",
+      "url": "https://www.cpp.edu/sci/computer-science/prospective-graduate-students/index.shtml"
+    },
+    {
+      "kind": "admissions",
+      "url": "https://www.cpp.edu/sci/computer-science/prospective-graduate-students/admission-requirements.shtml"
+    },
+    {
+      "kind": "curriculum",
+      "url": "https://www.cpp.edu/sci/computer-science/prospective-graduate-students/program-information.shtml"
+    },
+    {
+      "kind": "faculty",
+      "url": "https://www.cpp.edu/sci/computer-science/faculty-and-staff/permanent-faculty.shtml"
+    },
+    {
+      "kind": "deadlines",
+      "url": "https://www.cpp.edu/admissions/graduate/masters-explore.shtml"
+    },
+    {
+      "kind": "curriculum",
+      "url": "https://catalog.cpp.edu/preview_program.php?catoid=78&poid=24271"
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "kind": "overview",
+      "name": "Program aim",
+      "detail": "The M.S. is described as deepening hardware and software themes and stressing technical competence and independent work.",
+      "sourceUrl": "https://www.cpp.edu/sci/computer-science/prospective-graduate-students/index.shtml",
+      "quote": "The Master of Science program in Computer Science provides an opportunity for students to enhance their understanding of the principal hardware and software themes."
+    },
+    {
+      "id": "f2",
+      "kind": "overview",
+      "name": "Evening classes",
+      "detail": "The FAQ says the program offers evening classes across a wide range of computer science topics.",
+      "sourceUrl": "https://www.cpp.edu/sci/computer-science/prospective-graduate-students/frequently-asked-questions.shtml",
+      "quote": "Evening classes with a wide range of topics in computer science"
+    },
+    {
+      "id": "f3",
+      "kind": "overview",
+      "name": "Department also plans an online M.S.",
+      "detail": "The department home page announces an Online Master of Science in Computer Science coming up in Fall 2026; that is a different program from this on-campus M.S.",
+      "sourceUrl": "https://www.cpp.edu/sci/computer-science/",
+      "quote": "Online Master of Science in Computer Science"
+    },
+    {
+      "id": "f4",
+      "kind": "requirement",
+      "name": "Undergraduate CS presumption",
+      "detail": "Admission presumes an undergraduate computer science degree or equivalent core coursework; students without that preparation cannot be admitted.",
+      "sourceUrl": "https://www.cpp.edu/sci/computer-science/prospective-graduate-students/admission-requirements.shtml",
+      "quote": "The graduate program is based on the presumption that the student has an undergraduate degree with a major in computer science, or equivalent coursework in the principal computer science and mathematics subjects required"
+    },
+    {
+      "id": "f5",
+      "kind": "requirement",
+      "name": "Admission is competitive",
+      "detail": "Meeting minimum requirements does not guarantee admission.",
+      "sourceUrl": "https://www.cpp.edu/sci/computer-science/prospective-graduate-students/admission-requirements.shtml",
+      "quote": "These are minimum requirements for the program admission. Admission is competitive and meeting minimum requirement does not guarantee admission to the program."
+    },
+    {
+      "id": "f6",
+      "kind": "requirement",
+      "name": "Unconditional GPA",
+      "detail": "Unconditional admission requires a bachelor's in CS or a closely related field with a GPA of 3.0 or better in all courses or in the most recent 60 semester units.",
+      "sourceUrl": "https://www.cpp.edu/sci/computer-science/prospective-graduate-students/admission-requirements.shtml",
+      "quote": "Applicants seeking unconditional admission must have a bachelor's degree in Computer Science or closely related field with a GPA of 3.0 or better in all courses or the most recent 60 semester units attempted"
+    },
+    {
+      "id": "f7",
+      "kind": "requirement",
+      "name": "Unconditional topic coverage",
+      "detail": "Required background includes calculus, probability and statistics, object-oriented programming, discrete structures, data structures, computer organization, algorithms, computer architecture, operating systems, and software engineering.",
+      "sourceUrl": "https://www.cpp.edu/sci/computer-science/prospective-graduate-students/admission-requirements.shtml",
+      "quote": "10-12 semester units including Calculus and Probability and Statistics"
+    },
+    {
+      "id": "f8",
+      "kind": "requirement",
+      "name": "Conditional admission",
+      "detail": "Applicants with a bachelor's degree and a GPA above 3.0 who do not meet unconditional requirements may seek conditional admission, with priority given to unconditional admissions first.",
+      "sourceUrl": "https://www.cpp.edu/sci/computer-science/prospective-graduate-students/admission-requirements.shtml",
+      "quote": "Applicants who do not meet unconditional admission but have a bachelor's degree with a GPA above 3.0 may seek conditional admission. However, priority will be given to unconditional admissions first."
+    },
+    {
+      "id": "f9",
+      "kind": "requirement",
+      "name": "International students not conditionally admitted",
+      "detail": "International students who need an I-20 will not be conditionally admitted and must meet all requirements before admission.",
+      "sourceUrl": "https://www.cpp.edu/sci/computer-science/prospective-graduate-students/admission-requirements.shtml",
+      "quote": "However, per CSU Admissions and SEVIS Policy, international students attending the University on a visa requiring issuance of an I-20 will NOT be conditionally admitted and must meet all requirements prior to gaining admission to the University."
+    },
+    {
+      "id": "f10",
+      "kind": "requirement",
+      "name": "Conditional students and aid",
+      "detail": "Students in conditional standing do not qualify for federal financial aid until they are in unconditional standing.",
+      "sourceUrl": "https://www.cpp.edu/sci/computer-science/prospective-graduate-students/admission-requirements.shtml",
+      "quote": "Students in conditional standing do not qualify for federal financial aid until they are in unconditional standing."
+    },
+    {
+      "id": "f11",
+      "kind": "requirement",
+      "name": "English language requirement",
+      "detail": "Applicants whose native language is not English and whose bachelor's instruction was not in English must meet IELTS 6.5 or TOEFL 213 computer / 550 paper / 80 internet.",
+      "sourceUrl": "https://www.cpp.edu/sci/computer-science/prospective-graduate-students/admission-requirements.shtml",
+      "quote": "must have passed the International English Language Testing System (IELTS) exam with a minimum score of 6.5 or the Test of English as a Foreign Language (TOEFL) exam with a minimum score of 213 on the computer-based, or 550 on the paper-based, or 80 on the Internet-based TOEFL."
+    },
+    {
+      "id": "f12",
+      "kind": "requirement",
+      "name": "Supplemental application form",
+      "detail": "A program supplemental form is required and applications missing it may be declined without review.",
+      "sourceUrl": "https://www.cpp.edu/sci/computer-science/prospective-graduate-students/application-procedures.shtml",
+      "quote": "This Program Application form is REQUIRED and applications missing this completed form uploaded to Cal State Mentor site may be declined without review."
+    },
+    {
+      "id": "f13",
+      "kind": "requirement",
+      "name": "SOP, resume, letters, unofficial transcript",
+      "detail": "Applicants must also submit a statement of purpose, resume/CV, two letters of recommendation, and an unofficial PDF transcript on Cal State Apply.",
+      "sourceUrl": "https://www.cpp.edu/sci/computer-science/prospective-graduate-students/application-procedures.shtml",
+      "quote": "applicants are REQUIRED to submit a statement of purpose (why applying to CPP CS MS program and how it will help to achieve your career objectives), resume/CV, two letters of recommendation and unoffical pdf transcript on Cal State Apply."
+    },
+    {
+      "id": "f14",
+      "kind": "requirement",
+      "name": "GRE not required",
+      "detail": "The department does not require the GRE, but recommends it if the major GPA does not meet 3.0.",
+      "sourceUrl": "https://www.cpp.edu/sci/computer-science/prospective-graduate-students/frequently-asked-questions.shtml",
+      "quote": "The department does not require the GRE. However, it is recommended that you take it if your major GPA does not meet the 3.0 requirement."
+    },
+    {
+      "id": "f15",
+      "kind": "requirement",
+      "name": "GPA to maintain",
+      "detail": "A 3.0 GPA or better must be maintained in all upper-division undergraduate and all graduate courses.",
+      "sourceUrl": "https://www.cpp.edu/sci/computer-science/prospective-graduate-students/program-information.shtml",
+      "quote": "A grade point average of 3.0 (B) or better must be maintained in all upper-division undergraduate and all graduate courses."
+    },
+    {
+      "id": "f16",
+      "kind": "requirement",
+      "name": "Transfer unit cap",
+      "detail": "No more than 9 semester units of acceptable graduate credit may be transferred from another graduate institution.",
+      "sourceUrl": "https://www.cpp.edu/sci/computer-science/prospective-graduate-students/program-information.shtml",
+      "quote": "No more than 9 semester units of acceptable graduate credit may be transferred from another graduate institution."
+    },
+    {
+      "id": "f17",
+      "kind": "requirement",
+      "name": "Combined transfer limit",
+      "detail": "A total limit of 9 semester units of transfer, Extended University, and/or petitioned units may be included on a master's contract, with a 7-year time limit.",
+      "sourceUrl": "https://www.cpp.edu/sci/computer-science/prospective-graduate-students/program-information.shtml",
+      "quote": "A total limit of 9 semester units of transfer, Extended University, and/or units petitioned for graduate credit may be included on a master's contract. The stipulated time limit of 7 years applies to all of the above."
+    },
+    {
+      "id": "f18",
+      "kind": "course",
+      "name": "Total units",
+      "detail": "The program requires 30 units in total.",
+      "sourceUrl": "https://www.cpp.edu/sci/computer-science/prospective-graduate-students/program-information.shtml",
+      "quote": "TOTAL UNITS REQUIRED: 30 units"
+    },
+    {
+      "id": "f19",
+      "kind": "course",
+      "name": "CS 5250",
+      "detail": "Required course: CS 5250 Advanced Computer Architecture (3 units).",
+      "sourceUrl": "https://www.cpp.edu/sci/computer-science/prospective-graduate-students/program-information.shtml",
+      "quote": "CS 5250 Advanced Computer Architecture (3 units)"
+    },
+    {
+      "id": "f20",
+      "kind": "course",
+      "name": "CS 5300",
+      "detail": "Required course: CS 5300 Advanced Algorithm Design and Analysis.",
+      "sourceUrl": "https://www.cpp.edu/sci/computer-science/prospective-graduate-students/program-information.shtml",
+      "quote": "CS 5300 Advanced Algorithm Design and Analysis (3units)"
+    },
+    {
+      "id": "f21",
+      "kind": "course",
+      "name": "CS 5800",
+      "detail": "Required course: CS 5800 Advanced Software Engineering (3 units).",
+      "sourceUrl": "https://www.cpp.edu/sci/computer-science/prospective-graduate-students/program-information.shtml",
+      "quote": "CS 5800 Advanced Software Engineering (3 units)"
+    },
+    {
+      "id": "f22",
+      "kind": "course",
+      "name": "CS 6640",
+      "detail": "Required course: CS 6640 Graduate Seminar (1 unit).",
+      "sourceUrl": "https://www.cpp.edu/sci/computer-science/prospective-graduate-students/program-information.shtml",
+      "quote": "CS 6640 Graduate Seminar (1 unit)"
+    },
+    {
+      "id": "f23",
+      "kind": "course",
+      "name": "Project option units",
+      "detail": "The project path uses CS 6910 Directed Study (1 unit) and CS 6950 Master's Degree Project (1 unit).",
+      "sourceUrl": "https://www.cpp.edu/sci/computer-science/prospective-graduate-students/program-information.shtml",
+      "quote": "CS 6910 Directed Study (1 unit) and",
+      "verified": false,
+      "verifiedBy": "user 2026-11-13",
+      "rejectedReason": "Rejected by the user: the 2026-2027 catalog wins. CS 6910 is titled Directed Research, not Directed Study as on this department page."
+    },
+    {
+      "id": "f24",
+      "kind": "course",
+      "name": "CS 6950 project",
+      "detail": "The master's project course is CS 6950 (1 unit).",
+      "sourceUrl": "https://www.cpp.edu/sci/computer-science/prospective-graduate-students/program-information.shtml",
+      "quote": "CS 6950 Master's Degree Project (1 unit)"
+    },
+    {
+      "id": "f25",
+      "kind": "course",
+      "name": "Thesis option units",
+      "detail": "The thesis path uses CS 6910 Directed Study (2 units) and CS 6960 Master's Degree Thesis (3 units).",
+      "sourceUrl": "https://www.cpp.edu/sci/computer-science/prospective-graduate-students/program-information.shtml",
+      "quote": "CS 6960 Master's Degree Thesis (3 units)",
+      "verified": false,
+      "verifiedBy": "user 2026-11-13",
+      "rejectedReason": "Rejected by the user: the 2026-2027 catalog wins. CS 6910 is titled Directed Research, not Directed Study as on this department page."
+    },
+    {
+      "id": "f26",
+      "kind": "course",
+      "name": "Elective units",
+      "detail": "Students select 18 elective units with the project option or 15 elective units with the thesis option.",
+      "sourceUrl": "https://www.cpp.edu/sci/computer-science/prospective-graduate-students/program-information.shtml",
+      "quote": "Select 18 units (with Master's Degree Project) or 15 units (with Master's Degree Thesis) from the following list of courses or other courses approved by the Computer Science Graduate Committee:",
+      "verified": false,
+      "verifiedBy": "user 2026-11-13",
+      "rejectedReason": "Rejected by the user: the 2026-2027 catalog wins. Electives are 15 units with the project or 12 with the thesis, not this department-page 18/15 split."
+    },
+    {
+      "id": "f27",
+      "kind": "course",
+      "name": "4000-level electives",
+      "detail": "M.S. students may use up to 6 semester units of CS 4000-level electives, with listed exclusions, and may not repeat undergraduate classes already taken.",
+      "sourceUrl": "https://www.cpp.edu/sci/computer-science/prospective-graduate-students/program-information.shtml",
+      "quote": "Computer Science MS students can take up to 6 semester units of CS 4000+ levels elective classes to satisfy their elective courses requirement, excluding the following courses: CS 4000, CS 4310, CS 4610, CS 4620, CS 4630, and CS 4800."
+    },
+    {
+      "id": "f28",
+      "kind": "course",
+      "name": "Required courses offered yearly",
+      "detail": "Required courses CS 5250, CS 5300, CS 5800, and CS 6640 are offered every year; other CS 5xxx courses every two years.",
+      "sourceUrl": "https://www.cpp.edu/sci/computer-science/prospective-graduate-students/program-information.shtml",
+      "quote": "The required courses CS 5250, CS 5300, CS 5800 and CS 6640 are offered every year. All other graduate courses CS 5xxx are offered every two years."
+    },
+    {
+      "id": "f29",
+      "kind": "course",
+      "name": "Evening graduate courses",
+      "detail": "Graduate courses traditionally meet in late afternoons and evenings.",
+      "sourceUrl": "https://www.cpp.edu/sci/computer-science/prospective-graduate-students/program-information.shtml",
+      "quote": "Graduate courses traditionally meet in late afternoons and evenings."
+    },
+    {
+      "id": "f30",
+      "kind": "deadline",
+      "name": "Fall 2027 on-campus CS M.S.",
+      "detail": "The university graduate deadlines table lists the on-campus Computer Science M.S. Fall 2027 application deadline as 4/1/2027 and the intent-to-enroll deadline as 7/1/2027.",
+      "sourceUrl": "https://www.cpp.edu/admissions/graduate/masters-explore.shtml",
+      "quote": "Computer Science"
+    },
+    {
+      "id": "f31",
+      "kind": "deadline",
+      "name": "Spring 2027 on-campus CS M.S.",
+      "detail": "The same table lists the on-campus Computer Science M.S. Spring 2027 application deadline as 10/1/2026 and the intent-to-enroll deadline as 1/12/2027.",
+      "sourceUrl": "https://www.cpp.edu/admissions/graduate/masters-explore.shtml",
+      "quote": "10/1/2026"
+    },
+    {
+      "id": "f32",
+      "kind": "deadline",
+      "name": "Spring 2027 applications open",
+      "detail": "Spring 2027 applications open July 1, 2026.",
+      "sourceUrl": "https://www.cpp.edu/admissions/graduate/masters-explore.shtml",
+      "quote": "Spring 2027 applications open July 1, 2026"
+    },
+    {
+      "id": "f33",
+      "kind": "deadline",
+      "name": "Fall 2027 applications open",
+      "detail": "Fall 2027 applications open on August 1, 2026.",
+      "sourceUrl": "https://www.cpp.edu/admissions/graduate/masters-explore.shtml",
+      "quote": "Fall 2027 applications open on August 1, 2026"
+    },
+    {
+      "id": "f34",
+      "kind": "deadline",
+      "name": "International 5/1 rule",
+      "detail": "If a program's Fall deadline is after 5/1, international applicants must apply no later than 5/1 for visa timing. The on-campus CS M.S. Fall 2027 deadline is 4/1/2027, which is before that cutoff.",
+      "sourceUrl": "https://www.cpp.edu/admissions/graduate/masters-explore.shtml",
+      "quote": "International applicants: For graduate programs that have a Fall application deadline beyond 5/1, international applicants must submit an application no later than 5/1 to ensure sufficient time to obtain a visa."
+    },
+    {
+      "id": "f35",
+      "kind": "deadline",
+      "name": "Applications accepted except summer",
+      "detail": "Applications are accepted semester by semester except Summer, and applicants are encouraged to apply in the initial filing period.",
+      "sourceUrl": "https://www.cpp.edu/sci/computer-science/prospective-graduate-students/application-procedures.shtml",
+      "quote": "Applications are accepted semester by semester except Summer."
+    },
+    {
+      "id": "f36",
+      "kind": "faculty",
+      "name": "Graduate coordinator",
+      "detail": "Tingting Chen is listed as Professor and Graduate Coordinator. This is a department-wide faculty listing, not limited to this one program.",
+      "sourceUrl": "https://www.cpp.edu/sci/computer-science/faculty-and-staff/permanent-faculty.shtml",
+      "quote": "Professor & Graduate Coordinator"
+    },
+    {
+      "id": "f37",
+      "kind": "faculty",
+      "name": "Department chair",
+      "detail": "Amar Raheja is listed as Professor and Chair on the department permanent faculty page.",
+      "sourceUrl": "https://www.cpp.edu/sci/computer-science/faculty-and-staff/permanent-faculty.shtml",
+      "quote": "Professor & Chair"
+    },
+    {
+      "id": "f38",
+      "kind": "faculty",
+      "name": "Abdelfattah Amamra research",
+      "detail": "His faculty profile states research interests in cyber security, big data analysis, and machine learning. Department faculty listing, not program-specific.",
+      "sourceUrl": "https://www.cpp.edu/faculty/aamamra/index.shtml",
+      "quote": "Dr. Amamra research intersts include Cyber Security, Big Data Analysis, and Machine Learning."
+    },
+    {
+      "id": "f39",
+      "kind": "faculty",
+      "name": "Tingting Chen research",
+      "detail": "Her profile describes current research in data privacy, health informatics, and AI applications in medical systems.",
+      "sourceUrl": "https://www.cpp.edu/faculty/tingtingchen/index.shtml",
+      "quote": "My current research interests include data privacy, health informatics and AI applications in medical systems."
+    },
+    {
+      "id": "f40",
+      "kind": "faculty",
+      "name": "Hao Ji research",
+      "detail": "His profile lists large-scale numerical methods, high-performance computing, machine learning, computer vision, and physically-based animation.",
+      "sourceUrl": "https://www.cpp.edu/faculty/hji/index.shtml",
+      "quote": "His research interests include Large-scale Numerical Methods, High-performance Computing, Machine Learning, Computer Vision, and Physically-based Animation."
+    },
+    {
+      "id": "f41",
+      "kind": "faculty",
+      "name": "Amar Raheja research",
+      "detail": "His profile lists image processing, computer vision, and machine learning, with interdisciplinary AI applications.",
+      "sourceUrl": "https://www.cpp.edu/faculty/raheja/index.shtml",
+      "quote": "My research interests are in the area of image processing, computer vision and machine learning."
+    },
+    {
+      "id": "f42",
+      "kind": "faculty",
+      "name": "Wendy Shi research",
+      "detail": "Her profile, noting she joined in August 2025, describes HCI, computing education, and data science.",
+      "sourceUrl": "https://www.cpp.edu/faculty/wendyshi/index.shtml",
+      "quote": "Her research explores the intersection of human-computer interaction, computing education, and data science, with a focus on understanding how technology can support learning, collaboration, and meaningful work."
+    },
+    {
+      "id": "f43",
+      "kind": "faculty",
+      "name": "Yunsheng Wang research",
+      "detail": "His profile lists AIoT, connected and autonomous driving, edge computing, cybersecurity, and social networks.",
+      "sourceUrl": "https://www.cpp.edu/faculty/yunshengwang/index.shtml",
+      "quote": "His research interests include Artificial Intelligence of Things (AIoT), connected and autonomous driving, edge computing, cybersecurity, and social networks."
+    },
+    {
+      "id": "f44",
+      "kind": "faculty",
+      "name": "Yu Sun role",
+      "detail": "His profile says he directs the Software Engineering and Mobile Cloud Computing Lab (SoftCom Lab).",
+      "sourceUrl": "https://www.cpp.edu/faculty/yusun/index.shtml",
+      "quote": "where he serves as the director of the Software Engineering and Mobile Cloud Computing Lab (SoftCom Lab)."
+    },
+    {
+      "id": "f45",
+      "kind": "faculty",
+      "name": "Daisy Tang research",
+      "detail": "Her profile describes doctoral research on multi-robot systems.",
+      "sourceUrl": "https://www.cpp.edu/faculty/ftang/index.shtml",
+      "quote": "performing her research on multi-robot systems."
+    },
+    {
+      "id": "f46",
+      "kind": "faculty",
+      "name": "Ericsson Santana Marin research",
+      "detail": "His profile describes research in AI for Threat Intelligence.",
+      "sourceUrl": "https://www.cpp.edu/faculty/santanamarin/index.shtml",
+      "quote": "My research focuses on AI for Threat Intelligence (ATI), which develops predictive and adaptive learning models to anticipate emerging threats in adversarial online environments."
+    },
+    {
+      "id": "f47",
+      "kind": "faculty",
+      "name": "Ben Steichen research lab",
+      "detail": "His profile says he leads the hapii lab on human-centered, adaptive, and personalized information interaction.",
+      "sourceUrl": "https://www.cpp.edu/faculty/bsteichen/index.shtml",
+      "quote": "Dr. Steichen leads the hapii lab (human-centered, adaptive, and personalized information interaction), which researches novel information access solutions that support each individual person."
+    },
+    {
+      "id": "f48",
+      "kind": "faculty",
+      "name": "Mohammad Husain expertise (listing)",
+      "detail": "The department research-interests page, which is department-wide, lists systems and network security and related areas.",
+      "sourceUrl": "https://www.cpp.edu/sci/computer-science/faculty-and-staff/faculty-research-int.shtml",
+      "quote": "Expertise: Systems and network security, digital forensics in embedded systems and cloud computing, smartphone security and social applications, power-aware secure computing"
+    },
+    {
+      "id": "f49",
+      "kind": "faculty",
+      "name": "Brianna Posadas expertise (listing)",
+      "detail": "The department research-interests page lists HCI, usable security, accessibility, and applied computing in agriculture, among other areas. No individual cpp.edu/faculty profile page was found (404).",
+      "sourceUrl": "https://www.cpp.edu/sci/computer-science/faculty-and-staff/faculty-research-int.shtml",
+      "quote": "Expertise: Human-computer interaction, user-centered design and technology adoption, usable security, accessibility and inclusive design, applied computing in agriculture and other real-world domains, data science and big data analysis, remote sensing (UAVs), computing education"
+    },
+    {
+      "id": "f50",
+      "kind": "faculty",
+      "name": "John Korah expertise (listing)",
+      "detail": "The department research-interests page lists parallel and distributed algorithm design, HPC, and related areas.",
+      "sourceUrl": "https://www.cpp.edu/sci/computer-science/faculty-and-staff/faculty-research-int.shtml",
+      "quote": "Expertise: Parallel & distributed algorithm design, high performance computing, large & dynamic network analysis, computational social systems, cybersecurity, parallel/distributed information retrieval, modeling & simulation"
+    },
+    {
+      "id": "f51",
+      "kind": "overview",
+      "name": "Catalog heading and unit total",
+      "detail": "The 2026-2027 University Catalog program heading is Computer Science, M.S.: 30 units.",
+      "sourceUrl": "https://catalog.cpp.edu/preview_program.php?catoid=78&poid=24271",
+      "quote": "Computer Science, M.S.: 30 units"
+    },
+    {
+      "id": "f52",
+      "kind": "requirement",
+      "name": "Major required units",
+      "detail": "The catalog lists 13 units of major required courses. Earlier department-page facts used a required list without CS 5215 and a different elective-unit split; both sources are kept and no winner is chosen.",
+      "sourceUrl": "https://catalog.cpp.edu/preview_program.php?catoid=78&poid=24271",
+      "quote": "Major Required: 13 units",
+      "verified": true,
+      "verifiedBy": "user 2026-11-13"
+    },
+    {
+      "id": "f53",
+      "kind": "course",
+      "name": "CS 5215",
+      "detail": "Required 3-unit course on the 2026-2027 catalog page. This course was not in the earlier department-page required list; both sources are kept and no winner is chosen.",
+      "sourceUrl": "https://catalog.cpp.edu/preview_program.php?catoid=78&poid=24271",
+      "quote": "CS 5215 - Advanced Machine Learning and AI (3)",
+      "verified": true,
+      "verifiedBy": "user 2026-11-13"
+    },
+    {
+      "id": "f54",
+      "kind": "course",
+      "name": "CS 5250",
+      "detail": "Required 3-unit course on the 2026-2027 catalog page.",
+      "sourceUrl": "https://catalog.cpp.edu/preview_program.php?catoid=78&poid=24271",
+      "quote": "CS 5250 - Advanced Computer Architecture (3)"
+    },
+    {
+      "id": "f55",
+      "kind": "course",
+      "name": "CS 5300",
+      "detail": "Required 3-unit course on the 2026-2027 catalog page.",
+      "sourceUrl": "https://catalog.cpp.edu/preview_program.php?catoid=78&poid=24271",
+      "quote": "CS 5300 - Advanced Algorithm Design and Analysis (3)"
+    },
+    {
+      "id": "f56",
+      "kind": "course",
+      "name": "CS 5800",
+      "detail": "Required 3-unit course on the 2026-2027 catalog page.",
+      "sourceUrl": "https://catalog.cpp.edu/preview_program.php?catoid=78&poid=24271",
+      "quote": "CS 5800 - Advanced Software Engineering (3)"
+    },
+    {
+      "id": "f57",
+      "kind": "course",
+      "name": "CS 6640",
+      "detail": "Required 1-unit course on the 2026-2027 catalog page.",
+      "sourceUrl": "https://catalog.cpp.edu/preview_program.php?catoid=78&poid=24271",
+      "quote": "CS 6640 - Graduate Seminar (1)"
+    },
+    {
+      "id": "f58",
+      "kind": "requirement",
+      "name": "Major elective unit range",
+      "detail": "The catalog sets major electives at 12-15 units.",
+      "sourceUrl": "https://catalog.cpp.edu/preview_program.php?catoid=78&poid=24271",
+      "quote": "Major Electives: 12-15 units",
+      "verified": true,
+      "verifiedBy": "user 2026-11-13"
+    },
+    {
+      "id": "f59",
+      "kind": "requirement",
+      "name": "Elective units with project vs thesis",
+      "detail": "Students select 15 semester units of electives with the Master's Degree Project or 12 semester units with the Master's Degree Thesis. Earlier department-page fact f26 quoted 18 units with the project or 15 with the thesis; both quotes are kept and no winner is chosen.",
+      "sourceUrl": "https://catalog.cpp.edu/preview_program.php?catoid=78&poid=24271",
+      "quote": "Select 15 semester units (with Master's Degree Project) or 12 semester units (with Master's Degree Thesis)",
+      "verified": true,
+      "verifiedBy": "user 2026-11-13"
+    },
+    {
+      "id": "f60",
+      "kind": "requirement",
+      "name": "Culminating experience unit range and options",
+      "detail": "Students choose Option 1 (2 units) or Option 2 (5 units) for the culminating experience.",
+      "sourceUrl": "https://catalog.cpp.edu/preview_program.php?catoid=78&poid=24271",
+      "quote": "Culminating Experience: 2-5 units Choose Option 1 (2 units) or Option 2 (5 units)."
+    },
+    {
+      "id": "f61",
+      "kind": "requirement",
+      "name": "Project vs thesis recommendation",
+      "detail": "The page recommends the MS Project for students seeking industry placement right after graduation, and the MS Thesis for research labs or advanced education such as a Ph.D.",
+      "sourceUrl": "https://catalog.cpp.edu/preview_program.php?catoid=78&poid=24271",
+      "quote": "In general, MS Project is recommended for students seeking industry placement right after graduation. MS Thesis option is recommended for students seeking placement at research labs and/or advanced education such as PhD."
+    },
+    {
+      "id": "f62",
+      "kind": "requirement",
+      "name": "Option 1 project units",
+      "detail": "Option 1 requires 1 unit of CS 6910 Directed Research and 1 unit of CS 6950 Master's Degree Project. The catalog titles CS 6910 Directed Research; an earlier department-page fact called it Directed Study. Both quotes are kept and no winner is chosen.",
+      "sourceUrl": "https://catalog.cpp.edu/preview_program.php?catoid=78&poid=24271",
+      "quote": "Option 1: 2 units CS 6910 - Directed Research (1-3) (1 unit required) CS 6950 - Master's Degree Project (1) (1 unit required)",
+      "verified": true,
+      "verifiedBy": "user 2026-11-13"
+    },
+    {
+      "id": "f63",
+      "kind": "requirement",
+      "name": "Option 2 thesis units",
+      "detail": "Option 2 requires 2 units of CS 6910 Directed Research and 3 units of CS 6960 Master's Degree Thesis.",
+      "sourceUrl": "https://catalog.cpp.edu/preview_program.php?catoid=78&poid=24271",
+      "quote": "Option 2: 5 units CS 6910 - Directed Research (1-3) (2 units required) CS 6960 - Master's Degree Thesis (1-3) (3 units required)",
+      "verified": true,
+      "verifiedBy": "user 2026-11-13"
+    },
+    {
+      "id": "f64",
+      "kind": "requirement",
+      "name": "4000-level elective cap and excluded courses",
+      "detail": "Up to 6 semester units of CS 4000+ electives may count, excluding CS 4000, 4310, 4610, 4620, 4630, and 4800.",
+      "sourceUrl": "https://catalog.cpp.edu/preview_program.php?catoid=78&poid=24271",
+      "quote": "Computer Science MS students can take up to 6 semester units of CS 4000+ level elective classes to satisfy their elective courses requirement, excluding the following courses: CS 4000 , CS 4310 , CS 4610 , CS 4620 , CS 4630 , and CS 4800 ."
+    },
+    {
+      "id": "f65",
+      "kind": "requirement",
+      "name": "No repeat of undergraduate 4000-level classes",
+      "detail": "Those 4000+ classes cannot be ones the student already took as an undergraduate.",
+      "sourceUrl": "https://catalog.cpp.edu/preview_program.php?catoid=78&poid=24271",
+      "quote": "However, these 4000+ level classes cannot be classes that a CS MS student already took in their undergraduate curriculum."
+    },
+    {
+      "id": "f66",
+      "kind": "requirement",
+      "name": "CS 4990 and CS 5990 unit caps",
+      "detail": "A master's contract may include at most 6 semester units of CS 4990 and 6 semester units of CS 5990.",
+      "sourceUrl": "https://catalog.cpp.edu/preview_program.php?catoid=78&poid=24271",
+      "quote": "Therefore, in a master's contract, a CS MS student can have a maximum of 6 semester units of CS 4990 and 6 semester units of CS 5990 course credits."
+    },
+    {
+      "id": "f67",
+      "kind": "course",
+      "name": "CS 6910",
+      "detail": "Directed Research, 1-3 units, used in both culminating options.",
+      "sourceUrl": "https://catalog.cpp.edu/preview_program.php?catoid=78&poid=24271",
+      "quote": "CS 6910 - Directed Research (1-3)",
+      "verified": true,
+      "verifiedBy": "user 2026-11-13"
+    },
+    {
+      "id": "f68",
+      "kind": "course",
+      "name": "CS 6950",
+      "detail": "Master's Degree Project, 1 unit, used in Option 1.",
+      "sourceUrl": "https://catalog.cpp.edu/preview_program.php?catoid=78&poid=24271",
+      "quote": "CS 6950 - Master's Degree Project (1)"
+    },
+    {
+      "id": "f69",
+      "kind": "course",
+      "name": "CS 6960",
+      "detail": "Master's Degree Thesis, 1-3 units, used in Option 2 (3 units required).",
+      "sourceUrl": "https://catalog.cpp.edu/preview_program.php?catoid=78&poid=24271",
+      "quote": "CS 6960 - Master's Degree Thesis (1-3)"
+    },
+    {
+      "id": "f70",
+      "kind": "course",
+      "name": "CPU 5003",
+      "detail": "Listed under Summer Sponsored Experience at 0 units.",
+      "sourceUrl": "https://catalog.cpp.edu/preview_program.php?catoid=78&poid=24271",
+      "quote": "CPU 5003 - Cal Poly Pomona Graduate Sponsored Summer Experience (0)"
+    },
+    {
+      "id": "f71",
+      "kind": "course",
+      "name": "CS 5170",
+      "detail": "Listed as a major elective on the 2026-2027 catalog program page.",
+      "sourceUrl": "https://catalog.cpp.edu/preview_program.php?catoid=78&poid=24271",
+      "quote": "CS 5170 - Advanced Natural Language Processing (3)"
+    },
+    {
+      "id": "f72",
+      "kind": "course",
+      "name": "CS 5180",
+      "detail": "Listed as a major elective on the 2026-2027 catalog program page.",
+      "sourceUrl": "https://catalog.cpp.edu/preview_program.php?catoid=78&poid=24271",
+      "quote": "CS 5180 - Information Retrieval (3)"
+    },
+    {
+      "id": "f73",
+      "kind": "course",
+      "name": "CS 5190",
+      "detail": "Listed as a major elective on the 2026-2027 catalog program page.",
+      "sourceUrl": "https://catalog.cpp.edu/preview_program.php?catoid=78&poid=24271",
+      "quote": "CS 5190 - Computer Vision (3)"
+    },
+    {
+      "id": "f74",
+      "kind": "course",
+      "name": "CS 5240",
+      "detail": "Listed as a major elective on the 2026-2027 catalog program page.",
+      "sourceUrl": "https://catalog.cpp.edu/preview_program.php?catoid=78&poid=24271",
+      "quote": "CS 5240 - Software for Intelligent Robotics (3)"
+    },
+    {
+      "id": "f75",
+      "kind": "course",
+      "name": "CS 5220",
+      "detail": "Listed as a major elective on the 2026-2027 catalog program page.",
+      "sourceUrl": "https://catalog.cpp.edu/preview_program.php?catoid=78&poid=24271",
+      "quote": "CS 5220 - Distributed Intelligence in Robotics (3)"
+    },
+    {
+      "id": "f76",
+      "kind": "course",
+      "name": "CS 5230",
+      "detail": "Listed as a major elective on the 2026-2027 catalog program page.",
+      "sourceUrl": "https://catalog.cpp.edu/preview_program.php?catoid=78&poid=24271",
+      "quote": "CS 5230 - Connected and Autonomous Vehicles (3)"
+    },
+    {
+      "id": "f77",
+      "kind": "course",
+      "name": "CS 5310",
+      "detail": "Listed as a major elective on the 2026-2027 catalog program page.",
+      "sourceUrl": "https://catalog.cpp.edu/preview_program.php?catoid=78&poid=24271",
+      "quote": "CS 5310 - Computability and Complexity Theory (3)"
+    },
+    {
+      "id": "f78",
+      "kind": "course",
+      "name": "CS 5350",
+      "detail": "Listed as a major elective on the 2026-2027 catalog program page.",
+      "sourceUrl": "https://catalog.cpp.edu/preview_program.php?catoid=78&poid=24271",
+      "quote": "CS 5350 - Parallel and Distributed Algorithms (3)"
+    },
+    {
+      "id": "f79",
+      "kind": "course",
+      "name": "CS 5370",
+      "detail": "Listed as a major elective on the 2026-2027 catalog program page.",
+      "sourceUrl": "https://catalog.cpp.edu/preview_program.php?catoid=78&poid=24271",
+      "quote": "CS 5370 - Scheduling Algorithms (3)"
+    },
+    {
+      "id": "f80",
+      "kind": "course",
+      "name": "CS 5400",
+      "detail": "Listed as a major elective on the 2026-2027 catalog program page.",
+      "sourceUrl": "https://catalog.cpp.edu/preview_program.php?catoid=78&poid=24271",
+      "quote": "CS 5400 - Topics in Compiler Design (3)"
+    },
+    {
+      "id": "f81",
+      "kind": "course",
+      "name": "CS 5500",
+      "detail": "Listed as a major elective on the 2026-2027 catalog program page.",
+      "sourceUrl": "https://catalog.cpp.edu/preview_program.php?catoid=78&poid=24271",
+      "quote": "CS 5500 - Advanced Information Security (3)"
+    },
+    {
+      "id": "f82",
+      "kind": "course",
+      "name": "CS 5550",
+      "detail": "Listed as a major elective on the 2026-2027 catalog program page.",
+      "sourceUrl": "https://catalog.cpp.edu/preview_program.php?catoid=78&poid=24271",
+      "quote": "CS 5550 - Digital Image Processing (3)"
+    },
+    {
+      "id": "f83",
+      "kind": "course",
+      "name": "CS 5510",
+      "detail": "Listed as a major elective on the 2026-2027 catalog program page.",
+      "sourceUrl": "https://catalog.cpp.edu/preview_program.php?catoid=78&poid=24271",
+      "quote": "CS 5510 - Data Privacy and Security (3)"
+    },
+    {
+      "id": "f84",
+      "kind": "course",
+      "name": "CS 5520",
+      "detail": "Listed as a major elective on the 2026-2027 catalog program page.",
+      "sourceUrl": "https://catalog.cpp.edu/preview_program.php?catoid=78&poid=24271",
+      "quote": "CS 5520 - Machine Learning for Cyber Security (3)"
+    },
+    {
+      "id": "f85",
+      "kind": "course",
+      "name": "CS 5560",
+      "detail": "Listed as a major elective on the 2026-2027 catalog program page.",
+      "sourceUrl": "https://catalog.cpp.edu/preview_program.php?catoid=78&poid=24271",
+      "quote": "CS 5560 - Game Theory and its Applications in Communication Networks (3)"
+    },
+    {
+      "id": "f86",
+      "kind": "course",
+      "name": "CS 5650",
+      "detail": "Listed as a major elective on the 2026-2027 catalog program page.",
+      "sourceUrl": "https://catalog.cpp.edu/preview_program.php?catoid=78&poid=24271",
+      "quote": "CS 5650 - Advanced Computer Networks (3)"
+    },
+    {
+      "id": "f87",
+      "kind": "course",
+      "name": "CS 5660",
+      "detail": "Listed as a major elective on the 2026-2027 catalog program page.",
+      "sourceUrl": "https://catalog.cpp.edu/preview_program.php?catoid=78&poid=24271",
+      "quote": "CS 5660 - Distributed Computing Systems (3)"
+    },
+    {
+      "id": "f88",
+      "kind": "course",
+      "name": "CS 5670",
+      "detail": "Listed as a major elective on the 2026-2027 catalog program page.",
+      "sourceUrl": "https://catalog.cpp.edu/preview_program.php?catoid=78&poid=24271",
+      "quote": "CS 5670 - Computational Social Systems (3)"
+    },
+    {
+      "id": "f89",
+      "kind": "course",
+      "name": "CS 5700",
+      "detail": "Listed as a major elective on the 2026-2027 catalog program page.",
+      "sourceUrl": "https://catalog.cpp.edu/preview_program.php?catoid=78&poid=24271",
+      "quote": "CS 5700 - Human Computer Interaction (3)"
+    },
+    {
+      "id": "f90",
+      "kind": "course",
+      "name": "CS 5750",
+      "detail": "Listed as a major elective on the 2026-2027 catalog program page.",
+      "sourceUrl": "https://catalog.cpp.edu/preview_program.php?catoid=78&poid=24271",
+      "quote": "CS 5750 - Topics in Database Systems (3)"
+    },
+    {
+      "id": "f91",
+      "kind": "course",
+      "name": "CS 5850",
+      "detail": "Listed as a major elective on the 2026-2027 catalog program page.",
+      "sourceUrl": "https://catalog.cpp.edu/preview_program.php?catoid=78&poid=24271",
+      "quote": "CS 5850 - Software Verification and Validation (3)"
+    },
+    {
+      "id": "f92",
+      "kind": "course",
+      "name": "CS 5860",
+      "detail": "Listed as a major elective on the 2026-2027 catalog program page.",
+      "sourceUrl": "https://catalog.cpp.edu/preview_program.php?catoid=78&poid=24271",
+      "quote": "CS 5860 - Software Metrics and Models (3)"
+    },
+    {
+      "id": "f93",
+      "kind": "course",
+      "name": "CS 5990",
+      "detail": "Listed as a major elective on the 2026-2027 catalog program page.",
+      "sourceUrl": "https://catalog.cpp.edu/preview_program.php?catoid=78&poid=24271",
+      "quote": "CS 5990 - Special Topics for Graduate Students (1-3) *"
+    },
+    {
+      "id": "f94",
+      "kind": "course",
+      "name": "CS 6990",
+      "detail": "Listed as a major elective on the 2026-2027 catalog program page.",
+      "sourceUrl": "https://catalog.cpp.edu/preview_program.php?catoid=78&poid=24271",
+      "quote": "CS 6990 - Master's Degree Continuation (0)"
+    },
+    {
+      "id": "f95",
+      "kind": "course",
+      "name": "CS 5440",
+      "detail": "Listed as a major elective on the 2026-2027 catalog program page.",
+      "sourceUrl": "https://catalog.cpp.edu/preview_program.php?catoid=78&poid=24271",
+      "quote": "CS 5440 - Advanced Data Mining (3)"
+    },
+    {
+      "id": "f96",
+      "kind": "course",
+      "name": "CS 6910",
+      "detail": "Listed as a major elective on the 2026-2027 catalog program page.",
+      "sourceUrl": "https://catalog.cpp.edu/preview_program.php?catoid=78&poid=24271",
+      "quote": "CS 6910 - Directed Research (1-3) (1 unit required)"
+    },
+    {
+      "id": "f97",
+      "kind": "course",
+      "name": "CS 6950",
+      "detail": "Listed as a major elective on the 2026-2027 catalog program page.",
+      "sourceUrl": "https://catalog.cpp.edu/preview_program.php?catoid=78&poid=24271",
+      "quote": "CS 6950 - Master's Degree Project (1) (1 unit required)"
+    },
+    {
+      "id": "f98",
+      "kind": "course",
+      "name": "CS 6910",
+      "detail": "Listed as a major elective on the 2026-2027 catalog program page.",
+      "sourceUrl": "https://catalog.cpp.edu/preview_program.php?catoid=78&poid=24271",
+      "quote": "CS 6910 - Directed Research (1-3) (2 units required)"
+    },
+    {
+      "id": "f99",
+      "kind": "course",
+      "name": "CS 6960",
+      "detail": "Listed as a major elective on the 2026-2027 catalog program page.",
+      "sourceUrl": "https://catalog.cpp.edu/preview_program.php?catoid=78&poid=24271",
+      "quote": "CS 6960 - Master's Degree Thesis (1-3) (3 units required)"
+    }
+  ]
+}

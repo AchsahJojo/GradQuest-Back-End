@@ -1,0 +1,679 @@
+TITLE: 
+FAQ CS 692 – Capstone Exam 
+
+- 
+- 
+- 
+- 
+- 
+
+Skip to main content
+
+California State University, East Bay Home 
+- Apply 
+
+- Request Info 
+
+- Give 
+
+EN 
+- Afrikaans 
+
+- Albanian 
+
+- Amharic 
+
+- Arabic 
+
+- Armenian 
+
+- Azerbaijani 
+
+- Basque 
+
+- Belarusian 
+
+- Bengali 
+
+- Bosnian 
+
+- Bulgarian 
+
+- Catalan 
+
+- Cebuano 
+
+- Chichewa 
+
+- Chinese (Simplified) 
+
+- Chinese (Traditional) 
+
+- Corsican 
+
+- Croatian 
+
+- Czech 
+
+- Danish 
+
+- Dutch 
+
+- English 
+
+- Esperanto 
+
+- Estonian 
+
+- Filipino 
+
+- Finnish 
+
+- French 
+
+- Frisian 
+
+- Galician 
+
+- Georgian 
+
+- German 
+
+- Greek 
+
+- Gujarati 
+
+- Haitian Creole 
+
+- Hausa 
+
+- Hawaiian 
+
+- Hebrew 
+
+- Hindi 
+
+- Hmong 
+
+- Hungarian 
+
+- Icelandic 
+
+- Igbo 
+
+- Indonesian 
+
+- Irish 
+
+- Italian 
+
+- Japanese 
+
+- Javanese 
+
+- Kannada 
+
+- Kazakh 
+
+- Khmer 
+
+- Kinyarwanda 
+
+- Korean 
+
+- Kurdish (Kurmanji) 
+
+- Kyrgyz 
+
+- Lao 
+
+- Latin 
+
+- Latvian 
+
+- Lithuanian 
+
+- Luxembourgish 
+
+- Macedonian 
+
+- Malagasy 
+
+- Malay 
+
+- Malayalam 
+
+- Maltese 
+
+- Maori 
+
+- Marathi 
+
+- Mongolian 
+
+- Myanmar (Burmese) 
+
+- Nepali 
+
+- Norwegian 
+
+- Odia (Oriya) 
+
+- Pashto 
+
+- Persian 
+
+- Polish 
+
+- Portuguese 
+
+- Punjabi 
+
+- Romanian 
+
+- Russian 
+
+- Samoan 
+
+- Scots Gaelic 
+
+- Serbian 
+
+- Sesotho 
+
+- Shona 
+
+- Sindhi 
+
+- Sinhala 
+
+- Slovak 
+
+- Slovenian 
+
+- Somali 
+
+- Spanish 
+
+- Sundanese 
+
+- Swahili 
+
+- Swedish 
+
+- Tajik 
+
+- Tamil 
+
+- Tatar 
+
+- Telugu 
+
+- Thai 
+
+- Turkish 
+
+- Turkmen 
+
+- Ukrainian 
+
+- Urdu 
+
+- Uyghur 
+
+- Uzbek 
+
+- Vietnamese 
+
+- Welsh 
+
+- Xhosa 
+
+- Yiddish 
+
+- Yoruba 
+
+- Zulu 
+
+Search the site Submit Search 
+
+INFO FOR
+Press Enter to open the info for dropdown 
+- Current Students 
+
+- Future Students 
+
+- Alumni 
+
+- Faculty 
+
+- Staff 
+
+MENU
+
+Menu 
+
+Site Navigation Menu 
+APPLY REQUEST INFO MAKE A GIFT 
+
+Information for:
+
+- Current Students 
+
+- Future Students 
+
+- Alumni 
+
+- Faculty 
+
+- Staff 
+
+- About 
+
+- About 
+
+- Accessibility 
+
+- Alumni 
+
+- Athletics 
+
+- Bookstore 
+
+- Campus Maps 
+
+- Concord Center 
+
+- News Center 
+
+- Office of the President 
+
+- Rentals & Scheduling 
+
+- Colleges and Departments 
+
+- Colleges and Departments 
+
+- College of Business and Economics 
+
+- College of Health 
+
+- College of Letters, Arts, and Social Sciences 
+
+- College of Science 
+
+- Continuing Education 
+
+- Online Programs 
+
+- Future Students 
+
+- Future Students 
+
+- Admissions 
+
+- Application Deadlines 
+
+- Cost and Financial Aid 
+
+- Graduate Studies 
+
+- Undergraduate Majors 
+
+- Visit Campus 
+
+- Current Students 
+
+- Current Students 
+
+- Academics 
+
+- Academic Support Programs 
+
+- Calendar 
+
+- Campus Life 
+
+- Cashier's Office 
+
+- Financial Aid 
+
+- International Programs 
+
+- Student Research Opportunities 
+
+- Pioneer Dining 
+
+- Student Records 
+
+- University Housing & Residence Life 
+
+- University Catalog 
+
+- Administrative Resources 
+
+- Faculty 
+
+- Staff 
+
+- Faculty and Staff Email (Google) 
+
+- Faculty and Staff Email (Outlook/MS365) 
+
+- Human Resources 
+
+- Career Opportunities 
+
+- MyCSUEB 
+
+- Canvas 
+
+- Library 
+
+- Email 
+
+- MyCompass 
+
+- Directory 
+
+Close
+
+- 
+
+- Computer Science 
+
+- Graduate Capstone 
+
+- FAQ CS 692 – Capstone Exam 
+
+Department of Computer Science click here to expand the navigation 
+
+- Vision, Mission, & Values 
+
+- Degrees & Programs 
+
+- Courses 
+
+- Current Students 
+
+- Forms 
+
+- Internship Course 
+
+- Advising 
+
+- Prospective Students 
+
+- First Year Transfer Students 
+
+- First Semester Schedule Planner 
+
+- First Year Master's Students 
+
+- First Semester Masters Student Planner 
+
+- Faculty & Staff 
+
+- Office Hours 
+
+- Professors Emeritus 
+
+- Industrial Advisory Board 
+
+- Financial Assistance 
+
+- Employment Opportunities 
+
+- Donate 
+
+- Graduate Capstone 
+
+- CS 699 Thesis 
+
+- FAQ CS 692 – Capstone Exam 
+
+- CS 693 Capstone Project 
+
+- Careers for Majors 
+
+- Resources 
+
+- Contact Us 
+
+- Help for Students 
+
+H1: FAQ CS 692 – Capstone Exam 
+
+H2: CS 692 – Capstone Exam for Computer Science and Machine Learning Concentrations
+
+This course consists of 3 exams, Operating Systems, Advanced Algorithms, and Theory of Computation, mapping to three of the five required courses for the master’s degree. Three faculty members will guide the course and will be available to answer your questions in each of the three areas so that you can prepare for the exams. "Attendance/Participation" in study sessions or office hours is recommended but is not mandatory.
+
+Students are encouraged to go through the old comprehensive exams which are posted here:
+
+https://www.csueastbay.edu/cs/graduate-capstone/cs-6901-cap-exp/past-exams/examples.html 
+
+Exams are held in person and are closed notes, books, and any other outside resources.
+
+Exams are 1.5 hours long
+
+Attendance is mandatory for each of the three exams.
+
+- 
+
+H3: 
+
+CSUEB Catalog Description
+
+Units: 3 
+A synthesis of important areas of Computer Science, culminating in comprehensive examinations covering three required courses in the Master’s degree: Advanced Algorithms, Theory of Computation, and Operating System Design. 
+
+Prerequisites: Department consent, minimum 3.0 GPA and advancement to candidacy. 
+Credit Restrictions: Computer Science M.S. students only. 
+Equivalent Quarter Course: CS 6901. 
+Possible Instructional Methods: Entirely On-ground, or Hybrid. 
+Grading: CR/NC grading only. 
+Student Learning Outcomes - Upon successful completion of this course students will be able to: 
+
+- Apply advanced computer science theory to computational problems.
+
+- Demonstrate advanced understanding of the mechanisms, components and architecture of current computing systems.
+
+- Apply emerging technologies and advanced algorithmic design.
+
+- Critique, plan and produce complex software applications.
+
+- Research and analyze current computer science literature.
+
+- 
+
+H3: 
+
+Qualification for CS 692 Capstone Exams
+
+Students wishing to enroll in CS 692 must first complete all prerequisite and/or
+deficiency courses with a grade of B- or better. Students must also have completed the
+five required courses for the degree (CS 601, CS 611, CS 621, CS 651, and Cs 671)
+and have a cumulative GPA of 3.0.
+
+Students cannot take a required course, prerequisite, or deficiency course concurrently with CS 692.
+
+- 
+
+H3: 
+
+Exam Examples
+
+graduate-capstone/cs-6901-cap-exp/past-exams/examples 
+
+- 
+
+H3: 
+
+Grading and Units
+
+CS 692 Capstone Exams is a three (3) unit class. Grading is CR/NC. Students need to
+pass all three exams to earn a credit for the class.
+
+If a student fails one or more of the exams, they must register for the course in the
+following semester. The student will only need to attend the exams that were not
+passed.
+
+Students get a maximum of three attempts at the exams.
+
+Students may not change to a different Capstone Experience (CS 693 Project or CS
+699 Thesis) after attempting the exams.
+
+Students who cannot pass the exams after three attempts will not earn their MS degree
+in Computer Science.
+
+- 
+
+H3: 
+
+Enrollment
+
+To enroll in CS 692 Capstone Exams, you must have completed ALL admissions
+prerequisites and remediation courses, and all five required courses CS 601, CS 611,
+CS 621, CS 651, and CS 671, and have a graduate and cumulative CSUEB GPA of 3.0
+or better.
+
+NOTE: All students taking CS 692 must be registered in the course. If you need to take
+CS 692 more than once, you will need to pay for the units each time. CS 692 can be
+taken a maximum of three times. If a student is unable to pass all three parts of the
+comprehensive exam after three attempts, they will, unfortunately, be removed from the
+program.
+
+Students may enroll in CS 692 Capstone exams through myCSUEB. Be sure to enroll
+for CR/NC and not A-F grading.
+
+Students may register for Capstone Exams in Fall and Spring semesters only. 
+
+- 
+
+H3: 
+
+Exam Instructions 
+
+- An exam sheet with 3 questions and paper will be provided.
+
+- Students must answer only two out of the three questions. Please note that an individual question may have multiple subparts.
+
+- All programming questions and answers should be written in the C or C++ languages. 
+
+- Students should write on one side of their answer paper only. Do not write on the exam question sheet itself. 
+
+- Name and which questions were chosen to complete should be marked on the cover sheet of the exam. 
+
+- At the end of the exam, students will tear off the cover sheet and staple it to their answer sheets. 
+
+- 
+
+H3: 
+
+Grading of Exam
+
+The course grade is based solely on the 3 exam scores and results in CREDIT or NO CREDIT for the course. 
+
+The student will complete 2 questions on each test, where each question is worth 20 points.
+
+The student must pass each test individually, with a score of 24/40 (60%) or better. 
+
+Students have the right to see the grading of their exams. If they feel they have been graded unfairly, they should first discuss this with the instructor in charge of the exam. If consensus is not achieved, the exam may be reviewed by the Department Graduate committee.
+
+If the student passes all 3 tests, they will receive a CREDIT (PASS) grade. If the student does not pass all 3 tests, a NO CREDIT grade will be issued. In this case, the student should contact the graduate coordinator about re-taking the exam. Exams are given in Spring and Fall semesters only. If a student does not pass an exam, they must register for CS 692 in the following semester and re-take only the exam(s) that they did not pass. Students are allowed 3 attempts for each exam. If unfortunately, a student cannot pass after three attempts, they will be dismissed from the program.
+
+- 
+
+H3: 
+
+Dates of the Exams
+
+Exam dates are published in the CSUEB schedule. These dates cannot be changed for any reason. If you cannot appear for the exam, you must retake the course. Exams are only offered in Fall and Spring semesters.
+
+- 
+
+H3: 
+
+Plagiarism
+
+If an exam paper is found to be plagiarized from other sources, an Academic Dishonesty report will be filed. The student will lose advisor recommendations.
+
+- 
+
+H3: 
+
+CSU 5-year rule
+
+Please note that the CSU system has a 5-year currency rule. If coursework and the Capstone Experience is not completed within 5 years, currency is lost, and the student will need to start over to complete their degree.
+
+California State University, East Bay 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+25800 Carlos Bee Boulevard 
+Hayward, CA 94542 (510) 885-3000 
+
+- Sexual Assault / Title IX 
+
+- Request Information 
+
+- Current Students 
+
+- Faculty 
+
+- Staff 
+
+- Alumni & Friends 
+
+- Accessibility 
+
+- Mission Statement 
+
+- Library 
+
+- Bookstore 
+
+- Academic Programs 
+
+- Viewbook of Colleges 
+
+- Contact Us 
+
+- Directory 
+
+- Maps & Directions 
+
+- Career Opportunities 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- 
+
+- Privacy Statement 
+
+- Emergency Info 
+
+- Annual Security Report 
+
+- Campus Safety Plan 
+
+- Register a Complaint 
+
+- Notice of Non-Discrimination and Retaliation Prohibition 
+
+- Cookie Settings 
+© 2026 California State University, East Bay. All Rights Reserved.

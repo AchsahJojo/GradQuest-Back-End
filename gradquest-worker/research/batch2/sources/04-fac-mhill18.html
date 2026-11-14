@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="http://www.csuchico.edu/favicon.ico" rel="shortcut icon" type="image/x-icon">
+    <title>Matthew Hill - Campus Directory - CSU, Chico</title>
+    <link href="/directory/Content/normalize.css" rel="stylesheet"/>
+<link href="/directory/Content/jquery-ui.css" rel="stylesheet"/>
+<link href="/directory/Content/Global.css" rel="stylesheet"/>
+<link href="/directory/Content/foundation.css" rel="stylesheet"/>
+<link href="/directory/Content/general_foundicons.css" rel="stylesheet"/>
+<link href="/directory/Content/Site.css" rel="stylesheet"/>
+<link href="/directory/Content/font-awesome-4.2.0/css/font-awesome.css" rel="stylesheet"/>
+
+
+    
+    <script src="/directory/Scripts/jquery-1.10.2.js"></script>
+
+    <script src="/directory/Scripts/jquery-ui-1.8.24.js"></script>
+
+    <script src="/directory/Content/js/foundation/foundation.js"></script>
+<script src="/directory/Content/js/foundation/foundation.abide.js"></script>
+<script src="/directory/Content/js/foundation/foundation.accordion.js"></script>
+<script src="/directory/Content/js/foundation/foundation.alert.js"></script>
+<script src="/directory/Content/js/foundation/foundation.clearing.js"></script>
+<script src="/directory/Content/js/foundation/foundation.dropdown.js"></script>
+<script src="/directory/Content/js/foundation/foundation.equalizer.js"></script>
+<script src="/directory/Content/js/foundation/foundation.interchange.js"></script>
+<script src="/directory/Content/js/foundation/foundation.joyride.js"></script>
+<script src="/directory/Content/js/foundation/foundation.magellan.js"></script>
+<script src="/directory/Content/js/foundation/foundation.offcanvas.js"></script>
+<script src="/directory/Content/js/foundation/foundation.orbit.js"></script>
+<script src="/directory/Content/js/foundation/foundation.reveal.js"></script>
+<script src="/directory/Content/js/foundation/foundation.tab.js"></script>
+<script src="/directory/Content/js/foundation/foundation.tooltip.js"></script>
+<script src="/directory/Content/js/foundation/foundation.topbar.js"></script>
+<script src="/directory/Content/js/global.js"></script>
+
+    <script src="/directory/Scripts/datatables.min.js"></script>
+    <script>
+        const SMALL_SCREEN_WIDTH = 640;
+    </script>
+</head>
+<body>
+    <div class="off-canvas-wrap" data-offcanvas>
+        <div class="inner-wrap">
+            <header class="site-header" role="banner">
+                <div class="row">
+                    <div class="task-nav-wrap" id="task-nav"><nav><ul class="task-nav"><li><a href="http://portal.csuchico.edu/">Portal</a></li><li><a href="https://outlook.com/csuchico.edu">Email</a></li><li><a href="http://www.csuchico.edu/resources">student resources</a></li><li><a href="http://www.csuchico.edu/catalog/">Catalog</a></li><li><a href="http://www.csuchico.edu/schedule/">Class Schedule</a></li><li><a href="https://www.csuchico.edu/maps/campus/index.shtml">Campus Map</a></li><li><a href="http://www.csuchico.edu/directory/">Directory</a></li><li><a href="http://www.csuchico.edu/library/">Library</a></li></ul></nav><div class="searchbox"><form action="https://search.csuchico.edu/" id="site-search-form" method="get"><fieldset><legend>CSU, Chico Search</legend><label for="campus-search-query">Search CSU, Chico</label><input id="campus-search-query" name="q" placeholder="Search CSU, Chico" type="text" /><input id="campus-search-submit" name="submit" type="submit" value="Go" /></fieldset></form></div></div><a class="task-nav-toggle task-nav-toggle--open" href="#task-nav"><span class="show-for-sr">Open Task Nav</span></a><a class="task-nav-toggle task-nav-toggle--close" href="#"><span class="show-for-sr">Close Task Nav</span></a><a class="csuc-signature" href="http://www.csuchico.edu/"><span class="show-for-sr">California State University, Chico</span></a>
+                    <!--[if IE]>
+                    <style type="text/css">
+                    .browse-happy {background: #fae88a;padding: 5px;text-align: center;}
+                    .browse-happy * { color: #000; }
+                    .browse-happy a { text-decoration: underline; }
+                    .browse-happy p {font-size: 14px;margin-bottom: 0;}
+                    </style>
+                    <div class="browse-happy">
+                        <p>Your browser is no longer supported. <a href="http://browsehappy.com/">Upgrade now</a> to enjoy faster page loads, improved security, and a better viewing experience.</p>
+                    </div>
+                    <![endif]-->
+                </div>
+            </header>
+            <div id="content" role="main">
+                <div class="row" style="padding: 0 0 0; background-color:#960000;">
+                    <h1 class="right" style="margin-right:1.125rem; margin-bottom: 0;"><a href='/directory/'><b style="color:white; font-family: 'Source Sans Pro',sans-serif;">CAMPUS DIRECTORY</b></a></h1>
+                </div>
+                <div class="row" style="padding: 1.125rem 0 0;">
+                    
+
+<form action="/directory/Search/Search" data-abide="data-abide" method="post">    <div class="medium-3 column">
+        <select id="SearchType" name="SearchType" title="A drop down list containing all, staff, department and student as filters for searching."><option>All</option>
+<option>Faculty/Staff</option>
+<option>Students</option>
+<option>Departments</option>
+</select>
+    </div>
+    <div class="medium-6 column">
+        <input autocomplete="off" id="SearchText" name="SearchText" onkeyup="queSearch(this.value)" pattern="^[0-9A-Za-z-&#39; ]{3,50}$" placeholder="Search By Faculty, Staff, Students, and Department Name" required="required" title="Search box for Faculty, Staff, Students, and Departments." type="text" value="" />
+        <div>
+            <small class="error">At least 3 characters required. Numbers, apostrophes, hyphens and letters only.</small>
+        </div>
+    </div>
+    <div class="medium-3 column">
+        <input type="submit" value="Search" class="button tiny expand" style='font-family: "Source Sans Pro", sans-serif;padding-top: 0.725rem;padding-bottom: 0.8575rem; font-size: medium;' />
+    </div>
+</form><script src="/directory/Scripts/jquery-ui-1.8.24.js"></script>
+
+<script>
+
+    const WAIT_INTERVAL = 1000;
+    var inputTimer;
+    var regex = new RegExp("^[0-9A-Za-z-' ]{3,50}$");
+
+    var queSearch = function (searchText) {        
+        clearTimeout(inputTimer);
+
+        if ($(window).width() < SMALL_SCREEN_WIDTH)
+            return;
+
+        if (searchText.length > 2) {
+            inputTimer = setTimeout(search(searchText), WAIT_INTERVAL);
+        }
+        else {
+            $("#SearchText").autocomplete({ source: [] });
+        }
+    };
+
+    var search = function (searchText) {
+        if (!regex.test(searchText))
+            return;
+
+        $("#SearchText")
+            .autocomplete({
+                source: function (request, response) {
+                    var url = '/directory/Search/AjaxSearch';
+                    $.ajax({
+                        url: url,
+                        data: { SearchText: searchText },
+                        cache: false,
+                        type: "POST",
+                        success: function (data) {
+                            if (data.success) {
+                                response(data.result);
+                            }
+                            else {
+                                console.log(data.result);
+                            }
+                        }
+                    });
+                }
+            })
+            .data("autocomplete")._renderItem = function (ul, item) {
+                var redirectURL;
+
+                if (item.Controller === "Department") {
+                    redirectURL = "'" + '/directory/Department/DepartmentDetails?deptID=' + item.Value + "'";
+                }
+                else if (item.Controller == "Employee") {
+                    redirectURL = "'" + '/directory/Employee/EmployeeDetails?userID=' + item.Value + "'";
+                }
+                else {
+                    redirectURL = "'mailto:" + item.Value + "'";
+                }
+                return $('<li class="hover-highlight" onclick="location.href =' + redirectURL + '">').append("<div style='font-size: 90%;padding-left: 5px'><u style='color: #960000;'>" + item.Label + "</u><br><span style='font-size: 85%;'>" + item.Description + "<span></div>").appendTo(ul);
+            };
+    };
+</script>
+                    <div class="medium-12 column">
+                        <hr style="margin-bottom:0" />
+                    </div>
+                </div>
+                <div class="row" style="padding-top:1.125rem;">
+                    <div class="row">
+                        
+
+
+
+<ul class="breadcrumbs">
+    <li><a href="http://www.csuchico.edu">CSU, Chico</a></li>
+    <li><a href='/directory/'>Campus Directory</a></li>
+
+            <li><a href='/directory/Department/DepartmentDetails?deptID=1'>Provost Office</a></li>
+            <li><a href='/directory/Department/DepartmentDetails?deptID=71'>College of Engineering,...</a></li>
+            <li><a href='/directory/Department/DepartmentDetails?deptID=65'>Computer Science Department</a></li>
+
+        <li class="current">Matthew Hill</li>
+</ul>    <div class="row">
+        <div class="medium-9 column">
+            <div class="row">
+                <div class="medium-12 column">
+                    <h3 style="color:#960000">Matthew D Hill</h3>
+                </div>
+            </div>
+            <div class="medium-12 column">
+                <div class="medium-4 column">
+                    <img style="object-fit:contain" src="https://assets.csuchico.edu/app/directory/profile/mhill18.jpg" alt="Matthew Hill">
+                </div>
+                <div class="medium-8 column" style="border: solid 1px #dddddd;">
+                    <div class="row custom-header">
+                        <div class="small-4 column"><b class="right">Title</b></div>
+                            <div class="small-6 column left">Lecturer</div>
+                    </div>
+                    <div class="row padded-cell">
+                        <div class="small-4 column"><b class="right">Department</b></div>
+                        <div class="small-6 column left"><a href='/directory/Department/DepartmentDetails?deptID=65'>Computer Science Department</a></div>
+                    </div>
+                    <div class="row custom-header">
+                        <div class="small-4 column"><b class="right">Office</b></div>
+                        <div class="small-6 column left">OCNL  208</div>
+                    </div>
+                        <div class="row padded-cell">
+                            <div class="small-4 column"><b class="right">Office Hours</b></div>
+                            <div class="small-6 column left">https://bit.ly/student_hours</div>
+                        </div>
+                    <div class="row custom-header">
+                        <div class="small-4 column"><b class="right">Campus Zip</b></div>
+                        <div class="small-6 column left">0410</div>
+                    </div>
+                    <div class="row padded-cell">
+                        <div class="small-4 column"><b class="right">Phone</b></div>
+                        <div class="small-6 column left"><a href="tel:530-898-6442">530-898-6442</a></div>
+                    </div>
+                    <div class="row custom-header">
+                        <div class="small-4 column"><b class="right">Email</b></div>
+                        <div class="small-6 column left"><a href="mailto:mhill18@csuchico.edu">mhill18@csuchico.edu</a></div>
+                    </div>
+                </div>
+                </div>
+
+
+                                
+                
+
+                   
+          
+            
+
+        </div>
+            <div class="medium-3 column">
+                
+
+<dl class="accordion" data-accordion>
+    <dd class="accordion-navigation">
+        <a href="#searchPanel">Alphabetical Listings</a>
+        <div id="searchPanel" class="content active" style="padding-bottom:0">
+
+<form action="/directory/Employee/GetEmployeesByLetter" method="post"><input id="emplLetter" name="emplLetter" type="hidden" value="" />                <div class="row">
+                    <div class="medium-12 column small-font">
+                        <label for="ddlEmployeeLetters">Faculty/Staff:</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="small-5 column">
+                        <select id="ddlEmployeeLetters" name="ddlEmployeeLetters" onchange="$(&#39;#emplLetter&#39;).val(this.value)"><option>A</option>
+<option>B</option>
+<option>C</option>
+<option>D</option>
+<option>E</option>
+<option>F</option>
+<option>G</option>
+<option>H</option>
+<option>I</option>
+<option>J</option>
+<option>K</option>
+<option>L</option>
+<option>M</option>
+<option>N</option>
+<option>O</option>
+<option>P</option>
+<option>Q</option>
+<option>R</option>
+<option>S</option>
+<option>T</option>
+<option>U</option>
+<option>V</option>
+<option>W</option>
+<option>X</option>
+<option>Y</option>
+<option>Z</option>
+</select>
+                    </div>
+                    <div class="small-6 column">
+                        <input type="submit" value="Go" class="button tiny" />
+                    </div>
+                </div>
+</form>
+<form action="/directory/Department/GetDepartmentsByLetter" method="post"><input id="deptLetter" name="deptLetter" type="hidden" value="" />                <div class="row">
+                    <div class="medium-12 column small-font">
+                        <label for="ddlDeptLetters">Departments:</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="small-5 column">
+                        <select id="ddlDeptLetters" name="ddlDeptLetters" onchange="$(&#39;#deptLetter&#39;).val(this.value)"><option>A</option>
+<option>B</option>
+<option>C</option>
+<option>D</option>
+<option>E</option>
+<option>F</option>
+<option>G</option>
+<option>H</option>
+<option>I</option>
+<option>J</option>
+<option>K</option>
+<option>L</option>
+<option>M</option>
+<option>N</option>
+<option>O</option>
+<option>P</option>
+<option>Q</option>
+<option>R</option>
+<option>S</option>
+<option>T</option>
+<option>U</option>
+<option>V</option>
+<option>W</option>
+<option>X</option>
+<option>Y</option>
+<option>Z</option>
+</select>
+                    </div>
+                    <div class="small-6 column">
+                        <input type="submit" value="Go" class="button tiny" />
+                    </div>
+                </div>
+</form>        </div>
+    </dd>
+</dl>
+<script>
+    $(document).ready(function () {
+        $('#emplLetter').val('A');
+        $('#deptLetter').val('A');
+    });
+</script>
+
+
+                
+
+<dl class="accordion" data-accordion>
+    <dd class="accordion-navigation">
+        <a href="#infoPanel">University Information</a>
+        <div id="infoPanel" class="content active">
+            <b>530-898-4636</b>
+            <p class="tiny-font">
+                California State University, Chico<br />
+                400 West First Street<br />
+                Chico, CA, 95929<br />
+                <a href="http://www.csuchico.edu"><u>http://www.csuchico.edu</u></a><br />
+                <a href='/directory/OrgChart' style="margin-top:10px"><u>Campus Organizational Chart</u></a>
+            </p>
+        </div>
+    </dd>
+</dl>
+<dl class="accordion" data-accordion>
+    <dd class="accordion-navigation">
+        <a href="#emergencyPanel">Emergency Service</a>
+        <div id="emergencyPanel" class="content">
+            <b>9-1-1</b><span class="tiny-font"> From any phone</span><br />
+            <span class="tiny-font">or</span><br />
+            <b>530-898-5555</b><br />
+            <p class="tiny-font">
+                <b>Non-emergency Service:</b>
+                For University Police & UPD Escort Service
+            </p>
+        </div>
+    </dd>
+</dl>
+<dl class="accordion" data-accordion>
+    <dd class="accordion-navigation">
+        <a href="#numbersPanel">Important Numbers</a>
+        <div id="numbersPanel" class="content">
+            <p class="small-font">
+                <b>Prefix & Area Code:</b><br />
+                530-898-xxxx
+            </p>
+            <p class="small-font">
+                <b>Campus Information:</b><br />
+                530-898-4636
+            </p>
+            <p class="small-font">
+                <b>Campus Fax Number:</b><br />
+                530-898-6824
+            </p>
+            <p class="small-font">
+                <b>Health & Safety Concerns:</b><br />
+                530-898-5126
+            </p>
+            <p class="small-font">
+                <b>IT Support Services:</b><br />
+                530-898-HELP (4357)
+            </p>
+        </div>
+    </dd>
+</dl>
+<dl class="accordion" data-accordion>
+    <dd class="accordion-navigation">
+        <a href="#correctionsPanel">Corrections</a>
+        <div id="correctionsPanel" class="content">
+            <p class="tiny-font">
+                Please report content errors or omissions to the <a href='/directory/Maintainer' style="background-color:white"><u>directory maintainer</u></a> for your department.
+            </p><br />
+            <p class="tiny-font">
+				<a href="https://dirmain.csuchico.edu/dirmain" style="background-color:white; text-decoration:underline;">Directory Login</a><br>Update the directory as a maintainer.
+			</p>
+        </div>
+    </dd>
+</dl>
+<dl class="accordion" data-accordion>
+    <dd class="accordion-navigation">
+        <a href="#helpPanel">Directory Help</a>
+        <div id="helpPanel" class="content">
+            <p class="tiny-font">For help with directory maintenance, please open a ticket by following the guide below:</p>
+            <p class="tiny-font">
+              <a href="https://support.csuchico.edu/TDClient/1984/Portal/KB/ArticleDet?ID=114843"><u style="background-color:white">Directory quick guides</u></a>
+            </p><br/>
+            <p class="tiny-font">
+                For all other inquiries, please email: <a href="mailto:directory@csuchico.edu"><u style="background-color:white">directory@csuchico.edu</u></a>
+            </p>
+        </div>
+    </dd>
+</dl>
+
+            </div>
+        </div>
+
+                    </div>
+                </div>
+            </div>
+            <footer class="site-footer" role="contentinfo"><div class="row"><div class="site-footer__contact"><ul class="vcard--site-footer"><li class="vcard__item vcard__fn">California State University, Chico</li><li class="vcard__item vcard__street-address">400 West First Street</li><li class="vcard__item vcard__locality">Chico</li>,<li class="vcard__item"><span class="vcard__state">&nbsp;CA&nbsp;</span><span class="vcard__zip">95929</span></li></ul><p><a href="http://www.csuchico.edu/contact/index.shtml">Contact Us</a></p></div><div class="small-6 medium-5 medium-offset-1 large-3 large-offset-0 columns"><span class="icon icon--footer-menu"></span><h4 class="site-footer__header">Menu</h4><ul class="site-footer__list list--cozy  list--links"><li><a href="http://www.csuchico.edu/index.shtml">Chico State Home</a></li><li><a href="http://www.csuchico.edu/about/index.shtml">About Us</a></li><li><a href="http://www.csuchico.edu/academics/index.shtml">Academics</a></li><li><a href="http://www.csuchico.edu/admissions/index.shtml">Admissions</a></li><li><a href="http://www.chicowildcats.com/">Athletics</a></li><li><a href="http://www.csuchico.edu/giving/index.shtml">Give a Gift</a></li></ul></div><div class="small-6 medium-5 large-3 columns"><span class="icon icon--footer-audience"></span><h4 class="site-footer__header">Audiences</h4><ul class="site-footer__list list--cozy list--links"><li><a href="http://www.csuchico.edu/prospective-students/index.shtml">Prospective Students</a></li><li><a href="http://www.csuchico.edu/alumni/index.shtml">Alumni</a></li><li><a href="http://www.csuchico.edu/parents/index.shtml">Parents</a></li><li><a href="http://www.csuchico.edu/visit-chico-state/index.shtml">Visitors</a></li></ul></div><div class="small-6 medium-5 medium-offset-1 large-3 large-offset-0 columns"><span class="icon icon--footer-info"></span><h4 class="site-footer__header">Information</h4><ul class="site-footer__list list--cozy list--links"><li><a href="http://www.csuchico.edu/emergencyprep/index.shtml">Emergency Preparedness</a></li><li><a href="http://www.csuchico.edu/employment/index.shtml">Employment Opportunity</a></li><li><a href="http://www.csuchico.edu/hr/coi/gifts-to-agency.shtml">Gifts to Agency</a></li><li><a href="http://www.csuchico.edu/title-ix/index.shtml">Title IX</a></li><li><a href="http://www.csuchico.edu/help/index.shtml">Help</a></li></ul></div><div class="small-6 medium-5 large-3 columns end"><span class="icon icon--footer-accessibility"></span><h4 class="site-footer__header">Accessibility</h4><ul class="site-footer__list list--cozy list--links"><li><a href="http://www.csuchico.edu/arc/index.shtml">Accessibility Resource Center</a></li><li><a href="http://www.csuchico.edu/arc/accessibility.shtml">Report an Accessibility Issue</a></li><li><a href="http://www.csuchico.edu/about-site/change-form.php">Report a Broken Link</a></li><li><a href="http://get.adobe.com/reader/">Download Adobe Reader</a></li></ul><p class="site-footer__list list--cozy list--links">Copyright © <script type="text/javascript">document.write(new Date().getFullYear());</script> CSU, Chico<br>All Rights Reserved</p></div></div></footer>
+        </div>
+    </div>
+    
+    <script>
+        $(document).foundation();
+    </script>
+</body>
+</html>
