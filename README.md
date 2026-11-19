@@ -36,7 +36,7 @@ That route exists only on the `dev` profile. The Expo app shows the button when 
 
 ## Catalog and matching
 
-Catalog SQL is in `db/` (`seed_schools.sql`, `seed_program_terms.sql`, plus the `migrate_track_*.sql` scripts). `ddl-auto=update` adds columns; the SQL scripts are how the 25 programs are loaded.
+Catalog SQL is in `db/` (`seed_schools.sql`, `seed_program_terms.sql`, plus the `migrate_track_*.sql` and `migrate_statement_drafts.sql` scripts). `ddl-auto=update` adds columns/tables; the SQL scripts are how the 25 programs are loaded and how additive migrations are applied to Supabase.
 
 `GET /api/schools/top5` ranks with `MatchScoringService` / `MatchWeights` and returns up to 10 programs:
 
@@ -60,7 +60,8 @@ The session cookie identifies the student. Do not pass `userId` or `studentId`. 
 - `GET`, `POST`, `PUT`, `DELETE /api/preferences`
 - `GET /api/schools`, `GET /api/schools/{schoolId}`, `GET /api/schools/top5`, `POST /api/schools/search`
 - `POST /api/reminders?schoolId=`, `GET /api/reminders`, `DELETE /api/reminders/{reminderId}`, `DELETE /api/reminders/school/{schoolId}`, `PATCH /api/reminders/{reminderId}/complete`
-- Statement drafts (session auth; the server picks an allowlisted public URL): `POST /api/sop/programs` with `{ "schoolId" }`, `POST /api/sop/resume` (JSON `{ "schoolId", "text" }` or multipart `schoolId` + `file`), `POST /api/sop/overlap` with `{ "schoolId" }`, `POST /api/sop/draft` with `{ "schoolId", "mode": "opening" | "motivation", "pastedPrompt" }`, and `DELETE /api/sop/resume`
+- Saved statement drafts (session auth; one row per user+school): `GET /api/statement-drafts?schoolId=` → `{ body, updatedAt }` or 404, `PUT /api/statement-drafts` with `{ "schoolId", "body" }` (upsert), `DELETE /api/statement-drafts?schoolId=`
+- Statement generate (session auth; the server picks an allowlisted public URL): `POST /api/sop/programs` with `{ "schoolId" }`, `POST /api/sop/resume` (JSON `{ "schoolId", "text" }` or multipart `schoolId` + `file`), `POST /api/sop/overlap` with `{ "schoolId" }`, `POST /api/sop/draft` with `{ "schoolId", "mode": "opening" | "motivation", "pastedPrompt" }`, and `DELETE /api/sop/resume`
 
 `POST /api/sop/overlap` asks the worker which faculty and course facts match the stored résumé and returns those pairs, whether the match is weak, and the snapshot's verified-as-of time. A school that is not on the allowlist is not fetched; that response is a weak match with no pairs. `DELETE /api/sop/resume` asks the worker to clear that user's stored résumé. The worker returns `{ "deleted": true }` when the Durable Object résumé rows, that user's D1 résumé rows, the R2 objects under `resumes/{userId}/`, and the Vectorize ids collected before those rows are deleted have all been cleared. If one of those stores fails, the response is `{ "deleted": false, "failed": ["..."] }` and the others are still cleared. Program facts are not deleted.
 
