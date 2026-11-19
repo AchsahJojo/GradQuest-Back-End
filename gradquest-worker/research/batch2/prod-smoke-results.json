@@ -1,0 +1,150 @@
+{
+  "userId": "smoke-prod-mwn4ke1i",
+  "rows": [
+    {
+      "schoolId": 1,
+      "schoolName": "Arizona State University",
+      "programSource": "snapshot",
+      "programVerifiedAsOf": "2026-11-18T20:00:00.000Z",
+      "factCounts": {
+        "overview": 17,
+        "requirement": 17,
+        "course": 13,
+        "faculty": 26,
+        "deadline": 7
+      },
+      "weak": false,
+      "pairCount": 3,
+      "verifiedAsOf": "2026-11-18T20:00:00.000Z",
+      "facultyPairs": 1,
+      "coursePairs": 2,
+      "pairs": [
+        {
+          "kind": "course",
+          "name": "CSE 571",
+          "detail": "CSE 571 Artificial Intelligence, ASU Engage (poweredby.asu.edu) AI course page: a rigorous graduate-"
+        },
+        {
+          "kind": "course",
+          "name": "AI concentration courses",
+          "detail": "The handbook lists CSE 571, CSE 575, CSE 576, and CSE 574 as required AI concentration courses."
+        },
+        {
+          "kind": "faculty",
+          "name": "Tiffany Bao",
+          "detail": "ASU directory profile (bio): Her research focuses on cyber autonomy, and her work spans the areas of"
+        }
+      ]
+    },
+    {
+      "schoolId": 14,
+      "schoolName": "San Diego State University",
+      "programSource": "snapshot",
+      "programVerifiedAsOf": "2026-11-18T20:00:00.000Z",
+      "factCounts": {
+        "overview": 2,
+        "requirement": 16,
+        "course": 58,
+        "faculty": 15,
+        "deadline": 3
+      },
+      "weak": false,
+      "pairCount": 6,
+      "verifiedAsOf": "2026-11-18T20:00:00.000Z",
+      "facultyPairs": 1,
+      "coursePairs": 5,
+      "pairs": [
+        {
+          "kind": "course",
+          "name": "CS 581",
+          "detail": "CS 581 Computational Linguistics, SDSU 2026-27 catalog: Applications to parsing, natural language un"
+        },
+        {
+          "kind": "course",
+          "name": "CS 659",
+          "detail": "CS 659 Visual Perception and Learning, SDSU 2026-27 catalog: Computer algorithms and methods for com"
+        },
+        {
+          "kind": "course",
+          "name": "CS 652",
+          "detail": "CS 652 Foundations of Deep Learning, SDSU 2026-27 catalog: DL Optimization, DL Generalization, Neura"
+        },
+        {
+          "kind": "course",
+          "name": "CY 541",
+          "detail": "CY 541 AI in Cybersecurity, SDSU 2026-27 catalog: The class will be offered for letter grade with no"
+        },
+        {
+          "kind": "faculty",
+          "name": "Wei Wang",
+          "detail": "SDSU CS faculty profile: Areas of Expertise Wireless Networks, Wireless Multimedia QoE/QoS, Machine "
+        },
+        {
+          "kind": "course",
+          "name": "CS 559",
+          "detail": "CS 559 Computer Vision, SDSU 2026-27 catalog: The class will be offered for letter grade with no opt"
+        }
+      ]
+    },
+    {
+      "schoolId": 23,
+      "schoolName": "University of Nevada, Las Vegas",
+      "programSource": "snapshot",
+      "programVerifiedAsOf": "2026-11-18T20:00:00.000Z",
+      "factCounts": {
+        "overview": 7,
+        "requirement": 30,
+        "course": 43,
+        "faculty": 28,
+        "deadline": 1
+      },
+      "weak": false,
+      "pairCount": 8,
+      "verifiedAsOf": "2026-11-18T20:00:00.000Z",
+      "facultyPairs": 3,
+      "coursePairs": 5,
+      "pairs": [
+        {
+          "kind": "course",
+          "name": "Exam track AI and Machine Learning required list",
+          "detail": "Exam subplan 6, AI and Machine Learning: complete a total of 9 credits from CS 622 Introduction to M"
+        },
+        {
+          "kind": "course",
+          "name": "CS 682 Artificial Intelligence",
+          "detail": "2026-2027 Graduate Catalog: CS 682 Artificial Intelligence is on the required-course list (complete "
+        },
+        {
+          "kind": "faculty",
+          "name": "Prashant Modekurthy",
+          "detail": "UNLV faculty profile: research interests include Cyber Physical Systems (CPS), Real-Time and Embedde"
+        },
+        {
+          "kind": "course",
+          "name": "Exam track AI and Machine Learning required list",
+          "detail": "Exam subplan 6, AI and Machine Learning: complete a total of 9 credits from CS 622 Introduction to M"
+        },
+        {
+          "kind": "course",
+          "name": "Exam track AI and Machine Learning required list",
+          "detail": "Exam subplan 6, AI and Machine Learning: complete a total of 9 credits from CS 622 Introduction to M"
+        },
+        {
+          "kind": "faculty",
+          "name": "Prashant Modekurthy",
+          "detail": "UNLV faculty profile: research interests include Cyber Physical Systems (CPS), Real-Time and Embedde"
+        },
+        {
+          "kind": "course",
+          "name": "Exam track Data Science and Big Data required list",
+          "detail": "Exam subplan 8, Data Science and Big Data: complete a total of 9 credits from CS 657 Database Manage"
+        },
+        {
+          "kind": "faculty",
+          "name": "Sohini Roy",
+          "detail": "UNLV faculty profile: research interests include cyber-physical systems, smart grid resilience, and "
+        }
+      ]
+    }
+  ]
+}
