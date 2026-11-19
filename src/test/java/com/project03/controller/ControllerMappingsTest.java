@@ -16,11 +16,14 @@ import org.springframework.web.servlet.mvc.method.RequestMappingInfo;
 import org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping;
 
 import com.project03.repository.ApplicationRepository;
+import com.project03.repository.ProgramTermRepository;
 import com.project03.repository.ReminderRepository;
 import com.project03.repository.SchoolRepository;
+import com.project03.repository.StatementDraftRepository;
 import com.project03.repository.StudentPreferenceRepository;
 import com.project03.repository.UserRepository;
 import com.project03.service.CurrentUserService;
+import com.project03.service.MatchScoringService;
 import com.project03.service.OAuthUserService;
 
 /**
@@ -34,7 +37,8 @@ import com.project03.service.OAuthUserService;
         OAuthFinalController.class,
         ReminderController.class,
         SchoolController.class,
-        StudentPreferenceController.class
+        StudentPreferenceController.class,
+        StatementDraftController.class
 })
 @AutoConfigureMockMvc(addFilters = false)
 class ControllerMappingsTest {
@@ -47,8 +51,11 @@ class ControllerMappingsTest {
     @MockBean private StudentPreferenceRepository studentPreferenceRepository;
     @MockBean private ApplicationRepository applicationRepository;
     @MockBean private ReminderRepository reminderRepository;
+    @MockBean private ProgramTermRepository programTermRepository;
+    @MockBean private StatementDraftRepository statementDraftRepository;
     @MockBean private UserRepository userRepository;
     @MockBean private CurrentUserService currentUserService;
+    @MockBean private MatchScoringService matchScoringService;
     @MockBean private OAuthUserService oauthUserService;
 
     @Test
@@ -68,5 +75,8 @@ class ControllerMappingsTest {
 
         assertThat(handlers.stream().anyMatch(h -> h.getBeanType().equals(ReminderController.class)))
             .as("ReminderController has mappings").isTrue();
+
+        assertThat(handlers.stream().anyMatch(h -> h.getBeanType().equals(StatementDraftController.class)))
+            .as("StatementDraftController has mappings").isTrue();
     }
 }
