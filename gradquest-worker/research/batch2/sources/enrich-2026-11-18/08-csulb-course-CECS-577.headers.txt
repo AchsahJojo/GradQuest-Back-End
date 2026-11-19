@@ -1,0 +1,26 @@
+HTTP/1.1 301 Moved Permanently
+Date: Thu, 19 Nov 2026 04:14:43 GMT
+Server: Apache
+Location: https://csulb.catalog.acalog.com/preview_course_nopop.php?catoid=12&coid=114298
+Content-Length: 291
+Content-Type: text/html; charset=iso-8859-1
+
+HTTP/1.1 200 OK
+Date: Thu, 19 Nov 2026 04:14:44 GMT
+Content-Type: text/html; charset=UTF-8
+Content-Length: 7183
+Connection: keep-alive
+Set-Cookie: AWSALB=2RnRvahYhQqx7kPDZ3iQhsToDkeuZs+QF17w+LftwhB6pxV0nmFblouZR9Iw1d3iGEv+6Tngmq2XFU20hd422cWzCWAff08iuoPtvmmg2Wt7+t5n71Dcp/i8dcR0; Expires=Thu, 26 Nov 2026 04:14:44 GMT; Path=/; secure
+Set-Cookie: AWSALBCORS=2RnRvahYhQqx7kPDZ3iQhsToDkeuZs+QF17w+LftwhB6pxV0nmFblouZR9Iw1d3iGEv+6Tngmq2XFU20hd422cWzCWAff08iuoPtvmmg2Wt7+t5n71Dcp/i8dcR0; Expires=Thu, 26 Nov 2026 04:14:44 GMT; Path=/; secure; SameSite=None
+Content-Security-Policy: default-src 'self' https: data: blob:; script-src 'self' https: 'unsafe-inline' 'unsafe-eval'; style-src 'self' https: 'unsafe-inline'; img-src 'self' https: data:; font-src 'self' https: data:; object-src 'none'; base-uri 'self'; frame-ancestors 'self';
+Set-Cookie: acalog_theme=1; expires=Wed, 22-Mar-3026 04:15:44 GMT; Max-Age=31536000060; path=/; secure; HttpOnly
+X-Cache-Hit: 1
+Last-Modified: Thu, 19 Nov 2026 02:58:47 GMT
+Set-Cookie: ADRUM_BT=R%3A0%7Cg%3A7795ab3d-ed3e-4d4f-921e-3d0af845031a1296%7Cn%3Adigarc_881d5e4b-64f1-425e-8ceb-5e44d2b69b37%7Ci%3A583047%7Cd%3A269%7Ce%3A298; expires=Thu, 19-Nov-2026 04:15:14 GMT; Max-Age=30; path=/; secure
+Vary: Accept-Encoding
+Content-Encoding: gzip
+X-Frame-Options: SAMEORIGIN
+X-Content-Type-Options: nosniff
+Server: director
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+

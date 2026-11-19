@@ -1,0 +1,20 @@
+[display_name]
+Hannah Kerner
+
+[titles]
+Assistant Professor
+
+[primary_department]
+School of Computing and Augmented Intelligence
+
+[research_interests]
+
+
+[expertise_areas]
+
+
+[short_bio]
+Kerner's research focuses on developing AI and machine learning advances needed to address the world's most pressing challenges, including food security, climate change and space exploration.
+
+[bio]
+Hannah Kerner is an assistant professor in the School of Computing and Augmented Intelligence. Her research focuses on developing AI and machine learning advances needed to address the world's most pressing challenges, including food security, climate change and space exploration. As the AI lead for the NASA Harvest program, she is deploying research methods in real operations for stakeholders in industry, government and humanitarian organizations.

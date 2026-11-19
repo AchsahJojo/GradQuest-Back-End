@@ -1,0 +1,20 @@
+[display_name]
+Hani Ben Amor
+
+[titles]
+
+
+[primary_department]
+School of Computing and Augmented Intelligence
+
+[research_interests]
+
+
+[expertise_areas]
+
+
+[short_bio]
+Ben Amor's research topics focus on artificial intelligence, machine learning, human-robot interaction, robot vision, and automatic motor skill acquisition.
+
+[bio]
+Heni Ben Amor, an assistant professor, was previously a research scientist at Georgia Tech's Institute for Robotics and Intelligent Machines, where he led a project to improve robots for future applications in industrial settings, especially manufacturing. Prior to moving to Georgia Tech, Ben Amor worked with Jan Peters at the Technical University Darmstadt as a postdoctoral scholar. Ben Amor's research topics focus on artificial intelligence, machine learning, human-robot interaction, robot vision, and automatic motor skill acquisition. He received the highly competitive Daimler-and-Benz Fellowship as well as several best paper awards at major robotics and AI conferences. He also serves on the program committee of various AI and robotics conferences, including AAAI, IJCAI, IROS, and ICRA.

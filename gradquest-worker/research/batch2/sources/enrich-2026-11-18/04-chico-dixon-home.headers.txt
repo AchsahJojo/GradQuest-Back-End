@@ -1,0 +1,14 @@
+HTTP/2 200 
+access-control-allow-headers: *
+access-control-allow-methods: POST, GET, OPTIONS
+alt-svc: h3=":443"; ma=2592000
+content-type: text/html; charset=utf-8
+cross-origin-opener-policy: same-origin
+date: Thu, 19 Nov 2026 04:09:54 GMT
+referrer-policy: same-origin
+server: WSGIServer/0.2 CPython/3.8.20
+via: 1.1 Caddy
+x-content-type-options: nosniff
+x-frame-options: DENY
+content-length: 3484
+

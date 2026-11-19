@@ -1,0 +1,25 @@
+HTTP/2 200 
+date: Thu, 19 Nov 2026 04:17:02 GMT
+content-type: text/html; charset=utf-8
+age: 12390
+cache-control: max-age=2764800, public
+cf-cache-status: DYNAMIC
+content-language: en
+expires: Sun, 19 Nov 1978 05:00:00 GMT
+last-modified: Thu, 19 Nov 2026 00:50:32 GMT
+server: cloudflare
+vary: Cookie,Accept-Encoding
+via: varnish
+x-ah-environment: prod
+x-cache: HIT
+x-cache-hits: 1
+x-content-type-options: nosniff
+x-drupal-cache: MISS
+x-drupal-dynamic-cache: MISS
+x-frame-options: SAMEORIGIN
+x-generator: Drupal 11 (https://www.drupal.org)
+x-request-id: v-38fefd7c-e3b3-11f1-a47e-d326aff38919
+strict-transport-security: max-age=31536000
+content-encoding: gzip
+cf-ray: a5cc67269841f27a-IAD
+

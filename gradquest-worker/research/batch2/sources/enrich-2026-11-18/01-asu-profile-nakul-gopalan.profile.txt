@@ -1,0 +1,20 @@
+[display_name]
+Nakul Gopalan
+
+[titles]
+Assistant Professor
+
+[primary_department]
+School of Computing and Augmented Intelligence
+
+[research_interests]
+
+
+[expertise_areas]
+
+
+[short_bio]
+Gopalan has developed algorithms and methods that allow robots to be trained by leveraging demonstrations and natural language descriptions.
+
+[bio]
+Nakul Gopalan is an assistant professor at the School of Computing and Augmented Intelligence. He completed his doctorate at Brown University's Department of Computer Science in 2019. His research interests lie at the intersection of language grounding and robot learning. Gopalan has developed algorithms and methods that allow robots to be trained by leveraging demonstrations and natural language descriptions. Such learning would improve the usability of robots within homes and offices. His work has received a best paper award at the RoboNLP workshop held by the Association for Computational Linguistics in 2017.

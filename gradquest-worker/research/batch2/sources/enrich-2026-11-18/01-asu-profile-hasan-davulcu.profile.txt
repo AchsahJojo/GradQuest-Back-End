@@ -1,0 +1,20 @@
+[display_name]
+Hasan Davulcu
+
+[titles]
+Professor Senior Global Futures Scientist
+
+[primary_department]
+School of Computing and Augmented Intelligence
+
+[research_interests]
+Sociocultural Modeling and Persuasive AI Social Media and Web Mining Information Extraction and Database Systems Behavioral Analytics for Detecting Fraud
+
+[expertise_areas]
+Artificial Intelligence Big Data Data Cleaning and Information Extraction Machine Learning Scalable Database Systems Social Media Social Movements
+
+[short_bio]
+Dr. Hasan Davulcu is a CS professor at Arizona State University, co-founder of ARTIS MAGI, and founder/CTO of GoPX.AI-an interpretable AI platform that says what it does and does what it says.
+
+[bio]
+Dr. Hasan Davulcu is a Professor in the School of Computing and Augmented Intelligence at Arizona State University and the inventor of the lifting-lowering framework for Proof-Carrying AI. He serves as Associate Director of the Human Understanding and Artificial Intelligence Lab, a presidential strategic initiative at ASU. His patented AI and machine learning algorithms mine information from multilingual text, image, and video sources across social networks, transforming opaque neural outputs into symbolic, auditable reasoning structures. His work advances AI systems that are transparent, programmable, value-aligned, and verifiable-systems that not only say what they do, but do what they say. Dr. Davulcu's research in data mining, machine learning, social intelligence, and neuro-symbolic AI has been published in leading ACM and IEEE conferences and journals. His sociocultural modeling work in the U.S. Department of Defense Minerva Research Initiative-funded "Finding Allies for the War of Words" project was recognized with a 2011 HSCB Focus Exceptional Scientific Achievement Award by the Office of the Assistant Secretary of Defense for Research and Engineering. He has served as Principal Investigator on major NSF and DoD research initiatives, including an NSF Partnership for Innovation grant on behavioral analytics for detecting financial fraud and a DoD Minerva Research Initiative project on measuring and countering social influence and persuasion by extremist groups. His current work focuses on Programmable and Explainable Neuro-Symbolic AI, proof-carrying reasoning, and human-governed AI systems whose logic can be inspected, corrected, and trusted. Dr. Davulcu holds a B.S. in Mathematics from Middle East Technical University in Turkey and M.S. and Ph.D. degrees in Computer Science from Stony Brook University. He is co-founder of ARTIS MAGI and founder and CTO of GoPX.AI-an interpretable AI platform that says what it does, and does what it says.

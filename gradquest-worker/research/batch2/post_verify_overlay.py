@@ -21,7 +21,7 @@ CATALOG_URL_PREFIXES = (
 )
 
 HOLDS: dict[int, dict[str, str]] = {
-    # UNLV f7 kept (verified true elsewhere); f16 rejected elsewhere — not held.
+    # UNLV 700-level hold closed 2026-11-18 (f7/f16 rejected; subplan facts verified).
     13: {
         "f32": "Hold: university-only Spring 2027 Computer Engineering dates; department page has no Spring window. Awaiting Achsah decision.",
     },
@@ -34,6 +34,9 @@ HOLDS: dict[int, dict[str, str]] = {
     },
 }
 
+ENRICH_VERIFIED_BY = "user 2026-11-18"
+USERSAVE_EVIDENCE = "user browser save 2026-11-18"
+
 
 def check_passed(entry: dict) -> bool:
     if "pass" in entry:
@@ -43,17 +46,52 @@ def check_passed(entry: dict) -> bool:
     return str(entry.get("status", "")).lower() in {"pass", "ok", "passed"}
 
 
+def load_quote_entries(path: Path) -> list[dict]:
+    data = json.loads(path.read_text())
+    return data.get("results") or data.get("checks") or []
+
+
 def load_quote_map(school_id: int) -> dict[str, bool]:
     out: dict[str, bool] = {}
-    for name in (f"school-{school_id}.quote-check.json", f"school-{school_id}-catalog.quote-check.json"):
+    for name in (
+        f"school-{school_id}.quote-check.json",
+        f"school-{school_id}-catalog.quote-check.json",
+        f"school-{school_id}-enrich.quote-check.json",
+        f"school-{school_id}-usersave.quote-check.json",
+    ):
         path = CHECKS / name
         if not path.exists():
             continue
-        for entry in json.loads(path.read_text()).get("checks", []):
+        for entry in load_quote_entries(path):
             fid = entry.get("id")
-            if fid:
+            if not fid:
+                continue
+            if "quoteFound" in entry:
+                out[fid] = bool(entry["quoteFound"])
+            else:
                 out[fid] = check_passed(entry)
     return out
+
+
+def load_enrich_usersave_meta(school_id: int) -> dict[str, dict]:
+    """Map fact id → verified overlay metadata from Nov 18 enrich/usersave files."""
+    meta: dict[str, dict] = {}
+    research_dir = Path(__file__).resolve().parent / "research"
+    for suffix in ("enrich", "usersave"):
+        path = research_dir / f"school-{school_id}-{suffix}.json"
+        if not path.exists():
+            continue
+        for fact in json.loads(path.read_text()).get("facts", []):
+            fid = fact["id"]
+            entry = {
+                "verified": fact.get("verified"),
+                "verifiedBy": fact.get("verifiedBy") or ENRICH_VERIFIED_BY,
+            }
+            if suffix == "usersave":
+                entry["quoteCheck"] = fact.get("quoteCheck") or "manual"
+                entry["evidence"] = fact.get("evidence") or USERSAVE_EVIDENCE
+            meta[fid] = entry
+    return meta
 
 
 def is_catalog_url(url: str) -> bool:
@@ -85,6 +123,7 @@ def main() -> None:
         checked_path = RESEARCH / f"school-{sid}.checked.json"
         checked = json.loads(checked_path.read_text())
         quote_map = load_quote_map(sid)
+        enrich_meta = load_enrich_usersave_meta(sid)
         research_by_id = {f["id"]: f for f in research["facts"]}
         holds = dict(HOLDS.get(sid, {}))
         if sid == 7:
@@ -94,14 +133,23 @@ def main() -> None:
         for fact in checked["facts"]:
             fid = fact["id"]
             src = research_by_id.get(fid, {})
+            overlay = enrich_meta.get(fid, {})
             quote_passed = quote_map.get(fid, False)
-            # Plan: map batch2 quote-check pass/ok → quoteFound
-            quote_found = quote_passed
+            # Prefer live verifyFacts quoteFound; fall back to offline quote-check.
+            if fact.get("quoteFound"):
+                quote_found = True
+            elif fid in quote_map:
+                quote_found = quote_passed
+            else:
+                quote_found = bool(fact.get("quoteFound"))
 
             catalog = is_catalog_url(fact["sourceUrl"])
-            if catalog:
+            if overlay.get("quoteCheck") == "manual":
                 quote_check = "manual"
-                evidence = EVIDENCE
+                evidence = overlay.get("evidence") or fact.get("evidence") or USERSAVE_EVIDENCE
+            elif catalog:
+                quote_check = "manual"
+                evidence = fact.get("evidence") or EVIDENCE
             else:
                 quote_check = fact.get("quoteCheck") or "auto"
                 if quote_check != "manual":
@@ -109,9 +157,15 @@ def main() -> None:
                 evidence = fact.get("evidence") if quote_check == "manual" else None
 
             rejected_reason = src.get("rejectedReason") or fact.get("rejectedReason")
-            already_rejected = src.get("verified") is False and bool(rejected_reason)
+            already_rejected = (src.get("verified") is False and bool(rejected_reason)) or (
+                fact.get("verified") is False and bool(rejected_reason)
+            )
             hold_reason = holds.get(fid)
-            verified_by = src.get("verifiedBy") or fact.get("verifiedBy")
+            verified_by = (
+                overlay.get("verifiedBy")
+                or src.get("verifiedBy")
+                or fact.get("verifiedBy")
+            )
 
             if already_rejected:
                 verified = False
@@ -119,16 +173,30 @@ def main() -> None:
                 hold_reason = None
             elif hold_reason:
                 verified = False
-            elif quote_passed:
+            elif overlay.get("verified") is True:
                 verified = True
-                if src.get("verified") is True:
-                    verified_by = src.get("verifiedBy") or VERIFIED_BY
+                verified_by = overlay.get("verifiedBy") or ENRICH_VERIFIED_BY
+            elif quote_passed or quote_check == "manual":
+                verified = True
+                if src.get("verified") is True or overlay.get("verified") is True:
+                    verified_by = verified_by or VERIFIED_BY
             else:
                 verified = False
 
             if src.get("verified") is True and not hold_reason and not already_rejected:
                 verified = True
-                verified_by = src.get("verifiedBy") or VERIFIED_BY
+                verified_by = src.get("verifiedBy") or verified_by or VERIFIED_BY
+
+            # Keep Achsah Nov 18 enrich/usersave verified flags through live verify.
+            if (
+                overlay.get("verified") is True
+                and not hold_reason
+                and not already_rejected
+            ):
+                verified = True
+                verified_by = overlay.get("verifiedBy") or ENRICH_VERIFIED_BY
+                if overlay.get("quoteCheck") == "manual":
+                    quote_found = True
 
             out = {
                 "id": fact["id"],
@@ -149,7 +217,11 @@ def main() -> None:
                 out["verifiedBy"] = verified_by or VERIFIED_BY
             if hold_reason and not already_rejected:
                 out["holdReason"] = hold_reason
-            if verified and src.get("verified") is True:
+            if verified and (
+                src.get("verified") is True
+                or overlay.get("verified") is True
+                or verified_by
+            ):
                 out["verifiedBy"] = verified_by or VERIFIED_BY
             out_facts.append(out)
 

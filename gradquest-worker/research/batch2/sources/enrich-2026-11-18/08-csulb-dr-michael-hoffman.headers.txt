@@ -1,0 +1,29 @@
+HTTP/2 200 
+content-type: text/html; charset=UTF-8
+x-drupal-dynamic-cache: MISS
+content-language: en
+x-content-type-options: nosniff
+x-frame-options: SAMEORIGIN
+x-generator: Drupal 10 (https://www.drupal.org)
+content-security-policy-report-only: script-src 'self' cdnjs.cloudflare.com https://cdn.ckeditor.com https://maxcdn.bootstrapcdn.com https://www.google.com; style-src 'self' https://maxcdn.bootstrapcdn.com https://use.fontawesome.com
+content-security-policy: frame-src 'self' https://sketchfab.com/ https://www.google.com/ https://calendar.google.com/ https://cdnapisec.kaltura.com/ https://web.csulb.edu/ https://www.youtube.com/ https://csulb.qualtrics.com/ https://csulb.mediaspace.kaltura.com/ https://www.youtube-nocookie.com/ https://screencast-o-matic.com/ https://go.screenpal.com/ https://player.vimeo.com/ https://vimeo.com/ https://www.instagram.com/ https://webchat.livetilesbots.com/ https://online.anyflip.com/ https://static.symplicity.com/ https://webchat.botframework.com/ https://go.cpace.csulb.edu/ https://yoshki.com/ https://express.adobe.com/ https://cc-api-cp.adobe.io/ https://widget.lightcastcc.com/ https://sites.csulb.edu/ https://forms.office.com/ https://forms.cloud.microsoft/ https://pro.smartplayer.video/ https://www.csulb.edu/ https://csulb.edu/ https://youtu.be.com/ https://data.ir.csulb.edu/ https://bot.io.gravyty.com https://t.sharethis.com https://www.googletagmanager.com
+x-drupal-cache: MISS
+last-modified: Thu, 19 Nov 2026 04:11:23 GMT
+etag: "1795061483-gzip"
+x-request-id: v-485f322a-e3cf-11f1-a965-e396048ce54d
+x-ah-environment: prod
+x-age: 0
+accept-ranges: bytes
+x-akamai-transformed: 9 13919 0 pmb=mRUM,1
+content-encoding: gzip
+cache-control: public, max-age=300
+expires: Thu, 19 Nov 2026 04:16:25 GMT
+date: Thu, 19 Nov 2026 04:11:25 GMT
+content-length: 15962
+vary: Accept-Encoding
+server-timing: cdn-cache; desc=MISS
+server-timing: edge; dur=40
+server-timing: origin; dur=1796
+strict-transport-security: max-age=15768000
+server-timing: ak_p; desc="1795061483265_400425109_532984896_183545_11040_57_172_15";dur=1
+

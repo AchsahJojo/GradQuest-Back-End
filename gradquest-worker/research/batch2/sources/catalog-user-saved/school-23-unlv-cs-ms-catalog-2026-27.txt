@@ -1,0 +1,344 @@
+Source URL: https://catalog.unlv.edu/preview_program.php?catoid=52&poid=14606
+Title: Master of Science in Computer Science — 2026-2027 Graduate Catalog
+Saved from user's browser: 2026-11-18 (America/Los_Angeles)
+Extracted from the user-saved HTML; chrome/navigation omitted where a main-content region was identified.
+========================================================================
+
+Print (opens a new window)
+Help (opens a new window)
+2026-2027 Graduate Catalog
+Master of Science in Computer Science
+Plan Description
+Our master’s program gives you the opportunity to study different areas, including:
+Design and analysis of algorithms
+Operating and distributed systems
+Computer architecture and networking
+Computational geometry and robotics
+Computer graphics and image processing
+Programming languages and compiler construction
+Artificial intelligence and expert systems
+Database design, document analysis, and retrieval
+Software engineering
+Students can pursue the MS degree by opting for different subplans:
+Subplan 1: Thesis
+Subplan 2: Project
+Subplan 3: Integrated BS/MS
+Subplans 4 to 11: Exam
+The Integrated BS/MS subplan is designed to provide high-achieving UNLV CS undergraduate students with opportunity to take up to three graduate level CS courses that can count towards both BS and MS degree programs at UNLV.
+For more information about your program including your graduate program handbook and learning outcomes please visit the
+Degree Directory.
+Plan Admission Requirements
+​​​​​​​
+Application Deadlines
+Applications available on the
+UNLV Graduate College website
+.
+All domestic and international applicants must review and follow the
+Graduate College Admission and Registration Requirements
+.
+Graduate College Admission Requirements
+Completed application in the
+Application Portal
+and non-refundable application fee.
+Bachelor’s Degree – You must hold a four-year baccalaureate from a regionally accredited institution or an approved equivalent.
+Grade Point Average – You must have a minimum overall grade point average of 2.75 (4.00=A) for the bachelor’s degree or a minimum 3.00 (4.00=A) for the last two years (60 semester credits).
+All applicants are required to submit an unofficial transcript
+from each postsecondary institution attended
+, showing all degrees and coursework, the dates awarded, and grades received. Official transcripts required upon admission.
+Credentials not in English must be accompanied by an English translation certified as true by a university official, an official representative of a United States embassy or consulate, the United States Information Service, the United States Education Foundation, or an approved professional translating service. Notarized copies of originals or translations are not considered official.
+Department Admission Requirements
+Applicants must submit the following to the Graduate College:
+A minimum GPA of 3.00.
+Two letters of recommendation concerning the student’s potential for succeeding in the graduate program.
+The results of the Graduate Record Examination current to within five years should be sent directly to the department. The preferred minimum score requirement is 297. The GRE requirement is waived for students participating in the Integrated BS-MS subplan.
+In addition, applicants must have completed courses and their prerequisites equivalent to our undergraduate Programming Languages (CS 326), Operating Systems (CS 370), Discrete Mathematics II (MATH 351), and Statistical Methods I (STAT 411) with an average grade of B or better.
+The Computer Science Admission Committee may elect to admit an outstanding applicant who has not satisfied all of the background requirements on a conditional basis.
+The student must complete these requirements before full admission to the program is granted.
+Students who have not completed all the following courses (or equivalent courses) as part of their bachelor’s degree may be required to complete them as a condition of their admission. If taken as part of their master’s degree program, these courses may count toward the 30 credits required.
+CS 656 Automata and Formal Languages
+CS 677 Analysis of Algorithms
+CS 660 Compiler Construction
+Additional information about the Integrated BS-MS degree program:
+Up to nine credits of approved graduate-level course work can be taken as technical electives for the grade of B or better during the senior year and those credits will be waived for the graduate degree.
+The GRE requirement is waived for students participating in the Integrated BS-MS subplan.
+The following conditions must be met to enroll in the Integrated BS-MS program:
+A minimum of two semesters of full-time enrollment in B.S. of Computer Science program is required.
+Applications are normally submitted with two semesters remaining in the senior year.
+A minimum of 90 credits of course work applicable to the B.S. of Computer Science degree with a cumulative GPA of 3.3 or higher must be completed before beginning the joint degree program.
+Students have to choose the thesis option in the MS degree. Students interested in this program and who also meet the credentials listed above should request a letter of nomination from a Computer Science faculty member. Submit this letter along with a short resume (no more than two pages) directly to the Department of Computer Science (computerscience.gradcoord@unlv.edu) as well as an application through the Grad Rebel Gateway.
+Students are accepted into a degree program as described in the Graduate Catalog. The faculty and corresponding sub-disciplines and sub-plans within the described programs are subject to change at any time.
+Plan Requirements
+Subplan 1: Thesis
+Subplan 2: Project
+Subplan 3: Integrated BS-MS
+Subplan 4: Exam - Foundations and Theory
+Subplan 5: Exam - Cyber Security
+Subplan 6: Exam - AI and Machine Learning
+Subplan 7: Exam - Software Engineering
+Subplan 8: Exam - Data Science and Big Data
+Subplan 9: Exam - Database and Information Retrieval
+Subplan 10: Exam - Graphics and Augmented Reality
+Subplan 11: Exam - Programming Language and Systems
+Subplan 1 Requirements: Thesis
+Total Credits Required: 30
+Course Requirements
+Computer Science Courses – Credits: 24
+Complete 24 credits of 600- or 700- level Computer Science (CS) courses. Students may complete up to 3 credits outside of CS. Outside credits must be related to the student’s research area and be approved by the department graduate committee.
+Thesis – Credits: 6
+CS 791 - Thesis
+Degree Requirements
+The student must pass at least 30 credits of 600- and 700-level courses with grades of C or better.
+Students must complete 12 credits of 700-level CS courses (excluding thesis).
+Courses in which the student earns a grade lower than C cannot be included in their program, and the student’s total grade point average (GPA) must be 3.00 or higher while in the program. A student whose GPA falls below 3.00 will be placed on academic probation. That student must have an overall GPA of at least 3.00 by the end of two subsequent semesters; otherwise the student will be separated from the graduate program. A student on probation will not be allowed to register for CS 690, CS 790, CS 791, CS 792, CS 799, or equivalent courses in another department.
+In consultation with their advisor, a student will organize a thesis committee of at least three departmental members. In addition, a fourth member from outside the department, known as the Graduate College Representative, must be appointed. An additional committee member may be added at the student and department’s discretion. Please see Graduate College policy for committee appointment guidelines.
+The student must submit a thesis approved by their advisor and thesis committee and conforming to the specifications of the Graduate College and pass a final oral examination covering the thesis and relevant course work.
+Graduation Requirements
+The student must submit and successfully defend their thesis by the posted deadline. The defense must be advertised and is open to the public.
+After the thesis defense, the student must electronically submit a properly formatted pdf copy of their thesis to the Graduate College for format check. Once the thesis format has been approved by the Graduate College, the student will submit the approved electronic version to ProQuest. Deadlines for thesis defenses, format check submissions, and the final ProQuest submission can be found
+here
+.
+Students may apply for graduation up to two semesters prior to completing their degree requirements. All required forms must be submitted to the graduate college via the
+Grad Rebel Gateway
+.
+Subplan 2 Requirements: Project
+Total Credits Required: 30
+Course Requirements
+Computer Science Courses – Credits: 27
+Complete 27 credits of 600- or 700- level Computer Science (CS) courses. Students may complete up to 3 credits outside of CS. Outside credits must be related to the student’s research area and be approved by the department graduate committee.
+Project – Credits: 3
+CS 790 - Master’s Project
+Degree Requirements
+The student must pass at least 30 credits of 600- and 700-level courses with grades of C or better.
+Students must complete 15 credits of 700-level CS courses (excluding the project).
+Courses in which the student earns a grade lower than C cannot be included in their program, and the student’s total grade point average (GPA) must be 3.00 or higher while in the program. A student whose GPA falls below 3.00 will be placed on academic probation. That student must have an overall GPA of at least 3.00 by the end of two subsequent semesters; otherwise the student will be separated from the graduate program. A student on probation will not be allowed to register for CS 690, CS 790, CS 791, CS 792, CS 799, or equivalent courses in another department.
+In consultation with their advisor, a student will organize a project committee of at least three departmental members. In addition, a fourth member from outside the department, known as the Graduate College Representative, must be appointed. An additional committee member may be added at the student and department’s discretion. Please see Graduate College policy for committee appointment guidelines.
+The student must complete a computer science project and a report approved by their advisor and their project committee and pass a final oral examination over the project and relevant course work.
+Graduation Requirements
+The student must successfully complete a master’s project. The student must submit and successfully defend their project by the posted deadline. The defense must be advertised and is open to the public.
+Students may apply for graduation up to two semesters prior to completing their degree requirements. All required forms must be submitted to the graduate college via the
+Grad Rebel Gateway
+.
+Subplan 3 Requirements: Integrated BS-MS
+Total Credits Required: 30
+Course Requirements
+Required Courses - Credits: 9
+Complete the following nine credits or other courses approved by the Graduate Coordinator.
+CS 656 - Automata and Formal Languages
+CS 660 - Compiler Construction
+CS 677 - Analysis of Algorithms
+Computer Science Courses – Credits: 15-21
+Complete 15-21 credits of 600- or 700- level Computer Science (CS) courses. Students may complete up to 3 credits outside of CS. Outside credits must be related to the student’s research area and be approved by the department graduate committee.
+Thesis – Credits: 6
+CS 791 - Thesis
+Degree Requirements
+The student must pass at least 30 credits of 600- and 700-level courses with grades of C or better.
+Students must complete 12 credits of 700-level CS courses (excluding thesis).
+Courses in which the student earns a grade lower than C cannot be included in their program, and the student’s total grade point average (GPA) must be 3.00 or higher while in the program. A student whose GPA falls below 3.00 will be placed on academic probation. That student must have an overall GPA of at least 3.00 by the end of two subsequent semesters; otherwise the student will be separated from the graduate program. A student on probation will not be allowed to register for CS 690, CS 790, CS 791, CS 792, CS 799, or equivalent courses in another department.
+In consultation with their advisor, a student will organize a thesis committee of at least three departmental members. In addition, a fourth member from outside the department, known as the Graduate College Representative, must be appointed. An additional committee member may be added at the student and department’s discretion. Please see Graduate College policy for committee appointment guidelines.
+The student must submit a thesis approved by their advisor and thesis committee and conforming to the specifications of the Graduate College and pass a final oral examination covering the thesis and relevant course work. Students may be released from up to 9 credits of classes towards completion of the M.S. degree as long as the average G.P.A for these classes taken as part of the undergraduate program is a 3.0 or above.
+Graduation Requirements
+The student must submit and successfully defend their thesis by the posted deadline. The defense must be advertised and is open to the public.
+After the thesis defense, the student must electronically submit a properly formatted pdf copy of their thesis to the Graduate College for format check. Once the thesis format has been approved by the Graduate College, the student will submit the approved electronic version to ProQuest. Deadlines for thesis defenses, format check submissions, and the final ProQuest submission can be found
+here
+.
+Students may apply for graduation up to two semesters prior to completing their degree requirements. All required forms must be submitted to the graduate college via the
+Grad Rebel Gateway
+.
+Subplan 4 Requirements: Exam - Foundations and Theory
+Total Credits Required: 30
+Course Requirements
+Required Courses - Credits: 9
+Complete a total of 9 credits from the following courses.
+CS 656 - Automata and Formal Languages
+CS 677 - Analysis of Algorithms
+CS 715 - Advanced Analysis of Algorithms
+CS 758 - Computational Geometry
+CS 789 - Topics in Advanced Computer Science
+Computer Science Courses - Credits:21
+Complete 21 credits of 600- or 700- level Computer Science (CS) courses. Students may complete up to 6 credits outside of CS. Outside credits must be related to computer applications and approved by CS graduate committee.
+Degree Requirements
+The student must pass at least 30 credits of 600- and 700-level courses with grades of C or better.
+Students must complete 18 credits of 700-level CS courses.
+(Comprehensive Oral Exam on a Specialized Area) Students must choose one of the specialized areas covered by CS 600/700-level courses and approved by graduate affairs committee. They take 3 courses in the chosen specialized area. Students will form a committee (one chair, 2 other members from the department, and one from outside). The chair will assign a few papers/reading materials to the students, and the committee will give an oral exam to the students on the selected specialized area. Students will have only two attempts to pass the comprehensive oral exam.
+Courses in which the student earns a grade lower than C cannot be included in their program, and the student’s total grade point average (GPA) must be 3.00 or higher while in the program. A student whose GPA falls below 3.00 will be placed on academic probation. That student must have an overall GPA of at least 3.00 by the end of two subsequent semesters; otherwise the student will be separated from the graduate program. A student on probation will not be allowed to register for CS 690 or equivalent courses in another department.
+Exam subplan must be declared and approved before completing 19 credits of CS coursework.
+Graduation Requirements
+The student must pass a final comprehensive oral examination.
+Students may apply for graduation up to two semesters prior to completing their degree requirements. All required forms must be submitted to the graduate college via the
+Grad Rebel Gateway
+.
+Subplan 5 Requirements: Exam - Cyber Security
+Total credits required: 30
+Course Requirements
+Required Courses - Credits: 9
+Complete a total of 9 credits from the following courses.
+CS 643 - Information Assurance
+CS 645 - Internet Security
+CS 648 - Computer Security
+CS 649 - Computer and Network Forensics
+CS 665 - Computer Networks I
+CS 789 - Topics in Advanced Computer Science
+Computer Science Courses - Credits:21
+Complete 21 credits of 600- or 700- level Computer Science (CS) courses. Students may complete up to 6 credits outside of CS. Outside credits must be related to computer applications and approved by CS graduate committee.
+Degree Requirements
+The student must pass at least 30 credits of 600- and 700-level courses with grades of C or better.
+Students must complete 18 credits of 700-level CS courses.
+(Comprehensive Oral Exam on a Specialized Area) Students must choose one of the specialized areas covered by CS 600/700-level courses and approved by graduate affairs committee. They take 3 courses in the chosen specialized area. Students will form a committee (one chair, 2 other members from the department, and one from outside). The chair will assign a few papers/reading materials to the students, and the committee will give an oral exam to the students on the selected specialized area. Students will have only two attempts to pass the comprehensive oral exam.
+Courses in which the student earns a grade lower than C cannot be included in their program, and the student’s total grade point average (GPA) must be 3.00 or higher while in the program. A student whose GPA falls below 3.00 will be placed on academic probation. That student must have an overall GPA of at least 3.00 by the end of two subsequent semesters; otherwise the student will be separated from the graduate program. A student on probation will not be allowed to register for CS 690 or equivalent courses in another department.
+Exam subplan must be declared and approved before completing 19 credits of CS coursework.
+Graduation Requirements
+The student must pass a final comprehensive oral examination.
+Students may apply for graduation up to two semesters prior to completing their degree requirements. All required forms must be submitted to the graduate college via the
+Grad Rebel Gateway
+.
+Subplan 6 Requirements: Exam - AI and Machine Learning
+Total credits required: 30
+Course Requirements
+Required Courses - Credits: 9
+Complete a total of 9 credits from the following courses.
+CS 622 - Introduction to Machine Learning
+CS 682 - Artificial Intelligence
+CS 722 - Advanced Machine Learning
+CS 781 - Automated Deduction
+CS 782 - Expert System Construction
+CS 783 - Genetic Algorithms and Neural Networks
+CS 789 - Topics in Advanced Computer Science
+Computer Science Courses - Credits:21
+Complete 21 credits of 600- or 700- level Computer Science (CS) courses. Students may complete up to 6 credits outside of CS. Outside credits must be related to computer applications and approved by CS graduate committee.
+Degree Requirements
+The student must pass at least 30 credits of 600- and 700-level courses with grades of C or better.
+Students must complete 18 credits of 700-level CS courses.
+(Comprehensive Oral Exam on a Specialized Area) Students must choose one of the specialized areas covered by CS 600/700-level courses and approved by graduate affairs committee. They take 3 courses in the chosen specialized area. Students will form a committee (one chair, 2 other members from the department, and one from outside). The chair will assign a few papers/reading materials to the students, and the committee will give an oral exam to the students on the selected specialized area. Students will have only two attempts to pass the comprehensive oral exam.
+Courses in which the student earns a grade lower than C cannot be included in their program, and the student’s total grade point average (GPA) must be 3.00 or higher while in the program. A student whose GPA falls below 3.00 will be placed on academic probation. That student must have an overall GPA of at least 3.00 by the end of two subsequent semesters; otherwise the student will be separated from the graduate program. A student on probation will not be allowed to register for CS 690 or equivalent courses in another department.
+Exam subplan must be declared and approved before completing 19 credits of CS coursework.
+Graduation Requirements
+The student must pass a final comprehensive oral examination.
+Students may apply for graduation up to two semesters prior to completing their degree requirements. All required forms must be submitted to the graduate college via the
+Grad Rebel Gateway
+.
+Subplan 7 Requirements: Exam - Software Engineering
+Total credits required: 30
+Course Requirements
+Required Courses - Credits: 9
+Complete a total of 9 credits from the following courses.
+CS 620 - Human-Computer Interaction
+CS 672 - Software Product Design and Development I
+CS 682 - Artificial Intelligence
+CS 772 - Empirical Software Engineering
+CS 789 - Topics in Advanced Computer Science
+Computer Science Courses - Credits:21
+Complete 21 credits of 600- or 700- level Computer Science (CS) courses. Students may complete up to 6 credits outside of CS. Outside credits must be related to computer applications and approved by CS graduate committee.
+Degree Requirements
+The student must pass at least 30 credits of 600- and 700-level courses with grades of C or better.
+Students must complete 18 credits of 700-level CS courses.
+(Comprehensive Oral Exam on a Specialized Area) Students must choose one of the specialized areas covered by CS 600/700-level courses and approved by graduate affairs committee. They take 3 courses in the chosen specialized area. Students will form a committee (one chair, 2 other members from the department, and one from outside). The chair will assign a few papers/reading materials to the students, and the committee will give an oral exam to the students on the selected specialized area. Students will have only two attempts to pass the comprehensive oral exam.
+Courses in which the student earns a grade lower than C cannot be included in their program, and the student’s total grade point average (GPA) must be 3.00 or higher while in the program. A student whose GPA falls below 3.00 will be placed on academic probation. That student must have an overall GPA of at least 3.00 by the end of two subsequent semesters; otherwise the student will be separated from the graduate program. A student on probation will not be allowed to register for CS 690 or equivalent courses in another department.
+Exam subplan must be declared and approved before completing 19 credits of CS coursework.
+Graduation Requirements
+The student must pass a final comprehensive oral examination.
+Students may apply for graduation up to two semesters prior to completing their degree requirements. All required forms must be submitted to the graduate college via the
+Grad Rebel Gateway
+.
+Subplan 8 Requirements: Exam - Data Science and Big Data
+Total credits required: 30
+Course Requirements
+Required Courses - Credits: 9
+Complete a total of 9 credits from the following courses.
+CS 657 - Database Management Systems
+CS 658 - Introduction to Data Mining
+CS 672 - Software Product Design and Development I
+CS 682 - Artificial Intelligence
+CS 769 - Advanced Data Base Management
+CS 783 - Genetic Algorithms and Neural Networks
+Computer Science Courses - Credits:21
+Complete 21 credits of 600- or 700- level Computer Science (CS) courses. Students may complete up to 6 credits outside of CS. Outside credits must be related to computer applications and approved by CS graduate committee.
+Degree Requirements
+The student must pass at least 30 credits of 600- and 700-level courses with grades of C or better.
+Students must complete 18 credits of 700-level CS courses.
+(Comprehensive Oral Exam on a Specialized Area) Students must choose one of the specialized areas covered by CS 600/700-level courses and approved by graduate affairs committee. They take 3 courses in the chosen specialized area. Students will form a committee (one chair, 2 other members from the department, and one from outside). The chair will assign a few papers/reading materials to the students, and the committee will give an oral exam to the students on the selected specialized area. Students will have only two attempts to pass the comprehensive oral exam.
+Courses in which the student earns a grade lower than C cannot be included in their program, and the student’s total grade point average (GPA) must be 3.00 or higher while in the program. A student whose GPA falls below 3.00 will be placed on academic probation. That student must have an overall GPA of at least 3.00 by the end of two subsequent semesters; otherwise the student will be separated from the graduate program. A student on probation will not be allowed to register for CS 690 or equivalent courses in another department.
+Exam subplan must be declared and approved before completing 19 credits of CS coursework.
+Graduation Requirements
+The student must pass a final comprehensive oral examination.
+Students may apply for graduation up to two semesters prior to completing their degree requirements. All required forms must be submitted to the graduate college via the
+Grad Rebel Gateway
+.
+Subplan 9 Requirements: Exam - Database and Information Retrieval
+Total credits required: 30
+Course Requirements
+Required Courses - Credits: 9
+Complete a total of 9 credits from the following courses.
+CS 657 - Database Management Systems
+CS 658 - Introduction to Data Mining
+CS 682 - Artificial Intelligence
+CS 769 - Advanced Data Base Management
+Computer Science Courses - Credits:21
+Complete 21 credits of 600- or 700- level Computer Science (CS) courses. Students may complete up to 6 credits outside of CS. Outside credits must be related to computer applications and approved by CS graduate committee.
+Degree Requirements
+The student must pass at least 30 credits of 600- and 700-level courses with grades of C or better.
+Students must complete 18 credits of 700-level CS courses.
+(Comprehensive Oral Exam on a Specialized Area) Students must choose one of the specialized areas covered by CS 600/700-level courses and approved by graduate affairs committee. They take 3 courses in the chosen specialized area. Students will form a committee (one chair, 2 other members from the department, and one from outside). The chair will assign a few papers/reading materials to the students, and the committee will give an oral exam to the students on the selected specialized area. Students will have only two attempts to pass the comprehensive oral exam.
+Courses in which the student earns a grade lower than C cannot be included in their program, and the student’s total grade point average (GPA) must be 3.00 or higher while in the program. A student whose GPA falls below 3.00 will be placed on academic probation. That student must have an overall GPA of at least 3.00 by the end of two subsequent semesters; otherwise the student will be separated from the graduate program. A student on probation will not be allowed to register for CS 690 or equivalent courses in another department.
+Exam subplan must be declared and approved before completing 19 credits of CS coursework.
+Graduation Requirements
+The student must pass a final comprehensive oral examination.
+Students may apply for graduation up to two semesters prior to completing their degree requirements. All required forms must be submitted to the graduate college via the
+Grad Rebel Gateway
+.
+Subplan 10 Requirements: Exam - Graphics and Augmented Reality
+Total credits required: 30
+Course Requirements
+Required Courses - Credits: 9
+Complete a total of 9 credits from the following courses.
+CS 669 - Introduction to Digital Image Processing
+CS 680 - Computer Graphics
+CS 682 - Artificial Intelligence
+CS 689 - Advanced Computer Science Topics
+Computer Science Courses - Credits:21
+Complete 21 credits of 600- or 700- level Computer Science (CS) courses. Students may complete up to 6 credits outside of CS. Outside credits must be related to computer applications and approved by CS graduate committee.
+Degree Requirements
+The student must pass at least 30 credits of 600- and 700-level courses with grades of C or better.
+Students must complete 18 credits of 700-level CS courses.
+(Comprehensive Oral Exam on a Specialized Area) Students must choose one of the specialized areas covered by CS 600/700-level courses and approved by graduate affairs committee. They take 3 courses in the chosen specialized area. Students will form a committee (one chair, 2 other members from the department, and one from outside). The chair will assign a few papers/reading materials to the students, and the committee will give an oral exam to the students on the selected specialized area. Students will have only two attempts to pass the comprehensive oral exam.
+Courses in which the student earns a grade lower than C cannot be included in their program, and the student’s total grade point average (GPA) must be 3.00 or higher while in the program. A student whose GPA falls below 3.00 will be placed on academic probation. That student must have an overall GPA of at least 3.00 by the end of two subsequent semesters; otherwise the student will be separated from the graduate program. A student on probation will not be allowed to register for CS 690 or equivalent courses in another department.
+Exam subplan must be declared and approved before completing 19 credits of CS coursework.
+Graduation Requirements
+The student must pass a final comprehensive oral examination.
+Students may apply for graduation up to two semesters prior to completing their degree requirements. All required forms must be submitted to the graduate college via the
+Grad Rebel Gateway
+.
+Subplan 11 Requirements: Exam - Programming Language and Systems
+Total credits required: 30
+Course Requirements
+Required Courses - Credits: 9
+Complete a total of 9 credits from the following courses.
+CS 656 - Automata and Formal Languages
+CS 789 - Topics in Advanced Computer Science
+Computer Science Courses - Credits:21
+Complete 21 credits of 600- or 700- level Computer Science (CS) courses. Students may complete up to 6 credits outside of CS. Outside credits must be related to computer applications and approved by CS graduate committee.
+Degree Requirements
+The student must pass at least 30 credits of 600- and 700-level courses with grades of C or better.
+Students must complete 18 credits of 700-level CS courses.
+(Comprehensive Oral Exam on a Specialized Area) Students must choose one of the specialized areas covered by CS 600/700-level courses and approved by graduate affairs committee. They take 3 courses in the chosen specialized area. Students will form a committee (one chair, 2 other members from the department, and one from outside). The chair will assign a few papers/reading materials to the students, and the committee will give an oral exam to the students on the selected specialized area. Students will have only two attempts to pass the comprehensive oral exam.
+Courses in which the student earns a grade lower than C cannot be included in their program, and the student’s total grade point average (GPA) must be 3.00 or higher while in the program. A student whose GPA falls below 3.00 will be placed on academic probation. That student must have an overall GPA of at least 3.00 by the end of two subsequent semesters; otherwise the student will be separated from the graduate program. A student on probation will not be allowed to register for CS 690 or equivalent courses in another department.
+Exam subplan must be declared and approved before completing 19 credits of CS coursework.
+Graduation Requirements
+The student must pass a final comprehensive oral examination.
+Students may apply for graduation up to two semesters prior to completing their degree requirements. All required forms must be submitted to the graduate college via the
+Grad Rebel Gateway
+.
+Plan Graduation Requirements
+Refer to your subplan for Graduation Requirements.
+Subplan 1: Thesis
+Subplan 2: Project
+Subplan 3: Integrated BS-MS
+Subplan 4: Exam - Foundations and Theory
+Subplan 5: Exam - Cyber Security
+Subplan 6: Exam - AI and Machine Learning
+Subplan 7: Exam - Software Engineering
+Subplan 8: Exam - Data Science and Big Data
+Subplan 9: Exam - Database and Information Retrieval
+Subplan 10: Exam - Graphics and Augmented Reality
+Subplan 11: Exam - Programming Language and Systems
+Print (opens a new window)
+Help (opens a new window)

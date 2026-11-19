@@ -1,0 +1,20 @@
+[display_name]
+Charles Colbourn
+
+[titles]
+
+
+[primary_department]
+School of Computing and Augmented Intelligence
+
+[research_interests]
+My research concentrates on areas in which combinatorics and computer science interact in an elegant way. Two main directions are: combinatorial design theory applications in computer science: erasure correction, error correction, combinatorial cryptography, computational biology. triple systems, block designs, pairwise balanced designs, group-divisible designs, transversal designs, latin squares, orthogonal arrays. algorithms and computational methods; combinatorial search techniques. applications of designs to lotteries. network algorithms and network design network reliability: efficiently computable bounds, combinatorial structure from matroids, polyhedral and shellable complexes; exact algorithms; most probable state methods. network design and analysis: graph algorithms, heuristics, search techniques. network diagnosis and testing.
+
+[expertise_areas]
+Algorithm Development Computer Network Optimization Discrete Mathematics
+
+[short_bio]
+Colbourn has an extensive research record in combinatorial design theory, algorithms for network analysis and optimization, and combinatorial testing.
+
+[bio]
+Charles Colbourn is a professor of computer science and engineering in the School of Computing and Augmented Intelligence of in the Ira A. Fulton Schools of Engineering at Arizona State University. He joined ASU in 2001. He previously held faculty positions at the University of Saskatchewan and the University of Waterloo, and was the Dorothean Professor of Computer Science at the University of Vermont. He is co-editor of the CRC "Handbook of Combinatorial Designs" and author of "Triple Systems and The Combinatorics of Network Reliability," both from Oxford University Press. He is editor-in-chief of the Journal of Combinatorial Designs. He has more than 300 refereed journal papers, primarily concerning applications of combinatorial designs in networking, computing, and communications. He is the recipient of the 2003 Euler Medal for Lifetime Achievement in Research.

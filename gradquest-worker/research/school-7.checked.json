@@ -24,8 +24,8 @@
       "url": "https://www.fullerton.edu/ecs/mse/"
     }
   ],
-  "snapshotId": "7-20261114",
-  "verifiedAt": "2026-11-14T07:30:26.393Z",
+  "snapshotId": "7-20261118",
+  "verifiedAt": "2026-11-18T20:00:00.000Z",
   "pageHashes": {
     "https://www.fullerton.edu/ecs/mse/about/": "18d6860a36607b94f61508997342c0a3c290d7bfc42e2e6c3d350d09f80b3bff",
     "https://www.fullerton.edu/ecs/mse/requirements/": "78167262e45857f43949713f79ec8a8f261392b6f999ad720eee035796d700c9",
@@ -395,7 +395,7 @@
       "quoteFound": true,
       "quoteCheck": "auto",
       "verified": true,
-      "fetchedAt": "2026-11-14T07:30:26.393Z"
+      "fetchedAt": "2026-11-19T05:32:54.490Z"
     },
     {
       "id": "f31",
@@ -419,7 +419,7 @@
       "quoteFound": true,
       "quoteCheck": "auto",
       "verified": true,
-      "fetchedAt": "2026-11-14T07:30:26.393Z"
+      "fetchedAt": "2026-11-19T05:32:54.490Z"
     },
     {
       "id": "f33",
@@ -457,7 +457,7 @@
       "quoteFound": true,
       "quoteCheck": "auto",
       "verified": false,
-      "fetchedAt": "2026-11-14T07:30:26.393Z",
+      "fetchedAt": "2026-11-19T05:32:54.490Z",
       "holdReason": "Hold: Fullerton MSE deadline fact (Fall 2026 dates have passed / cycle stale). Awaiting Achsah refresh decision."
     },
     {
@@ -483,7 +483,7 @@
       "quoteFound": true,
       "quoteCheck": "auto",
       "verified": false,
-      "fetchedAt": "2026-11-14T07:30:26.393Z",
+      "fetchedAt": "2026-11-19T05:32:54.490Z",
       "holdReason": "Hold: Fullerton MSE deadline fact (Fall 2026 dates have passed / cycle stale). Awaiting Achsah refresh decision."
     },
     {
@@ -561,7 +561,7 @@
       "quoteFound": true,
       "quoteCheck": "auto",
       "verified": true,
-      "fetchedAt": "2026-11-14T07:30:26.393Z"
+      "fetchedAt": "2026-11-19T05:32:54.490Z"
     },
     {
       "id": "f44",
@@ -585,7 +585,7 @@
       "quoteFound": true,
       "quoteCheck": "auto",
       "verified": true,
-      "fetchedAt": "2026-11-14T07:30:26.393Z"
+      "fetchedAt": "2026-11-19T05:32:54.490Z"
     },
     {
       "id": "f46",
@@ -609,7 +609,7 @@
       "quoteFound": true,
       "quoteCheck": "auto",
       "verified": true,
-      "fetchedAt": "2026-11-14T07:30:26.393Z"
+      "fetchedAt": "2026-11-19T05:32:54.490Z"
     },
     {
       "id": "f48",

@@ -1,0 +1,50 @@
+HTTP/2 301 
+date: Thu, 19 Nov 2026 04:16:59 GMT
+content-type: text/html; charset=utf-8
+age: 0
+cache-control: max-age=2764800, public
+content-language: en
+expires: Sun, 19 Nov 1978 05:00:00 GMT
+last-modified: Thu, 19 Nov 2026 04:16:59 GMT
+location: /faculty/jung-soo-lim
+server: cloudflare
+vary: Cookie
+via: varnish
+x-ah-environment: prod
+x-cache: MISS
+x-content-type-options: nosniff
+x-drupal-cache: MISS
+x-drupal-dynamic-cache: UNCACHEABLE (301)
+x-frame-options: SAMEORIGIN
+x-generator: Drupal 11 (https://www.drupal.org)
+x-redirect-id: 639156
+x-request-id: v-1080f8a6-e3d0-11f1-8be2-5b4e9804d8f4
+strict-transport-security: max-age=31536000
+cf-cache-status: DYNAMIC
+cf-ray: a5cc67136d7ffa7f-IAD
+
+HTTP/2 200 
+date: Thu, 19 Nov 2026 04:16:59 GMT
+content-type: text/html; charset=utf-8
+age: 3373
+cache-control: max-age=2764800, public
+cf-cache-status: DYNAMIC
+content-language: en
+expires: Sun, 19 Nov 1978 05:00:00 GMT
+last-modified: Thu, 19 Nov 2026 03:20:45 GMT
+server: cloudflare
+vary: Cookie,Accept-Encoding
+via: varnish
+x-ah-environment: prod
+x-cache: HIT
+x-cache-hits: 1
+x-content-type-options: nosniff
+x-drupal-cache: MISS
+x-drupal-dynamic-cache: HIT
+x-frame-options: SAMEORIGIN
+x-generator: Drupal 11 (https://www.drupal.org)
+x-request-id: v-35ac23b0-e3c8-11f1-a6b9-3f7826568d03
+strict-transport-security: max-age=31536000
+content-encoding: gzip
+cf-ray: a5cc6714c8e6fa7f-IAD
+

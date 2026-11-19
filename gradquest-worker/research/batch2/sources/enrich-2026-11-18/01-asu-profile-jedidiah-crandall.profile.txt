@@ -1,0 +1,20 @@
+[display_name]
+Jedidiah Crandall
+
+[titles]
+Associate Professor Assoc Professor
+
+[primary_department]
+School of Computing and Augmented Intelligence
+
+[research_interests]
+
+
+[expertise_areas]
+
+
+[short_bio]
+
+
+[bio]
+https://jedcrandall.github.io/

@@ -1,0 +1,20 @@
+[display_name]
+Hokeun Kim
+
+[titles]
+Assistant Professor
+
+[primary_department]
+School of Computing and Augmented Intelligence
+
+[research_interests]
+
+
+[expertise_areas]
+Modeling and Simulation Network Security Computer Architecture and Design Cyberphysical and Embedded Systems
+
+[short_bio]
+Hokeun Kim is an assistant professor in SCAI. He primarily studies cyber-physical systems, computing systems interacting with humans and the physical world, especially safety and security aspects.
+
+[bio]
+Hokeun Kim is an assistant professor in the School of Computing and Augmented Intelligence in the Ira A. Fulton Schools of Engineering. He studies cyber-physical systems, computing systems interacting with humans and the physical world, especially safety and security aspects. His research interests include software and hardware support for time-sensitive, Internet-connected, and intelligent cyber-physical systems. He won the ACM/IEEE Best Paper Award and received an IEEE Micro Top Picks Honorable Mention for his research contributions to Internet of Things and computer architecture research.

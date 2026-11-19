@@ -1,0 +1,266 @@
+{
+  "schoolId": 23,
+  "schoolName": "University of Nevada, Las Vegas",
+  "programName": "Computer Science, M.S.",
+  "enrichment": {
+    "date": "2026-11-18",
+    "basis": "Live public pages only; no archives/caches; WAF/bot checks not bypassed. All facts verified:false pending manual review.",
+    "blockedUrls": [
+      {
+        "url": "https://catalog.unlv.edu/content.php?catoid=52&navoid=16689&filter[27]=CS (2026-27 Graduate Catalog course filter)",
+        "reason": "HTTP 202 AWS WAF challenge; stopped"
+      },
+      {
+        "url": "https://catalog.unlv.edu/content.php?catoid=52&navoid=16690 (Graduate Catalog programs list)",
+        "reason": "HTTP 202 AWS WAF challenge; stopped"
+      }
+    ],
+    "stats": {
+      "faculty_with_research": 15,
+      "faculty_no_research_on_profile": 4,
+      "no_research_names": [
+        "Wolfgang Bein",
+        "John Businge",
+        "Lawrence Larmore",
+        "Andreas Stefik"
+      ],
+      "already_had_research_text": 2
+    }
+  },
+  "facts": [
+    {
+      "id": "f50",
+      "kind": "faculty",
+      "name": "Shaikh Arifuzzaman",
+      "detail": "UNLV faculty profile: research interests are in algorithmic foundations of large-scale, data-intensive computing using high-performance computing (HPC) techniques, especially for data science, artificial intelligence (AI)/machine learning (ML), and security problems.",
+      "sourceUrl": "https://www.unlv.edu/people/shaikh-arifuzzaman",
+      "quote": "research interests are in algorithmic foundations of large-scale, data-intensive computing using high-performance computing (HPC) techniques, especially for data science, artificial intelligence (AI)/machine learning (ML), and security problems.",
+      "verified": true,
+      "sourceFile": "sources/enrich-2026-11-18/23-unlv-prof-shaikh-arifuzzaman.txt",
+      "retrievedAt": "2026-11-18",
+      "supersedesDetail": "Profile is linked from the department directory.",
+      "supersedesSourceUrl": "https://www.unlv.edu/people/shaikh-arifuzzaman",
+      "alsoMatchesExistingIds": [
+        "f28"
+      ],
+      "verifiedBy": "user 2026-11-18"
+    },
+    {
+      "id": "f52",
+      "kind": "faculty",
+      "name": "Hal Berghel",
+      "detail": "UNLV faculty profile: Research Interests Digital Security and Privacy, Digital Watermarking and Steganography",
+      "sourceUrl": "https://www.unlv.edu/people/hal-berghel",
+      "quote": "Research Interests Digital Security and Privacy, Digital Watermarking and Steganography",
+      "verified": true,
+      "sourceFile": "sources/enrich-2026-11-18/23-unlv-prof-hal-berghel.txt",
+      "retrievedAt": "2026-11-18",
+      "supersedesDetail": "Profile is linked from the department directory.",
+      "supersedesSourceUrl": "https://www.unlv.edu/people/hal-berghel",
+      "alsoMatchesExistingIds": [
+        "f30"
+      ],
+      "verifiedBy": "user 2026-11-18"
+    },
+    {
+      "id": "f54",
+      "kind": "faculty",
+      "name": "Jorge Fonseca Cacho",
+      "detail": "UNLV faculty profile: Research Areas OCR Post Processing, Machine Learning, Data Analytics, AR/VR",
+      "sourceUrl": "https://www.unlv.edu/people/jorge-fonseca-cacho",
+      "quote": "Research Areas OCR Post Processing, Machine Learning, Data Analytics, AR/VR",
+      "verified": true,
+      "sourceFile": "sources/enrich-2026-11-18/23-unlv-prof-jorge-fonseca-cacho.txt",
+      "retrievedAt": "2026-11-18",
+      "supersedesDetail": "Profile is linked from the department directory.",
+      "supersedesSourceUrl": "https://www.unlv.edu/people/jorge-fonseca-cacho",
+      "alsoMatchesExistingIds": [
+        "f32"
+      ],
+      "verifiedBy": "user 2026-11-18"
+    },
+    {
+      "id": "f55",
+      "kind": "faculty",
+      "name": "Laxmi Gewali",
+      "detail": "UNLV faculty profile: Research Areas Applied Computational Geometry Robot Motion Planning Pattern Recognition",
+      "sourceUrl": "https://www.unlv.edu/people/laxmi-gewali",
+      "quote": "Research Areas Applied Computational Geometry Robot Motion Planning Pattern Recognition",
+      "verified": true,
+      "sourceFile": "sources/enrich-2026-11-18/23-unlv-prof-laxmi-gewali.txt",
+      "retrievedAt": "2026-11-18",
+      "supersedesDetail": "Profile is linked from the department directory.",
+      "supersedesSourceUrl": "https://www.unlv.edu/people/laxmi-gewali",
+      "alsoMatchesExistingIds": [
+        "f33"
+      ],
+      "verifiedBy": "user 2026-11-18"
+    },
+    {
+      "id": "f56",
+      "kind": "faculty",
+      "name": "Ju-Yeon Jo",
+      "detail": "UNLV faculty profile: Research Areas Computer and Network Security, Computer Networks, Cybersecurity",
+      "sourceUrl": "https://www.unlv.edu/people/ju-yeon-jo",
+      "quote": "Research Areas Computer and Network Security, Computer Networks, Cybersecurity",
+      "verified": true,
+      "sourceFile": "sources/enrich-2026-11-18/23-unlv-prof-ju-yeon-jo.txt",
+      "retrievedAt": "2026-11-18",
+      "supersedesDetail": "Profile is linked from the department directory.",
+      "supersedesSourceUrl": "https://www.unlv.edu/people/ju-yeon-jo",
+      "alsoMatchesExistingIds": [
+        "f34"
+      ],
+      "verifiedBy": "user 2026-11-18"
+    },
+    {
+      "id": "f57",
+      "kind": "faculty",
+      "name": "Mingon Kang",
+      "detail": "UNLV faculty profile: research interests include Machine Learning, Big Data Analytics, Data Science, and Bioinformatics. Specifically, Kang has been focusing on developing novel computational methodologies for sparse learning, subspace learning, and integrative and interpretable deep learning.",
+      "sourceUrl": "https://www.unlv.edu/people/mingon-kang",
+      "quote": "research interests include Machine Learning, Big Data Analytics, Data Science, and Bioinformatics. Specifically, Kang has been focusing on developing novel computational methodologies for sparse learning, subspace learning, and integrative and interpretable deep learning.",
+      "verified": true,
+      "sourceFile": "sources/enrich-2026-11-18/23-unlv-prof-mingon-kang.txt",
+      "retrievedAt": "2026-11-18",
+      "supersedesDetail": "Profile is linked from the department directory.",
+      "supersedesSourceUrl": "https://www.unlv.edu/people/mingon-kang",
+      "alsoMatchesExistingIds": [
+        "f35"
+      ],
+      "verifiedBy": "user 2026-11-18"
+    },
+    {
+      "id": "f58",
+      "kind": "faculty",
+      "name": "Yoohwan Kim",
+      "detail": "UNLV faculty profile: Research Areas Computer security, Computer networks",
+      "sourceUrl": "https://www.unlv.edu/people/yoohwan-kim",
+      "quote": "Research Areas Computer security, Computer networks",
+      "verified": true,
+      "sourceFile": "sources/enrich-2026-11-18/23-unlv-prof-yoohwan-kim.txt",
+      "retrievedAt": "2026-11-18",
+      "supersedesDetail": "Profile is linked from the department directory.",
+      "supersedesSourceUrl": "https://www.unlv.edu/people/yoohwan-kim",
+      "alsoMatchesExistingIds": [
+        "f36"
+      ],
+      "verifiedBy": "user 2026-11-18"
+    },
+    {
+      "id": "f62",
+      "kind": "faculty",
+      "name": "John Minor",
+      "detail": "UNLV faculty profile: Research Areas Artificial Intelligence, Logic Representations and Automated Deduction, Programming Language Design",
+      "sourceUrl": "https://www.unlv.edu/people/john-minor",
+      "quote": "Research Areas Artificial Intelligence, Logic Representations and Automated Deduction, Programming Language Design",
+      "verified": true,
+      "sourceFile": "sources/enrich-2026-11-18/23-unlv-prof-john-minor.txt",
+      "retrievedAt": "2026-11-18",
+      "supersedesDetail": "Profile is linked from the department directory.",
+      "supersedesSourceUrl": "https://www.unlv.edu/people/john-minor",
+      "alsoMatchesExistingIds": [
+        "f38"
+      ],
+      "verifiedBy": "user 2026-11-18"
+    },
+    {
+      "id": "f60",
+      "kind": "faculty",
+      "name": "Prashant Modekurthy",
+      "detail": "UNLV faculty profile: research interests include Cyber Physical Systems (CPS), Real-Time and Embedded Systems, Parallel and Distributed Computing, Internet-of-Things (IoT), and Industrial Internet-of-Things (IIoT) / Industry 4.0.",
+      "sourceUrl": "https://www.unlv.edu/people/prashant-modekurthy",
+      "quote": "research interests include Cyber Physical Systems (CPS), Real-Time and Embedded Systems, Parallel and Distributed Computing, Internet-of-Things (IoT), and Industrial Internet-of-Things (IIoT) / Industry 4.0.",
+      "verified": true,
+      "sourceFile": "sources/enrich-2026-11-18/23-unlv-prof-prashant-modekurthy.txt",
+      "retrievedAt": "2026-11-18",
+      "supersedesDetail": "Profile is linked from the department directory.",
+      "supersedesSourceUrl": "https://www.unlv.edu/people/prashant-modekurthy",
+      "alsoMatchesExistingIds": [
+        "f39"
+      ],
+      "verifiedBy": "user 2026-11-18"
+    },
+    {
+      "id": "f41",
+      "kind": "faculty",
+      "name": "Jan \"Matt\" Pedersen",
+      "detail": "UNLV faculty profile: research interests include compiler constructions, languages, formal verification, debugging, and concurrent/parallel computing. He recently authored the book \"Practical Compiler Construction using Java and the JVM\", which is also used at UNLV.",
+      "sourceUrl": "https://www.unlv.edu/people/matt-pedersen",
+      "quote": "research interests include compiler constructions, languages, formal verification, debugging, and concurrent/parallel computing. He recently authored the book \"Practical Compiler Construction using Java and the JVM\", which is also used at UNLV.",
+      "verified": true,
+      "sourceFile": "sources/enrich-2026-11-18/23-unlv-prof-matt-pedersen.txt",
+      "retrievedAt": "2026-11-18",
+      "supersedesDetail": "Associate Professor. Department faculty/staff directory (not M.S.-program-specific).",
+      "supersedesSourceUrl": "https://www.unlv.edu/cs/directory?page=2",
+      "verifiedBy": "user 2026-11-18"
+    },
+    {
+      "id": "f42",
+      "kind": "faculty",
+      "name": "Bryar Shareef, Ph.D.",
+      "detail": "UNLV faculty profile: research interests are in machine learning and artificial intelligence, with a focus on computer vision and image processing, data analytics, and multimodal deep learning.",
+      "sourceUrl": "https://www.unlv.edu/people/bryar-shareef",
+      "quote": "research interests are in machine learning and artificial intelligence, with a focus on computer vision and image processing, data analytics, and multimodal deep learning.",
+      "verified": true,
+      "sourceFile": "sources/enrich-2026-11-18/23-unlv-prof-bryar-shareef.txt",
+      "retrievedAt": "2026-11-18",
+      "supersedesDetail": "Assistant Professor. Department faculty/staff directory (not M.S.-program-specific).",
+      "supersedesSourceUrl": "https://www.unlv.edu/cs/directory?page=2",
+      "verifiedBy": "user 2026-11-18"
+    },
+    {
+      "id": "f43",
+      "kind": "faculty",
+      "name": "Junggab Son, Ph.D.",
+      "detail": "UNLV faculty profile: research interests include applied cryptography, blockchain and smart contracts, AI-powered cyber attacks and countermeasures, privacy preservation, and AI security.",
+      "sourceUrl": "https://www.unlv.edu/people/junggab-son",
+      "quote": "research interests include applied cryptography, blockchain and smart contracts, AI-powered cyber attacks and countermeasures, privacy preservation, and AI security.",
+      "verified": true,
+      "sourceFile": "sources/enrich-2026-11-18/23-unlv-prof-junggab-son.txt",
+      "retrievedAt": "2026-11-18",
+      "supersedesDetail": "Assistant Professor. Department faculty/staff directory (not M.S.-program-specific).",
+      "supersedesSourceUrl": "https://www.unlv.edu/cs/directory?page=2",
+      "verifiedBy": "user 2026-11-18"
+    },
+    {
+      "id": "f45",
+      "kind": "faculty",
+      "name": "Kazem Taghva",
+      "detail": "UNLV faculty profile: Research Areas Information Retrieval, Machine Learning, Database Systems",
+      "sourceUrl": "https://www.unlv.edu/people/kazem-taghva",
+      "quote": "Research Areas Information Retrieval, Machine Learning, Database Systems",
+      "verified": true,
+      "sourceFile": "sources/enrich-2026-11-18/23-unlv-prof-kazem-taghva.txt",
+      "retrievedAt": "2026-11-18",
+      "supersedesDetail": "Data Analytics Chair, Professor. Department faculty/staff directory (not M.S.-program-specific).",
+      "supersedesSourceUrl": "https://www.unlv.edu/cs/directory?page=2",
+      "verifiedBy": "user 2026-11-18"
+    },
+    {
+      "id": "e1",
+      "kind": "faculty",
+      "name": "Sohini Roy",
+      "detail": "UNLV faculty profile: research interests include cyber-physical systems, smart grid resilience, and wireless sensor networks, and she is passionate about fostering a student-centered and engaging learning environment.",
+      "sourceUrl": "https://www.unlv.edu/people/sohini-roy",
+      "quote": "research interests include cyber-physical systems, smart grid resilience, and wireless sensor networks, and she is passionate about fostering a student-centered and engaging learning environment.",
+      "verified": true,
+      "sourceFile": "sources/enrich-2026-11-18/23-unlv-prof-sohini-roy.txt",
+      "retrievedAt": "2026-11-18",
+      "verifiedBy": "user 2026-11-18"
+    },
+    {
+      "id": "e2",
+      "kind": "faculty",
+      "name": "Yichi Zhang",
+      "detail": "UNLV faculty profile: His research focuses on scientific computing and high performance computing as well as computer science education.",
+      "sourceUrl": "https://www.unlv.edu/people/yichi-zhang",
+      "quote": "His research focuses on scientific computing and high performance computing as well as computer science education.",
+      "verified": true,
+      "sourceFile": "sources/enrich-2026-11-18/23-unlv-prof-yichi-zhang.txt",
+      "retrievedAt": "2026-11-18",
+      "verifiedBy": "user 2026-11-18"
+    }
+  ],
+  "verificationStatus": "verified by Achsah Jojo (manual review) 2026-11-18"
+}

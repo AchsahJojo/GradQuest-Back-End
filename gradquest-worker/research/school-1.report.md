@@ -1,5 +1,5 @@
 # Arizona State University — Computer Science, M.S.
-Snapshot: 1-20261114
+Snapshot: 1-20261119
 
 ## Failed quotes
 - [overview] 30 credit hours (f4) — https://degrees.asu.edu/masters-phd/major/ASU00/ESCOMSCMS/computer-science-ms
@@ -28,38 +28,20 @@ Snapshot: 1-20261114
   quote: "08/01"
 - [deadline] Handbook deadlines (f38) — https://scai.engineering.asu.edu/wp-content/uploads/sites/31/2026/06/MS-CS-Handbook-2026-27.pdf
   quote: "December 1 for Fall start"
-- [faculty] Adil Ahmad (f43) — https://docs.google.com/spreadsheets/d/1SpL7-42ZH0EuwMNZf515_hpVd2Jy0_yLz6_PM67ZwLQ/edit?gid=0#gid=0
-  quote: "Ahmad,Adil,Adil.Ahmad@asu.edu,Computer Science,Chair"
-- [faculty] Gail-Joon Ahn (f44) — https://docs.google.com/spreadsheets/d/1SpL7-42ZH0EuwMNZf515_hpVd2Jy0_yLz6_PM67ZwLQ/edit?gid=0#gid=0
-  quote: "Ahn,Gail-Joon,gahn@asu.edu,Computer Science,Chair"
-- [faculty] Chitta Baral (f45) — https://docs.google.com/spreadsheets/d/1SpL7-42ZH0EuwMNZf515_hpVd2Jy0_yLz6_PM67ZwLQ/edit?gid=0#gid=0
-  quote: "Baral,Chitta,chitta.baral@asu.edu,Computer Science,Chair"
-- [faculty] Rida Bazzi (f46) — https://docs.google.com/spreadsheets/d/1SpL7-42ZH0EuwMNZf515_hpVd2Jy0_yLz6_PM67ZwLQ/edit?gid=0#gid=0
-  quote: "Bazzi,Rida,bazzi@asu.edu,Computer Science,Chair"
-- [faculty] Hani Ben Amor (f47) — https://docs.google.com/spreadsheets/d/1SpL7-42ZH0EuwMNZf515_hpVd2Jy0_yLz6_PM67ZwLQ/edit?gid=0#gid=0
-  quote: "Ben Amor,Hani,Hani.Benamor@asu.edu,Computer Science,Chair"
-- [faculty] Kasim Candan (f48) — https://docs.google.com/spreadsheets/d/1SpL7-42ZH0EuwMNZf515_hpVd2Jy0_yLz6_PM67ZwLQ/edit?gid=0#gid=0
-  quote: "Candan,Kasim,candan@asu.edu,Computer Science,Chair"
-- [faculty] Adam Doupé (f49) — https://docs.google.com/spreadsheets/d/1SpL7-42ZH0EuwMNZf515_hpVd2Jy0_yLz6_PM67ZwLQ/edit?gid=0#gid=0
-  quote: "Doupe,Adam,doupe@asu.edu,Computer Science,Chair"
-- [faculty] Stephanie Forrest (f50) — https://docs.google.com/spreadsheets/d/1SpL7-42ZH0EuwMNZf515_hpVd2Jy0_yLz6_PM67ZwLQ/edit?gid=0#gid=0
-  quote: "Forrest,Stephanie,steph@asu.edu,Computer Science,Chair"
-- [faculty] Charles Colbourn (f51) — https://docs.google.com/spreadsheets/d/1SpL7-42ZH0EuwMNZf515_hpVd2Jy0_yLz6_PM67ZwLQ/edit?gid=0#gid=0
-  quote: "Colbourn,Charles,Charles.Colbourn@asu.edu,Computer Science,Co-chair"
-- [faculty] Ajay Bansal (f52) — https://docs.google.com/spreadsheets/d/1SpL7-42ZH0EuwMNZf515_hpVd2Jy0_yLz6_PM67ZwLQ/edit?gid=0#gid=0
-  quote: "Bansal,Ajay,Ajay.Bansal@asu.edu,Computer Science,Chair"
-- [faculty] Srividya Bansal (f53) — https://docs.google.com/spreadsheets/d/1SpL7-42ZH0EuwMNZf515_hpVd2Jy0_yLz6_PM67ZwLQ/edit?gid=0#gid=0
-  quote: "Bansal,Srividya,Srividya.Bansal@asu.edu,Computer Science,Chair"
-- [faculty] Jedidiah Crandall (f54) — https://docs.google.com/spreadsheets/d/1SpL7-42ZH0EuwMNZf515_hpVd2Jy0_yLz6_PM67ZwLQ/edit?gid=0#gid=0
-  quote: "Crandall,Jedidiah,jedimaestro@asu.edu,Computer Science,Chair"
-- [faculty] Hasan Davulcu (f55) — https://docs.google.com/spreadsheets/d/1SpL7-42ZH0EuwMNZf515_hpVd2Jy0_yLz6_PM67ZwLQ/edit?gid=0#gid=0
-  quote: "Davulcu,Hasan,HDavulcu@asu.edu,Computer Science,Chair"
-- [faculty] Pooyan Fazli (f56) — https://docs.google.com/spreadsheets/d/1SpL7-42ZH0EuwMNZf515_hpVd2Jy0_yLz6_PM67ZwLQ/edit?gid=0#gid=0
-  quote: "Fazli,Pooyan,pooyan@asu.edu,Computer Science,Chair"
+- [faculty] Subbarao Kambhampati (e1) — https://search.asu.edu/profile/95646
+  quote: "Kambhampati's expertise areas include artificial intelligence, human-AI interaction, automated planning and machine learning. He is a former president of AAAI and fellow of AAAI/AAAS/ACM."
+- [faculty] YooJung Choi (e6) — https://search.asu.edu/profile/4355375
+  quote: "Choi's research interests lie in probabilistic machine learning, tractable probabilistic modeling and inference, knowledge representation and reasoning, as well as trustworthy AI."
+- [faculty] Sandeep Gupta (e9) — https://search.asu.edu/profile/313263
+  quote: "Gupta's areas of expertise include cyber-physical systems, green and sustainable computing, mobile and pervasive computing, and parallel and distributed computing."
+- [faculty] Hannah Kerner (e10) — https://search.asu.edu/profile/2608200
+  quote: "Kerner's research focuses on developing AI and machine learning advances needed to address the world's most pressing challenges, including food security, climate change and space exploration."
+- [faculty] Hokeun Kim (e11) — https://search.asu.edu/profile/4842939
+  quote: "He primarily studies cyber-physical systems, computing systems interacting with humans and the physical world, especially safety and security aspects."
 
 ## Counts by kind
-- overview: 7/10 quotes found
-- requirement: 9/13 quotes found
-- course: 8/11 quotes found
-- faculty: 1/15 quotes found
+- overview: 14/17 quotes found
+- requirement: 14/18 quotes found
+- course: 10/13 quotes found
+- faculty: 21/26 quotes found
 - deadline: 4/7 quotes found

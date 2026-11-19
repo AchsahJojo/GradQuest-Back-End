@@ -1,0 +1,21 @@
+HTTP/2 200 
+date: Thu, 19 Nov 2026 04:14:19 GMT
+content-type: text/html
+nel: {"report_to":"cf-nel","success_fraction":0.01,"max_age":604800}
+server: cloudflare
+last-modified: Tue, 17 Nov 2026 19:08:37 GMT
+x-amz-server-side-encryption: AES256
+report-to: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=5xhCb%2FbSbSI34Gda1%2BTFqShSK4eUA5ApwW4M5OXRHtIXw00qjfM9PKdvANT%2F8bb6l331anCNbNJaJq3PMUvT%2BsgO1xpduLguULrkHgGY1Gk7rSiuF4y7NoGINFkSD70Aun64"}]}
+vary: Accept-Encoding
+x-cache: Hit from cloudfront
+via: 1.1 64de29cb6a7b7bcab60fef77017140a4.cloudfront.net (CloudFront)
+x-amz-cf-pop: IAD61-P5
+x-amz-cf-id: iPwXDp8o2a8UYNUubkvj6ufalc1XvDhFEfp8DWF4yh5vlw7XacXL0A==
+age: 31345
+cache-control: no-store
+cf-cache-status: DYNAMIC
+strict-transport-security: max-age=15552000
+content-encoding: br
+cf-ray: a5cc632cc99920ab-IAD
+alt-svc: h3=":443"; ma=86400
+

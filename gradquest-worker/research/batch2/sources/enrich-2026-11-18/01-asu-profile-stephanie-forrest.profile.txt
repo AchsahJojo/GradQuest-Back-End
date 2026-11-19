@@ -1,0 +1,20 @@
+[display_name]
+Stephanie Forrest
+
+[titles]
+Health Solutions Ambassador SFI External Faculty Center Director & Professor Regents Professor Center Director & Professor Senior Global Futures Scientist
+
+[primary_department]
+Biodesign Center for Biocomputing, Security and Society
+
+[research_interests]
+Forrest's research studies the biology of computation and the computation of biology, including work on computational immunology, computer security, automated software repair, evolutionary computation, complex systems, and biological modeling. She has won numerous best paper and test-of-time awards, including the 2019 ICSE Most Influential Paper Award (for a paper published in 2009 ICSE) and the 2020 IEEE S&P Test of Time Award. She is the Founding Director of ASU's Biodesign Center for Biocomputing, Security and Society, and a Fellow of the IEEE. In cybersecurity, she developed the first practical anomaly intrusion-detection system, proposed diversity as a proactive defense and introduced instruction-set randomization as a particular implementation, designed noncryptographic privacy-enhancing data representations, and developed Crispy, a CRISPR-inspired method for defeating DoS attacks against n-variant systems. She has also developed theoretical and data-driven models for important cyber-security problems, including cyber-attribution, data breaches, botnet takedowns, and Internet chokepoints. In software, she and collaborators pioneered a biologically inspired method for automatically repairing software bugs, closing security vulnerabilities, minimizing energy consumption of executing code, and reducing the run-time of GPU programs. Forrest's research on biological modeling includes projects addressing the adaptive immune response, influenza, SARS-CoV-2, early mycobacterium infection, vaccine design, and cancer. Recently, she and collaborators have developed a spatially explicit agent-based model of SARS-CoV-2 viral spread through the 3D branching structure of lung epithelial cells with a scalable high-performance computing implementation.
+
+[expertise_areas]
+Cybersecurity Modeling, Simulation and Cyberinfrastructure Software Development Methodologies Theoretical Biology
+
+[short_bio]
+
+
+[bio]
+Forrest is a Professor of Computer Science in SCAI, and she directs the Biodesign Center for Biocomputation, Security and Society. She is a computer scientist who studies the biology of computation and computation in biology, including biological modeling of immunological processes and evolutionary diseases, cybersecurity, software engineering, and evolutionary computation. Website: https://profsforrest.github.io/homepage/

@@ -1,0 +1,173 @@
+{
+ "schoolId": "23",
+ "checkedAt": "2026-11-18T20:22:45-0800",
+ "pass": 15,
+ "fail": 0,
+ "results": [
+  {
+   "id": "f50",
+   "name": "Shaikh Arifuzzaman",
+   "kind": "faculty",
+   "sourceUrl": "https://www.unlv.edu/people/shaikh-arifuzzaman",
+   "sourceFile": "sources/enrich-2026-11-18/23-unlv-prof-shaikh-arifuzzaman.txt",
+   "quoteLen": 245,
+   "quoteFound": true,
+   "reason": "OK",
+   "foundInRawHtml": true
+  },
+  {
+   "id": "f52",
+   "name": "Hal Berghel",
+   "kind": "faculty",
+   "sourceUrl": "https://www.unlv.edu/people/hal-berghel",
+   "sourceFile": "sources/enrich-2026-11-18/23-unlv-prof-hal-berghel.txt",
+   "quoteLen": 87,
+   "quoteFound": true,
+   "reason": "OK",
+   "foundInRawHtml": true
+  },
+  {
+   "id": "f54",
+   "name": "Jorge Fonseca Cacho",
+   "kind": "faculty",
+   "sourceUrl": "https://www.unlv.edu/people/jorge-fonseca-cacho",
+   "sourceFile": "sources/enrich-2026-11-18/23-unlv-prof-jorge-fonseca-cacho.txt",
+   "quoteLen": 75,
+   "quoteFound": true,
+   "reason": "OK",
+   "foundInRawHtml": true
+  },
+  {
+   "id": "f55",
+   "name": "Laxmi Gewali",
+   "kind": "faculty",
+   "sourceUrl": "https://www.unlv.edu/people/laxmi-gewali",
+   "sourceFile": "sources/enrich-2026-11-18/23-unlv-prof-laxmi-gewali.txt",
+   "quoteLen": 87,
+   "quoteFound": true,
+   "reason": "OK",
+   "foundInRawHtml": true
+  },
+  {
+   "id": "f56",
+   "name": "Ju-Yeon Jo",
+   "kind": "faculty",
+   "sourceUrl": "https://www.unlv.edu/people/ju-yeon-jo",
+   "sourceFile": "sources/enrich-2026-11-18/23-unlv-prof-ju-yeon-jo.txt",
+   "quoteLen": 78,
+   "quoteFound": true,
+   "reason": "OK",
+   "foundInRawHtml": true
+  },
+  {
+   "id": "f57",
+   "name": "Mingon Kang",
+   "kind": "faculty",
+   "sourceUrl": "https://www.unlv.edu/people/mingon-kang",
+   "sourceFile": "sources/enrich-2026-11-18/23-unlv-prof-mingon-kang.txt",
+   "quoteLen": 272,
+   "quoteFound": true,
+   "reason": "OK",
+   "foundInRawHtml": true
+  },
+  {
+   "id": "f58",
+   "name": "Yoohwan Kim",
+   "kind": "faculty",
+   "sourceUrl": "https://www.unlv.edu/people/yoohwan-kim",
+   "sourceFile": "sources/enrich-2026-11-18/23-unlv-prof-yoohwan-kim.txt",
+   "quoteLen": 51,
+   "quoteFound": true,
+   "reason": "OK",
+   "foundInRawHtml": true
+  },
+  {
+   "id": "f62",
+   "name": "John Minor",
+   "kind": "faculty",
+   "sourceUrl": "https://www.unlv.edu/people/john-minor",
+   "sourceFile": "sources/enrich-2026-11-18/23-unlv-prof-john-minor.txt",
+   "quoteLen": 114,
+   "quoteFound": true,
+   "reason": "OK",
+   "foundInRawHtml": true
+  },
+  {
+   "id": "f60",
+   "name": "Prashant Modekurthy",
+   "kind": "faculty",
+   "sourceUrl": "https://www.unlv.edu/people/prashant-modekurthy",
+   "sourceFile": "sources/enrich-2026-11-18/23-unlv-prof-prashant-modekurthy.txt",
+   "quoteLen": 207,
+   "quoteFound": true,
+   "reason": "OK",
+   "foundInRawHtml": true
+  },
+  {
+   "id": "f41",
+   "name": "Jan \"Matt\" Pedersen",
+   "kind": "faculty",
+   "sourceUrl": "https://www.unlv.edu/people/matt-pedersen",
+   "sourceFile": "sources/enrich-2026-11-18/23-unlv-prof-matt-pedersen.txt",
+   "quoteLen": 244,
+   "quoteFound": true,
+   "reason": "OK",
+   "foundInRawHtml": true
+  },
+  {
+   "id": "f42",
+   "name": "Bryar Shareef, Ph.D.",
+   "kind": "faculty",
+   "sourceUrl": "https://www.unlv.edu/people/bryar-shareef",
+   "sourceFile": "sources/enrich-2026-11-18/23-unlv-prof-bryar-shareef.txt",
+   "quoteLen": 171,
+   "quoteFound": true,
+   "reason": "OK",
+   "foundInRawHtml": true
+  },
+  {
+   "id": "f43",
+   "name": "Junggab Son, Ph.D.",
+   "kind": "faculty",
+   "sourceUrl": "https://www.unlv.edu/people/junggab-son",
+   "sourceFile": "sources/enrich-2026-11-18/23-unlv-prof-junggab-son.txt",
+   "quoteLen": 165,
+   "quoteFound": true,
+   "reason": "OK",
+   "foundInRawHtml": true
+  },
+  {
+   "id": "f45",
+   "name": "Kazem Taghva",
+   "kind": "faculty",
+   "sourceUrl": "https://www.unlv.edu/people/kazem-taghva",
+   "sourceFile": "sources/enrich-2026-11-18/23-unlv-prof-kazem-taghva.txt",
+   "quoteLen": 72,
+   "quoteFound": true,
+   "reason": "OK",
+   "foundInRawHtml": true
+  },
+  {
+   "id": "e1",
+   "name": "Sohini Roy",
+   "kind": "faculty",
+   "sourceUrl": "https://www.unlv.edu/people/sohini-roy",
+   "sourceFile": "sources/enrich-2026-11-18/23-unlv-prof-sohini-roy.txt",
+   "quoteLen": 195,
+   "quoteFound": true,
+   "reason": "OK",
+   "foundInRawHtml": true
+  },
+  {
+   "id": "e2",
+   "name": "Yichi Zhang",
+   "kind": "faculty",
+   "sourceUrl": "https://www.unlv.edu/people/yichi-zhang",
+   "sourceFile": "sources/enrich-2026-11-18/23-unlv-prof-yichi-zhang.txt",
+   "quoteLen": 114,
+   "quoteFound": true,
+   "reason": "OK",
+   "foundInRawHtml": true
+  }
+ ]
+}

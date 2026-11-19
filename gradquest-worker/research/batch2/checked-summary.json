@@ -1,20 +1,20 @@
 [
   {
     "schoolId": 1,
-    "total": 56,
-    "verifiedTrue": 55,
-    "sqlEligible": 55,
+    "total": 81,
+    "verifiedTrue": 80,
+    "sqlEligible": 80,
     "held": [],
     "rejected": [
       "f17"
     ],
-    "manual": 0
+    "manual": 13
   },
   {
     "schoolId": 2,
-    "total": 99,
-    "verifiedTrue": 95,
-    "sqlEligible": 95,
+    "total": 91,
+    "verifiedTrue": 87,
+    "sqlEligible": 87,
     "held": [
       "f28"
     ],
@@ -23,24 +23,24 @@
       "f25",
       "f26"
     ],
-    "manual": 49
+    "manual": 45
   },
   {
     "schoolId": 4,
-    "total": 47,
-    "verifiedTrue": 46,
-    "sqlEligible": 46,
+    "total": 70,
+    "verifiedTrue": 69,
+    "sqlEligible": 69,
     "held": [],
     "rejected": [
       "f15"
     ],
-    "manual": 26
+    "manual": 49
   },
   {
     "schoolId": 5,
-    "total": 44,
-    "verifiedTrue": 43,
-    "sqlEligible": 43,
+    "total": 62,
+    "verifiedTrue": 61,
+    "sqlEligible": 61,
     "held": [],
     "rejected": [
       "f6"
@@ -79,9 +79,9 @@
   },
   {
     "schoolId": 9,
-    "total": 98,
-    "verifiedTrue": 93,
-    "sqlEligible": 93,
+    "total": 97,
+    "verifiedTrue": 92,
+    "sqlEligible": 92,
     "held": [
       "f4",
       "f11"
@@ -91,13 +91,13 @@
       "f3",
       "f7"
     ],
-    "manual": 51
+    "manual": 50
   },
   {
     "schoolId": 13,
-    "total": 123,
-    "verifiedTrue": 118,
-    "sqlEligible": 118,
+    "total": 117,
+    "verifiedTrue": 112,
+    "sqlEligible": 112,
     "held": [
       "f32"
     ],
@@ -111,9 +111,9 @@
   },
   {
     "schoolId": 14,
-    "total": 112,
-    "verifiedTrue": 111,
-    "sqlEligible": 111,
+    "total": 95,
+    "verifiedTrue": 94,
+    "sqlEligible": 94,
     "held": [],
     "rejected": [
       "f44"
@@ -122,14 +122,16 @@
   },
   {
     "schoolId": 23,
-    "total": 62,
-    "verifiedTrue": 60,
-    "sqlEligible": 60,
-    "held": [
+    "total": 113,
+    "verifiedTrue": 109,
+    "sqlEligible": 109,
+    "held": [],
+    "rejected": [
       "f7",
-      "f16"
+      "f10",
+      "f16",
+      "f22"
     ],
-    "rejected": [],
-    "manual": 0
+    "manual": 58
   }
 ]

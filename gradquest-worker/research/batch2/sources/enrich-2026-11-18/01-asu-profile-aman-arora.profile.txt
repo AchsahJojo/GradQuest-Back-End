@@ -1,0 +1,20 @@
+[display_name]
+Aman Arora
+
+[titles]
+Assistant Professor
+
+[primary_department]
+School of Computing and Augmented Intelligence
+
+[research_interests]
+Reconfigurable Computing FPGAs Hardware Acceleration of Machine Learning (ML) and Artificial Intelligence (AI) FPGA applications in areas such as quantum computing and medical Processing-In-Memory Using Machine Learning (ML) and Artificial Intelligence (AI) for CAD/EDA
+
+[expertise_areas]
+Computer Engineering
+
+[short_bio]
+
+
+[bio]
+Aman Arora is an assistant professor in the School of Computing and Augmented Intelligence in the Ira A. Fulton Schools of Engineering. His research interests are in the areas of reconfigurable computing (primarily FPGAs), machine learning (ML) and artificial intelligence (AI) acceleration, and using machine learning (ML) and artificial intelligence (AI) for chip design/EDA. He has more than 10 years of experience in the semiconductor industry.

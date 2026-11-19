@@ -370,113 +370,391 @@
       "id": "f43",
       "kind": "faculty",
       "name": "Adil Ahmad",
-      "detail": "Named on the Computer Science M.S. thesis-chair list; the list has no research blurb.",
-      "sourceUrl": "https://docs.google.com/spreadsheets/d/1SpL7-42ZH0EuwMNZf515_hpVd2Jy0_yLz6_PM67ZwLQ/edit?gid=0#gid=0",
-      "quote": "Ahmad,Adil,Adil.Ahmad@asu.edu,Computer Science,Chair"
+      "detail": "ASU directory profile (research interests): Computer Security, Systems, and Architecture",
+      "sourceUrl": "https://search.asu.edu/profile/4355376",
+      "quote": "Computer Security, Systems, and Architecture",
+      "verified": true,
+      "verifiedBy": "user 2026-11-18"
     },
     {
       "id": "f44",
       "kind": "faculty",
       "name": "Gail-Joon Ahn",
-      "detail": "Named on the Computer Science M.S. thesis-chair list; the list has no research blurb.",
-      "sourceUrl": "https://docs.google.com/spreadsheets/d/1SpL7-42ZH0EuwMNZf515_hpVd2Jy0_yLz6_PM67ZwLQ/edit?gid=0#gid=0",
-      "quote": "Ahn,Gail-Joon,gahn@asu.edu,Computer Science,Chair"
+      "detail": "ASU directory profile (research interests): Security analytics and big data driven security intelligence Formal Models for Computer Security Network and Distributed Systems Security Vulnerability and Risk Assessment Cyber Crime Analysis His research has been supported by National Science Foundation, National Security Agency, Department of",
+      "sourceUrl": "https://search.asu.edu/profile/1258895",
+      "quote": "Security analytics and big data driven security intelligence Formal Models for Computer Security Network and Distributed Systems Security Vulnerability and Risk Assessment Cyber Crime Analysis His research has been supported by National Science Foundation, National Security Agency, Department of",
+      "verified": true,
+      "verifiedBy": "user 2026-11-18"
     },
     {
       "id": "f45",
       "kind": "faculty",
       "name": "Chitta Baral",
-      "detail": "Named on the Computer Science M.S. thesis-chair list; the list has no research blurb.",
-      "sourceUrl": "https://docs.google.com/spreadsheets/d/1SpL7-42ZH0EuwMNZf515_hpVd2Jy0_yLz6_PM67ZwLQ/edit?gid=0#gid=0",
-      "quote": "Baral,Chitta,chitta.baral@asu.edu,Computer Science,Chair"
+      "detail": "ASU directory profile (research interests): My current research focus is in on cognition and intelligence; in particular on understanding natural language, visual objects, and multi-modal documents; using knowledge in that understanding; and applying that understanding to cybersecurity, robotics, and biological and health sciences.",
+      "sourceUrl": "https://search.asu.edu/profile/231973",
+      "quote": "My current research focus is in on cognition and intelligence; in particular on understanding natural language, visual objects, and multi-modal documents; using knowledge in that understanding; and applying that understanding to cybersecurity, robotics, and biological and health sciences.",
+      "verified": true,
+      "verifiedBy": "user 2026-11-18"
     },
     {
       "id": "f46",
       "kind": "faculty",
       "name": "Rida Bazzi",
-      "detail": "Named on the Computer Science M.S. thesis-chair list; the list has no research blurb.",
-      "sourceUrl": "https://docs.google.com/spreadsheets/d/1SpL7-42ZH0EuwMNZf515_hpVd2Jy0_yLz6_PM67ZwLQ/edit?gid=0#gid=0",
-      "quote": "Bazzi,Rida,bazzi@asu.edu,Computer Science,Chair"
+      "detail": "ASU directory profile (research interests): Distributed Computing, Blockchain, Fault Tolerance, Security",
+      "sourceUrl": "https://search.asu.edu/profile/15427",
+      "quote": "Distributed Computing, Blockchain, Fault Tolerance, Security",
+      "verified": true,
+      "verifiedBy": "user 2026-11-18"
     },
     {
       "id": "f47",
       "kind": "faculty",
       "name": "Hani Ben Amor",
-      "detail": "Named on the Computer Science M.S. thesis-chair list; the list has no research blurb.",
-      "sourceUrl": "https://docs.google.com/spreadsheets/d/1SpL7-42ZH0EuwMNZf515_hpVd2Jy0_yLz6_PM67ZwLQ/edit?gid=0#gid=0",
-      "quote": "Ben Amor,Hani,Hani.Benamor@asu.edu,Computer Science,Chair"
+      "detail": "ASU directory profile (short bio): Ben Amor's research topics focus on artificial intelligence, machine learning, human-robot interaction, robot vision, and automatic motor skill acquisition.",
+      "sourceUrl": "https://search.asu.edu/profile/2736878",
+      "quote": "Ben Amor's research topics focus on artificial intelligence, machine learning, human-robot interaction, robot vision, and automatic motor skill acquisition.",
+      "verified": true,
+      "verifiedBy": "user 2026-11-18"
     },
     {
       "id": "f48",
       "kind": "faculty",
       "name": "Kasim Candan",
-      "detail": "Named on the Computer Science M.S. thesis-chair list; the list has no research blurb.",
-      "sourceUrl": "https://docs.google.com/spreadsheets/d/1SpL7-42ZH0EuwMNZf515_hpVd2Jy0_yLz6_PM67ZwLQ/edit?gid=0#gid=0",
-      "quote": "Candan,Kasim,candan@asu.edu,Computer Science,Chair"
+      "detail": "ASU directory profile (research interests): Research areas: Database/query processing & indexing techniques - algorithms and system-level research on query processing, advanced indexing, and optimization for non-traditional data Multimedia data management & retrieval - storage, indexing, similarity-based search and retrieval for",
+      "sourceUrl": "https://search.asu.edu/profile/20861",
+      "quote": "Research areas: Database/query processing & indexing techniques - algorithms and system-level research on query processing, advanced indexing, and optimization for non-traditional data Multimedia data management & retrieval - storage, indexing, similarity-based search and retrieval for",
+      "verified": true,
+      "verifiedBy": "user 2026-11-18"
     },
     {
       "id": "f49",
       "kind": "faculty",
-      "name": "Adam Doupé",
-      "detail": "Named on the Computer Science M.S. thesis-chair list; the list has no research blurb.",
-      "sourceUrl": "https://docs.google.com/spreadsheets/d/1SpL7-42ZH0EuwMNZf515_hpVd2Jy0_yLz6_PM67ZwLQ/edit?gid=0#gid=0",
-      "quote": "Doupe,Adam,doupe@asu.edu,Computer Science,Chair"
+      "name": "Adam Doup\u00e9",
+      "detail": "ASU directory profile (research interests): Cyber security, cybercrime, binary analysis, fuzzing, web security, automated vulnerability analysis, mobile app security, static analysis, program analysis, hacking competitions, and pentesting.",
+      "sourceUrl": "https://search.asu.edu/profile/2412296",
+      "quote": "Cyber security, cybercrime, binary analysis, fuzzing, web security, automated vulnerability analysis, mobile app security, static analysis, program analysis, hacking competitions, and pentesting.",
+      "verified": true,
+      "verifiedBy": "user 2026-11-18"
     },
     {
       "id": "f50",
       "kind": "faculty",
       "name": "Stephanie Forrest",
-      "detail": "Named on the Computer Science M.S. thesis-chair list; the list has no research blurb.",
-      "sourceUrl": "https://docs.google.com/spreadsheets/d/1SpL7-42ZH0EuwMNZf515_hpVd2Jy0_yLz6_PM67ZwLQ/edit?gid=0#gid=0",
-      "quote": "Forrest,Stephanie,steph@asu.edu,Computer Science,Chair"
+      "detail": "ASU directory profile (research interests): Forrest's research studies the biology of computation and the computation of biology, including work on computational immunology, computer security, automated software repair, evolutionary computation, complex systems, and biological modeling.",
+      "sourceUrl": "https://search.asu.edu/profile/3182641",
+      "quote": "Forrest's research studies the biology of computation and the computation of biology, including work on computational immunology, computer security, automated software repair, evolutionary computation, complex systems, and biological modeling.",
+      "verified": true,
+      "verifiedBy": "user 2026-11-18"
     },
     {
       "id": "f51",
       "kind": "faculty",
       "name": "Charles Colbourn",
-      "detail": "Named on the Computer Science M.S. thesis-chair list as co-chair; the list has no research blurb.",
-      "sourceUrl": "https://docs.google.com/spreadsheets/d/1SpL7-42ZH0EuwMNZf515_hpVd2Jy0_yLz6_PM67ZwLQ/edit?gid=0#gid=0",
-      "quote": "Colbourn,Charles,Charles.Colbourn@asu.edu,Computer Science,Co-chair"
+      "detail": "ASU directory profile (research interests): My research concentrates on areas in which combinatorics and computer science interact in an elegant way. Two main directions are: combinatorial design theory applications in computer science: erasure correction, error correction, combinatorial cryptography, computational biology.",
+      "sourceUrl": "https://search.asu.edu/profile/384970",
+      "quote": "My research concentrates on areas in which combinatorics and computer science interact in an elegant way. Two main directions are: combinatorial design theory applications in computer science: erasure correction, error correction, combinatorial cryptography, computational biology.",
+      "verified": true,
+      "verifiedBy": "user 2026-11-18"
     },
     {
       "id": "f52",
       "kind": "faculty",
       "name": "Ajay Bansal",
-      "detail": "Named on the Computer Science M.S. thesis-chair list; the list has no research blurb.",
-      "sourceUrl": "https://docs.google.com/spreadsheets/d/1SpL7-42ZH0EuwMNZf515_hpVd2Jy0_yLz6_PM67ZwLQ/edit?gid=0#gid=0",
-      "quote": "Bansal,Ajay,Ajay.Bansal@asu.edu,Computer Science,Chair"
+      "detail": "ASU directory profile (research interests): Dr. Ajay Bansal's research focuses on semantics and implementation of declarative programming languages, specifically in the areas of Logic Programming and Answer Set Programming, Knowledge Representation and Reasoning, Common Sense Reasoning, Machine learning, and Question Answering Systems.",
+      "sourceUrl": "https://search.asu.edu/profile/1736009",
+      "quote": "Dr. Ajay Bansal's research focuses on semantics and implementation of declarative programming languages, specifically in the areas of Logic Programming and Answer Set Programming, Knowledge Representation and Reasoning, Common Sense Reasoning, Machine learning, and Question Answering Systems.",
+      "verified": true,
+      "verifiedBy": "user 2026-11-18"
     },
     {
       "id": "f53",
       "kind": "faculty",
       "name": "Srividya Bansal",
-      "detail": "Named on the Computer Science M.S. thesis-chair list; the list has no research blurb.",
-      "sourceUrl": "https://docs.google.com/spreadsheets/d/1SpL7-42ZH0EuwMNZf515_hpVd2Jy0_yLz6_PM67ZwLQ/edit?gid=0#gid=0",
-      "quote": "Bansal,Srividya,Srividya.Bansal@asu.edu,Computer Science,Chair"
+      "detail": "ASU directory profile (research interests): Semantic Computing; Big Data Integration; semantics-based solutions for outcome-based instruction design in STEM education; delivery models for Software Engineering Education; Web service description, discovery, and composition.",
+      "sourceUrl": "https://search.asu.edu/profile/1629159",
+      "quote": "Semantic Computing; Big Data Integration; semantics-based solutions for outcome-based instruction design in STEM education; delivery models for Software Engineering Education; Web service description, discovery, and composition.",
+      "verified": true,
+      "verifiedBy": "user 2026-11-18"
     },
     {
       "id": "f54",
       "kind": "faculty",
       "name": "Jedidiah Crandall",
-      "detail": "Named on the Computer Science M.S. thesis-chair list; the list has no research blurb.",
-      "sourceUrl": "https://docs.google.com/spreadsheets/d/1SpL7-42ZH0EuwMNZf515_hpVd2Jy0_yLz6_PM67ZwLQ/edit?gid=0#gid=0",
-      "quote": "Crandall,Jedidiah,jedimaestro@asu.edu,Computer Science,Chair"
+      "detail": "ASU directory profile lists no research interests or research bio (only a personal website link).",
+      "sourceUrl": "https://search.asu.edu/profile/3584805",
+      "quote": "Jedidiah Crandall",
+      "verified": true,
+      "verifiedBy": "user 2026-11-18"
     },
     {
       "id": "f55",
       "kind": "faculty",
       "name": "Hasan Davulcu",
-      "detail": "Named on the Computer Science M.S. thesis-chair list; the list has no research blurb.",
-      "sourceUrl": "https://docs.google.com/spreadsheets/d/1SpL7-42ZH0EuwMNZf515_hpVd2Jy0_yLz6_PM67ZwLQ/edit?gid=0#gid=0",
-      "quote": "Davulcu,Hasan,HDavulcu@asu.edu,Computer Science,Chair"
+      "detail": "ASU directory profile (research interests): Sociocultural Modeling and Persuasive AI Social Media and Web Mining Information Extraction and Database Systems Behavioral Analytics for Detecting Fraud",
+      "sourceUrl": "https://search.asu.edu/profile/515694",
+      "quote": "Sociocultural Modeling and Persuasive AI Social Media and Web Mining Information Extraction and Database Systems Behavioral Analytics for Detecting Fraud",
+      "verified": true,
+      "verifiedBy": "user 2026-11-18"
     },
     {
       "id": "f56",
       "kind": "faculty",
       "name": "Pooyan Fazli",
-      "detail": "Named on the Computer Science M.S. thesis-chair list; the list has no research blurb.",
-      "sourceUrl": "https://docs.google.com/spreadsheets/d/1SpL7-42ZH0EuwMNZf515_hpVd2Jy0_yLz6_PM67ZwLQ/edit?gid=0#gid=0",
-      "quote": "Fazli,Pooyan,pooyan@asu.edu,Computer Science,Chair"
+      "detail": "ASU directory profile (research interests): Artificial Intelligence, Robot Learning, Vision and Language, Multimodal Learning, Video Understanding",
+      "sourceUrl": "https://search.asu.edu/profile/4408705",
+      "quote": "Artificial Intelligence, Robot Learning, Vision and Language, Multimodal Learning, Video Understanding",
+      "verified": true,
+      "verifiedBy": "user 2026-11-18"
+    },
+    {
+      "id": "e1",
+      "kind": "faculty",
+      "name": "Subbarao Kambhampati",
+      "detail": "ASU directory profile (short bio): Kambhampati's expertise areas include artificial intelligence, human-AI interaction, automated planning and machine learning. He is a former president of AAAI and fellow of AAAI/AAAS/ACM.",
+      "sourceUrl": "https://search.asu.edu/profile/95646",
+      "quote": "Kambhampati's expertise areas include artificial intelligence, human-AI interaction, automated planning and machine learning. He is a former president of AAAI and fellow of AAAI/AAAS/ACM.",
+      "verified": true,
+      "verifiedBy": "user 2026-11-18"
+    },
+    {
+      "id": "e2",
+      "kind": "faculty",
+      "name": "Aman Arora",
+      "detail": "ASU directory profile (research interests): Reconfigurable Computing FPGAs Hardware Acceleration of Machine Learning (ML) and Artificial Intelligence (AI) FPGA applications in areas such as quantum computing and medical Processing-In-Memory Using Machine Learning (ML) and Artificial Intelligence (AI) for CAD/EDA",
+      "sourceUrl": "https://search.asu.edu/profile/4860216",
+      "quote": "Reconfigurable Computing FPGAs Hardware Acceleration of Machine Learning (ML) and Artificial Intelligence (AI) FPGA applications in areas such as quantum computing and medical Processing-In-Memory Using Machine Learning (ML) and Artificial Intelligence (AI) for CAD/EDA",
+      "verified": true,
+      "verifiedBy": "user 2026-11-18"
+    },
+    {
+      "id": "e3",
+      "kind": "faculty",
+      "name": "Tiffany Bao",
+      "detail": "ASU directory profile (bio): Her research focuses on cyber autonomy, and her work spans the areas of binary analysis techniques and game-theoretical strategy. She's the recipient of the Carnegie Mellon University Presidential Fellowship and NSA's Best Scientific Cybersecurity Paper.",
+      "sourceUrl": "https://search.asu.edu/profile/3322259",
+      "quote": "Her research focuses on cyber autonomy, and her work spans the areas of binary analysis techniques and game-theoretical strategy. She's the recipient of the Carnegie Mellon University Presidential Fellowship and NSA's Best Scientific Cybersecurity Paper.",
+      "verified": true,
+      "verifiedBy": "user 2026-11-18"
+    },
+    {
+      "id": "e4",
+      "kind": "faculty",
+      "name": "Christopher Bryan",
+      "detail": "ASU directory profile (research interests): Data Visualization Human-Computer Interaction Data Storytelling Explainable Machine Learning and Artificial Intelligence Virtual Reality",
+      "sourceUrl": "https://search.asu.edu/profile/3335256",
+      "quote": "Data Visualization Human-Computer Interaction Data Storytelling Explainable Machine Learning and Artificial Intelligence Virtual Reality",
+      "verified": true,
+      "verifiedBy": "user 2026-11-18"
+    },
+    {
+      "id": "e5",
+      "kind": "faculty",
+      "name": "Zhichao Cao",
+      "detail": "ASU directory profile (research interests): Intelligent Data Infrastructure for AI: High-Performance Tokenization for LLMs, LLM-driven system automatic tuning and optimizations, GPU-centric data systems, LLM-serving optimizations (multi-level caching, CXL-based offloading, and indexing), failure protection for LLMs (bitflip protection, ECC",
+      "sourceUrl": "https://search.asu.edu/profile/4082902",
+      "quote": "Intelligent Data Infrastructure for AI: High-Performance Tokenization for LLMs, LLM-driven system automatic tuning and optimizations, GPU-centric data systems, LLM-serving optimizations (multi-level caching, CXL-based offloading, and indexing), failure protection for LLMs (bitflip protection, ECC",
+      "verified": true,
+      "verifiedBy": "user 2026-11-18"
+    },
+    {
+      "id": "e6",
+      "kind": "faculty",
+      "name": "YooJung Choi",
+      "detail": "ASU directory profile (short bio): Choi's research interests lie in probabilistic machine learning, tractable probabilistic modeling and inference, knowledge representation and reasoning, as well as trustworthy AI.",
+      "sourceUrl": "https://search.asu.edu/profile/4355375",
+      "quote": "Choi's research interests lie in probabilistic machine learning, tractable probabilistic modeling and inference, knowledge representation and reasoning, as well as trustworthy AI.",
+      "verified": true,
+      "verifiedBy": "user 2026-11-18"
+    },
+    {
+      "id": "e7",
+      "kind": "faculty",
+      "name": "Joshua Daymude",
+      "detail": "ASU directory profile (research interests): Programmable matter, active matter, self-organization, distributed algorithms, randomized algorithms, bio-inspired algorithms, swarm intelligence, stochastic processes, markov chain analysis.",
+      "sourceUrl": "https://search.asu.edu/profile/1903590",
+      "quote": "Programmable matter, active matter, self-organization, distributed algorithms, randomized algorithms, bio-inspired algorithms, swarm intelligence, stochastic processes, markov chain analysis.",
+      "verified": true,
+      "verifiedBy": "user 2026-11-18"
+    },
+    {
+      "id": "e8",
+      "kind": "faculty",
+      "name": "Nakul Gopalan",
+      "detail": "ASU directory profile (short bio): Gopalan has developed algorithms and methods that allow robots to be trained by leveraging demonstrations and natural language descriptions.",
+      "sourceUrl": "https://search.asu.edu/profile/4293865",
+      "quote": "Gopalan has developed algorithms and methods that allow robots to be trained by leveraging demonstrations and natural language descriptions.",
+      "verified": true,
+      "verifiedBy": "user 2026-11-18"
+    },
+    {
+      "id": "e9",
+      "kind": "faculty",
+      "name": "Sandeep Gupta",
+      "detail": "ASU directory profile (short bio): Gupta's areas of expertise include cyber-physical systems, green and sustainable computing, mobile and pervasive computing, and parallel and distributed computing.",
+      "sourceUrl": "https://search.asu.edu/profile/313263",
+      "quote": "Gupta's areas of expertise include cyber-physical systems, green and sustainable computing, mobile and pervasive computing, and parallel and distributed computing.",
+      "verified": true,
+      "verifiedBy": "user 2026-11-18"
+    },
+    {
+      "id": "e10",
+      "kind": "faculty",
+      "name": "Hannah Kerner",
+      "detail": "ASU directory profile (short bio): Kerner's research focuses on developing AI and machine learning advances needed to address the world's most pressing challenges, including food security, climate change and space exploration.",
+      "sourceUrl": "https://search.asu.edu/profile/2608200",
+      "quote": "Kerner's research focuses on developing AI and machine learning advances needed to address the world's most pressing challenges, including food security, climate change and space exploration.",
+      "verified": true,
+      "verifiedBy": "user 2026-11-18"
+    },
+    {
+      "id": "e11",
+      "kind": "faculty",
+      "name": "Hokeun Kim",
+      "detail": "ASU directory profile (short bio): He primarily studies cyber-physical systems, computing systems interacting with humans and the physical world, especially safety and security aspects.",
+      "sourceUrl": "https://search.asu.edu/profile/4842939",
+      "quote": "He primarily studies cyber-physical systems, computing systems interacting with humans and the physical world, especially safety and security aspects.",
+      "verified": true,
+      "verifiedBy": "user 2026-11-18"
+    },
+    {
+      "id": "e12",
+      "kind": "course",
+      "name": "CSE 571",
+      "detail": "CSE 571 Artificial Intelligence, ASU Engage (poweredby.asu.edu) AI course page: a rigorous graduate-level study of core AI principles covering intelligent agents, reasoning under uncertainty, machine learning, and advanced problem-solving techniques.",
+      "sourceUrl": "https://engage.poweredby.asu.edu/ai/",
+      "quote": "CSE 571 A rigorous graduate-level study of core AI principles - covering intelligent agents, reasoning under uncertainty, machine learning, and advanced problem-solving techniques.",
+      "verified": true,
+      "verifiedBy": "user 2026-11-18"
+    },
+    {
+      "id": "f57",
+      "kind": "overview",
+      "name": "Plan code ESCOMSCMS",
+      "detail": "The ASU Computer Science M.S. degree page lists plan code ESCOMSCMS.",
+      "sourceUrl": "https://degrees.asu.edu/masters-phd/major/ASU00/ESCOMSCMS/computer-science-ms",
+      "quote": "Plan code: ESCOMSCMS",
+      "verified": true,
+      "verifiedBy": "user 2026-11-18"
+    },
+    {
+      "id": "f58",
+      "kind": "overview",
+      "name": "Higher Learning Commission accreditation",
+      "detail": "The degree page states that the program is accredited by the Higher Learning Commission, and that all ASU graduate and undergraduate academic programs are fully accredited by the Higher Learning Commission.",
+      "sourceUrl": "https://degrees.asu.edu/masters-phd/major/ASU00/ESCOMSCMS/computer-science-ms",
+      "quote": "Accredited by the Higher Learning Commission.",
+      "verified": true,
+      "verifiedBy": "user 2026-11-18"
+    },
+    {
+      "id": "f59",
+      "kind": "overview",
+      "name": "Advanced topic areas (full list, first half)",
+      "detail": "The degree page's advanced-topic list, only partly captured in existing fact f6, includes AI, machine learning and statistical modeling; big data and data mining; computational biology; computer design, architecture and compilers; and computer security, cybersecurity and cryptography. A companion fact (f60) records the rest of the same list. This is a fuller rendering of the same page, not a change to f6.",
+      "sourceUrl": "https://degrees.asu.edu/masters-phd/major/ASU00/ESCOMSCMS/computer-science-ms",
+      "quote": "AI, machine learning and statistical modeling big data and data mining computational biology computer design, architecture and compilers computer security, cybersecurity and cryptography",
+      "verified": true,
+      "verifiedBy": "user 2026-11-18"
+    },
+    {
+      "id": "f60",
+      "kind": "overview",
+      "name": "Advanced topic areas (full list, second half)",
+      "detail": "The rest of the same advanced-topic list is: computer systems, including networking and operating systems; cyber-physical systems, Internet of Things and robotics; distributed computing and consensus protocols; novel computing paradigms, including biocomputing and quantum computation; theory, algorithms and optimization; and visualization and graphics.",
+      "sourceUrl": "https://degrees.asu.edu/masters-phd/major/ASU00/ESCOMSCMS/computer-science-ms",
+      "quote": "computer systems, including networking and operating systems cyber-physical systems, Internet of Things and robotics distributed computing and consensus protocols novel computing paradigms, including biocomputing and quantum computation theory, algorithms and optimization visualization and graphics",
+      "verified": true,
+      "verifiedBy": "user 2026-11-18"
+    },
+    {
+      "id": "f61",
+      "kind": "requirement",
+      "name": "Core courses may not also count as electives",
+      "detail": "Courses selected as part of the core (applications, foundations, or systems) may not be used as other elective coursework on the same plan of study. Students should see the academic unit for the list of courses approved for each core area.",
+      "sourceUrl": "https://degrees.asu.edu/masters-phd/major/ASU00/ESCOMSCMS/computer-science-ms",
+      "quote": "Courses selected as part of the core may not be used as other elective coursework on the same plan of study.",
+      "verified": true,
+      "verifiedBy": "user 2026-11-18"
+    },
+    {
+      "id": "f62",
+      "kind": "requirement",
+      "name": "Thesis electives must be in a chosen research area",
+      "detail": "For the thesis option, electives must be courses in a chosen research area and approved by the student's academic advisor.",
+      "sourceUrl": "https://degrees.asu.edu/masters-phd/major/ASU00/ESCOMSCMS/computer-science-ms",
+      "quote": "Electives must be courses in a chosen research area and approved by the student's academic advisor.",
+      "verified": true,
+      "verifiedBy": "user 2026-11-18"
+    },
+    {
+      "id": "e13",
+      "kind": "course",
+      "name": "CSE 590 Reading and Conference",
+      "detail": "Up to six credit hours can be independent study in CSE 590 Reading and Conference.",
+      "sourceUrl": "https://degrees.asu.edu/masters-phd/major/ASU00/ESCOMSCMS/computer-science-ms",
+      "quote": "Up to six credit hours can be independent study in CSE 590 Reading and Conference.",
+      "verified": true,
+      "verifiedBy": "user 2026-11-18"
+    },
+    {
+      "id": "e14",
+      "kind": "requirement",
+      "name": "Primary admission factors",
+      "detail": "The degree page says the applicant's undergraduate GPA and depth of preparation in computer science and engineering are the primary factors affecting admission.",
+      "sourceUrl": "https://degrees.asu.edu/masters-phd/major/ASU00/ESCOMSCMS/computer-science-ms",
+      "quote": "The applicant's undergraduate GPA and depth of preparation in computer science and engineering are the primary factors affecting admission.",
+      "verified": true,
+      "verifiedBy": "user 2026-11-18"
+    },
+    {
+      "id": "e15",
+      "kind": "requirement",
+      "name": "English proficiency regardless of residency",
+      "detail": "An applicant whose native language is not English must provide proof of English proficiency regardless of their current residency.",
+      "sourceUrl": "https://degrees.asu.edu/masters-phd/major/ASU00/ESCOMSCMS/computer-science-ms",
+      "quote": "An applicant whose native language is not English must provide proof of English proficiency regardless of their current residency.",
+      "verified": true,
+      "verifiedBy": "user 2026-11-18"
+    },
+    {
+      "id": "e16",
+      "kind": "overview",
+      "name": "Accelerated bachelor's plus master's partner programs",
+      "detail": "The Computer Science M.S. is offered as an accelerated bachelor's plus master's degree, described as obtainable in as little as five years, with these undergraduate partner programs named on the page: Computer Science, BS; Computer Science (Artificial Intelligence), BS; Computer Science (Cybersecurity), BS; Computer Science (Software Engineering), BS; Computer Systems Engineering, BSE; Computer Systems Engineering (Cybersecurity), BSE; and Software Engineering, BS. Approval to pursue the accelerated master's is typically granted during the junior year of the bachelor's program.",
+      "sourceUrl": "https://degrees.asu.edu/masters-phd/major/ASU00/ESCOMSCMS/computer-science-ms",
+      "quote": "This program is offered as an accelerated bachelor's plus master's degree with: Computer Science, BS",
+      "verified": true,
+      "verifiedBy": "user 2026-11-18"
+    },
+    {
+      "id": "e17",
+      "kind": "requirement",
+      "name": "Accelerated master's approval in the junior year",
+      "detail": "Approval to pursue the accelerated master's is typically granted during the junior year of the bachelor's degree program.",
+      "sourceUrl": "https://degrees.asu.edu/masters-phd/major/ASU00/ESCOMSCMS/computer-science-ms",
+      "quote": "Approval to pursue the accelerated master's is typically granted during the junior year of your bachelor's degree program.",
+      "verified": true,
+      "verifiedBy": "user 2026-11-18"
+    },
+    {
+      "id": "e18",
+      "kind": "overview",
+      "name": "Career examples",
+      "detail": "The degree page says graduates are prepared to pursue careers in research and education, including academia, government and industry. Career examples listed are computer network architect; computer system analyst; computer systems engineer; data scientist or engineer; machine learning, AI or computer vision engineer; software developer; and software engineer.",
+      "sourceUrl": "https://degrees.asu.edu/masters-phd/major/ASU00/ESCOMSCMS/computer-science-ms",
+      "quote": "Career examples include: computer network architect computer system analyst computer systems engineer data scientist or engineer machine learning, AI or computer vision engineer software developer software engineer",
+      "verified": true,
+      "verifiedBy": "user 2026-11-18"
+    },
+    {
+      "id": "e19",
+      "kind": "overview",
+      "name": "STEM-OPT is a 24-month extension of 12-month OPT, not for ASU Online",
+      "detail": "The degree page's STEM-OPT explanation says F-1 students who earn an approved STEM degree may be eligible for a 24-month extension of the standard 12-month Optional Practical Training period, usable twice in a lifetime. It also says the STEM-OPT extension is only available to students on an F-1 visa and is not available to students completing a degree through ASU Online. This adds detail to existing facts f7 and f8 from the same page.",
+      "sourceUrl": "https://degrees.asu.edu/masters-phd/major/ASU00/ESCOMSCMS/computer-science-ms",
+      "quote": "The STEM-OPT extension is only available to students on an F-1 visa and is not available to students completing a degree through ASU Online.",
+      "verified": true,
+      "verifiedBy": "user 2026-11-18"
     }
   ]
 }

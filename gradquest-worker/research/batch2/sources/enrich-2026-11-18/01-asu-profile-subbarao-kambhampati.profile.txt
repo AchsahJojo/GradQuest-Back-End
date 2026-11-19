@@ -1,0 +1,20 @@
+[display_name]
+Subbarao Kambhampati
+
+[titles]
+Professor Senior Global Futures Scientist
+
+[primary_department]
+School of Computing and Augmented Intelligence
+
+[research_interests]
+
+
+[expertise_areas]
+
+
+[short_bio]
+Kambhampati's expertise areas include artificial intelligence, human-AI interaction, automated planning and machine learning. He is a former president of AAAI and fellow of AAAI/AAAS/ACM.
+
+[bio]
+Subbarao Kambhampati is a professor of computer science at Arizona State University. Kambhampati studies fundamental problems in planning and decision making, motivated in particular by the challenges of human-aware AI systems. He is a fellow of Association for the Advancement of Artificial Intelligence, American Association for the Advancement of Science, and Association for Computing machinery, and was an NSF Young Investigator. He was the president of the Association for the Advancement of Artificial Intelligence, trustee of International Joint Conference on Artificial Intelligence, and a founding board member of Partnership on AI. Kambhampati's research as well as his views on the progress and societal impacts of AI have been featured in multiple national and international media outlets. He writes a column on the societal and policy implications of the advances in Artificial Intelligence for The Hill. URL rakaposhi.eas.asu.edu Twitter @rao2z He can be followed on Twitter @rao2z.

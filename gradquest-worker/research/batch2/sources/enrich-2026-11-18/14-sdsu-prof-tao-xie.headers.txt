@@ -1,0 +1,25 @@
+HTTP/1.1 301 Moved Permanently
+Date: Thu, 19 Nov 2026 04:17:31 GMT
+Server: Apache
+X-Redirect-By: WordPress
+Content-Encoding: gzip
+Vary: Accept-Encoding
+Location: https://cs.sdsu.edu/people/tao-xie/
+Cache-Control: public, max-age=14400, must-revalidate
+Expires: Thu, 19 Nov 2026 08:17:31 GMT
+Access-Control-Allow-Origin: *.sdsu.edu
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+HTTP/1.1 200 OK
+Date: Thu, 19 Nov 2026 04:17:31 GMT
+Server: Apache
+Link: <https://cs.sdsu.edu/wp-json/>; rel="https://api.w.org/", <https://cs.sdsu.edu/wp-json/wp/v2/pages/5592>; rel="alternate"; title="JSON"; type="application/json", <https://cs.sdsu.edu/?p=5592>; rel=shortlink
+Content-Encoding: gzip
+Vary: Accept-Encoding
+Cache-Control: public, max-age=14400, must-revalidate
+Expires: Thu, 19 Nov 2026 08:17:31 GMT
+Access-Control-Allow-Origin: *.sdsu.edu
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+

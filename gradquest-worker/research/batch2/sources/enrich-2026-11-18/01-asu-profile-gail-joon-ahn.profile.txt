@@ -1,0 +1,20 @@
+[display_name]
+Gail-Joon Ahn
+
+[titles]
+Senior Advisor Associate Director of Research & Professor
+
+[primary_department]
+School of Computing and Augmented Intelligence
+
+[research_interests]
+Security analytics and big data driven security intelligence Formal Models for Computer Security Network and Distributed Systems Security Vulnerability and Risk Assessment Cyber Crime Analysis His research has been supported by National Science Foundation, National Security Agency, Department of Defense, Office of Naval Research, Department of Energy, Department of Justice, Allstate, Intel, Bank of America, CISCO, GoDaddy, Hewlett Packard, Google, Microsoft and Robert Wood Johnson Foundation.
+
+[expertise_areas]
+Computer Science Cybersecurity Information Security Network Security Privacy Risk Management
+
+[short_bio]
+Ahn is a professor of computer science and engineering in the School of Computing and Augmented Intelligence at Arizona State University.
+
+[bio]
+Gail-Joon Ahn is a professor of computer science and engineering in the School of Computing and Augmented Intelligence and the Founding Director of the Center for Cybersecurity and Trusted Foundations (CTF) and the Security Engineering for Future Computing (SEFCOM) Laboratory at Arizona State University. He has authored more than 250 refereed research papers. Prior to joining ASU, he was an associate professor of the College of Computing and Informatics and founding director of Center for Digital Identity and Cyber Defense Research at University of North Carolina at Charlotte. His research foci include security analytics and big data driven security intelligence, vulnerability and risk management, access control and security architecture for distributed systems, identity and privacy management, cyber crime analysis, security-enhanced computing platforms, and formal models for computer security device. He is a recipient of U.S. Department of Energy Early Career Principal Investigator Award, Educator of the Year Award from Federal Information Systems Security Educators' Association (FISSEA) and Best Researcher Award from CIDSE. Also, he serves as associate editor-in-chief of IEEE Transactions on Dependable and Secure Computing, associate editor of ACM Transactions on Information and Systems Security and editorial board of Computers & Security. He is also the Steering Committee chair of ACM Symposium on Access Control Models and Technologies and the general chair of ACM Conference on Computer and Communications Security (CCS 2014). He is also a Fellow of IEEE and ACM.

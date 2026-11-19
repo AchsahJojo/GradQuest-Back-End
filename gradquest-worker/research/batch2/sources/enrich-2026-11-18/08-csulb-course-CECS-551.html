@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CECS 551 - Advanced Artificial Intelligence - </title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="shortcut icon" href="//acalog-clients.s3.amazonaws.com/production/csulb/img/favicon/favicon.ico" />
+<meta name="description" content="CSULB is a large, urban, comprehensive university in the 23-campus California State University system."><meta name="keywords" content="College, University, Long Beach, Long Beach State, 49ers, Dirtbags, Cal State, CSU, CSULB, Conoley, California"><link href="//acalog-clients.s3.amazonaws.com/production/csulb/css/gateway/user-styles.css" rel="stylesheet" type="text/css">
+<link href="css/public_custom.php" rel="stylesheet" type="text/css">
+<link href="global_styles.css?v=01252018" rel="stylesheet" type="text/css">
+		<!-- Cache-busting string (deploy date) added to asset URLS -->
+		<script src="js/jquery.js?v=01252018" type="text/javascript" integrity="sha384-Jw7oPgh1QVMkLkgcwNwaftGwTRyvqNATr31v+ibxI2j+iDl6DBuAetkzsVDzcarO"></script>
+		<script src="js/Tooltip.js?v=01252018" type="text/javascript" integrity="sha384-UMB1Hx/m9CdDRUtWmG6bt7gOgctm6YWwJQ8uukCii62Vh72yo8uQO0LoUIAZWBM2"></script>
+ 		<script src="javascripts.js?v=02232018" type="text/javascript" integrity="sha384-ooicF5pDDd8rcvSonkcaDMatceDtwsF5VHaGB/UPjdx3VFdceJUWM0/iGkda12BS"></script>
+		<script src="js/smlinks.js?v=01252018" type="text/javascript" integrity="sha384-8w7FIGtEuZL0dUz6XQVVDpBI6As5YXPwao6YqF4Jt2cSrgykXvBn8xAxo+vKlpBf"></script>
+			<script src="/js/highlight.js?v=01252018" type="text/javascript" integrity="sha384-/N6E97UUUZqqm9M4Fk0tseDccUbVKSjriIyzH2cxQU/cfGbheI1tQvAfVo4yBbsp"></script>
+<script type='text/javascript'>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', ' UA-193316-2', 'auto');
+  ga('send', 'pageview');
+</script><noscript><p><span class="error">Javascript is currently not supported, or is disabled by this browser. Please enable Javascript for full functionality.</span></p></noscript>
+<script type="text/javascript">var gatewayFeatureSearchBar = true; var gatewayFeatureToolbarText = false; var gatewayFeatureBackToTopText = false;</script>
+<link type="text/css" rel="stylesheet" href="//acalog-clients.s3.amazonaws.com/global/css/gateway-styles-reset.css" />
+<link type="text/css" rel="stylesheet" href="//acalog-clients.s3.amazonaws.com/global/css/gateway-styles-nojs.css" id="gateway-styles-nojs" />
+<link type="text/css" rel="stylesheet" href="//acalog-clients.s3.amazonaws.com/production/csulb/css/gateway/gateway-styles.css" />
+<script type="text/javascript">document.getElementById("gateway-styles-nojs").parentNode.removeChild(document.getElementById("gateway-styles-nojs"));</script>
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
+<script type="text/javascript" src="//acalog-clients.s3.amazonaws.com/global/js/jquery.browser.js"></script>
+<script type="text/javascript" src="//acalog-clients.s3.amazonaws.com/global/js/gateway-javascript.js"></script>
+<!--[if lte IE 8]><script type="text/javascript" src="//acalog-clients.s3.amazonaws.com/global/js/select-fix.js"></script><![endif]-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha384-1H217gwSVyLSIfaLxHbE7dRb3v4mYCKbpQvzx0cegeju1MVsGrX5xXxAvs/HgeFs" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-migrate-3.4.1.min.js" crossorigin="anonymous"></script>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.12/css/select2.min.css" rel="stylesheet" integrity="sha384-KZO2FRYNmIHerhfYMjCIUaJeGBRXP7CN24SiNSG+wdDzgwvxWbl16wMVtWiJTcMt" crossorigin="anonymous" />
+
+<!-- Begin Responsive -->
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
+<script src="https://kit.fontawesome.com/e35e04f508.js" integrity="sha384-R6VdFS8kVoq95OAh0ovy8RJ/16mag2fYdzr7zVL0mCTflvoedXn1ImqSlT8Es4SM" crossorigin="anonymous"></script>
+<script src="/mobile-js.js" integrity="sha384-8c7xrierIq1kMm5dyQ8AbZgXFUK0RP5zv2b5Wal7ERFl9XL9jGOU14nsrTHaUr2Q"></script>
+<link href="/mobile-styles.css" rel="stylesheet" type="text/css" integrity="sha384-x48QjmWDEbnCCjvlJy7x37BaGkf6QNekrKYReCsO6qL8J6pFkAnxVgcPsjPHGxCu" />
+<!-- End Responsive -->
+
+</head>
+
+<body>
+<!-- Skip to Navigation -->
+<nav id="skip" aria-label="Skip to Main Content">
+	<a href="#course_preview_title" class="skip-nav">Skip to Content</a>
+</nav>
+<table class="toplevel table_default">
+  <tr>
+    <td colspan="2" class="block_n2_and_content" id="acalog-header"><header role="banner"><div class="acalog-custom" id="acalog-client-header">
+<script type="text/javascript">
+        jQuery(document).ready( function($) { if ($('#gateway-page').length) {
+
+        $( ".navbar-toggle" ).click(function() {
+        $( ".navbar-collapse" ).toggleClass( "collapse" );
+        });
+
+        }});
+</script>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="csulbheader-collapse collapse" style="background-image: url(https://acalog-clients.s3.amazonaws.com/production/csulb/img/gateway/banner_academic-senate_530.jpg)">
+            <div class="csulbheader">
+                <div id="contain_header_setwidth">
+                    <div id="contain_siteid">
+                        <div id="siteid_content">
+                            <a href="http://www.csulb.edu/"><img alt="California State University, Long Beach" src="//acalog-clients.s3.amazonaws.com/production/csulb/img/gateway/csulb-branding-long.png"></a><span class="border-line">|</span><a class="department-top-name" href="http://web.csulb.edu/divisions/aa/catalog">University Catalog</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="catlogo text-center">
+            &#160;
+        </div>
+        <div class="horizontal-nav">
+            <div class="container">
+                <div class="navbar-header">
+                    <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse" type="button"><span class="icon-bar">&#160;</span> <span class="icon-bar">&#160;</span> <span class="icon-bar">&#160;</span> <span class="sr-only">Toggle Menu</span></button>
+                </div>
+                <div class="navbar-collapse collapse" style="text-align: center;">
+                    <ul class="nav navbar-nav">
+                        <li style="padding: 0px 0px 0px 40px;">
+                            <a href="http://catalog.csulb.edu" title="Catalog Home">CURRENT CATALOG</a>
+                        </li>
+                        <li style="padding: 0px 0px 0px 40px;">
+                            <a href="http://www.csulb.edu/student-records/schedule-of-classes" title="Catalog Home">SCHEDULE OF CLASSES</a>
+                        </li>
+                        <li style="padding: 0px 0px 0px 40px;">
+                            <a href="https://sso.csulb.edu/" title="Catalog Home">STUDENT CENTER</a>
+                        </li>
+                        <li style="padding: 0px 0px 0px 40px;">
+                            <a href="https://web.csulb.edu/divisions/academic_affairs/catalog/previous-years.html" title="Catalog Home">CATALOG ARCHIVES</a>
+                        </li>
+                    </ul>
+                </div>
+<!--/.navbar-collapse -->
+            </div>
+        </div>
+<!-- End Client Header -->
+        
+<!-- Start Client Footer -->
+        <div class="acalog-custom" id="acalog-client-footer">
+            <footer class="footer">
+                <div class="container">
+                    <div aria-label="footer-navigation" class="col-sm-12 footer-columns" role="navigation">
+                        <div class="row">
+                            <div class="col-sm-2 three-footer-column">
+                                <h3 class="menu-footer-heading">
+                                    SERVICES
+                                </h3>
+                                <ul class="menu-footer">
+                                    <li>
+                                        <a href="https://www.csulb.edu/university-police">Emergency Information</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.csulb.edu/student-affairs/counseling-and-psychological-services">Crisis Assistance</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.csulb.edu/student-affairs/cares">CARES Team</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.csulb.edu/information-technology/accessible-technology/policies/accessibility-statement">Accessibility Statement</a>
+                                    </li>
+                                    <li>
+                                        <a href="http://web.csulb.edu/divisions/students/shs/">Student Health Center</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-sm-4 three-footer-column">
+                                <div class="row footer-border">
+                                    <h3 class="menu-footer-heading">
+                                        Colleges
+                                    </h3>
+                                    <div class="col-sm-6 footer-two-one">
+                                        <ul class="menu-footer" style="margin-right: 10px;">
+                                            <li>
+                                                <a href="https://www.csulb.edu/college-of-the-arts">The Arts</a>
+                                            </li>
+                                            <li>
+                                                <a href="https://www.csulb.edu/college-of-education">Education</a>
+                                            </li>
+                                            <li>
+                                                <a href="https://www.csulb.edu/college-of-business">Business Administration</a>
+                                            </li>
+                                            <li>
+                                                <a href="https://www.cpie.csulb.edu/">Professional and International Education</a>
+                                            </li>
+                                            <li class="footer-single-column">
+                                                <a href="https://www.csulb.edu/college-of-engineering">Engineering</a>
+                                            </li>
+                                            <li class="footer-single-column">
+                                                <a href="https://cla.csulb.edu/">Liberal Arts</a>
+                                            </li>
+                                            <li class="footer-single-column">
+                                                <a href="https://www.csulb.edu/college-of-health-human-services">Health & Human Services</a>
+                                            </li>
+                                            <li class="footer-single-column">
+                                                <a href="https://www.csulb.edu/college-of-natural-sciences-and-mathematics">Natural Sciences & Mathematics</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <ul class="menu-footer footer-double-column">
+                                            <li>
+                                                <a href="https://www.csulb.edu/college-of-engineering">Engineering</a>
+                                            </li>
+                                            <li>
+                                                <a href="https://cla.csulb.edu/">Liberal Arts</a>
+                                            </li>
+                                            <li>
+                                                <a href="https://www.csulb.edu/college-of-health-human-services">Health & Human Services</a>
+                                            </li>
+                                            <li>
+                                                <a href="https://www.csulb.edu/college-of-natural-sciences-and-mathematics">Natural Sciences & Mathematics</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-4 three-footer-column">
+                                <div class="row footer-border">
+                                    <h3 class="menu-footer-heading">
+                                        Additional Resources
+                                    </h3>
+                                    <div class="col-sm-6 footer-two-one">
+                                        <ul class="menu-footer" style="margin-right: 10px;">
+                                            <li>
+                                                <a href="https://www.csulb.edu/about-csulb">About CSULB</a>
+                                            </li>
+                                            <li>
+                                                <a href="https://www.csulb.edu/employment"><span class="sr-only">University</span> Careers</a>
+                                            </li>
+                                            <li>
+                                                <a href="https://www.csulb.edu/university-police">University Police</a>
+                                            </li>
+                                            <li>
+                                                <a href="https://webapps.csulb.edu/campus-directory/">Campus Directory</a>
+                                            </li>
+                                            <li class="footer-single-column">
+                                                <a href="https://www.csulb.edu/university-relations-and-development/strategic-communications">Strategic Communications</a>
+                                            </li>
+                                            <li>
+                                                <a href="http://www.csulb.edu/document-readers">Download Document Reader</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <ul class="menu-footer footer-double-column">
+                                            <li>
+                                                <a href="https://www.csulb.edu/university-relations-and-development/strategic-communications">Strategic Communications</a>
+                                            </li>
+                                            <li>
+                                                <a href="https://www.csulb.edu/contact"><span class="sr-only">C S U L B</span> Contact Us</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-2">
+                                <ul class="menu-footer footer-border footer-without-h3">
+                                    <li>
+                                        <a href="http://www.calstate.edu/">CSU</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.csulb.edu/site-index">Site Index</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.csulb.edu/contact">Feedback</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel-group footer-accordian" id="accordionFooter">
+                        
+<!-- Panel  1 -->
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h4 class="panel-title">
+                                    <a data-parent="#accordionFooter" data-toggle="collapse" href="#FootercollapseOne">SERVICES</a>
+                                </h4>
+                            </div>
+                            <div class="panel-collapse collapse in" id="FootercollapseOne">
+                                <div class="panel-body">
+                                    <ul class="menu-panel">
+                                        <li>
+                                            <a href="https://www.csulb.edu/university-police">Emergency Information</a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.csulb.edu/student-affairs/counseling-and-psychological-services">Crisis Assistance</a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.csulb.edu/student-affairs/cares">CARES Team</a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.csulb.edu/information-technology/accessible-technology/policies/accessibility-statement">Accessibility Statement</a>
+                                        </li>
+                                        <li>
+                                            <a href="http://web.csulb.edu/divisions/students/shs/">Student Health Center</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+<!-- Panel  2 -->
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h4 class="panel-title">
+                                    <a data-parent="#accordionFooter" data-toggle="collapse" href="#FootercollapseTwo">Colleges</a>
+                                </h4>
+                            </div>
+                            <div class="panel-collapse collapse in" id="FootercollapseTwo">
+                                <div class="panel-body">
+                                    <ul class="menu-panel">
+                                        <li>
+                                            <a href="https://www.csulb.edu/college-of-the-arts">The Arts</a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.csulb.edu/college-of-education">Education</a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.csulb.edu/college-of-business">Business Administration</a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.cpie.csulb.edu/">Professional and International Education</a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.csulb.edu/college-of-engineering">Engineering</a>
+                                        </li>
+                                        <li>
+                                            <a href="https://cla.csulb.edu/">Liberal Arts</a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.csulb.edu/college-of-health-human-services">Health & Human Services</a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.csulb.edu/college-of-natural-sciences-and-mathematics">Natural Sciences & Mathematics</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+<!-- Panel  2 -->
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h4 class="panel-title">
+                                    <a data-parent="#accordionFooter" data-toggle="collapse" href="#FootercollapseThree">Additional Resources</a>
+                                </h4>
+                            </div>
+                            <div class="panel-collapse collapse in" id="FootercollapseThree">
+                                <div class="panel-body">
+                                    <ul class="menu-panel">
+                                        <li>
+                                            <a href="https://www.csulb.edu/about-csulb">About CSULB</a>
+                                        </li>
+                                        <li>
+                                            <a href="http://www.csulb.edu/employment"><span class="sr-only">University</span> Careers</a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.csulb.edu/university-police">University Police</a>
+                                        </li>
+                                        <li>
+                                            <a href="https://webapps.csulb.edu/campus-directory/">Campus Directory</a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.csulb.edu/university-relations-and-development/strategic-communications">Strategic Communications</a>
+                                        </li>
+                                        <li>
+                                            <a href="http://www.csulb.edu/document-readers">Download Document Reader</a>
+                                        </li>
+                                        <li>
+                                            <a href="http://www.csulb.edu/contact"><span class="sr-only">C S U L B</span> Contact Us</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container container-table">
+                        <div class="row">
+                            <div class="text-center col-md-12">
+                                <p class="footer-logo">
+                                    <a href="http://www.csulb.edu">California State University <strong>Long Beach</strong></a>
+                                </p>
+                                <div class="vcard" style="color: rgb(196, 193, 182);">
+                                    <div class="adr">
+                                        <div class="street-address">
+                                            1250 Bellflower Boulevard
+                                        </div>
+                                        <div>
+                                            <span class="locality">Long Beach, California</span> <span class="postal-code">90840</span>
+                                        </div>
+                                    </div>
+                                    <div class="tel" style="color: rgb(196, 193, 182);">
+                                        562.985.4111
+                                    </div>
+                                    <p>
+                                        &#160;
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+<!-- End Client Footer -->
+    </div>
+</div></header></td>
+  </tr>
+  <tr class="acalog-block-n1" role="navigation" aria-label="Get Print-friendly Page">
+    <td class="block_n1_left">&#160;&#160;&#160;</td>
+    <td class="block_n1_right"><span class="n1_header">California State University, Long Beach</span></td>
+  </tr>
+  <tr role="main">
+	<td class="block_border_left">&#160;&#160;&#160;</td>
+    <td class="block_n2_and_content">
+	<table class="block_n2_and_content table_default">
+   		<tr>
+			<!-- Begin N3 -->
+					<td class="block_date_outer_left small_date_pad">&#160;</td>
+		<td class="block_date_inner medium_date_pad">
+			<span class="date">&#160;
+				Nov 18, 2026			</span>
+		</td>
+		<td class="block_date_outer_right small_date_pad">&#160;</td>
+		<td class="block_n2_and_content">
+	<table class="table_default">
+		<tr>
+			<td class="block_n3_off block_n3_left">
+				<span class="n3_header"><span id="acalog-catalog-name" class="no_display">2026-2027 University Catalog</span>&#160;</span>
+			</td>
+			<td class="block_n3_off block_n3_right float_right">
+										<form name="select_catalog" method="post" action="/index.php">
+											<table class="default_no_width">
+						<tr>
+							<td>
+																	<div id="catalog_select_parent">
+										<label for="select_catalog" class="sr-only" id="catalog_label">Select a Catalog</label>
+										<select name="catalog" aria-labelledby="catalog_label" title="Select a Catalog">														<option value="12" selected>2026-2027 University Catalog</option>
+																												<option value="11" >2025-2026 Undergraduate and Graduate Catalog [ARCHIVED CATALOG]</option>
+																												<option value="10" >2024-2025 Undergraduate and Graduate Catalog [ARCHIVED CATALOG]</option>
+																												<option value="8" >2023-2024 Undergraduate and Graduate Catalog [ARCHIVED CATALOG]</option>
+																												<option value="7" >2022-2023 Undergraduate and Graduate Catalog [ARCHIVED CATALOG]</option>
+																												<option value="6" >2021-2022 Undergraduate and Graduate Catalog [ARCHIVED CATALOG]</option>
+																												<option value="5" >2020-2021 Undergraduate and Graduate Catalog [ARCHIVED CATALOG]</option>
+																												<option value="3" >2019-2020 Undergraduate and Graduate Catalog [ARCHIVED CATALOG]</option>
+																												<option value="2" >2018-2019 Undergraduate and Graduate Catalog [ARCHIVED CATALOG]</option>
+																												<option value="1" >2017-2018 Undergraduate and Graduate Catalog [ARCHIVED CATALOG]</option>
+																								</select>
+									</div>
+							</td>
+							<td>&#160;&#160;
+																		<input type="submit" title="Select a Catalog" name="sel_cat_submit" value="GO">
+																		&#160;
+															</td>
+						</tr>
+					</table>
+				</form>
+			</td>
+		</tr>
+	</table>
+</td>
+<!-- End N3. -->
+		</tr>
+	     <tr>
+			<!-- N2 goes here. -->
+		  	<td class="block_n2" colspan="3" id="acalog-nav">
+  <table class="block_n2_content links_table">
+	<tr>
+		<td role="search" aria-labelledby="n2_search_header" class="block_n2_search
+			">
+		<form name="n2_search" method="get" action="/search_advanced.php" onSubmit="return validateSearchOptions()">
+		<fieldset id="global-search-fieldset">
+			<legend>Global Search</legend>
+		  <input type="hidden" title="Cur Cat OID" name="cur_cat_oid" value="12">
+		  <input type="hidden" title="Search Database" name="search_database" value="Search">
+		  <input type="hidden" title="Search" name="search_db" value="Search">
+		  <input type="hidden" title="cpage" name="cpage" value="1">
+		  <input type="hidden" title="ecpage" name="ecpage" value="1">
+		  <input type="hidden" title="ppage" name="ppage" value="1">
+		  <input type="hidden" title="spage" name="spage" value="1">
+		  <input type="hidden" title="tpage" name="tpage" value="1">
+			<span class="n2_search_header" id="n2_search_header">Catalog Search</span>			<br>
+			<span class="show">
+				<label for="location" class="no_display">Choose Search Location</label>
+				<div id="location_select_parent">
+					
+					<script>
+						function reloadLocations() {
+							var locations_in_use = 0; 
+							var chosen_locations_div = document.getElementById('chosen_locations_div');
+							var category = document.getElementById('location').value;
+							if((category === '1' || category === '3' || category === '33') && (locations_in_use !== 0)){
+								chosen_locations_div.classList.remove("disabled");
+							} else {
+								chosen_locations_div.classList.add("disabled");
+							}
+						};
+					</script>
+
+					<select name="location" id="location" title="Choose Search Location" onChange="reloadLocations();">
+						<option value="-1">Select an option</option>
+														<option value="3" selected>Courses</option>
+																<option value="1" selected>Programs</option>
+																<option value="28" selected>Schools and Departments</option>
+																<option value="30" selected>Other Content</option>
+																<option value="33" selected>Entire Catalog</option>
+													</select>
+				</div>
+				<br>
+			</span>
+
+
+			<span>
+				                <div id="chosen_locations_div" class= >
+					
+                </div>					
+
+			</span>
+			<span class="show">
+				<label for="keyword" class="no_display">Search Keyword Field</label><input type="text" title="Search Keyword Field, required" name="filter[keyword]" value="Enter Keyword  " size="15" maxlength="150" id="keyword" onFocus="if (this.value == 'Enter Keyword  ') { this.value=''; }" class="n2_form_words" aria-required="true" required>
+				<input type="submit" title="GO" value="GO"><br>
+			</span>
+			<span class="show"><br />
+				<input type="checkbox" title="Exact Match" name="filter[exact_match]" value="1" checked="checked" id="exact_match_n2"> 
+				<label for="exact_match_n2" class="n2_search">Whole Word/Phrase</label>
+				<br />
+			</span>
+		  	<span class="n2_search">
+				<a href="/search_advanced.php?catoid=12" class="navbar">
+					Advanced Search				</a>
+			</span>
+			<br>
+		</fieldset>
+	</form>
+		</td>
+	</tr>
+	<tr>
+	  <td>
+		<hr class="navbar">
+	  </td>
+	</tr>
+	<tr>
+	  <td class="nowrap">
+
+		<!-- Begin Responsive -->
+				<div class="mobile-menu-toggle" tabindex=0>Catalog Navigation</div>
+				<!-- End Responsive -->
+		
+		<table class="block_n2_links links_table">
+		  <tr>
+			<td id="acalog-navigation">
+			  <div class="n2_links">&#160;&#160;<a href="/index.php?catoid=12" class="navbar">Catalog Home</a></div>
+				<div class="n2_links">&#160;&#160;<a href="/content.php?catoid=12&navoid=1397" class="navbar">The California State University</a>			</div>
+							<div class="n2_links">&#160;&#160;<a href="/content.php?catoid=12&navoid=1396" class="navbar">Admission to CSULB</a>			</div>
+							<div class="n2_links">&#160;&#160;<a href="/content.php?catoid=12&navoid=1398" class="navbar">Fees and Financial Aid</a>			</div>
+							<div class="n2_links">&#160;&#160;<a href="/content.php?catoid=12&navoid=1400" class="navbar">Academic Information and Regulations</a>			</div>
+							<div class="n2_links">&#160;&#160;<a href="/content.php?catoid=12&navoid=1399" class="navbar">Academic Services and Campus Life</a>			</div>
+							<div class="n2_links">&#160;&#160;<a href="/content.php?catoid=12&navoid=1401" class="navbar">Baccalaureate Degree Information</a>			</div>
+							<div class="n2_links">&#160;&#160;<a href="/content.php?catoid=12&navoid=1402" class="navbar">Graduate Degree Information</a>			</div>
+							<div class="n2_links">&#160;&#160;<a href="/content.php?catoid=12&navoid=1511" class="navbar">Beach EDGE</a>			</div>
+							<div class="n2_links">&#160;&#160;<a href="/content.php?catoid=12&navoid=1406" class="navbar">Colleges and Departments</a>			</div>
+							<div class="n2_links">&#160;&#160;<a href="/content.php?catoid=12&navoid=1405" class="navbar">Courses</a>			</div>
+							<div class="n2_links">&#160;&#160;<a href="/content.php?catoid=12&navoid=1403" class="navbar">General Policies and Regulations</a>			</div>
+						</td>
+		  </tr>
+		</table>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+		<hr class="navbar">
+	  </td>
+	</tr>
+  </table>
+		</td>
+<!-- End of N2 -->
+          <td class="block_content_outer">
+            <table class="table_default">
+              <tr>
+                <td class="block_content" colspan="2">
+                  <table class="table_default">
+                    <tr>
+                      <td>
+                      						<div class="help_block"><a href="help.php?catoid=12" onClick="acalogPopup('help.php?catoid=12', 'help', 770, 530, 'yes');return false;" accesskey="h" target="_blank" class="help acalog-highlight-ignore"><strong>HELP</strong></a></div>
+						<span class="acalog_catalog_name">2026-2027 University Catalog</span> <br>
+					<div style="float: right"><a rel="nofollow" href="/preview_course_nopop.php?catoid=12&amp;coid=109098&amp;print" onclick="acalogPopup('/preview_course_nopop.php?catoid=12&amp;coid=109098&amp;print', 'print_preview', 770, 530, 'yes');return false;" target="_blank"  class="print_link acalog-highlight-ignore" alt="Text Version" title="Print-Friendly Page (opens a new window)" aria-label="Print-Friendly Page (opens a new window)"><span class="sr-only">Print-Friendly Page (opens a new window)</span></a></div><div class='acalog-social-media-links float_right'> </div>                      </td>
+                    </tr>
+                  </table>
+                  <p><h1 id='course_preview_title'>CECS 551 - Advanced Artificial Intelligence</h1><hr>(3 units)<br><br>Prerequisite: Open to Computer Engineering MS, Computer Science MS and Engineering MS students only.<br>Advanced concepts in artificial intelligence. Topics include knowledge acquisition and representation, fuzzy logic, logical reasoning, multi-sensor integration, Dempster-Shafer&#8217;s theory of evidential reasoning, real-time expert systems and neural networks. Master&#8217;s students register in CECS 551 or <a href="preview_course_nopop.php?catoid=12&coid=109121" onclick="acalogPopup('preview_course.php?catoid=12&coid=109121&print', '3', 770, 530, 'yes');return false;" rel="remote /ajax/preview_course.php?catoid=12&coid=109121&display_options[location]=tooltip&show" id="tt4029" target="_blank" aria-label="View course details for CECS 651">CECS 651</a><span style="display: none !important">&#160;</span>; Ph.D. students register in <a href="preview_course_nopop.php?catoid=12&coid=109121" onclick="acalogPopup('preview_course.php?catoid=12&coid=109121&print', '3', 770, 530, 'yes');return false;" rel="remote /ajax/preview_course.php?catoid=12&coid=109121&display_options[location]=tooltip&show" id="tt152" target="_blank" aria-label="View course details for CECS 651">CECS 651</a><span style="display: none !important">&#160;</span>. Additional projects required for <a href="preview_course_nopop.php?catoid=12&coid=109121" onclick="acalogPopup('preview_course.php?catoid=12&coid=109121&print', '3', 770, 530, 'yes');return false;" rel="remote /ajax/preview_course.php?catoid=12&coid=109121&display_options[location]=tooltip&show" id="tt3539" target="_blank" aria-label="View course details for CECS 651">CECS 651</a><span style="display: none !important">&#160;</span>.<br><br>Letter grade only (A-F).  (Lecture-problems 3 hours)      Double Numbered with: CECS 651    <br><br></p>
+				  <br><hr><div style="float: right">&#160;<a href="javascript:void(0);" class="acalog_top_link acalog-highlight-ignore">Back to Top</a> | <a rel="nofollow" href="/preview_course_nopop.php?catoid=12&amp;coid=109098&amp;print" onclick="acalogPopup('/preview_course_nopop.php?catoid=12&amp;coid=109098&amp;print', 'print_preview', 770, 530, 'yes');return false;" target="_blank"  class="print_link acalog-highlight-ignore" alt="Text Version" title="Print-Friendly Page (opens a new window)" aria-label="Print-Friendly Page (opens a new window)"><span class="sr-only">Print-Friendly Page (opens a new window)</span></a></div><div class='acalog-social-media-links float_right'> </div>                  </td>
+              </tr>
+            </table>
+            </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr role="contentinfo" aria-label="Footer with copyright and information links">
+	<td class="block_footer_lb">&#160;&#160;&#160;</td>
+	<td class="block_footer_rb">
+<div class="nobr">All <a href="/misc/catalog_list.php?catoid=12" class="footer" >catalogs</a> &#169; 2026 California State University, Long Beach.</div> <div class="nobr">Powered by <a href="http://www.moderncampus.com" target="_blank" class="footer">Modern Campus Catalog™</a>.</div>
+</td>
+  </tr>
+</table>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.12/js/select2.full.min.js" integrity="sha384-dX8Lmeo3rVl33tMPuGNrcJxh8dqvxqzN4SuirunQiozfAzUJnI9u50cMy12ArXxb" crossorigin="anonymous"></script>

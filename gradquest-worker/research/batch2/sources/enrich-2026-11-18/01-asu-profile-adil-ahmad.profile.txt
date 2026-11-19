@@ -1,0 +1,20 @@
+[display_name]
+Adil Ahmad
+
+[titles]
+Assistant Professor
+
+[primary_department]
+School of Computing and Augmented Intelligence
+
+[research_interests]
+Computer Security, Systems, and Architecture
+
+[expertise_areas]
+Cybersecurity System Architecture Systems Engineering
+
+[short_bio]
+In his research, Ahmad designs systems to secure sensitive computations, such as those related to health care, in diverse important scenarios, including in public clouds and enterprises.
+
+[bio]
+Adil Ahmad is an assistant professor in the School of Computing and Augmented Intelligence (SCAI) at ASU. Before joining ASU in the fall of 2022, Ahmad spent many enjoyable years obtaining his doctorate from Purdue University, where he was fortunate to work with Pedro Fonseca and Byoungyoung Lee. During his doctoral studies, Ahmad also greatly enjoyed interning at Microsoft Research and NEC Laboratories America, Inc., working alongside Sangho Lee, Marcus Peinado, and Chung Hwan Kim.

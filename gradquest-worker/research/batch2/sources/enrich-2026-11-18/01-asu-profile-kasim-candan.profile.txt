@@ -1,0 +1,20 @@
+[display_name]
+K. Selcuk Candan
+
+[titles]
+Affiliated Faculty Professor and Director of CASCADE Senior Global Futures Scientist
+
+[primary_department]
+School of Computing and Augmented Intelligence
+
+[research_interests]
+Research areas: Database/query processing & indexing techniques - algorithms and system-level research on query processing, advanced indexing, and optimization for non-traditional data Multimedia data management & retrieval - storage, indexing, similarity-based search and retrieval for unstructured, multi-modal data Heterogeneous & imprecise (uncertain/fuzzy) data management and analysis - models and query processing for semistructured, fuzzy, and uncertain data Data integration & information fusion - scalable integration and reconciliation of distributed, diverse information sources Scalable data engineering / analytics for complex systems (decision support, ML for systems such as energy, sustainability, healthcare) - applied research toward assurance, scalability, and analysis in CASCADE and related projects.
+
+[expertise_areas]
+
+
+[short_bio]
+Database/query processing, multimedia retrieval, uncertain data modeling, data integration, and scalable analytics for complex systems (energy, sustainability, healthcare, ML, decision support)
+
+[bio]
+K. Selcuk Candan is a President's Professor of Computer Science and Engineering at the Arizona State University and the Director of ASU's Center for Assured and Scalable Data Engineering (CASCADE). He research spans various scalable data management and analysis challenges and he has published over 250 journal and peer-reviewed conference articles, one book, and 16 book chapters. He has 9 patents. Prof. Candan served as an associate editor for the Very Large Databases (VLDB) journal, IEEE Transactions on Multimedia, Journal of Multimedia, IEEE Transactions on Knowledge and Data Engineering, and IEEE Transactions on Cloud Computing. He is currently an Associate Editor for the ACM Transactions on Database Systems, ACM Computing Surveys, Proceedings of the VLDB (PVLDB), and the Proceedings of the ACM on Management of Data (PACMMOD). He also served as a founding Managing editor for ACM PACMMOD journal. He has successfully served as the PI or co-PI of numerous grants, including from the National Science Foundation, Department of Energy, Army Corps of Engineers. Air Force Office of Research, Army Research Office, Mellon Foundation, Johnson Control, and HP Labs. He also served as a Visiting Research Scientist at NEC Laboratories America for over 10 years. He served as a member of the Executive Committee of ACM SIGMOD for 10 years and is a member of the advisory committee for ACM ICMR and is an ACM Distinguished Scientist. You can find more information about his research and an up-to-date resume at https://kscandan.site.

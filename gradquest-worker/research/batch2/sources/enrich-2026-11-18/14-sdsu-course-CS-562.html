@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CS 562 - Automata Theory - </title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="shortcut icon" href="//acalog-clients.s3.amazonaws.com/production/sdsu/img/favicon/favicon.ico" />
+<meta name="description" content="The San Diego State University Curriculum Services unit within Enrollment Services produce the SDSU Curriculum Guide, General Catalog, Graduate Bulletin, and Imperial Valley Bulletin. Curriculum Services also coordinates and facilitates the shared governance processes surrounding new and modified curricular proposals and manages articulation and transfer agreements with partner institutions."><meta name="keywords" content="SDSU General Catalog, SDSU Course Catalog, SDSU Graduate Bulletin, SDSU Courses, SDSU Degrees, SDSU Classes, SDSU Curriculum, SDSU Programs"><link href="//acalog-clients.s3.amazonaws.com/production/sdsu/css/gateway/user-styles.css" rel="stylesheet" type="text/css">
+<link href="css/public_custom.php" rel="stylesheet" type="text/css">
+<link href="global_styles.css?v=01252018" rel="stylesheet" type="text/css">
+		<!-- Cache-busting string (deploy date) added to asset URLS -->
+		<script src="js/jquery.js?v=01252018" type="text/javascript" integrity="sha384-Jw7oPgh1QVMkLkgcwNwaftGwTRyvqNATr31v+ibxI2j+iDl6DBuAetkzsVDzcarO"></script>
+		<script src="js/Tooltip.js?v=01252018" type="text/javascript" integrity="sha384-UMB1Hx/m9CdDRUtWmG6bt7gOgctm6YWwJQ8uukCii62Vh72yo8uQO0LoUIAZWBM2"></script>
+ 		<script src="javascripts.js?v=02232018" type="text/javascript" integrity="sha384-ooicF5pDDd8rcvSonkcaDMatceDtwsF5VHaGB/UPjdx3VFdceJUWM0/iGkda12BS"></script>
+		<script src="js/smlinks.js?v=01252018" type="text/javascript" integrity="sha384-8w7FIGtEuZL0dUz6XQVVDpBI6As5YXPwao6YqF4Jt2cSrgykXvBn8xAxo+vKlpBf"></script>
+			<script src="/js/highlight.js?v=01252018" type="text/javascript" integrity="sha384-/N6E97UUUZqqm9M4Fk0tseDccUbVKSjriIyzH2cxQU/cfGbheI1tQvAfVo4yBbsp"></script>
+<script type='text/javascript'>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-88875153-1', 'auto');
+  ga('send', 'pageview');
+</script><script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-P5224TD');</script><noscript><p><span class="error">Javascript is currently not supported, or is disabled by this browser. Please enable Javascript for full functionality.</span></p></noscript>
+<script type="text/javascript">var gatewayFeatureSearchBar = true; var gatewayFeatureToolbarText = false; var gatewayFeatureBackToTopText = false;</script>
+<link type="text/css" rel="stylesheet" href="//acalog-clients.s3.amazonaws.com/global/css/gateway-styles-reset.css" />
+<link type="text/css" rel="stylesheet" href="//acalog-clients.s3.amazonaws.com/global/css/gateway-styles-nojs.css" id="gateway-styles-nojs" />
+<link type="text/css" rel="stylesheet" href="//acalog-clients.s3.amazonaws.com/production/sdsu/css/gateway/gateway-styles.css?v=3" />
+<script type="text/javascript">document.getElementById("gateway-styles-nojs").parentNode.removeChild(document.getElementById("gateway-styles-nojs"));</script>
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
+<script type="text/javascript" src="//acalog-clients.s3.amazonaws.com/global/js/jquery.browser.js"></script>
+<script type="text/javascript" src="//acalog-clients.s3.amazonaws.com/global/js/gateway-javascript.js"></script>
+<!--[if lte IE 8]><script type="text/javascript" src="//acalog-clients.s3.amazonaws.com/global/js/select-fix.js"></script><![endif]-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha384-1H217gwSVyLSIfaLxHbE7dRb3v4mYCKbpQvzx0cegeju1MVsGrX5xXxAvs/HgeFs" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-migrate-3.4.1.min.js" crossorigin="anonymous"></script>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.12/css/select2.min.css" rel="stylesheet" integrity="sha384-KZO2FRYNmIHerhfYMjCIUaJeGBRXP7CN24SiNSG+wdDzgwvxWbl16wMVtWiJTcMt" crossorigin="anonymous" />
+
+<!-- Begin Responsive -->
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
+<script src="https://kit.fontawesome.com/e35e04f508.js" integrity="sha384-R6VdFS8kVoq95OAh0ovy8RJ/16mag2fYdzr7zVL0mCTflvoedXn1ImqSlT8Es4SM" crossorigin="anonymous"></script>
+<script src="/mobile-js.js" integrity="sha384-8c7xrierIq1kMm5dyQ8AbZgXFUK0RP5zv2b5Wal7ERFl9XL9jGOU14nsrTHaUr2Q"></script>
+<link href="/mobile-styles.css" rel="stylesheet" type="text/css" integrity="sha384-x48QjmWDEbnCCjvlJy7x37BaGkf6QNekrKYReCsO6qL8J6pFkAnxVgcPsjPHGxCu" />
+<!-- End Responsive -->
+
+</head>
+
+<body>
+<!-- Skip to Navigation -->
+<nav id="skip" aria-label="Skip to Main Content">
+	<a href="#course_preview_title" class="skip-nav">Skip to Content</a>
+</nav>
+<table class="toplevel table_default">
+  <tr>
+    <td colspan="2" class="block_n2_and_content" id="acalog-header"><header role="banner"><div id="acalog-client-javascript" class="acalog-custom">
+<script type="text/javascript">
+    jQuery(document).ready( function($) { if ($('#gateway-page').length) {
+
+    $('<nav class="acalog-custom" aria-label="Scroll to Top Link"> <a href="javascript:" class="acalog-custom" id="return-to-top"><span class="fa fa-chevron-up fa-lg">&#65279;<\/span><\/a><\/nav>').appendTo('body');
+
+    $(window).scroll(function() {
+    if ($(this).scrollTop() >= 50) {
+        $('#return-to-top').fadeIn(200);
+    } else {
+        $('#return-to-top').fadeOut(200);
+    }
+    });
+    $('#return-to-top').click(function() {
+    $('body,html').animate({
+        scrollTop : 0
+    }, 500);
+    });
+
+    }});
+</script>
+<script type="text/javascript" src="//acalog-clients.s3.amazonaws.com/production/sdsu/img/gateway/script-block-01.js"></script>
+<script type="text/javascript" src="//acalog-clients.s3.amazonaws.com/production/sdsu/img/gateway/script-block-02.js"></script>
+<script type="text/javascript" src="//acalog-clients.s3.amazonaws.com/production/sdsu/img/gateway/script-block-03.js"></script>
+<script src="https://use.typekit.net/trt2pgj.js" type="text/javascript"></script>
+<script type="text/javascript" src="//acalog-clients.s3.amazonaws.com/production/sdsu/img/gateway/script-block-04.js"></script>
+<script src="//acalog-clients.s3.amazonaws.com/production/sdsu/img/gateway/jquery.min.js" type="text/javascript"></script>
+<script type="text/javascript" src="//acalog-clients.s3.amazonaws.com/production/sdsu/img/gateway/script-block-05.js"></script>
+<script type="text/javascript" src="//acalog-clients.s3.amazonaws.com/production/sdsu/img/gateway/script-block-06.js"></script>
+<script src="//acalog-clients.s3.amazonaws.com/production/sdsu/img/gateway/bootstrap.min.js" type="text/javascript"></script>
+<script src="//acalog-clients.s3.amazonaws.com/production/sdsu/img/gateway/scripts.js" type="text/javascript"></script>
+<script src="//acalog-clients.s3.amazonaws.com/production/sdsu/img/gateway/owl.carousel.min.js" type="text/javascript"></script>
+<script src="//acalog-clients.s3.amazonaws.com/production/sdsu/img/gateway/bootstrap-hover-dropdown.min.js" type="text/javascript"></script>
+<script src="//acalog-clients.s3.amazonaws.com/production/sdsu/img/gateway/jquery.direct-edit.js" type="text/javascript"></script>
+<script src="//acalog-clients.s3.amazonaws.com/production/sdsu/img/gateway/news.js" type="text/javascript"></script>
+<script src="//acalog-clients.s3.amazonaws.com/production/sdsu/img/gateway/bootstrap-sites.js" type="text/javascript"></script>
+<script src="//acalog-clients.s3.amazonaws.com/production/sdsu/img/gateway/local.js" type="text/javascript"></script>
+<script type="text/javascript" src="//acalog-clients.s3.amazonaws.com/production/sdsu/img/gateway/script-block-07.js"></script>
+<script src="//acalog-clients.s3.amazonaws.com/production/sdsu/img/gateway/nested-nav.js" type="text/javascript"></script>
+</div>
+<!-- End Client Javascript -->
+
+<!-- Start Client Header -->
+<div id="acalog-client-header" class="acalog-custom">
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P5224TD" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <header class="siteHeader">
+        <nav class="siteNavigation" id="siteNavigation" aria-label="Primary navigation">
+            <a href="#" class="menuClose visible-sm visible-xs">Close Menu</a>
+            <nav class="navbar-inverse">
+                <div class="container-fluid">
+                    <div class="navbar-collapse" id="navbar-collapse-1">
+                        <ul class="nav navbar-nav">
+                            <li>
+                                <a href="https://admissions.sdsu.edu/" title="Office of Admissions">Future Students</a>
+                            </li>
+                            <li>
+                                <a href="http://newscenter.sdsu.edu/home/currentstudents.aspx">Current Students</a>
+                            </li>
+                            <li>
+                                <a href="https://go.sdsu.edu/campusresources/facstaff-resources.aspx">Faculty/Staff</a>
+                            </li>
+                            <li>
+                                <a href="http://www.sdsualumni.org/">Alumni</a>
+                            </li>
+                            <li>
+                                <a href="https://go.sdsu.edu/student_affairs/sds/" title="Student Ability Success Center">Disability Services</a>
+                            </li>
+                            <li>
+                                <a href="https://directory.sdsu.edu/">Campus Directory</a>
+                            </li>
+                        </ul>
+                        <form class="navbar-form navbar-right" role="search" method="get" action="https://search.sdsu.edu/">
+                            <div class="form-group">
+                                <label for="search"><span class="sr-only">Search</span></label> <input name="query" type="text" class="form-control" placeholder="SEARCH" id="search"> 
+<!--
+    <input name="site" value="curriculum.sdsu.edu" type="hidden" />
+    -->
+                            </div><button type="submit" class="btn btn-search"><span class="fa fa-search"><span class="sr-only">Search</span></span></button>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+<!-- Title & Logo Bar -->
+            <div class="title-bar-container">
+                <div class="logo">
+                    <a href="https://www.sdsu.edu/"><img src="https://ou-resources.sdsu.edu/images/_sdsu/logo-2022/logo.png" alt="San Diego State University" height="60" width="257"></a>
+                </div>
+<!-- <div class="title-bar-right"><a href="https://curriculum.sdsu.edu/">Curriculum Services</a></div> -->
+            </div>
+<!-- End Title Bar -->
+            
+<!-- /.mainNavigation -->
+        </nav><a href="#siteNavigation" class="menuToggle btn btn-default visible-sm visible-xs" role="button">Menu</a> 
+<!-- Title & Logo Bar -->
+        <div class="title-bar-mobile visible-sm visible-xs">
+            <div class="title-bar-left">
+                <div class="logo">
+                    <a href="https://www.sdsu.edu" style="background-size: 100px 25px;background-position: bottom center;">San Diego State University</a>
+                </div>
+            </div>
+            <div class="title-bar-right" style="text-align: center;">
+                <a href="https://curriculum.sdsu.edu/">Curriculum Services</a>
+            </div>
+        </div>
+<!-- End Title Bar -->
+    </header>
+    <div class="content" id="maincontent">
+        <div class="container-fluid">
+            <div class="row">
+                
+<!-- <div class="owl-carousel-slideshow dark"> -->
+                <div>
+                    <div class="item">
+                        <a><img src="//acalog-clients.s3.amazonaws.com/production/sdsu/img/gateway/HOME-banner-01.jpg" alt="San Diego State University home banner 01" class="img-responsive"></a>
+                    </div>
+<!--                         <div class="item">
+                            <a><img src="//acalog-clients.s3.amazonaws.com/production/sdsu/img/gateway/HOME-banner-02.jpg" alt="San Diego State University home banner 01" class="img-responsive"></a>
+ 
+                        </div> -->
+                </div>
+<!-- </div> -->
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End Client Header -->
+
+<!-- Start Client Footer -->
+<div id="acalog-client-footer" class="acalog-custom">
+    <footer>
+        <div class="container">
+            <div class="row footer-top">
+                <div class="col-sm-3 col-md-5 col-lg-6">
+                    <div class="row">
+                        <div class="col-md-5 col-lg-4">
+                            <div class="footer-logo">
+                                <a href="https://www.sdsu.edu"><img src="//acalog-clients.s3.amazonaws.com/production/sdsu/img/gateway/logo-sdsu-catalog-footer-white.png" class="img-responsive" alt="San Diego State University Logo"><noscript><img src="//acalog-clients.s3.amazonaws.com/production/sdsu/img/gateway/logo-sdsu-catalog-footer-white.png" class="img-responsive" alt="San Diego State University Logo"></noscript></a>
+                            </div>
+                        </div>
+                        <div class="col-md-7 col-lg-8">
+                            <p class="footer-address">
+                                Curriculum Services<br>
+                                5500 Campanile Drive<br>
+                                San Diego, CA 92182<br>
+                                Education/ED-151<br>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3 col-md-2 col-lg-2">
+                    <ul class="list-unstyled">
+                        <li>
+                            <a title="Departments and Offices" href="http://arweb.sdsu.edu/es/departmental/">A-Z Index</a>
+                        </li>
+                        <li>
+                            <a href="https://directory.sdsu.edu/">Campus Directory</a>
+                        </li>
+                        <li>
+                            <a href="https://map.concept3d.com/?id=801">Maps</a>
+                        </li>
+                        <li>
+                            <a href="https://bfa.sdsu.edu/campus/parkingtrans/parkinginfo.aspx">Parking</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-sm-3 col-md-2 col-lg-2">
+                    <ul class="list-unstyled">
+                        <li>
+                            <a title="Jobs" href="https://bfa.sdsu.edu/hr/jobs/">Employment</a>
+                        </li>
+                        <li>
+                            <a href="https://stratcomm.sdsu.edu/media-relations">Media Relations</a>
+                        </li>
+                        <li>
+                            <a href="https://securelb.imodules.com/s/997/campaign13/index.aspx?sid=997&amp;gid=1&amp;pgid=3034">Give to SDSU</a>
+                        </li>
+<!--                         <li>
+                            <a href="https://sunspot.sdsu.edu/pls/webapp/web_menu.login/">WebPortal</a>
+                        </li> -->
+                    </ul>
+                </div>
+                <div class="col-sm-3 col-md-3 col-lg-2">
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="https://status.sdsu.edu/">Network Status</a>
+                        </li>
+                        <li>
+                            <a href="https://ou-resources.sdsu.edu/forms/general-contact?utm_source=curriculum&amp;utm_medium=web&amp;utm_campaign=analytics">General Contact</a>
+                        </li>
+                        <li>
+                            <a href="https://admissions.sdsu.edu/contact">Contact Admissions</a>
+                        </li>
+                        <li>
+                            <a href="http://www.sdsualumni.org/s/997/sc/community.aspx?sid=997&amp;gid=46&amp;pgid=4175&amp;cid=10068&amp;post_id=0">Newsletter Sign Up</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid footer-border"></div>
+        <div class="container">
+            <div class="row footer-bottom">
+                <div class="col-sm-7 col-md-6">
+                    <ul class="list-unstyled list-inline">
+                        <li>Copyright&#160;©&#160;2019 San Diego State University
+                        </li>
+                    </ul>
+                    <ul class="list-unstyled list-inline">
+                        <li>
+                            <span class="fa fa-university" aria-hidden="true"><span class="sr-only">Requires SDSUid</span></span> indicates links which require an <a href="https://it.sdsu.edu/sdsuid" title="SDSUid info">SDSUid</a>.
+                        </li>
+                    </ul>
+                    <ul class="list-unstyled list-inline">
+                        <li>
+                            <a href="https://accessibility.sdsu.edu/">Accessibility</a>
+                        </li>
+                        <li>
+                            <a href="https://sdsu.edu/digitalprivacy">SDSU Digital Privacy Statement</a>
+                        </li>
+                        <li>
+                            <a href="https://ou-resources.sdsu.edu/forms/feedback?utm_source=curriculum&amp;utm_medium=web&amp;utm_campaign=analytics">Feedback</a>
+                        </li>
+                    </ul>
+                    <ul class="list-unstyled list-inline">
+                        <li>
+                            <a href="https://ou-resources.sdsu.edu/document-viewers">Document Reader</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+</div>
+<!-- End Client Footer --></header></td>
+  </tr>
+  <tr class="acalog-block-n1" role="navigation" aria-label="Get Print-friendly Page">
+    <td class="block_n1_left">&#160;&#160;&#160;</td>
+    <td class="block_n1_right"><span class="n1_header">San Diego State University</span></td>
+  </tr>
+  <tr role="main">
+	<td class="block_border_left">&#160;&#160;&#160;</td>
+    <td class="block_n2_and_content">
+	<table class="block_n2_and_content table_default">
+   		<tr>
+			<!-- Begin N3 -->
+					<td class="block_date_outer_left small_date_pad">&#160;</td>
+		<td class="block_date_inner medium_date_pad">
+			<span class="date">&#160;
+				Nov 18, 2026			</span>
+		</td>
+		<td class="block_date_outer_right small_date_pad">&#160;</td>
+		<td class="block_n2_and_content">
+	<table class="table_default">
+		<tr>
+			<td class="block_n3_off block_n3_left">
+				<span class="n3_header"><span id="acalog-catalog-name" class="no_display">2026-2027 University Catalog</span>&#160;</span>
+			</td>
+			<td class="block_n3_off block_n3_right float_right">
+										<form name="select_catalog" method="post" action="/index.php">
+											<table class="default_no_width">
+						<tr>
+							<td>
+																	<div id="catalog_select_parent">
+										<label for="select_catalog" class="sr-only" id="catalog_label">Select a Catalog</label>
+										<select name="catalog" aria-labelledby="catalog_label" title="Select a Catalog">														<option value="12" selected>2026-2027 University Catalog</option>
+																												<option value="11" >2025-2026 University Catalog [ARCHIVED CATALOG]</option>
+																												<option value="10" >2024-2025 University Catalog [ARCHIVED CATALOG]</option>
+																												<option value="9" >2023/2024 University Catalog [ARCHIVED CATALOG]</option>
+																												<option value="6" >2022/2023 University Catalog [ARCHIVED CATALOG]</option>
+																												<option value="5" >2021/2022 University Catalog [ARCHIVED CATALOG]</option>
+																												<option value="3" >2020/2021 University Catalog [ARCHIVED CATALOG]</option>
+																												<option value="2" >2019/2020 University Catalog [ARCHIVED CATALOG]</option>
+																								</select>
+									</div>
+							</td>
+							<td>&#160;&#160;
+																		<input type="submit" title="Select a Catalog" name="sel_cat_submit" value="GO">
+																		&#160;
+															</td>
+						</tr>
+					</table>
+				</form>
+			</td>
+		</tr>
+	</table>
+</td>
+<!-- End N3. -->
+		</tr>
+	     <tr>
+			<!-- N2 goes here. -->
+		  	<td class="block_n2" colspan="3" id="acalog-nav">
+  <table class="block_n2_content links_table">
+	<tr>
+		<td role="search" aria-labelledby="n2_search_header" class="block_n2_search
+			">
+		<form name="n2_search" method="get" action="/search_advanced.php" onSubmit="return validateSearchOptions()">
+		<fieldset id="global-search-fieldset">
+			<legend>Global Search</legend>
+		  <input type="hidden" title="Cur Cat OID" name="cur_cat_oid" value="12">
+		  <input type="hidden" title="Search Database" name="search_database" value="Search">
+		  <input type="hidden" title="Search" name="search_db" value="Search">
+		  <input type="hidden" title="cpage" name="cpage" value="1">
+		  <input type="hidden" title="ecpage" name="ecpage" value="1">
+		  <input type="hidden" title="ppage" name="ppage" value="1">
+		  <input type="hidden" title="spage" name="spage" value="1">
+		  <input type="hidden" title="tpage" name="tpage" value="1">
+			<span class="n2_search_header" id="n2_search_header">Catalog Search</span>			<br>
+			<span class="show">
+				<label for="location" class="no_display">Choose Search Location</label>
+				<div id="location_select_parent">
+					
+					<script>
+						function reloadLocations() {
+							var locations_in_use = 0; 
+							var chosen_locations_div = document.getElementById('chosen_locations_div');
+							var category = document.getElementById('location').value;
+							if((category === '1' || category === '3' || category === '33') && (locations_in_use !== 0)){
+								chosen_locations_div.classList.remove("disabled");
+							} else {
+								chosen_locations_div.classList.add("disabled");
+							}
+						};
+					</script>
+
+					<select name="location" id="location" title="Choose Search Location" onChange="reloadLocations();">
+						<option value="-1">Select an option</option>
+														<option value="3" selected>Courses</option>
+																<option value="1" selected>Programs</option>
+																<option value="28" selected>Colleges and Departments</option>
+																<option value="30" selected>Other Content</option>
+																<option value="33" selected>Entire Catalog</option>
+													</select>
+				</div>
+				<br>
+			</span>
+
+
+			<span>
+				                <div id="chosen_locations_div" class= >
+					
+                </div>					
+
+			</span>
+			<span class="show">
+				<label for="keyword" class="no_display">Search Keyword Field</label><input type="text" title="Search Keyword Field, required" name="filter[keyword]" value="Enter Keyword  " size="15" maxlength="150" id="keyword" onFocus="if (this.value == 'Enter Keyword  ') { this.value=''; }" class="n2_form_words" aria-required="true" required>
+				<input type="submit" title="GO" value="GO"><br>
+			</span>
+			<span class="show"><br />
+				<input type="checkbox" title="Exact Match" name="filter[exact_match]" value="1" checked="checked" id="exact_match_n2"> 
+				<label for="exact_match_n2" class="n2_search">Whole Word/Phrase</label>
+				<br />
+			</span>
+		  	<span class="n2_search">
+				<a href="/search_advanced.php?catoid=12" class="navbar">
+					Advanced Search				</a>
+			</span>
+			<br>
+		</fieldset>
+	</form>
+		</td>
+	</tr>
+	<tr>
+	  <td>
+		<hr class="navbar">
+	  </td>
+	</tr>
+	<tr>
+	  <td class="nowrap">
+
+		<!-- Begin Responsive -->
+				<div class="mobile-menu-toggle" tabindex=0>Catalog Navigation</div>
+				<!-- End Responsive -->
+		
+		<table class="block_n2_links links_table">
+		  <tr>
+			<td id="acalog-navigation">
+			  <div class="n2_links">&#160;&#160;<a href="/index.php?catoid=12" class="navbar">Catalog Home</a></div>
+				<div class="n2_links">&#160;&#160;<a href="/content.php?catoid=12&navoid=1156" class="navbar">About SDSU</a>			</div>
+							<div class="n2_links">&#160;&#160;<a href='https://registrar.sdsu.edu/calendars/academic_calendars' class="navbar" target="_blank">Academic Calendars</a>			</div>
+							<div class="n2_links">&#160;&#160;<a href='https://caa.sdsu.edu/curriculum' class="navbar" target="_blank">Curriculum Home</a>			</div>
+			<hr class="navbar">			</div>
+							<div class="n2_links">&#160;&#160;<a href="/content.php?catoid=12&navoid=1145" class="navbar">SDSU Imperial Valley</a>			</div>
+							<div class="n2_links">&#160;&#160;<a href='https://ces.sdsu.edu/' class="navbar" target="_blank">SDSU Global Campus</a>			</div>
+			<hr class="navbar">			</div>
+							<div class="n2_links">&#160;&#160;<a href="/content.php?catoid=12&navoid=1120" class="navbar">Summary of Curricula Offered</a>			</div>
+							<div class="n2_links">&#160;&#160;<a href="/content.php?catoid=12&navoid=1122" class="navbar">Curricula by Department</a>			</div>
+							<div class="n2_links">&#160;&#160;<a href="/content.php?catoid=12&navoid=1184" class="navbar">Roadmaps</a>			</div>
+							<div class="n2_links">&#160;&#160;<a href="/content.php?catoid=12&navoid=1153" class="navbar">Programs by Campus Location</a>			</div>
+							<div class="n2_links">&#160;&#160;<a href="/content.php?catoid=12&navoid=1137" class="navbar">Course Information</a>			</div>
+							<div class="n2_links">&#160;&#160;<a href="/content.php?catoid=12&navoid=1121" class="navbar">Course Descriptions</a>			</div>
+			<hr class="navbar">			</div>
+							<div class="n2_links">&#160;&#160;<a href='/preview_program.php?catoid=12&poid=11884' class="navbar">General Education Requirements</a>			</div>
+							<div class="n2_links">&#160;&#160;<a href="/content.php?catoid=12&navoid=1131" class="navbar">Graduation Requirements for the Bachelor&#8217;s Degree</a>			</div>
+							<div class="n2_links">&#160;&#160;<a href="/content.php?catoid=12&navoid=1148" class="navbar">Requirements for Master&#8217;s Degrees</a>			</div>
+							<div class="n2_links">&#160;&#160;<a href="/content.php?catoid=12&navoid=1149" class="navbar">Requirements for Doctoral Degrees</a>			</div>
+			<hr class="navbar">			</div>
+							<div class="n2_links">&#160;&#160;<a href="/content.php?catoid=12&navoid=1119" class="navbar">Admission and Registration</a>			</div>
+							<div class="n2_links">&#160;&#160;<a href="/content.php?catoid=12&navoid=1126" class="navbar">CSU Tuition and Fees</a>			</div>
+							<div class="n2_links">&#160;&#160;<a href="/content.php?catoid=12&navoid=1166" class="navbar">SDSU Fees and Financial Information</a>			</div>
+							<div class="n2_links">&#160;&#160;<a href="/content.php?catoid=12&navoid=1127" class="navbar">Financial Aid and Scholarships</a>			</div>
+							<div class="n2_links">&#160;&#160;<a href="/content.php?catoid=12&navoid=1129" class="navbar">Special Programs and Services</a>			</div>
+							<div class="n2_links">&#160;&#160;<a href="/content.php?catoid=12&navoid=1130" class="navbar">University Library</a>			</div>
+			<hr class="navbar">			</div>
+							<div class="n2_links">&#160;&#160;<a href="/content.php?catoid=12&navoid=1124" class="navbar">Academic Advising</a>			</div>
+							<div class="n2_links">&#160;&#160;<a href="/content.php?catoid=12&navoid=1147" class="navbar">Divisions</a>			</div>
+							<div class="n2_links">&#160;&#160;<a href="/content.php?catoid=12&navoid=1139" class="navbar">Colleges</a>			</div>
+			<hr class="navbar">			</div>
+							<div class="n2_links">&#160;&#160;<a href="/content.php?catoid=12&navoid=1133" class="navbar">Nondegree Curricula</a>			</div>
+							<div class="n2_links">&#160;&#160;<a href="/content.php?catoid=12&navoid=1134" class="navbar">University Policies</a>			</div>
+							<div class="n2_links">&#160;&#160;<a href="/content.php?catoid=12&navoid=1135" class="navbar">The California State University</a>			</div>
+			<hr class="navbar">			</div>
+							<div class="n2_links">&#160;&#160;<a href="/content.php?catoid=12&navoid=1125" class="navbar">Administration and Organization</a>			</div>
+							<div class="n2_links">&#160;&#160;<a href='https://directory.sdsu.edu/' class="navbar" target="_blank">SDSU Campus Directory</a>			</div>
+			<hr class="navbar">			</div>
+							<div class="n2_links">&#160;&#160;<a href='https://caa.sdsu.edu/curriculum/university-catalog/publications-reports-archive' class="navbar" target="_blank">Publications Archive</a>			</div>
+							<div class="n2_links">&#160;&#160;<a href='https://map.concept3d.com/?id=801#!ct/50935,40419,40418,20161,15205,48503' class="navbar" target="_blank">SDSU Campus Maps</a>			</div>
+							<div class="n2_links">&#160;&#160;<a href="/content.php?catoid=12&navoid=1180" class="navbar">Faculty</a>			</div>
+						</td>
+		  </tr>
+		</table>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+		<hr class="navbar">
+	  </td>
+	</tr>
+  </table>
+		</td>
+<!-- End of N2 -->
+          <td class="block_content_outer">
+            <table class="table_default">
+              <tr>
+                <td class="block_content" colspan="2">
+                  <table class="table_default">
+                    <tr>
+                      <td>
+                      						<div class="help_block"><a href="help.php?catoid=12" onClick="acalogPopup('help.php?catoid=12', 'help', 770, 530, 'yes');return false;" accesskey="h" target="_blank" class="help acalog-highlight-ignore"><strong>HELP</strong></a></div>
+						<span class="acalog_catalog_name">2026-2027 University Catalog</span> <br>
+					<div style="float: right"><a rel="nofollow" href="/preview_course_nopop.php?catoid=12&amp;coid=88961&amp;print" onclick="acalogPopup('/preview_course_nopop.php?catoid=12&amp;coid=88961&amp;print', 'print_preview', 770, 530, 'yes');return false;" target="_blank"  class="print_link acalog-highlight-ignore" alt="Text Version" title="Print-Friendly Page (opens a new window)" aria-label="Print-Friendly Page (opens a new window)"><span class="sr-only">Print-Friendly Page (opens a new window)</span></a></div><div class='acalog-social-media-links float_right'> </div>                      </td>
+                    </tr>
+                  </table>
+                  <p><h1 id='course_preview_title'>CS 562 - Automata Theory   </h1><hr><strong>Units:</strong> <strong>3</strong><br><strong>Grading Method:</strong> LCR: Letter Grade with Cr/NC available. The grading default for the class will be letter grade, but students can opt to take it for Cr/NC<br><br>  <strong>Prerequisite(s):</strong> <a href="preview_course_nopop.php?catoid=12&coid=90048" onclick="acalogPopup('preview_course.php?catoid=12&coid=90048&print', '3', 770, 530, 'yes');return false;" rel="remote /ajax/preview_course.php?catoid=12&coid=90048&display_options[location]=tooltip&show" id="tt7031" target="_blank" aria-label="View course details for MATH 245">MATH 245</a><span style="display: none !important">&#160;</span>.<br><br><strong></strong>Definition of finite automata. Classification of finite automaton definable languages. Minimization of finite automata. Nondeterministic finite automata. Sequential machines with output. Regular sets and expressions. Introduction to grammars.<br><br>   <strong>Maximum Credits:</strong> <p>3</p><br></p>
+				  <br><hr><div style="float: right">&#160;<a href="javascript:void(0);" class="acalog_top_link acalog-highlight-ignore">Back to Top</a> | <a rel="nofollow" href="/preview_course_nopop.php?catoid=12&amp;coid=88961&amp;print" onclick="acalogPopup('/preview_course_nopop.php?catoid=12&amp;coid=88961&amp;print', 'print_preview', 770, 530, 'yes');return false;" target="_blank"  class="print_link acalog-highlight-ignore" alt="Text Version" title="Print-Friendly Page (opens a new window)" aria-label="Print-Friendly Page (opens a new window)"><span class="sr-only">Print-Friendly Page (opens a new window)</span></a></div><div class='acalog-social-media-links float_right'> </div>                  </td>
+              </tr>
+            </table>
+            </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr role="contentinfo" aria-label="Footer with copyright and information links">
+	<td class="block_footer_lb">&#160;&#160;&#160;</td>
+	<td class="block_footer_rb">
+<div class="nobr">All <a href="/misc/catalog_list.php?catoid=12" class="footer" >catalogs</a> &#169; 2026 San Diego State University.</div> <div class="nobr">Powered by <a href="http://www.moderncampus.com" target="_blank" class="footer">Modern Campus Catalog™</a>.</div>
+</td>
+  </tr>
+</table>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.12/js/select2.full.min.js" integrity="sha384-dX8Lmeo3rVl33tMPuGNrcJxh8dqvxqzN4SuirunQiozfAzUJnI9u50cMy12ArXxb" crossorigin="anonymous"></script>

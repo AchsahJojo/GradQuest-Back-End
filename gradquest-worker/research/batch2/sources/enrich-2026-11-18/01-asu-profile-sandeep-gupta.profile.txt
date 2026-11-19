@@ -1,0 +1,20 @@
+[display_name]
+Sandeep Gupta
+
+[titles]
+Professor School Dir (ACD) & Professor Senior Global Futures Scientist
+
+[primary_department]
+School of Computing and Augmented Intelligence
+
+[research_interests]
+
+
+[expertise_areas]
+
+
+[short_bio]
+Gupta's areas of expertise include cyber-physical systems, green and sustainable computing, mobile and pervasive computing, and parallel and distributed computing.
+
+[bio]
+Sandeep Gupta received his doctorate from The Ohio State University in 1995. He is currently a professor and director of the School of Computing and Augmented Intelligence in the Ira A. Fulton Schools of Engineering. His areas of expertise include cyber-physical systems, green and sustainable computing, mobile and pervasive computing, and parallel and distributed computing.
