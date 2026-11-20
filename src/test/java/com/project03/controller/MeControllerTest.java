@@ -12,6 +12,8 @@ import org.springframework.boot.test.mock.mockito.MockBean;
 import org.springframework.test.context.ActiveProfiles;
 import org.springframework.test.web.servlet.MockMvc;
 
+import com.project03.repository.UserRepository;
+import com.project03.service.CurrentUserService;
 import com.project03.service.OAuthUserService;
 
 @ActiveProfiles("test")
@@ -21,6 +23,8 @@ class MeControllerTest {
 
     @Autowired private MockMvc mockMvc;
     @MockBean private OAuthUserService oauthUserService;
+    @MockBean private CurrentUserService currentUserService;
+    @MockBean private UserRepository userRepository;
 
     @Test
     @DisplayName("GET /api/me should be secured or return something")

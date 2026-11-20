@@ -47,6 +47,10 @@ async function main() {
     // Full schema (CREATE IF NOT EXISTS) then additive Track A columns/tables
     await runFile(client, "schema.sql");
     await runFile(client, "migrate_track_a.sql");
+    await runFile(client, "migrate_statement_drafts.sql");
+    // Reminder email columns (deadline_date / notify_at / flags). Required before
+    // boot when ddl-auto cannot add NOT NULL columns onto existing null rows.
+    await runFile(client, "migrate_reminder_emails.sql");
     // Replaces catalog with verified 25 programs + term rows
     await runFile(client, "seed_schools.sql");
     await runFile(client, "seed_program_terms.sql");

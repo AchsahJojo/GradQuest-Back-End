@@ -1,6 +1,17 @@
 # gradquest-worker
 
-Statement drafts for three public program pages. Spring calls this Worker with `X-GradQuest-Proxy-Secret`. The phone never talks to it directly.
+Statement drafts for three public program pages, plus a stubbed transactional email path for deadline reminders. Spring calls this Worker with `X-GradQuest-Proxy-Secret`. The phone never talks to it directly.
+
+## Email (`/internal/email/send`)
+
+Dry-run until Cloudflare Email Sending is onboarded:
+
+1. Put a GradQuest domain on Cloudflare DNS and enable Email Sending.
+2. Uncomment `send_email: [{ name: "EMAIL" }]` in `wrangler.jsonc`.
+3. Set `EMAIL_FROM` (e.g. `noreply@yourdomain`).
+4. Redeploy the Worker.
+
+Spring already posts confirm / due-soon payloads here using the same SOP proxy secret. Without the binding the Worker returns `{ sent: false, stubbed: true, reason: "send_email_binding_not_configured" }`.
 
 ## Test
 

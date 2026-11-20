@@ -48,8 +48,10 @@ public class OAuthSecurityConfig {
         .csrf(csrf -> csrf.disable())
         .authorizeHttpRequests(auth -> auth
             .requestMatchers("/", "/index.html", "/error",
-                "/api/me", "/api/logout",
+                "/api/logout",
                 "/oauth2/final", "/dev/login").permitAll()
+            .requestMatchers(HttpMethod.GET, "/api/me").permitAll()
+            .requestMatchers(HttpMethod.PATCH, "/api/me").authenticated()
             .requestMatchers("/oauth2/**", "/login/**", "/logout").permitAll()
             .requestMatchers(HttpMethod.OPTIONS, "/**").permitAll()
             .anyRequest().authenticated()
