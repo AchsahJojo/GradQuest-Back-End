@@ -75,6 +75,14 @@ public class Reminder {
     @Column(name = "email_cancelled_at")
     private LocalDateTime emailCancelledAt;
 
+    /**
+     * Response-only: true when the user's email cannot receive reminders.
+     * Not persisted.
+     */
+    @Transient
+    @JsonProperty("needsEmail")
+    private Boolean needsEmail;
+
     @Column(name = "created_at", nullable = false, updatable = false)
     private LocalDateTime createdAt;
 
@@ -268,6 +276,14 @@ public class Reminder {
 
     public void setEmailCancelledAt(LocalDateTime emailCancelledAt) {
         this.emailCancelledAt = emailCancelledAt;
+    }
+
+    public Boolean getNeedsEmail() {
+        return needsEmail;
+    }
+
+    public void setNeedsEmail(Boolean needsEmail) {
+        this.needsEmail = needsEmail;
     }
 
     public LocalDateTime getCreatedAt() {

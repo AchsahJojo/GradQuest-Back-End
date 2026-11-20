@@ -8,6 +8,7 @@ import com.project03.repository.ReminderRepository;
 import com.project03.repository.SchoolRepository;
 import com.project03.repository.StudentPreferenceRepository;
 import com.project03.service.CurrentUserService;
+import com.project03.service.EmailDeliverability;
 import com.project03.service.ReminderDeadlineResolution;
 import com.project03.service.ReminderDeadlineResolver;
 import com.project03.service.ReminderEmailService;
@@ -98,6 +99,7 @@ public class ReminderController {
 
             Reminder savedReminder = reminderRepo.save(reminder);
             savedReminder = emailService.onReminderCreated(savedReminder, resolution);
+            savedReminder.setNeedsEmail(!EmailDeliverability.isDeliverable(user.getEmail()));
             return ResponseEntity.ok(savedReminder);
         } catch (Exception e) {
             log.warn("Request failed", e);

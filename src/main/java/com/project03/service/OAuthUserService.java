@@ -121,12 +121,17 @@ public class OAuthUserService {
             // Update existing user
             user = existingUserOpt.get();
 
-            // Update fields if they've changed
+            // Update fields if they've changed — never replace a deliverable Settings
+            // email with a synthetic OAuth noreply fallback.
             if (email != null && !email.isEmpty() && !email.equals(user.getEmail())) {
-                // Check if email is already taken by another user
-                Optional<User> emailUser = userRepository.findByEmail(email);
-                if (emailUser.isEmpty() || emailUser.get().getId().equals(user.getId())) {
-                    user.setEmail(email);
+                boolean keepManual =
+                        EmailDeliverability.isDeliverable(user.getEmail())
+                        && !EmailDeliverability.isDeliverable(email);
+                if (!keepManual) {
+                    Optional<User> emailUser = userRepository.findByEmail(email);
+                    if (emailUser.isEmpty() || emailUser.get().getId().equals(user.getId())) {
+                        user.setEmail(email);
+                    }
                 }
             }
 

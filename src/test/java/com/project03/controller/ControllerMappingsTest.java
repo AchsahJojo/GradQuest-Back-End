@@ -61,6 +61,7 @@ class ControllerMappingsTest {
     @MockBean private OAuthUserService oauthUserService;
     @MockBean private ReminderDeadlineResolver reminderDeadlineResolver;
     @MockBean private ReminderEmailService reminderEmailService;
+    // MeController also needs CurrentUserService + UserRepository (already mocked above)
 
     @Test
     @DisplayName("Controllers are present and have at least one registered handler method")
