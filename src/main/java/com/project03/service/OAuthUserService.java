@@ -121,13 +121,11 @@ public class OAuthUserService {
             // Update existing user
             user = existingUserOpt.get();
 
-            // Update fields if they've changed — never replace a deliverable Settings
-            // email with a synthetic OAuth noreply fallback.
+            // Email: keep a deliverable Settings/DB address (PATCH /api/me). Do not
+            // clobber it with OAuth/dev principal email — even when that principal
+            // address is also deliverable (e.g. tester@dev.local vs a patched inbox).
             if (email != null && !email.isEmpty() && !email.equals(user.getEmail())) {
-                boolean keepManual =
-                        EmailDeliverability.isDeliverable(user.getEmail())
-                        && !EmailDeliverability.isDeliverable(email);
-                if (!keepManual) {
+                if (!EmailDeliverability.isDeliverable(user.getEmail())) {
                     Optional<User> emailUser = userRepository.findByEmail(email);
                     if (emailUser.isEmpty() || emailUser.get().getId().equals(user.getId())) {
                         user.setEmail(email);

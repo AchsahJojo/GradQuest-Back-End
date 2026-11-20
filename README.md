@@ -36,7 +36,14 @@ That route exists only on the `dev` profile. The Expo app shows the button when 
 
 ## Catalog and matching
 
-Catalog SQL is in `db/` (`seed_schools.sql`, `seed_program_terms.sql`, plus the `migrate_track_*.sql` and `migrate_statement_drafts.sql` scripts). `ddl-auto=update` adds columns/tables; the SQL scripts are how the 25 programs are loaded and how additive migrations are applied to Supabase.
+Catalog SQL is in `db/` (`seed_schools.sql`, `seed_program_terms.sql`, plus the `migrate_*.sql` scripts). `ddl-auto=update` can add empty columns/tables, but **apply the SQL migrations on shared Supabase** — especially `migrate_reminder_emails.sql` (Hibernate may fail turning `deadline_is_placeholder` into `NOT NULL` when existing rows are null). From the backend root:
+
+```bash
+npm install --prefix ~/.cache/gradquest-db pg
+NODE_PATH=~/.cache/gradquest-db/node_modules node db/apply.cjs
+```
+
+That runs schema + track/statement/reminder migrations and the catalog seeds (uses `.env` `DB_*`).
 
 `GET /api/schools/top5` ranks with `MatchScoringService` / `MatchWeights` and returns up to 10 programs:
 
@@ -55,7 +62,7 @@ A missing dimension is dropped and the remaining weights are renormalized. Budge
 
 The session cookie identifies the student. Do not pass `userId` or `studentId`. There is no `/api/users` API, and schools cannot be created, updated, or deleted over HTTP.
 
-- `GET /api/me`, `POST /api/logout`
+- `GET /api/me` (includes `emailDeliverable`), `PATCH /api/me` with `{ "email" }` (Settings; rejects noreply), `POST /api/logout`
 - `POST /dev/login` (dev profile only)
 - `GET`, `POST`, `PUT`, `DELETE /api/preferences`
 - `GET /api/schools`, `GET /api/schools/{schoolId}`, `GET /api/schools/top5`, `POST /api/schools/search`
