@@ -44,6 +44,7 @@ describe("email send stub", () => {
       to: "achsah@example.com",
       from: "noreply@gradquest.test",
       subject: "Heads-up",
+      text: "Due soon",
     });
   });
 });

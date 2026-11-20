@@ -4,14 +4,7 @@ Statement drafts for three public program pages, plus a stubbed transactional em
 
 ## Email (`/internal/email/send`)
 
-Dry-run until Cloudflare Email Sending is onboarded:
-
-1. Put a GradQuest domain on Cloudflare DNS and enable Email Sending.
-2. Uncomment `send_email: [{ name: "EMAIL" }]` in `wrangler.jsonc`.
-3. Set `EMAIL_FROM` (e.g. `noreply@yourdomain`).
-4. Redeploy the Worker.
-
-Spring already posts confirm / due-soon payloads here using the same SOP proxy secret. Without the binding the Worker returns `{ sent: false, stubbed: true, reason: "send_email_binding_not_configured" }`.
+Uses Cloudflare Email Sending via the `EMAIL` binding (`send_email` in `wrangler.jsonc`) and `EMAIL_FROM` (`noreply@noreplygradquest.com`). Spring posts confirm / due-soon payloads here with the same SOP proxy secret. Without the binding (local/dev), the Worker returns `{ sent: false, stubbed: true, reason: "send_email_binding_not_configured" }`.
 
 ## Test
 

@@ -24,19 +24,19 @@ export default {
       return Response.json({ error: "Expected JSON" }, { status: 400 });
     }
 
-    // Transactional email (deadline reminders). Stubbed until send_email binding + domain.
+    // Transactional email (deadline reminders). Uses EMAIL binding when configured.
     if (url.pathname === "/internal/email/send") {
       const result = await handleEmailSend(
         payload as EmailSendPayload,
-        // EMAIL / EMAIL_FROM are optional until a Cloudflare sending domain is onboarded.
         env as Env & {
           EMAIL?: {
             send: (message: {
               to: string | string[];
               from: string;
               subject: string;
-              content: Array<{ type: string; value: string }>;
-            }) => Promise<void>;
+              text?: string;
+              html?: string;
+            }) => Promise<{ messageId?: string } | void>;
           };
           EMAIL_FROM?: string;
         },
