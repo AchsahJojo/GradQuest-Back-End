@@ -1,10 +1,9 @@
 /**
  * Outbound transactional email via Cloudflare Email Sending.
  *
- * Binding needed when a GradQuest sending domain exists:
- *   wrangler.jsonc → send_email: [{ name: "EMAIL" }]
- * Until then this path dry-runs and returns stubbed: true so Spring can wire
- * confirm / due-soon / cancel without a real mailbox.
+ * Requires wrangler.jsonc `send_email: [{ name: "EMAIL" }]` and `EMAIL_FROM`.
+ * Without the binding this path dry-runs and returns stubbed: true so Spring can
+ * wire confirm / due-soon / cancel without a real mailbox.
  */
 
 export type EmailSendPayload = {
@@ -24,13 +23,15 @@ export type EmailSendResponse = {
   kind?: string;
 };
 
+/** Cloudflare Email Sending Workers API (structured builder). */
 type EmailBinding = {
   send: (message: {
     to: string | string[];
     from: string;
     subject: string;
-    content: Array<{ type: string; value: string }>;
-  }) => Promise<void>;
+    text?: string;
+    html?: string;
+  }) => Promise<{ messageId?: string } | void>;
 };
 
 export async function handleEmailSend(
@@ -61,7 +62,7 @@ export async function handleEmailSend(
     to,
     from,
     subject,
-    content: [{ type: "text/plain", value: textBody }],
+    text: textBody,
   });
   return { sent: true, stubbed: false, kind };
 }
