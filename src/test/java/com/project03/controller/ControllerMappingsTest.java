@@ -25,6 +25,8 @@ import com.project03.repository.UserRepository;
 import com.project03.service.CurrentUserService;
 import com.project03.service.MatchScoringService;
 import com.project03.service.OAuthUserService;
+import com.project03.service.ReminderDeadlineResolver;
+import com.project03.service.ReminderEmailService;
 
 /**
  * Verifies that selected controllers are registered with Spring MVC
@@ -57,6 +59,8 @@ class ControllerMappingsTest {
     @MockBean private CurrentUserService currentUserService;
     @MockBean private MatchScoringService matchScoringService;
     @MockBean private OAuthUserService oauthUserService;
+    @MockBean private ReminderDeadlineResolver reminderDeadlineResolver;
+    @MockBean private ReminderEmailService reminderEmailService;
 
     @Test
     @DisplayName("Controllers are present and have at least one registered handler method")

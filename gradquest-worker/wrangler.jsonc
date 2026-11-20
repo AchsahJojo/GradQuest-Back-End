@@ -12,6 +12,10 @@
   "secrets": {
     "required": ["SOP_PROXY_SECRET"]
   },
+  // Email Sending (slice E — Achsah): uncomment when a Cloudflare sending domain exists.
+  // "send_email": [{ "name": "EMAIL" }],
+  // Vars: EMAIL_FROM=noreply@yourdomain
+  // Until then /internal/email/send dry-runs with stubbed: true.
   // remote: true keeps Durable Objects local (required) while using account AI/R2/D1/Vectorize/Browser.
   // Do not use `wrangler dev --remote` — DO SQLite is unsupported in that mode.
   "ai": { "binding": "AI", "remote": true },

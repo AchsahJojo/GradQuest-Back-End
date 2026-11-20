@@ -53,7 +53,27 @@ public class Reminder {
 
     // whether reminder has been completed/dismissed
     @Column(name = "is_completed", nullable = false)
-    private Boolean isCompleted; 
+    private Boolean isCompleted;
+
+    /** Application deadline (intl/domestic-aware). Mirrored onto reminder_date for FE compat. */
+    @Column(name = "deadline_date")
+    private LocalDate deadlineDate;
+
+    /** When to send the deadline−14 heads-up; null for placeholder deadlines. */
+    @Column(name = "notify_at")
+    private LocalDate notifyAt;
+
+    @Column(name = "deadline_is_placeholder", nullable = false)
+    private Boolean deadlineIsPlaceholder = false;
+
+    @Column(name = "confirm_email_sent_at")
+    private LocalDateTime confirmEmailSentAt;
+
+    @Column(name = "notify_email_sent_at")
+    private LocalDateTime notifyEmailSentAt;
+
+    @Column(name = "email_cancelled_at")
+    private LocalDateTime emailCancelledAt;
 
     @Column(name = "created_at", nullable = false, updatable = false)
     private LocalDateTime createdAt;
@@ -200,6 +220,54 @@ public class Reminder {
 
     public void setIsCompleted(Boolean isCompleted) {
         this.isCompleted = isCompleted;
+    }
+
+    public LocalDate getDeadlineDate() {
+        return deadlineDate;
+    }
+
+    public void setDeadlineDate(LocalDate deadlineDate) {
+        this.deadlineDate = deadlineDate;
+    }
+
+    public LocalDate getNotifyAt() {
+        return notifyAt;
+    }
+
+    public void setNotifyAt(LocalDate notifyAt) {
+        this.notifyAt = notifyAt;
+    }
+
+    public Boolean getDeadlineIsPlaceholder() {
+        return deadlineIsPlaceholder;
+    }
+
+    public void setDeadlineIsPlaceholder(Boolean deadlineIsPlaceholder) {
+        this.deadlineIsPlaceholder = deadlineIsPlaceholder != null && deadlineIsPlaceholder;
+    }
+
+    public LocalDateTime getConfirmEmailSentAt() {
+        return confirmEmailSentAt;
+    }
+
+    public void setConfirmEmailSentAt(LocalDateTime confirmEmailSentAt) {
+        this.confirmEmailSentAt = confirmEmailSentAt;
+    }
+
+    public LocalDateTime getNotifyEmailSentAt() {
+        return notifyEmailSentAt;
+    }
+
+    public void setNotifyEmailSentAt(LocalDateTime notifyEmailSentAt) {
+        this.notifyEmailSentAt = notifyEmailSentAt;
+    }
+
+    public LocalDateTime getEmailCancelledAt() {
+        return emailCancelledAt;
+    }
+
+    public void setEmailCancelledAt(LocalDateTime emailCancelledAt) {
+        this.emailCancelledAt = emailCancelledAt;
     }
 
     public LocalDateTime getCreatedAt() {

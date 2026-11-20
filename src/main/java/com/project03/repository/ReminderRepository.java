@@ -86,5 +86,17 @@ public interface ReminderRepository extends JpaRepository<Reminder, Long> {
      * Count incomplete reminders for a user
      */
     long countByUserAndIsCompleted(User user, Boolean isCompleted);
+
+    /**
+     * Due −14 notify emails: notify_at reached, not yet sent, not cancelled, real deadline.
+     */
+    @Query("SELECT r FROM Reminder r WHERE r.notifyAt IS NOT NULL AND "
+           + "r.notifyAt <= :today AND "
+           + "r.notifyEmailSentAt IS NULL AND "
+           + "r.emailCancelledAt IS NULL AND "
+           + "(r.deadlineIsPlaceholder = false OR r.deadlineIsPlaceholder IS NULL) AND "
+           + "r.isCompleted = false "
+           + "ORDER BY r.notifyAt ASC")
+    List<Reminder> findDueForNotifyEmail(@Param("today") LocalDate today);
 }
 
