@@ -1,0 +1,15 @@
+HTTP/1.1 200 OK
+Date: Thu, 19 Nov 2026 04:10:37 GMT
+Server: Apache
+X-XSS-Protection: 1; mode=block
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Last-Modified: Wed, 06 Nov 2024 23:10:40 GMT
+ETag: "290f-62646a06094d3-gzip"
+Accept-Ranges: bytes
+Vary: Accept-Encoding
+Content-Encoding: gzip
+X-Content-Type-Options: nosniff
+X-Frame-Options: sameorigin
+Content-Length: 3566
+Content-Type: text/html
+

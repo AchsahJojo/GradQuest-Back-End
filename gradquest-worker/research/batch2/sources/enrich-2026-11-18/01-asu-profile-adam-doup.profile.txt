@@ -1,0 +1,20 @@
+[display_name]
+Adam Doupé
+
+[titles]
+Director Associate Professor
+
+[primary_department]
+School of Computing and Augmented Intelligence
+
+[research_interests]
+Cyber security, cybercrime, binary analysis, fuzzing, web security, automated vulnerability analysis, mobile app security, static analysis, program analysis, hacking competitions, and pentesting.
+
+[expertise_areas]
+
+
+[short_bio]
+Adam Doupé is an Associate Professor in the School of Computing and Augmented Intelligence (SCAI) and is the Director of the Center for Cybersecurity and Trusted Foundations (CTF) at Arizona State University, and he researches cybersecurity.
+
+[bio]
+Adam Doupé is an Associate Professor in the School of Computing and Augmented Intelligence (SCAI) and is the Director of the Center for Cybersecurity and Trusted Foundations (CTF) at Arizona State University. Prior to joining ASU, he received a master's degree (2009) and doctorate (2014) in computer science from University of California in Santa Barbara. His research interests include cybercrime, vulnerability analysis, web security, mobile security, network security, and hacking competitions. He was awarded the Best Teacher Award and Outstanding Assistant Professor Award in the Fulton Schools of Engineering at ASU in 2017, and he received the National Science Foundation (NSF) CAREER award in 2017.

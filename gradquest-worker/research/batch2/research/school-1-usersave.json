@@ -1,0 +1,209 @@
+{
+  "schoolId": 1,
+  "schoolName": "Arizona State University",
+  "programName": "Computer Science, M.S.",
+  "sourceNote": "Saved from user's browser 2026-11-18. This is the same public degree page already used for many school-1 facts; only new or fuller facts are recorded. All verified:false.",
+  "pages": [
+    {
+      "kind": "overview",
+      "url": "https://degrees.asu.edu/masters-phd/major/ASU00/ESCOMSCMS/computer-science-ms",
+      "sourceFile": "sources/catalog-user-saved/school-1-asu-cs-ms-degree-page.html"
+    }
+  ],
+  "contradictions": [],
+  "facts": [
+    {
+      "id": "f57",
+      "kind": "overview",
+      "name": "Plan code ESCOMSCMS",
+      "detail": "The ASU Computer Science M.S. degree page lists plan code ESCOMSCMS.",
+      "sourceUrl": "https://degrees.asu.edu/masters-phd/major/ASU00/ESCOMSCMS/computer-science-ms",
+      "quote": "Plan code: ESCOMSCMS",
+      "quoteCheck": "manual",
+      "evidence": "user browser save 2026-11-18",
+      "verified": true,
+      "sourceFile": "sources/catalog-user-saved/school-1-asu-cs-ms-degree-page.html",
+      "retrievedAt": "2026-11-18",
+      "verifiedBy": "user 2026-11-18"
+    },
+    {
+      "id": "f58",
+      "kind": "overview",
+      "name": "Higher Learning Commission accreditation",
+      "detail": "The degree page states that the program is accredited by the Higher Learning Commission, and that all ASU graduate and undergraduate academic programs are fully accredited by the Higher Learning Commission.",
+      "sourceUrl": "https://degrees.asu.edu/masters-phd/major/ASU00/ESCOMSCMS/computer-science-ms",
+      "quote": "Accredited by the Higher Learning Commission.",
+      "quoteCheck": "manual",
+      "evidence": "user browser save 2026-11-18",
+      "verified": true,
+      "sourceFile": "sources/catalog-user-saved/school-1-asu-cs-ms-degree-page.html",
+      "retrievedAt": "2026-11-18",
+      "verifiedBy": "user 2026-11-18"
+    },
+    {
+      "id": "f59",
+      "kind": "overview",
+      "name": "Advanced topic areas (full list, first half)",
+      "detail": "The degree page's advanced-topic list, only partly captured in existing fact f6, includes AI, machine learning and statistical modeling; big data and data mining; computational biology; computer design, architecture and compilers; and computer security, cybersecurity and cryptography. A companion fact (f60) records the rest of the same list. This is a fuller rendering of the same page, not a change to f6.",
+      "sourceUrl": "https://degrees.asu.edu/masters-phd/major/ASU00/ESCOMSCMS/computer-science-ms",
+      "quote": "AI, machine learning and statistical modeling big data and data mining computational biology computer design, architecture and compilers computer security, cybersecurity and cryptography",
+      "quoteCheck": "manual",
+      "evidence": "user browser save 2026-11-18",
+      "verified": true,
+      "sourceFile": "sources/catalog-user-saved/school-1-asu-cs-ms-degree-page.html",
+      "retrievedAt": "2026-11-18",
+      "alsoMatchesExistingIds": [
+        "f6"
+      ],
+      "verifiedBy": "user 2026-11-18"
+    },
+    {
+      "id": "f60",
+      "kind": "overview",
+      "name": "Advanced topic areas (full list, second half)",
+      "detail": "The rest of the same advanced-topic list is: computer systems, including networking and operating systems; cyber-physical systems, Internet of Things and robotics; distributed computing and consensus protocols; novel computing paradigms, including biocomputing and quantum computation; theory, algorithms and optimization; and visualization and graphics.",
+      "sourceUrl": "https://degrees.asu.edu/masters-phd/major/ASU00/ESCOMSCMS/computer-science-ms",
+      "quote": "computer systems, including networking and operating systems cyber-physical systems, Internet of Things and robotics distributed computing and consensus protocols novel computing paradigms, including biocomputing and quantum computation theory, algorithms and optimization visualization and graphics",
+      "quoteCheck": "manual",
+      "evidence": "user browser save 2026-11-18",
+      "verified": true,
+      "sourceFile": "sources/catalog-user-saved/school-1-asu-cs-ms-degree-page.html",
+      "retrievedAt": "2026-11-18",
+      "alsoMatchesExistingIds": [
+        "f6"
+      ],
+      "verifiedBy": "user 2026-11-18"
+    },
+    {
+      "id": "f61",
+      "kind": "requirement",
+      "name": "Core courses may not also count as electives",
+      "detail": "Courses selected as part of the core (applications, foundations, or systems) may not be used as other elective coursework on the same plan of study. Students should see the academic unit for the list of courses approved for each core area.",
+      "sourceUrl": "https://degrees.asu.edu/masters-phd/major/ASU00/ESCOMSCMS/computer-science-ms",
+      "quote": "Courses selected as part of the core may not be used as other elective coursework on the same plan of study.",
+      "quoteCheck": "manual",
+      "evidence": "user browser save 2026-11-18",
+      "verified": true,
+      "sourceFile": "sources/catalog-user-saved/school-1-asu-cs-ms-degree-page.html",
+      "retrievedAt": "2026-11-18",
+      "verifiedBy": "user 2026-11-18"
+    },
+    {
+      "id": "f62",
+      "kind": "requirement",
+      "name": "Thesis electives must be in a chosen research area",
+      "detail": "For the thesis option, electives must be courses in a chosen research area and approved by the student's academic advisor.",
+      "sourceUrl": "https://degrees.asu.edu/masters-phd/major/ASU00/ESCOMSCMS/computer-science-ms",
+      "quote": "Electives must be courses in a chosen research area and approved by the student's academic advisor.",
+      "quoteCheck": "manual",
+      "evidence": "user browser save 2026-11-18",
+      "verified": true,
+      "sourceFile": "sources/catalog-user-saved/school-1-asu-cs-ms-degree-page.html",
+      "retrievedAt": "2026-11-18",
+      "verifiedBy": "user 2026-11-18"
+    },
+    {
+      "id": "e13",
+      "kind": "course",
+      "name": "CSE 590 Reading and Conference",
+      "detail": "Up to six credit hours can be independent study in CSE 590 Reading and Conference.",
+      "sourceUrl": "https://degrees.asu.edu/masters-phd/major/ASU00/ESCOMSCMS/computer-science-ms",
+      "quote": "Up to six credit hours can be independent study in CSE 590 Reading and Conference.",
+      "quoteCheck": "manual",
+      "evidence": "user browser save 2026-11-18",
+      "verified": true,
+      "sourceFile": "sources/catalog-user-saved/school-1-asu-cs-ms-degree-page.html",
+      "retrievedAt": "2026-11-18",
+      "verifiedBy": "user 2026-11-18"
+    },
+    {
+      "id": "e14",
+      "kind": "requirement",
+      "name": "Primary admission factors",
+      "detail": "The degree page says the applicant's undergraduate GPA and depth of preparation in computer science and engineering are the primary factors affecting admission.",
+      "sourceUrl": "https://degrees.asu.edu/masters-phd/major/ASU00/ESCOMSCMS/computer-science-ms",
+      "quote": "The applicant's undergraduate GPA and depth of preparation in computer science and engineering are the primary factors affecting admission.",
+      "quoteCheck": "manual",
+      "evidence": "user browser save 2026-11-18",
+      "verified": true,
+      "sourceFile": "sources/catalog-user-saved/school-1-asu-cs-ms-degree-page.html",
+      "retrievedAt": "2026-11-18",
+      "verifiedBy": "user 2026-11-18"
+    },
+    {
+      "id": "e15",
+      "kind": "requirement",
+      "name": "English proficiency regardless of residency",
+      "detail": "An applicant whose native language is not English must provide proof of English proficiency regardless of their current residency.",
+      "sourceUrl": "https://degrees.asu.edu/masters-phd/major/ASU00/ESCOMSCMS/computer-science-ms",
+      "quote": "An applicant whose native language is not English must provide proof of English proficiency regardless of their current residency.",
+      "quoteCheck": "manual",
+      "evidence": "user browser save 2026-11-18",
+      "verified": true,
+      "sourceFile": "sources/catalog-user-saved/school-1-asu-cs-ms-degree-page.html",
+      "retrievedAt": "2026-11-18",
+      "verifiedBy": "user 2026-11-18"
+    },
+    {
+      "id": "e16",
+      "kind": "overview",
+      "name": "Accelerated bachelor's plus master's partner programs",
+      "detail": "The Computer Science M.S. is offered as an accelerated bachelor's plus master's degree, described as obtainable in as little as five years, with these undergraduate partner programs named on the page: Computer Science, BS; Computer Science (Artificial Intelligence), BS; Computer Science (Cybersecurity), BS; Computer Science (Software Engineering), BS; Computer Systems Engineering, BSE; Computer Systems Engineering (Cybersecurity), BSE; and Software Engineering, BS. Approval to pursue the accelerated master's is typically granted during the junior year of the bachelor's program.",
+      "sourceUrl": "https://degrees.asu.edu/masters-phd/major/ASU00/ESCOMSCMS/computer-science-ms",
+      "quote": "This program is offered as an accelerated bachelor's plus master's degree with: Computer Science, BS",
+      "quoteCheck": "manual",
+      "evidence": "user browser save 2026-11-18",
+      "verified": true,
+      "sourceFile": "sources/catalog-user-saved/school-1-asu-cs-ms-degree-page.html",
+      "retrievedAt": "2026-11-18",
+      "verifiedBy": "user 2026-11-18"
+    },
+    {
+      "id": "e17",
+      "kind": "requirement",
+      "name": "Accelerated master's approval in the junior year",
+      "detail": "Approval to pursue the accelerated master's is typically granted during the junior year of the bachelor's degree program.",
+      "sourceUrl": "https://degrees.asu.edu/masters-phd/major/ASU00/ESCOMSCMS/computer-science-ms",
+      "quote": "Approval to pursue the accelerated master's is typically granted during the junior year of your bachelor's degree program.",
+      "quoteCheck": "manual",
+      "evidence": "user browser save 2026-11-18",
+      "verified": true,
+      "sourceFile": "sources/catalog-user-saved/school-1-asu-cs-ms-degree-page.html",
+      "retrievedAt": "2026-11-18",
+      "verifiedBy": "user 2026-11-18"
+    },
+    {
+      "id": "e18",
+      "kind": "overview",
+      "name": "Career examples",
+      "detail": "The degree page says graduates are prepared to pursue careers in research and education, including academia, government and industry. Career examples listed are computer network architect; computer system analyst; computer systems engineer; data scientist or engineer; machine learning, AI or computer vision engineer; software developer; and software engineer.",
+      "sourceUrl": "https://degrees.asu.edu/masters-phd/major/ASU00/ESCOMSCMS/computer-science-ms",
+      "quote": "Career examples include: computer network architect computer system analyst computer systems engineer data scientist or engineer machine learning, AI or computer vision engineer software developer software engineer",
+      "quoteCheck": "manual",
+      "evidence": "user browser save 2026-11-18",
+      "verified": true,
+      "sourceFile": "sources/catalog-user-saved/school-1-asu-cs-ms-degree-page.html",
+      "retrievedAt": "2026-11-18",
+      "verifiedBy": "user 2026-11-18"
+    },
+    {
+      "id": "e19",
+      "kind": "overview",
+      "name": "STEM-OPT is a 24-month extension of 12-month OPT, not for ASU Online",
+      "detail": "The degree page's STEM-OPT explanation says F-1 students who earn an approved STEM degree may be eligible for a 24-month extension of the standard 12-month Optional Practical Training period, usable twice in a lifetime. It also says the STEM-OPT extension is only available to students on an F-1 visa and is not available to students completing a degree through ASU Online. This adds detail to existing facts f7 and f8 from the same page.",
+      "sourceUrl": "https://degrees.asu.edu/masters-phd/major/ASU00/ESCOMSCMS/computer-science-ms",
+      "quote": "The STEM-OPT extension is only available to students on an F-1 visa and is not available to students completing a degree through ASU Online.",
+      "quoteCheck": "manual",
+      "evidence": "user browser save 2026-11-18",
+      "verified": true,
+      "sourceFile": "sources/catalog-user-saved/school-1-asu-cs-ms-degree-page.html",
+      "retrievedAt": "2026-11-18",
+      "alsoMatchesExistingIds": [
+        "f7",
+        "f8"
+      ],
+      "verifiedBy": "user 2026-11-18"
+    }
+  ],
+  "verificationStatus": "verified by Achsah Jojo (manual review) 2026-11-18"
+}

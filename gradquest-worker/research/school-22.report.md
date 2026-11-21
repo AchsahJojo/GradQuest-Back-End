@@ -1,5 +1,5 @@
 # UC San Diego — Computer Science and Engineering, M.S.
-Snapshot: 22-20261109
+Snapshot: 22-20261119
 
 ## Failed quotes
 None.

@@ -1,0 +1,16 @@
+HTTP/1.1 200 OK
+Date: Thu, 19 Nov 2026 04:15:01 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Content-Security-Policy: frame-ancestors 'self';
+Link: <https://today.csuchico.edu/wp-json/>; rel="https://api.w.org/", <https://today.csuchico.edu/wp-json/wp/v2/posts/24774>; rel="alternate"; title="JSON"; type="application/json", <https://today.csuchico.edu/?p=24774>; rel=shortlink
+Vary: accept,content-type
+Content-Security-Policy: upgrade-insecure-requests
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-Xss-Protection: 1; mode=block
+X-Frame-Options: SAMEORIGIN
+X-Content-Type-Options: nosniff
+Referrer-Policy: strict-origin-when-cross-origin
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+

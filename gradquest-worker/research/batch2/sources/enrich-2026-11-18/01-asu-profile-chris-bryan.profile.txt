@@ -1,0 +1,20 @@
+[display_name]
+Christopher Bryan
+
+[titles]
+Assistant Professor
+
+[primary_department]
+School of Computing and Augmented Intelligence
+
+[research_interests]
+Data Visualization Human-Computer Interaction Data Storytelling Explainable Machine Learning and Artificial Intelligence Virtual Reality
+
+[expertise_areas]
+Data Science Data Visualization Human Computer Interactions
+
+[short_bio]
+Among Bryan's research Interests include information visualization; visual analytics; virtual reality; data storytelling; data analysis; perception and cognition.
+
+[bio]
+Chris Bryan is an assistant professor at Arizona State University in the School of Computing and Augmented Intelligence (SCAI), joining fall 2018. He received his doctorate from the Department of Computer Science at the University of California, Davis under the direction of Dr. Kwan-Liu Ma. Bryan's primary research is in the areas of information visualization and human-computer interaction.

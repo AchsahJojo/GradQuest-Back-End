@@ -1,0 +1,19 @@
+HTTP/1.1 200 OK
+Date: Thu, 19 Nov 2026 04:17:06 GMT
+Content-Type: text/html; charset=UTF-8
+Content-Length: 12461
+Connection: keep-alive
+Set-Cookie: AWSALB=dfczZuGlhv3isdurDVCZU2mrFnaAMN07oKPBZOBHYO1Qo9a+i5chP3+N5PImM4AqK8/KxAiZvv/rf8kKJq4dXgW4UdG9nKkBTgSJDGNWJgLzHDWJgGyprzKup/BC; Expires=Thu, 26 Nov 2026 04:17:05 GMT; Path=/; secure
+Set-Cookie: AWSALBCORS=dfczZuGlhv3isdurDVCZU2mrFnaAMN07oKPBZOBHYO1Qo9a+i5chP3+N5PImM4AqK8/KxAiZvv/rf8kKJq4dXgW4UdG9nKkBTgSJDGNWJgLzHDWJgGyprzKup/BC; Expires=Thu, 26 Nov 2026 04:17:05 GMT; Path=/; secure; SameSite=None
+Content-Security-Policy: default-src 'self' https: data: blob:; script-src 'self' https: 'unsafe-inline' 'unsafe-eval'; style-src 'self' https: 'unsafe-inline'; img-src 'self' https: data:; font-src 'self' https: data:; object-src 'none'; base-uri 'self'; frame-ancestors 'self';
+Set-Cookie: acalog_theme=1; expires=Wed, 22-Mar-3026 04:18:05 GMT; Max-Age=31536000060; path=/; secure; HttpOnly
+X-Cache-Hit: 1
+Last-Modified: Thu, 19 Nov 2026 03:26:01 GMT
+Set-Cookie: ADRUM_BT=R%3A0%7Cg%3A6cb574f3-ed55-4d83-bc50-3fad917408917597%7Cn%3Adigarc_881d5e4b-64f1-425e-8ceb-5e44d2b69b37%7Cd%3A522; expires=Thu, 19-Nov-2026 04:17:36 GMT; Max-Age=30; path=/; secure
+Vary: Accept-Encoding
+Content-Encoding: gzip
+X-Frame-Options: SAMEORIGIN
+X-Content-Type-Options: nosniff
+Server: director
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+

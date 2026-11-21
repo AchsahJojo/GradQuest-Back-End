@@ -1,0 +1,20 @@
+[display_name]
+Pooyan Fazli
+
+[titles]
+Asst Professor Assistant Professor, ASU Media and Immersive eXperience (MIX) Center
+
+[primary_department]
+The GAME School
+
+[research_interests]
+Artificial Intelligence, Robot Learning, Vision and Language, Multimodal Learning, Video Understanding
+
+[expertise_areas]
+
+
+[short_bio]
+Pooyan Fazli is the director of the People and Robots Laboratory (PeRL). His research focuses on artificial intelligence, robot learning, vision and language, multimodal learning, and video understanding.
+
+[bio]
+Pooyan Fazli is an assistant professor and the director of the People and Robots Laboratory (PeRL) in The GAME School and the Media and Immersive eXperience (MIX) Center at Arizona State University. He received his Ph.D. in computer science from the University of British Columbia. Previously, he was a postdoctoral fellow at Carnegie Mellon University and the University of British Columbia. His research focuses on artificial intelligence, robot learning, vision and language, multimodal learning, and video understanding.

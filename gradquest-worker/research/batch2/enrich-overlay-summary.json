@@ -1,0 +1,106 @@
+[
+  {
+    "schoolId": 1,
+    "replaced": 14,
+    "added": 12,
+    "usersave": 13,
+    "removedDups": 0,
+    "rejected": [],
+    "totalResearch": 81,
+    "totalChecked": 81,
+    "verifiedTrue": 80
+  },
+  {
+    "schoolId": 2,
+    "replaced": 34,
+    "added": 0,
+    "usersave": 0,
+    "removedDups": 8,
+    "rejected": [],
+    "totalResearch": 91,
+    "totalChecked": 91,
+    "verifiedTrue": 87
+  },
+  {
+    "schoolId": 4,
+    "replaced": 18,
+    "added": 23,
+    "usersave": 0,
+    "removedDups": 0,
+    "rejected": [],
+    "totalResearch": 70,
+    "totalChecked": 70,
+    "verifiedTrue": 69
+  },
+  {
+    "schoolId": 5,
+    "replaced": 8,
+    "added": 18,
+    "usersave": 0,
+    "removedDups": 0,
+    "rejected": [],
+    "totalResearch": 62,
+    "totalChecked": 62,
+    "verifiedTrue": 61
+  },
+  {
+    "schoolId": 8,
+    "replaced": 40,
+    "added": 0,
+    "usersave": 0,
+    "removedDups": 0,
+    "rejected": [],
+    "totalResearch": 100,
+    "totalChecked": 100,
+    "verifiedTrue": 100
+  },
+  {
+    "schoolId": 9,
+    "replaced": 35,
+    "added": 0,
+    "usersave": 0,
+    "removedDups": 1,
+    "rejected": [],
+    "totalResearch": 97,
+    "totalChecked": 97,
+    "verifiedTrue": 92
+  },
+  {
+    "schoolId": 13,
+    "replaced": 53,
+    "added": 0,
+    "usersave": 0,
+    "removedDups": 6,
+    "rejected": [],
+    "totalResearch": 117,
+    "totalChecked": 117,
+    "verifiedTrue": 112
+  },
+  {
+    "schoolId": 14,
+    "replaced": 72,
+    "added": 0,
+    "usersave": 0,
+    "removedDups": 17,
+    "rejected": [],
+    "totalResearch": 95,
+    "totalChecked": 95,
+    "verifiedTrue": 94
+  },
+  {
+    "schoolId": 23,
+    "replaced": 13,
+    "added": 2,
+    "usersave": 58,
+    "removedDups": 9,
+    "rejected": [
+      "f7",
+      "f10",
+      "f16",
+      "f22"
+    ],
+    "totalResearch": 113,
+    "totalChecked": 113,
+    "verifiedTrue": 109
+  }
+]

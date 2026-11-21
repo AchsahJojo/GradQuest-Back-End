@@ -1,0 +1,31 @@
+HTTP/2 200 
+date: Thu, 19 Nov 2026 04:09:20 GMT
+content-type: application/json
+content-length: 1990
+cf-ray: a5cc5bdb8d482720-IAD
+cf-cache-status: MISS
+accept-ranges: bytes
+age: 0
+cache-control: max-age=86400, public
+content-encoding: gzip
+content-language: en
+etag: "1795061360-gzip"
+expires: Sun, 19 Nov 1978 05:00:00 GMT
+last-modified: Thu, 19 Nov 2026 04:09:20 GMT
+server: cloudflare
+strict-transport-security: max-age=31536000
+vary: Cookie,Origin,Accept-Encoding
+via: varnish
+access-control-allow-headers: Authorization
+access-control-allow-methods: GET
+expect-ct: max-age=86400
+x-ah-environment: prod
+x-cache: MISS
+x-content-type-options: nosniff
+x-drupal-cache: MISS
+x-drupal-dynamic-cache: MISS
+x-frame-options: SAMEORIGIN
+x-generator: Drupal 10 (https://www.drupal.org)
+x-request-id: v-feb686f0-e3ce-11f1-823a-47f71510a078
+x-xss-protection: 1; mode=block
+

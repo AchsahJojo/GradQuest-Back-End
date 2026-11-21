@@ -115,15 +115,27 @@ async function loadSnapshot(input: {
     SELECT snapshot_json FROM snapshot_reads WHERE school_id = ${input.schoolId}
   `;
   const stored = parseSnapshot(cached[0]?.snapshot_json);
-  if (stored) return stored;
-  if (!input.db) return null;
+  if (!input.db) return stored;
+
   const latest = await new D1FactStore(input.db).latest(input.schoolId);
-  if (!latest) return null;
+  if (!latest) return stored;
+
+  if (stored && snapshotMatchesLatest(stored, latest)) return stored;
+
   const snapshotJson = JSON.stringify(latest);
   input.sql`
     INSERT OR REPLACE INTO snapshot_reads (school_id, snapshot_json) VALUES (${input.schoolId}, ${snapshotJson})
   `;
+  if (stored) {
+    input.sql`
+      DELETE FROM overlap_reads WHERE school_id = ${input.schoolId}
+    `;
+  }
   return latest;
+}
+
+function snapshotMatchesLatest(cached: Snapshot, latest: Snapshot): boolean {
+  return cached.snapshotId === latest.snapshotId || cached.verifiedAt === latest.verifiedAt;
 }
 
 export function storedMatchingError(reportJson: string | null | undefined): string | null {

@@ -1,0 +1,20 @@
+[display_name]
+Ajay Bansal
+
+[titles]
+Assistant Professor
+
+[primary_department]
+School of Computing and Augmented Intelligence
+
+[research_interests]
+Dr. Ajay Bansal's research focuses on semantics and implementation of declarative programming languages, specifically in the areas of Logic Programming and Answer Set Programming, Knowledge Representation and Reasoning, Common Sense Reasoning, Machine learning, and Question Answering Systems. His work on Coinductive Logic Programming won the 10-Year Test of Time Award at Intl. Conference on Logic Programming (ICLP) in 2016 and the 20-Year Test of Time award in 2026. He is also active in Computing Education research specializing in Individualized Learning and Game-based learning. He has over 80 peer-reviewed publications including conference papers, book chapters, and journal articles.
+
+[expertise_areas]
+Computer Science Decision Making Education Logic Machine Learning Problem Solving with Data Semantics
+
+[short_bio]
+
+
+[bio]
+Dr. Ajay Bansal is a Teaching Professor and Associate Program Chair of Software Engineering program in the School of Computing and Augmented Intelligence. He has extensive teaching experience at both the undergraduate and graduate levels and has been recognized with the Fulton Teaching Excellence Award-presented to one faculty member among over 500 in the Fulton Schools of Engineering-twice (in 2022 and 2019). He has also received the Best Teacher Award (Top 5%) six times. He was also nominated for the Provost Teaching Award in 2025. His research focuses on semantics and implementation of declarative programming languages, specifically in the areas of Logic Programming and Answer Set Programming, Knowledge Representation and Reasoning, Common Sense Reasoning, Machine learning, and Question Answering Systems. His work on Coinductive Logic Programming won the 10-Year Test of Time Award at Intl. Conference on Logic Programming (ICLP) in 2016 and the 20-Year Test of Time award in 2026. He is also active in Computing Education research specializing in Individualized Learning and Game-based learning. He has over 80 peer-reviewed publications including conference papers, book chapters, and journal articles. He received a B.Tech in Computer Science and Engineering from National Institute of Technology - Warangal, MS in Computer Science from Texas Tech University, and a PhD in Computer Science from the University of Texas at Dallas. He joined ASU in 2011 and prior to that he was a visiting assistant professor at Georgetown University in Washington, D.C. He worked in the industry for four years as a software engineer at SIEMENS India, Metallect Corp. and Tyler Technologies in Plano, TX.

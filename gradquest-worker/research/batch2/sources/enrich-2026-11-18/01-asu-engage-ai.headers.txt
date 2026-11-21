@@ -1,0 +1,10 @@
+HTTP/2 200 
+x-powered-by: PHP/8.5.12
+link: <https://engage.poweredby.asu.edu/wp-json/>; rel="https://api.w.org/", <https://engage.poweredby.asu.edu/wp-json/wp/v2/pages/3584>; rel="alternate"; title="JSON"; type="application/json", <https://engage.poweredby.asu.edu/?p=3584>; rel=shortlink
+vary: Accept-Encoding
+content-encoding: gzip
+content-length: 25473
+content-type: text/html; charset=UTF-8
+date: Thu, 19 Nov 2026 04:14:20 GMT
+server: Apache
+

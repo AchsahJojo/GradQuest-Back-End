@@ -72,20 +72,74 @@
       "url": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12546"
     }
   ],
-  "snapshotId": "13-20261114",
-  "verifiedAt": "2026-11-14T07:29:48.542Z",
+  "snapshotId": "13-20261118",
+  "verifiedAt": "2026-11-18T20:00:00.000Z",
   "pageHashes": {
     "https://electrical.sdsu.edu/programs/graduate/ms-computer-engineering": "ae22b18627477a4ed4b84020a5d8891b21b923bc3943c5851f0c167930274c22",
     "https://electrical.sdsu.edu/programs/graduate": "3a6358d2f66053f9e10f9cfeaee4742eecf9eb9a5f996a7e6a841dd961428f93",
     "https://electrical.sdsu.edu/programs/graduate/admission": "54a004f86ed0cfedbd2e5086a6ce8f34ef269bc544471ab851b7ec012f4fc94d",
     "https://admissions.sdsu.edu/grad-programs/masters": "322400da3410b3cd20c86cd8031809efe5783d244742bf28cdb792b96813916c",
+    "https://electrical.sdsu.edu/_resources/files/guidelineforcourses-ece-5-11-26.pdf": "32ceea69283b308e13332def7c8c04a25891117f676e5eb4ec00e419e52ba997",
     "https://electrical.sdsu.edu/people/faculty": "361028382bf183cd4921c68908f521a2384060ff960589b18fad240aba284659",
     "https://electrical.sdsu.edu/people/amir-alimohammad": "c9836d076c618d7721aeb919c710512e02d78db49594f3ff9389989692460864",
     "https://electrical.sdsu.edu/people/ashkan-ashrafi": "b35fa2d61aab7eea2ecdcd7b9a73edcb2c16df80723bc6b131b0c9b585dd43f3",
     "https://electrical.sdsu.edu/people/a-ege-engin": "e10a7a803c9d2126a87a64a956c24befd7d71a95e94db7eb61aff4e458e9e6bd",
     "https://electrical.sdsu.edu/people/ke-huang": "97beb288a0485d3d9533680b20e430d3c43f0d7738f8f03e468ce8a8995e9600",
     "https://electrical.sdsu.edu/people/chris-mi": "b86fbea9a631f88aa358718836639889c2d887f70695ac9ab16f2c41b5bd572e",
-    "https://electrical.sdsu.edu/people/flavio-ponzina": "876765169ec8fb1a4c1e783c5b67ced1ee12ef68012a135dbae4a898b298a7c9"
+    "https://electrical.sdsu.edu/people/flavio-ponzina": "876765169ec8fb1a4c1e783c5b67ced1ee12ef68012a135dbae4a898b298a7c9",
+    "https://catalog.sdsu.edu/preview_course_nopop.php?catoid=12&coid=88922": "87bb98106bd14a6800633350b9f321fc7290eb882f31cb3678d971862dddfc02",
+    "https://catalog.sdsu.edu/preview_course_nopop.php?catoid=12&coid=93432": "f9546029b99d8e3013565306190772c4116958439550afc9c9a92d2b5ef32d07",
+    "https://catalog.sdsu.edu/preview_course_nopop.php?catoid=12&coid=88926": "60fd66a7589ed5a8dd2bb164dd4147b6eb41ad47f1ea6c5ce5ef92fc5d841216",
+    "https://catalog.sdsu.edu/preview_course_nopop.php?catoid=12&coid=88927": "d3ca85ab8d282bfb48aa3a1f3f46d063f1d236bb69da9a3471b9c82fa998a121",
+    "https://catalog.sdsu.edu/preview_course_nopop.php?catoid=12&coid=93427": "997a419ce4f59eb45a75af4bea8617bc3940ece84fef417aae36fc1feb5d24ea",
+    "https://electrical.sdsu.edu/people/baris-aksanli": "49f4633f9666365570c7f6227c0060724d86b3100230afcda28797c248d665f9",
+    "https://electrical.sdsu.edu/people/tong-huang": "0f19c36634956be9b4709613b7f784c1ae369b54b560d0fe9b5106eb65893522",
+    "https://electrical.sdsu.edu/people/sunil-kumar": "89e96b1e4061b81848aa9b5c69d16b934eeece56c85a1da91c6eae492bcba608",
+    "https://electrical.sdsu.edu/people/saeed-manshadi": "8f36f4501fa7e10db5b73ab636b798ae7a7f363334130b30826759919fa05983",
+    "https://electrical.sdsu.edu/people/santosh-nagaraj": "5e582b84fa6d1b14889e05f07e5164a75bb0891051385ca94b02e83bc64c1516",
+    "https://electrical.sdsu.edu/people/duy-nguyen": "3c81940c6978d25631746eafa7056d518c1539f673434a536183b77866b898f7",
+    "https://electrical.sdsu.edu/people/yusuf-ozturk": "304adb809c217b0d843ed1477e82ec8f3bb579e76cb40411c2010416cd1b5ce5",
+    "https://electrical.sdsu.edu/people/christopher-paolini": "a258dca120489f319a9ef00e234ff4438f4033eeb0de47aed06a193350724ce8",
+    "https://electrical.sdsu.edu/people/tharm-ratnarajah": "c25cbc86e428e98686928509490675ba21030b845a03660eb90315d0427945e7",
+    "https://electrical.sdsu.edu/people/reza-sabzehgar": "d7611fb4753e40a1198dcbb42fa2f8272ed4179251ebff8b6f4b1cb018e53344",
+    "https://electrical.sdsu.edu/people/mahasweta-sarkar": "9ae34f8e5021d381d4e54ce249273fc4c7336fe88c3711d28f70cceac8949453",
+    "https://electrical.sdsu.edu/people/sridhar-seshagiri": "8818fcaecf58ee67ba373affd1e2c5ab3e57fd41964112c42c4d80c1058cfad0",
+    "https://electrical.sdsu.edu/people/satish-sharma": "a9f1f38bbf7417093d1cc8deceac3c3a9362aa43e1f75fdecfe5773ba105746b",
+    "https://electrical.sdsu.edu/people/hakan-toreyin": "7492207e28e7cb2c3c537a30dc627442997918255818a757b62c94028923197f",
+    "https://electrical.sdsu.edu/people/junfei-xie": "a5e2eac970f326f45e140ce73b4fc4c1da65324b2bea12c6296a470efe378162",
+    "https://catalog.sdsu.edu/preview_course_nopop.php?catoid=12&coid=91984": "5c4b31e8567af65614e3f958c360ee13794f3f783495182c16a127a3a53a57e8",
+    "https://catalog.sdsu.edu/preview_course_nopop.php?catoid=12&coid=93102": "d61aa8f3deb3192224c416d882c7ad8a43537e3e813a782c44891ffef3f485fd",
+    "https://catalog.sdsu.edu/preview_course_nopop.php?catoid=12&coid=93568": "b0cb3b6554193d2bdd61eac43c3a5390a1cea01d022e3737b29086fb1712f7d0",
+    "https://catalog.sdsu.edu/preview_course_nopop.php?catoid=12&coid=93569": "5d30876e0ca956ecff48b26e2b25b957ce03edd8b870fea7a460c019bdff3a13",
+    "https://catalog.sdsu.edu/preview_course_nopop.php?catoid=12&coid=88923": "4c46794a4698342f9a9c7f82c101bfd93852028c87cbc804d2b9161378a0142f",
+    "https://catalog.sdsu.edu/preview_course_nopop.php?catoid=12&coid=88924": "fe3027267e2d4cc3584b96d4d8df89ccaf48fce39c27cd10968ebc0897426e48",
+    "https://catalog.sdsu.edu/preview_course_nopop.php?catoid=12&coid=91997": "197378ac635652761f1b3621aed6cfd05ddb8a1d93a126ec603507ce0974d3d7",
+    "https://catalog.sdsu.edu/preview_course_nopop.php?catoid=12&coid=91998": "7644b8c6c9468f0f6f579593bfe19b10dd3d19edbe31f3fdba4a37e678b6db30",
+    "https://catalog.sdsu.edu/preview_course_nopop.php?catoid=12&coid=91999": "95e873fb464b1f48cf4c1af119d2c652fdf8aed787f50937418577b2bc73beac",
+    "https://catalog.sdsu.edu/preview_course_nopop.php?catoid=12&coid=88925": "9b1d793d4a2ec7d232325e91287409fc5b48bf9b8e863674dcd005b00fd469c1",
+    "https://catalog.sdsu.edu/preview_course_nopop.php?catoid=12&coid=89150": "0f597a7334e717efa1cb8916efe0f7944223d8a4ca6eaf5ff1ca06255910f9f7",
+    "https://catalog.sdsu.edu/preview_course_nopop.php?catoid=12&coid=89151": "ceb1fadb065f8d05e15108aa707acb6efb313e648d27449cd473144a8b907336",
+    "https://catalog.sdsu.edu/preview_course_nopop.php?catoid=12&coid=93426": "9a5c33fbc82092ffef285792d294116648c4edaf0478fd1597df8f5e06882e65",
+    "https://catalog.sdsu.edu/preview_course_nopop.php?catoid=12&coid=93103": "5241e8cf488bdc374c51f2edb848c84800091f026f1fabcf966073bc3a654ed2",
+    "https://catalog.sdsu.edu/preview_course_nopop.php?catoid=12&coid=89152": "ff05d4cf658b9f6068e2718d8d6e5d77a7254b1bcd8d5c43c1c0cf91d69ab8bb",
+    "https://catalog.sdsu.edu/preview_course_nopop.php?catoid=12&coid=91986": "4375f2fcab9b95c14673f07b1f5ca8e6117afe5b11b467090d8724c4846e2fc2",
+    "https://catalog.sdsu.edu/preview_course_nopop.php?catoid=12&coid=92001": "f8eae6d6187b35e0ab948b8fd3f02d72dac093824edc6db17da2157516cce2c5",
+    "https://catalog.sdsu.edu/preview_course_nopop.php?catoid=12&coid=89149": "0d066948c5fd06baa400dc5d20195a781b68b31f6c87ae6099e397beeac3f44c",
+    "https://catalog.sdsu.edu/preview_course_nopop.php?catoid=12&coid=89154": "6a938ba81887ebe75b6697e6491a93181ee1aff8b5d5ae5dcdde849aec697200",
+    "https://catalog.sdsu.edu/preview_course_nopop.php?catoid=12&coid=89156": "c1b0d27940fadb8f1fc71f6190dc42d723bd042f2b0822a1efb022d11df5462c",
+    "https://catalog.sdsu.edu/preview_course_nopop.php?catoid=12&coid=89157": "c36cffa213d8f8b8f71f7b9388b7d6f98cc4164670d27f37ce73467de305d847",
+    "https://catalog.sdsu.edu/preview_course_nopop.php?catoid=12&coid=89158": "f9ad7e9e9c77598856b2feddda24f9054f0558682aa074f7cd96bc7401b8f447",
+    "https://catalog.sdsu.edu/preview_course_nopop.php?catoid=12&coid=93162": "4e54e4824800c38a2c456d13b22f753816dea5150f28b70108162588db09d628",
+    "https://catalog.sdsu.edu/preview_course_nopop.php?catoid=12&coid=91983": "d4fa3f7526d2d45a85e84c905415b24551a2779d2bd178e52c46b30931b069d8",
+    "https://catalog.sdsu.edu/preview_course_nopop.php?catoid=12&coid=91987": "9ba9f6797de34674acd23f3ea7a9bd22bb19af2a149ca1016cd0c19a29ddd206",
+    "https://catalog.sdsu.edu/preview_course_nopop.php?catoid=12&coid=91988": "a65e1275c7bbf92ce081d077a7d4485c1d84f35fea0cdcea5a007af92cf57ebd",
+    "https://catalog.sdsu.edu/preview_course_nopop.php?catoid=12&coid=91989": "b9b252ba2ccf0f0068415afc9a6ea5ec062b7524e11ae2fecb358b45b331b712",
+    "https://catalog.sdsu.edu/preview_course_nopop.php?catoid=12&coid=91990": "52fdaeab05ff5fa29e06dbe8680aaa7ffde0e4040f999261f7f4e9032cd12cf8",
+    "https://catalog.sdsu.edu/preview_course_nopop.php?catoid=12&coid=91991": "697d59385cb52573fbd8ad1005d54dbcae9f613a5e7d12aa850a24087ad94d39",
+    "https://catalog.sdsu.edu/preview_course_nopop.php?catoid=12&coid=91992": "6a5e420a89159a54f56ee5a931eb529018df52d685f7e25fe51480d0862b2ada",
+    "https://catalog.sdsu.edu/preview_course_nopop.php?catoid=12&coid=91993": "43796e2a59a201e886e7163167c436d6552ec56bb111f09c8925d8b9be3e83e7",
+    "https://catalog.sdsu.edu/preview_course_nopop.php?catoid=12&coid=91996": "5187abc2927aee2160e93ae7b15c275094bc0ad733844bf92e72669c2fd8db79",
+    "https://catalog.sdsu.edu/preview_course_nopop.php?catoid=12&coid=92002": "ebe5ee6979e2745ce4866fbe8e87491c4053bf8219a0ca26f1ce7937f920b6ee"
   },
   "facts": [
     {
@@ -195,7 +249,7 @@
       "quoteFound": true,
       "quoteCheck": "auto",
       "verified": true,
-      "fetchedAt": "2026-11-14T07:29:48.542Z"
+      "fetchedAt": "2026-11-19T05:30:26.654Z"
     },
     {
       "id": "f10",
@@ -207,7 +261,7 @@
       "quoteFound": true,
       "quoteCheck": "auto",
       "verified": true,
-      "fetchedAt": "2026-11-14T07:29:48.542Z"
+      "fetchedAt": "2026-11-19T05:30:26.654Z"
     },
     {
       "id": "f11",
@@ -219,7 +273,7 @@
       "quoteFound": true,
       "quoteCheck": "auto",
       "verified": true,
-      "fetchedAt": "2026-11-14T07:29:48.542Z"
+      "fetchedAt": "2026-11-19T05:30:26.654Z"
     },
     {
       "id": "f12",
@@ -231,67 +285,77 @@
       "quoteFound": true,
       "quoteCheck": "auto",
       "verified": true,
-      "fetchedAt": "2026-11-14T07:29:48.542Z"
+      "fetchedAt": "2026-11-19T05:30:26.654Z"
     },
     {
       "id": "f13",
       "kind": "course",
       "name": "COMPE 560",
-      "detail": "Tentative fall list in the course-guidelines PDF includes COMPE560 Computer and Data Networks.",
-      "sourceUrl": "https://electrical.sdsu.edu/_resources/files/guidelineforcourses-ece-5-11-26.pdf",
-      "quote": "COMPE560 Computer and Data Networks",
+      "detail": "COMPE 560 Computer and Data Networks, SDSU 2026-27 catalog: Wide area and local area networks, multi-layered protocols, telephone systems, modems, and network applications.",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_course_nopop.php?catoid=12&coid=88922",
+      "quote": "Wide area and local area networks, multi-layered protocols, telephone systems, modems, and network applications.",
       "quoteFound": true,
-      "quoteCheck": "auto",
+      "quoteCheck": "manual",
       "verified": true,
-      "fetchedAt": "2026-11-14T07:29:48.542Z"
+      "fetchedAt": "2026-11-18T12:00:00.000Z",
+      "evidence": "user browser save 2026-11-13",
+      "verifiedBy": "user 2026-11-18"
     },
     {
       "id": "f14",
       "kind": "course",
       "name": "COMPE 510",
-      "detail": "Tentative fall list includes COMPE510 Machine Learning for Engineering.",
-      "sourceUrl": "https://electrical.sdsu.edu/_resources/files/guidelineforcourses-ece-5-11-26.pdf",
-      "quote": "COMPE510 Machine Learning for Engineering",
+      "detail": "COMPE 510 Machine Learning for Engineers, SDSU 2026-27 catalog: Selected topics from linear regression, logistic regression, neural networks, support vector machine, decision trees, clustering, Naive Bayes, dimension reduction, and ensemble learning.",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_course_nopop.php?catoid=12&coid=93432",
+      "quote": "Selected topics from linear regression, logistic regression, neural networks, support vector machine, decision trees, clustering, Naive Bayes, dimension reduction, and ensemble learning.",
       "quoteFound": true,
-      "quoteCheck": "auto",
+      "quoteCheck": "manual",
       "verified": true,
-      "fetchedAt": "2026-11-14T07:29:48.542Z"
+      "fetchedAt": "2026-11-18T12:00:00.000Z",
+      "evidence": "user browser save 2026-11-13",
+      "verifiedBy": "user 2026-11-18"
     },
     {
       "id": "f15",
       "kind": "course",
       "name": "COMPE 571",
-      "detail": "Tentative fall list includes COMPE571 Embedded Operating System.",
-      "sourceUrl": "https://electrical.sdsu.edu/_resources/files/guidelineforcourses-ece-5-11-26.pdf",
-      "quote": "COMPE571 Embedded Operating System",
+      "detail": "COMPE 571 Embedded Operating Systems, SDSU 2026-27 catalog: COMPE 375 . Real-time kernel, basic kernel services, threading and synchronization, preemptive multithreading, mutexes, spin locks, critical sections, priority scheduling, interrupts, RTOS implementation, memory management, task management, intertask communications.",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_course_nopop.php?catoid=12&coid=88926",
+      "quote": "COMPE 375 . Real-time kernel, basic kernel services, threading and synchronization, preemptive multithreading, mutexes, spin locks, critical sections, priority scheduling, interrupts, RTOS implementation, memory management, task management, intertask communications.",
       "quoteFound": true,
-      "quoteCheck": "auto",
+      "quoteCheck": "manual",
       "verified": true,
-      "fetchedAt": "2026-11-14T07:29:48.542Z"
+      "fetchedAt": "2026-11-19T05:30:26.654Z",
+      "evidence": "user browser save 2026-11-13",
+      "verifiedBy": "user 2026-11-18"
     },
     {
       "id": "f16",
       "kind": "course",
       "name": "COMPE 572",
-      "detail": "The PDF lists COMPE572 VLSI Circuit Design in both the fall and spring tentative schedules.",
-      "sourceUrl": "https://electrical.sdsu.edu/_resources/files/guidelineforcourses-ece-5-11-26.pdf",
-      "quote": "COMPE572 VLSI Circuit Design",
+      "detail": "COMPE 572 VLSI Circuit Design, SDSU 2026-27 catalog: E E 330 . Design of digital integrated circuits based on CMOS technology; characterization of field effect transistors, transistor level design and simulation of logic gates and subsystems; chip layout, design rules, introduction to processing; ALU architecture.",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_course_nopop.php?catoid=12&coid=88927",
+      "quote": "E E 330 . Design of digital integrated circuits based on CMOS technology; characterization of field effect transistors, transistor level design and simulation of logic gates and subsystems; chip layout, design rules, introduction to processing; ALU architecture.",
       "quoteFound": true,
-      "quoteCheck": "auto",
+      "quoteCheck": "manual",
       "verified": true,
-      "fetchedAt": "2026-11-14T07:29:48.542Z"
+      "fetchedAt": "2026-11-19T05:30:26.654Z",
+      "evidence": "user browser save 2026-11-13",
+      "verifiedBy": "user 2026-11-18"
     },
     {
       "id": "f17",
       "kind": "course",
       "name": "COMPE 525",
-      "detail": "Tentative spring list includes COMPE525 Cyber Physical Systems.",
-      "sourceUrl": "https://electrical.sdsu.edu/_resources/files/guidelineforcourses-ece-5-11-26.pdf",
-      "quote": "COMPE525 Cyber Physical Systems",
+      "detail": "COMPE 525 Cyber-Physical Systems, SDSU 2026-27 catalog: The class will be offered for letter grade with no option to take it for Cr/NC Prerequisite(s): COMPE 571 or graduate standing.",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_course_nopop.php?catoid=12&coid=93427",
+      "quote": "The class will be offered for letter grade with no option to take it for Cr/NC Prerequisite(s): COMPE 571 or graduate standing.",
       "quoteFound": true,
-      "quoteCheck": "auto",
+      "quoteCheck": "manual",
       "verified": true,
-      "fetchedAt": "2026-11-14T07:29:48.542Z"
+      "fetchedAt": "2026-11-18T12:00:00.000Z",
+      "evidence": "user browser save 2026-11-13",
+      "verifiedBy": "user 2026-11-18"
     },
     {
       "id": "f18",
@@ -303,7 +367,7 @@
       "quoteFound": true,
       "quoteCheck": "auto",
       "verified": true,
-      "fetchedAt": "2026-11-14T07:29:48.542Z"
+      "fetchedAt": "2026-11-19T05:30:26.654Z"
     },
     {
       "id": "f19",
@@ -466,7 +530,7 @@
       "quoteFound": true,
       "quoteCheck": "auto",
       "verified": false,
-      "fetchedAt": "2026-11-14T07:29:48.542Z",
+      "fetchedAt": "2026-11-19T05:30:26.654Z",
       "rejectedReason": "Rejected by the user: department deadlines win over university deadlines. This university Fall 2027 Cal State Apply / documents fact was not kept.",
       "verifiedBy": "user 2026-11-13"
     },
@@ -480,20 +544,21 @@
       "quoteFound": true,
       "quoteCheck": "auto",
       "verified": false,
-      "fetchedAt": "2026-11-14T07:29:48.542Z",
+      "fetchedAt": "2026-11-19T05:30:26.654Z",
       "holdReason": "Hold: university-only Spring 2027 Computer Engineering dates; department page has no Spring window. Awaiting Achsah decision."
     },
     {
       "id": "f33",
       "kind": "faculty",
       "name": "Dr. Baris Aksanli",
-      "detail": "Department-wide Electrical and Computer Engineering faculty listing (not MSCompE-specific). The listing does not state a research blurb.",
-      "sourceUrl": "https://electrical.sdsu.edu/people/faculty",
-      "quote": "Dr. Baris Aksanli",
+      "detail": "SDSU ECE faculty profile: Areas of Specialization Embedded Systems Cyber-Physical Systems Machine Learning Internet of Things",
+      "sourceUrl": "https://electrical.sdsu.edu/people/baris-aksanli",
+      "quote": "Areas of Specialization Embedded Systems Cyber-Physical Systems Machine Learning Internet of Things",
       "quoteFound": true,
       "quoteCheck": "auto",
       "verified": true,
-      "fetchedAt": "2026-11-14T07:29:48.542Z"
+      "fetchedAt": "2026-11-18T12:00:00.000Z",
+      "verifiedBy": "user 2026-11-18"
     },
     {
       "id": "f34",
@@ -517,7 +582,7 @@
       "quoteFound": true,
       "quoteCheck": "auto",
       "verified": true,
-      "fetchedAt": "2026-11-14T07:29:48.542Z"
+      "fetchedAt": "2026-11-19T05:30:26.654Z"
     },
     {
       "id": "f36",
@@ -529,7 +594,7 @@
       "quoteFound": true,
       "quoteCheck": "auto",
       "verified": true,
-      "fetchedAt": "2026-11-14T07:29:48.542Z"
+      "fetchedAt": "2026-11-19T05:30:26.654Z"
     },
     {
       "id": "f37",
@@ -541,43 +606,46 @@
       "quoteFound": true,
       "quoteCheck": "auto",
       "verified": true,
-      "fetchedAt": "2026-11-14T07:29:48.542Z"
+      "fetchedAt": "2026-11-19T05:30:26.654Z"
     },
     {
       "id": "f38",
       "kind": "faculty",
       "name": "Dr. Tong Huang",
-      "detail": "Department-wide Electrical and Computer Engineering faculty listing (not MSCompE-specific). The listing does not state a research blurb.",
-      "sourceUrl": "https://electrical.sdsu.edu/people/faculty",
-      "quote": "Dr. Tong Huang",
+      "detail": "SDSU ECE faculty profile: Areas of Specialization Cyber-Physical Security Modeling and Control Data Analytics for Electric Power Grids with Rich Renewables",
+      "sourceUrl": "https://electrical.sdsu.edu/people/tong-huang",
+      "quote": "Areas of Specialization Cyber-Physical Security Modeling and Control Data Analytics for Electric Power Grids with Rich Renewables",
       "quoteFound": true,
       "quoteCheck": "auto",
       "verified": true,
-      "fetchedAt": "2026-11-14T07:29:48.542Z"
+      "fetchedAt": "2026-11-18T12:00:00.000Z",
+      "verifiedBy": "user 2026-11-18"
     },
     {
       "id": "f39",
       "kind": "faculty",
       "name": "Dr. Sunil Kumar",
-      "detail": "Department-wide Electrical and Computer Engineering faculty listing (not MSCompE-specific). The listing does not state a research blurb.",
-      "sourceUrl": "https://electrical.sdsu.edu/people/faculty",
-      "quote": "Dr. Sunil Kumar",
+      "detail": "SDSU ECE faculty profile: Areas of Specialization QoS-Aware Wireless Networks Error Resilient Video Compression Multimedia Communication Image Processing",
+      "sourceUrl": "https://electrical.sdsu.edu/people/sunil-kumar",
+      "quote": "Areas of Specialization QoS-Aware Wireless Networks Error Resilient Video Compression Multimedia Communication Image Processing",
       "quoteFound": true,
       "quoteCheck": "auto",
       "verified": true,
-      "fetchedAt": "2026-11-14T07:29:48.542Z"
+      "fetchedAt": "2026-11-18T12:00:00.000Z",
+      "verifiedBy": "user 2026-11-18"
     },
     {
       "id": "f40",
       "kind": "faculty",
       "name": "Dr. Saeed Manshadi",
-      "detail": "Department-wide Electrical and Computer Engineering faculty listing (not MSCompE-specific). The listing does not state a research blurb.",
-      "sourceUrl": "https://electrical.sdsu.edu/people/faculty",
-      "quote": "Dr. Saeed Manshadi",
+      "detail": "SDSU ECE faculty profile: Areas of Specialization Interdisciplinary Problems in Smart Grid Power Systems Optimization Machine Learning",
+      "sourceUrl": "https://electrical.sdsu.edu/people/saeed-manshadi",
+      "quote": "Areas of Specialization Interdisciplinary Problems in Smart Grid Power Systems Optimization Machine Learning",
       "quoteFound": true,
       "quoteCheck": "auto",
       "verified": true,
-      "fetchedAt": "2026-11-14T07:29:48.542Z"
+      "fetchedAt": "2026-11-18T12:00:00.000Z",
+      "verifiedBy": "user 2026-11-18"
     },
     {
       "id": "f41",
@@ -589,55 +657,59 @@
       "quoteFound": true,
       "quoteCheck": "auto",
       "verified": true,
-      "fetchedAt": "2026-11-14T07:29:48.542Z"
+      "fetchedAt": "2026-11-19T05:30:26.654Z"
     },
     {
       "id": "f42",
       "kind": "faculty",
       "name": "Dr. Santosh Nagaraj",
-      "detail": "Department-wide Electrical and Computer Engineering faculty listing (not MSCompE-specific). The listing does not state a research blurb.",
-      "sourceUrl": "https://electrical.sdsu.edu/people/faculty",
-      "quote": "Dr. Santosh Nagaraj",
+      "detail": "SDSU ECE faculty profile: Areas of Specialization Communication Systems",
+      "sourceUrl": "https://electrical.sdsu.edu/people/santosh-nagaraj",
+      "quote": "Areas of Specialization Communication Systems",
       "quoteFound": true,
       "quoteCheck": "auto",
       "verified": true,
-      "fetchedAt": "2026-11-14T07:29:48.542Z"
+      "fetchedAt": "2026-11-18T12:00:00.000Z",
+      "verifiedBy": "user 2026-11-18"
     },
     {
       "id": "f43",
       "kind": "faculty",
       "name": "Dr. Duy Nguyen",
-      "detail": "Department-wide Electrical and Computer Engineering faculty listing (not MSCompE-specific). The listing does not state a research blurb.",
-      "sourceUrl": "https://electrical.sdsu.edu/people/faculty",
-      "quote": "Dr. Duy Nguyen",
+      "detail": "SDSU ECE faculty profile: Areas of Specialization Wireless Communication",
+      "sourceUrl": "https://electrical.sdsu.edu/people/duy-nguyen",
+      "quote": "Areas of Specialization Wireless Communication",
       "quoteFound": true,
       "quoteCheck": "auto",
       "verified": true,
-      "fetchedAt": "2026-11-14T07:29:48.542Z"
+      "fetchedAt": "2026-11-18T12:00:00.000Z",
+      "verifiedBy": "user 2026-11-18"
     },
     {
       "id": "f44",
       "kind": "faculty",
       "name": "Dr. Yusuf Ozturk",
-      "detail": "Department-wide Electrical and Computer Engineering faculty listing (not MSCompE-specific). The listing does not state a research blurb.",
-      "sourceUrl": "https://electrical.sdsu.edu/people/faculty",
-      "quote": "Dr. Yusuf Ozturk",
+      "detail": "SDSU ECE faculty profile: Areas of Specialization Mobile Computing",
+      "sourceUrl": "https://electrical.sdsu.edu/people/yusuf-ozturk",
+      "quote": "Areas of Specialization Mobile Computing",
       "quoteFound": true,
       "quoteCheck": "auto",
       "verified": true,
-      "fetchedAt": "2026-11-14T07:29:48.542Z"
+      "fetchedAt": "2026-11-18T12:00:00.000Z",
+      "verifiedBy": "user 2026-11-18"
     },
     {
       "id": "f45",
       "kind": "faculty",
       "name": "Dr. Christopher Paolini",
-      "detail": "Department-wide Electrical and Computer Engineering faculty listing (not MSCompE-specific). The listing does not state a research blurb.",
-      "sourceUrl": "https://electrical.sdsu.edu/people/faculty",
-      "quote": "Dr. Christopher Paolini",
+      "detail": "SDSU ECE faculty profile: Areas of Specialization Machine Learning Embedded Systems Internet of Things Device Development",
+      "sourceUrl": "https://electrical.sdsu.edu/people/christopher-paolini",
+      "quote": "Areas of Specialization Machine Learning Embedded Systems Internet of Things Device Development",
       "quoteFound": true,
       "quoteCheck": "auto",
       "verified": true,
-      "fetchedAt": "2026-11-14T07:29:27.152108Z"
+      "fetchedAt": "2026-11-18T12:00:00.000Z",
+      "verifiedBy": "user 2026-11-18"
     },
     {
       "id": "f46",
@@ -649,103 +721,98 @@
       "quoteFound": true,
       "quoteCheck": "auto",
       "verified": true,
-      "fetchedAt": "2026-11-14T07:29:48.542Z"
+      "fetchedAt": "2026-11-19T05:30:26.654Z"
     },
     {
       "id": "f47",
       "kind": "faculty",
       "name": "Dr. Tharm Ratnarajah",
-      "detail": "Department-wide Electrical and Computer Engineering faculty listing (not MSCompE-specific). The listing does not state a research blurb.",
-      "sourceUrl": "https://electrical.sdsu.edu/people/faculty",
-      "quote": "Dr. Tharm Ratnarajah",
+      "detail": "SDSU ECE faculty profile: research interests include signal processing and information-theoretic aspects of beyond 5G cellular networks, full-duplex radio, mmWave communications, random matrix theory, big data analytics and machine learning for wireless networks, statistical and array signal processing, physical-layer",
+      "sourceUrl": "https://electrical.sdsu.edu/people/tharm-ratnarajah",
+      "quote": "research interests include signal processing and information-theoretic aspects of beyond 5G cellular networks, full-duplex radio, mmWave communications, random matrix theory, big data analytics and machine learning for wireless networks, statistical and array signal processing, physical-layer",
       "quoteFound": true,
       "quoteCheck": "auto",
       "verified": true,
-      "fetchedAt": "2026-11-14T07:29:27.152108Z"
+      "fetchedAt": "2026-11-18T12:00:00.000Z",
+      "verifiedBy": "user 2026-11-18"
     },
     {
       "id": "f48",
       "kind": "faculty",
       "name": "Dr. Reza Sabzehgar",
-      "detail": "Department-wide Electrical and Computer Engineering faculty listing (not MSCompE-specific). The listing does not state a research blurb.",
-      "sourceUrl": "https://electrical.sdsu.edu/people/faculty",
-      "quote": "Dr. Reza Sabzehgar",
+      "detail": "SDSU ECE faculty profile: Areas of Specialization Power Electronics Smart Grid Renewable Energies Electric and Hybrid Electric Vehicles",
+      "sourceUrl": "https://electrical.sdsu.edu/people/reza-sabzehgar",
+      "quote": "Areas of Specialization Power Electronics Smart Grid Renewable Energies Electric and Hybrid Electric Vehicles",
       "quoteFound": true,
       "quoteCheck": "auto",
       "verified": true,
-      "fetchedAt": "2026-11-14T07:29:48.542Z"
+      "fetchedAt": "2026-11-18T12:00:00.000Z",
+      "verifiedBy": "user 2026-11-18"
     },
     {
       "id": "f49",
       "kind": "faculty",
       "name": "Dr. Mahasweta Sarkar",
-      "detail": "Department-wide Electrical and Computer Engineering faculty listing (not MSCompE-specific). The listing does not state a research blurb.",
-      "sourceUrl": "https://electrical.sdsu.edu/people/faculty",
-      "quote": "Dr. Mahasweta Sarkar",
+      "detail": "SDSU ECE faculty profile: Areas of Specialization Wireless Data Networks Wireless Health Green Networks",
+      "sourceUrl": "https://electrical.sdsu.edu/people/mahasweta-sarkar",
+      "quote": "Areas of Specialization Wireless Data Networks Wireless Health Green Networks",
       "quoteFound": true,
       "quoteCheck": "auto",
       "verified": true,
-      "fetchedAt": "2026-11-14T07:29:27.152108Z"
+      "fetchedAt": "2026-11-18T12:00:00.000Z",
+      "verifiedBy": "user 2026-11-18"
     },
     {
       "id": "f50",
       "kind": "faculty",
       "name": "Dr. Sridhar Seshagiri",
-      "detail": "Department-wide Electrical and Computer Engineering faculty listing (not MSCompE-specific). The listing does not state a research blurb.",
-      "sourceUrl": "https://electrical.sdsu.edu/people/faculty",
-      "quote": "Dr. Sridhar Seshagiri",
+      "detail": "SDSU ECE faculty profile: Areas of Specialization Nonlinear Control Applications to Energy Systems",
+      "sourceUrl": "https://electrical.sdsu.edu/people/sridhar-seshagiri",
+      "quote": "Areas of Specialization Nonlinear Control Applications to Energy Systems",
       "quoteFound": true,
       "quoteCheck": "auto",
       "verified": true,
-      "fetchedAt": "2026-11-14T07:29:27.152108Z"
+      "fetchedAt": "2026-11-18T12:00:00.000Z",
+      "verifiedBy": "user 2026-11-18"
     },
     {
       "id": "f51",
       "kind": "faculty",
       "name": "Dr. Satish Sharma",
-      "detail": "Department-wide Electrical and Computer Engineering faculty listing (not MSCompE-specific). The listing does not state a research blurb.",
-      "sourceUrl": "https://electrical.sdsu.edu/people/faculty",
-      "quote": "Dr. Satish Sharma",
+      "detail": "SDSU ECE faculty profile: research interests are primarily in antenna theory and design, microwave passive devices, and novel electromagnetic materials. He received NSF's prestigious CAREER award in the year 2009. He received the IEEE AP-Society's prestigious Harold A.",
+      "sourceUrl": "https://electrical.sdsu.edu/people/satish-sharma",
+      "quote": "research interests are primarily in antenna theory and design, microwave passive devices, and novel electromagnetic materials. He received NSF's prestigious CAREER award in the year 2009. He received the IEEE AP-Society's prestigious Harold A.",
       "quoteFound": true,
       "quoteCheck": "auto",
       "verified": true,
-      "fetchedAt": "2026-11-14T07:29:48.542Z"
+      "fetchedAt": "2026-11-18T12:00:00.000Z",
+      "verifiedBy": "user 2026-11-18"
     },
     {
       "id": "f52",
       "kind": "faculty",
       "name": "Dr. Hakan T\u00f6reyin",
-      "detail": "Department-wide Electrical and Computer Engineering faculty listing (not MSCompE-specific). The listing does not state a research blurb.",
-      "sourceUrl": "https://electrical.sdsu.edu/people/faculty",
-      "quote": "Dr. Hakan T\u00f6reyin",
+      "detail": "SDSU ECE faculty profile: Areas of Specialization Electr & Sys Design for Biomed Apps Real-Time Signal Processing Translational Research",
+      "sourceUrl": "https://electrical.sdsu.edu/people/hakan-toreyin",
+      "quote": "Areas of Specialization Electr & Sys Design for Biomed Apps Real-Time Signal Processing Translational Research",
       "quoteFound": true,
       "quoteCheck": "auto",
       "verified": true,
-      "fetchedAt": "2026-11-14T07:29:48.542Z"
+      "fetchedAt": "2026-11-18T12:00:00.000Z",
+      "verifiedBy": "user 2026-11-18"
     },
     {
       "id": "f53",
       "kind": "faculty",
       "name": "Dr. Junfei Xie",
-      "detail": "Department-wide Electrical and Computer Engineering faculty listing (not MSCompE-specific). The listing does not state a research blurb.",
-      "sourceUrl": "https://electrical.sdsu.edu/people/faculty",
-      "quote": "Dr. Junfei Xie",
+      "detail": "SDSU ECE faculty profile: Areas of Specialization Large-Scale Dyn Sys Design & Control Unmanned Aerial Systems Airborne Networks",
+      "sourceUrl": "https://electrical.sdsu.edu/people/junfei-xie",
+      "quote": "Areas of Specialization Large-Scale Dyn Sys Design & Control Unmanned Aerial Systems Airborne Networks",
       "quoteFound": true,
       "quoteCheck": "auto",
       "verified": true,
-      "fetchedAt": "2026-11-14T07:29:48.542Z"
-    },
-    {
-      "id": "f54",
-      "kind": "faculty",
-      "name": "Baris Aksanli",
-      "detail": "Graduate handbook (dated 9/19/2025) lists his area as Embedded Systems. Department-wide ECE faculty.",
-      "sourceUrl": "https://electrical.sdsu.edu/_resources/files/graduatehandbook-fa25.pdf",
-      "quote": "Dr. Baris Aksanli Embedded Systems",
-      "quoteFound": true,
-      "quoteCheck": "auto",
-      "verified": true,
-      "fetchedAt": "2026-11-14T07:29:48.542Z"
+      "fetchedAt": "2026-11-18T12:00:00.000Z",
+      "verifiedBy": "user 2026-11-18"
     },
     {
       "id": "f55",
@@ -757,7 +824,7 @@
       "quoteFound": true,
       "quoteCheck": "auto",
       "verified": true,
-      "fetchedAt": "2026-11-14T07:29:48.542Z"
+      "fetchedAt": "2026-11-19T05:30:26.654Z"
     },
     {
       "id": "f56",
@@ -841,7 +908,7 @@
       "quoteFound": true,
       "quoteCheck": "auto",
       "verified": true,
-      "fetchedAt": "2026-11-14T07:29:48.542Z"
+      "fetchedAt": "2026-11-19T05:30:26.654Z"
     },
     {
       "id": "f63",
@@ -853,7 +920,7 @@
       "quoteFound": true,
       "quoteCheck": "auto",
       "verified": true,
-      "fetchedAt": "2026-11-14T07:29:48.542Z"
+      "fetchedAt": "2026-11-19T05:30:26.654Z"
     },
     {
       "id": "f64",
@@ -865,7 +932,7 @@
       "quoteFound": true,
       "quoteCheck": "auto",
       "verified": true,
-      "fetchedAt": "2026-11-14T07:29:48.542Z"
+      "fetchedAt": "2026-11-19T05:30:26.654Z"
     },
     {
       "id": "f65",
@@ -877,7 +944,7 @@
       "quoteFound": true,
       "quoteCheck": "auto",
       "verified": true,
-      "fetchedAt": "2026-11-14T07:29:48.542Z"
+      "fetchedAt": "2026-11-19T05:30:26.654Z"
     },
     {
       "id": "f66",
@@ -889,7 +956,7 @@
       "quoteFound": true,
       "quoteCheck": "manual",
       "verified": true,
-      "fetchedAt": "2026-11-14T07:29:48.542Z",
+      "fetchedAt": "2026-11-19T05:30:26.654Z",
       "evidence": "user browser save 2026-11-13"
     },
     {
@@ -902,7 +969,7 @@
       "quoteFound": true,
       "quoteCheck": "manual",
       "verified": true,
-      "fetchedAt": "2026-11-14T07:29:48.542Z",
+      "fetchedAt": "2026-11-19T05:30:26.654Z",
       "evidence": "user browser save 2026-11-13"
     },
     {
@@ -915,7 +982,7 @@
       "quoteFound": true,
       "quoteCheck": "manual",
       "verified": true,
-      "fetchedAt": "2026-11-14T07:29:48.542Z",
+      "fetchedAt": "2026-11-19T05:30:26.654Z",
       "evidence": "user browser save 2026-11-13"
     },
     {
@@ -928,7 +995,7 @@
       "quoteFound": true,
       "quoteCheck": "manual",
       "verified": true,
-      "fetchedAt": "2026-11-14T07:29:48.542Z",
+      "fetchedAt": "2026-11-19T05:30:26.654Z",
       "evidence": "user browser save 2026-11-13"
     },
     {
@@ -941,7 +1008,7 @@
       "quoteFound": true,
       "quoteCheck": "manual",
       "verified": false,
-      "fetchedAt": "2026-11-14T07:29:48.542Z",
+      "fetchedAt": "2026-11-19T05:30:26.654Z",
       "evidence": "user browser save 2026-11-13",
       "rejectedReason": "Rejected by the user: GRE is not required. The department admissions page ('GRE scores are not required') was kept; this 2026-2027 catalog GRE-submission fact was not.",
       "verifiedBy": "user 2026-11-13"
@@ -956,7 +1023,7 @@
       "quoteFound": true,
       "quoteCheck": "manual",
       "verified": true,
-      "fetchedAt": "2026-11-14T07:29:48.542Z",
+      "fetchedAt": "2026-11-19T05:30:26.654Z",
       "evidence": "user browser save 2026-11-13"
     },
     {
@@ -969,7 +1036,7 @@
       "quoteFound": true,
       "quoteCheck": "manual",
       "verified": false,
-      "fetchedAt": "2026-11-14T07:29:48.542Z",
+      "fetchedAt": "2026-11-19T05:30:26.654Z",
       "evidence": "user browser save 2026-11-13",
       "rejectedReason": "Rejected by the user: 18 of the 30 units must be at the 600/700 level (department page). This catalog 'at least 15 units' fact was not kept.",
       "verifiedBy": "user 2026-11-13"
@@ -984,7 +1051,7 @@
       "quoteFound": true,
       "quoteCheck": "manual",
       "verified": true,
-      "fetchedAt": "2026-11-14T07:29:48.542Z",
+      "fetchedAt": "2026-11-19T05:30:26.654Z",
       "evidence": "user browser save 2026-11-13"
     },
     {
@@ -997,7 +1064,7 @@
       "quoteFound": true,
       "quoteCheck": "manual",
       "verified": true,
-      "fetchedAt": "2026-11-14T07:29:48.542Z",
+      "fetchedAt": "2026-11-19T05:30:26.654Z",
       "evidence": "user browser save 2026-11-13"
     },
     {
@@ -1010,7 +1077,7 @@
       "quoteFound": true,
       "quoteCheck": "manual",
       "verified": true,
-      "fetchedAt": "2026-11-14T07:29:48.542Z",
+      "fetchedAt": "2026-11-19T05:30:26.654Z",
       "evidence": "user browser save 2026-11-13"
     },
     {
@@ -1023,7 +1090,7 @@
       "quoteFound": true,
       "quoteCheck": "manual",
       "verified": true,
-      "fetchedAt": "2026-11-14T07:29:48.542Z",
+      "fetchedAt": "2026-11-19T05:30:26.654Z",
       "evidence": "user browser save 2026-11-13"
     },
     {
@@ -1036,7 +1103,7 @@
       "quoteFound": true,
       "quoteCheck": "manual",
       "verified": true,
-      "fetchedAt": "2026-11-14T07:29:48.542Z",
+      "fetchedAt": "2026-11-19T05:30:26.654Z",
       "evidence": "user browser save 2026-11-13"
     },
     {
@@ -1049,7 +1116,7 @@
       "quoteFound": true,
       "quoteCheck": "manual",
       "verified": true,
-      "fetchedAt": "2026-11-14T07:29:48.542Z",
+      "fetchedAt": "2026-11-19T05:30:26.654Z",
       "evidence": "user browser save 2026-11-13"
     },
     {
@@ -1062,7 +1129,7 @@
       "quoteFound": true,
       "quoteCheck": "manual",
       "verified": true,
-      "fetchedAt": "2026-11-14T07:29:48.542Z",
+      "fetchedAt": "2026-11-19T05:30:26.654Z",
       "evidence": "user browser save 2026-11-13"
     },
     {
@@ -1075,7 +1142,7 @@
       "quoteFound": true,
       "quoteCheck": "manual",
       "verified": true,
-      "fetchedAt": "2026-11-14T07:29:48.542Z",
+      "fetchedAt": "2026-11-19T05:30:26.654Z",
       "evidence": "user browser save 2026-11-13"
     },
     {
@@ -1088,7 +1155,7 @@
       "quoteFound": true,
       "quoteCheck": "manual",
       "verified": true,
-      "fetchedAt": "2026-11-14T07:29:48.542Z",
+      "fetchedAt": "2026-11-19T05:30:26.654Z",
       "evidence": "user browser save 2026-11-13"
     },
     {
@@ -1101,7 +1168,7 @@
       "quoteFound": true,
       "quoteCheck": "manual",
       "verified": true,
-      "fetchedAt": "2026-11-14T07:29:48.542Z",
+      "fetchedAt": "2026-11-19T05:30:26.654Z",
       "evidence": "user browser save 2026-11-13"
     },
     {
@@ -1114,112 +1181,64 @@
       "quoteFound": true,
       "quoteCheck": "manual",
       "verified": true,
-      "fetchedAt": "2026-11-14T07:29:48.542Z",
-      "evidence": "user browser save 2026-11-13"
-    },
-    {
-      "id": "f84",
-      "kind": "course",
-      "name": "COMPE 560",
-      "detail": "Computer Networks core option (one of three) and a depth/remaining-units course: Computer and Data Networks, 3 units. An earlier guidelines-PDF fact quoted the title as 'Computer Networks'; this catalog page uses 'Computer and Data Networks.' Both quotes are kept and no winner is chosen.",
-      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12546",
-      "quote": "COMPE 560 - Computer and Data Networks Units: 3",
-      "quoteFound": true,
-      "quoteCheck": "manual",
-      "verified": true,
-      "fetchedAt": "2026-11-14T07:29:48.542Z",
+      "fetchedAt": "2026-11-19T05:30:26.654Z",
       "evidence": "user browser save 2026-11-13"
     },
     {
       "id": "f85",
       "kind": "course",
       "name": "E E 602",
-      "detail": "Computer Networks core option (one of three): Stochastic Signals and Systems, 3 units.",
-      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12546",
-      "quote": "E E 602 - Stochastic Signals and Systems Units: 3",
+      "detail": "E E 602 Stochastic Signals and Systems, SDSU 2026-27 catalog: Random signals, correlation functions, power spectral densities, the Gaussian process, narrow band processes. Applications to communication systems.",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_course_nopop.php?catoid=12&coid=91984",
+      "quote": "Random signals, correlation functions, power spectral densities, the Gaussian process, narrow band processes. Applications to communication systems.",
       "quoteFound": true,
       "quoteCheck": "manual",
       "verified": true,
-      "fetchedAt": "2026-11-14T07:29:48.542Z",
-      "evidence": "user browser save 2026-11-13"
+      "fetchedAt": "2026-11-18T12:00:00.000Z",
+      "evidence": "user browser save 2026-11-13",
+      "verifiedBy": "user 2026-11-18"
     },
     {
       "id": "f86",
       "kind": "course",
       "name": "E E 603",
-      "detail": "Computer Networks core option (one of three): Engineering Optimization, 3 units.",
-      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12546",
-      "quote": "E E 603 - Engineering Optimization Units: 3",
+      "detail": "E E 603 Engineering Optimization, SDSU 2026-27 catalog: Unconstrained and constrained optimization problems. Convex sets, functions, analysis, and optimization problems. Least-squares, linear, and quadratic programs. Optimality conditions, duality theory.",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_course_nopop.php?catoid=12&coid=93102",
+      "quote": "Unconstrained and constrained optimization problems. Convex sets, functions, analysis, and optimization problems. Least-squares, linear, and quadratic programs. Optimality conditions, duality theory.",
       "quoteFound": true,
       "quoteCheck": "manual",
       "verified": true,
-      "fetchedAt": "2026-11-14T07:29:48.542Z",
-      "evidence": "user browser save 2026-11-13"
-    },
-    {
-      "id": "f87",
-      "kind": "course",
-      "name": "COMPE 571",
-      "detail": "Required core course for the Embedded Systems area: Embedded Operating Systems, 3 units.",
-      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12546",
-      "quote": "COMPE 571 - Embedded Operating Systems Units: 3",
-      "quoteFound": true,
-      "quoteCheck": "manual",
-      "verified": true,
-      "fetchedAt": "2026-11-14T07:29:48.542Z",
-      "evidence": "user browser save 2026-11-13"
-    },
-    {
-      "id": "f88",
-      "kind": "course",
-      "name": "COMPE 510",
-      "detail": "Required core course for Machine Learning and Scientific Computing: Machine Learning for Engineers, 3 units.",
-      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12546",
-      "quote": "COMPE 510 - Machine Learning for Engineers Units: 3",
-      "quoteFound": true,
-      "quoteCheck": "manual",
-      "verified": true,
-      "fetchedAt": "2026-11-14T07:29:48.542Z",
-      "evidence": "user browser save 2026-11-13"
-    },
-    {
-      "id": "f89",
-      "kind": "course",
-      "name": "COMPE 572",
-      "detail": "Required core course for VLSI Systems: VLSI Circuit Design, 3 units.",
-      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12546",
-      "quote": "COMPE 572 - VLSI Circuit Design Units: 3",
-      "quoteFound": true,
-      "quoteCheck": "manual",
-      "verified": true,
-      "fetchedAt": "2026-11-14T07:29:48.542Z",
-      "evidence": "user browser save 2026-11-13"
+      "fetchedAt": "2026-11-18T12:00:00.000Z",
+      "evidence": "user browser save 2026-11-13",
+      "verifiedBy": "user 2026-11-18"
     },
     {
       "id": "f90",
       "kind": "course",
       "name": "COMPE 797",
-      "detail": "Plan A Research, 3-6 units, taken for 6 units, graded Cr/NC/RP.",
-      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12546",
-      "quote": "COMPE 797 - Research Units: 3-6 (6 units) Cr/NC/RP",
+      "detail": "COMPE 797 Research, SDSU 2026-27 catalog: Open only to Plan A Thesis. Research in computer engineering.",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_course_nopop.php?catoid=12&coid=93568",
+      "quote": "Open only to Plan A Thesis. Research in computer engineering.",
       "quoteFound": true,
       "quoteCheck": "manual",
       "verified": true,
-      "fetchedAt": "2026-11-14T07:29:48.542Z",
-      "evidence": "user browser save 2026-11-13"
+      "fetchedAt": "2026-11-18T12:00:00.000Z",
+      "evidence": "user browser save 2026-11-13",
+      "verifiedBy": "user 2026-11-18"
     },
     {
       "id": "f91",
       "kind": "course",
       "name": "COMPE 799A",
-      "detail": "Plan A Thesis, 3 units.",
-      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12546",
-      "quote": "COMPE 799A - Thesis Units: 3 (3 units)",
+      "detail": "COMPE 799A Thesis, SDSU 2026-27 catalog: Preparation of a thesis for the Master's degree.",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_course_nopop.php?catoid=12&coid=93569",
+      "quote": "Preparation of a thesis for the Master's degree.",
       "quoteFound": true,
       "quoteCheck": "manual",
       "verified": true,
-      "fetchedAt": "2026-11-14T07:29:48.542Z",
-      "evidence": "user browser save 2026-11-13"
+      "fetchedAt": "2026-11-18T12:00:00.000Z",
+      "evidence": "user browser save 2026-11-13",
+      "verifiedBy": "user 2026-11-18"
     },
     {
       "id": "f92",
@@ -1231,190 +1250,190 @@
       "quoteFound": true,
       "quoteCheck": "manual",
       "verified": true,
-      "fetchedAt": "2026-11-14T07:29:48.542Z",
+      "fetchedAt": "2026-11-19T05:30:26.654Z",
       "evidence": "user browser save 2026-11-13"
     },
     {
       "id": "f93",
       "kind": "course",
       "name": "COMPE 561",
-      "detail": "Listed as a depth-area and/or remaining-units approved course on the 2026-2027 catalog program page.",
-      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12546",
-      "quote": "COMPE 561 - Windows Database and Web Programming Units: 3",
+      "detail": "COMPE 561 Windows Database and Web Programming, SDSU 2026-27 catalog: Programming applications involving file systems, relational databases, Structured Query Language (SQL), ADO.NET, client-server architecture, multithreading sockets, web servers, web browsers, web services, ASP.NET, Hypertext Markup Language (HTML), and Extensible Markup Language (XML).",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_course_nopop.php?catoid=12&coid=88923",
+      "quote": "Programming applications involving file systems, relational databases, Structured Query Language (SQL), ADO.NET, client-server architecture, multithreading sockets, web servers, web browsers, web services, ASP.NET, Hypertext Markup Language (HTML), and Extensible Markup Language (XML).",
       "quoteFound": true,
       "quoteCheck": "manual",
       "verified": true,
-      "fetchedAt": "2026-11-14T07:29:48.542Z",
-      "evidence": "user browser save 2026-11-13"
+      "fetchedAt": "2026-11-18T12:00:00.000Z",
+      "evidence": "user browser save 2026-11-13",
+      "verifiedBy": "user 2026-11-18"
     },
     {
       "id": "f94",
       "kind": "course",
       "name": "COMPE 565",
-      "detail": "Listed as a depth-area and/or remaining-units approved course on the 2026-2027 catalog program page.",
-      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12546",
-      "quote": "COMPE 565 - Multimedia Communication Systems Units: 3",
+      "detail": "COMPE 565 Multimedia Communication Systems, SDSU 2026-27 catalog: Design and implementation of multimedia communication systems. Image compression, JPEG, VQ, cell-B standards. Video and audio compression standards, MPEG, MPEG-2, H.26X, G.72X. Data storage systems and multimedia requirements. Networking requirements and networks as multimedia carriers.",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_course_nopop.php?catoid=12&coid=88924",
+      "quote": "Design and implementation of multimedia communication systems. Image compression, JPEG, VQ, cell-B standards. Video and audio compression standards, MPEG, MPEG-2, H.26X, G.72X. Data storage systems and multimedia requirements. Networking requirements and networks as multimedia carriers.",
       "quoteFound": true,
       "quoteCheck": "manual",
       "verified": true,
-      "fetchedAt": "2026-11-14T07:29:48.542Z",
-      "evidence": "user browser save 2026-11-13"
+      "fetchedAt": "2026-11-18T12:00:00.000Z",
+      "evidence": "user browser save 2026-11-13",
+      "verifiedBy": "user 2026-11-18"
     },
     {
       "id": "f95",
       "kind": "course",
       "name": "COMPE 660",
-      "detail": "Listed as a depth-area and/or remaining-units approved course on the 2026-2027 catalog program page.",
-      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12546",
-      "quote": "COMPE 660 - High Speed Networks: Design Principles and Recent Advances Units: 3",
+      "detail": "COMPE 660 High Speed Networks: Design Principles and Recent Advances, SDSU 2026-27 catalog: The class will be offered for letter grade with no option to take it for Cr/NC Prerequisite(s): COMPE 560 or Graduate Standing Provides students with knowledge of recent developments in area of computer networks. Current research in high speed computer networks. Formerly numbered: E E 660",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_course_nopop.php?catoid=12&coid=91997",
+      "quote": "The class will be offered for letter grade with no option to take it for Cr/NC Prerequisite(s): COMPE 560 or Graduate Standing Provides students with knowledge of recent developments in area of computer networks. Current research in high speed computer networks. Formerly numbered: E E 660",
       "quoteFound": true,
       "quoteCheck": "manual",
       "verified": true,
-      "fetchedAt": "2026-11-14T07:29:48.542Z",
-      "evidence": "user browser save 2026-11-13"
+      "fetchedAt": "2026-11-18T12:00:00.000Z",
+      "evidence": "user browser save 2026-11-13",
+      "verifiedBy": "user 2026-11-18"
     },
     {
       "id": "f96",
       "kind": "course",
       "name": "COMPE 662",
-      "detail": "Listed as a depth-area and/or remaining-units approved course on the 2026-2027 catalog program page.",
-      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12546",
-      "quote": "COMPE 662 - Wireless Sensor Networks Units: 3",
+      "detail": "COMPE 662 Wireless Sensor Networks, SDSU 2026-27 catalog: The class will be offered for letter grade with no option to take it for Cr/NC Prerequisite(s): COMPE 560 or Graduate Standing Sensor platforms, wireless channel characteristics, time synchronization, medium access control, topology control, routing protocols, localization, coverage and placement",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_course_nopop.php?catoid=12&coid=91998",
+      "quote": "The class will be offered for letter grade with no option to take it for Cr/NC Prerequisite(s): COMPE 560 or Graduate Standing Sensor platforms, wireless channel characteristics, time synchronization, medium access control, topology control, routing protocols, localization, coverage and placement",
       "quoteFound": true,
       "quoteCheck": "manual",
       "verified": true,
-      "fetchedAt": "2026-11-14T07:29:48.542Z",
-      "evidence": "user browser save 2026-11-13"
+      "fetchedAt": "2026-11-18T12:00:00.000Z",
+      "evidence": "user browser save 2026-11-13",
+      "verifiedBy": "user 2026-11-18"
     },
     {
       "id": "f97",
       "kind": "course",
       "name": "COMPE 665",
-      "detail": "Listed as a depth-area and/or remaining-units approved course on the 2026-2027 catalog program page.",
-      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12546",
-      "quote": "COMPE 665 - Multimedia Wireless Networks Units: 3",
+      "detail": "COMPE 665 Multimedia Wireless Networks, SDSU 2026-27 catalog: The class will be offered for letter grade with no option to take it for Cr/NC Prerequisite(s): COMPE 560 or Graduate Standing Cross-layer protocol design, multimedia QoS-aware 4G, 5G, CRN, WLAN networks;",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_course_nopop.php?catoid=12&coid=91999",
+      "quote": "The class will be offered for letter grade with no option to take it for Cr/NC Prerequisite(s): COMPE 560 or Graduate Standing Cross-layer protocol design, multimedia QoS-aware 4G, 5G, CRN, WLAN networks;",
       "quoteFound": true,
       "quoteCheck": "manual",
       "verified": true,
-      "fetchedAt": "2026-11-14T07:29:48.542Z",
-      "evidence": "user browser save 2026-11-13"
-    },
-    {
-      "id": "f98",
-      "kind": "course",
-      "name": "COMPE 525",
-      "detail": "Listed as a depth-area and/or remaining-units approved course on the 2026-2027 catalog program page.",
-      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12546",
-      "quote": "COMPE 525 - Cyber-Physical Systems Units: 3",
-      "quoteFound": true,
-      "quoteCheck": "manual",
-      "verified": true,
-      "fetchedAt": "2026-11-14T07:29:48.542Z",
-      "evidence": "user browser save 2026-11-13"
+      "fetchedAt": "2026-11-18T12:00:00.000Z",
+      "evidence": "user browser save 2026-11-13",
+      "verifiedBy": "user 2026-11-18"
     },
     {
       "id": "f99",
       "kind": "course",
       "name": "COMPE 570",
-      "detail": "Listed as a depth-area and/or remaining-units approved course on the 2026-2027 catalog program page.",
-      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12546",
-      "quote": "COMPE 570 - VLSI System Design Units: 3",
+      "detail": "COMPE 570 VLSI System Design, SDSU 2026-27 catalog: The class will be offered for letter grade with no option to take it for Cr/NC Prerequisite(s): COMPE 470 with a grade of C (2.0) or better.",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_course_nopop.php?catoid=12&coid=88925",
+      "quote": "The class will be offered for letter grade with no option to take it for Cr/NC Prerequisite(s): COMPE 470 with a grade of C (2.0) or better.",
       "quoteFound": true,
       "quoteCheck": "manual",
       "verified": true,
-      "fetchedAt": "2026-11-14T07:29:48.542Z",
-      "evidence": "user browser save 2026-11-13"
+      "fetchedAt": "2026-11-18T12:00:00.000Z",
+      "evidence": "user browser save 2026-11-13",
+      "verifiedBy": "user 2026-11-18"
     },
     {
       "id": "f100",
       "kind": "course",
       "name": "E E 503",
-      "detail": "Listed as a depth-area and/or remaining-units approved course on the 2026-2027 catalog program page.",
-      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12546",
-      "quote": "E E 503 - Biomedical Instrumentation Units: 3",
+      "detail": "E E 503 Biomedical Instrumentation, SDSU 2026-27 catalog: Note: Prerequisites will be enforced in all undergraduate electrical engineering courses numbered 100 through 596. A copy of an official transcript will be accepted as proof. For corequisites, an enrollment confirmation form will be accepted.",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_course_nopop.php?catoid=12&coid=89150",
+      "quote": "Note: Prerequisites will be enforced in all undergraduate electrical engineering courses numbered 100 through 596. A copy of an official transcript will be accepted as proof. For corequisites, an enrollment confirmation form will be accepted.",
       "quoteFound": true,
       "quoteCheck": "manual",
       "verified": true,
-      "fetchedAt": "2026-11-14T07:29:48.542Z",
-      "evidence": "user browser save 2026-11-13"
+      "fetchedAt": "2026-11-18T12:00:00.000Z",
+      "evidence": "user browser save 2026-11-13",
+      "verifiedBy": "user 2026-11-18"
     },
     {
       "id": "f101",
       "kind": "course",
       "name": "E E 522",
-      "detail": "Listed as a depth-area and/or remaining-units approved course on the 2026-2027 catalog program page.",
-      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12546",
-      "quote": "E E 522 - Digital Control Systems Units: 3",
+      "detail": "E E 522 Digital Control Systems, SDSU 2026-27 catalog: The class will be offered for letter grade with no option to take it for Cr/NC Prerequisite(s): E E 420 . Digital controls systems;",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_course_nopop.php?catoid=12&coid=89151",
+      "quote": "The class will be offered for letter grade with no option to take it for Cr/NC Prerequisite(s): E E 420 . Digital controls systems;",
       "quoteFound": true,
       "quoteCheck": "manual",
       "verified": true,
-      "fetchedAt": "2026-11-14T07:29:48.542Z",
-      "evidence": "user browser save 2026-11-13"
+      "fetchedAt": "2026-11-19T05:30:26.654Z",
+      "evidence": "user browser save 2026-11-13",
+      "verifiedBy": "user 2026-11-18"
     },
     {
       "id": "f102",
       "kind": "course",
       "name": "E E 533",
-      "detail": "Listed as a depth-area and/or remaining-units approved course on the 2026-2027 catalog program page.",
-      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12546",
-      "quote": "E E 533 - Neuromorphic Computing Units: 3",
+      "detail": "E E 533 Neuromorphic Computing, SDSU 2026-27 catalog: The class will be offered for letter grade with no option to take it for Cr/NC Prerequisite(s): E E 330 with a grade of C (2.0) or better, or graduate standing. Ultra-low power computing electronics concepts mimicking computing by biological neurons.",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_course_nopop.php?catoid=12&coid=93426",
+      "quote": "The class will be offered for letter grade with no option to take it for Cr/NC Prerequisite(s): E E 330 with a grade of C (2.0) or better, or graduate standing. Ultra-low power computing electronics concepts mimicking computing by biological neurons.",
       "quoteFound": true,
       "quoteCheck": "manual",
       "verified": true,
-      "fetchedAt": "2026-11-14T07:29:48.542Z",
-      "evidence": "user browser save 2026-11-13"
+      "fetchedAt": "2026-11-18T12:00:00.000Z",
+      "evidence": "user browser save 2026-11-13",
+      "verifiedBy": "user 2026-11-18"
     },
     {
       "id": "f103",
       "kind": "course",
       "name": "COMPE 671",
-      "detail": "Listed as a depth-area and/or remaining-units approved course on the 2026-2027 catalog program page.",
-      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12546",
-      "quote": "COMPE 671 - VLSI Testing Units: 3",
+      "detail": "COMPE 671 VLSI Testing, SDSU 2026-27 catalog: The class will be offered for letter grade with no option to take it for Cr/NC Prerequisite(s): COMPE 470 or Graduate Standing Theory and techniques for testing VLSI circuits and systems.",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_course_nopop.php?catoid=12&coid=93103",
+      "quote": "The class will be offered for letter grade with no option to take it for Cr/NC Prerequisite(s): COMPE 470 or Graduate Standing Theory and techniques for testing VLSI circuits and systems.",
       "quoteFound": true,
       "quoteCheck": "manual",
       "verified": true,
-      "fetchedAt": "2026-11-14T07:29:48.542Z",
-      "evidence": "user browser save 2026-11-13"
+      "fetchedAt": "2026-11-18T12:00:00.000Z",
+      "evidence": "user browser save 2026-11-13",
+      "verifiedBy": "user 2026-11-18"
     },
     {
       "id": "f104",
       "kind": "course",
       "name": "E E 530",
-      "detail": "Listed as a depth-area and/or remaining-units approved course on the 2026-2027 catalog program page.",
-      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12546",
-      "quote": "E E 530 - Analog Integrated Circuit Design Units: 3",
+      "detail": "E E 530 Analog Integrated Circuit Design, SDSU 2026-27 catalog: Advanced treatment of transistor pairs, device mismatches, differential amplifiers, current mirrors, active loads, level shifting, and output stages. Parasitic and distributed device parameters. Economics of IC fabrication and impact on design.",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_course_nopop.php?catoid=12&coid=89152",
+      "quote": "Advanced treatment of transistor pairs, device mismatches, differential amplifiers, current mirrors, active loads, level shifting, and output stages. Parasitic and distributed device parameters. Economics of IC fabrication and impact on design.",
       "quoteFound": true,
       "quoteCheck": "manual",
       "verified": true,
-      "fetchedAt": "2026-11-14T07:29:48.542Z",
-      "evidence": "user browser save 2026-11-13"
+      "fetchedAt": "2026-11-18T12:00:00.000Z",
+      "evidence": "user browser save 2026-11-13",
+      "verifiedBy": "user 2026-11-18"
     },
     {
       "id": "f105",
       "kind": "course",
       "name": "E E 634",
-      "detail": "Listed as a depth-area and/or remaining-units approved course on the 2026-2027 catalog program page.",
-      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12546",
-      "quote": "E E 634 - RF Circuit Design Units: 3",
+      "detail": "E E 634 RF Circuit Design, SDSU 2026-27 catalog: The class will be offered for letter grade with no option to take it for Cr/NC Prerequisite(s): E E 540 . RF component and circuit design in frequency domain and scattering parameter terms.",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_course_nopop.php?catoid=12&coid=91986",
+      "quote": "The class will be offered for letter grade with no option to take it for Cr/NC Prerequisite(s): E E 540 . RF component and circuit design in frequency domain and scattering parameter terms.",
       "quoteFound": true,
       "quoteCheck": "manual",
       "verified": true,
-      "fetchedAt": "2026-11-14T07:29:48.542Z",
-      "evidence": "user browser save 2026-11-13"
+      "fetchedAt": "2026-11-19T05:30:26.654Z",
+      "evidence": "user browser save 2026-11-13",
+      "verifiedBy": "user 2026-11-18"
     },
     {
       "id": "f106",
       "kind": "course",
       "name": "E E 674",
-      "detail": "Listed as a depth-area and/or remaining-units approved course on the 2026-2027 catalog program page.",
-      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12546",
-      "quote": "E E 674 - Signal and Power Integrity Units: 3",
+      "detail": "E E 674 Signal and Power Integrity, SDSU 2026-27 catalog: The class will be offered for letter grade with no option to take it for Cr/NC Prerequisite(s): E E 440 and COMPE 572 . Interconnect and power distribution network design in very-large- scale integration systems packaging. High-speed transmission lines and crosstalk, macromodeling of interconnects.",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_course_nopop.php?catoid=12&coid=92001",
+      "quote": "The class will be offered for letter grade with no option to take it for Cr/NC Prerequisite(s): E E 440 and COMPE 572 . Interconnect and power distribution network design in very-large- scale integration systems packaging. High-speed transmission lines and crosstalk, macromodeling of interconnects.",
       "quoteFound": true,
       "quoteCheck": "manual",
       "verified": true,
-      "fetchedAt": "2026-11-14T07:29:48.542Z",
-      "evidence": "user browser save 2026-11-13"
+      "fetchedAt": "2026-11-19T05:30:26.654Z",
+      "evidence": "user browser save 2026-11-13",
+      "verifiedBy": "user 2026-11-18"
     },
     {
       "id": "f107",
@@ -1426,216 +1445,232 @@
       "quoteFound": true,
       "quoteCheck": "manual",
       "verified": true,
-      "fetchedAt": "2026-11-14T07:29:48.542Z",
+      "fetchedAt": "2026-11-19T05:30:26.654Z",
       "evidence": "user browser save 2026-11-13"
     },
     {
       "id": "f108",
       "kind": "course",
       "name": "E E 502",
-      "detail": "Listed as a depth-area and/or remaining-units approved course on the 2026-2027 catalog program page.",
-      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12546",
-      "quote": "E E 502 - Electronic Devices for Rehabilitation Units: 3",
+      "detail": "E E 502 Electronic Devices for Rehabilitation, SDSU 2026-27 catalog: Two lectures and three hours of laboratory. Prerequisite(s): E E 330 with a grade of C- (1.7) or better. Recent developments in electronic assistive devices and microcomputers for persons with various disabilities; assessment of disabled persons for suitable technological assistive devices.",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_course_nopop.php?catoid=12&coid=89149",
+      "quote": "Two lectures and three hours of laboratory. Prerequisite(s): E E 330 with a grade of C- (1.7) or better. Recent developments in electronic assistive devices and microcomputers for persons with various disabilities; assessment of disabled persons for suitable technological assistive devices.",
       "quoteFound": true,
       "quoteCheck": "manual",
       "verified": true,
-      "fetchedAt": "2026-11-14T07:29:48.542Z",
-      "evidence": "user browser save 2026-11-13"
+      "fetchedAt": "2026-11-18T12:00:00.000Z",
+      "evidence": "user browser save 2026-11-13",
+      "verifiedBy": "user 2026-11-18"
     },
     {
       "id": "f109",
       "kind": "course",
       "name": "E E 540",
-      "detail": "Listed as a depth-area and/or remaining-units approved course on the 2026-2027 catalog program page.",
-      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12546",
-      "quote": "E E 540 - Microwave Devices and Systems Units: 3",
+      "detail": "E E 540 Microwave Devices and Systems, SDSU 2026-27 catalog: Applications of Maxwell's equations to wave propagation. Microwave network parameters; guided wave transmission and reflection. Design of filters, couplers, power dividers and amplifiers. Applications in radar and telecommunications systems.",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_course_nopop.php?catoid=12&coid=89154",
+      "quote": "Applications of Maxwell's equations to wave propagation. Microwave network parameters; guided wave transmission and reflection. Design of filters, couplers, power dividers and amplifiers. Applications in radar and telecommunications systems.",
       "quoteFound": true,
       "quoteCheck": "manual",
       "verified": true,
-      "fetchedAt": "2026-11-14T07:29:48.542Z",
-      "evidence": "user browser save 2026-11-13"
+      "fetchedAt": "2026-11-18T12:00:00.000Z",
+      "evidence": "user browser save 2026-11-13",
+      "verifiedBy": "user 2026-11-18"
     },
     {
       "id": "f110",
       "kind": "course",
       "name": "E E 558",
-      "detail": "Listed as a depth-area and/or remaining-units approved course on the 2026-2027 catalog program page.",
-      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12546",
-      "quote": "E E 558 - Digital Communications Units: 3",
+      "detail": "E E 558 Digital Communications, SDSU 2026-27 catalog: Design of baseband digital communication systems; noise characterization, sampling, quantization, matched filter receivers, bit-error performance, inter-symbol interference, link budget analysis.",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_course_nopop.php?catoid=12&coid=89156",
+      "quote": "Design of baseband digital communication systems; noise characterization, sampling, quantization, matched filter receivers, bit-error performance, inter-symbol interference, link budget analysis.",
       "quoteFound": true,
       "quoteCheck": "manual",
       "verified": true,
-      "fetchedAt": "2026-11-14T07:29:48.542Z",
-      "evidence": "user browser save 2026-11-13"
+      "fetchedAt": "2026-11-18T12:00:00.000Z",
+      "evidence": "user browser save 2026-11-13",
+      "verifiedBy": "user 2026-11-18"
     },
     {
       "id": "f111",
       "kind": "course",
       "name": "E E 581",
-      "detail": "Listed as a depth-area and/or remaining-units approved course on the 2026-2027 catalog program page.",
-      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12546",
-      "quote": "E E 581 - Power System Dynamics Units: 3",
+      "detail": "E E 581 Power System Dynamics, SDSU 2026-27 catalog: Three-phase faults, symmetrical components, unsymmetrical faults, protective relay operating principles, economic dispatch of thermal power generation units, power system controls, voltage and power stability.",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_course_nopop.php?catoid=12&coid=89157",
+      "quote": "Three-phase faults, symmetrical components, unsymmetrical faults, protective relay operating principles, economic dispatch of thermal power generation units, power system controls, voltage and power stability.",
       "quoteFound": true,
       "quoteCheck": "manual",
       "verified": true,
-      "fetchedAt": "2026-11-14T07:29:48.542Z",
-      "evidence": "user browser save 2026-11-13"
+      "fetchedAt": "2026-11-18T12:00:00.000Z",
+      "evidence": "user browser save 2026-11-13",
+      "verifiedBy": "user 2026-11-18"
     },
     {
       "id": "f112",
       "kind": "course",
       "name": "E E 584",
-      "detail": "Listed as a depth-area and/or remaining-units approved course on the 2026-2027 catalog program page.",
-      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12546",
-      "quote": "E E 584 - Power Electronics Units: 3",
+      "detail": "E E 584 Power Electronics, SDSU 2026-27 catalog: Design and analysis of power electronic devices. Permanent-magnet and pulse-width modulation ac-to-ac converters, dc-to-ac inverters, power electronics applications, power semiconductor switches, and switch-mode power supplies. Formerly numbered: Electrical Engineering 484.",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_course_nopop.php?catoid=12&coid=89158",
+      "quote": "Design and analysis of power electronic devices. Permanent-magnet and pulse-width modulation ac-to-ac converters, dc-to-ac inverters, power electronics applications, power semiconductor switches, and switch-mode power supplies. Formerly numbered: Electrical Engineering 484.",
       "quoteFound": true,
       "quoteCheck": "manual",
       "verified": true,
-      "fetchedAt": "2026-11-14T07:29:48.542Z",
-      "evidence": "user browser save 2026-11-13"
+      "fetchedAt": "2026-11-18T12:00:00.000Z",
+      "evidence": "user browser save 2026-11-13",
+      "verifiedBy": "user 2026-11-18"
     },
     {
       "id": "f113",
       "kind": "course",
       "name": "E E 586",
-      "detail": "Listed as a depth-area and/or remaining-units approved course on the 2026-2027 catalog program page.",
-      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12546",
-      "quote": "E E 586 - Distributed Energy Resources and Smart Grid Technologies Units: 3",
+      "detail": "E E 586 Distributed Energy Resources and Smart Grid Technologies, SDSU 2026-27 catalog: The class will be offered for letter grade with no option to take it for Cr/NC Prerequisite(s): Credit or concurrent registration in E E 480 ; Graduate standing.",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_course_nopop.php?catoid=12&coid=93162",
+      "quote": "The class will be offered for letter grade with no option to take it for Cr/NC Prerequisite(s): Credit or concurrent registration in E E 480 ; Graduate standing.",
       "quoteFound": true,
       "quoteCheck": "manual",
       "verified": true,
-      "fetchedAt": "2026-11-14T07:29:48.542Z",
-      "evidence": "user browser save 2026-11-13"
+      "fetchedAt": "2026-11-19T05:30:26.654Z",
+      "evidence": "user browser save 2026-11-13",
+      "verifiedBy": "user 2026-11-18"
     },
     {
       "id": "f114",
       "kind": "course",
       "name": "E E 601",
-      "detail": "Listed as a depth-area and/or remaining-units approved course on the 2026-2027 catalog program page.",
-      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12546",
-      "quote": "E E 601 - Linear System Theory and Design Units: 3",
+      "detail": "E E 601 Linear System Theory and Design, SDSU 2026-27 catalog: The class will be offered for letter grade with no option to take it for Cr/NC Prerequisite(s): E E 420 . State models and solutions of the state equations, stability, controllability and observability, realizability and minimal realizations, linear state and output feedback control, introduction",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_course_nopop.php?catoid=12&coid=91983",
+      "quote": "The class will be offered for letter grade with no option to take it for Cr/NC Prerequisite(s): E E 420 . State models and solutions of the state equations, stability, controllability and observability, realizability and minimal realizations, linear state and output feedback control, introduction",
       "quoteFound": true,
       "quoteCheck": "manual",
       "verified": true,
-      "fetchedAt": "2026-11-14T07:29:48.542Z",
-      "evidence": "user browser save 2026-11-13"
+      "fetchedAt": "2026-11-19T05:30:26.654Z",
+      "evidence": "user browser save 2026-11-13",
+      "verifiedBy": "user 2026-11-18"
     },
     {
       "id": "f115",
       "kind": "course",
       "name": "E E 641",
-      "detail": "Listed as a depth-area and/or remaining-units approved course on the 2026-2027 catalog program page.",
-      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12546",
-      "quote": "E E 641 - RF Wireless Systems Units: 3",
+      "detail": "E E 641 RF Wireless Systems, SDSU 2026-27 catalog: The class will be offered for letter grade with no option to take it for Cr/NC Prerequisite(s): E E 440 , E E 558 , E E 602 .",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_course_nopop.php?catoid=12&coid=91987",
+      "quote": "The class will be offered for letter grade with no option to take it for Cr/NC Prerequisite(s): E E 440 , E E 558 , E E 602 .",
       "quoteFound": true,
       "quoteCheck": "manual",
       "verified": true,
-      "fetchedAt": "2026-11-14T07:29:48.542Z",
-      "evidence": "user browser save 2026-11-13"
+      "fetchedAt": "2026-11-19T05:30:26.654Z",
+      "evidence": "user browser save 2026-11-13",
+      "verifiedBy": "user 2026-11-18"
     },
     {
       "id": "f116",
       "kind": "course",
       "name": "E E 645",
-      "detail": "Listed as a depth-area and/or remaining-units approved course on the 2026-2027 catalog program page.",
-      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12546",
-      "quote": "E E 645 - Antennas and Propagation Units: 3",
+      "detail": "E E 645 Antennas and Propagation, SDSU 2026-27 catalog: The class will be offered for letter grade with no option to take it for Cr/NC Prerequisite(s): E E 440 . Antenna radiation mechanism, antenna types, fundamental antenna parameters, microstrip patch antennas, theory and design of various array and wire antennas, antenna measurement techniques and",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_course_nopop.php?catoid=12&coid=91988",
+      "quote": "The class will be offered for letter grade with no option to take it for Cr/NC Prerequisite(s): E E 440 . Antenna radiation mechanism, antenna types, fundamental antenna parameters, microstrip patch antennas, theory and design of various array and wire antennas, antenna measurement techniques and",
       "quoteFound": true,
       "quoteCheck": "manual",
       "verified": true,
-      "fetchedAt": "2026-11-14T07:29:48.542Z",
-      "evidence": "user browser save 2026-11-13"
+      "fetchedAt": "2026-11-19T05:30:26.654Z",
+      "evidence": "user browser save 2026-11-13",
+      "verifiedBy": "user 2026-11-18"
     },
     {
       "id": "f117",
       "kind": "course",
       "name": "E E 650",
-      "detail": "Listed as a depth-area and/or remaining-units approved course on the 2026-2027 catalog program page.",
-      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12546",
-      "quote": "E E 650 - Modern Communication Theory Units: 3",
+      "detail": "E E 650 Modern Communication Theory, SDSU 2026-27 catalog: The class will be offered for letter grade with no option to take it for Cr/NC Prerequisite(s): E E 558 and E E 602 . Wireless digital communication; bandpass modulation and demodulation, multiple access techniques, broadband signaling techniques, spread spectrum techniques;",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_course_nopop.php?catoid=12&coid=91989",
+      "quote": "The class will be offered for letter grade with no option to take it for Cr/NC Prerequisite(s): E E 558 and E E 602 . Wireless digital communication; bandpass modulation and demodulation, multiple access techniques, broadband signaling techniques, spread spectrum techniques;",
       "quoteFound": true,
       "quoteCheck": "manual",
       "verified": true,
-      "fetchedAt": "2026-11-14T07:29:48.542Z",
-      "evidence": "user browser save 2026-11-13"
+      "fetchedAt": "2026-11-19T05:30:26.654Z",
+      "evidence": "user browser save 2026-11-13",
+      "verifiedBy": "user 2026-11-18"
     },
     {
       "id": "f118",
       "kind": "course",
       "name": "E E 652",
-      "detail": "Listed as a depth-area and/or remaining-units approved course on the 2026-2027 catalog program page.",
-      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12546",
-      "quote": "E E 652 - Principles and Applications of Information Theory Units: 3",
+      "detail": "E E 652 Principles and Applications of Information Theory, SDSU 2026-27 catalog: The class will be offered for letter grade with no option to take it for Cr/NC Prerequisite(s): E E 558 and E E 602 . Information measure of data sources; Shannon's theorem and capacity of communication links; rate-distortion theory and performance of source codes.",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_course_nopop.php?catoid=12&coid=91990",
+      "quote": "The class will be offered for letter grade with no option to take it for Cr/NC Prerequisite(s): E E 558 and E E 602 . Information measure of data sources; Shannon's theorem and capacity of communication links; rate-distortion theory and performance of source codes.",
       "quoteFound": true,
       "quoteCheck": "manual",
       "verified": true,
-      "fetchedAt": "2026-11-14T07:29:48.542Z",
-      "evidence": "user browser save 2026-11-13"
+      "fetchedAt": "2026-11-19T05:30:26.654Z",
+      "evidence": "user browser save 2026-11-13",
+      "verifiedBy": "user 2026-11-18"
     },
     {
       "id": "f119",
       "kind": "course",
       "name": "E E 653",
-      "detail": "Listed as a depth-area and/or remaining-units approved course on the 2026-2027 catalog program page.",
-      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12546",
-      "quote": "E E 653 - Coding Theory Units: 3",
+      "detail": "E E 653 Coding Theory, SDSU 2026-27 catalog: The class will be offered for letter grade with no option to take it for Cr/NC Prerequisite(s): E E 558 . Error control for digital information; arithmetic of Galois fields; block, cyclic, convolutional and turbo encoding and decoding; applications in digital communication and computer systems.",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_course_nopop.php?catoid=12&coid=91991",
+      "quote": "The class will be offered for letter grade with no option to take it for Cr/NC Prerequisite(s): E E 558 . Error control for digital information; arithmetic of Galois fields; block, cyclic, convolutional and turbo encoding and decoding; applications in digital communication and computer systems.",
       "quoteFound": true,
       "quoteCheck": "manual",
       "verified": true,
-      "fetchedAt": "2026-11-14T07:29:48.542Z",
-      "evidence": "user browser save 2026-11-13"
+      "fetchedAt": "2026-11-19T05:30:26.654Z",
+      "evidence": "user browser save 2026-11-13",
+      "verifiedBy": "user 2026-11-18"
     },
     {
       "id": "f120",
       "kind": "course",
       "name": "E E 654",
-      "detail": "Listed as a depth-area and/or remaining-units approved course on the 2026-2027 catalog program page.",
-      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12546",
-      "quote": "E E 654 - Adaptive Filter Design Units: 3",
+      "detail": "E E 654 Adaptive Filter Design, SDSU 2026-27 catalog: The class will be offered for letter grade with no option to take it for Cr/NC Prerequisite(s): E E 450 and E E 602 . Constrained and unconstrained Wiener filters. Performance surfaces and gradient-based search methods. LMS and RLS algorithms. Lattice filters.",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_course_nopop.php?catoid=12&coid=91992",
+      "quote": "The class will be offered for letter grade with no option to take it for Cr/NC Prerequisite(s): E E 450 and E E 602 . Constrained and unconstrained Wiener filters. Performance surfaces and gradient-based search methods. LMS and RLS algorithms. Lattice filters.",
       "quoteFound": true,
       "quoteCheck": "manual",
       "verified": true,
-      "fetchedAt": "2026-11-14T07:29:48.542Z",
-      "evidence": "user browser save 2026-11-13"
+      "fetchedAt": "2026-11-19T05:30:26.654Z",
+      "evidence": "user browser save 2026-11-13",
+      "verifiedBy": "user 2026-11-18"
     },
     {
       "id": "f121",
       "kind": "course",
       "name": "E E 655",
-      "detail": "Listed as a depth-area and/or remaining-units approved course on the 2026-2027 catalog program page.",
-      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12546",
-      "quote": "E E 655 - Modem Design Units: 3",
+      "detail": "E E 655 Modem Design, SDSU 2026-27 catalog: The class will be offered for letter grade with no option to take it for Cr/NC Prerequisite(s): E E 450 and E E 558 . System level and DSP design of modems for wireless and wireline communications. Study modems for QAM, OFDM, CDMA, and T-1 modulation.",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_course_nopop.php?catoid=12&coid=91993",
+      "quote": "The class will be offered for letter grade with no option to take it for Cr/NC Prerequisite(s): E E 450 and E E 558 . System level and DSP design of modems for wireless and wireline communications. Study modems for QAM, OFDM, CDMA, and T-1 modulation.",
       "quoteFound": true,
       "quoteCheck": "manual",
       "verified": true,
-      "fetchedAt": "2026-11-14T07:29:48.542Z",
-      "evidence": "user browser save 2026-11-13"
+      "fetchedAt": "2026-11-19T05:30:26.654Z",
+      "evidence": "user browser save 2026-11-13",
+      "verifiedBy": "user 2026-11-18"
     },
     {
       "id": "f122",
       "kind": "course",
       "name": "E E 658",
-      "detail": "Listed as a depth-area and/or remaining-units approved course on the 2026-2027 catalog program page.",
-      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12546",
-      "quote": "E E 658 - Advanced Digital Signal Processing Units: 3",
+      "detail": "E E 658 Advanced Digital Signal Processing, SDSU 2026-27 catalog: The class will be offered for letter grade with no option to take it for Cr/NC Prerequisite(s): E E 450 and E E 602 . Advanced topics in FIR and IIR filter design. Quantization effects in digital filters. Sigma-delta modulation. Signal modeling. Parametric and non-parametric spectral estimation.",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_course_nopop.php?catoid=12&coid=91996",
+      "quote": "The class will be offered for letter grade with no option to take it for Cr/NC Prerequisite(s): E E 450 and E E 602 . Advanced topics in FIR and IIR filter design. Quantization effects in digital filters. Sigma-delta modulation. Signal modeling. Parametric and non-parametric spectral estimation.",
       "quoteFound": true,
       "quoteCheck": "manual",
       "verified": true,
-      "fetchedAt": "2026-11-14T07:29:48.542Z",
-      "evidence": "user browser save 2026-11-13"
+      "fetchedAt": "2026-11-19T05:30:26.654Z",
+      "evidence": "user browser save 2026-11-13",
+      "verifiedBy": "user 2026-11-18"
     },
     {
       "id": "f123",
       "kind": "course",
       "name": "E E 684",
-      "detail": "Listed as a depth-area and/or remaining-units approved course on the 2026-2027 catalog program page.",
-      "sourceUrl": "https://catalog.sdsu.edu/preview_program.php?catoid=12&poid=12546",
-      "quote": "E E 684 - Advanced Power Electronics Units: 3",
+      "detail": "E E 684 Advanced Power Electronics, SDSU 2026-27 catalog: The class will be offered for letter grade with no option to take it for Cr/NC Prerequisite(s): E E 584 and E E 601 . Advanced modeling strategies for bidirectional converters, DC/ DC converters, design and integration of power electronics interfaces into smart girds, multi-level inverters",
+      "sourceUrl": "https://catalog.sdsu.edu/preview_course_nopop.php?catoid=12&coid=92002",
+      "quote": "The class will be offered for letter grade with no option to take it for Cr/NC Prerequisite(s): E E 584 and E E 601 . Advanced modeling strategies for bidirectional converters, DC/ DC converters, design and integration of power electronics interfaces into smart girds, multi-level inverters",
       "quoteFound": true,
       "quoteCheck": "manual",
       "verified": true,
-      "fetchedAt": "2026-11-14T07:29:48.542Z",
-      "evidence": "user browser save 2026-11-13"
+      "fetchedAt": "2026-11-19T05:30:26.654Z",
+      "evidence": "user browser save 2026-11-13",
+      "verifiedBy": "user 2026-11-18"
     }
   ]
 }

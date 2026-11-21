@@ -1,5 +1,5 @@
 # California State University, Fullerton — Software Engineering, M.S. (online)
-Snapshot: 7-20261114
+Snapshot: 7-20261119
 
 ## Failed quotes
 - [course] First-year fall schedule (f30) — https://www.fullerton.edu/ecs/mse/programs/courses.php

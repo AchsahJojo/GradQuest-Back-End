@@ -1,0 +1,24 @@
+HTTP/1.1 301 Moved Permanently
+Date: Thu, 19 Nov 2026 04:10:36 GMT
+Server: Apache
+X-XSS-Protection: 1; mode=block
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Location: https://www.ecst.csuchico.edu/~bjuliano/
+Content-Length: 248
+Content-Type: text/html; charset=iso-8859-1
+
+HTTP/1.1 200 OK
+Date: Thu, 19 Nov 2026 04:10:36 GMT
+Server: Apache
+X-XSS-Protection: 1; mode=block
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Last-Modified: Tue, 15 Sep 2026 16:37:00 GMT
+ETag: "2191-65b8828e46300-gzip"
+Accept-Ranges: bytes
+Vary: Accept-Encoding
+Content-Encoding: gzip
+X-Content-Type-Options: nosniff
+X-Frame-Options: sameorigin
+Content-Length: 3159
+Content-Type: text/html
+

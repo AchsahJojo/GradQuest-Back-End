@@ -39,6 +39,19 @@ function emptyFactCounts(): Record<FactKind, number> {
   };
 }
 
+function parseCachedSnapshot(json: string | undefined): Snapshot | null {
+  if (!json) return null;
+  try {
+    const parsed = JSON.parse(json) as Snapshot;
+    if (!parsed || typeof parsed.snapshotId !== "string" || typeof parsed.verifiedAt !== "string") {
+      return null;
+    }
+    return parsed;
+  } catch {
+    return null;
+  }
+}
+
 function countFacts(snapshot: Snapshot): Record<FactKind, number> {
   const counts = emptyFactCounts();
   for (const fact of snapshot.facts) counts[fact.kind] += 1;
@@ -59,8 +72,20 @@ export async function resolveProgramRead(input: {
   if (input.db) {
     const snapshot = await new D1FactStore(input.db).latest(schoolId);
     if (snapshot) {
-      input
-        .sql`INSERT OR REPLACE INTO snapshot_reads (school_id, snapshot_json) VALUES (${schoolId}, ${JSON.stringify(snapshot)})`;
+      const cachedRows = input.sql<{ snapshot_json: string }>`
+        SELECT snapshot_json FROM snapshot_reads WHERE school_id = ${schoolId}
+      `;
+      const cached = parseCachedSnapshot(cachedRows[0]?.snapshot_json);
+      const cacheFresh =
+        cached != null &&
+        (cached.snapshotId === snapshot.snapshotId || cached.verifiedAt === snapshot.verifiedAt);
+      if (!cacheFresh) {
+        input
+          .sql`INSERT OR REPLACE INTO snapshot_reads (school_id, snapshot_json) VALUES (${schoolId}, ${JSON.stringify(snapshot)})`;
+        if (cached) {
+          input.sql`DELETE FROM overlap_reads WHERE school_id = ${schoolId}`;
+        }
+      }
       input.setPageStatus("ok");
       return {
         response: {

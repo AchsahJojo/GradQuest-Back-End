@@ -1,0 +1,20 @@
+[display_name]
+Rida Bazzi
+
+[titles]
+Associate Professor
+
+[primary_department]
+School of Computing and Augmented Intelligence
+
+[research_interests]
+Distributed Computing, Blockchain, Fault Tolerance, Security
+
+[expertise_areas]
+
+
+[short_bio]
+Bazzi joined ASU in 1996. His areas of expertise include distributed computing, fault tolerance and computer security.
+
+[bio]
+Rida Bazzi joined ASU in 1996. He is an associate professor in the School of Computing and Augmented Intelligence at Arizona State University. Prior to ASU, he served as an assistant professor at Florida International University in the 1995-1996 academic year and prior to that he was a senior consultant at I-Cube, a startup company in Cambridge, Massachusetts. His areas of expertise include distributed computing, fault tolerance and computer security.

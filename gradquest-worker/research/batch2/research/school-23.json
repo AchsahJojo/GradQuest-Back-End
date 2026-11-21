@@ -163,7 +163,10 @@
       "name": "700-level computer science minimum (department page)",
       "detail": "Department requirements: at least 18 credits of computer science courses must be at the 700 level. The 2026–27 plans of study also quote a Graduate College 50-percent 700-level rule; both are reported.",
       "sourceUrl": "https://www.unlv.edu/cs/graduate/masters",
-      "quote": "At least 18 credits of computer science courses must be at the 700 level."
+      "quote": "At least 18 credits of computer science courses must be at the 700 level.",
+      "verified": false,
+      "rejectedReason": "Replaced by subplan-specific 700-level rules f75/f77/f78; user decision 2026-11-18",
+      "verifiedBy": "user 2026-11-18"
     },
     {
       "id": "f8",
@@ -187,7 +190,10 @@
       "name": "3.0 GPA while in the program",
       "detail": "A GPA of 3.0 or higher must be maintained; below that, probation, then possible drop if it stays below 3.0 the next regular semester.",
       "sourceUrl": "https://www.unlv.edu/cs/graduate/masters",
-      "quote": "A GPA of 3.0 or higher must be maintained at all times while in the program."
+      "quote": "A GPA of 3.0 or higher must be maintained at all times while in the program.",
+      "verified": false,
+      "rejectedReason": "Superseded by catalog f82 (GPA 3.00 by end of two subsequent semesters); user decision 2026-11-18",
+      "verifiedBy": "user 2026-11-18"
     },
     {
       "id": "f11",
@@ -235,7 +241,10 @@
       "name": "Graduate College 700-level share (plans of study)",
       "detail": "The 2026-27 plans of study state that a minimum of 50 percent of the degree program must be 700-level courses, excluding thesis, dissertation, or professional/scholarly paper. This sits beside the department page's 'at least 18 credits of computer science courses must be at the 700 level.'",
       "sourceUrl": "https://www.unlv.edu/sites/default/files/media/document/2026-07/2026-27-MS-CS-Thesis.docx",
-      "quote": "A minimum of 50 percent of the degree program must be 700-level courses excluding thesis, dissertation, or professional/scholarly paper."
+      "quote": "A minimum of 50 percent of the degree program must be 700-level courses excluding thesis, dissertation, or professional/scholarly paper.",
+      "verified": false,
+      "rejectedReason": "Replaced by subplan-specific 700-level rules f75/f77/f78; user decision 2026-11-18",
+      "verifiedBy": "user 2026-11-18"
     },
     {
       "id": "f17",
@@ -283,7 +292,10 @@
       "name": "M.S. GPA minimum",
       "detail": "M.S. admissions: a minimal GPA of 2.75 overall or 3.0 on the last two years of undergraduate work.",
       "sourceUrl": "https://www.unlv.edu/cs/admissions",
-      "quote": "A minimal grade point average (GPA) of 2.75 overall or 3.0 on the last two years of undergraduate work."
+      "quote": "A minimal grade point average (GPA) of 2.75 overall or 3.0 on the last two years of undergraduate work.",
+      "verified": false,
+      "rejectedReason": "Superseded by catalog f66 (department minimum GPA 3.00); user chose 3.0 on 2026-11-18",
+      "verifiedBy": "user 2026-11-18"
     },
     {
       "id": "f23",

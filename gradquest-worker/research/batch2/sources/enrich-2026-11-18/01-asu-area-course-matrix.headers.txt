@@ -1,0 +1,17 @@
+HTTP/2 200 
+date: Thu, 19 Nov 2026 04:14:27 GMT
+content-type: application/pdf
+content-length: 89107
+server: cloudflare
+last-modified: Wed, 26 Apr 2023 20:36:52 GMT
+etag: "64498b64-15c13"
+age: 6
+cache-control: public, max-age=31536000
+vary: Accept-Encoding
+access-control-allow-origin: *
+accept-ranges: bytes
+set-cookie: __cf_bm=vBCCBBZSMUXgQydJQrSZ_trFc7Hh8tS.rVvWEMeVJiA-1795061667.7228625-1.0.1.1-UAXWZWmwf1Bs7YuVb3WYODKrZlrn3M0YXrNSZEpnJihAp.cz3e_xEWEKETuF_WusffDnEUw9WAxjQ1nb.qA_f.h2qpYYc9yAwWViVWu70Rdgal7wHm.X748bPUi0e4_k; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=scai.engineering.asu.edu; Expires=Thu, 19 Nov 2026 04:44:27 GMT
+cf-cache-status: HIT
+cf-ray: a5cc635f3949394a-IAD
+alt-svc: h3=":443"; ma=86400
+

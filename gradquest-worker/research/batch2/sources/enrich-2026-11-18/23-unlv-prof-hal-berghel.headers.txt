@@ -1,0 +1,32 @@
+HTTP/2 200 
+cache-control: max-age=3600, public
+content-encoding: gzip
+content-language: en
+content-security-policy: report-uri /report-csp-violation; upgrade-insecure-requests; object-src 'none'; base-uri 'self'
+content-type: text/html; charset=UTF-8
+etag: W/"1795061778"
+expires: Sun, 19 Nov 1978 05:00:00 GMT
+from-origin: same
+last-modified: Thu, 19 Nov 2026 04:16:18 GMT
+link: </themes/custom/mars/global/logos/apple-touch-icon.png>; rel="apple-touch-icon"
+permissions-policy: camera=(), microphone=(), display-capture=(), usb=(), serial=(), hid=(), bluetooth=()
+referrer-policy: strict-origin-when-cross-origin
+server: nginx
+x-content-security-policy: report-uri /report-csp-violation; upgrade-insecure-requests
+x-content-type-options: nosniff
+x-frame-options: SAMEORIGIN
+x-styx-req-id: f7d15f8a-e3cf-11f1-8158-76715950c39a
+x-webkit-csp: report-uri /report-csp-violation; upgrade-insecure-requests
+x-xss-protection: 0
+age: 0
+accept-ranges: bytes
+via: 1.1 varnish, 1.1 varnish, 1.1 varnish, 1.1 varnish
+strict-transport-security: max-age=31536000; includeSubDomains
+date: Thu, 19 Nov 2026 04:16:18 GMT
+x-served-by: cache-chi-klot8100106-CHI, cache-iad-kcgs7200142-IAD, cache-iad-kiad7000065-IAD, cache-iad-kiad7000065-IAD
+x-cache: MISS, MISS, MISS, MISS
+x-cache-hits: 0, 0, 0, 0
+x-timer: S1795061778.041408,VS0,VE755
+vary: Accept-Encoding, Cookie, Cookie, Cookie
+content-length: 11623
+

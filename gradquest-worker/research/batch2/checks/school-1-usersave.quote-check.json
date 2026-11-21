@@ -1,0 +1,151 @@
+{
+  "schoolId": 1,
+  "checkedAt": "2026-11-18T20:49:12-0800",
+  "pass": 13,
+  "fail": 0,
+  "results": [
+    {
+      "id": "f57",
+      "name": "Plan code ESCOMSCMS",
+      "kind": "overview",
+      "sourceUrl": "https://degrees.asu.edu/masters-phd/major/ASU00/ESCOMSCMS/computer-science-ms",
+      "sourceFile": "sources/catalog-user-saved/school-1-asu-cs-ms-degree-page.html",
+      "quoteLen": 20,
+      "quoteFound": true,
+      "reason": "OK",
+      "foundInRawHtml": null
+    },
+    {
+      "id": "f58",
+      "name": "Higher Learning Commission accreditation",
+      "kind": "overview",
+      "sourceUrl": "https://degrees.asu.edu/masters-phd/major/ASU00/ESCOMSCMS/computer-science-ms",
+      "sourceFile": "sources/catalog-user-saved/school-1-asu-cs-ms-degree-page.html",
+      "quoteLen": 45,
+      "quoteFound": true,
+      "reason": "OK",
+      "foundInRawHtml": null
+    },
+    {
+      "id": "f59",
+      "name": "Advanced topic areas (full list, first half)",
+      "kind": "overview",
+      "sourceUrl": "https://degrees.asu.edu/masters-phd/major/ASU00/ESCOMSCMS/computer-science-ms",
+      "sourceFile": "sources/catalog-user-saved/school-1-asu-cs-ms-degree-page.html",
+      "quoteLen": 186,
+      "quoteFound": true,
+      "reason": "OK",
+      "foundInRawHtml": null
+    },
+    {
+      "id": "f60",
+      "name": "Advanced topic areas (full list, second half)",
+      "kind": "overview",
+      "sourceUrl": "https://degrees.asu.edu/masters-phd/major/ASU00/ESCOMSCMS/computer-science-ms",
+      "sourceFile": "sources/catalog-user-saved/school-1-asu-cs-ms-degree-page.html",
+      "quoteLen": 299,
+      "quoteFound": true,
+      "reason": "OK",
+      "foundInRawHtml": null
+    },
+    {
+      "id": "f61",
+      "name": "Core courses may not also count as electives",
+      "kind": "requirement",
+      "sourceUrl": "https://degrees.asu.edu/masters-phd/major/ASU00/ESCOMSCMS/computer-science-ms",
+      "sourceFile": "sources/catalog-user-saved/school-1-asu-cs-ms-degree-page.html",
+      "quoteLen": 108,
+      "quoteFound": true,
+      "reason": "OK",
+      "foundInRawHtml": null
+    },
+    {
+      "id": "f62",
+      "name": "Thesis electives must be in a chosen research area",
+      "kind": "requirement",
+      "sourceUrl": "https://degrees.asu.edu/masters-phd/major/ASU00/ESCOMSCMS/computer-science-ms",
+      "sourceFile": "sources/catalog-user-saved/school-1-asu-cs-ms-degree-page.html",
+      "quoteLen": 99,
+      "quoteFound": true,
+      "reason": "OK",
+      "foundInRawHtml": null
+    },
+    {
+      "id": "e13",
+      "name": "CSE 590 Reading and Conference",
+      "kind": "course",
+      "sourceUrl": "https://degrees.asu.edu/masters-phd/major/ASU00/ESCOMSCMS/computer-science-ms",
+      "sourceFile": "sources/catalog-user-saved/school-1-asu-cs-ms-degree-page.html",
+      "quoteLen": 82,
+      "quoteFound": true,
+      "reason": "OK",
+      "foundInRawHtml": null
+    },
+    {
+      "id": "e14",
+      "name": "Primary admission factors",
+      "kind": "requirement",
+      "sourceUrl": "https://degrees.asu.edu/masters-phd/major/ASU00/ESCOMSCMS/computer-science-ms",
+      "sourceFile": "sources/catalog-user-saved/school-1-asu-cs-ms-degree-page.html",
+      "quoteLen": 139,
+      "quoteFound": true,
+      "reason": "OK",
+      "foundInRawHtml": null
+    },
+    {
+      "id": "e15",
+      "name": "English proficiency regardless of residency",
+      "kind": "requirement",
+      "sourceUrl": "https://degrees.asu.edu/masters-phd/major/ASU00/ESCOMSCMS/computer-science-ms",
+      "sourceFile": "sources/catalog-user-saved/school-1-asu-cs-ms-degree-page.html",
+      "quoteLen": 130,
+      "quoteFound": true,
+      "reason": "OK",
+      "foundInRawHtml": null
+    },
+    {
+      "id": "e16",
+      "name": "Accelerated bachelor's plus master's partner programs",
+      "kind": "overview",
+      "sourceUrl": "https://degrees.asu.edu/masters-phd/major/ASU00/ESCOMSCMS/computer-science-ms",
+      "sourceFile": "sources/catalog-user-saved/school-1-asu-cs-ms-degree-page.html",
+      "quoteLen": 100,
+      "quoteFound": true,
+      "reason": "OK",
+      "foundInRawHtml": null
+    },
+    {
+      "id": "e17",
+      "name": "Accelerated master's approval in the junior year",
+      "kind": "requirement",
+      "sourceUrl": "https://degrees.asu.edu/masters-phd/major/ASU00/ESCOMSCMS/computer-science-ms",
+      "sourceFile": "sources/catalog-user-saved/school-1-asu-cs-ms-degree-page.html",
+      "quoteLen": 122,
+      "quoteFound": true,
+      "reason": "OK",
+      "foundInRawHtml": null
+    },
+    {
+      "id": "e18",
+      "name": "Career examples",
+      "kind": "overview",
+      "sourceUrl": "https://degrees.asu.edu/masters-phd/major/ASU00/ESCOMSCMS/computer-science-ms",
+      "sourceFile": "sources/catalog-user-saved/school-1-asu-cs-ms-degree-page.html",
+      "quoteLen": 214,
+      "quoteFound": true,
+      "reason": "OK",
+      "foundInRawHtml": null
+    },
+    {
+      "id": "e19",
+      "name": "STEM-OPT is a 24-month extension of 12-month OPT, not for ASU Online",
+      "kind": "overview",
+      "sourceUrl": "https://degrees.asu.edu/masters-phd/major/ASU00/ESCOMSCMS/computer-science-ms",
+      "sourceFile": "sources/catalog-user-saved/school-1-asu-cs-ms-degree-page.html",
+      "quoteLen": 140,
+      "quoteFound": true,
+      "reason": "OK",
+      "foundInRawHtml": null
+    }
+  ]
+}

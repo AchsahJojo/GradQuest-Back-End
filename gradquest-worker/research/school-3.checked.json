@@ -56,16 +56,16 @@
       "url": "https://www.calpoly.edu/admissions/graduate-student/dates-and-deadlines"
     }
   ],
-  "snapshotId": "3-20261109",
-  "verifiedAt": "2026-11-09T21:52:47.713Z",
+  "snapshotId": "3-20261119",
+  "verifiedAt": "2026-11-19T05:32:00.696Z",
   "pageHashes": {
     "https://csc.calpoly.edu/gr/": "76534f95d1e3215d5b621ff749da52b4964298c1a60d924f80c05034fbce1e30",
     "https://catalog.calpoly.edu/engineering/computer-science-software/computer-science-ms/": "2e81d8dc8a4aef0413ef4a7e5788dc7367a09523fb986f593934feb18608b583",
     "https://csc.calpoly.edu/gr/ms-degree-requirements-2/": "2df2ce7e2844a87f93132858051e84f177736d9fff55ce1a043ef973b396ec8a",
     "https://csc.calpoly.edu/gr/thesis-coursework/": "2694450fdafc7433260cf5b1a75759350e5bd200e0e8a48ff7483aa79ce9fc96",
-    "https://csc.calpoly.edu/faculty/": "c40d799c3a37bffffcd57a2b0e835df15a76e64de84dd4537b337e583ca3fb8a",
+    "https://csc.calpoly.edu/faculty/": "5496deb6ddf6bd2aaffa4664ca80d5302818ba7622896f57f2b43037c1f13559",
     "https://foaad.net/": "5c6e02e494cb262c2c3cf0925edb2325137b69dae41134ebc3a982ee20c02e28",
-    "https://ayaankazerouni.org/": "c78b27a4cd537d6b4c9b5f719008af78463178f34a01d86380ef37a6278bc0af",
+    "https://ayaankazerouni.org/": "e06eaaa0169d8f15374e469bc81edf66d4b102f0108e0b179b4c1dfc423809fe",
     "https://www.calpoly.edu/admissions/graduate-student/dates-and-deadlines": "84a1f0615b71686afd84d69995cfde944ea71b6ab930d9714b400acfd030039d"
   },
   "facts": [
@@ -496,9 +496,9 @@
       "detail": "Department-wide CSSE faculty listing (not MS-program-specific). Research interests: Software Engineering, Intelligent Systems Engineering, Software Product Lines, Human-Computer Interaction, Emotion AI (Affective Computing), Machine Learning, Augmented Reality, CS Education",
       "sourceUrl": "https://csc.calpoly.edu/faculty/",
       "quote": "Software Engineering, Intelligent Systems Engineering, Software Product Lines, Human-Computer Interaction, Emotion AI (Affective Computing), Machine Learning, Augmented Reality, CS Education",
-      "quoteFound": true,
+      "quoteFound": false,
       "verified": true,
-      "fetchedAt": "2026-11-06T22:45:09.630Z",
+      "fetchedAt": "2026-11-19T05:32:00.696Z",
       "quoteCheck": "auto"
     },
     {
@@ -568,9 +568,9 @@
       "detail": "Department-wide CSSE faculty listing (not MS-program-specific). Research interests: Security, Cryptographic Engineering, Computer Security Education, Storage Systems, Games and Play, Interactive Fiction, Interactive Art, Applied Cryptography",
       "sourceUrl": "https://csc.calpoly.edu/faculty/",
       "quote": "Security, Cryptographic Engineering, Computer Security Education, Storage Systems, Games and Play, Interactive Fiction, Interactive Art, Applied Cryptography",
-      "quoteFound": true,
+      "quoteFound": false,
       "verified": true,
-      "fetchedAt": "2026-11-06T22:45:09.630Z",
+      "fetchedAt": "2026-11-19T05:32:00.696Z",
       "quoteCheck": "auto"
     },
     {

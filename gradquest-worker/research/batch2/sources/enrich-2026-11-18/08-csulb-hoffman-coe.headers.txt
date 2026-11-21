@@ -1,0 +1,51 @@
+HTTP/2 301 
+content-type: text/html; charset=utf-8
+content-length: 546
+x-redirect-id: 1818631
+content-language: en
+x-content-type-options: nosniff
+x-frame-options: SAMEORIGIN
+x-generator: Drupal 10 (https://www.drupal.org)
+content-security-policy-report-only: script-src 'self' cdnjs.cloudflare.com https://cdn.ckeditor.com https://maxcdn.bootstrapcdn.com https://www.google.com; style-src 'self' https://maxcdn.bootstrapcdn.com https://use.fontawesome.com
+content-security-policy: frame-src 'self' https://sketchfab.com/ https://www.google.com/ https://calendar.google.com/ https://cdnapisec.kaltura.com/ https://web.csulb.edu/ https://www.youtube.com/ https://csulb.qualtrics.com/ https://csulb.mediaspace.kaltura.com/ https://www.youtube-nocookie.com/ https://screencast-o-matic.com/ https://go.screenpal.com/ https://player.vimeo.com/ https://vimeo.com/ https://www.instagram.com/ https://webchat.livetilesbots.com/ https://online.anyflip.com/ https://static.symplicity.com/ https://webchat.botframework.com/ https://go.cpace.csulb.edu/ https://yoshki.com/ https://express.adobe.com/ https://cc-api-cp.adobe.io/ https://widget.lightcastcc.com/ https://sites.csulb.edu/ https://forms.office.com/ https://forms.cloud.microsoft/ https://pro.smartplayer.video/ https://www.csulb.edu/ https://csulb.edu/ https://youtu.be.com/ https://data.ir.csulb.edu/ https://bot.io.gravyty.com https://t.sharethis.com https://www.googletagmanager.com
+x-drupal-cache: MISS
+location: https://www.csulb.edu/hung-family-college-of-engineering/dr-michael-hoffman
+last-modified: Thu, 19 Nov 2026 04:12:54 GMT
+etag: "1795061574"
+x-request-id: v-7e8152ca-e3cf-11f1-82e7-9b3be3566694
+x-ah-environment: prod
+x-age: 0
+cache-control: public, max-age=300
+expires: Thu, 19 Nov 2026 04:17:54 GMT
+date: Thu, 19 Nov 2026 04:12:54 GMT
+server-timing: cdn-cache; desc=MISS
+server-timing: edge; dur=167
+server-timing: origin; dur=364
+strict-transport-security: max-age=15768000
+server-timing: ak_p; desc="1795061574008_400425109_533360479_53077_12377_50_115_15";dur=1
+
+HTTP/2 403 
+content-type: text/html; charset=UTF-8
+content-length: 48028
+x-drupal-dynamic-cache: UNCACHEABLE (poor cacheability)
+x-drupal-cache: MISS
+content-language: en
+x-content-type-options: nosniff
+x-frame-options: SAMEORIGIN
+x-generator: Drupal 10 (https://www.drupal.org)
+content-security-policy-report-only: script-src 'self' cdnjs.cloudflare.com https://cdn.ckeditor.com https://maxcdn.bootstrapcdn.com https://www.google.com; style-src 'self' https://maxcdn.bootstrapcdn.com https://use.fontawesome.com
+content-security-policy: frame-src 'self' https://sketchfab.com/ https://www.google.com/ https://calendar.google.com/ https://cdnapisec.kaltura.com/ https://web.csulb.edu/ https://www.youtube.com/ https://csulb.qualtrics.com/ https://csulb.mediaspace.kaltura.com/ https://www.youtube-nocookie.com/ https://screencast-o-matic.com/ https://go.screenpal.com/ https://player.vimeo.com/ https://vimeo.com/ https://www.instagram.com/ https://webchat.livetilesbots.com/ https://online.anyflip.com/ https://static.symplicity.com/ https://webchat.botframework.com/ https://go.cpace.csulb.edu/ https://yoshki.com/ https://express.adobe.com/ https://cc-api-cp.adobe.io/ https://widget.lightcastcc.com/ https://sites.csulb.edu/ https://forms.office.com/ https://forms.cloud.microsoft/ https://pro.smartplayer.video/ https://www.csulb.edu/ https://csulb.edu/ https://youtu.be.com/ https://data.ir.csulb.edu/ https://bot.io.gravyty.com https://t.sharethis.com https://www.googletagmanager.com
+last-modified: Thu, 19 Nov 2026 04:12:55 GMT
+etag: "1795061575"
+x-request-id: v-7ed55e7e-e3cf-11f1-8bef-3f935745788a
+x-ah-environment: prod
+x-age: 0
+cache-control: public, max-age=300
+expires: Thu, 19 Nov 2026 04:17:56 GMT
+date: Thu, 19 Nov 2026 04:12:56 GMT
+server-timing: cdn-cache; desc=MISS
+server-timing: edge; dur=57
+server-timing: origin; dur=1121
+strict-transport-security: max-age=15768000
+server-timing: ak_p; desc="1795061574874_400425109_533363603_118003_11825_48_0_15";dur=1
+

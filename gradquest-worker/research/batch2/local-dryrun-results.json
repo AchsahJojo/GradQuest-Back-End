@@ -1,0 +1,356 @@
+{
+  "before": [
+    {
+      "userId": "existing-batch2",
+      "resume": "rich",
+      "schoolId": 1,
+      "schoolName": "Arizona State University",
+      "weak": true,
+      "pairCount": 1,
+      "verifiedAsOf": "2026-11-14T07:29:46.522Z",
+      "pairs": [
+        {
+          "kind": "course",
+          "name": "AI concentration courses",
+          "detail": "The handbook lists CSE 571, CSE 575, CSE 576, and CSE 574 as required AI concentration courses.",
+          "reason": "Both sides share a concrete topic of artificial intelligence"
+        }
+      ],
+      "facultyPairs": 0,
+      "coursePairs": 1
+    },
+    {
+      "userId": "existing-batch2",
+      "resume": "rich",
+      "schoolId": 14,
+      "schoolName": "San Diego State University",
+      "weak": false,
+      "pairCount": 2,
+      "verifiedAsOf": "2026-11-14T07:30:00.849Z",
+      "pairs": [
+        {
+          "kind": "course",
+          "name": "CS 549",
+          "detail": "Required 3-unit course for both plans: Machine Learning.",
+          "reason": "Shared concrete topic of artificial intelligence between CSE-style AI and Machine Learning"
+        },
+        {
+          "kind": "course",
+          "name": "CS 514",
+          "detail": "Required 3-unit course for both plans: Database Theory and Implementation.",
+          "reason": "Shared concrete topic of database systems between relational database schema and Database Theory and Implementation"
+        }
+      ],
+      "facultyPairs": 0,
+      "coursePairs": 2
+    },
+    {
+      "userId": "existing-batch2",
+      "resume": "thin",
+      "schoolId": 1,
+      "schoolName": "Arizona State University",
+      "weak": true,
+      "pairCount": 1,
+      "verifiedAsOf": "2026-11-14T07:29:46.522Z",
+      "pairs": [
+        {
+          "kind": "course",
+          "name": "CSE 593 Applied Project",
+          "detail": "The applied project culminating course is CSE 593 (3 credit hours).",
+          "reason": "The résumé mentions completing class projects, and the fact and detail specifically discuss an Applied Project, which is a type of class project."
+        }
+      ],
+      "facultyPairs": 0,
+      "coursePairs": 1
+    },
+    {
+      "userId": "existing-batch2",
+      "resume": "thin",
+      "schoolId": 14,
+      "schoolName": "San Diego State University",
+      "weak": false,
+      "pairCount": 6,
+      "verifiedAsOf": "2026-11-14T07:30:00.849Z",
+      "pairs": [
+        {
+          "kind": "faculty",
+          "name": "Wei Wang",
+          "detail": "Graduate Advisor, Professor of Computer Science (department listing).",
+          "reason": "Both sides share the topic of computer science"
+        },
+        {
+          "kind": "faculty",
+          "name": "Wei Wang",
+          "detail": "Graduate Advisor, Professor of Computer Science (department listing).",
+          "reason": "Both sides share the topic of graduate school"
+        },
+        {
+          "kind": "faculty",
+          "name": "Jianshu Liu, Ph.D.",
+          "detail": "Listed on the department faculty page (department-wide, not M.S.-program-specific).",
+          "reason": "Both sides share the topic of graduate school"
+        },
+        {
+          "kind": "course",
+          "name": "CS 799A",
+          "detail": "Plan A Thesis or Project, 3 units.",
+          "reason": "Both sides share the method of class projects"
+        },
+        {
+          "kind": "course",
+          "name": "CS 660",
+          "detail": "Required 3-unit course for both plans: Algorithm Analysis and Design.",
+          "reason": "Both sides share the method of class projects"
+        },
+        {
+          "kind": "faculty",
+          "name": "Roger Whitney",
+          "detail": "Graduate Advisor, Associate Professor of Computer Science (department listing).",
+          "reason": "Both sides share the topic of computer science"
+        }
+      ],
+      "facultyPairs": 4,
+      "coursePairs": 2
+    }
+  ],
+  "afterExisting": [
+    {
+      "userId": "existing-batch2",
+      "resume": "rich",
+      "schoolId": 1,
+      "schoolName": "Arizona State University",
+      "weak": false,
+      "pairCount": 3,
+      "verifiedAsOf": "2026-11-18T20:00:00.000Z",
+      "pairs": [
+        {
+          "kind": "course",
+          "name": "CSE 571",
+          "detail": "CSE 571 Artificial Intelligence, ASU Engage (poweredby.asu.edu) AI course page: a rigorous graduate-level study of core ",
+          "reason": "Both sides share a concrete topic of artificial intelligence (CSE-style AI)"
+        },
+        {
+          "kind": "course",
+          "name": "AI concentration courses",
+          "detail": "The handbook lists CSE 571, CSE 575, CSE 576, and CSE 574 as required AI concentration courses.",
+          "reason": "Both sides share a concrete topic of artificial intelligence (CSE-style AI) and mention specific AI courses"
+        },
+        {
+          "kind": "faculty",
+          "name": "Tiffany Bao",
+          "detail": "ASU directory profile (bio): Her research focuses on cyber autonomy, and her work spans the areas of binary analysis tec",
+          "reason": "Both sides share a concrete topic of binary analysis"
+        }
+      ],
+      "facultyPairs": 1,
+      "coursePairs": 2
+    },
+    {
+      "userId": "existing-batch2",
+      "resume": "rich",
+      "schoolId": 14,
+      "schoolName": "San Diego State University",
+      "weak": false,
+      "pairCount": 6,
+      "verifiedAsOf": "2026-11-18T20:00:00.000Z",
+      "pairs": [
+        {
+          "kind": "course",
+          "name": "CS 581",
+          "detail": "CS 581 Computational Linguistics, SDSU 2026-27 catalog: Applications to parsing, natural language understanding, and lar",
+          "reason": "Both sides share a concrete topic of NLP"
+        },
+        {
+          "kind": "course",
+          "name": "CS 659",
+          "detail": "CS 659 Visual Perception and Learning, SDSU 2026-27 catalog: Computer algorithms and methods for computer vision. Edge d",
+          "reason": "Both sides share a concrete topic of computer vision and machine learning"
+        },
+        {
+          "kind": "course",
+          "name": "CS 652",
+          "detail": "CS 652 Foundations of Deep Learning, SDSU 2026-27 catalog: DL Optimization, DL Generalization, Neural Tangent Kernels, R",
+          "reason": "Both sides share a concrete topic of deep learning"
+        },
+        {
+          "kind": "course",
+          "name": "CY 541",
+          "detail": "CY 541 AI in Cybersecurity, SDSU 2026-27 catalog: The class will be offered for letter grade with no option to take it f",
+          "reason": "Both sides share a concrete topic of artificial intelligence"
+        },
+        {
+          "kind": "faculty",
+          "name": "Wei Wang",
+          "detail": "SDSU CS faculty profile: Areas of Expertise Wireless Networks, Wireless Multimedia QoE/QoS, Machine Learning in Wireless",
+          "reason": "Both sides share a concrete topic of wireless networks"
+        },
+        {
+          "kind": "course",
+          "name": "CS 559",
+          "detail": "CS 559 Computer Vision, SDSU 2026-27 catalog: The class will be offered for letter grade with no option to take it for C",
+          "reason": "Both sides share a concrete topic of computer vision"
+        }
+      ],
+      "facultyPairs": 1,
+      "coursePairs": 5
+    },
+    {
+      "userId": "existing-batch2",
+      "resume": "thin",
+      "schoolId": 1,
+      "schoolName": "Arizona State University",
+      "weak": true,
+      "pairCount": 1,
+      "verifiedAsOf": "2026-11-18T20:00:00.000Z",
+      "pairs": [
+        {
+          "kind": "course",
+          "name": "CSE 593 Applied Project",
+          "detail": "The applied project culminating course is CSE 593 (3 credit hours).",
+          "reason": "The résumé mentions completing class projects, and the fact and detail specifically mention an applied project, which is a type of class project."
+        }
+      ],
+      "facultyPairs": 0,
+      "coursePairs": 1
+    },
+    {
+      "userId": "existing-batch2",
+      "resume": "thin",
+      "schoolId": 14,
+      "schoolName": "San Diego State University",
+      "weak": true,
+      "pairCount": 1,
+      "verifiedAsOf": "2026-11-18T20:00:00.000Z",
+      "pairs": [
+        {
+          "kind": "course",
+          "name": "CS 581",
+          "detail": "CS 581 Computational Linguistics, SDSU 2026-27 catalog: Applications to parsing, natural language understanding, and lar",
+          "reason": "Both sides share the topic of computer science, specifically computational linguistics."
+        }
+      ],
+      "facultyPairs": 0,
+      "coursePairs": 1
+    }
+  ],
+  "afterFresh": [
+    {
+      "userId": "fresh-batch2",
+      "resume": "rich",
+      "schoolId": 1,
+      "schoolName": "Arizona State University",
+      "weak": false,
+      "pairCount": 3,
+      "verifiedAsOf": "2026-11-18T20:00:00.000Z",
+      "pairs": [
+        {
+          "kind": "course",
+          "name": "CSE 571",
+          "detail": "CSE 571 Artificial Intelligence, ASU Engage (poweredby.asu.edu) AI course page: a rigorous graduate-level study of core ",
+          "reason": "Both sides share a concrete topic of artificial intelligence (CSE-style AI)"
+        },
+        {
+          "kind": "course",
+          "name": "AI concentration courses",
+          "detail": "The handbook lists CSE 571, CSE 575, CSE 576, and CSE 574 as required AI concentration courses.",
+          "reason": "Both sides share a concrete topic of artificial intelligence (CSE-style AI) and mention specific AI courses"
+        },
+        {
+          "kind": "faculty",
+          "name": "Tiffany Bao",
+          "detail": "ASU directory profile (bio): Her research focuses on cyber autonomy, and her work spans the areas of binary analysis tec",
+          "reason": "Both sides share a concrete topic of binary analysis"
+        }
+      ],
+      "facultyPairs": 1,
+      "coursePairs": 2
+    },
+    {
+      "userId": "fresh-batch2",
+      "resume": "rich",
+      "schoolId": 14,
+      "schoolName": "San Diego State University",
+      "weak": false,
+      "pairCount": 6,
+      "verifiedAsOf": "2026-11-18T20:00:00.000Z",
+      "pairs": [
+        {
+          "kind": "course",
+          "name": "CS 581",
+          "detail": "CS 581 Computational Linguistics, SDSU 2026-27 catalog: Applications to parsing, natural language understanding, and lar",
+          "reason": "Both sides share a concrete topic of NLP"
+        },
+        {
+          "kind": "course",
+          "name": "CS 659",
+          "detail": "CS 659 Visual Perception and Learning, SDSU 2026-27 catalog: Computer algorithms and methods for computer vision. Edge d",
+          "reason": "Both sides share a concrete topic of computer vision and machine learning"
+        },
+        {
+          "kind": "course",
+          "name": "CS 652",
+          "detail": "CS 652 Foundations of Deep Learning, SDSU 2026-27 catalog: DL Optimization, DL Generalization, Neural Tangent Kernels, R",
+          "reason": "Both sides share a concrete topic of deep learning"
+        },
+        {
+          "kind": "course",
+          "name": "CY 541",
+          "detail": "CY 541 AI in Cybersecurity, SDSU 2026-27 catalog: The class will be offered for letter grade with no option to take it f",
+          "reason": "Both sides share a concrete topic of artificial intelligence"
+        },
+        {
+          "kind": "faculty",
+          "name": "Wei Wang",
+          "detail": "SDSU CS faculty profile: Areas of Expertise Wireless Networks, Wireless Multimedia QoE/QoS, Machine Learning in Wireless",
+          "reason": "Both sides share a concrete topic of wireless networks"
+        },
+        {
+          "kind": "course",
+          "name": "CS 559",
+          "detail": "CS 559 Computer Vision, SDSU 2026-27 catalog: The class will be offered for letter grade with no option to take it for C",
+          "reason": "Both sides share a concrete topic of computer vision"
+        }
+      ],
+      "facultyPairs": 1,
+      "coursePairs": 5
+    },
+    {
+      "userId": "fresh-batch2",
+      "resume": "thin",
+      "schoolId": 1,
+      "schoolName": "Arizona State University",
+      "weak": true,
+      "pairCount": 1,
+      "verifiedAsOf": "2026-11-18T20:00:00.000Z",
+      "pairs": [
+        {
+          "kind": "course",
+          "name": "CSE 593 Applied Project",
+          "detail": "The applied project culminating course is CSE 593 (3 credit hours).",
+          "reason": "The résumé mentions completing class projects, and the fact and detail specifically discuss an Applied Project, which is a type of class project."
+        }
+      ],
+      "facultyPairs": 0,
+      "coursePairs": 1
+    },
+    {
+      "userId": "fresh-batch2",
+      "resume": "thin",
+      "schoolId": 14,
+      "schoolName": "San Diego State University",
+      "weak": true,
+      "pairCount": 1,
+      "verifiedAsOf": "2026-11-18T20:00:00.000Z",
+      "pairs": [
+        {
+          "kind": "course",
+          "name": "CS 581",
+          "detail": "CS 581 Computational Linguistics, SDSU 2026-27 catalog: Applications to parsing, natural language understanding, and lar",
+          "reason": "Both sides share the topic of computer science, specifically computational linguistics."
+        }
+      ],
+      "facultyPairs": 0,
+      "coursePairs": 1
+    }
+  ]
+}

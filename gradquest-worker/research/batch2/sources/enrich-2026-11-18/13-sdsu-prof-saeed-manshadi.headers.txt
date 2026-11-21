@@ -1,0 +1,12 @@
+HTTP/2 200 
+date: Thu, 19 Nov 2026 04:18:58 GMT
+content-type: text/html; charset=utf-8
+cache-control: private
+server: cloudflare
+content-security-policy: frame-ancestors 'self' https://*.sdsu.edu https://a.cms.omniupdate.com https://sdsu.instructure.com;
+set-cookie: BIGipServer~org-10459~SDSU-Primary=rd2221o00000000000000000000ffff0a0d9a0ao80; path=/; Httponly
+cf-cache-status: DYNAMIC
+content-encoding: br
+cf-ray: a5cc69f7fc0bdc40-IAD
+alt-svc: h3=":443"; ma=86400
+

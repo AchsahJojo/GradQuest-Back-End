@@ -1,0 +1,13 @@
+HTTP/2 200 
+date: Thu, 19 Nov 2026 04:13:48 GMT
+content-type: text/html; charset=UTF-8
+content-length: 265654
+server: Apache
+x-content-type-options: nosniff
+x-xss-protection: 1
+last-modified: Wed, 21 Oct 2026 17:40:39 GMT
+etag: "40db6-65e5d3edb2270"
+accept-ranges: bytes
+x-frame-options: SAMEORIGIN
+cache-control: max-age=0
+

@@ -1,0 +1,20 @@
+[display_name]
+Joshua Daymude
+
+[titles]
+FURI Contract Student Assistant Professor
+
+[primary_department]
+School of Computing and Augmented Intelligence
+
+[research_interests]
+Programmable matter, active matter, self-organization, distributed algorithms, randomized algorithms, bio-inspired algorithms, swarm intelligence, stochastic processes, markov chain analysis.
+
+[expertise_areas]
+
+
+[short_bio]
+Daymude researches algorithmic theory for the efficient coordination and characterization of collective emergent behavior in biological, social and engineered complex systems.
+
+[bio]
+Joshua J. Daymude is an assistant professor in the School of Computing and Augmented Intelligence with a joint appointment in the Biodesign Center for Biocomputing, Security, and Society. He researches algorithmic theory for the efficient coordination and characterization of collective emergent behavior in biological, social, and engineered complex systems. This interdisciplinary research leverages several areas of computer science - including distributed computing, stochastic processes, swarm intelligence, and bio-inspired algorithms - to contribute to theoretical immunology, microbiomic ecology, active matter physics, dynamic networks, and programmable matter systems. Daymude completed his doctorate in 2021 at the School of Computing, Informatics, and Decision Systems Engineering (CIDSE) at Arizona State University. Prior to his professorship, he was a Mistletoe Research Fellow at the Momental Foundation, a three-time ARCS Foundation Johnston Endowment Scholar, and a CIDSE Dean's Fellow. A full list of his research, publications, teaching, and awards can be found on his website.

@@ -1362,7 +1362,7 @@ describe("program snapshot", () => {
       setPageStatus: () => {},
     });
 
-    const stored = calls.find((call) => call.text.includes("snapshot_reads"));
+    const stored = calls.find((call) => call.text.includes("snapshot_reads") && call.text.includes("INSERT"));
     expect(stored?.text).toContain("INSERT OR REPLACE");
     expect(stored?.values).toContain("6");
     const json = stored?.values.find((value) => typeof value === "string" && value.startsWith("{"));
@@ -1522,7 +1522,7 @@ describe("overlap report", () => {
     const result = await resolveOverlap({
       schoolId: "6",
       sql,
-      db: new ThrowingFactsD1() as unknown as D1Database,
+      db: new MemoryFactsD1(snapshot) as unknown as D1Database,
       ai: ai as unknown as Env["AI"],
     });
 
@@ -1573,7 +1573,7 @@ describe("overlap report", () => {
     const result = await resolveOverlap({
       schoolId: "6",
       sql,
-      db: new ThrowingFactsD1() as unknown as D1Database,
+      db: new MemoryFactsD1(snapshot) as unknown as D1Database,
       ai: ai as unknown as Env["AI"],
     });
 
@@ -1607,7 +1607,7 @@ describe("overlap report", () => {
     const result = await resolveOverlap({
       schoolId: "6",
       sql,
-      db: new ThrowingFactsD1() as unknown as D1Database,
+      db: new MemoryFactsD1(snapshot) as unknown as D1Database,
       ai: ai as unknown as Env["AI"],
     });
 
@@ -1641,7 +1641,7 @@ describe("overlap report", () => {
     const result = await resolveOverlap({
       schoolId: "6",
       sql,
-      db: new ThrowingFactsD1() as unknown as D1Database,
+      db: new MemoryFactsD1(snapshot) as unknown as D1Database,
       ai: ai as unknown as Env["AI"],
     });
 
@@ -1723,6 +1723,46 @@ describe("overlap report", () => {
     expect(result.status).toBe(200);
     expect(result.body).toMatchObject({ weak: true, pairs: [], verifiedAsOf: "2026-03-01T00:00:00Z" });
     expect(read).not.toHaveBeenCalled();
+  });
+
+  it("refreshes a stale cached snapshot from D1 and clears the overlap row", async () => {
+    const stale = sampleSnapshot([FACULTY]);
+    const latest = {
+      ...sampleSnapshot([
+        FACULTY,
+        {
+          ...FACULTY,
+          id: "faculty-grace",
+          name: "Grace Hopper",
+          detail: "Studies compilers and COBOL.",
+        },
+      ]),
+      snapshotId: "snap-6-20261118",
+      verifiedAt: "2026-11-18T00:00:00Z",
+    };
+    const { calls, sql } = overlapRecordingSql({
+      snapshotJson: JSON.stringify(stale),
+      resumes: [{ id: "R1", text: "I studied distributed systems in a lab." }],
+    });
+
+    const result = await resolveOverlap({
+      schoolId: "6",
+      sql,
+      db: new MemoryFactsD1(latest) as unknown as D1Database,
+      ai: orthogonalEmbedAi().ai as unknown as Env["AI"],
+    });
+
+    expect(result.status).toBe(200);
+    expect(result.body).toMatchObject({
+      weak: true,
+      verifiedAsOf: "2026-11-18T00:00:00Z",
+    });
+    const stored = calls.find((call) => call.text.includes("snapshot_reads") && call.text.includes("INSERT"));
+    expect(stored?.values).toContain("6");
+    const json = stored?.values.find((value) => typeof value === "string" && value.startsWith("{"));
+    expect(JSON.parse(String(json))).toEqual(latest);
+    const cleared = calls.find((call) => call.text.includes("DELETE") && call.text.includes("overlap_reads"));
+    expect(cleared?.values).toContain("6");
   });
 });
 

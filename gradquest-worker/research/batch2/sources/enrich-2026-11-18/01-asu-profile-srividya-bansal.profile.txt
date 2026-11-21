@@ -1,0 +1,20 @@
+[display_name]
+Srividya Bansal
+
+[titles]
+Associate Professor
+
+[primary_department]
+School of Computing and Augmented Intelligence
+
+[research_interests]
+Semantic Computing; Big Data Integration; semantics-based solutions for outcome-based instruction design in STEM education; delivery models for Software Engineering Education; Web service description, discovery, and composition.
+
+[expertise_areas]
+
+
+[short_bio]
+Srividya Bansal conducts research in the area of Semantic Computing, more specifically, semantics-based approaches for Big Data Integration, Linked open data, Open Knowledge Networks.
+
+[bio]
+Srividya Bansal is Associate Professor and Program Chair of the Software Engineering program in the School of Computing and Augmented Intelligence at Arizona State University. Her primary research focuses on semantics-based approaches for Big Data Integration, Linked open data, Knowledge graphs, Web service description, discovery & composition, engineering education, and outcome-based instruction design in STEM education. She is currently Co-PI for a NSF-funded project of the Proto-OKN program titled "SUDOKN: Supply and Demand Open Knowledge Network". She received a B.Tech in Computer Science and Engineering from National Institute of Technology - Warangal, MS in Computer Science from Texas Tech University, and a PhD in Computer Science from the University of Texas at Dallas. She joined ASU in Fall 2010. Before ASU, she was a visiting assistant professor at Georgetown University in Washington, D.C. She worked in the industry for five years as a software engineer at SAP Labs India and Tyler Technologies in Plano, Texas. She has over 75 publications in Conference proceedings and journals. She is a member of the IEEE Computer Society and ACM.

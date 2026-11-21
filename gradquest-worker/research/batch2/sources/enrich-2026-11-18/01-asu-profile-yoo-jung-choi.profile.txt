@@ -1,0 +1,20 @@
+[display_name]
+YooJung Choi
+
+[titles]
+Assistant Professor
+
+[primary_department]
+School of Computing and Augmented Intelligence
+
+[research_interests]
+
+
+[expertise_areas]
+
+
+[short_bio]
+Choi's research interests lie in probabilistic machine learning, tractable probabilistic modeling and inference, knowledge representation and reasoning, as well as trustworthy AI.
+
+[bio]
+YooJung Choi is an assistant professor in the School of Computing and Augmented Intelligence. Her research interests lie in probabilistic machine learning, tractable probabilistic modeling and inference, knowledge representation and reasoning, as well as trustworthy artificial intelligence (algorithmic fairness, robustness, interpretability). Previously, she received her Ph.D. in Computer Science at the University of California, Los Angeles. She is the recipient of a research award from Cisco and a Simons-Berkeley Research Fellowship. She was selected for the AAAI 2023 New Faculty Highlights and the Rising Stars in EECS 2020 at UC Berkeley.

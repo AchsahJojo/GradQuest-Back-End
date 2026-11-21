@@ -1,0 +1,22 @@
+HTTP/1.1 200 OK
+Date: Thu, 19 Nov 2026 04:17:19 GMT
+Content-Type: text/html; charset=UTF-8
+Content-Length: 9182
+Connection: keep-alive
+Content-Security-Policy: default-src 'self' https: data: blob:; script-src 'self' https: 'unsafe-inline' 'unsafe-eval'; style-src 'self' https: 'unsafe-inline'; img-src 'self' https: data:; font-src 'self' https: data:; object-src 'none'; base-uri 'self'; frame-ancestors 'self';
+Set-Cookie: acalog_theme=1; expires=Wed, 22-Mar-3026 04:18:18 GMT; Max-Age=31536000060; path=/; secure; HttpOnly
+X-Cache-Hit: 1
+Last-Modified: Thu, 19 Nov 2026 02:05:11 GMT
+Set-Cookie: PHPSESSID=aaccc878fb4c0c228a55a403e082d3de; path=/; secure; HttpOnly
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate
+Pragma: no-cache
+Set-Cookie: PHPSESSID=aaccc878fb4c0c228a55a403e082d3de; path=/; secure; HttpOnly
+Set-Cookie: ADRUM_BT=R%3A0%7Cg%3A829aac97-96d0-44f0-9919-577cb89932176425%7Cn%3Adigarc_881d5e4b-64f1-425e-8ceb-5e44d2b69b37%7Cd%3A150; expires=Thu, 19-Nov-2026 04:17:48 GMT; Max-Age=30; path=/; secure
+Vary: Accept-Encoding
+Content-Encoding: gzip
+X-Frame-Options: SAMEORIGIN
+X-Content-Type-Options: nosniff
+Server: director
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+

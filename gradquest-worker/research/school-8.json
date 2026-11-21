@@ -163,7 +163,7 @@
       "name": "University master's application latest dates (not MSCS-specific)",
       "detail": "University Key Dates page: master's program deadlines vary by program. This is a university-wide latest-date rule, not an MSCS-only deadline.",
       "sourceUrl": "https://www.csulb.edu/enrollment-services/key-dates-and-deadlines",
-      "quote": "Master’s programs and certificates application deadline"
+      "quote": "Master\u2019s programs and certificates application deadline"
     },
     {
       "id": "f9",
@@ -288,10 +288,12 @@
     {
       "id": "f24",
       "kind": "faculty",
-      "name": "Dr. Ju Cheol Moon",
-      "detail": "Named on the Computer Engineering & Computer Science faculty listing (department-wide, not MSCS-specific). The listing card does not state a research blurb.",
-      "sourceUrl": "https://www.csulb.edu/college-of-engineering/computer-engineering-computer-science/faculty-staff?page=1",
-      "quote": "Dr. Ju Cheol Moon"
+      "name": "Ju Cheol Moon",
+      "detail": "CSULB profile: The focus of his research lies in designing interpretable machine learning algorithms, building highly accurate deep neural networks on prediction, and in applying computational frameworks to solve interdisciplinary problems.",
+      "sourceUrl": "https://www.csulb.edu/college-of-engineering/computer-engineering-computer-science/page/dr-ju-cheol-moon",
+      "quote": "The focus of his research lies in designing interpretable machine learning algorithms, building highly accurate deep neural networks on prediction, and in applying computational frameworks to solve interdisciplinary problems.",
+      "verified": true,
+      "verifiedBy": "user 2026-11-18"
     },
     {
       "id": "f25",
@@ -304,34 +306,42 @@
     {
       "id": "f26",
       "kind": "faculty",
-      "name": "Dr. Oscar Morales Ponce",
-      "detail": "Named on the Computer Engineering & Computer Science faculty listing (department-wide, not MSCS-specific). The listing card does not state a research blurb.",
-      "sourceUrl": "https://www.csulb.edu/college-of-engineering/computer-engineering-computer-science/faculty-staff?page=1",
-      "quote": "Dr. Oscar Morales Ponce"
+      "name": "Oscar Morales Ponce",
+      "detail": "CSULB profile: His research interests include theoretical and practical aspects of distributed computing, wireless sensor networks, distributed control of robotic networks, computational geometry, graph theory, vehicular networks and intelligent transportation systems.",
+      "sourceUrl": "https://www.csulb.edu/college-of-engineering/computer-engineering-computer-science/page/dr-oscar-morales-ponce",
+      "quote": "His research interests include theoretical and practical aspects of distributed computing, wireless sensor networks, distributed control of robotic networks, computational geometry, graph theory, vehicular networks and intelligent transportation systems.",
+      "verified": true,
+      "verifiedBy": "user 2026-11-18"
     },
     {
       "id": "f27",
       "kind": "faculty",
-      "name": "Dr. Xin Qin",
-      "detail": "Named on the Computer Engineering & Computer Science faculty listing (department-wide, not MSCS-specific). The listing card does not state a research blurb.",
-      "sourceUrl": "https://www.csulb.edu/college-of-engineering/computer-engineering-computer-science/faculty-staff?page=1",
-      "quote": "Dr. Xin Qin"
+      "name": "Xin Qin",
+      "detail": "CSULB college page: Dr. Xin Qin's research interests are in ensuring the safety of cyber-physical systems through formal methods, predictive monitoring, verification, and machine learning.",
+      "sourceUrl": "https://www.csulb.edu/hung-family-college-of-engineering/article/new-faculty-2024",
+      "quote": "Dr. Xin Qin's research interests are in ensuring the safety of cyber-physical systems through formal methods, predictive monitoring, verification, and machine learning.",
+      "verified": true,
+      "verifiedBy": "user 2026-11-18"
     },
     {
       "id": "f28",
       "kind": "faculty",
-      "name": "Dr. Muhammad Abdul Basit Ur Rahim",
-      "detail": "Named on the Computer Engineering & Computer Science faculty listing (department-wide, not MSCS-specific). The listing card does not state a research blurb.",
-      "sourceUrl": "https://www.csulb.edu/college-of-engineering/computer-engineering-computer-science/faculty-staff?page=1",
-      "quote": "Dr. Muhammad Abdul Basit Ur Rahim"
+      "name": "Muhammad Abdul Basit Ur Rahim",
+      "detail": "CSULB profile: Dr. Basit's research focuses on formal modeling and analysis of industrial systems. His multidisciplinary research applies to industrial and cybersecurity systems to verify the design in earlier design phases.",
+      "sourceUrl": "https://www.csulb.edu/college-of-engineering/computer-engineering-computer-science/page/dr-muhammad-abdul-basit-ur-rahim",
+      "quote": "Dr. Basit's research focuses on formal modeling and analysis of industrial systems. His multidisciplinary research applies to industrial and cybersecurity systems to verify the design in earlier design phases.",
+      "verified": true,
+      "verifiedBy": "user 2026-11-18"
     },
     {
       "id": "f29",
       "kind": "faculty",
-      "name": "Dr. Arash Sarshar",
-      "detail": "Named on the Computer Engineering & Computer Science faculty listing (department-wide, not MSCS-specific). The listing card does not state a research blurb.",
-      "sourceUrl": "https://www.csulb.edu/college-of-engineering/computer-engineering-computer-science/faculty-staff?page=1",
-      "quote": "Dr. Arash Sarshar"
+      "name": "Arash Sarshar",
+      "detail": "CSULB profile: His research interests span the theory and applications of machine learning and numerical methods for scientific simulations. He is also interested in using data science to inform public health and policy decisions.",
+      "sourceUrl": "https://www.csulb.edu/college-of-engineering/computer-engineering-computer-science/page/dr-arash-sarshar",
+      "quote": "His research interests span the theory and applications of machine learning and numerical methods for scientific simulations. He is also interested in using data science to inform public health and policy decisions.",
+      "verified": true,
+      "verifiedBy": "user 2026-11-18"
     },
     {
       "id": "f30",
@@ -368,26 +378,32 @@
     {
       "id": "f34",
       "kind": "faculty",
-      "name": "Dr. Xiaolong Wu",
-      "detail": "Named on the Computer Engineering & Computer Science faculty listing (department-wide, not MSCS-specific). The listing card does not state a research blurb.",
-      "sourceUrl": "https://www.csulb.edu/college-of-engineering/computer-engineering-computer-science/faculty-staff?page=2",
-      "quote": "Dr. Xiaolong Wu"
+      "name": "Xiaolong Wu",
+      "detail": "CSULB profile: Dr. Wu's research interests include network on chip/system on chip design, IC design, interconnection network, and reliability modeling.",
+      "sourceUrl": "https://www.csulb.edu/college-of-engineering/computer-engineering-computer-science/page/dr-xiaolong-wu",
+      "quote": "Dr. Wu's research interests include network on chip/system on chip design, IC design, interconnection network, and reliability modeling.",
+      "verified": true,
+      "verifiedBy": "user 2026-11-18"
     },
     {
       "id": "f35",
       "kind": "faculty",
-      "name": "Dr. Hailu Xu",
-      "detail": "Named on the Computer Engineering & Computer Science faculty listing (department-wide, not MSCS-specific). The listing card does not state a research blurb.",
-      "sourceUrl": "https://www.csulb.edu/college-of-engineering/computer-engineering-computer-science/faculty-staff?page=2",
-      "quote": "Dr. Hailu Xu"
+      "name": "Hailu Xu",
+      "detail": "CSULB profile: His research interests include AI/ML systems, human-robot collaboration, distributed computing, federated learning, cloud and edge computing, and big data systems.",
+      "sourceUrl": "https://www.csulb.edu/college-of-engineering/computer-engineering-computer-science/page/dr-hailu-xu",
+      "quote": "His research interests include AI/ML systems, human-robot collaboration, distributed computing, federated learning, cloud and edge computing, and big data systems.",
+      "verified": true,
+      "verifiedBy": "user 2026-11-18"
     },
     {
       "id": "f36",
       "kind": "faculty",
-      "name": "Dr. Yutong Zhao",
-      "detail": "Named on the Computer Engineering & Computer Science faculty listing (department-wide, not MSCS-specific). The listing card does not state a research blurb.",
-      "sourceUrl": "https://www.csulb.edu/college-of-engineering/computer-engineering-computer-science/faculty-staff?page=2",
-      "quote": "Dr. Yutong Zhao"
+      "name": "Yutong Zhao",
+      "detail": "CSULB profile: Dr. Zhao's research interests span Software Engineering, Performance Analysis, Machine and Deep Learning, and Natural Language Processing.",
+      "sourceUrl": "https://www.csulb.edu/college-of-engineering/computer-engineering-computer-science/page/dr-yutong-zhao",
+      "quote": "Dr. Zhao's research interests span Software Engineering, Performance Analysis, Machine and Deep Learning, and Natural Language Processing.",
+      "verified": true,
+      "verifiedBy": "user 2026-11-18"
     },
     {
       "id": "f37",
@@ -395,7 +411,7 @@
       "name": "Shadnaz Asgari",
       "detail": "CECS chair; profile states research integrating AI, signal processing, and computational modeling in clinical and biomedical contexts.",
       "sourceUrl": "https://www.csulb.edu/college-of-engineering/computer-engineering-computer-science/page/dr-shadnaz-asgari",
-      "quote": "Dr. Asgari’s research integrates artificial intelligence, signal processing, and computational modeling to solve problems in clinical and biomedical contexts."
+      "quote": "Dr. Asgari\u2019s research integrates artificial intelligence, signal processing, and computational modeling to solve problems in clinical and biomedical contexts."
     },
     {
       "id": "f38",
@@ -411,7 +427,7 @@
       "name": "Bo Fu",
       "detail": "Profile: research intersects Web Semantics, Human Data Interaction, and Visual Analytics.",
       "sourceUrl": "https://www.csulb.edu/college-of-engineering/computer-engineering-computer-science/page/dr-bo-fu",
-      "quote": "Dr. Fu’s research intersects Web Semantics, Human Data Interaction, and Visual Analytics."
+      "quote": "Dr. Fu\u2019s research intersects Web Semantics, Human Data Interaction, and Visual Analytics."
     },
     {
       "id": "f40",
@@ -465,17 +481,21 @@
       "id": "f46",
       "kind": "faculty",
       "name": "Shabnam Sodagari",
-      "detail": "Graduate advisor. Profile notes teaching in information security, quantum computing, and machine learning.",
-      "sourceUrl": "https://www.csulb.edu/college-of-engineering/computer-engineering-computer-science/page/dr-shabnam-sodagari",
-      "quote": "She has taught courses on information security, quantum computing, and machine learning."
+      "detail": "personal faculty website (not csulb.edu): Her current research interests include quantum computing, applications of data science, AI, and machine learning in various domains, such as health, education, etc.",
+      "sourceUrl": "https://shabnamso.github.io/webpage/",
+      "quote": "Her current research interests include quantum computing, applications of data science, AI, and machine learning in various domains, such as health, education, etc.",
+      "verified": true,
+      "verifiedBy": "user 2026-11-18"
     },
     {
       "id": "f47",
       "kind": "faculty",
       "name": "Daniel Commey",
-      "detail": "",
-      "sourceUrl": "https://www.csulb.edu/college-of-engineering/computer-engineering-computer-science/page/daniel-commey",
-      "quote": "Daniel Commey"
+      "detail": "personal faculty website (not csulb.edu): My research examines the security and privacy of federated, decentralized, and edge AI, particularly when devices or participants cannot be fully trusted.",
+      "sourceUrl": "https://danielcommey.com/research",
+      "quote": "My research examines the security and privacy of federated, decentralized, and edge AI, particularly when devices or participants cannot be fully trusted.",
+      "verified": true,
+      "verifiedBy": "user 2026-11-18"
     },
     {
       "id": "f48",
@@ -497,9 +517,11 @@
       "id": "f50",
       "kind": "faculty",
       "name": "Wenlu Zhang",
-      "detail": "",
-      "sourceUrl": "https://www.csulb.edu/college-of-engineering/computer-engineering-computer-science/page/dr-wenlu-zhang",
-      "quote": "Dr. Wenlu Zhang"
+      "detail": "CSULB college page: Her research interests include machine learning, data mining, computational biology, and computational neuroscience.",
+      "sourceUrl": "https://www.csulb.edu/hung-family-college-of-engineering/computing",
+      "quote": "Her research interests include machine learning, data mining, computational biology, and computational neuroscience.",
+      "verified": true,
+      "verifiedBy": "user 2026-11-18"
     },
     {
       "id": "f51",
@@ -673,233 +695,291 @@
       "id": "f72",
       "kind": "course",
       "name": "CECS 524",
-      "detail": "Required 3-unit core course for both culminating options; also covered on the comprehensive exam.",
-      "sourceUrl": "https://catalog.csulb.edu/preview_program.php?catoid=12&poid=6290",
-      "quote": "CECS 524 - Advanced Topics in Programming Languages (3 units)"
+      "detail": "CECS 524 Advanced Topics in Programming Languages, CSULB 2026-27 catalog: Intensive study of languages of current interest which support object-oriented, client-server, and multimedia applications (e.g. JAVA). Master's students register in CECS 524 or CECS 624 ; Ph.D. students register in CECS 624 .",
+      "sourceUrl": "https://catalog.csulb.edu/preview_course_nopop.php?catoid=12&coid=109084",
+      "quote": "Intensive study of languages of current interest which support object-oriented, client-server, and multimedia applications (e.g. JAVA). Master's students register in CECS 524 or CECS 624 ; Ph.D. students register in CECS 624 .",
+      "verified": true,
+      "verifiedBy": "user 2026-11-18"
     },
     {
       "id": "f73",
       "kind": "course",
       "name": "CECS 528",
-      "detail": "Required 3-unit core course for both culminating options; also covered on the comprehensive exam.",
-      "sourceUrl": "https://catalog.csulb.edu/preview_program.php?catoid=12&poid=6290",
-      "quote": "CECS 528 - Advanced Analysis of Algorithms (3 units)"
+      "detail": "CECS 528 Advanced Analysis of Algorithms, CSULB 2026-27 catalog: Theoretical analysis of algorithms. Divide and conquer, dynamic programming and greedy algorithms; basic search and traversal techniques including search trees; sorting; matrix manipulations; NP-completeness. Master's students register in CECS 528 or CECS 628 ; Ph.D. students register in CECS 628 .",
+      "sourceUrl": "https://catalog.csulb.edu/preview_course_nopop.php?catoid=12&coid=109086",
+      "quote": "Theoretical analysis of algorithms. Divide and conquer, dynamic programming and greedy algorithms; basic search and traversal techniques including search trees; sorting; matrix manipulations; NP-completeness. Master's students register in CECS 528 or CECS 628 ; Ph.D. students register in CECS 628 .",
+      "verified": true,
+      "verifiedBy": "user 2026-11-18"
     },
     {
       "id": "f74",
       "kind": "course",
       "name": "CECS 530",
-      "detail": "Required 3-unit core course for both culminating options.",
-      "sourceUrl": "https://catalog.csulb.edu/preview_program.php?catoid=12&poid=6290",
-      "quote": "CECS 530 - Advanced Computer Architecture I (3 units)"
+      "detail": "CECS 530 Advanced Computer Architecture I, CSULB 2026-27 catalog: Fundamentals of computer architecture. Parallelism, Instruction Level Parallelism, Pipelining. Hazards and their management, Branch Prediction, Dynamic Scheduling, Multiple Instructions, Multithreading, Data Level Parallelism, SIMD, Graphic Processing Units, Memory Hierarchy, Cache, Virtual Memory",
+      "sourceUrl": "https://catalog.csulb.edu/preview_course_nopop.php?catoid=12&coid=109088",
+      "quote": "Fundamentals of computer architecture. Parallelism, Instruction Level Parallelism, Pipelining. Hazards and their management, Branch Prediction, Dynamic Scheduling, Multiple Instructions, Multithreading, Data Level Parallelism, SIMD, Graphic Processing Units, Memory Hierarchy, Cache, Virtual Memory",
+      "verified": true,
+      "verifiedBy": "user 2026-11-18"
     },
     {
       "id": "f75",
       "kind": "course",
       "name": "CECS 543",
-      "detail": "Required 3-unit core course for both culminating options; also covered on the comprehensive exam.",
-      "sourceUrl": "https://catalog.csulb.edu/preview_program.php?catoid=12&poid=6290",
-      "quote": "CECS 543 - Advanced Software Engineering (3 units)"
+      "detail": "CECS 543 Advanced Software Engineering, CSULB 2026-27 catalog: Study of software engineering as a broad, problem-solving discipline. Includes structured programming and software project management. Master's students register in CECS 543 or CECS 643 ; Ph.D. students register in CECS 643 . Additional projects required for CECS 643 .",
+      "sourceUrl": "https://catalog.csulb.edu/preview_course_nopop.php?catoid=12&coid=109092",
+      "quote": "Study of software engineering as a broad, problem-solving discipline. Includes structured programming and software project management. Master's students register in CECS 543 or CECS 643 ; Ph.D. students register in CECS 643 . Additional projects required for CECS 643 .",
+      "verified": true,
+      "verifiedBy": "user 2026-11-18"
     },
     {
       "id": "f76",
       "kind": "course",
       "name": "CECS 558",
-      "detail": "Required 3-unit core course for both culminating options.",
-      "sourceUrl": "https://catalog.csulb.edu/preview_program.php?catoid=12&poid=6290",
-      "quote": "CECS 558 - Deep Learning (3 units)"
+      "detail": "CECS 558 Deep Learning, CSULB 2026-27 catalog: Foundational and advanced deep learning concepts. Introduction to neural networks, backpropagation, specialized neural network architectures, deep reinforcement learning, and large language models. Programming assignments to reinforce understanding.",
+      "sourceUrl": "https://catalog.csulb.edu/preview_course_nopop.php?catoid=12&coid=124439",
+      "quote": "Foundational and advanced deep learning concepts. Introduction to neural networks, backpropagation, specialized neural network architectures, deep reinforcement learning, and large language models. Programming assignments to reinforce understanding.",
+      "verified": true,
+      "verifiedBy": "user 2026-11-18"
     },
     {
       "id": "f77",
       "kind": "course",
       "name": "CECS 698",
-      "detail": "Thesis or Industrial Project, 3-6 units; at least 3 units are required in the thesis option.",
-      "sourceUrl": "https://catalog.csulb.edu/preview_program.php?catoid=12&poid=6290",
-      "quote": "CECS 698 - Thesis or Industrial Project (3-6 units)"
+      "detail": "CECS 698 Thesis or Industrial Project, CSULB 2026-27 catalog: Computer Engineering MS, Computer Science MS, and Engineering MS students only. Planning, preparation, completion of thesis or equivalent industrial project report on a suitable topic in computer engineering and computer science following the library's prescribed format.",
+      "sourceUrl": "https://catalog.csulb.edu/preview_course_nopop.php?catoid=12&coid=109130",
+      "quote": "Computer Engineering MS, Computer Science MS, and Engineering MS students only. Planning, preparation, completion of thesis or equivalent industrial project report on a suitable topic in computer engineering and computer science following the library's prescribed format.",
+      "verified": true,
+      "verifiedBy": "user 2026-11-18"
     },
     {
       "id": "f78",
       "kind": "course",
       "name": "CECS 697",
-      "detail": "Directed Research, 1-3 units; listed among exam-option electives and as a way to finish the remaining 3 thesis units.",
-      "sourceUrl": "https://catalog.csulb.edu/preview_program.php?catoid=12&poid=6290",
-      "quote": "CECS 697 - Directed Research (1-3 units)"
+      "detail": "CECS 697 Directed Research, CSULB 2026-27 catalog: Theoretical and experimental problems in computer science and engineering requiring extensive research. Advancement to candidacy and program GPA of at least 3.0 are required. Graduate advisor and project supervisor must be consulted prior to registration. Independent Study.",
+      "sourceUrl": "https://catalog.csulb.edu/preview_course_nopop.php?catoid=12&coid=109129",
+      "quote": "Theoretical and experimental problems in computer science and engineering requiring extensive research. Advancement to candidacy and program GPA of at least 3.0 are required. Graduate advisor and project supervisor must be consulted prior to registration. Independent Study.",
+      "verified": true,
+      "verifiedBy": "user 2026-11-18"
     },
     {
       "id": "f79",
       "kind": "course",
       "name": "CECS 519",
-      "detail": "Listed among allowed electives on the 2026-2027 catalog program page for the comprehensive-exam and/or thesis option.",
-      "sourceUrl": "https://catalog.csulb.edu/preview_program.php?catoid=12&poid=6290",
-      "quote": "CECS 519 - Theory of Computation (3 units)"
+      "detail": "CECS 519 Theory of Computation, CSULB 2026-27 catalog: Advanced topics in computability theory and computational complexity theory. Topics include Turing Machines, coverage of the standard complexity classes P, NP, IP, and PSPACE, hierarchy, decidability, and recognizability theorems. Additional projects required for CECS 519.",
+      "sourceUrl": "https://catalog.csulb.edu/preview_course_nopop.php?catoid=12&coid=109082",
+      "quote": "Advanced topics in computability theory and computational complexity theory. Topics include Turing Machines, coverage of the standard complexity classes P, NP, IP, and PSPACE, hierarchy, decidability, and recognizability theorems. Additional projects required for CECS 519.",
+      "verified": true,
+      "verifiedBy": "user 2026-11-18"
     },
     {
       "id": "f80",
       "kind": "course",
       "name": "CECS 521",
-      "detail": "Listed among allowed electives on the 2026-2027 catalog program page for the comprehensive-exam and/or thesis option.",
-      "sourceUrl": "https://catalog.csulb.edu/preview_program.php?catoid=12&poid=6290",
-      "quote": "CECS 521 - Database Architecture (3 units)"
+      "detail": "CECS 521 Database Architecture, CSULB 2026-27 catalog: Relational database design theory-a rigorous approach. Security, recovery, transaction management, distributed databases and query optimization. Master's students register in CECS 521 or CECS 621 ; Ph.D. students register in CECS 621 . Additional projects required for CECS 621 .",
+      "sourceUrl": "https://catalog.csulb.edu/preview_course_nopop.php?catoid=12&coid=109083",
+      "quote": "Relational database design theory-a rigorous approach. Security, recovery, transaction management, distributed databases and query optimization. Master's students register in CECS 521 or CECS 621 ; Ph.D. students register in CECS 621 . Additional projects required for CECS 621 .",
+      "verified": true,
+      "verifiedBy": "user 2026-11-18"
     },
     {
       "id": "f81",
       "kind": "course",
       "name": "CECS 526",
-      "detail": "Listed among allowed electives on the 2026-2027 catalog program page for the comprehensive-exam and/or thesis option.",
-      "sourceUrl": "https://catalog.csulb.edu/preview_program.php?catoid=12&poid=6290",
-      "quote": "CECS 526 - Advanced Operating Systems (3 units)"
+      "detail": "CECS 526 Advanced Operating Systems, CSULB 2026-27 catalog: Theoretical foundations of concepts applied in the design of operating systems. Control of concurrent processes, deadlocks, mutual exclusion, virtual memory, resource management and scheduling. Master's students register in CECS 526 or CECS 626 ; Ph.D. students register in CECS 626 .",
+      "sourceUrl": "https://catalog.csulb.edu/preview_course_nopop.php?catoid=12&coid=109085",
+      "quote": "Theoretical foundations of concepts applied in the design of operating systems. Control of concurrent processes, deadlocks, mutual exclusion, virtual memory, resource management and scheduling. Master's students register in CECS 526 or CECS 626 ; Ph.D. students register in CECS 626 .",
+      "verified": true,
+      "verifiedBy": "user 2026-11-18"
     },
     {
       "id": "f82",
       "kind": "course",
       "name": "CECS 529",
-      "detail": "Listed among allowed electives on the 2026-2027 catalog program page for the comprehensive-exam and/or thesis option.",
-      "sourceUrl": "https://catalog.csulb.edu/preview_program.php?catoid=12&poid=6290",
-      "quote": "CECS 529 - Search Engine Technology (3 units)"
+      "detail": "CECS 529 Search Engine Technology, CSULB 2026-27 catalog: Models, algorithms, and evaluation of the retrieval of information from a collection of documents. Document preprocessing. Indexing and searching. Retrieval evaluation. Search engines. Additional projects required for CECS 529.",
+      "sourceUrl": "https://catalog.csulb.edu/preview_course_nopop.php?catoid=12&coid=109087",
+      "quote": "Models, algorithms, and evaluation of the retrieval of information from a collection of documents. Document preprocessing. Indexing and searching. Retrieval evaluation. Search engines. Additional projects required for CECS 529.",
+      "verified": true,
+      "verifiedBy": "user 2026-11-18"
     },
     {
       "id": "f83",
       "kind": "course",
       "name": "CECS 532",
-      "detail": "Listed among allowed electives on the 2026-2027 catalog program page for the comprehensive-exam and/or thesis option.",
-      "sourceUrl": "https://catalog.csulb.edu/preview_program.php?catoid=12&poid=6290",
-      "quote": "CECS 532 - Memory Design and Implementation (3 units)"
+      "detail": "CECS 532 Memory Design and Implementation, CSULB 2026-27 catalog: Logic design and operation, physical design and operation, performance characteristics, design trade-offs, energy consumption of modern memory hierarchies, memory errors and error correction.",
+      "sourceUrl": "https://catalog.csulb.edu/preview_course_nopop.php?catoid=12&coid=109090",
+      "quote": "Logic design and operation, physical design and operation, performance characteristics, design trade-offs, energy consumption of modern memory hierarchies, memory errors and error correction.",
+      "verified": true,
+      "verifiedBy": "user 2026-11-18"
     },
     {
       "id": "f84",
       "kind": "course",
       "name": "CECS 544",
-      "detail": "Listed among allowed electives on the 2026-2027 catalog program page for the comprehensive-exam and/or thesis option.",
-      "sourceUrl": "https://catalog.csulb.edu/preview_program.php?catoid=12&poid=6290",
-      "quote": "CECS 544 - Software Testing and Verification (3 units)"
+      "detail": "CECS 544 Software Testing and Verification, CSULB 2026-27 catalog: Testing/verification techniques for software development including black box, white box, incremental, top-down and bottom-up, static and dynamic, performance, regression, thread, and stress testing. Object-oriented software testing with a hierarchical approach.",
+      "sourceUrl": "https://catalog.csulb.edu/preview_course_nopop.php?catoid=12&coid=109093",
+      "quote": "Testing/verification techniques for software development including black box, white box, incremental, top-down and bottom-up, static and dynamic, performance, regression, thread, and stress testing. Object-oriented software testing with a hierarchical approach.",
+      "verified": true,
+      "verifiedBy": "user 2026-11-18"
     },
     {
       "id": "f85",
       "kind": "course",
       "name": "CECS 545",
-      "detail": "Listed among allowed electives on the 2026-2027 catalog program page for the comprehensive-exam and/or thesis option.",
-      "sourceUrl": "https://catalog.csulb.edu/preview_program.php?catoid=12&poid=6290",
-      "quote": "CECS 545 - Software Architecture (3 units)"
+      "detail": "CECS 545 Software Architecture, CSULB 2026-27 catalog: Includes architectural styles, pipes and filters, data abstraction and object-oriented organization, event-based, implicit invocation, layered systems, repositories, interpreters, process control, distributed processes, domain-specific software & heterogeneous architectures.",
+      "sourceUrl": "https://catalog.csulb.edu/preview_course_nopop.php?catoid=12&coid=109094",
+      "quote": "Includes architectural styles, pipes and filters, data abstraction and object-oriented organization, event-based, implicit invocation, layered systems, repositories, interpreters, process control, distributed processes, domain-specific software & heterogeneous architectures.",
+      "verified": true,
+      "verifiedBy": "user 2026-11-18"
     },
     {
       "id": "f86",
       "kind": "course",
       "name": "CECS 546",
-      "detail": "Listed among allowed electives on the 2026-2027 catalog program page for the comprehensive-exam and/or thesis option.",
-      "sourceUrl": "https://catalog.csulb.edu/preview_program.php?catoid=12&poid=6290",
-      "quote": "CECS 546 - Fault Tolerant Computing Systems (3 units)"
+      "detail": "CECS 546 Fault Tolerant Computing Systems, CSULB 2026-27 catalog: Fault tolerant techniques are studied as tools to assure the reliability and continuous availability of computing systems. Case studies of modern fault tolerant systems reviewed.",
+      "sourceUrl": "https://catalog.csulb.edu/preview_course_nopop.php?catoid=12&coid=109095",
+      "quote": "Fault tolerant techniques are studied as tools to assure the reliability and continuous availability of computing systems. Case studies of modern fault tolerant systems reviewed.",
+      "verified": true,
+      "verifiedBy": "user 2026-11-18"
     },
     {
       "id": "f87",
       "kind": "course",
       "name": "CECS 547",
-      "detail": "Listed among allowed electives on the 2026-2027 catalog program page for the comprehensive-exam and/or thesis option.",
-      "sourceUrl": "https://catalog.csulb.edu/preview_program.php?catoid=12&poid=6290",
-      "quote": "CECS 547 - Software Maintenance, Reengineering and Reuse (3 units)"
+      "detail": "CECS 547 Software Maintenance, Reengineering and Reuse, CSULB 2026-27 catalog: Introduction to software maintenance, defect management, corrective, adaptive and perfective maintenance. Evolution of legacy software systems. Program comprehension techniques, reverse engineering, restructuring, refactoring of software systems. Software re-engineering, data reverse engineering.",
+      "sourceUrl": "https://catalog.csulb.edu/preview_course_nopop.php?catoid=12&coid=109096",
+      "quote": "Introduction to software maintenance, defect management, corrective, adaptive and perfective maintenance. Evolution of legacy software systems. Program comprehension techniques, reverse engineering, restructuring, refactoring of software systems. Software re-engineering, data reverse engineering.",
+      "verified": true,
+      "verifiedBy": "user 2026-11-18"
     },
     {
       "id": "f88",
       "kind": "course",
       "name": "CECS 550",
-      "detail": "Listed among allowed electives on the 2026-2027 catalog program page for the comprehensive-exam and/or thesis option.",
-      "sourceUrl": "https://catalog.csulb.edu/preview_program.php?catoid=12&poid=6290",
-      "quote": "CECS 550 - Pattern Recognition (3 units)"
+      "detail": "CECS 550 Pattern Recognition, CSULB 2026-27 catalog: General concepts of pattern recognition and trainable classifiers, decision theory, supervised learning, non-parametric techniques, rule-based systems and neural networks. Master's students register in CECS 550; Ph.D. students register in CECS 650 . Additional projects required for CECS 650 .",
+      "sourceUrl": "https://catalog.csulb.edu/preview_course_nopop.php?catoid=12&coid=109097",
+      "quote": "General concepts of pattern recognition and trainable classifiers, decision theory, supervised learning, non-parametric techniques, rule-based systems and neural networks. Master's students register in CECS 550; Ph.D. students register in CECS 650 . Additional projects required for CECS 650 .",
+      "verified": true,
+      "verifiedBy": "user 2026-11-18"
     },
     {
       "id": "f89",
       "kind": "course",
       "name": "CECS 551",
-      "detail": "Listed among allowed electives on the 2026-2027 catalog program page for the comprehensive-exam and/or thesis option.",
-      "sourceUrl": "https://catalog.csulb.edu/preview_program.php?catoid=12&poid=6290",
-      "quote": "CECS 551 - Advanced Artificial Intelligence (3 units)"
+      "detail": "CECS 551 Advanced Artificial Intelligence, CSULB 2026-27 catalog: Advanced concepts in artificial intelligence. Topics include knowledge acquisition and representation, fuzzy logic, logical reasoning, multi-sensor integration, Dempster-Shafer's theory of evidential reasoning, real-time expert systems and neural networks.",
+      "sourceUrl": "https://catalog.csulb.edu/preview_course_nopop.php?catoid=12&coid=109098",
+      "quote": "Advanced concepts in artificial intelligence. Topics include knowledge acquisition and representation, fuzzy logic, logical reasoning, multi-sensor integration, Dempster-Shafer's theory of evidential reasoning, real-time expert systems and neural networks.",
+      "verified": true,
+      "verifiedBy": "user 2026-11-18"
     },
     {
       "id": "f90",
       "kind": "course",
       "name": "CECS 552",
-      "detail": "Listed among allowed electives on the 2026-2027 catalog program page for the comprehensive-exam and/or thesis option.",
-      "sourceUrl": "https://catalog.csulb.edu/preview_program.php?catoid=12&poid=6290",
-      "quote": "CECS 552 - Computer Simulation and Modeling (3 units)"
+      "detail": "CECS 552 Computer Simulation and Modeling, CSULB 2026-27 catalog: Studies of general purpose and special simulation software. Model verification including graphical models Applications in various areas. Master's students register in CECS 552",
+      "sourceUrl": "https://catalog.csulb.edu/preview_course_nopop.php?catoid=12&coid=109099",
+      "quote": "Studies of general purpose and special simulation software. Model verification including graphical models Applications in various areas. Master's students register in CECS 552",
+      "verified": true,
+      "verifiedBy": "user 2026-11-18"
     },
     {
       "id": "f91",
       "kind": "course",
       "name": "CECS 553",
-      "detail": "Listed among allowed electives on the 2026-2027 catalog program page for the comprehensive-exam and/or thesis option.",
-      "sourceUrl": "https://catalog.csulb.edu/preview_program.php?catoid=12&poid=6290",
-      "quote": "CECS 553 - Machine Vision (3 units)"
+      "detail": "CECS 553 Machine Vision, CSULB 2026-27 catalog: Discussion and laboratory implementation of current research in vision and image understanding. Topics include image formation, early processing, segmentation, relational structures in 2-D and 3-D, motion, stereo, 3-D reconstruction, morphological methods and computer architecture for machine",
+      "sourceUrl": "https://catalog.csulb.edu/preview_course_nopop.php?catoid=12&coid=109100",
+      "quote": "Discussion and laboratory implementation of current research in vision and image understanding. Topics include image formation, early processing, segmentation, relational structures in 2-D and 3-D, motion, stereo, 3-D reconstruction, morphological methods and computer architecture for machine",
+      "verified": true,
+      "verifiedBy": "user 2026-11-18"
     },
     {
       "id": "f92",
       "kind": "course",
       "name": "CECS 561",
-      "detail": "Listed among allowed electives on the 2026-2027 catalog program page for the comprehensive-exam and/or thesis option.",
-      "sourceUrl": "https://catalog.csulb.edu/preview_program.php?catoid=12&poid=6290",
-      "quote": "CECS 561 - Hardware/Software Co-design (3 units)"
+      "detail": "CECS 561 Hardware/Software Co-design, CSULB 2026-27 catalog: Introduction to top-down methods for hardware/software system-on- chip co-design. Design flow - system specification, software implementation, hardware synthesis, system design, and verification. Process optimization with various design decisions emphasized.",
+      "sourceUrl": "https://catalog.csulb.edu/preview_course_nopop.php?catoid=12&coid=109101",
+      "quote": "Introduction to top-down methods for hardware/software system-on- chip co-design. Design flow - system specification, software implementation, hardware synthesis, system design, and verification. Process optimization with various design decisions emphasized.",
+      "verified": true,
+      "verifiedBy": "user 2026-11-18"
     },
     {
       "id": "f93",
       "kind": "course",
       "name": "CECS 570",
-      "detail": "Listed among allowed electives on the 2026-2027 catalog program page for the comprehensive-exam and/or thesis option.",
-      "sourceUrl": "https://catalog.csulb.edu/preview_program.php?catoid=12&poid=6290",
-      "quote": "CECS 570 - Concurrent Parallel Programming (3 units)"
+      "detail": "CECS 570 Concurrent Parallel Programming, CSULB 2026-27 catalog: Introduction to concurrent and parallel programming for multiprocessing and distributed systems. Computational models and paradigms. Parallel programming languages and programming tools. Portable parallel programming and mapping techniques. Heterogeneous concurrent programming.",
+      "sourceUrl": "https://catalog.csulb.edu/preview_course_nopop.php?catoid=12&coid=109102",
+      "quote": "Introduction to concurrent and parallel programming for multiprocessing and distributed systems. Computational models and paradigms. Parallel programming languages and programming tools. Portable parallel programming and mapping techniques. Heterogeneous concurrent programming.",
+      "verified": true,
+      "verifiedBy": "user 2026-11-18"
     },
     {
       "id": "f94",
       "kind": "course",
       "name": "CECS 571",
-      "detail": "Listed among allowed electives on the 2026-2027 catalog program page for the comprehensive-exam and/or thesis option.",
-      "sourceUrl": "https://catalog.csulb.edu/preview_program.php?catoid=12&poid=6290",
-      "quote": "CECS 571 - Fundamentals of Semantic Web technologies (3 units)"
+      "detail": "CECS 571 Fundamentals of Semantic Web technologies, CSULB 2026-27 catalog: Introduction to key Semantic Web technologies that extend the current Web. Semantic-driven applications, structured data, ontologies, knowledge modeling and engineering, linked data, logic and inference, XML, XML Schema, RDF, RDFS, OWL (Full, DL, Lite).",
+      "sourceUrl": "https://catalog.csulb.edu/preview_course_nopop.php?catoid=12&coid=109103",
+      "quote": "Introduction to key Semantic Web technologies that extend the current Web. Semantic-driven applications, structured data, ontologies, knowledge modeling and engineering, linked data, logic and inference, XML, XML Schema, RDF, RDFS, OWL (Full, DL, Lite).",
+      "verified": true,
+      "verifiedBy": "user 2026-11-18"
     },
     {
       "id": "f95",
       "kind": "course",
       "name": "CECS 572",
-      "detail": "Listed among allowed electives on the 2026-2027 catalog program page for the comprehensive-exam and/or thesis option.",
-      "sourceUrl": "https://catalog.csulb.edu/preview_program.php?catoid=12&poid=6290",
-      "quote": "CECS 572 - Advanced Computer Networking (3 units)"
+      "detail": "CECS 572 Advanced Computer Networking, CSULB 2026-27 catalog: Advanced concepts in computer network theory and practice. Computer network design and standards for local area networks (LANs) and wide area networks (WANs). Computer network configuration and performance issues. Master's students register in CECS 572 or CECS 672 ; Ph.D.",
+      "sourceUrl": "https://catalog.csulb.edu/preview_course_nopop.php?catoid=12&coid=109104",
+      "quote": "Advanced concepts in computer network theory and practice. Computer network design and standards for local area networks (LANs) and wide area networks (WANs). Computer network configuration and performance issues. Master's students register in CECS 572 or CECS 672 ; Ph.D.",
+      "verified": true,
+      "verifiedBy": "user 2026-11-18"
     },
     {
       "id": "f96",
       "kind": "course",
       "name": "CECS 574",
-      "detail": "Listed among allowed electives on the 2026-2027 catalog program page for the comprehensive-exam and/or thesis option.",
-      "sourceUrl": "https://catalog.csulb.edu/preview_program.php?catoid=12&poid=6290",
-      "quote": "CECS 574 - Distributed Computing (3 units)"
+      "detail": "CECS 574 Distributed Computing, CSULB 2026-27 catalog: Master's students register in CECS 574; Ph.D. students register in CECS 674 . Additional projects required for CECS 674 .",
+      "sourceUrl": "https://catalog.csulb.edu/preview_course_nopop.php?catoid=12&coid=109105",
+      "quote": "Master's students register in CECS 574; Ph.D. students register in CECS 674 . Additional projects required for CECS 674 .",
+      "verified": true,
+      "verifiedBy": "user 2026-11-18"
     },
     {
       "id": "f97",
       "kind": "course",
       "name": "CECS 575",
-      "detail": "Listed among allowed electives on the 2026-2027 catalog program page for the comprehensive-exam and/or thesis option.",
-      "sourceUrl": "https://catalog.csulb.edu/preview_program.php?catoid=12&poid=6290",
-      "quote": "CECS 575 - Object-Oriented Analysis and Design (3 units)"
+      "detail": "CECS 575 Object-Oriented Analysis and Design, CSULB 2026-27 catalog: An object-oriented approach to software development based on modeling objects from the real world. Object-oriented methodology from problem statement through analysis, system design, and object design. Implementation of object-oriented designs in various target environments. Case studies.",
+      "sourceUrl": "https://catalog.csulb.edu/preview_course_nopop.php?catoid=12&coid=109106",
+      "quote": "An object-oriented approach to software development based on modeling objects from the real world. Object-oriented methodology from problem statement through analysis, system design, and object design. Implementation of object-oriented designs in various target environments. Case studies.",
+      "verified": true,
+      "verifiedBy": "user 2026-11-18"
     },
     {
       "id": "f98",
       "kind": "course",
       "name": "CECS 577",
-      "detail": "Listed among allowed electives on the 2026-2027 catalog program page for the comprehensive-exam and/or thesis option.",
-      "sourceUrl": "https://catalog.csulb.edu/preview_program.php?catoid=12&poid=6290",
-      "quote": "CECS 577 - Blockchain Technology (3 units)"
+      "detail": "CECS 577 Blockchain Technology, CSULB 2026-27 catalog: Overview of fundamentals, a survey of contributing fields and some simple hands-on activities toward understanding the fundamentals of blockchain technology, its transactions and protocols, and its applications. Projects assigned.",
+      "sourceUrl": "https://catalog.csulb.edu/preview_course_nopop.php?catoid=12&coid=114298",
+      "quote": "Overview of fundamentals, a survey of contributing fields and some simple hands-on activities toward understanding the fundamentals of blockchain technology, its transactions and protocols, and its applications. Projects assigned.",
+      "verified": true,
+      "verifiedBy": "user 2026-11-18"
     },
     {
       "id": "f99",
       "kind": "course",
       "name": "CECS 579",
-      "detail": "Listed among allowed electives on the 2026-2027 catalog program page for the comprehensive-exam and/or thesis option.",
-      "sourceUrl": "https://catalog.csulb.edu/preview_program.php?catoid=12&poid=6290",
-      "quote": "CECS 579 - Information Security (3 units)"
+      "detail": "CECS 579 Information Security, CSULB 2026-27 catalog: Symmetric cryptosystems, stream ciphers, pseudorandom functions, message authentication codes (MACs), collision resistant hash functions, number theory and cryptographic hardness assumptions, public-key encryption (El- Gamaland RSA), digital signature schemes.",
+      "sourceUrl": "https://catalog.csulb.edu/preview_course_nopop.php?catoid=12&coid=109107",
+      "quote": "Symmetric cryptosystems, stream ciphers, pseudorandom functions, message authentication codes (MACs), collision resistant hash functions, number theory and cryptographic hardness assumptions, public-key encryption (El- Gamaland RSA), digital signature schemes.",
+      "verified": true,
+      "verifiedBy": "user 2026-11-18"
     },
     {
       "id": "f100",
       "kind": "course",
       "name": "CECS 590",
-      "detail": "Listed among allowed electives on the 2026-2027 catalog program page for the comprehensive-exam and/or thesis option.",
-      "sourceUrl": "https://catalog.csulb.edu/preview_program.php?catoid=12&poid=6290",
-      "quote": "CECS 590 - Selected Topics in Computer Science (3 units)"
+      "detail": "CECS 590 Selected Topics in Computer Science, CSULB 2026-27 catalog: Each offering is based on an area in computer science and technology in which recent advances have been made. Additional projects required for CECS 690 .",
+      "sourceUrl": "https://catalog.csulb.edu/preview_course_nopop.php?catoid=12&coid=109108",
+      "quote": "Each offering is based on an area in computer science and technology in which recent advances have been made. Additional projects required for CECS 690 .",
+      "verified": true,
+      "verifiedBy": "user 2026-11-18"
     }
   ]
 }

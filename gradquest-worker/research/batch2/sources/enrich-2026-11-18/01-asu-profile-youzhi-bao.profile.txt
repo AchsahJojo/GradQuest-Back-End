@@ -1,0 +1,20 @@
+[display_name]
+Tiffany Bao
+
+[titles]
+Associate Director of Research Acceleration Assistant Professor
+
+[primary_department]
+School of Computing and Augmented Intelligence
+
+[research_interests]
+
+
+[expertise_areas]
+
+
+[short_bio]
+Tiffany Bao is an Assistant Professor in the School of Computing and Augmented Intelligence and Associate Director of Research Acceleration at the Center for Cybersecurity and Trusted Foundations.
+
+[bio]
+Tiffany Bao is an Assistant Professor in the School of Computing and Augmented Intelligence and Associate Director of Research Acceleration at the Center for Cybersecurity and Trusted Foundations. Her research focuses on cyber autonomy, and her work spans the areas of binary analysis techniques and game-theoretical strategy. She's the recipient of the Carnegie Mellon University Presidential Fellowship and NSA's Best Scientific Cybersecurity Paper. She received her doctorate from Carnegie Mellon University.
