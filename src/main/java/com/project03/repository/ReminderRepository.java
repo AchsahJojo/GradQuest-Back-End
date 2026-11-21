@@ -2,6 +2,7 @@ package com.project03.repository;
 
 import com.project03.model.Reminder;
 import com.project03.model.User;
+import org.springframework.data.jpa.repository.EntityGraph;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
@@ -89,7 +90,9 @@ public interface ReminderRepository extends JpaRepository<Reminder, Long> {
 
     /**
      * Due −14 notify emails: notify_at reached, not yet sent, not cancelled, real deadline.
+     * EntityGraph loads user/school so cron can send mail after the query transaction ends.
      */
+    @EntityGraph(attributePaths = {"user", "school"})
     @Query("SELECT r FROM Reminder r WHERE r.notifyAt IS NOT NULL AND "
            + "r.notifyAt <= :today AND "
            + "r.notifyEmailSentAt IS NULL AND "

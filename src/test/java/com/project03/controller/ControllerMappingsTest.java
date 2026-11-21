@@ -27,6 +27,7 @@ import com.project03.service.MatchScoringService;
 import com.project03.service.OAuthUserService;
 import com.project03.service.ReminderDeadlineResolver;
 import com.project03.service.ReminderEmailService;
+import com.project03.service.ReminderService;
 
 /**
  * Verifies that selected controllers are registered with Spring MVC
@@ -60,6 +61,7 @@ class ControllerMappingsTest {
     @MockBean private MatchScoringService matchScoringService;
     @MockBean private OAuthUserService oauthUserService;
     @MockBean private ReminderDeadlineResolver reminderDeadlineResolver;
+    @MockBean private ReminderService reminderService;
     @MockBean private ReminderEmailService reminderEmailService;
     // MeController also needs CurrentUserService + UserRepository (already mocked above)
 

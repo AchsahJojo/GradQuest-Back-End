@@ -18,6 +18,7 @@ import com.project03.service.CurrentUserService;
 import com.project03.service.ReminderDeadlineResolution;
 import com.project03.service.ReminderDeadlineResolver;
 import com.project03.service.ReminderEmailService;
+import com.project03.service.ReminderService;
 import java.time.LocalDate;
 import java.util.List;
 import java.util.Optional;
@@ -35,6 +36,7 @@ class ReminderControllerEmailTest {
     private final SchoolRepository schoolRepo = mock(SchoolRepository.class);
     private final StudentPreferenceRepository preferenceRepo = mock(StudentPreferenceRepository.class);
     private final ReminderDeadlineResolver deadlineResolver = mock(ReminderDeadlineResolver.class);
+    private final ReminderService reminderService = mock(ReminderService.class);
     private final ReminderEmailService emailService = mock(ReminderEmailService.class);
 
     private ReminderController controller;
@@ -44,7 +46,8 @@ class ReminderControllerEmailTest {
     @BeforeEach
     void setUp() {
         controller = new ReminderController(
-                reminderRepo, currentUser, schoolRepo, preferenceRepo, deadlineResolver, emailService);
+                reminderRepo, currentUser, schoolRepo, preferenceRepo,
+                deadlineResolver, reminderService, emailService);
         user = new User();
         user.setId(1L);
         user.setEmail("tester@dev.local");
@@ -53,22 +56,24 @@ class ReminderControllerEmailTest {
     }
 
     @Test
-    @DisplayName("POST save creates reminder with notify_at and triggers confirm email")
+    @DisplayName("POST save creates reminder then triggers confirm email after commit")
     void createSchedulesAndConfirms() {
         School school = school(5L);
         LocalDate deadline = LocalDate.now().plusDays(30);
         ReminderDeadlineResolution resolution = new ReminderDeadlineResolution(
                 deadline, false, "Fall 2027", "DOMESTIC");
+        Reminder saved = new Reminder();
+        saved.setId(77L);
+        saved.setDeadlineDate(deadline);
+        saved.setNotifyAt(deadline.minusDays(14));
+        saved.setDeadlineIsPlaceholder(false);
+
         when(schoolRepo.findById(5L)).thenReturn(Optional.of(school));
-        when(reminderRepo.findByUserAndSchoolId(user, 5L)).thenReturn(List.of());
+        when(reminderService.findExisting(user, 5L)).thenReturn(Optional.empty());
         when(preferenceRepo.findByUser(user)).thenReturn(Optional.empty());
         when(deadlineResolver.resolve(school, null)).thenReturn(resolution);
-        when(reminderRepo.save(any(Reminder.class))).thenAnswer(inv -> {
-            Reminder r = inv.getArgument(0);
-            r.setId(77L);
-            return r;
-        });
-        when(emailService.onReminderCreated(any(), eq(resolution))).thenAnswer(inv -> inv.getArgument(0));
+        when(reminderService.createDeadlineReminder(user, school, resolution)).thenReturn(saved);
+        when(emailService.onReminderCreated(saved, resolution)).thenReturn(saved);
 
         ResponseEntity<?> response = controller.createReminder(auth, 5L);
 
@@ -77,7 +82,40 @@ class ReminderControllerEmailTest {
         assertThat(body.getDeadlineDate()).isEqualTo(deadline);
         assertThat(body.getNotifyAt()).isEqualTo(deadline.minusDays(14));
         assertThat(body.getDeadlineIsPlaceholder()).isFalse();
-        verify(emailService).onReminderCreated(any(Reminder.class), eq(resolution));
+        verify(reminderService).createDeadlineReminder(user, school, resolution);
+        verify(emailService).onReminderCreated(saved, resolution);
+    }
+
+    @Test
+    @DisplayName("POST save still returns OK when confirm email throws after commit")
+    void createSurvivesEmailFailure() {
+        School school = school(5L);
+        LocalDate deadline = LocalDate.now().plusDays(30);
+        ReminderDeadlineResolution resolution = new ReminderDeadlineResolution(
+                deadline, false, "Fall 2027", "DOMESTIC");
+        Reminder saved = new Reminder();
+        saved.setId(88L);
+        saved.setDeadlineDate(deadline);
+        saved.setNotifyAt(deadline.minusDays(14));
+        saved.setDeadlineIsPlaceholder(false);
+
+        when(schoolRepo.findById(5L)).thenReturn(Optional.of(school));
+        when(reminderService.findExisting(user, 5L)).thenReturn(Optional.empty());
+        when(preferenceRepo.findByUser(user)).thenReturn(Optional.empty());
+        when(deadlineResolver.resolve(school, null)).thenReturn(resolution);
+        when(reminderService.createDeadlineReminder(user, school, resolution)).thenReturn(saved);
+        when(emailService.onReminderCreated(saved, resolution))
+                .thenThrow(new RuntimeException("worker unavailable"));
+
+        ResponseEntity<?> response = controller.createReminder(auth, 5L);
+
+        assertThat(response.getStatusCode()).isEqualTo(HttpStatus.OK);
+        Reminder body = (Reminder) response.getBody();
+        assertThat(body.getId()).isEqualTo(88L);
+        assertThat(body.getNeedsEmail()).isFalse();
+        verify(reminderService).createDeadlineReminder(user, school, resolution);
+        verify(emailService).onReminderCreated(saved, resolution);
+        verify(reminderRepo, never()).delete(any());
     }
 
     @Test

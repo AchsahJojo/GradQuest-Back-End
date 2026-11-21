@@ -46,10 +46,14 @@ public class ReminderEmailService {
     }
 
     /**
-     * After a new reminder row is saved: send confirmation; if already inside the
+     * After a new reminder row is committed: send confirmation; if already inside the
      * 14-day window, also send due-soon once (marks notify so cron will not repeat).
+     *
+     * <p>Not {@code @Transactional}: Worker HTTP must not run while a Hikari connection
+     * is held. Sent-at stamps are persisted via the repository's short transaction after
+     * sends complete. Send failures are logged and must not roll back the already-committed
+     * reminder.
      */
-    @Transactional
     public Reminder onReminderCreated(Reminder reminder, ReminderDeadlineResolution resolution) {
         if (reminder.getEmailCancelledAt() != null) {
             return reminder;
@@ -61,9 +65,11 @@ public class ReminderEmailService {
             return reminder;
         }
 
+        boolean dirty = false;
         EmailSendResult confirm = emailWorker.send(buildConfirm(reminder, resolution));
         if (confirm.recordedAsSent()) {
             reminder.setConfirmEmailSentAt(LocalDateTime.now());
+            dirty = true;
         } else {
             log.info("Confirm email not recorded for reminder {}: {}", reminder.getId(), confirm.reason());
         }
@@ -77,9 +83,17 @@ public class ReminderEmailService {
             EmailSendResult dueSoon = emailWorker.send(buildDueSoon(reminder, resolution));
             if (dueSoon.recordedAsSent()) {
                 reminder.setNotifyEmailSentAt(LocalDateTime.now());
+                dirty = true;
+            } else {
+                log.info("Due-soon email not recorded for reminder {}: {}",
+                        reminder.getId(), dueSoon.reason());
             }
         }
 
+        if (!dirty) {
+            return reminder;
+        }
+        // Spring Data save() runs in its own short transaction — after Worker HTTP.
         return reminderRepo.save(reminder);
     }
 
@@ -99,10 +113,14 @@ public class ReminderEmailService {
         }
     }
 
-    /** Minimal scan: send due-soon for rows whose notify_at is due and not cancelled/sent. */
-    @Transactional
+    /**
+     * Minimal scan: send due-soon for rows whose notify_at is due and not cancelled/sent.
+     * Not {@code @Transactional} so each Worker call runs without holding a pool connection;
+     * sent-at updates use the repository's short per-row transaction.
+     */
     public int processDueNotifications() {
         LocalDate today = LocalDate.now();
+        // Repo method transaction ends before HTTP; query JOIN FETCHes user/school.
         List<Reminder> due = reminderRepo.findDueForNotifyEmail(today);
         int sent = 0;
         for (Reminder reminder : due) {
@@ -125,6 +143,9 @@ public class ReminderEmailService {
                 reminder.setNotifyEmailSentAt(LocalDateTime.now());
                 reminderRepo.save(reminder);
                 sent++;
+            } else {
+                log.info("Due-soon email not recorded for reminder {}: {}",
+                        reminder.getId(), result.reason());
             }
         }
         return sent;
