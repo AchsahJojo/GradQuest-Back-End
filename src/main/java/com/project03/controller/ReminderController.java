@@ -12,6 +12,7 @@ import com.project03.service.EmailDeliverability;
 import com.project03.service.ReminderDeadlineResolution;
 import com.project03.service.ReminderDeadlineResolver;
 import com.project03.service.ReminderEmailService;
+import com.project03.service.ReminderService;
 import org.springframework.security.core.Authentication;
 import org.springframework.http.ResponseEntity;
 import org.slf4j.Logger;
@@ -37,6 +38,7 @@ public class ReminderController {
     private final SchoolRepository schoolRepo;
     private final StudentPreferenceRepository preferenceRepo;
     private final ReminderDeadlineResolver deadlineResolver;
+    private final ReminderService reminderService;
     private final ReminderEmailService emailService;
 
     public ReminderController(ReminderRepository reminderRepo,
@@ -44,12 +46,14 @@ public class ReminderController {
                              SchoolRepository schoolRepo,
                              StudentPreferenceRepository preferenceRepo,
                              ReminderDeadlineResolver deadlineResolver,
+                             ReminderService reminderService,
                              ReminderEmailService emailService) {
         this.reminderRepo = reminderRepo;
         this.currentUser = currentUser;
         this.schoolRepo = schoolRepo;
         this.preferenceRepo = preferenceRepo;
         this.deadlineResolver = deadlineResolver;
+        this.reminderService = reminderService;
         this.emailService = emailService;
     }
 
@@ -58,55 +62,51 @@ public class ReminderController {
      *
      * POST /api/reminders?schoolId={schoolId}
      *
-     * Saves the school, schedules deadline−14 notify, and attempts confirmation email.
+     * Saves the school, schedules deadline−14 notify, then attempts confirmation email
+     * only after the reminder row has committed (so Worker HTTP cannot pin Hikari).
      */
     @PostMapping
-    @Transactional
     public ResponseEntity<?> createReminder(Authentication authentication,
                                             @RequestParam Long schoolId) {
         User user = currentUser.require(authentication);
+        Reminder savedReminder;
+        ReminderDeadlineResolution resolution;
         try {
             School school = schoolRepo.findById(schoolId).orElse(null);
             if (school == null) {
                 return ResponseEntity.notFound().build();
             }
 
-            List<Reminder> existing = reminderRepo.findByUserAndSchoolId(user, schoolId);
-            if (!existing.isEmpty()) {
-                return ResponseEntity.ok(existing.get(0));
+            var existing = reminderService.findExisting(user, schoolId);
+            if (existing.isPresent()) {
+                return ResponseEntity.ok(existing.get());
             }
 
             StudentPreference prefs = preferenceRepo.findByUser(user).orElse(null);
-            ReminderDeadlineResolution resolution = deadlineResolver.resolve(school, prefs);
+            resolution = deadlineResolver.resolve(school, prefs);
             if (resolution == null || resolution.deadlineDate() == null) {
                 Map<String, String> error = new HashMap<>();
                 error.put("error", "School does not have an application deadline");
                 return ResponseEntity.badRequest().body(error);
             }
 
-            Reminder reminder = new Reminder();
-            reminder.setUser(user);
-            reminder.setSchool(school);
-            reminder.setReminderDate(resolution.deadlineDate());
-            reminder.setDeadlineDate(resolution.deadlineDate());
-            reminder.setNotifyAt(resolution.notifyAt());
-            reminder.setDeadlineIsPlaceholder(resolution.placeholder());
-            reminder.setTitle("Application deadline: " + school.getName());
-            reminder.setDescription("Submit application for " + school.getName()
-                    + (school.getProgramName() != null ? " - " + school.getProgramName() : ""));
-            reminder.setReminderType(Reminder.ReminderType.DEADLINE);
-            reminder.setIsCompleted(false);
-
-            Reminder savedReminder = reminderRepo.save(reminder);
-            savedReminder = emailService.onReminderCreated(savedReminder, resolution);
-            savedReminder.setNeedsEmail(!EmailDeliverability.isDeliverable(user.getEmail()));
-            return ResponseEntity.ok(savedReminder);
+            // Commits before email: do not hold a DB connection during Worker HTTP.
+            savedReminder = reminderService.createDeadlineReminder(user, school, resolution);
         } catch (Exception e) {
             log.warn("Request failed", e);
             Map<String, String> error = new HashMap<>();
             error.put("error", "Failed to create reminder");
             return ResponseEntity.badRequest().body(error);
         }
+
+        try {
+            savedReminder = emailService.onReminderCreated(savedReminder, resolution);
+        } catch (Exception emailEx) {
+            log.warn("Confirm email failed after reminder {} saved; leaving reminder in place",
+                    savedReminder.getId(), emailEx);
+        }
+        savedReminder.setNeedsEmail(!EmailDeliverability.isDeliverable(user.getEmail()));
+        return ResponseEntity.ok(savedReminder);
     }
 
     /**

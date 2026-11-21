@@ -86,6 +86,23 @@ class ReminderEmailServiceTest {
 
         assertThat(saved.getConfirmEmailSentAt()).isNull();
         verify(emailWorker, never()).send(any());
+        verify(reminderRepo, never()).save(any());
+    }
+
+    @Test
+    @DisplayName("worker failure leaves reminder unstamped and does not throw")
+    void workerFailureDoesNotStamp() {
+        Reminder reminder = reminder("achsah@example.com", LocalDate.now().plusDays(40), false);
+        ReminderDeadlineResolution resolution = new ReminderDeadlineResolution(
+                reminder.getDeadlineDate(), false, "Fall 2027", "DOMESTIC");
+        when(emailWorker.send(any())).thenReturn(EmailSendResult.skipped("worker_error"));
+
+        Reminder saved = service.onReminderCreated(reminder, resolution);
+
+        assertThat(saved.getConfirmEmailSentAt()).isNull();
+        assertThat(saved.getNotifyEmailSentAt()).isNull();
+        verify(emailWorker, times(1)).send(any());
+        verify(reminderRepo, never()).save(any());
     }
 
     @Test
