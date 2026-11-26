@@ -1,6 +1,7 @@
 import type { Excerpt } from "../crawl/excerpts";
 import type { JudgedPair } from "../facts/judge";
 import { MIN_STRONG_PAIRS, UNVERIFIED_FACULTY_SUBTITLE, isThinFaculty } from "../facts/match";
+import { isResumeHeaderNoise, scrubContactTokens } from "../resume/noise";
 import { guardNames, type AllowedNames, type NameRoster } from "./nameGuard";
 
 export const DRAFT_LABEL = "Draft outline — edit before you use it";
@@ -72,6 +73,7 @@ export function scaffoldOutline(input: DraftInput): DraftResult {
 
   const openingResume =
     input.openingFact ??
+    pickOpeningFact(input.resumeChunks, 0) ??
     (input.resumeChunks[0] ? { id: input.resumeChunks[0].id, text: input.resumeChunks[0].text } : undefined);
 
   for (const header of SECTION_HEADERS) {
@@ -207,7 +209,9 @@ function evidenceLine(id: string, text: string): string {
 }
 
 function addResumeEvidence(evidence: string[], chunks: Excerpt[]): void {
-  for (const chunk of chunks) {
+  const facts = resumeFacts(chunks).slice(0, 2);
+  const source = facts.length > 0 ? facts : chunks.slice(0, 2);
+  for (const chunk of source) {
     evidence.push(evidenceLine(chunk.id, chunk.text));
   }
 }
@@ -336,12 +340,21 @@ export function forOutsideApplicants(excerpts: Excerpt[]): Excerpt[] {
 }
 
 export function resumeFacts(chunks: Excerpt[]): Excerpt[] {
-  return chunks.flatMap((chunk) =>
-    splitSentences(chunk.text)
-      .map((sentence) => sentence.trim())
+  return chunks.flatMap((chunk) => {
+    const pieces = chunk.text.includes("\n")
+      ? chunk.text
+          .split(/\r?\n/)
+          .map((line) => line.trim())
+          .filter(Boolean)
+      : [scrubContactTokens(chunk.text)];
+    return pieces
+      .filter((piece) => !isResumeHeaderNoise(piece))
+      .flatMap((piece) => splitSentences(piece))
+      .map((sentence) => scrubContactTokens(sentence).trim())
       .filter((sentence) => sentence.split(/\s+/).length >= 4)
-      .map((sentence) => ({ id: chunk.id, text: sentence })),
-  );
+      .filter((sentence) => !isResumeHeaderNoise(sentence))
+      .map((sentence) => ({ id: chunk.id, text: sentence }));
+  });
 }
 
 export function pickOpeningFact(chunks: Excerpt[], turn: number): Excerpt | undefined {

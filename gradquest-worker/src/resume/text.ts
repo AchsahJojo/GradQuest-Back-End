@@ -1,4 +1,5 @@
 import { excerptsFromText, type Excerpt } from "../crawl/excerpts";
+import { stripResumeHeaderLines } from "./noise";
 
 const MAX_TEXT = 50_000;
 
@@ -8,7 +9,7 @@ export async function resumeToChunks(input: {
   text?: string;
   bytes?: Uint8Array;
 }): Promise<Excerpt[]> {
-  const text = await resumeText(input);
+  const text = stripResumeHeaderLines(await resumeText(input));
   return excerptsFromText(text.slice(0, MAX_TEXT), "R", 8);
 }
 
