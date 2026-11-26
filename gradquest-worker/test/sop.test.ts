@@ -23,6 +23,7 @@ import {
   draftParagraph,
   draftPrompt,
   draftProblems,
+  scaffoldOutline,
   stripUnfilledProgramCitations,
   weakOverlapParagraph,
   draftShapeProblem,
@@ -449,7 +450,7 @@ describe("markdown excerpts", () => {
 });
 
 describe("draft", () => {
-  it("cites the resume and leaves a gap instead of inventing a prompt", () => {
+  it("scaffolds section prompts with resume citations and no invented portal prose", () => {
     const draft = draftParagraph({
       mode: "opening",
       schoolName: "Cal Poly San Luis Obispo",
@@ -461,11 +462,63 @@ describe("draft", () => {
       pairs: [],
       weak: false,
     });
+    expect(draft.paragraph).toContain("Opening");
+    expect(draft.paragraph).toContain("Preparation & Experience");
+    expect(draft.paragraph).toContain("Goals & Program Fit");
+    expect(draft.paragraph).toContain("Conclusion");
     expect(draft.paragraph).toContain("[R1]");
     expect(draft.paragraph).toContain("[STUDENT: add detail]");
     expect(draft.paragraph).not.toContain("Cal State Apply");
+    expect(draft.paragraph).not.toMatch(/^I am applying/m);
     expect(draft.label).toContain("Draft outline");
-    expect(draft.paragraph.includes("\n")).toBe(false);
+  });
+
+  it("builds scaffold-only outline with evidence lists and no generated prose under headers", () => {
+    const draft = scaffoldOutline({
+      mode: "opening",
+      schoolName: "Arizona State University",
+      programName: "Computer Science, M.S.",
+      sopRequired: true,
+      pageStatus: "ok",
+      resumeChunks: [{ id: "R1", text: "Built a deep learning model for lab images." }],
+      pageExcerpts: [],
+      pairs: [
+        judgedPair("faculty", "Ada Lovelace", "Studies formal methods.", "Built a deep learning model for lab images."),
+        judgedPair("course", "Compilers", "A graduate compilers course.", "Built a deep learning model for lab images."),
+      ],
+      weak: false,
+    });
+    expect(draft.paragraph).toContain("Opening");
+    expect(draft.paragraph).toContain("Evidence");
+    expect(draft.paragraph).toContain("[P1]");
+    expect(draft.paragraph).toContain("[P2]");
+    expect(draft.paragraph).not.toMatch(/I am applying to/);
+    expect(draft.paragraph).not.toMatch(/\bpassionate about\b/i);
+    for (const header of ["Opening", "Preparation & Experience", "Goals & Program Fit", "Conclusion"]) {
+      const after = draft.paragraph.split(header)[1] ?? "";
+      const beforeNext = after.split(/\n(?:Opening|Preparation & Experience|Goals & Program Fit|Conclusion)\n/)[0] ?? after;
+      expect(beforeNext).toMatch(/\[STUDENT: add detail\]|Evidence|\[R\d+\]|\[P\d+\]/);
+    }
+  });
+
+  it("uses weak scaffolding with no program-specific claims", () => {
+    const draft = scaffoldOutline({
+      mode: "opening",
+      schoolName: "San Diego State University",
+      programName: "Computer Science, M.S.",
+      sopRequired: true,
+      pageStatus: "ok",
+      resumeChunks: [{ id: "R1", text: "I studied computer science as an undergraduate." }],
+      pageExcerpts: [{ id: "P1", text: "Professor Jane Smith teaches CSC 999." }],
+      pairs: [],
+      weak: true,
+    });
+    expect(draft.paragraph).toContain("little connection");
+    expect(draft.paragraph).toContain("Opening");
+    expect(draft.paragraph).toContain("[STUDENT: add detail]");
+    expect(draft.paragraph).not.toContain("Jane Smith");
+    expect(draft.paragraph).not.toContain("CSC 999");
+    expect(draft.paragraph).not.toMatch(/\[P\d+\]/);
   });
 
   it("rejects a model paragraph that invents a portal prompt", () => {
@@ -1116,7 +1169,6 @@ describe("kept pairs and name guard", () => {
     });
     expect(text).toContain("little connection");
     expect(text).toContain("Computer Science, M.S.");
-    expect(text).toContain("[STUDENT: add detail]");
     expect(text).not.toMatch(/\[P#\]/);
     expect(text).not.toMatch(/\[P\d+\]/);
     expect(text.split(/\s+/).length).toBeLessThan(80);
@@ -1206,6 +1258,35 @@ describe("kept pairs and name guard", () => {
     expect(keptPairsForDraft(JSON.stringify(STORED_OVERLAP), ["fac"])).toEqual(weak);
     expect(keptPairsForDraft(JSON.stringify(STORED_OVERLAP), ["missing", "fac"])).toEqual(weak);
     expect(keptPairsForDraft("{", ["fac", "crs"])).toEqual(weak);
+  });
+
+  it("is weak when only a thin faculty card remains with one course", () => {
+    const thinOnly = {
+      pairs: [
+        {
+          pairId: "thin",
+          resumeText: "I studied computer science.",
+          factKind: "faculty",
+          factName: "Jedidiah Crandall",
+          factDetail: "",
+          researchVerified: false,
+          sourceUrl: "https://example.edu/thin",
+          reason: "Name listed.",
+        },
+        {
+          pairId: "crs",
+          resumeText: "Built a compiler.",
+          factKind: "course",
+          factName: "Compilers",
+          factDetail: "A graduate compilers course.",
+          researchVerified: true,
+          sourceUrl: "https://example.edu/crs",
+          reason: "Both discuss compilers.",
+        },
+      ],
+      weak: true,
+    };
+    expect(keptPairsForDraft(JSON.stringify(thinOnly), ["thin", "crs"]).weak).toBe(true);
   });
 });
 
@@ -1530,6 +1611,7 @@ describe("overlap report", () => {
       status: 200,
       body: {
         pairs: [],
+        visibleCount: 8,
         weak: true,
         unmatchedKinds: ["faculty", "course"],
         verifiedAsOf: "2026-03-01T00:00:00Z",
@@ -1649,6 +1731,7 @@ describe("overlap report", () => {
       status: 200,
       body: {
         pairs: [],
+        visibleCount: 8,
         weak: true,
         unmatchedKinds: ["faculty", "course"],
         verifiedAsOf: "2026-03-01T00:00:00Z",
@@ -1692,6 +1775,7 @@ describe("overlap report", () => {
       status: 200,
       body: {
         pairs: [],
+        visibleCount: 8,
         weak: true,
         unmatchedKinds: ["faculty", "course"],
         verifiedAsOf: null,
