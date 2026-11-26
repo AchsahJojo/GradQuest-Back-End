@@ -1,6 +1,6 @@
 import type { Excerpt } from "../crawl/excerpts";
 import type { JudgedPair } from "../facts/judge";
-import { MIN_STRONG_PAIRS } from "../facts/match";
+import { MIN_STRONG_PAIRS, UNVERIFIED_FACULTY_SUBTITLE, isThinFaculty } from "../facts/match";
 import { guardNames, type AllowedNames, type NameRoster } from "./nameGuard";
 
 export const DRAFT_LABEL = "Draft outline — edit before you use it";
@@ -31,15 +31,154 @@ export type DraftResult = {
 
 const BANNED_UNLESS_SOURCED = ["Cal State Apply", "Slate", "Technolutions"];
 
+const SECTION_HEADERS = [
+  "Opening",
+  "Preparation & Experience",
+  "Goals & Program Fit",
+  "Conclusion",
+] as const;
+
 export function weakOverlapParagraph(input: { schoolName: string; programName: string }): string {
   const school = input.schoolName.trim() || "this school";
   const program = input.programName.trim() || "this program";
   return [
     `We found little connection between your résumé and the faculty or courses in ${program} at ${school}.`,
     "Those parts are left for you to write.",
-    "[STUDENT: add detail] about a faculty member or research area you want to name.",
-    "[STUDENT: add detail] about a course you want to take and why it fits your background.",
   ].join(" ");
+}
+
+/** Scaffold-only outline: headers + prompts + evidence lists. No generated prose. */
+export function scaffoldOutline(input: DraftInput): DraftResult {
+  const school = input.schoolName.trim() || "this school";
+  const program = input.programName.trim() || "this program";
+  const blocks: string[] = [];
+
+  if (input.weak) {
+    blocks.push(weakOverlapParagraph({ schoolName: school, programName: program }));
+  } else if (input.sopRequired === false || input.mode === "motivation") {
+    blocks.push(`Optional motivation outline for ${program} at ${school}.`);
+  }
+
+  const labeledPairs = input.weak
+    ? []
+    : input.pairs.map((pair, index) => ({
+        pair: {
+          ...pair,
+          resume: resolveResumeCitation(pair.resume, input.resumeChunks, index + 1),
+        },
+        pId: `P${index + 1}`,
+        thin: isThinFaculty(pair.fact) || pair.fact.detail.trim() === "",
+      }));
+
+  const openingResume =
+    input.openingFact ??
+    (input.resumeChunks[0] ? { id: input.resumeChunks[0].id, text: input.resumeChunks[0].text } : undefined);
+
+  for (const header of SECTION_HEADERS) {
+    const prompts: string[] = [];
+    const evidence: string[] = [];
+
+    if (header === "Opening") {
+      prompts.push("Name the moment that made you want graduate study in this field. [STUDENT: add detail]");
+      if (openingResume) {
+        prompts.push(`Connect that opening to this résumé fact [${openingResume.id}].`);
+        evidence.push(evidenceLine(openingResume.id, openingResume.text));
+      } else {
+        prompts.push("Connect that opening to a concrete résumé experience. [STUDENT: add detail]");
+      }
+      if (input.pastedPrompt?.trim()) {
+        prompts.push("Answer any extra ask from the prompt you pasted. [STUDENT: add detail]");
+      }
+    }
+
+    if (header === "Preparation & Experience") {
+      if (input.weak) {
+        prompts.push("Describe one project, job, or course that prepared you. [STUDENT: add detail]");
+        prompts.push("Explain what you learned that you want to carry forward. [STUDENT: add detail]");
+        addResumeEvidence(evidence, input.resumeChunks.slice(0, 2));
+      } else {
+        const course = labeledPairs.find((item) => item.pair.fact.kind === "course");
+        const resume = course?.pair.resume ?? openingResume;
+        if (resume) {
+          prompts.push(`Explain how this experience prepared you for graduate study [${resume.id}].`);
+          evidence.push(evidenceLine(resume.id, resume.text));
+        } else {
+          prompts.push("Explain how a past experience prepared you for graduate study. [STUDENT: add detail]");
+        }
+        if (course && !input.weak) {
+          prompts.push(
+            `Say why you want to take ${course.pair.fact.name}, tied to your résumé [${course.pId}] [${course.pair.resume.id}].`,
+          );
+          evidence.push(evidenceLine(course.pId, `${course.pair.fact.name}. ${course.pair.fact.detail}`));
+          evidence.push(evidenceLine(course.pair.resume.id, course.pair.resume.text));
+        } else {
+          prompts.push("Name a course you want to take and why it fits your background. [STUDENT: add detail]");
+        }
+      }
+    }
+
+    if (header === "Goals & Program Fit") {
+      prompts.push("State a research or career goal for this program. [STUDENT: add detail]");
+      if (input.weak) {
+        prompts.push("Name a faculty member or research area only if you can verify it yourself. [STUDENT: add detail]");
+        addResumeEvidence(evidence, input.resumeChunks.slice(0, 2));
+      } else {
+        const faculty = labeledPairs.find((item) => item.pair.fact.kind === "faculty" && !item.thin);
+        const thinFaculty = labeledPairs.find((item) => item.pair.fact.kind === "faculty" && item.thin);
+        if (faculty) {
+          prompts.push(
+            `Explain how your background connects to ${faculty.pair.fact.name}'s work described below [${faculty.pId}] [${faculty.pair.resume.id}].`,
+          );
+          evidence.push(evidenceLine(faculty.pId, `${faculty.pair.fact.name}. ${faculty.pair.fact.detail}`));
+          evidence.push(evidenceLine(faculty.pair.resume.id, faculty.pair.resume.text));
+        } else if (thinFaculty) {
+          prompts.push(
+            `${thinFaculty.pair.fact.name} is listed for this program, but research interests are not verified. Do not invent interests. Add only what you can verify yourself. [STUDENT: add detail]`,
+          );
+          evidence.push(evidenceLine(thinFaculty.pId, `${thinFaculty.pair.fact.name}. ${UNVERIFIED_FACULTY_SUBTITLE}`));
+        } else {
+          prompts.push("Connect your goal to a verified faculty interest or course from the evidence list. [STUDENT: add detail]");
+        }
+        for (const item of labeledPairs) {
+          if (item.pair.fact.kind === "faculty" && item.thin) continue;
+          if (faculty && item.pId === faculty.pId) continue;
+          if (item.pair.fact.kind === "course") {
+            evidence.push(evidenceLine(item.pId, `${item.pair.fact.name}. ${item.pair.fact.detail}`));
+            evidence.push(evidenceLine(item.pair.resume.id, item.pair.resume.text));
+          }
+        }
+      }
+    }
+
+    if (header === "Conclusion") {
+      prompts.push("Close by naming what you want to accomplish in the first year. [STUDENT: add detail]");
+      if (!input.weak && labeledPairs[0]) {
+        const first = labeledPairs[0];
+        if (!first.thin) {
+          prompts.push(
+            `End by tying one résumé fact to one program fact [${first.pair.resume.id}] [${first.pId}].`,
+          );
+          evidence.push(evidenceLine(first.pair.resume.id, first.pair.resume.text));
+          evidence.push(evidenceLine(first.pId, `${first.pair.fact.name}. ${first.pair.fact.detail}`));
+        } else {
+          prompts.push("End with a specific goal you can support from your résumé. [STUDENT: add detail]");
+        }
+      } else {
+        prompts.push("End with a specific goal you can support from your résumé. [STUDENT: add detail]");
+        addResumeEvidence(evidence, input.resumeChunks.slice(0, 1));
+      }
+    }
+
+    blocks.push(formatSection(header, prompts.slice(0, 2), uniqueEvidence(evidence)));
+  }
+
+  const paragraph = blocks.join("\n\n").trim();
+  return {
+    paragraph,
+    label: DRAFT_LABEL,
+    citations: citationsIn(paragraph),
+    pageStatus: input.pageStatus,
+  };
 }
 
 export function stripUnfilledProgramCitations(text: string): string {
@@ -51,48 +190,53 @@ export function stripUnfilledProgramCitations(text: string): string {
 }
 
 export function draftParagraph(input: DraftInput): DraftResult {
-  const school = input.schoolName || "this school";
-  const program = input.programName || "this program";
-  const parts: string[] = [];
+  return scaffoldOutline(input);
+}
 
-  if (input.sopRequired === false || input.mode === "motivation") {
-    parts.push(`No statement is required for ${program} at ${school}, so this is an optional motivation draft.`);
-  } else {
-    parts.push(`I am applying to ${program} at ${school}.`);
+function formatSection(header: string, prompts: string[], evidence: string[]): string {
+  const lines = [header, ...prompts.map((prompt) => `- ${prompt}`)];
+  if (evidence.length > 0) {
+    lines.push("Evidence");
+    lines.push(...evidence.map((item) => `- ${item}`));
   }
+  return lines.join("\n");
+}
 
-  const resume = input.resumeChunks[0];
-  if (resume) {
-    parts.push(`From my resume: ${clip(resume.text)} [${resume.id}].`);
-  } else {
-    parts.push("[STUDENT: add detail] about a project, course, or job that belongs in this paragraph.");
+function evidenceLine(id: string, text: string): string {
+  return `[${id}] ${clip(text.replace(/\s+/g, " ").trim())}`;
+}
+
+function addResumeEvidence(evidence: string[], chunks: Excerpt[]): void {
+  for (const chunk of chunks) {
+    evidence.push(evidenceLine(chunk.id, chunk.text));
   }
+}
 
-  const page = input.pageExcerpts[0];
-  if (page) {
-    parts.push(`The public program page says: ${clip(page.text)} [${page.id}].`);
-  } else if (input.pageStatus === "login_wall" || input.pageStatus === "robots_blocked") {
-    parts.push("[STUDENT: add detail] from the program page. GradQuest stopped because that page is not public.");
-  } else if (input.pageStatus === "not_allowlisted") {
-    parts.push("[STUDENT: add detail] about why this program is a fit. Its page was not fetched.");
-  } else {
-    parts.push("[STUDENT: add detail] tying your background to this program.");
+function uniqueEvidence(lines: string[]): string[] {
+  const seen = new Set<string>();
+  const out: string[] = [];
+  for (const line of lines) {
+    if (seen.has(line)) continue;
+    seen.add(line);
+    out.push(line);
   }
+  return out;
+}
 
-  const pasted = input.pastedPrompt?.trim();
-  if (pasted) {
-    parts.push("This responds to the prompt you pasted. [STUDENT: add detail] wherever that prompt asks for something your resume does not show.");
-  } else if (input.mode === "opening" && input.sopRequired !== false) {
-    parts.push("[STUDENT: add detail] if the application asks a question that was not on the public page.");
-  }
-
-  const paragraph = parts.join(" ").replace(/\s+/g, " ").trim();
-  return {
-    paragraph,
-    label: DRAFT_LABEL,
-    citations: citationsIn(paragraph),
-    pageStatus: input.pageStatus,
-  };
+function resolveResumeCitation(
+  resume: Excerpt,
+  chunks: Excerpt[],
+  fallbackIndex: number,
+): Excerpt {
+  const text = resume.text.split("\n").map((line) => line.trim()).find(Boolean) ?? resume.text.trim();
+  if (resume.id.trim()) return { id: resume.id.trim(), text };
+  const sentence = resumeFacts(chunks).find(
+    (item) => item.text === text || text.includes(item.text) || item.text.includes(text),
+  );
+  if (sentence) return { id: sentence.id, text: sentence.text };
+  const chunk = chunks.find((item) => item.text.includes(text) || text.includes(item.text));
+  if (chunk) return { id: chunk.id, text };
+  return { id: `R${fallbackIndex}`, text };
 }
 
 export const MIN_SENTENCES = 5;

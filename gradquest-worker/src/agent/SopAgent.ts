@@ -8,19 +8,10 @@ import { resolveProgramRead } from "./programRead";
 import { keptPairsForDraft } from "../draft/keptPairs";
 import { guardNames, rosterFromSnapshot } from "../draft/nameGuard";
 import {
-  acceptModelDraft,
-  draftParagraph,
-  cohesiveDraft,
-  draftPrompt,
-  draftSystemMessage,
-  draftProblems,
-  draftStats,
   forOutsideApplicants,
   pickOpeningFact,
-  retryNoteFor,
+  scaffoldOutline,
   stripUnfilledProgramCitations,
-  weakOverlapParagraph,
-  TARGET_MIN_WORDS,
   type DraftInput,
   type DraftMode,
 } from "../draft/opening";
@@ -236,88 +227,26 @@ export class SopAgent extends Agent<Env, SopState> {
       weak: selected.weak,
       roster,
     };
-    const grounded = draftParagraph(input);
     const tracked = trackAiUsage(this.env.AI);
-    let draftText = grounded.paragraph;
-    let namesRemoved: string[] = [];
+    const grounded = scaffoldOutline(input);
     if (input.weak) {
-      const guarded = guardNames(
-        weakOverlapParagraph({ schoolName: input.schoolName, programName: input.programName }),
-        { faculty: [], courses: [] },
-        roster,
-      );
-      draftText = guarded.text;
-      namesRemoved = guarded.removed;
       console.log(JSON.stringify({ event: "sop_weak_overlap", schoolId }));
-    } else {
-      let accepted: string | null = null;
-      let acceptedWords = 0;
-      let lastModel: string | null = null;
-      let retryNote: string | undefined;
-      for (let attempt = 1; attempt <= 2; attempt += 1) {
-        const modelText = await this.modelParagraph(tracked.ai, input, retryNote);
-        if (!modelText) break;
-        const candidate = acceptModelDraft(modelText, input);
-        const cleaned = modelText.replace(/\s+/g, " ").trim();
-        lastModel = cleaned;
-        const stats = draftStats(candidate ?? cleaned);
-        const problems = candidate ? [] : draftProblems(cleaned, input);
-        const problem = problems[0] ?? null;
-        if (candidate) {
-          console.log(
-            JSON.stringify({
-              event: "sop_model_accepted",
-              attempt,
-              ...stats,
-              belowTarget: stats.words < TARGET_MIN_WORDS,
-              openingFact: input.openingFact?.text.slice(0, 40) ?? null,
-            }),
-          );
-          if (stats.words > acceptedWords) {
-            accepted = candidate;
-            acceptedWords = stats.words;
-          }
-        } else {
-          console.error(
-            JSON.stringify({
-              event: "sop_model_rejected",
-              attempt,
-              ...stats,
-              problem,
-              preview: cleaned.slice(0, 160),
-            }),
-          );
-        }
-        if (acceptedWords >= TARGET_MIN_WORDS) break;
-        retryNote = retryNoteFor(stats, problems, candidate ?? cleaned, input.weak) ?? undefined;
-        if (!retryNote) break;
-      }
-      const kept = accepted ?? cohesiveDraft(lastModel, input);
-      if (!accepted && kept) {
-        console.log(
-          JSON.stringify({
-            event: "sop_model_kept",
-            words: draftStats(kept).words,
-            reason: "style check failed; showing the model paragraph instead of the outline",
-          }),
-        );
-      }
-      const allowed = {
-        faculty: selected.pairs
-          .filter((pair) => pair.fact.kind === "faculty")
-          .map((pair) => pair.fact.name),
-        courses: selected.pairs
-          .filter((pair) => pair.fact.kind === "course")
-          .map((pair) => pair.fact.name),
-      };
-      const guarded = guardNames(kept ?? grounded.paragraph, allowed, roster);
-      draftText = guarded.text;
-      namesRemoved = guarded.removed;
     }
-    if (namesRemoved.length > 0) {
-      console.log(JSON.stringify({ event: "sop_names_removed", removed: namesRemoved }));
+    const allowed = input.weak
+      ? { faculty: [], courses: [] }
+      : {
+          faculty: selected.pairs
+            .filter((pair) => pair.fact.kind === "faculty")
+            .map((pair) => pair.fact.name),
+          courses: selected.pairs
+            .filter((pair) => pair.fact.kind === "course")
+            .map((pair) => pair.fact.name),
+        };
+    const guarded = guardNames(grounded.paragraph, allowed, roster);
+    if (guarded.removed.length > 0) {
+      console.log(JSON.stringify({ event: "sop_names_removed", removed: guarded.removed }));
     }
-    const paragraph = stripUnfilledProgramCitations(draftText);
+    const paragraph = stripUnfilledProgramCitations(guarded.text);
     return Response.json({
       paragraph,
       label: grounded.label,
@@ -325,57 +254,9 @@ export class SopAgent extends Agent<Env, SopState> {
         (match) => match[1],
       ),
       pageStatus: input.pageStatus,
-      namesRemoved,
+      namesRemoved: guarded.removed,
       usage: tracked.snapshot(),
     });
-  }
-
-  private async modelParagraph(
-    ai: Env["AI"],
-    input: DraftInput,
-    retryNote?: string,
-  ): Promise<string | null> {
-    if (!ai) return null;
-    const prompt = retryNote
-      ? `${draftPrompt(input)}\n\n${retryNote}`
-      : draftPrompt(input);
-    try {
-      const result = await ai.run(
-        "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
-        {
-          messages: [
-            {
-              role: "system",
-              content: draftSystemMessage(input.weak),
-            },
-            { role: "user", content: prompt },
-          ],
-          max_tokens: 1800,
-        },
-      );
-      const text = textFromModel(result);
-      if (!text) {
-        console.error(
-          JSON.stringify({
-            event: "sop_model_empty",
-            shape: result == null ? "null" : typeof result,
-            keys:
-              result && typeof result === "object"
-                ? Object.keys(result as object).slice(0, 12)
-                : [],
-          }),
-        );
-      }
-      return text;
-    } catch (error) {
-      console.error(
-        JSON.stringify({
-          event: "sop_model_error",
-          message: error instanceof Error ? error.message : "failed",
-        }),
-      );
-      return null;
-    }
   }
 
   private async persistResume(
@@ -503,23 +384,3 @@ function decodeBase64(value: string): Uint8Array {
   return bytes;
 }
 
-function textFromModel(result: unknown): string | null {
-  if (typeof result === "string") return result.trim() ? result : null;
-  if (!result || typeof result !== "object") return null;
-  const record = result as {
-    response?: unknown;
-    result?: { response?: unknown } | string;
-    output_text?: unknown;
-    text?: unknown;
-  };
-  const candidates = [
-    record.response,
-    record.output_text,
-    record.text,
-    typeof record.result === "string" ? record.result : record.result?.response,
-  ];
-  for (const candidate of candidates) {
-    if (typeof candidate === "string" && candidate.trim()) return candidate;
-  }
-  return null;
-}

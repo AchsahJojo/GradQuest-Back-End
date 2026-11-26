@@ -4,7 +4,20 @@ import type { ProgramFact, ProgramResearch } from "../src/facts/schema";
 import { parseProgramResearch } from "../src/facts/schema";
 import { judgePairs, judgePrompt, parseJudgement } from "../src/facts/judge";
 import { citationShare, precisionRecall, readTokenUsage } from "../src/facts/evalMetrics";
-import { MATCH_MIN_SCORE, cosine, embedTexts, reportOverlap, topPairs, type Pair } from "../src/facts/match";
+import {
+  MATCH_MIN_SCORE,
+  MATCH_VISIBLE_K,
+  UNVERIFIED_FACULTY_SUBTITLE,
+  consolidateCards,
+  cosine,
+  embedTexts,
+  facultySubtitle,
+  isThinFaculty,
+  reportOverlap,
+  splitVisibleCards,
+  topPairs,
+  type Pair,
+} from "../src/facts/match";
 import { D1FactStore } from "../src/facts/store";
 import {
   carryForwardFacts,
@@ -910,6 +923,98 @@ describe("reportOverlap", () => {
     const both = reportOverlap([pair(faculty, "0:fac"), pair(course, "1:crs")], [overview]);
     expect(both.weak).toBe(false);
     expect(both.unmatchedKinds).toEqual([]);
+  });
+
+  it("does not count thin faculty toward the strong-pair gate", () => {
+    const thin: ProgramFact = {
+      id: "thin",
+      kind: "faculty",
+      name: "Jedidiah Crandall",
+      detail: "Professor",
+      sourceUrl: "https://example.edu/thin",
+      quote: "Jedidiah Crandall",
+    };
+    const cards = consolidateCards([
+      { ...pair(thin, "0:thin"), reason: "name overlap" },
+      { ...pair(course, "1:crs"), reason: "course overlap" },
+    ]);
+    const report = reportOverlap([pair(thin, "0:thin"), pair(course, "1:crs")], [thin, course], cards);
+    expect(report.weak).toBe(true);
+    expect(cards.find((card) => card.pairId === "thin")?.subtitle).toBe(UNVERIFIED_FACULTY_SUBTITLE);
+  });
+});
+
+describe("thin faculty and match cards", () => {
+  it("marks name/title-only faculty and uses the not-verified subtitle", () => {
+    const thin = matchFact("thin", "faculty");
+    thin.name = "Jedidiah Crandall";
+    thin.detail = "Associate Professor";
+    expect(isThinFaculty(thin)).toBe(true);
+    expect(facultySubtitle(thin)).toBe(UNVERIFIED_FACULTY_SUBTITLE);
+
+    const noResearch = { ...thin, detail: "ASU directory profile lists no research interests or research bio." };
+    expect(isThinFaculty(noResearch)).toBe(true);
+
+    const rich = { ...thin, detail: "Research interests: computer security and systems." };
+    expect(isThinFaculty(rich)).toBe(false);
+    expect(facultySubtitle(rich)).toContain("computer security");
+  });
+
+  it("consolidates to one card per fact with faculty ≤2 and course ≤3 résumé quotes", () => {
+    const faculty = matchFact("fac", "faculty");
+    faculty.detail = "Studies distributed systems and fault tolerance.";
+    const course = matchFact("crs", "course");
+    const quotes = [0, 1, 2, 3].map((index) => matchExcerpt(`r${index}`, `Resume quote number ${index} is here`));
+    const pairs: Pair[] = [
+      { pairId: "0:fac", resume: quotes[0], fact: faculty, score: 0.9 },
+      { pairId: "1:fac", resume: quotes[1], fact: faculty, score: 0.88 },
+      { pairId: "2:fac", resume: quotes[2], fact: faculty, score: 0.87 },
+      { pairId: "0:crs", resume: quotes[0], fact: course, score: 0.86 },
+      { pairId: "1:crs", resume: quotes[1], fact: course, score: 0.85 },
+      { pairId: "2:crs", resume: quotes[2], fact: course, score: 0.84 },
+      { pairId: "3:crs", resume: quotes[3], fact: course, score: 0.83 },
+    ];
+    const cards = consolidateCards(pairs.map((pair) => ({ ...pair, reason: "shared topic" })));
+    expect(cards).toHaveLength(2);
+    expect(cards.map((card) => card.fact.kind).sort()).toEqual(["course", "faculty"]);
+    expect(cards.find((card) => card.fact.kind === "faculty")?.resumeQuotes).toHaveLength(2);
+    expect(cards.find((card) => card.fact.kind === "course")?.resumeQuotes).toHaveLength(3);
+  });
+
+  it("keeps overview/requirement/deadline out of cards and caps visible list at 8 with chunk ≤2 uses", () => {
+    expect(MATCH_MIN_SCORE).toBe(0.6);
+    expect(MATCH_VISIBLE_K).toBe(8);
+    const resume = matchExcerpt("r", "Built a storage service in college");
+    const other = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9].map((index) =>
+      matchExcerpt(`r${index}`, `Another resume fact ${index} about systems`),
+    );
+    const facts = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9].map((index) => matchFact(`c${index}`, "course"));
+    const pairs: Pair[] = facts.map((fact, index) => ({
+      pairId: `${index}:${fact.id}`,
+      resume: index < 2 ? resume : other[index],
+      fact,
+      score: 1 - index * 0.01,
+    }));
+    pairs.push({
+      pairId: "x:over",
+      resume,
+      fact: matchFact("over", "overview"),
+      score: 0.99,
+    });
+    const cards = consolidateCards(pairs.map((pair) => ({ ...pair, reason: "topic" })));
+    expect(cards.every((card) => card.fact.kind === "faculty" || card.fact.kind === "course")).toBe(true);
+    expect(cards.some((card) => card.fact.kind === "overview")).toBe(false);
+    const { visible, rest } = splitVisibleCards(cards, 8);
+    expect(visible).toHaveLength(8);
+    expect(rest.length).toBeGreaterThan(0);
+    const uses = new Map<string, number>();
+    for (const card of visible) {
+      for (const quote of card.resumeQuotes) {
+        const key = JSON.stringify([quote.id, quote.text]);
+        uses.set(key, (uses.get(key) ?? 0) + 1);
+      }
+    }
+    expect([...uses.values()].every((count) => count <= 2)).toBe(true);
   });
 });
 

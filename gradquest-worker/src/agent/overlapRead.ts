@@ -4,8 +4,11 @@ import { judgePairs } from "../facts/judge";
 import {
   MATCH_MIN_SCORE,
   MATCH_TOP_K,
+  MATCH_VISIBLE_K,
+  consolidateCards,
   embedTexts,
   reportOverlap,
+  splitVisibleCards,
   topPairs,
 } from "../facts/match";
 import { D1FactStore, type Snapshot } from "../facts/store";
@@ -14,15 +17,21 @@ import type { AgentSql } from "./programRead";
 export type OverlapPairView = {
   pairId: string;
   resumeText: string;
+  resumeQuotes: string[];
+  resumeQuoteIds: string[];
   factKind: FactKind;
   factName: string;
   factDetail: string;
+  subtitle: string;
+  researchVerified: boolean;
   sourceUrl: string;
   reason: string;
+  score: number;
 };
 
 export type OverlapReportBody = {
   pairs: OverlapPairView[];
+  visibleCount: number;
   weak: boolean;
   unmatchedKinds: FactKind[];
   verifiedAsOf: string | null;
@@ -37,6 +46,7 @@ export const MATCHING_UNAVAILABLE = "Matching is temporarily unavailable, try ag
 
 const NO_SNAPSHOT: OverlapReportBody = {
   pairs: [],
+  visibleCount: MATCH_VISIBLE_K,
   weak: true,
   unmatchedKinds: ["faculty", "course"],
   verifiedAsOf: null,
@@ -84,17 +94,26 @@ export async function resolveOverlap(input: {
     `;
     return { status: 503, body: { error: MATCHING_UNAVAILABLE } };
   }
-  const report = reportOverlap(judged, facts);
+  const cards = consolidateCards(judged);
+  const { visible, rest } = splitVisibleCards(cards, MATCH_VISIBLE_K);
+  const ordered = [...visible, ...rest];
+  const report = reportOverlap(judged, facts, cards);
   const body: OverlapReportBody = {
-    pairs: judged.map((pair) => ({
-      pairId: pair.pairId,
-      resumeText: pair.resume.text,
-      factKind: pair.fact.kind,
-      factName: pair.fact.name,
-      factDetail: pair.fact.detail,
-      sourceUrl: pair.fact.sourceUrl,
-      reason: pair.reason,
+    pairs: ordered.map((card) => ({
+      pairId: card.pairId,
+      resumeText: card.resumeQuotes.map((quote) => quote.text).join("\n"),
+      resumeQuotes: card.resumeQuotes.map((quote) => quote.text),
+      resumeQuoteIds: card.resumeQuotes.map((quote) => quote.id),
+      factKind: card.fact.kind,
+      factName: card.fact.name,
+      factDetail: card.thinFaculty ? "" : card.fact.detail,
+      subtitle: card.subtitle,
+      researchVerified: card.researchVerified,
+      sourceUrl: card.fact.sourceUrl,
+      reason: card.reason,
+      score: card.score,
     })),
+    visibleCount: MATCH_VISIBLE_K,
     weak: report.weak,
     unmatchedKinds: report.unmatchedKinds,
     verifiedAsOf: snapshot.verifiedAt,
