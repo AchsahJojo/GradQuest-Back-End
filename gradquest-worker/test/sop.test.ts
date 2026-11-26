@@ -38,6 +38,8 @@ import {
   splitSentences,
 } from "../src/draft/opening";
 import type { JudgedPair } from "../src/facts/judge";
+import { isResumeHeaderNoise } from "../src/resume/noise";
+import { resumeToChunks } from "../src/resume/text";
 
 const CSUF = "https://www.fullerton.edu/ecs/academics/graduate-admissions.html";
 const SLO = "https://catalog.calpoly.edu/engineering/computer-science-software/computer-science-ms/";
@@ -871,6 +873,53 @@ describe("draft shape", () => {
       expect(pickOpeningFact(single, turn)).toEqual({ id: "R1", text: "Taught a data structures lab for two semesters." });
     }
     expect(pickOpeningFact([], 0)).toBeUndefined();
+  });
+
+  const STRONG_RESUME_WITH_HEADER_NOISE = [
+    "Achsah Jojo",
+    "Email: achsah@example.com",
+    "Phone: (555) 123-4567",
+    "LinkedIn: linkedin.com/in/achsah",
+    "GitHub: github.com/AchsahJojo",
+    "Interests:",
+    "Experience",
+    "I built a deep learning model that classified lab images with a convolutional network and computer vision pipeline.",
+    "I implemented a distributed computing prototype that replicated a fault-tolerant log across three nodes.",
+    "I studied computer security and cybersecurity by writing a sandbox that blocked unexpected system calls and binary analysis tooling.",
+    "I trained a computer vision model on satellite photographs of coastlines using machine learning.",
+    "I completed coursework covering artificial intelligence, compilers, and embedded real-time systems.",
+  ].join("\n");
+
+  it("drops contact header noise from strong résumé facts and keeps experience sentences", async () => {
+    expect(isResumeHeaderNoise("Email: achsah@example.com")).toBe(true);
+    expect(isResumeHeaderNoise("Interests:")).toBe(true);
+    expect(
+      isResumeHeaderNoise(
+        "I built a deep learning model that classified lab images with a convolutional network.",
+      ),
+    ).toBe(false);
+
+    const chunks = await resumeToChunks({ text: STRONG_RESUME_WITH_HEADER_NOISE });
+    const facts = resumeFacts(chunks);
+    const joined = facts.map((fact) => fact.text).join("\n");
+    expect(joined).not.toContain("achsah@example.com");
+    expect(joined).not.toMatch(/Email:/i);
+    expect(joined).not.toMatch(/Phone:/i);
+    expect(joined).not.toMatch(/^Interests:/im);
+    expect(facts.some((fact) => /deep learning model/i.test(fact.text))).toBe(true);
+    expect(facts.some((fact) => /distributed computing/i.test(fact.text))).toBe(true);
+
+    // Already-stored flattened chunks (pre-filter uploads) must scrub too.
+    const flat = resumeFacts([
+      {
+        id: "R1",
+        text: STRONG_RESUME_WITH_HEADER_NOISE.replace(/\n/g, " "),
+      },
+    ]);
+    const flatJoined = flat.map((fact) => fact.text).join("\n");
+    expect(flatJoined).not.toContain("achsah@example.com");
+    expect(flatJoined).not.toMatch(/Email:/i);
+    expect(flat.some((fact) => /deep learning model/i.test(fact.text))).toBe(true);
   });
 
   it("rejects a draft that opens on a different fact than the required one", () => {
